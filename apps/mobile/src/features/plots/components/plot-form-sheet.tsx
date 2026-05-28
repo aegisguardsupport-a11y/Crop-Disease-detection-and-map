@@ -4,11 +4,11 @@ import {
   BottomSheetScrollView,
   BottomSheetTextInput,
 } from '@gorhom/bottom-sheet';
-import { LinearGradient } from 'expo-linear-gradient';
 import { Crosshair, MapPin, Trash2, X } from 'lucide-react-native';
 import { forwardRef, useEffect, useState } from 'react';
-import { ActivityIndicator, Pressable } from 'react-native';
+import { Pressable } from 'react-native';
 
+import { Button } from '@/components/ui/button';
 import { CROPS } from '@/constants/crops';
 import { useCurrentLocation } from '@/features/upload-report/hooks/use-current-location';
 import { useTheme } from '@/hooks/use-theme';
@@ -129,8 +129,12 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
       <BottomSheetModal
         ref={ref}
         snapPoints={['85%']}
-        backgroundStyle={{ backgroundColor: theme.surfaceElevated }}
-        handleIndicatorStyle={{ backgroundColor: theme.borderStrong }}
+        backgroundStyle={{
+          backgroundColor: '#ffffff',
+          borderTopLeftRadius: 24,
+          borderTopRightRadius: 24,
+        }}
+        handleIndicatorStyle={{ backgroundColor: '#e8e4dc', width: 36 }}
         backdropComponent={(props) => (
           <BottomSheetBackdrop
             {...props}
@@ -149,7 +153,7 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
           <Pressable
             accessibilityRole="button"
             onPress={dismiss}
-            className="h-9 w-9 items-center justify-center rounded-full bg-surface"
+            className="h-9 w-9 items-center justify-center rounded-full border border-border bg-surface"
           >
             <X size={18} color={theme.text} strokeWidth={2} />
           </Pressable>
@@ -157,12 +161,12 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
 
         <BottomSheetScrollView contentContainerStyle={{ padding: 20, gap: 16, paddingBottom: 80 }}>
           <Section label="Plot name">
-            <View className="rounded-2xl border border-border bg-surface px-3">
+            <View className="rounded-xl border border-border bg-surface px-3">
               <BottomSheetTextInput
                 value={name}
                 onChangeText={setName}
                 placeholder="e.g. North field"
-                placeholderTextColor={theme.textSubtle}
+                placeholderTextColor={theme.textFaint}
                 style={{ height: 48, color: theme.text, fontSize: 15 }}
               />
             </View>
@@ -170,9 +174,9 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
 
           <Section label="Location">
             <View className="gap-2">
-              <View className="rounded-2xl border border-border bg-surface p-3">
+              <View className="rounded-xl border border-border bg-surface p-3">
                 <View className="flex-row items-center gap-2">
-                  <MapPin size={16} color={palette.brand[300]} strokeWidth={2.2} />
+                  <MapPin size={16} color={palette.brand[700]} strokeWidth={2.2} />
                   <Text className="flex-1 text-sm text-text">
                     {coords
                       ? `${coords.lat.toFixed(5)}, ${coords.lng.toFixed(5)}`
@@ -181,29 +185,40 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
                 </View>
               </View>
               <View className="flex-row gap-2">
-                <Pressable
-                  accessibilityRole="button"
-                  onPress={handleUseGps}
-                  disabled={locationCtl.status === 'fetching' || locationCtl.status === 'requesting'}
-                  style={({ pressed }) => ({ flex: 1, opacity: pressed ? 0.85 : 1 })}
-                >
-                  <View className="flex-row items-center justify-center gap-1.5 rounded-xl bg-surface py-2.5">
-                    <Crosshair size={14} color={theme.text} strokeWidth={2.2} />
-                    <Text className="text-xs font-semibold text-text">
-                      {locationCtl.status === 'fetching' ? 'Locating…' : 'Use my GPS'}
-                    </Text>
-                  </View>
-                </Pressable>
-                <Pressable
-                  accessibilityRole="button"
-                  onPress={() => onOpenMapPicker?.(coords)}
-                  style={({ pressed }) => ({ flex: 1, opacity: pressed ? 0.85 : 1 })}
-                >
-                  <View className="flex-row items-center justify-center gap-1.5 rounded-xl border border-brand-500/40 bg-brand-500/10 py-2.5">
-                    <MapPin size={14} color={palette.brand[300]} strokeWidth={2.2} />
-                    <Text className="text-xs font-semibold text-brand-300">Pick on map</Text>
-                  </View>
-                </Pressable>
+                <View className="flex-1">
+                  <Button
+                    label={locationCtl.status === 'fetching' ? 'Locating…' : 'Use my GPS'}
+                    variant="solid"
+                    size="sm"
+                    onPress={handleUseGps}
+                    disabled={
+                      locationCtl.status === 'fetching' ||
+                      locationCtl.status === 'requesting'
+                    }
+                    leftSlot={
+                      <Crosshair
+                        size={14}
+                        color={theme.text}
+                        strokeWidth={2.2}
+                      />
+                    }
+                  />
+                </View>
+                <View className="flex-1">
+                  <Button
+                    label="Pick on map"
+                    variant="ghost"
+                    size="sm"
+                    onPress={() => onOpenMapPicker?.(coords)}
+                    leftSlot={
+                      <MapPin
+                        size={14}
+                        color={palette.brand[600]}
+                        strokeWidth={2.2}
+                      />
+                    }
+                  />
+                </View>
               </View>
             </View>
           </Section>
@@ -222,12 +237,14 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
                     <View
                       className={`rounded-full border px-3 py-1.5 ${
                         selected
-                          ? 'border-brand-500 bg-brand-500/15'
+                          ? 'border-brand-600 bg-brand-50'
                           : 'border-border bg-surface'
                       }`}
                     >
                       <Text
-                        className={`text-xs font-semibold ${selected ? 'text-brand-300' : 'text-text-muted'}`}
+                        className={`text-xs font-bold ${
+                          selected ? 'text-brand-700' : 'text-text-muted'
+                        }`}
                       >
                         {c.emoji} {c.name}
                       </Text>
@@ -239,13 +256,13 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
           </Section>
 
           {error ? (
-            <View className="rounded-xl border border-danger/30 bg-danger/10 px-3 py-2">
-              <Text className="text-xs text-danger">{error}</Text>
+            <View className="rounded-xl border border-danger-tint bg-danger-tint px-3 py-2">
+              <Text className="text-xs font-medium text-danger">{error}</Text>
             </View>
           ) : null}
         </BottomSheetScrollView>
 
-        <View className="flex-row gap-2 border-t border-border bg-surface-elevated px-5 py-4">
+        <View className="flex-row items-center gap-2 border-t border-border bg-surface px-5 py-4">
           {isEdit ? (
             <Pressable
               accessibilityRole="button"
@@ -253,35 +270,20 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
               disabled={remove.isPending}
               style={({ pressed }) => ({ opacity: pressed ? 0.7 : 1 })}
             >
-              <View className="h-12 w-12 items-center justify-center rounded-2xl border border-danger/40 bg-danger/10">
+              <View className="h-12 w-12 items-center justify-center rounded-xl border border-danger-tint bg-danger-tint">
                 <Trash2 size={16} color={theme.danger} strokeWidth={2.2} />
               </View>
             </Pressable>
           ) : null}
-          <Pressable
-            accessibilityRole="button"
-            onPress={handleSave}
-            disabled={isPending}
-            style={({ pressed }) => ({ flex: 1, opacity: isPending ? 0.6 : pressed ? 0.92 : 1 })}
-          >
-            <View className="overflow-hidden rounded-2xl">
-              <LinearGradient
-                colors={[palette.brand[500], palette.brand[700]]}
-                start={{ x: 0, y: 0 }}
-                end={{ x: 1, y: 1 }}
-              >
-                <View className="h-12 flex-row items-center justify-center gap-2">
-                  {isPending ? (
-                    <ActivityIndicator color="#fff" />
-                  ) : (
-                    <Text className="text-sm font-semibold text-white">
-                      {isEdit ? 'Save changes' : 'Add plot'}
-                    </Text>
-                  )}
-                </View>
-              </LinearGradient>
-            </View>
-          </Pressable>
+          <View className="flex-1">
+            <Button
+              label={isEdit ? 'Save changes' : 'Add plot'}
+              variant="gradient"
+              size="md"
+              loading={isPending}
+              onPress={handleSave}
+            />
+          </View>
         </View>
       </BottomSheetModal>
     );
@@ -291,7 +293,7 @@ export const PlotFormSheet = forwardRef<BottomSheetModal, PlotFormSheetProps>(
 function Section({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <View className="gap-2">
-      <Text className="text-[11px] font-medium uppercase tracking-wider text-text-subtle">
+      <Text className="text-[11px] font-bold uppercase tracking-[1.4px] text-text-subtle">
         {label}
       </Text>
       {children}
