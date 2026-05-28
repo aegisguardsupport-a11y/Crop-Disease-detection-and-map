@@ -33,6 +33,7 @@ pnpm-debug.log*
 .claude/
 .cursor/
 .opencode/
+.superpowers/
 *.swp
 *.swo
 .DS_Store
