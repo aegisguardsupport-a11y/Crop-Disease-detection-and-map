@@ -1,10 +1,9 @@
 import { Image } from 'expo-image';
-import { LinearGradient } from 'expo-linear-gradient';
 
 import { palette } from '@/theme/colors';
+import { SectionLabel } from '@/components/ui/section-label';
 import { Text, View } from '@/tw';
 import type { Severity } from '@/features/upload-report/types';
-import { severityVisuals } from '@/utils/severity';
 
 interface ResultHeroProps {
   imageUrl: string;
@@ -12,11 +11,17 @@ interface ResultHeroProps {
   severity?: Severity | null;
 }
 
+const SEVERITY_STRIP: Record<Severity, string> = {
+  LOW: palette.status.success,
+  MEDIUM: '#d97706',
+  HIGH: '#dc2626',
+};
+
 export function ResultHero({ imageUrl, cropType, severity }: ResultHeroProps) {
-  const visuals = severityVisuals(severity);
+  const stripColor = severity ? SEVERITY_STRIP[severity] : palette.brand[400];
 
   return (
-    <View className="overflow-hidden rounded-3xl">
+    <View className="overflow-hidden rounded-2xl border border-border bg-surface">
       <Image
         source={{ uri: imageUrl }}
         style={{ width: '100%', aspectRatio: 1 }}
@@ -27,26 +32,8 @@ export function ResultHero({ imageUrl, cropType, severity }: ResultHeroProps) {
       {/* severity strip on top */}
       <View
         className="absolute left-0 right-0 top-0 h-1.5"
-        style={{ backgroundColor: visuals.rawColor }}
+        style={{ backgroundColor: stripColor }}
       />
-
-      <LinearGradient
-        colors={['transparent', 'rgba(11,18,32,0.85)']}
-        style={{
-          position: 'absolute',
-          left: 0,
-          right: 0,
-          bottom: 0,
-          height: '55%',
-        }}
-      />
-
-      <View className="absolute bottom-0 left-0 right-0 p-4">
-        <Text className="text-[11px] font-medium uppercase tracking-wider text-white/70">
-          Crop
-        </Text>
-        <Text className="text-xl font-bold text-white">{cropType}</Text>
-      </View>
 
       {/* corner accent */}
       <View
@@ -57,31 +44,37 @@ export function ResultHero({ imageUrl, cropType, severity }: ResultHeroProps) {
           paddingHorizontal: 10,
           paddingVertical: 4,
           borderRadius: 999,
-          backgroundColor: 'rgba(11,18,32,0.55)',
+          backgroundColor: 'rgba(255,255,255,0.92)',
+          borderWidth: 1,
+          borderColor: palette.brand[100],
         }}
       >
-        <Text className="text-[10px] font-semibold uppercase tracking-wider text-white">
+        <Text className="text-[10px] font-bold uppercase tracking-[1.2px] text-brand-700">
           AI · Diagnosis
         </Text>
       </View>
 
-      {/* small brand badge bottom-right */}
-      <View
-        className="absolute"
-        style={{
-          bottom: 14,
-          right: 14,
-          paddingHorizontal: 8,
-          paddingVertical: 3,
-          borderRadius: 999,
-          backgroundColor: `${palette.brand[500]}33`,
-          borderWidth: 1,
-          borderColor: `${palette.brand[400]}55`,
-        }}
-      >
-        <Text className="text-[10px] font-semibold uppercase tracking-wider text-brand-200">
-          Predicted
-        </Text>
+      <View className="flex-row items-center justify-between gap-3 px-4 py-3">
+        <View className="flex-1 gap-0.5">
+          <SectionLabel>Crop</SectionLabel>
+          <Text className="text-lg font-extrabold tracking-tight text-text" numberOfLines={1}>
+            {cropType}
+          </Text>
+        </View>
+        <View
+          style={{
+            paddingHorizontal: 8,
+            paddingVertical: 3,
+            borderRadius: 999,
+            backgroundColor: palette.brand[50],
+            borderWidth: 1,
+            borderColor: palette.brand[100],
+          }}
+        >
+          <Text className="text-[10px] font-bold uppercase tracking-[1.2px] text-brand-700">
+            Predicted
+          </Text>
+        </View>
       </View>
     </View>
   );

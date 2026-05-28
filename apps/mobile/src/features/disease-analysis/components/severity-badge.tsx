@@ -1,72 +1,29 @@
-import { useEffect } from 'react';
-import Animated, {
-  cancelAnimation,
-  Easing,
-  useAnimatedStyle,
-  useSharedValue,
-  withRepeat,
-  withSequence,
-  withTiming,
-} from 'react-native-reanimated';
-
-import { Text, View } from '@/tw';
+import { Chip } from '@/components/ui/chip';
 import type { Severity } from '@/features/upload-report/types';
-import { severityVisuals } from '@/utils/severity';
-import { cn } from '@/utils/cn';
+
+const TONE: Record<Severity, 'success' | 'warning' | 'danger'> = {
+  LOW: 'success',
+  MEDIUM: 'warning',
+  HIGH: 'danger',
+};
+
+const LABEL: Record<Severity, string> = {
+  LOW: 'Low severity',
+  MEDIUM: 'Medium severity',
+  HIGH: 'High severity',
+};
 
 interface SeverityBadgeProps {
-  severity: Severity | null;
+  severity: Severity | null | undefined;
+  /**
+   * Visual size hint. The new Chip primitive renders a single size, so this
+   * prop is accepted (and ignored) only for backwards compatibility with
+   * existing callers like the map report sheet.
+   */
   size?: 'sm' | 'md';
 }
 
-export function SeverityBadge({ severity, size = 'md' }: SeverityBadgeProps) {
-  const visuals = severityVisuals(severity);
-  const isHigh = (severity ?? '').toString().toUpperCase() === 'HIGH';
-
-  const pulse = useSharedValue(1);
-
-  useEffect(() => {
-    if (!isHigh) return undefined;
-    pulse.value = withRepeat(
-      withSequence(
-        withTiming(0.6, { duration: 800, easing: Easing.inOut(Easing.ease) }),
-        withTiming(1, { duration: 800, easing: Easing.inOut(Easing.ease) }),
-      ),
-      -1,
-    );
-    return () => cancelAnimation(pulse);
-  }, [isHigh, pulse]);
-
-  const dotStyle = useAnimatedStyle(() => ({ opacity: pulse.value }));
-
-  return (
-    <View
-      className={cn(
-        'flex-row items-center gap-1.5 rounded-full',
-        visuals.bgClass,
-        size === 'sm' ? 'px-2 py-0.5' : 'px-2.5 py-1',
-      )}
-    >
-      <Animated.View
-        style={[
-          {
-            width: size === 'sm' ? 6 : 7,
-            height: size === 'sm' ? 6 : 7,
-            borderRadius: 4,
-            backgroundColor: visuals.rawColor,
-          },
-          dotStyle,
-        ]}
-      />
-      <Text
-        className={cn(
-          'font-semibold uppercase tracking-wider',
-          visuals.textClass,
-          size === 'sm' ? 'text-[10px]' : 'text-[11px]',
-        )}
-      >
-        {visuals.label} severity
-      </Text>
-    </View>
-  );
+export function SeverityBadge({ severity }: SeverityBadgeProps) {
+  if (!severity) return null;
+  return <Chip label={LABEL[severity]} tone={TONE[severity]} />;
 }

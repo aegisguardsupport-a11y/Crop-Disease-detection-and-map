@@ -7,11 +7,10 @@ import Animated, {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
-import Svg, { Circle, Defs, LinearGradient, Stop } from 'react-native-svg';
+import Svg, { Circle } from 'react-native-svg';
 
 import { palette } from '@/theme/colors';
 import { Text, View } from '@/tw';
-import { severityVisuals } from '@/utils/severity';
 import type { Severity } from '@/features/upload-report/types';
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
@@ -28,10 +27,16 @@ interface ConfidenceRingProps {
 
 const DURATION_MS = 1400;
 
+const SEVERITY_STROKE: Record<Severity, string> = {
+  LOW: palette.status.success,
+  MEDIUM: '#d97706',
+  HIGH: '#dc2626',
+};
+
 /**
- * Animated circular gauge. Uses an SVG arc (240°) rendered via stroke-dashoffset
+ * Animated circular gauge. Uses an SVG arc (270°) rendered via stroke-dashoffset
  * to sweep from 0 to the target value with eased timing. Severity color tints
- * the arc.
+ * the arc; the track is the soft brand-100 tint.
  */
 export function ConfidenceRing({
   value,
@@ -40,7 +45,7 @@ export function ConfidenceRing({
   strokeWidth = 14,
   label = 'confidence',
 }: ConfidenceRingProps) {
-  const visuals = severityVisuals(severity);
+  const stroke = severity ? SEVERITY_STROKE[severity] : palette.brand[600];
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
   // Render only 75% of the circle (270°) for a gauge feel.
@@ -96,19 +101,12 @@ export function ConfidenceRing({
         // Rotate so the gap sits at the bottom (270° arc → start at -135°)
         style={{ transform: [{ rotate: '135deg' }] }}
       >
-        <Defs>
-          <LinearGradient id="ringGradient" x1="0" y1="0" x2="1" y2="1">
-            <Stop offset="0" stopColor={palette.brand[400]} />
-            <Stop offset="1" stopColor={visuals.rawColor} />
-          </LinearGradient>
-        </Defs>
-
         {/* Track */}
         <Circle
           cx={size / 2}
           cy={size / 2}
           r={radius}
-          stroke="rgba(255,255,255,0.12)"
+          stroke={palette.brand[100]}
           strokeWidth={strokeWidth}
           strokeLinecap="round"
           strokeDasharray={`${arcLength} ${gap}`}
@@ -120,7 +118,7 @@ export function ConfidenceRing({
           cx={size / 2}
           cy={size / 2}
           r={radius}
-          stroke="url(#ringGradient)"
+          stroke={stroke}
           strokeWidth={strokeWidth}
           strokeLinecap="round"
           strokeDasharray={`${arcLength} ${gap}`}
@@ -129,11 +127,9 @@ export function ConfidenceRing({
         />
       </Svg>
 
-      <View
-        className="absolute inset-0 items-center justify-center"
-      >
-        <Text className="text-5xl font-bold text-text">{displayed}</Text>
-        <Text className="text-xs font-medium uppercase tracking-wider text-text-muted">
+      <View className="absolute inset-0 items-center justify-center">
+        <Text className="text-4xl font-extrabold tracking-tight text-text">{displayed}</Text>
+        <Text className="text-[11px] font-bold uppercase tracking-[1.2px] text-text-subtle">
           {label}
         </Text>
       </View>
