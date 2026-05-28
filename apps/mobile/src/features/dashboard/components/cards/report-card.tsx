@@ -27,7 +27,7 @@ function ReportCardImpl({ report, onPress, className }: ReportCardProps) {
     >
       <View
         className={cn(
-          'h-56 w-44 overflow-hidden rounded-3xl border border-white/10 bg-surface',
+          'h-56 w-44 overflow-hidden rounded-3xl border border-border bg-surface',
           className,
         )}
       >

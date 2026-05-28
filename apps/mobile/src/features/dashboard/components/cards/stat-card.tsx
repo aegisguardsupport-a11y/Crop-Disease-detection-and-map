@@ -61,13 +61,13 @@ function StatCardImpl({
   const inner = (
     <View
       className={cn(
-        'rounded-3xl border border-white/10 p-4',
+        'rounded-3xl border border-border p-4',
         className,
       )}
     >
       {isBrand ? (
         <LinearGradient
-          colors={[palette.brand[500], palette.brand[700]]}
+          colors={[palette.brand[500], palette.brand[600]]}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
           style={{

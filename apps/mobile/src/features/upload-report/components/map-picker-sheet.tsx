@@ -130,7 +130,7 @@ export const MapPickerSheet = forwardRef<BottomSheetModal, MapPickerSheetProps>(
               })}
             >
               <LinearGradient
-                colors={[palette.brand[500], palette.brand[700]]}
+                colors={[palette.brand[500], palette.brand[600]]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
               >

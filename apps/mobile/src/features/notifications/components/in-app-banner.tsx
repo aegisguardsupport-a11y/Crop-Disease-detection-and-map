@@ -69,7 +69,7 @@ export function InAppBanner({ notification: n, onDismiss }: InAppBannerProps) {
           style={{ borderRadius: 20, overflow: 'hidden', marginHorizontal: 12 }}
         >
           <View
-            className="flex-row items-start gap-3 rounded-[20px] border border-white/15 p-3"
+            className="flex-row items-start gap-3 rounded-[20px] border border-border p-3"
             style={{
               shadowColor: '#000',
               shadowOpacity: 0.18,

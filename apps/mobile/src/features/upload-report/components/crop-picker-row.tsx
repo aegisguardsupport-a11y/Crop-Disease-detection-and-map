@@ -32,7 +32,7 @@ export function CropPickerRow({ cropId, onPress, error }: CropPickerRowProps) {
       >
         <View
           className={`flex-row items-center gap-3 rounded-[20px] border p-3 ${
-            error ? 'border-danger/40' : 'border-white/10'
+            error ? 'border-danger/40' : 'border-border'
           }`}
         >
           <View className="h-12 w-12 items-center justify-center rounded-2xl bg-brand-500/15">

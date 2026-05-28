@@ -48,7 +48,7 @@ export function UploadProgress({
               ? 'border-danger/40'
               : isQueued
                 ? 'border-warning/40'
-                : 'border-white/10'
+                : 'border-border'
           }`}
         >
           <View className="flex-row items-center gap-3">
@@ -107,7 +107,7 @@ export function GradientSubmitButton({
   return (
     <View className="overflow-hidden rounded-2xl">
       <LinearGradient
-        colors={[palette.brand[500], palette.brand[700]]}
+        colors={[palette.brand[500], palette.brand[600]]}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
       >

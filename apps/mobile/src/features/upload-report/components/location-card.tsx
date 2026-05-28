@@ -45,7 +45,7 @@ export function LocationCard({
     >
       <View
         className={`gap-3 rounded-[20px] border p-3 ${
-          errorMessage ? 'border-danger/40' : 'border-white/10'
+          errorMessage ? 'border-danger/40' : 'border-border'
         }`}
       >
         <View className="flex-row items-center gap-3">

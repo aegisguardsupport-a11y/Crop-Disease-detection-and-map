@@ -23,7 +23,7 @@ export function NotesInput({ value, onChangeText }: NotesInputProps) {
       tintColor={Platform.OS === 'ios' ? `${theme.surfaceElevated}AA` : theme.surfaceElevated}
       style={{ borderRadius: 20, overflow: 'hidden' }}
     >
-      <View className="gap-2 rounded-[20px] border border-white/10 p-3">
+      <View className="gap-2 rounded-[20px] border border-border p-3">
         <View className="flex-row items-center justify-between">
           <Text className="text-[11px] font-medium uppercase tracking-wider text-text-subtle">
             Notes (optional)

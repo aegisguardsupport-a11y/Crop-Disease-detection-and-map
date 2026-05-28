@@ -27,7 +27,7 @@ function OutbreakCardImpl({ outbreak, className }: OutbreakCardProps) {
     >
       <View
         className={cn(
-          'rounded-3xl border border-white/10 p-4',
+          'rounded-3xl border border-border p-4',
           className,
         )}
       >

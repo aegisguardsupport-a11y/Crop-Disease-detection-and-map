@@ -34,7 +34,7 @@ export function PendingUploadsSection() {
           tintColor={Platform.OS === 'ios' ? `${theme.surfaceElevated}AA` : theme.surfaceElevated}
           style={{ borderRadius: 20, overflow: 'hidden' }}
         >
-          <View className="flex-row items-center gap-3 rounded-[20px] border border-white/10 p-3">
+          <View className="flex-row items-center gap-3 rounded-[20px] border border-border p-3">
             <View className="h-12 w-12 overflow-hidden rounded-xl bg-surface">
               <Image
                 source={{ uri: item.draft.localImageUri }}

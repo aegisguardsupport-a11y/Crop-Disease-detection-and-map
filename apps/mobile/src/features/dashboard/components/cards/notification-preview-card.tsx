@@ -32,7 +32,7 @@ function NotificationPreviewCardImpl({ alert, onPress, className }: Notification
         tintColor={Platform.OS === 'ios' ? `${theme.surfaceElevated}AA` : theme.surfaceElevated}
         style={{ borderRadius: 20, overflow: 'hidden' }}
       >
-        <View className={cn('flex-row items-start gap-3 rounded-[20px] border border-white/10 p-3', className)}>
+        <View className={cn('flex-row items-start gap-3 rounded-[20px] border border-border p-3', className)}>
           <View
             className={cn(
               'mt-0.5 h-10 w-10 items-center justify-center rounded-2xl',

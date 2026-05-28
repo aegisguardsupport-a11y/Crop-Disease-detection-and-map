@@ -1,5 +1,5 @@
 /** App-wide constants. */
-export const APP_NAME = 'Crop Disease Mapping';
+export const APP_NAME = 'AgroRadar';
 
 export const STORAGE_KEYS = {
   authToken: 'auth.token',

@@ -7,10 +7,7 @@ import { Text, View } from '@/tw';
 import { palette } from '@/theme/colors';
 import { cn } from '@/utils/cn';
 
-// `primary` and `secondary` are temporary aliases for back-compat with
-// pre-redesign call sites (mapped at runtime to `gradient` / `solid`). They
-// will be removed in Task 13 once every call site is migrated.
-type Variant = 'gradient' | 'solid' | 'ghost' | 'destructive' | 'primary' | 'secondary';
+type Variant = 'gradient' | 'solid' | 'ghost' | 'destructive';
 type Size = 'sm' | 'md' | 'lg';
 
 const sizeContainer: Record<Size, string> = {
@@ -65,21 +62,18 @@ export const Button = forwardRef<React.ComponentRef<typeof PressableScale>, Butt
     },
     ref,
   ) {
-    const effectiveVariant: 'gradient' | 'solid' | 'ghost' | 'destructive' =
-      variant === 'primary' ? 'gradient' : variant === 'secondary' ? 'solid' : variant;
-
     const isDisabled = disabled || loading;
     const hapticIntensity = !haptic
       ? 'none'
-      : effectiveVariant === 'destructive'
+      : variant === 'destructive'
         ? 'medium'
-        : effectiveVariant === 'gradient'
+        : variant === 'gradient'
           ? 'light'
           : 'selection';
     const labelTone =
-      effectiveVariant === 'gradient' || effectiveVariant === 'destructive'
+      variant === 'gradient' || variant === 'destructive'
         ? 'text-white'
-        : effectiveVariant === 'ghost'
+        : variant === 'ghost'
           ? 'text-brand-600'
           : 'text-text';
 
@@ -94,7 +88,7 @@ export const Button = forwardRef<React.ComponentRef<typeof PressableScale>, Butt
     const inner = loading ? (
       <ActivityIndicator
         color={
-          effectiveVariant === 'gradient' || effectiveVariant === 'destructive'
+          variant === 'gradient' || variant === 'destructive'
             ? '#fff'
             : palette.brand[600]
         }
@@ -107,7 +101,7 @@ export const Button = forwardRef<React.ComponentRef<typeof PressableScale>, Butt
       </>
     );
 
-    if (effectiveVariant === 'gradient') {
+    if (variant === 'gradient') {
       return (
         <PressableScale
           ref={ref}
@@ -139,9 +133,9 @@ export const Button = forwardRef<React.ComponentRef<typeof PressableScale>, Butt
     }
 
     const bg =
-      effectiveVariant === 'destructive'
+      variant === 'destructive'
         ? 'bg-danger'
-        : effectiveVariant === 'ghost'
+        : variant === 'ghost'
           ? 'border border-brand-200 bg-surface'
           : 'bg-surface border border-border';
 

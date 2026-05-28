@@ -35,7 +35,7 @@ export function ImagePickerCard({
       <Animated.View entering={FadeIn.duration(200)} exiting={FadeOut.duration(150)}>
         <View
           className={cn(
-            'overflow-hidden rounded-3xl border border-white/10 bg-surface',
+            'overflow-hidden rounded-3xl border border-border bg-surface',
             className,
           )}
         >
@@ -101,7 +101,7 @@ export function ImagePickerCard({
       style={{ borderRadius: 28, overflow: 'hidden' }}
     >
       <View
-        className={cn('rounded-[28px] border border-white/10 p-4', className)}
+        className={cn('rounded-[28px] border border-border p-4', className)}
       >
         <View className="items-center gap-1 py-2">
           <Text className="text-base font-semibold text-text">Add a crop photo</Text>
@@ -149,7 +149,7 @@ function PickerButton({
       haptic="light"
       style={{ flex: 1 }}
     >
-      <View className="items-center gap-2 rounded-2xl border border-white/10 bg-bg/40 px-3 py-4">
+      <View className="items-center gap-2 rounded-2xl border border-border bg-surface-muted px-3 py-4">
         <View className="h-12 w-12 items-center justify-center rounded-2xl bg-brand-500/15">
           {icon}
         </View>

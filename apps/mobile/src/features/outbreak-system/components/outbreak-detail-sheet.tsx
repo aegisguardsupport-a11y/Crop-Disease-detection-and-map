@@ -103,7 +103,7 @@ export const OutbreakDetailSheet = forwardRef<BottomSheetModal, OutbreakDetailSh
               }
               style={{ borderRadius: 24, overflow: 'hidden' }}
             >
-              <View className="flex-row flex-wrap rounded-3xl border border-white/10">
+              <View className="flex-row flex-wrap rounded-3xl border border-border">
                 <Stat
                   icon={<Activity size={14} color={theme.textMuted} strokeWidth={2.2} />}
                   label="Reports"
