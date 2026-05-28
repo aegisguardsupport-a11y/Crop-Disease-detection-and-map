@@ -4,9 +4,7 @@ import Animated, { FadeInDown } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import {
-  DiseaseTrends,
   GreetingHeader,
-  NearbyAlerts,
   OutbreakSummary,
   QuickUploadCTA,
   RecentReports,
@@ -30,7 +28,7 @@ export default function HomeScreen() {
             paddingHorizontal: 16,
             paddingTop: 8,
             paddingBottom: 140,
-            gap: 24,
+            gap: 20,
           }}
           refreshControl={
             <RefreshControl
@@ -55,14 +53,6 @@ export default function HomeScreen() {
 
           <Animated.View entering={FadeInDown.delay(240).duration(400)}>
             <RecentReports reports={data?.recentReports} loading={isPending} />
-          </Animated.View>
-
-          <Animated.View entering={FadeInDown.delay(320).duration(400)}>
-            <DiseaseTrends trends={data?.trends} loading={isPending} />
-          </Animated.View>
-
-          <Animated.View entering={FadeInDown.delay(400).duration(400)}>
-            <NearbyAlerts alerts={data?.alerts} loading={isPending} />
           </Animated.View>
         </ScrollView>
       </SafeAreaView>
