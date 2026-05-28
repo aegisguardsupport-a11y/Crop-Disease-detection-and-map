@@ -36,7 +36,7 @@ export default function AppLayout() {
     >
       <Tabs.Screen name="index" options={{ title: 'Home' }} />
       <Tabs.Screen name="map" options={{ title: 'Map' }} />
-      <Tabs.Screen name="upload" options={{ title: 'Upload' }} />
+      <Tabs.Screen name="upload" options={{ title: 'Report' }} />
       <Tabs.Screen name="notifications" options={{ title: 'Alerts' }} />
       <Tabs.Screen name="profile" options={{ title: 'Profile' }} />
     </Tabs>
