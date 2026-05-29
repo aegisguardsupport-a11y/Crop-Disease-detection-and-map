@@ -1,19 +1,19 @@
 {
   "expo": {
-    "name": "Crop Disease Mapping",
-    "slug": "crop-disease-mapping",
+    "name": "AgroRadar",
+    "slug": "agroradar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cropdisease",
+    "scheme": "agroradar",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon",
       "supportsTablet": true,
-      "bundleIdentifier": "com.cropdisease.mapping"
+      "bundleIdentifier": "com.agroradar.app"
     },
     "android": {
-      "package": "com.cropdisease.mapping",
+      "package": "com.agroradar.app",
       "adaptiveIcon": {
         "backgroundColor": "#10b981",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -44,11 +44,26 @@
           "color": "#10b981",
           "defaultChannel": "default"
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "AgroRadar uses your camera to photograph crops for disease analysis.",
+          "recordAudioAndroid": false,
+          "barcodeScannerEnabled": false
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d90cc6a1-438a-4f0d-8aa7-9fdc91ca0d33"
+      }
+    },
+    "owner": "pranavloveher"
   }
 }
