@@ -4,11 +4,11 @@ import { useEffect, useRef } from 'react';
 import { analyzeImage } from '@/features/disease-analysis/api';
 import {
   AnalyzingScreen,
-  CaptureScreen,
   EditDetailsSheet,
   ResultScreen,
   SubmittedScreen,
 } from '@/features/report-flow';
+import { CaptureScreen } from '@/features/report-flow/screens/capture-lazy';
 import type { EditDetailsSheetHandle } from '@/features/report-flow/components/edit-details-sheet';
 import { useReportFlow } from '@/features/report-flow/use-report-flow';
 import { useCurrentLocation } from '@/features/upload-report/hooks';
