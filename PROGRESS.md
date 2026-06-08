@@ -1,8 +1,8 @@
 # Project Progress — Crop Disease Report Mapping System
 
-> **Last updated:** 2026-05-27
-> **Current version:** v10 — Polish, Performance & Demo
-> **Status:** ✅ All 10 versions complete. Demo-ready, deployment-ready, hackathon submission-ready.
+> **Last updated:** 2026-05-29
+> **Current version:** v11 — On-device AI (offline TFLite)
+> **Status:** ✅ 11 versions complete. Offline crop-disease inference now runs fully on-device as a cloud fallback. Requires a native dev build (not Expo Go).
 
 This is the living source of truth for what's done, what's partial, what's missing, and where the technical debt lives. Update at the end of every version (see "Update protocol" at the bottom).
 
@@ -22,6 +22,7 @@ This is the living source of truth for what's done, what's partial, what's missi
 | v8 | Notifications System + Plots (in-app banners, push, plot-based fan-out, lite onboarding) | ✅ Done |
 | v9 | Offline Support (idempotent uploads, query persistence, connectivity UI, on-device AI placeholder) | ✅ Done |
 | v10 | Polish, Performance & Demo (error boundary, demo seed, deployment, branded splash) | ✅ Done |
+| v11 | On-device AI (offline TFLite classifier, 139 classes, cloud fallback) | ✅ Done |
 
 ---
 
@@ -51,6 +52,9 @@ This is the living source of truth for what's done, what's partial, what's missi
 | Native input | expo-image-picker + expo-camera APIs | 56.0.14 |
 | Geolocation | expo-location | 56.0.14 |
 | Image compression | expo-image-manipulator | 56.0.15 |
+| On-device inference | react-native-fast-tflite (JSI/Nitro) + react-native-nitro-modules | tflite 3.0.1 / nitro 0.35.9 |
+| On-device model | CPL MobileNetV3-Small TFLite (139 crop::disease classes, 1.22 MB) | float32 [0,255] |
+| JPEG decode (preprocess) | jpeg-js + buffer | jpeg-js 0.4 / buffer 6.0 |
 | File storage | expo-file-system (`Paths` / `File` / `Directory` API) | 56.0.7 |
 | Maps | react-native-maps | 1.27.2 |
 | Map clustering | supercluster (Mapbox) | 8.0.1 |
@@ -74,6 +78,7 @@ This is the living source of truth for what's done, what's partial, what's missi
 6. **Upload tab** — pick photo (camera or gallery) → choose crop from searchable bottom sheet of 25 crops → location auto-detected via GPS or manually pinned on `MapView` → optional notes (≤500) → submit:
    - **Online:** image is compressed (≤1600px, JPEG q=0.7) → uploaded directly to Cloudinary using a server-issued signature → backend `POST /reports` returns immediately with `processingStatus=PENDING` → `useCreateReport` seeds the detail query and `router.replace`s to `/reports/[id]`.
    - **Offline:** image is compressed and copied into `documentDirectory/uploads/` → enqueued in the persistent `upload.queue.v1` store → user sees "Queued" state.
+   - **Analysis engine chain (report-flow):** the analyzing step tries cloud first (8s timeout); if cloud fails or times out, the **on-device TFLite classifier** (v11) runs the bundled MobileNetV3 model fully offline and returns a real `crop::disease` diagnosis + confidence + curated severity/recommendations (badge: "On-device AI"); only if that's also unavailable does it fall to manual entry. Requires a native dev build — not Expo Go.
 7. **Result screen `/reports/[id]`** — shows the `ProcessingState` (scanline animation + corner brackets + cycling status text) while `processingStatus ∈ {PENDING, PROCESSING}`. TanStack Query polls `GET /reports/:id` every 3s; polling stops on terminal status. Backend's `ReportsProcessor` (fire-and-forget) calls `AiService` which routes to `MockAiClient` or `FastApiAiClient` based on `AI_PROVIDER` env. On success, the row is updated with `disease`, `confidence`, `severity`, `recommendations`, `processedAt`. The screen swaps to the success layout: animated `ConfidenceRing` (SVG arc gauge), severity badge (with pulsing dot for HIGH), recommendations list (staggered glass cards), action row (View on map, Share, New report). On AI failure, the screen shows a retry CTA which calls `POST /reports/:id/reprocess`.
 8. **Map tab `/map`** — full-screen `MapView` (Apple Maps on iOS, Google Maps on Android with custom dark JSON style in dark mode). On mount: `useUserLocation` requests permission and watches at 30s/100m, `useNearbyReports` fetches from `GET /reports/nearby` with the current region as query, `useRealtimeReports` subscribes to socket events, `useOutbreaks` seeds outbreak zones, `useActivePlots` renders the user's own plots as small home-tinted markers. Reports are clustered via `supercluster`; each visible cluster renders as `MapCluster` (count + dominant-severity color), each leaf as `MapMarker` (severity-colored, custom emoji, pulsing ring on HIGH). Outbreak zones render via `OutbreakZoneLayer` (severity-tinted `Circle` + animated hotspot core + pill marker). Heatmap layer (`react-native-maps`'s native `<Heatmap>`) renders severity-weighted points. Floating glass controls: locate-me, layer toggle, filter sheet (with "Show resolved" + outbreak severity / time-window options). Top: a glass `ConnectionPill` showing live status + report count. Tap a report marker → `ReportDetailSheet`; tap an outbreak zone → `OutbreakDetailSheet`.
 9. **Filter sheet** — Time window (24h / 7d / 30d / All) + multi-select severity / crop / disease (the disease list is dynamically built from currently visible reports). Filters apply both server-side (single-select cases sent in the query) and client-side (multi-select / live socket data). Bottom CTA shows the live count of matching reports.
@@ -605,9 +610,54 @@ All validated by Zod, with sane defaults. Changing them is one env edit + restar
 - `docs/GEO_MAPPING_FLOW.md` (v8 deliverable, used in PPT).
 - `docs/METHODOLOGY_WORKFLOW.md` and `docs/METHODOLOGY_WORKFLOW_DIAGRAM.md` (v8 deliverables, used in PPT).
 
+### v11 — On-device AI (offline TFLite) ✅
+
+Replaced the v9 `offline-ai` placeholder with a real on-device crop-disease classifier. The model runs fully offline (zero network calls in the inference path) and slots into the existing `cloud → on-device → manual` engine chain as the fallback after cloud — no call-site changes were needed beyond passing candidates through.
+
+**Model (from the `cpl_leaf_doctor_handoff` package)**
+- MobileNetV3-Small student (distilled from a 93.6%-accurate EfficientNetB2 teacher), TFLite, dynamic-range int8 quantized, **1.22 MB**.
+- **139 classes** spanning ~24 crops, labels formatted `crop::disease` (e.g. `tomato::Tomato___Late_blight`).
+- Test-set accuracy (9,802 held-out images): **87.4% top-1 / 97.8% top-3**.
+- Input contract: `(1, 224, 224, 3)` float32, pixels in **[0, 255]** (NOT [0,1] — MobileNetV3 normalizes internally), bilinear resize. Output: `(1, 139)` float32 softmax.
+
+**Dependencies (`apps/mobile/package.json`)**
+- `react-native-fast-tflite@3.0.1` — JSI/Nitro inference engine (CoreML on iOS, Android GPU/NNAPI delegates, CPU fallback).
+- `react-native-nitro-modules@0.35.9` — required peer for fast-tflite v3 (matches its nitrogen 0.35.x codegen).
+- `jpeg-js@^0.4.4` + `buffer@^6.0.3` — pure-JS JPEG decode for preprocessing.
+- **Version correction:** the hand-off template targeted Expo SDK 52 / RN 0.76 with `react-native-fast-tflite@^1.6.0` + the `useTensorflowModel` hook. This app is SDK 56 / RN 0.85 / React 19 / New Arch, so we used fast-tflite **v3** (`loadTensorflowModel()` + `model.run([ArrayBuffer])`) and its nitro-modules peer instead. The old version/API would not have worked.
+
+**Native config**
+- `metro.config.js` — `config.resolver.assetExts.push('tflite')` so the model bundles as a static asset and `require(...)` resolves to an on-device file path.
+- `app.config.ts` — registered the `react-native-fast-tflite` plugin (`enableCoreMLDelegate: true`, `enableAndroidGpuLibraries: true`) and added `assetBundlePatterns: ['assets/**/*']` so the `.tflite` ships inside the binary.
+
+**Model assets → `apps/mobile/assets/models/`**
+- `cpl_crop_disease.tflite` (1.22 MB, the float32 [0,255] default build — not the int8 variant).
+- `cpl_id_to_label.json` (139-class id → label map).
+
+**Feature code — `features/offline-ai/`** (replaces the v9 stub)
+- `preprocess.ts` — resize → 224×224 → RGB `Float32Array` in [0,255]. Uses the SDK 52+ `ImageManipulator.manipulate()` context API (`.resize().renderAsync().saveAsync({ base64 })`), matching `upload-report/utils/compress-image.ts`. The hand-off's deprecated `manipulateAsync` would have broken on SDK 56.
+- `labels.ts` — 139-class top-k decoder (`topKPredictions`), loose healthy/fresh-leaf detection (`isHealthyLabel`, handles the dataset's inconsistent `Healthy`/`healthy`/`Healthy Leaf`/`Fresh Leaf`/`Maize healthy`/`onion1` variants), and a `prettyDisease` humanizer (strips `Crop___` prefixes, underscores, trailing artefacts).
+- `disease-info.ts` — **curated severity + recommendations lookup** (chosen over a confidence-heuristic or null-severity approach). Ordered keyword-rule matcher grouped by disease type (viruses, bacterial blights/spots/rots, late/early/leaf blight, rusts, mildews, molds/rots, smuts, anthracnose, leaf spots, wilts, insect pests, nutritional/abiotic). Normalizes underscores before matching so every one of the 139 labels resolves to a real `{ severity, recommendations }`; explicit healthy handling first, generic fallback last.
+- `offline-ai.client.ts` — replaced the stub `offlineAiClient`. Lazy-loaded + cached singleton model (`loadModel()` tries hardware delegates first, transparently retries CPU-only on delegate failure). `isAvailable()` loads/caches and returns false gracefully if the native module/model is missing (e.g. plain Expo Go). `analyze()` preprocesses → `model.run()` → top-3 decode → maps the top prediction into the existing `OfflineAnalysisSuccess` shape (`disease`, `confidence`, `severity`, `recommendations`, `fromOnDevice: true`, plus `candidates` for the low-confidence picker).
+
+**Wiring**
+- `features/report-flow/use-report-flow.ts` — `tryOnDevice()` now passes `r.candidates` through to the `AnalysisResult`, so a low-confidence on-device result (<0.6) drives the same candidate-picker UI the cloud path already uses. Engine ordering unchanged: cloud-first (8s timeout) → on-device → manual.
+- The existing `ENGINE_COPY['on-device']` + `EngineBadge` ("On-device AI") light up automatically — no UI changes required.
+
+**Verification**
+- Mobile typecheck (`tsc --noEmit`) clean.
+- Mobile lint (`expo lint`) fully clean (the two transient `Array<T>` warnings were fixed to `T[]`).
+- Confirmed fast-tflite v3 type surface (`loadTensorflowModel`, `TfliteModel`/`TensorflowModel` alias, `run(): Promise<ArrayBuffer[]>`, `TensorflowModelDelegate`) against the installed package.
+- Confirmed the bundled-asset `require('../../../assets/models/cpl_crop_disease.tflite')` relative path resolves (alias `@/assets/...` avoided for the binary require because Metro's asset resolver doesn't reliably apply tsconfig path aliases).
+- **Not yet runtime-verified on a device** — fast-tflite is a native module, so this needs a native dev build (EAS dev build or `expo prebuild` + `expo run:*`). It cannot run in Expo Go. On-device inference / offline (airplane-mode) behavior should be smoke-tested on a physical device.
+
 ---
 
 ## Tech debt and rough edges
+
+### Resolved in v11
+- v9 "`features/offline-ai/` placeholder stub" → replaced with a real bundled TFLite classifier (139 classes) wired into the report-flow engine chain as the cloud fallback.
+- Roadmap "v12+ — On-device AI: wire `offlineAiClient` to a real TFLite/ONNX model" → shipped in v11 (model bundled in-binary, not fetch-on-first-launch).
 
 ### Resolved in v10
 - Carried-over `axios` default-import lint warning (since v1) — silenced with an explanatory `eslint-disable` (the rule's heuristic is wrong; `axios.create` and `axios.isAxiosError` are the documented entry points).
@@ -712,17 +762,17 @@ All validated by Zod, with sane defaults. Changing them is one env edit + restar
 
 ## What's left (rough roadmap)
 
-### v11 — Admin / Officer flows (next)
+### v12 — Admin / Officer flows (next)
 - Officer role report verification queue.
 - Broadcast alert UI (drives `alert.created` events with notification fan-out).
 - Role-based UI gating (`@CurrentUser().role` server-side, store-driven on client).
 - Authority-issued advisories shown alongside outbreak alerts.
 
-### v12+ — On-device AI
-- Wire `offlineAiClient` to a real TFLite or ONNX model.
-- Bundle / fetch-on-first-launch model artifact (~5–20 MB).
-- Use `useCreateReport` fallback path when offline.
-- Reconcile on-device diagnosis with server-side diagnosis on next sync.
+### On-device AI — follow-ups (core shipped in v11)
+- Reconcile on-device diagnosis with the server-side diagnosis on next sync (currently the cloud result wins when online; on-device only fills in when cloud fails/times out).
+- Consider prefer-on-device-when-offline ordering to skip the 8s cloud wait when `network.store` reports offline (deliberately kept cloud-first in v11).
+- Optional: fetch-on-first-launch / OTA model updates instead of bundling in-binary, if the model grows or needs frequent retraining.
+- Optional: swap the pure-JS JPEG decode for `react-native-vision-camera` + `vision-camera-resize-plugin` if realtime (>5 fps) camera classification is ever needed.
 
 ### Cross-cutting (any version)
 - Profile editing UI for district / state / area.
@@ -765,6 +815,16 @@ Environment switches:
 - `AI_PROVIDER=fastapi` — calls `${FASTAPI_URL}/predict`. 35s client timeout (the upstream may take ~25s).
 
 > **Note for Android dev**: `react-native-maps` requires a Google Maps API key set under `expo.android.config.googleMaps.apiKey` in `app.json` and a custom dev client. On iOS it works out of the box with Apple Maps.
+
+> **Note on on-device AI (v11)**: `react-native-fast-tflite` is a native module, so the offline classifier does **not** run in Expo Go. Build a dev client once, then iterate normally:
+> ```bash
+> # cloud build (no local native toolchain needed):
+> pnpm --filter mobile exec eas build --profile development --platform android
+> # or local prebuild + run:
+> pnpm --filter mobile exec expo prebuild
+> pnpm --filter mobile exec expo run:android   # or run:ios
+> ```
+> Install on a physical device (TFLite is fiddly on the iOS simulator), then `pnpm --filter mobile dev` and scan with the dev client. To verify offline: airplane mode → Report tab → capture a leaf → cloud times out (8s) → "On-device AI" result.
 
 Demo credentials: phone `9999999999`, OTP `123456`.
 
@@ -871,6 +931,14 @@ A running list of every architectural / product / tooling decision we've made ac
 - **Pure reanimated scan animation** as the AI loading state — picked over Lottie. Scan line + corner brackets + cycling status text + glass "Analyzing" pill.
 - **Animated SVG confidence ring** (270° gauge, gradient stroke, severity-tinted) using `react-native-svg` + reanimated `useAnimatedProps`.
 - **No backfill for v4 reports** — pre-v5 rows simply have null disease fields and `processingStatus=PENDING` until visited / reprocessed.
+- **On-device model: `react-native-fast-tflite` over TensorFlow.js / ONNX Runtime** (v11) — JSI/Nitro gives direct memory access + native CoreML/Android-GPU delegates; tfjs is too slow for this model size and ONNX RN tooling is heavier. Matches the hand-off package's recommendation.
+- **Pinned fast-tflite v3 + nitro-modules, NOT the hand-off's v1.6** (v11) — the hand-off template was built for Expo SDK 52 / RN 0.76 with the `useTensorflowModel` hook. This app is SDK 56 / RN 0.85 / React 19 / New Arch, which requires fast-tflite v3 (`loadTensorflowModel()` + `model.run()`) and its `react-native-nitro-modules` peer. Pinned exact versions (`3.0.1` / `0.35.9`) because native codegen is version-sensitive.
+- **Model bundled in-binary (assetBundlePatterns) over fetch-on-first-launch** (v11) — at 1.22 MB it's well under store limits, so bundling guarantees true offline-on-first-run with zero download step. Revisit if the model grows.
+- **Curated keyword-rule severity/recommendations lookup over confidence-heuristic or null-severity** (v11) — the TFLite model only outputs `disease + confidence`, but the `OfflineAnalysisSuccess` contract needs `severity` + `recommendations`. An ordered keyword matcher grouped by disease type covers all 139 classes with real agronomic guidance while staying maintainable (vs 139 hand-copied blocks).
+- **Reused the v9 `OfflineAiClient` contract verbatim** (v11) — implementing the existing interface means zero changes to the `cloud → on-device → manual` engine chain in `use-report-flow.ts` (only addition: passing `candidates` through). The "On-device AI" badge/copy from v9 light up for free.
+- **Engine ordering kept cloud-first, on-device fallback** (v11) — on-device kicks in only when cloud fails/times out (8s). Prefer-on-device-when-offline was considered but deferred to keep the change low-risk; the higher-accuracy cloud model wins whenever reachable.
+- **Bundled `.tflite` required via relative path, not the `@/assets` alias** (v11) — Metro's asset resolver doesn't reliably apply tsconfig path aliases to binary `require()`s; the relative path is the proven pattern.
+- **Input pixels kept at [0, 255] float32** (v11) — MobileNetV3 has an internal normalization layer; passing [0,1] produces confidently-wrong predictions. `preprocess.ts` preserves the hand-off's documented input contract.
 
 ### Out of scope / deferred
 

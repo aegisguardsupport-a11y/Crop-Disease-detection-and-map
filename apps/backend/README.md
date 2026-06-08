@@ -1,4 +1,4 @@
-# Backend — Crop Disease Mapping API
+# Backend — AgroRadar API
 
 NestJS API with Prisma + Postgres (Neon), Socket.IO, and pino logging.
 

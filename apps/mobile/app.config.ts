@@ -53,6 +53,9 @@ export default ({ config: _ }: ConfigContext): ExpoConfig => {
       output: 'static',
       favicon: './assets/images/favicon.png',
     },
+    // Bundle the offline TFLite model + label map into the binary so on-device
+    // inference works with zero network calls.
+    assetBundlePatterns: ['assets/**/*'],
     plugins: [
       'expo-router',
       [
@@ -79,6 +82,13 @@ export default ({ config: _ }: ConfigContext): ExpoConfig => {
             'AgroRadar uses your camera to photograph crops for disease analysis.',
           recordAudioAndroid: false,
           barcodeScannerEnabled: false,
+        },
+      ],
+      [
+        'react-native-fast-tflite',
+        {
+          enableCoreMLDelegate: true,
+          enableAndroidGpuLibraries: true,
         },
       ],
     ],

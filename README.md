@@ -1,6 +1,6 @@
-# Crop Disease Report Mapping System
+# AgroRadar
 
-A monorepo containing the mobile app and backend services for the Crop Disease Report Mapping System.
+A monorepo containing the mobile app and backend services for AgroRadar — a crop disease detection and outbreak mapping platform.
 
 ## Stack
 

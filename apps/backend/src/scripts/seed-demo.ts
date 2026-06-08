@@ -175,7 +175,7 @@ const NOTIFICATION_TEMPLATES = [
   },
   {
     type: 'SYSTEM' as const,
-    title: 'Welcome to Crop Disease Mapping',
+    title: 'Welcome to AgroRadar',
     body: 'Add a plot to start receiving outbreak alerts in your area.',
     severity: null,
     ageMinutes: 1440,

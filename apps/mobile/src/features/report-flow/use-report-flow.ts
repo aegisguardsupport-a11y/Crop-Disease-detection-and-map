@@ -106,6 +106,7 @@ export function useReportFlow({ cloudAnalyze }: UseReportFlowOptions) {
             confidence: r.confidence,
             severity: r.severity,
             recommendations: r.recommendations,
+            candidates: r.candidates,
           };
         } catch (err) {
           logger.warn('[report-flow] on-device analyze failed', err);

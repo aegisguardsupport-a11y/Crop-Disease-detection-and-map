@@ -1,4 +1,4 @@
-# Mobile — Crop Disease Mapping
+# Mobile — AgroRadar
 
 Expo + Expo Router app with NativeWind v5 (Tailwind v4), Zustand, TanStack Query, axios, and Socket.IO.
 
