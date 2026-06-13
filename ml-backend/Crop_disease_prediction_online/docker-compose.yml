@@ -1,0 +1,59 @@
+# docker-compose for local end-to-end runs.
+#
+# Bring everything up:   docker compose up --build
+# Stop:                  docker compose down
+#
+# After startup:
+#   API:    http://localhost:8000   (Swagger at /docs, ReDoc at /redoc)
+#   UI:     http://localhost:8501
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cpl-crop-disease-api:dev
+    container_name: cpl-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      CPL_API_HOST: 0.0.0.0
+      CPL_API_PORT: 8000
+      CPL_LOG_LEVEL: INFO
+      CPL_API_LOG_JSON: "true"
+    volumes:
+      # Persist HuggingFace model cache so CLIP doesn't re-download on
+      # every container restart (~600 MB download).
+      - hf_cache:/home/appuser/.cache/huggingface
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - |
+          import urllib.request, sys, json
+          r = urllib.request.urlopen('http://127.0.0.1:8000/ready', timeout=3)
+          sys.exit(0 if json.loads(r.read()).get('model_loaded') else 1)
+      interval: 30s
+      timeout: 5s
+      start_period: 180s   # SavedModel + CLIP first-load can take a while
+      retries: 5
+
+  ui:
+    build:
+      context: .
+      dockerfile: streamlit_app/Dockerfile
+    image: cpl-crop-disease-ui:dev
+    container_name: cpl-ui
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      API_BASE_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  hf_cache:
