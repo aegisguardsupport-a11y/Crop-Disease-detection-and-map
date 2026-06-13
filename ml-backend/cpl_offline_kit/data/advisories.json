@@ -1,0 +1,1664 @@
+{
+  "blackgram::anthracnose": {
+    "crop": "blackgram",
+    "disease": "Anthracnose",
+    "summary": "Anthracnose is a fungal disease that causes dark, sunken 'cups' or black spots on the leaves, stems, and pods of your blackgram. Under humid weather, these spots can develop a pinkish ooze in the center, causing the pods to dry up, shrivel, and produce useless seeds.",
+    "symptoms": [
+      "Minute, water-soaked, dark brown to black spots on the lower leaf surface.",
+      "Infected seedlings show rust-colored specks on the cotyledons.",
+      "Enlarged circular, sunken lesions with dark centers and bright yellow, orange, or reddish-brown margins on leaves.",
+      "Elongated, dark, sunken cankers along stems and petioles."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Chitosan @ 0.1% at 30 and 60 days after sowing.",
+      "Spray Neem Seed Kernel Extract (NSKE) 5%.",
+      "Destroy and burn crop residues after harvest.",
+      "Eradicate weed hosts.",
+      "Seed treatment and foliar spray of Pseudomonas fluorescens or Trichoderma viride @ 10 g/L of water."
+    ],
+    "chemical_treatment": [
+      "Carbendazim 12% + Mancozeb 63% WP (Systemic + Contact Fungicide Mixture) — 2.0 g/L of water",
+      "Tebuconazole 50% + Trifloxystrobin 25% WG (Systemic Curative Fungicide Mixture) — 0.5 g/L of water"
+    ],
+    "prevention": [
+      "Destroy and burn highly infected plants.",
+      "Spray Carbendazim + Mancozeb (Saaf) at 2g per liter of water.",
+      "Ensure water does not stand in the field."
+    ],
+    "safety_note": "If wet, cloudy weather continues, anthracnose can destroy your entire pod harvest, leaving the seeds shriveled and black."
+  },
+  "blackgram::healthy": {
+    "crop": "blackgram",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "blackgram::leaf_crinckle": {
+    "crop": "blackgram",
+    "disease": "Leaf Crinkle",
+    "summary": "Leaf Crinkle is a viral disease of blackgram. It starts from infected seeds or is spread from plant to plant by insects like aphids and beetles. Infected plants develop thick, wrinkled, puckered, 'bubbly' leaves, stop growing, and produce malformed sterile flowers that bear no pods.",
+    "symptoms": [
+      "Abnormal enlargement and light green color of the third trifoliate leaf around 3 weeks after sowing.",
+      "Severe crinkling, puckering, upward/downward curling, and leathery/rough texture (rugosity) of leaves.",
+      "Thickened leaf veins showing reddish discoloration.",
+      "Shortened leaf stalks (petioles)."
+    ],
+    "organic_treatment": [
+      "Foliar spray of 10% leaf extract of Bougainvillea spectabilis or Mirabilis jalapa.",
+      "Spray fresh buttermilk @ 5% concentration on the crop.",
+      "Uproot and destroy infected plants at early vegetative stages.",
+      "Maintain field sanitation.",
+      "Seed treatment and foliar application of Pseudomonas fluorescens @ 10g/L of water."
+    ],
+    "chemical_treatment": [
+      "Imidacloprid 17.8% SL (Systemic Insecticide) — 0.5 mL/L of water",
+      "Dimethoate 30% EC (Systemic Insecticide) — 1.5 to 2.0 mL/L of water"
+    ],
+    "prevention": [
+      "Pull out any puckered, wrinkled plants, bag them, and bury or burn them away from the field.",
+      "Spray Imidacloprid (0.5mL/L) to kill the aphids and beetles spreading the virus.",
+      "Apply Bougainvillea leaf extract @ 10% to reduce viral spread."
+    ],
+    "safety_note": "Because the virus causes flower sterility, early and severe infections can result in 100% loss of pod yield."
+  },
+  "blackgram::powdery_mildew": {
+    "crop": "blackgram",
+    "disease": "Powdery_Mildew",
+    "summary": "Powdery mildew is a fungal disease that covers your blackgram plants with a white, flour-like powder. It starts as small spots on the top of leaves, spreads quickly to stems and pods, and causes the leaves to turn yellow and drop off, leading to small, empty pods.",
+    "symptoms": [
+      "Small, irregular, white-to-greyish powdery spots or patches on the upper surface of the leaves.",
+      "White powdery growth spreads to the lower leaf surfaces, leaf stalks (petioles), stems, and young pods."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Neem Oil @ 3% (30 mL/L) or NSKE 5%.",
+      "Spray Eucalyptus leaf extract @ 10%.",
+      "Destroy and burn crop residue after harvest.",
+      "Ensure crop has adequate sunlight and spacing.",
+      "Apply bio-fungicide Ampelomyces quisqualis @ 2 mL/L of water."
+    ],
+    "chemical_treatment": [
+      "Wettable Sulphur 80% WP (Contact Fungicide) — 2.0 g/L of water",
+      "Carbendazim 50% WP (Systemic Fungicide) — 1.0 g/L of water"
+    ],
+    "prevention": [
+      "Spray Wettable Sulphur (2g/L) or Carbendazim (1g/L) immediately at the first sign of white powder.",
+      "Keep the soil moist by irrigating if the field is dry."
+    ],
+    "safety_note": "Widespread powdery mildew during pod formation can reduce grain yields by up to 40% due to poorly filled, shriveled seeds."
+  },
+  "blackgram::yellow_mosaic": {
+    "crop": "blackgram",
+    "disease": "Yellow_Mosaic",
+    "summary": "Yellow Mosaic is a viral disease of blackgram that is carried and spread by tiny whiteflies. It starts as yellow spots on young leaves, which quickly turn the entire leaf golden-yellow. Infected plants stop growing and produce tiny, empty pods, causing heavy yield loss.",
+    "symptoms": [
+      "Mild, scattered, irregular green-yellow or bright yellow spots on young expanding leaves.",
+      "Yellow spots expand and merge to form large, bright yellow patches interspersed with green areas (mosaic pattern) on leaf blades."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Neem Oil @ 3% (30 mL/L) at 25 and 50 days after sowing.",
+      "Spray Neem Seed Kernel Extract (NSKE) 5%.",
+      "Plant 3-4 rows of sorghum, maize, or pearl millet as barrier crops around the field.",
+      "Destroy and bury weed hosts.",
+      "Apply Pseudomonas fluorescens or Bacillus subtilis as seed and foliar spray to improve plant defense."
+    ],
+    "chemical_treatment": [
+      "Imidacloprid 17.8% SL (Systemic Insecticide) — 0.5 mL/L of water",
+      "Thiamethoxam 25% WG (Systemic Insecticide) — 0.3 g/L of water",
+      "Flonicamid 50% WG (Systemic Insecticide (Anti-feeding agent)) — 0.3 g/L of water"
+    ],
+    "prevention": [
+      "Uproot any yellow plants, put them in a bag, and burn or bury them far away.",
+      "Hang yellow sticky traps to catch whiteflies.",
+      "Spray Imidacloprid (0.5mL/L) or Flonicamid (0.3g/L) to control the whiteflies."
+    ],
+    "safety_note": "Yellow Mosaic is a highly destructive disease. Early infection can cause up to 80% to 100% loss of your blackgram yield."
+  },
+  "brinjal::cercospora_leaf_spot": {
+    "crop": "brinjal",
+    "disease": "Leaf Spot Disease",
+    "summary": "Brinjal leaf spot is a fungal disease that makes brown or grey spots on the lower leaves. Some spots look like 'targets' with circles inside. The center of these spots can dry out and leave holes. This causes leaves to turn yellow and drop off, and can rot the brinjal fruit.",
+    "symptoms": [
+      "Small, chlorotic, circular-to-oval or irregular spots on older lower leaves.",
+      "Spots are initially light brown or yellowish.",
+      "Cercospora spots turn greyish-brown with light/ash-grey centers and dark brown/purplish borders.",
+      "Alternaria spots develop distinct concentric rings mimicking a 'target-board' pattern."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Neem Seed Kernel Extract (NSKE) 5%.",
+      "Foliar spray of garlic-chili extract.",
+      "Destroy weed hosts.",
+      "Manually prune old leaves to improve air flow.",
+      "Soil application and foliar spray of Trichoderma harzianum or Pseudomonas fluorescens @ 10 g/L of water."
+    ],
+    "chemical_treatment": [
+      "Mancozeb 75% WP (Contact Protective Fungicide) — 2.0 g/L of water",
+      "Azoxystrobin 11% + Tebuconazole 18.3% SC (Systemic Fungicide Mixture) — 1.0 mL/L of water"
+    ],
+    "prevention": [
+      "Pick off the spotted lower leaves and burn or bury them.",
+      "Avoid watering the plants from above (use drip or basin irrigation).",
+      "Spray Mancozeb (2g/L) or Azoxystrobin + Tebuconazole (1mL/L) to control the spread."
+    ],
+    "safety_note": "Severe leaf spot can cause early leaf drop, exposing fruits to sunburn, and Alternaria can rot fruits directly, reducing yield by up to 30%."
+  },
+  "brinjal::healthy": {
+    "crop": "brinjal",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "cabbage::alternaria_leaf_spot": {
+    "crop": "cabbage",
+    "disease": "Alternaria leaf spot",
+    "summary": "Alternaria leaf spot is a fungal disease that makes dark brown or black target-like spots on cabbage leaves. These spots can dry out and leave holes. If left untreated, the spots will spread to the cabbage head, causing black rotting patches that ruin your harvest.",
+    "symptoms": [
+      "Small, dark brown to black dots surrounded by yellow (chlorotic) halos, typically appearing first on older lower leaves.",
+      "In seedling stage, small dark lesions on cotyledons or young stems.",
+      "Spots expand into circular, dark brown-to-black lesions with characteristic concentric 'target-like' rings.",
+      "The centers of the spots become dry and paper-like."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+      "Apply baking soda-soap mixtures early on.",
+      "Mow or deeply disk cabbage residues after harvest.",
+      "Eradicate wild mustard and other weed hosts.",
+      "Apply Bacillus amyloliquefaciens or Trichoderma harzianum @ 10 g/L of water."
+    ],
+    "chemical_treatment": [
+      "Chlorothalonil 75% WP (Contact Protective Fungicide) — 2.0 g/L of water",
+      "Azoxystrobin 18.2% + Difenoconazole 11.4% SC (Systemic Fungicide Mixture) — 1.0 mL/L of water"
+    ],
+    "prevention": [
+      "Pick off and burn the spotted bottom leaves.",
+      "Stop using overhead sprinkler watering.",
+      "Spray Chlorothalonil (2g/L) or Azoxystrobin + Difenoconazole (1mL/L) immediately."
+    ],
+    "safety_note": "Severe Alternaria leaf spot ruins the cabbage head quality, causing it to rot in storage and reducing its market value to zero."
+  },
+  "cabbage::bacterial_spot_rot": {
+    "crop": "cabbage",
+    "disease": "Bacterial Spot Rot",
+    "summary": "A bacterial disease causing mushy, smelly rot.",
+    "symptoms": [
+      "Small water-soaked spots on leaves.",
+      "Spots enlarge, become sunken, soft and mushy."
+    ],
+    "organic_treatment": [
+      "Copper-based sprays.",
+      "Sanitize tools.",
+      "Bacillus species."
+    ],
+    "chemical_treatment": [
+      "Copper Hydroxide (Bactericide) — 2g/L"
+    ],
+    "prevention": [
+      "Remove rotting plants immediately."
+    ],
+    "safety_note": "Can destroy entire heads quickly."
+  },
+  "cabbage::black_rot": {
+    "crop": "cabbage",
+    "disease": "Black rot",
+    "summary": "Black rot is a highly contagious bacterial disease of cabbage. It makes yellow, V-shaped patches on the edges of leaves. Inside these yellow parts, the veins turn black like a dark net. It then travels to the stem and head, turning the inside black, stunting the plant, and rotting the head.",
+    "symptoms": [
+      "Yellowing V-shaped lesions starting from the margins of older leaves and pointing inward toward the leaf midrib.",
+      "Young seedlings show yellowing cotyledons that wilt and drop off.",
+      "V-shaped yellow zones expand; leaf veins inside these yellow areas turn dark brown or black, forming a black network.",
+      "Interior of the main stem starts turning black when cut."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+      "Apply copper-based organic formulations.",
+      "Destroy weeds.",
+      "Incorporate cabbage residues deep into soil to rot.",
+      "Sanitize tools.",
+      "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."
+    ],
+    "chemical_treatment": [
+      "Copper Hydroxide 50% WP (Contact Protective Bactericide / Fungicide) — 2.0 g/L of water",
+      "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline) (Antibiotic Bactericide) — 0.1 g/L of water"
+    ],
+    "prevention": [
+      "Pull out any yellow-edged plants immediately and bury or burn them.",
+      "Stop watering from above (sprinklers).",
+      "Spray Copper Hydroxide (2g/L) + Streptocycline (0.1g/L) to protect the healthy plants."
+    ],
+    "safety_note": "Because it is systemic, black rot cannot be cured once inside the stem. It can wipe out up to 50% to 100% of your crop during warm, wet seasons."
+  },
+  "cabbage::cabbage_aphid_colony": {
+    "crop": "cabbage",
+    "disease": "Aphid Colony",
+    "summary": "Aphids suck sap and weaken the plant.",
+    "symptoms": [
+      "Small gray-green insects on undersides of leaves.",
+      "Leaves turn yellow, crinkle, and cup. Sticky honeydew appears."
+    ],
+    "organic_treatment": [
+      "Neem oil 3%.",
+      "Use yellow sticky traps.",
+      "Ladybugs, lacewings."
+    ],
+    "chemical_treatment": [
+      "Imidacloprid (Insecticide) — 0.5mL/L"
+    ],
+    "prevention": [
+      "Spray neem oil."
+    ],
+    "safety_note": "Can spread viruses."
+  },
+  "cabbage::club_root": {
+    "crop": "cabbage",
+    "disease": "Club Root",
+    "summary": "A soil pathogen that deforms roots and starves the plant.",
+    "symptoms": [
+      "Wilting during sunny days, recovery at night.",
+      "Stunted growth, pale green or yellow leaves."
+    ],
+    "organic_treatment": [
+      "None effective once infected.",
+      "Liming.",
+      "None highly effective."
+    ],
+    "chemical_treatment": [],
+    "prevention": [
+      "Apply lime to soil for future crops."
+    ],
+    "safety_note": "Pathogen lives 10+ years in soil."
+  },
+  "cabbage::downy_mildew": {
+    "crop": "cabbage",
+    "disease": "Downy mildew",
+    "summary": "Downy mildew is a fungus-like disease that attacks cabbage in cool, foggy, or wet winter weather. It causes blocky, angular yellow patches on top of the leaves and a grey, fuzzy mold directly underneath them. It can kill young nursery seedlings and create dark sunken spots on mature cabbage heads.",
+    "symptoms": [
+      "Small, light-green to pale-yellow angular spots on the upper leaf surface.",
+      "Young cotyledons turn yellow and drop off.",
+      "Angular spots enlarge, turn yellow-brown, and can become papery or dry.",
+      "Under cool, humid conditions, a characteristic fluffy, grayish-white downy growth develops directly beneath the spots on the lower leaf surface."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L (avoid mixing with adjuvants).",
+      "Apply sulfur or copper protective sprays.",
+      "Destroy wild brassica weeds.",
+      "Water only in the morning.",
+      "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L to foliage and nursery beds."
+    ],
+    "chemical_treatment": [
+      "Ametoctradin 27% + Dimethomorph 20.3% SC (Systemic + Contact Anti-oomycete Fungicide) — 1.0 mL/L of water",
+      "Mandipropamid 23.3% SC (Translaminar Fungicide) — 0.6 mL/L of water"
+    ],
+    "prevention": [
+      "Stop watering from above (sprinklers); water only the roots.",
+      "Foliar spray Zampro (Ametoctradin + Dimethomorph @ 1mL/L) or Revus (Mandipropamid @ 0.6mL/L).",
+      "Spray early in the morning so the crop dries during the day."
+    ],
+    "safety_note": "In cool wet weather, downy mildew spreads incredibly fast. It can wipe out your nursery seedlings or rot mature cabbage wrapper leaves within days."
+  },
+  "cabbage::healthy": {
+    "crop": "cabbage",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "cabbage::ring_spot": {
+    "crop": "cabbage",
+    "disease": "Ring Spot",
+    "summary": "A fungal disease causing ringed spots with black dots on leaves.",
+    "symptoms": [
+      "Small dark circular spots on older leaves.",
+      "Spots expand to 2-3cm with tiny black specks arranged in concentric rings."
+    ],
+    "organic_treatment": [
+      "Copper fungicide.",
+      "Sanitation.",
+      "N/A"
+    ],
+    "chemical_treatment": [
+      "Chlorothalonil (Fungicide) — 2g/L"
+    ],
+    "prevention": [
+      "Spray fungicide like Chlorothalonil."
+    ],
+    "safety_note": "Can reduce yield if defoliation is severe."
+  },
+  "cauliflower::bacterial_spot_rot": {
+    "crop": "cauliflower",
+    "disease": "Bacterial Spot Rot",
+    "summary": "A bacterial disease causing mushy, smelly rot.",
+    "symptoms": [
+      "Small water-soaked spots on leaves.",
+      "Spots enlarge, become sunken, soft and mushy."
+    ],
+    "organic_treatment": [
+      "Copper-based sprays.",
+      "Sanitize tools.",
+      "Bacillus species."
+    ],
+    "chemical_treatment": [
+      "Copper Hydroxide (Bactericide) — 2g/L"
+    ],
+    "prevention": [
+      "Remove rotting plants immediately."
+    ],
+    "safety_note": "Can destroy entire heads quickly."
+  },
+  "cauliflower::black_rot": {
+    "crop": "cauliflower",
+    "disease": "Black Spot",
+    "summary": "Black Spot is a fungal disease that makes soot-black, dry, sunken spots on your white cauliflower curd. It spreads in warm, wet weather. Spores travel from spots on the leaves to the head, making the white curd look dirty and black, which makes it impossible to sell.",
+    "symptoms": [
+      "Small, dark brown to black circular spots on older leaves.",
+      "Faint yellow chlorotic halo around leaf spots.",
+      "Concentric circular ring patterns develop on leaf spots.",
+      "Tiny, dry, brown-black pinpoint spots appear on the white cauliflower curd."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L (avoid mixing with adjuvants).",
+      "Eradicate weed hosts.",
+      "Ensure curds are shielded from water accumulation.",
+      "Apply Bacillus subtilis or Trichoderma harzianum @ 10 g/L of water on foliage and curd."
+    ],
+    "chemical_treatment": [
+      "Chlorothalonil 75% WP (Contact Protective Fungicide) — 2.0 g/L of water",
+      "Azoxystrobin 18.2% + Difenoconazole 11.4% SC (Systemic Fungicide Mixture) — 1.0 mL/L of water"
+    ],
+    "prevention": [
+      "Stop watering from above (avoid sprinklers).",
+      "Spray Azoxystrobin + Difenoconazole (1mL/L of water) immediately to stop the black spots from spreading on the curds.",
+      "Harvest curds that are still mostly white and clean before the fungus ruins them."
+    ],
+    "safety_note": "Because black spots ruin the appearance of cauliflower, even small black spots on the curd will lower its price in the market to almost zero."
+  },
+  "cauliflower::downy_mildew": {
+    "crop": "cauliflower",
+    "disease": "Downy Mildew",
+    "summary": "Downy mildew is a fungus-like disease that attacks cauliflower in cool, foggy, or wet winter weather. It causes blocky, angular yellow patches on top of the leaves and a grey, fuzzy mold directly underneath them. It can kill young nursery seedlings and create dark sunken spots on mature curds.",
+    "symptoms": [
+      "Small, light-green to pale-yellow angular spots on the upper leaf surface.",
+      "Young cotyledons turn yellow and drop off.",
+      "Angular spots enlarge, turn yellow-brown, and can become papery or dry.",
+      "Under cool, humid conditions, a characteristic fluffy, grayish-white downy growth develops directly beneath the spots on the lower leaf surface."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L (avoid mixing with adjuvants).",
+      "Apply sulfur or copper protective sprays.",
+      "Destroy wild brassica weeds.",
+      "Water only in the morning.",
+      "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L to foliage and nursery beds."
+    ],
+    "chemical_treatment": [
+      "Ametoctradin 27% + Dimethomorph 20.3% SC (Systemic + Contact Anti-oomycete Fungicide) — 1.0 mL/L of water",
+      "Mandipropamid 23.3% SC (Translaminar Fungicide) — 0.6 mL/L of water"
+    ],
+    "prevention": [
+      "Stop watering from above (sprinklers); water only the roots.",
+      "Foliar spray Zampro (Ametoctradin + Dimethomorph @ 1mL/L) or Revus (Mandipropamid @ 0.6mL/L).",
+      "Spray early in the morning so the crop dries during the day."
+    ],
+    "safety_note": "In cool wet weather, downy mildew spreads incredibly fast. It can wipe out your nursery seedlings or rot mature wrapper leaves within days."
+  },
+  "cauliflower::healthy": {
+    "crop": "cauliflower",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "chilli::bacterial_spot": {
+    "crop": "chilli",
+    "disease": "Bacterial Spot",
+    "summary": "Bacterial Spot is a highly contagious bacterial disease of chilli. It makes small, greasy-looking wet spots under the leaves and rough, scabby, brown 'warts' on the chilli pods. It spreads in warm, wet weather and causes leaves to turn yellow and drop off rapidly, leaving the plant bare and the pods ruined.",
+    "symptoms": [
+      "Small, water-soaked, greasy, circular spots on the lower leaf surface.",
+      "Spots are initially light-green to yellow.",
+      "Spots turn dark brown to black and develop a slightly raised, rough, or warty appearance on the lower leaf surface.",
+      "Corresponding spots on the upper leaf surface are slightly sunken with a narrow yellow halo."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+      "Apply copper-based organic formulations.",
+      "Destroy weeds.",
+      "Incorporate chilli residues deep into soil to rot.",
+      "Sanitize tools.",
+      "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."
+    ],
+    "chemical_treatment": [
+      "Copper Hydroxide 50% WP (Contact Protective Bactericide) — 2.0 g/L of water",
+      "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline) (Antibiotic Bactericide) — 0.1 g/L of water"
+    ],
+    "prevention": [
+      "Pull out any heavily spotted or scabby plants and burn or bury them.",
+      "Stop watering from above (sprinklers).",
+      "Spray Copper Hydroxide (2g/L) + Streptocycline (0.1g/L) to protect the healthy plants."
+    ],
+    "safety_note": "Because it is highly contagious, bacterial spot can destroy up to 50% to 100% of your marketable pod harvest during warm, wet monsoon seasons."
+  },
+  "chilli::healthy": {
+    "crop": "chilli",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "cotton::bacterial_blight": {
+    "crop": "cotton",
+    "disease": "Bacterial Blight",
+    "summary": "Bacterial Blight is a dangerous bacterial disease of cotton. It starts as greasy-looking, blocky angular spots on leaf bottoms, turns leaf veins black, and creates sunken black wounds on stems (Black Arm), causing branches to snap easily. It also rots the cotton bolls, staining and destroying the cotton lint inside.",
+    "symptoms": [
+      "Small, water-soaked, greasy-looking angular spots on the lower leaf surface, bounded by veinlets.",
+      "Spots expand and turn dark brown to black on the upper leaf surface, maintaining an angular shape.",
+      "Spots may spread along the main veins of the leaf (Vein Blight or Black Vein).",
+      "Water-soaked, circular spots develop on young bolls."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+      "Apply copper-based organic formulations.",
+      "Destroy weeds.",
+      "Incorporate cotton residues deep into soil to rot.",
+      "Sanitize tools.",
+      "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."
+    ],
+    "chemical_treatment": [
+      "Copper Oxychloride 50% WP (Contact Protective Bactericide) — 2.0 g to 2.5 g/L of water",
+      "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline) (Antibiotic Bactericide) — 0.1 g/L of water"
+    ],
+    "prevention": [
+      "Pull out any heavily black-stemmed plants and burn or bury them.",
+      "Stop watering from above (sprinklers).",
+      "Spray Copper Oxychloride (2.5g/L) + Streptocycline (0.1g/L) immediately to protect the healthy plants."
+    ],
+    "safety_note": "Bacterial blight is highly destructive. If ignored during warm, wet weather, it can cause severe branch breakage and rot 30% to 50% of your cotton bolls."
+  },
+  "cotton::curl_virus": {
+    "crop": "cotton",
+    "disease": "Curl Virus",
+    "summary": "Cotton Leaf Curl is a dangerous virus disease carried and spread by tiny white insects called whiteflies. Once infected, the plants cannot be cured. The leaves curl up or down, grow thick and hard, and develop small leaf-like outgrowths (enations) underneath. The plant stops growing and produces very few, small, deformed bolls.",
+    "symptoms": [
+      "Mild vein clearing and upward/downward curling of the margins of young terminal leaves.",
+      "Severe upward or downward curling, puckering, crinkling, and thickening of leaves.",
+      "Leaf veins turn thick, dark green, and leathery.",
+      "Formation of cup-shaped or leaf-like outgrowths (enations) on the undersides of leaves along the main veins."
+    ],
+    "organic_treatment": [
+      "Foliar spray of Neem Oil @ 3% (30 mL/L) at 20 and 45 days after transplanting.",
+      "Spray Neem Seed Kernel Extract (NSKE) 5%.",
+      "Plant 3-4 rows of barrier crops (maize, sorghum, or millet) around the cotton field to block migrating whiteflies.",
+      "Destroy and bury weed hosts.",
+      "Apply Pseudomonas fluorescens or Bacillus subtilis as soil drench and foliar spray to improve plant defense."
+    ],
+    "chemical_treatment": [
+      "Imidacloprid 17.8% SL (Systemic Insecticide) — 0.5 mL/L of water",
+      "Flonicamid 50% WG (Systemic Insecticide (Anti-feeding agent)) — 0.3 g/L of water"
+    ],
+    "prevention": [
+      "Pull out any yellow, curly plants immediately, put them in a plastic bag, and bury or burn them away from the field.",
+      "Hang yellow sticky traps in the field to catch whiteflies.",
+      "Spray Imidacloprid (0.5mL/L) or Flonicamid (0.3g/L) to kill whiteflies under the leaves."
+    ],
+    "safety_note": "Early infection (within 40 days of sowing) can lead to severe stunting, reducing your cotton boll harvest by up to 50% to 80%."
+  },
+  "cotton::fussarium_wilt": {
+    "crop": "cotton",
+    "disease": "Fusarium Wilt",
+    "summary": "A soil fungus that blocks the plant's water pipes, causing it to wilt and die.",
+    "symptoms": [
+      "Poor germination, seedlings wilt rapidly.",
+      "Lower leaves show yellowing (chlorosis) or browning at margins. Sudden wilting during heat."
+    ],
+    "organic_treatment": [
+      "Trichoderma viride soil application.",
+      "Manage root-knot nematodes.",
+      "Trichoderma sp."
+    ],
+    "chemical_treatment": [
+      "Carbendazim (Fungicide) — 2g/kg"
+    ],
+    "prevention": [
+      "Apply Trichoderma to soil if early."
+    ],
+    "safety_note": "Very hard to eradicate from soil once established."
+  },
+  "cotton::healthy": {
+    "crop": "cotton",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "groundnut::dead_leaf": {
+    "crop": "groundnut",
+    "disease": "Dead Leaf (Generic)",
+    "summary": "Leaves dying due to old age or lack of water/nutrients.",
+    "symptoms": [
+      "Overall yellowing or browning of older leaves.",
+      "Leaves turn completely brown and dry."
+    ],
+    "organic_treatment": [
+      "None.",
+      "None.",
+      "None."
+    ],
+    "chemical_treatment": [],
+    "prevention": [
+      "Check soil moisture."
+    ],
+    "safety_note": "No major risk unless widespread."
+  },
+  "groundnut::diseased_leaf": {
+    "crop": "groundnut",
+    "disease": "Diseased Leaf (Generic)",
+    "summary": "A generic leaf spot disease requiring broad-spectrum treatment.",
+    "symptoms": [
+      "Unspecified spots or blighting on the leaf.",
+      "Spots expand, causing tissue necrosis and yellowing."
+    ],
+    "organic_treatment": [
+      "Neem spray.",
+      "Sanitation.",
+      "Trichoderma."
+    ],
+    "chemical_treatment": [
+      "Mancozeb (Broad-spectrum Fungicide) — 2g/L"
+    ],
+    "prevention": [
+      "Spray Mancozeb or Chlorothalonil."
+    ],
+    "safety_note": "Yield loss if unchecked."
+  },
+  "groundnut::healthy": {
+    "crop": "groundnut",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "maize::blight": {
+    "crop": "maize",
+    "disease": "Maize Leaf Blight",
+    "summary": "Maize Leaf Blight is a fungal disease that causes large, dry, cigar-shaped tan spots on leaves, which can quickly dry out the entire plant and reduce grain yield.",
+    "symptoms": [
+      "Small, water-soaked, light-green or grayish elliptical spots on lower leaves.",
+      "Large, cigar-shaped tan lesions (1-7 inches long) running parallel to leaf margins (Northern Blight).",
+      "Small, tan, rectangular lesions with reddish-brown margins confined within leaf veins (Southern Blight)."
+    ],
+    "organic_treatment": [
+      "Apply copper-based organic fungicides or potassium bicarbonate early in the cycle as protectants.",
+      "Manage planting density to ensure good airflow and faster drying of leaves.",
+      "Apply commercial biopesticides based on Bacillus subtilis to suppress early fungal development."
+    ],
+    "chemical_treatment": [
+      "Trifloxystrobin + Prothioconazole (Foliar Fungicide (Strobilurin + Triazole)) — As per local label directions",
+      "Mancozeb (Foliar Protectant Fungicide (Multi-site)) — 2.0 kg/ha"
+    ],
+    "prevention": [
+      "Inspect the bottom leaves of your maize for long, gray-tan elliptical spots.",
+      "If spots start moving up towards the ears during flowering, spray an approved fungicide.",
+      "Till the soil after harvest to bury old leaves so the fungus cannot survive the winter."
+    ],
+    "safety_note": "If the leaves near and above the ear are destroyed before grain fill is complete, yield losses can exceed 50%."
+  },
+  "maize::common_rust": {
+    "crop": "maize",
+    "disease": "Maize Rust",
+    "summary": "Maize Rust is a fungal disease that creates small, raised, orange or reddish-brown powdery bumps on leaves, reducing plant strength and grain yield.",
+    "symptoms": [
+      "Small, pale-yellow chlorotic flecks or spots on leaves.",
+      "Flecks turn into raised, powdery, brick-red to cinnamon-brown pustules (Common Rust) or small, densely packed orange-brown circular pustules (Southern Rust).",
+      "Common rust pustules appear on both sides of the leaf, while Southern rust is mainly on the upper surface."
+    ],
+    "organic_treatment": [
+      "Apply copper-based fungicides or sulfur sprays early in the disease cycle.",
+      "Avoid high-density planting to improve airflow and reduce humidity in the crop canopy.",
+      "Limited commercial biological control options, but some Bacillus subtilis strains may offer suppression."
+    ],
+    "chemical_treatment": [
+      "Azoxystrobin + Propiconazole (Fungal Control - Premix (Systemic)) — As per manufacturer directions",
+      "Mancozeb (Fungal Control - Contact) — 2.0 - 2.5 g / Liter of water"
+    ],
+    "prevention": [
+      "Scout the field weekly starting mid-season.",
+      "If red powder-like spots appear on many leaves and weather is wet, spray a registered fungicide.",
+      "Maintain a balanced fertilizer schedule."
+    ],
+    "safety_note": "Southern Rust is highly aggressive and can destroy foliage rapidly if warm, humid weather persists."
+  },
+  "maize::gray_leaf_spot": {
+    "crop": "maize",
+    "disease": "Maize Leaf Spot (Gray Leaf Spot)",
+    "summary": "Gray Leaf Spot is a fungal disease that makes straight, rectangular, gray-tan spots on maize leaves. It blocks the leaves from making food, causing early drying and weak stalks.",
+    "symptoms": [
+      "Small, pinpoint, tan or brown spots surrounded by a yellow, chlorotic halo on lower leaves.",
+      "Faint, water-soaked halo visible around early lesions when held up to the light.",
+      "Lesions elongate into highly distinct, blocky, rectangular 'matchstick' shapes.",
+      "Lesions remain confined within leaf veins, showing sharp parallel margins and blunt ends."
+    ],
+    "organic_treatment": [
+      "Apply copper fungicides early as protectants, though they have limited efficacy once GLS is established.",
+      "Adjust sowing dates to avoid peak humidity periods during flowering.",
+      "Utilize Trichoderma-based biofungicides on the soil to accelerate the decomposition of infected crop residue."
+    ],
+    "chemical_treatment": [
+      "Azoxystrobin + Propiconazole (Foliar Fungicide (Strobilurin + Triazole)) — According to manufacturer guidelines",
+      "Carbendazim (Foliar Fungicide (Benzimidazole)) — As specified on local label"
+    ],
+    "prevention": [
+      "Look for straight-edged, rectangular gray-tan spots on the lower leaves.",
+      "If you see these spots on leaves below the ears during tasseling, apply a systemic fungicide.",
+      "Rotate your maize crop with beans or other non-cereal crops next season."
+    ],
+    "safety_note": "Gray Leaf Spot is one of the most yield-limiting diseases of maize globally, especially under zero-tillage systems."
+  },
+  "maize::healthy": {
+    "crop": "maize",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "rice::bacterialblight": {
+    "crop": "rice",
+    "disease": "Bacterial Blight",
+    "summary": "A bacterial disease causing yellow wavy stripes and drying of rice leaves.",
+    "symptoms": [
+      "Water-soaked yellowish stripes on leaf blades, starting at tips.",
+      "Lesions expand with wavy margin, turning yellowish-white. Ooze appears in morning."
+    ],
+    "organic_treatment": [
+      "None highly effective.",
+      "Field drainage.",
+      "Pseudomonas fluorescens."
+    ],
+    "chemical_treatment": [
+      "Streptocycline + Copper Oxychloride (Bactericide) — 0.1g + 2g/L"
+    ],
+    "prevention": [
+      "Drain the water from the field.",
+      "Do NOT apply urea."
+    ],
+    "safety_note": "Can drastically reduce yield."
+  },
+  "rice::blast": {
+    "crop": "rice",
+    "disease": "Rice Blast",
+    "summary": "Rice blast is a fast fungal disease that makes eye-shaped grey spots on leaves and can rot the neck of the grain head, leaving empty grains. It spreads fast in humid, cloudy weather and with too much urea.",
+    "symptoms": [
+      "Small whitish to gray-green specks/spots on leaves that enlarge into spindle (diamond) shaped lesions",
+      "Lesions develop a gray or white center with a brown to reddish-brown margin, about 10-15 mm long and 3-5 mm wide",
+      "Lesions coalesce, killing large areas of the leaf and giving a scorched, burnt appearance",
+      "Dark brown to black lesions girdle the stem nodes, which may break"
+    ],
+    "organic_treatment": [
+      "Apply biocontrol agents such as Pseudomonas fluorescens or Bacillus subtilis as preventive sprays/seed treatment",
+      "Use resistant varieties",
+      "Balanced fertilisation (avoid excess N)",
+      "Proper spacing and water management",
+      "Bacillus subtilis and Pseudomonas-based products suppress the blast fungus"
+    ],
+    "chemical_treatment": [
+      "Tricyclazole (Systemic fungicide) — 0.6 g/L water Spray at early leaf-blast and again before heading to protect the neck",
+      "Isoprothiolane (Systemic fungicide) — as per label Effective for neck blast at boot/heading",
+      "Azoxystrobin (Strobilurin fungicide) — as per label Rotate chemical groups to avoid resistance"
+    ],
+    "prevention": [
+      "Stop adding urea/nitrogen for now",
+      "Remove and bury badly infected plants",
+      "Spray a recommended fungicide (e.g., tricyclazole) early, and again before flowering to protect the neck",
+      "Manage water level; do not let the field dry out and stress the crop"
+    ],
+    "safety_note": "Neck blast at heading can destroy most of the yield. Protect the crop before flowering, not after symptoms appear on the panicle."
+  },
+  "rice::brownspot": {
+    "crop": "rice",
+    "disease": "Brown Spot",
+    "summary": "Brown spot is a fungal disease that creates thousands of sesame-seed-shaped spots with gray centers on rice leaves. It is often a sign of 'hungry soil' and aggressively strikes fields that are low on fertilizers, making leaves dry up early and staining the grains black.",
+    "symptoms": [
+      "Small, circular to oval dark brown or reddish-brown spots appear on young leaves",
+      "Spots match the size of pinheads initially",
+      "Spots expand into oval, sesame-seed-like shapes with light brown or gray centers",
+      "A prominent dark brown or reddish ring forms around each spot center, surrounded by a bright yellow halo"
+    ],
+    "organic_treatment": [
+      "Treat seeds with bio-agents like Trichoderma viride or Pseudomonas fluorescens formulations",
+      "Apply preventative foliar sprays of fresh neem seed kernel extract (NSKE 5%)",
+      "Provide adequate field water management to alleviate any underlying drought stress factors",
+      "Incorporate beneficial soil microorganisms to improve root health and general nutrient uptake efficiency"
+    ],
+    "chemical_treatment": [
+      "Propiconazole (Systemic Fungicide (Triazole)) — 1.0 mL/Liter of water (or 200 mL/Acre)",
+      "Mancozeb (Protectant Fungicide) — 2.5 g/Liter of water (or 500g/Acre)"
+    ],
+    "prevention": [
+      "Apply a balanced dose of fertilizers, especially Potassium, to feed and strengthen your rice plants.",
+      "Keep your field soil properly moist; do not let the field dry out completely and crack.",
+      "Spray an effective protective fungicide if spots are moving onto your emerging grain heads."
+    ],
+    "safety_note": "Brown spot is closely tied to poor soil health. If left unmanaged, it will stain and shrivel your rice grains, leading to brittle grains that break easily during mill processing."
+  },
+  "rice::tungro": {
+    "crop": "rice",
+    "disease": "Tungro",
+    "summary": "A virus spread by green leafhoppers causing yellow/orange stunted plants.",
+    "symptoms": [
+      "Discoloration of leaves starting from tip to downward (yellow/orange).",
+      "Stunted growth, reduced tillering, rust-colored spots on older leaves."
+    ],
+    "organic_treatment": [
+      "Neem oil to repel insects.",
+      "Remove symptomatic plants early.",
+      "Spiders and natural GLH enemies."
+    ],
+    "chemical_treatment": [
+      "Imidacloprid (Insecticide) — 0.5mL/L"
+    ],
+    "prevention": [
+      "Spray insecticide to kill the green leafhoppers."
+    ],
+    "safety_note": "Can cause massive yield loss if young plants are infected."
+  },
+  "sorghum::anthracnose_and_red_rot": {
+    "crop": "sorghum",
+    "disease": "Anthracnose and Red Rot",
+    "summary": "Anthracnose (Red Rot) is a destructive fungal disease that creates purple- or red-bordered spots on sorghum leaves and lines the leaf center bones with red patches. The fungus also crawls inside the stem, rotting the internal stalk into a marbled red-and-white mush, which makes the plant break and fall over easily in the wind.",
+    "symptoms": [
+      "Small, circular to elliptical spots (1-5 mm) with defined red, purple, or brown borders on leaves",
+      "Small elongated red spots break out along the leaf midrib",
+      "Spots expand and centers fade to a straw-tan color",
+      "Tiny black pimple-like structures (acervuli) appear in the tan center",
+      "Splitting the stem reveals a dry, red-and-white marbled discoloration of the inner juice pith (Red Rot phase)"
+    ],
+    "organic_treatment": [
+      "Treat seeds with Trichoderma viride formulations (4g/kg seed)",
+      "Apply preventive foliar sprays of copper hydroxide or neem formulations at early disease onset",
+      "Avoid inter-row cultivation or entering the fields when the crop canopy is wet with morning dew or rain splash",
+      "Incorporate beneficial soil microbes into the organic manure mix to help break down soilborne pathogen stubble loads"
+    ],
+    "chemical_treatment": [
+      "Tebuconazole (Systemic Fungicide (Triazole)) — 1.0 mL/Liter of water (or 200 mL/Acre)",
+      "Mancozeb (Protectant Fungicide) — 2.5 g/Liter of water (or 500g/Acre)"
+    ],
+    "prevention": [
+      "Check your plants' leaf center bones (midribs) for red spots with tiny black dots inside them.",
+      "Clear out wild grasses like Johnson grass from your field boundaries.",
+      "Apply an effective protective or systemic fungicide spray if spots are spreading onto your upper leaves."
+    ],
+    "safety_note": "Anthracnose is highly aggressive in warm, wet weather. If left unmanaged, it can wipe out your leaves, collapse your stalks, and turn your grain heads into empty, lightweight chaff."
+  },
+  "sorghum::cereal_grain_molds": {
+    "crop": "sorghum",
+    "disease": "Cereal Grain Molds (White and Pink Fungi)",
+    "summary": "Grain mold is a complex disease caused by multiple fungi that attack sorghum seed heads during wet, rainy harvest weeks. It wraps the growing seeds in a white, pink, or gray fuzzy mold layer, making them soft, chalky, and highly brittle, while creating dangerous mold poisons (mycotoxins) that render the crop unsafe to eat.",
+    "symptoms": [
+      "Individual milk-stage grain surfaces develop a fine, faint white, pink, or gray fuzzy discoloration",
+      "Glumes wrapping the grain turn pinkish-red or dark brown early",
+      "A dense cottony or velvety white fungal mat wraps around expanding grains",
+      "Grains fail to harden properly and remain soft or easily chalky when squeezed"
+    ],
+    "organic_treatment": [
+      "Spray fresh neem seed kernel extract (NSKE 5%) or apply bio-control agents early at panicle emergence",
+      "Harvest the crop promptly at physiological maturity (when a black layer forms at the grain base) rather than leaving heads to dry on standing stalks during rains",
+      "Foliar application of Pseudomonas fluorescens or Bacillus subtilis formulations at 50% flowering helps shield florets from mold spores"
+    ],
+    "chemical_treatment": [
+      "Propiconazole + Difenoconazole (Combination Systemic Fungicide) — 1.0 mL/Liter of water (or 200 mL/Acre)"
+    ],
+    "prevention": [
+      "Adjust your next planting dates so your jowar finishes its seeds *after* the heavy monsoon rains have stopped.",
+      "Harvest your crop immediately as soon as seeds develop a tiny black spot at their base (maturity mark), rather than letting them sit in the rain.",
+      "Dry your harvested grain heads quickly on plastic sheets under the hot sun to stop mold growth."
+    ],
+    "safety_note": "Grain mold directly destroys the quality, weight, and safety of your food. Moldy grains break into useless dust during milling and can make humans and animals severely sick due to hidden mold poisons."
+  },
+  "sorghum::covered_kernel_smut": {
+    "crop": "sorghum",
+    "disease": "Covered Kernel Smut (Sori Creamy / Grain Smut)",
+    "summary": "Covered kernel smut (Grain Smut or Jowar Dana Kani Rog) is a seed-borne disease that enters the plant hidden underground when it is a tiny sprout. When the plant grows up and makes seeds, the fungus takes over, replacing individual sorghum grains with smooth, elongated creamy-white or gray capsules packed with a dirty charcoal-black soot powder.",
+    "symptoms": [
+      "Infected plants look completely normal during vegetative growth, as the fungus grows hidden inside the stem channels",
+      "Upon head emergence, individual grain ovaries are replaced by elongated, pale green cylindrical tubes",
+      "The tubes swell into prominent oval galls (sori) wrapped inside a tough, smooth, creamy-white or light gray skin membrane",
+      "Galls look noticeably larger than normal healthy round grains"
+    ],
+    "organic_treatment": [
+      "Treat seeds with Trichoderma viride powder (4-6g/kg seed) or dust with fine sulfur powder before sowing sets",
+      "Thoroughly wash and clean all seed drills and mechanical threshers between farm plots to prevent spore transfer",
+      "Limited field efficacy after crop grows; seed-level biological coatings help minimize initial spore germination rates on the coat"
+    ],
+    "chemical_treatment": [
+      "Carbendazim or Thiram (Fungicide Seed Treatment) — 2.0 - 3.0 g/kg of seed"
+    ],
+    "prevention": [
+      "**Always buy certified seeds or treat your saved seeds with recommended chemical powders before sowing (this stops the disease completely).**",
+      "If you see a few white tubes on standing heads, cover them with a plastic bag, cut them off, and burn them before they burst open.",
+      "Thoroughly clean your tools and threshing yard so black spores do not stick to clean grain bags."
+    ],
+    "safety_note": "Because this disease hides systemically inside the plant, skipping seed treatment can cause high yield losses, turning your food seeds into useless black soot powder during harvest threshing."
+  },
+  "sorghum::head_smut": {
+    "crop": "sorghum",
+    "disease": "Head Smut (White Spreaded / Panicle Destruction)",
+    "summary": "Head smut (White Spreaded or Jowar Tulat Rog) is a highly damaging soil-borne disease. The fungal spores live in the dirt for years and crawl inside the sorghum root hidden underground when the plant is a tiny sprout. When the plant tries to make a seed head, the fungus takes over completely, turning the *entire head* into a single giant white bag that bursts open into a messy mass of black soot and coarse, wire-like dry threads.",
+    "symptoms": [
+      "Plants look normal or slightly stunted during vegetative growth, completely hiding the internal fungus",
+      "Upon heading, the entire expected grain panicle fails to form normally",
+      "The *entire* seed head is replaced by a single massive, swollen, egg-shaped white bag structure",
+      "This massive gall is tightly wrapped inside a thick, silvery-white skin membrane (peridium)"
+    ],
+    "organic_treatment": [
+      "Incorporate high amounts of neem cake or mustard cake into sowed soil lines to reduce soil fungal activity",
+      "Coat seeds with Trichoderma bio-agents",
+      "Clean, wash, and blow down all field tractors, plows, and harvesting machinery before moving away from an infested field to avoid carrying infested soil to clean plots",
+      "Mass soil application of beneficial fungal antagonists can help speed up the degradation of soilborne teliospores over fallow break years"
+    ],
+    "chemical_treatment": [
+      "Flutriafol or Triadimenol (Systemic Triazole Seed / Soil Treatment) — 1.5 - 2.0 g/kg of seed"
+    ],
+    "prevention": [
+      "If you spot a giant white smut bag on a stalk tip, immediately cover it with a cloth bag, cut it down, and burn it before it breaks and spills black dust into your soil.",
+      "**Never save or reuse seeds from this field, and do not grow sorghum in this exact field next year—the soil is now contaminated with spores.**",
+      "Always purchase certified, head-smut-resistant seed hybrids and dress them with systemic chemical powders before planting."
+    ],
+    "safety_note": "Head smut is an absolute ear-head killer. Unlike grain smut which targets a few seeds, head smut completely destroys 100% of the seeds on an infected plant, and because its spores permanently infect your soil, ignoring it can ruin your land's health for sorghum farming for years."
+  },
+  "sorghum::loose_smut": {
+    "crop": "sorghum",
+    "disease": "Loose Smut (Black / Spontaneous Rupture)",
+    "summary": "Loose smut (Black Smut or Jowar Khuli Kani Rog) is a highly contagious seed-borne disease. The fungus enters the plant hidden underground when it is a tiny sprout, stunting its height. When the plant tries to head out, the fungus breaks out early, replacing individual grains with thin gray capsules that burst open *spontaneously inside the leaf sleeve*, releasing a loose cloud of charcoal-black soot powder into the wind and leaving behind empty, curved dark thorny spikes.",
+    "symptoms": [
+      "Infected plants look normal early but show noticeable stunting and thinner stems before heading",
+      "Affected tillers flower early, producing a narrow, premature panicle head",
+      "Individual grain ovaries turn into long, narrow, dark gray pointed galls",
+      "Galls are wrapped inside a very thin, delicate white skin membrane that is highly fragile"
+    ],
+    "organic_treatment": [
+      "Coat seeds with organic sulfur powder or treat with Trichoderma viride formulations (4-6g/kg seed) before planting",
+      "Thoroughly wash and hose down all mechanical threshers and seed drills with water between field blocks to eliminate spore transfer pathways",
+      "Limited field efficacy on standing crops; seed-level biological inoculants help suppress initial spore tube germination underground"
+    ],
+    "chemical_treatment": [
+      "Carbendazim or Carboxin (Systemic Fungicide Seed Dressing) — 2.0 - 3.0 g/kg of seed"
+    ],
+    "prevention": [
+      "**Always buy certified seeds or dress your saved seeds with recommended systemic chemical powders before sowing (this completely stops the underground infection).**",
+      "If you see a short plant producing a loose black soot head early, cover it with a plastic bag immediately, cut it off, and burn it to stop the wind from carrying spores to healthy flowers.",
+      "Wash your tools and cleaning equipment thoroughly so black spores do not contaminate clean crop fields next season."
+    ],
+    "safety_note": "Because loose smut spores burst open early and infect neighboring open flowers directly during the standing season, ignoring this disease will rapidly spread the contamination across your entire village seed lines, causing severe grain losses next harvest."
+  },
+  "sorghum::rust": {
+    "crop": "sorghum",
+    "disease": "Rust",
+    "summary": "Sorghum rust is a highly contagious wind-borne fungal disease that creates thousands of tiny raised blisters on leaves. These blisters rupture open, leaking a fine, brick-red or rusty brown powder that rubs off onto hands and clothes, while turning the surrounding leaf tissue deep purple and causing leaves to dry up and die prematurely.",
+    "symptoms": [
+      "Small, slightly raised, blister-like dots appear on both upper and lower leaf surfaces",
+      "Blisters are initially reddish-purple or dark brown",
+      "The blisters rupture, forming small, elongated, powdery reddish-brown or rust-colored pits (uredinia)",
+      "A prominent purple or deep red necrotic ring forms around each active rust pit"
+    ],
+    "organic_treatment": [
+      "Apply preventive foliar sprays of sulfur dust or copper formulations at early spot appearance",
+      "Spray fresh neem leaf extracts",
+      "Harvest forage sorghum blocks early if a heavy rust sweep strikes near maturity to preserve nutritional leaf biomass before defoliation occurs",
+      "Limited field data; certain hyperparasitic fungi (e.g., Eudarluca caricis) naturally colonize old rust pits in balanced eco-systems"
+    ],
+    "chemical_treatment": [
+      "Propiconazole (Systemic Triazole Fungicide) — 1.0 mL/Liter of water (or 200 mL/Acre)",
+      "Mancozeb (Protectant Fungicide) — 2.5 g/Liter of water (or 500g/Acre)"
+    ],
+    "prevention": [
+      "Check leaf undersides for raised purple dots that leak a red-brick powder when wiped.",
+      "Water your fields early in the morning so the sun can dry the leaves quickly before evening.",
+      "Apply a recommended systemic fungicide spray immediately if you see rust dust moving onto your middle leaves."
+    ],
+    "safety_note": "Sorghum rust spores travel for miles on wind currents. If left unmanaged during cool, damp cycles, it will strip the leaves off your plants early, stunting grain growth and destroying the quality of cattle feed forage."
+  },
+  "soyabean::bacterial_blight": {
+    "crop": "soyabean",
+    "disease": "Bacterial Blight",
+    "summary": "Bacterial Blight is a bacterial disease that attacks soyabean leaves during cool, wet, windy weeks. It creates small angular dark brown spots with thin yellow borders. As the spot centers dry out and turn brittle, the wind rips them right out of the leaf blade, leaving the leaves looking ragged, torn, and full of holes like they were hit by a shotgun blast.",
+    "symptoms": [
+      "Small, angular, water-soaked spots appear on leaves",
+      "Spots turn from light green to a dark brown or blackish color within days",
+      "Spots are surrounded by a prominent, narrow, lime-yellow chlorotic halo",
+      "Lesions expand and merge, creating large jagged dead patches between leaf veins"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays (copper hydroxide or copper oxychloride) at early disease onset",
+      "Never cultivate, weed, or enter field rows when leaves are wet with rain or heavy dews to prevent bacterial smearing",
+      "Limited field data; preventive applications of select Bacillus subtilis strains may help slow bacterial colony setup"
+    ],
+    "chemical_treatment": [
+      "Copper Oxychloride + Streptomycin Sulfate (Bactericide / Protectant Combination Spray) — 2.5 g/Id (Copper) + 100 ppm (Streptomycin) mixture"
+    ],
+    "prevention": [
+      "**Never walk through, weed, or work in your fields when the leaves are wet with rain or morning dew**, as this smears the bacteria across healthy rows.",
+      "Apply a recommended copper-antibicide spray if spots are spreading fast across your top leaves during cool rainy weeks.",
+      "Plow old soyabean stalks deep into the ground after harvest so the bacteria die quickly."
+    ],
+    "safety_note": "This bacterial disease spreads very fast via wind-driven rain. If left unmanaged, it will shred your leaf canopy early, causing pods to drop and reducing bean sizes."
+  },
+  "soyabean::brown_spot": {
+    "crop": "soyabean",
+    "disease": "Septoria Brown Spot",
+    "summary": "Septoria Brown Spot is a common fungal disease that starts as tiny dark chocolate-brown freckles on the oldest bottom leaves of soyabean plants. It thrives in warm, wet weather, causing the infected lower leaves to turn yellow and drop off early, stripping the bottom stems bare and slowly moving upward as the plant tries to fill its pods.",
+    "symptoms": [
+      "Small, irregular, dark chocolate-brown or reddish-brown spots appear on the lowest leaves",
+      "Spots measure 1-4 mm and look like dense brown freckles",
+      "Infected leaves turn pale yellow around the spots",
+      "Lesions merge into large dark brown dead zones, and spots begin to appear on middle canopy leaf layers"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays or sulfur dusts at early vegetative stages before row canopy closure",
+      "Incorporate regular multi-year crop rotation matrices to systematically lower soilborne residue spore loads",
+      "Limited field data; seed treatment or foliar sprays with Pseudomonas fluorescens may help suppress early fungal setup"
+    ],
+    "chemical_treatment": [
+      "Pyraclostrobin (Systemic / Strobilurin Fungicide) — 6.0 - 9.0 fl oz/Acre (or local product equivalent)"
+    ],
+    "prevention": [
+      "Check the lowest bottom leaves of your soyabean plants for tiny dark brown freckle spots.",
+      "Keep rows clear of thick weeds so wind can flow near the ground and dry the lower leaves.",
+      "Apply a recommended protective fungicide spray if spots begin climbing onto your middle leaves before flowering."
+    ],
+    "safety_note": "While brown spot moves slowly, heavy leaf dropping during pod growth starves the developing beans of energy, leading to small, lightweight seeds and reduced oil yields."
+  },
+  "soyabean::ferrugen": {
+    "crop": "soyabean",
+    "disease": "Ferrugen (Soybean Rust)",
+    "summary": "A very fast-spreading fungus that causes rusty powder on the undersides of leaves.",
+    "symptoms": [
+      "Tiny brown or brick-red spots on the lower leaves.",
+      "Spots expand, form raised pustules on the underside of leaves."
+    ],
+    "organic_treatment": [
+      "Limited effectiveness.",
+      "None very effective once spores arrive.",
+      "N/A"
+    ],
+    "chemical_treatment": [
+      "Azoxystrobin (Fungicide) — 1mL/L"
+    ],
+    "prevention": [
+      "Spray a strobilurin/triazole fungicide."
+    ],
+    "safety_note": "Can cause massive yield loss if ignored."
+  },
+  "soyabean::powdery_mildew": {
+    "crop": "soyabean",
+    "disease": "Powdery Mildew",
+    "summary": "A fungus that coats leaves in white powder, usually late in the season.",
+    "symptoms": [
+      "Small, circular white to light-gray 'talcum-powder-like' patches on upper leaf surfaces.",
+      "Patches enlarge and cover entire leaves (both sides)."
+    ],
+    "organic_treatment": [
+      "Sulfur or neem oil.",
+      "None.",
+      "N/A"
+    ],
+    "chemical_treatment": [
+      "Wettable Sulfur (Fungicide) — 3g/L"
+    ],
+    "prevention": [
+      "Evaluate if spraying is worth the cost if harvest is near."
+    ],
+    "safety_note": "Often cosmetic unless infection happens early."
+  },
+  "soyabean::southern_blight": {
+    "crop": "soyabean",
+    "disease": "Southern Blight",
+    "summary": "Southern Blight is a destructive soil-borne fungus disease that attacks soyabean stems right at the ground line during hot, humid weeks. It wraps the lower stem trunk in a thick white cotton-like mold fan holding tiny round beads that look exactly like brown mustard seeds, causing the entire plant to dry up completely while its dead leaves stay stuck to the branches.",
+    "symptoms": [
+      "Localized individual plants show slight wilting or drooping of top leaves during hot afternoons",
+      "The lower stem base near the soil line changes from green to a dark brown, water-soaked hue",
+      "A thick, brilliant white, fan-like mat of cottony fungal threads (mycelium) grows over the stem base and spreads onto surrounding soil debris",
+      "Leaves turn uniform brown, shrivel, and dry out completely but stay firmly attached to the branch nodes"
+    ],
+    "organic_treatment": [
+      "Incorporate massive loads of Trichoderma harzianum bio-agents mixed along with well-rotted manure during land preparation phases",
+      "Drench soil with organic copper lines",
+      "Wrap or hill soil carefully around rows; avoid using sharp hand hoes roughly near the stem base to prevent root wounds",
+      "Apply commercial formulations of Trichoderma viride or Gliocladium virens directly onto the soil line around row bases to parasitize sclerotia structures"
+    ],
+    "chemical_treatment": [
+      "Carbendazim or Thiophanate-methyl (Systemic Fungicide (Soil Drench)) — 1.0 - 1.5 g/Id of water for targeted spot drenching"
+    ],
+    "prevention": [
+      "Pull up dead, dried soyabean plants entirely with their roots and burn them safely away from your cultivation blocks.",
+      "Drench the soil and bases of healthy plants around the edges of the dead patches with a recommended fungicide or Trichoderma mix to stop the mold from crawling further.",
+      "Plow your field very deeply (with a moldboard plow) after harvest to bury the tiny brown beads deep underground so they rot and die."
+    ],
+    "safety_note": "Because the tiny mustard-like beads can live inside your soil for many years, ignoring this disease will permanently poison your land for pulse cultivation, leading to expanding losses each season."
+  },
+  "soyabean::sudden_death_syndrone": {
+    "crop": "soyabean",
+    "disease": "Sudden Death Syndrome",
+    "summary": "Sudden Death Syndrome (SDS) is a serious soil-borne fungus disease that attacks soyabean roots early inside cold, wet, compacted soil. While the fungus stays hidden in the roots, it produces powerful toxins that flow up into the leaves, causing the tissue between the veins to turn yellow and die brown, creating a green leaf skeleton. The leaflets then drop off early, leaving nothing but bare green leaf stalks standing naked like little sticks on the branches.",
+    "symptoms": [
+      "Faint, scattered yellow chlorotic spots appear between the leaf veins on upper trifoliate leaves",
+      "Roots develop minor dark brown dry rot streaks",
+      "Yellow spots expand and merge into large, dramatic streaks between veins, while the tissue directly along the main vein lines stays bright green (interveinal chlorosis)",
+      "The yellow strips turn brown and die, leaving a bright green skeleton appearance across the leaf face"
+    ],
+    "organic_treatment": [
+      "Incorporate high organic composts to stimulate beneficial soil microflora arrays over fallow years",
+      "Avoid any late-season field cultivation operations that could clip or stress already compromised root systems",
+      "Incorporate select fungal antagonists into the soil during field preparation cycles to help compete with soilborne Fusarium strains"
+    ],
+    "chemical_treatment": [
+      "Fluopyram (Systemic Seed Treatment Fungicide) — 0.15 - 0.25 mg/seed (Product dependent)"
+    ],
+    "prevention": [
+      "If your leaves are turning heavily striped, split the lower taproot open with a knife—if the center is clean white but the outer wood ring is brown, it is SDS.",
+      "Do not apply leaf sprays; they cannot reach or cure the root infection hidden underground.",
+      "Mark the infected fields to ensure you break up hard compacted soil layers with deep plowing before the next planting season."
+    ],
+    "safety_note": "SDS is a silent killer because it infects seedlings early but destroys fields suddenly near harvest. If left unmanaged in compacted soils, it will abort your pods and shrink your bean yields drastically."
+  },
+  "soyabean::yellow_mosaic": {
+    "crop": "soyabean",
+    "disease": "Yellow Mosaic Virus",
+    "summary": "Yellow Mosaic Disease (Pila Mojayk Rog) is a dangerous viral infection carried from plant to plant by tiny white flying insects called whiteflies. It turns soyabean leaves a bright golden-yellow color, stunts plant growth, and prevents the crop from making healthy pods, leading to heavy yield losses.",
+    "symptoms": [
+      "Small, bright yellow, scattered yellow spots or flecks break out on young green leaflets",
+      "Spots run parallel to major leaf veins initially",
+      "Yellow patches rapidly expand and merge, covering broad areas of the leaf blade",
+      "Leaves look distinctly checkered with bright golden-yellow patches mixed alongside dark green islands"
+    ],
+    "organic_treatment": [
+      "Spray neem oil formulations (3000 ppm) at 3 mL/Liter of water or apply fresh 5% neem seed kernel extract (NSKE) preventatively",
+      "Install yellow sticky traps across the field at 10-15 per acre to trap flying whiteflies naturally",
+      "Conserve whitefly natural enemies like parasitoid wasps (Encarsia formosa) and predatory mites in chemical-free zones"
+    ],
+    "chemical_treatment": [
+      "Imidacloprid (Systemic Insecticide (Neonicotinoid)) — 0.3 - 0.5 mL/Id of water (or 100 mL/Acre)"
+    ],
+    "prevention": [
+      "Pull out and bury any young soyabean plants that show bright golden-yellow spots early in the season.",
+      "Hang yellow sticky plastic cards across your rows to catch the whiteflies naturally.",
+      "Spray a targeted whitefly-killing systemic insecticide or neem oil immediately to stop insects from spreading the virus further."
+    ],
+    "safety_note": "This is a viral infection; chemicals cannot cure it once inside the soyabean plant. Your only shields are pulling out infected plants early, killing the whitefly insects, and planting certified resistant seeds."
+  },
+  "sugarcane::healthy": {
+    "crop": "sugarcane",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "sugarcane::mosaic": {
+    "crop": "sugarcane",
+    "disease": "Mosaic",
+    "summary": "A virus transmitted by aphids and infected cuttings that stunts plant growth.",
+    "symptoms": [
+      "Mottled appearance on younger growing leaves with light green to yellow patches/stripes.",
+      "Plant appears pale, chlorotic, and stunted. Fewer tillers."
+    ],
+    "organic_treatment": [
+      "Release green lacewings for aphids.",
+      "Vector control.",
+      "Chrysoperla carnea."
+    ],
+    "chemical_treatment": [
+      "Imidacloprid (Insecticide) — 0.5mL/L"
+    ],
+    "prevention": [
+      "Remove the infected plants completely."
+    ],
+    "safety_note": "Cannot be cured; prevention is key."
+  },
+  "sugarcane::redrot": {
+    "crop": "sugarcane",
+    "disease": "Red Rot",
+    "summary": "A devastating fungal disease known as the 'cancer of sugarcane', causing internal red rot.",
+    "symptoms": [
+      "Premature yellowing and wilting of upper leaves. Red patches with ash-colored centers on midribs.",
+      "Cane loses firmness. Leaves wither."
+    ],
+    "organic_treatment": [
+      "None effective for systemic rot.",
+      "Drainage.",
+      "N/A"
+    ],
+    "chemical_treatment": [
+      "Thiophanate methyl (Fungicide) — 0.2%"
+    ],
+    "prevention": [
+      "Uproot and burn the infected canes immediately."
+    ],
+    "safety_note": "Total crop failure is possible."
+  },
+  "sugarcane::rust": {
+    "crop": "sugarcane",
+    "disease": "Common Rust",
+    "summary": "Sugarcane common rust is a fungus that makes orange-brown rusty pustules on the underside of leaves. Severe rust dries the leaves and slows cane growth. It is worst in cool, very humid weather on young cane.",
+    "symptoms": [
+      "Small elongated yellowish spots (1-4 mm) appear, mainly on the lower leaf surface, running parallel to the leaf veins",
+      "Spots enlarge (up to ~20 mm long, 1-3 mm wide) and turn orange-brown to red-brown with a pale chlorotic halo",
+      "Raised rust pustules form on the underside and release orange-brown powdery spores"
+    ],
+    "organic_treatment": [
+      "Remove and destroy heavily infected leaves; maintain field hygiene",
+      "Grow resistant cultivars",
+      "Balanced nutrition and adequate irrigation",
+      "Proper spacing/paired-row planting"
+    ],
+    "chemical_treatment": [
+      "Propiconazole (triazole) (Systemic fungicide) — as per label Only justified in severe outbreaks on susceptible varieties / seed-cane; fungicides are usually not economical for general rust control"
+    ],
+    "prevention": [
+      "Remove and destroy the worst-affected lower leaves",
+      "Make sure the crop has balanced nutrition and enough water",
+      "Improve airflow by detrashing; avoid keeping leaves wet"
+    ],
+    "safety_note": "The best long-term control is planting a rust-resistant variety; spraying is rarely economical across a whole field."
+  },
+  "sugarcane::yellow": {
+    "crop": "sugarcane",
+    "disease": "Yellow Leaf Disease",
+    "summary": "Yellow leaf disease is caused by a virus carried in the seed cane and spread by aphids. It turns the middle vein of the leaf bright yellow, then the leaf tips dry and the cane stays stunted. There is no spray that cures the virus.",
+    "symptoms": [
+      "Intense yellowing of the midrib, first seen on the underside of leaves",
+      "Yellowing spreads from the midrib into the adjoining leaf blade",
+      "Tissue starts to die (necrosis) from the leaf tip towards the base"
+    ],
+    "organic_treatment": [
+      "Use yellow sticky traps and encourage natural aphid enemies to reduce vector spread",
+      "Clean-seed programme",
+      "Plant tolerant varieties",
+      "Vector (aphid) management"
+    ],
+    "chemical_treatment": [
+      "Imidacloprid / systemic aphicide (Insecticide (vector control)) — as per label Targets the aphid vector, not the virus itself; there is no chemical cure for the virus"
+    ],
+    "prevention": [
+      "Remove clearly infected stools and never use them as seed",
+      "Control aphids (yellow sticky traps; aphicide if needed)",
+      "For next crop, plant certified virus-free seed setts"
+    ],
+    "safety_note": "The virus spreads through seed cane. Using clean, certified setts is the only reliable way to keep it out."
+  },
+  "sunflower::downy_mildew": {
+    "crop": "sunflower",
+    "disease": "Downy Mildew",
+    "summary": "Downy Mildew (Surajmukhi ka Mirdul Romil Asita Rog) is a highly damaging water mold disease that attacks sunflower roots underground when fields stay flooded or soggy. It climbs hidden inside the plant, keeping it permanently short and stunted like a tiny wild bush. The leaves turn pale yellow along their lines and grow a thick, brilliant white cottony fur underneath on damp mornings, while the flower heads stay stiff and point straight up at the sky, producing empty, useless seeds.",
+    "symptoms": [
+      "Young seedlings look severely stunted with shortened stem internodes",
+      "Leaves turn pale green or bright yellow directly along the primary veins (veinal chlorosis)",
+      "A thick, cottony, bright white fuzzy mold layer covers the under-surface of the yellowed leaves during humid mornings",
+      "Leaves become thick, wrinkled, leathery, and curl downward at the margins"
+    ],
+    "organic_treatment": [
+      "Treat seeds with biological powder formulations based on Trichoderma harzianum or Pseudomonas fluorescens",
+      "Apply preventive copper sprays",
+      "Thin out and destroy stunted dwarfed plants during early vegetative weeding cycles to lower spore reservoirs",
+      "Soil application of beneficial bio-agents helps speed up the decomposition of old sunflower residues, lowering resting spore counts over fallow breaks"
+    ],
+    "chemical_treatment": [
+      "Metalaxyl-M (Mefenoxam) (Systemic Seed Treatment Fungicide) — 3.0 - 4.0 mL/kg of seed",
+      "Azoxystrobin (Systemic Foliar Fungicide) — 6.0 - 12.0 fl oz/Acre"
+    ],
+    "prevention": [
+      "If you spot tiny, stunted sunflower plants with pale yellow leaves, check the bottom side of the leaf for white cottony fur.",
+      "Immediately dig out any stunted dwarf plants with their roots and burn them to stop the disease from poisoning your soil.",
+      "Dig quick drainage channels to clear any standing rain pools or water logs out of your fields right away."
+    ],
+    "safety_note": "Because this water mold resting spores can live inside your soil for over 5 years, ignoring it will permanently ruin your land for sunflower farming, turning your profitable oilseed flower heads into empty, seedless weeds."
+  },
+  "sunflower::gray_mold": {
+    "crop": "sunflower",
+    "disease": "Gray Mold (Head Rot phase)",
+    "summary": "Gray Mold (Surajmukhi ka Dhunsar Faphundi Rog) is a destructive fungal disease that rots sunflower heads during cold, wet, misty harvest weeks. It enters through bird wounds or old petals, turning the fleshy back of the flower into a soft brown mush and wrapping the seeds in a thick, velvety, mouse-gray or ash-colored furry powder, causing the heavy heads to break off and smash onto the ground.",
+    "symptoms": [
+      "Small, water-soaked, soft gray-brown spots emerge on the fleshy green back of the flower head",
+      "Petals around the face begin to turn brown and look mushy",
+      "The spots expand rapidly, rotting the fleshy tissue of the head into a soft, spongy brown state",
+      "A dense, fuzzy, mouse-gray or ash-gray powdery mold coat blankets the rotting sections heavily under humid weather"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays or sulfur dust formulations at early head emergence",
+      "Drench with neem oil extracts",
+      "Avoid harvesting during wet morning fogs; wait until afternoon sun dries head frames before clipping stalks",
+      "Foliar application of commercial formulations based on Trichoderma harzianum or Bacillus subtilis onto open heads can help outcompete early spore landing pads"
+    ],
+    "chemical_treatment": [
+      "Boscalid or Fenhexamid (Targeted Gray Mold Fungicide (SDHI / An those)) — 6.0 - 8.0 oz/Acre (or local product equivalent)"
+    ],
+    "prevention": [
+      "Check the green backs of your sunflower heads weekly for any soft, water-soaked brown spots after rains.",
+      "Harvest your crop promptly as soon as heads mature, rather than leaving them to sit standing in cold autumn rains.",
+      "Spread your clipped seed heads under a hot sun or use dryers quickly to stop the gray fur from eating the oilseeds."
+    ],
+    "safety_note": "Gray mold acts like a wildfire in damp weather. If left ignored when heads are ripe, it can rot your entire flower crop into useless mush within a single week, destroying your oilseed weight and quality completely."
+  },
+  "sunflower::healthy": {
+    "crop": "sunflower",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "sunflower::leaf_scars": {
+    "crop": "sunflower",
+    "disease": "Leaf Scars (Generic / Abiotic)",
+    "summary": "Physical damage to the leaf from weather or chewing insects that has healed over.",
+    "symptoms": [
+      "Physical tearing or scratching on leaves.",
+      "Edges of the torn tissue dry out and turn brown/tan."
+    ],
+    "organic_treatment": [
+      "None.",
+      "None.",
+      "None."
+    ],
+    "chemical_treatment": [],
+    "prevention": [
+      "Check if caterpillars or beetles are actively eating the plant."
+    ],
+    "safety_note": "No risk unless insect defoliation is extreme."
+  },
+  "tomato::bacterial_spot": {
+    "crop": "tomato",
+    "disease": "Bacterial Spot",
+    "summary": "Bacterial spot is a serious bacterial disease that spreads quickly during warm, rainy weather. It creates tiny, greasy, dark spots with yellow edges on tomato leaves, causing them to drop off early. It also attacks green tomato fruits, turning their skin into rough, dark, scabby craters that make them impossible to sell.",
+    "symptoms": [
+      "Small, circular, water-soaked spots (under 3 mm) appear on young leaves",
+      "Spots look dark green and greasy initially, moving quickly to a dark brown state",
+      "Spots become angular and are ringed by a narrow yellow halo",
+      "The center of leaf spots can dry out and turn papery",
+      "Small, raised, dark lesions appear on immature green fruit, wrapped in a translucent water-soaked border"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays (copper hydroxide or copper oxychloride) at early disease onset",
+      "Use OMRI-approved bio-bactericides",
+      "Never handle, prune, or harvest tomato staking lines when plants are wet with dew or rain splash",
+      "Apply formulations of Bacillus subtilis or bacteriophages targeted against Xanthomonas strains early in the cycle"
+    ],
+    "chemical_treatment": [
+      "Copper Hydroxide + Mancozeb (Protectant Fungicide/Bactericide Tank-mix) — 2.0 g/Liter (Copper) + 2.0 g/Liter (Mancozeb) mixture"
+    ],
+    "prevention": [
+      "**Never prune or walk through your tomato rows when the leaves are wet**, as your clothes and tools will smear the bacteria down the line.",
+      "Water your plants only at the soil line using drip lines; keep water drops off the leaves.",
+      "Spray a recommended copper-mancozeb mix immediately if you see greasy black freckling after warm monsoon rains."
+    ],
+    "safety_note": "This disease spreads like wildfire via rain splash. If left unmanaged during a wet monsoon, it can strip your plants of their leaves, expose fruits to sun burning, and ruin your full harvest value."
+  },
+  "tomato::early_blight": {
+    "crop": "tomato",
+    "disease": "Early Blight",
+    "summary": "Early blight is a common fungal disease that starts on the oldest bottom leaves of tomato plants. It creates large brown spots with circles inside that look exactly like a bullseye or target-board. It makes leaves turn yellow and drop off early, stripping the bottom branches bare and moving up to rot the fruit shoulders with leathery black spots.",
+    "symptoms": [
+      "Small, circular brown to black spots (3-6 mm) emerge on mature, physiologically older lower leaves",
+      "Spots expand into larger circles bounded weakly by large veins",
+      "Classic concentric target-board or bullseye rings appear inside the brown spots",
+      "Surrounding leaf tissue turns distinct pale yellow (chlorotic halo)",
+      "Dark, elongated, sunken lesions with target patterns appear on stems near the soil line"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays or sulfur formulations at early vegetative stages before canopy closure",
+      "Use bio-fungicides",
+      "Stake and prune tomato lines to elevate the canopy off the ground soil splash line and drive airflow",
+      "Apply commercial formulations of Bacillus amyloliquefaciens or Trichoderma viride to suppress early spore setup on leaves"
+    ],
+    "chemical_treatment": [
+      "Chlorothalonil (Protectant Fungicide (Multi-site)) — 1.5 - 2.0 pt/Acre (Product dependent)",
+      "Difenoconazole + Azoxystrobin (Combination Systemic / Translaminar Fungicide) — 8.0 - 14.0 fl oz/Acre"
+    ],
+    "prevention": [
+      "Check your bottom tomato leaves weekly for brown circles with target-board rings inside them.",
+      "Prune off the lowest sick leaves during warm, sunny afternoons to keep the disease from climbing.",
+      "Water early in the morning so the leaves dry quickly under the sun; keep water drops off the leaves."
+    ],
+    "safety_note": "Early blight moves step-by-step up the plant. If left unmanaged during a fruiting wave, it will strip the leaves, burn your fruits under the open sun, and shrink your total harvest weight."
+  },
+  "tomato::healthy": {
+    "crop": "tomato",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "tomato::late_blight": {
+    "crop": "tomato",
+    "disease": "Late Blight",
+    "summary": "Late blight is an extremely aggressive water mold disease that acts like a wildfire in your field. It thrives during cool, foggy, rainy weather, melting healthy green tomato leaves, stems, and branches into rotten black mush within a few days. It also attacks green and ripe fruits, covering them in large, hard, marbled chocolate-brown rot patches that completely ruin them.",
+    "symptoms": [
+      "Small, irregular, pale green to dark green, water-soaked spots appear on leaves",
+      "Lesions quickly enlarge into large, purple-black or brown-black necrotic blighted patches",
+      "A delicate, white, downy fungal-like growth blankets the undersides of leaves along the active borders of the lesions during damp mornings",
+      "Stems develop dark brown, leathery lesions that girdle branches"
+    ],
+    "organic_treatment": [
+      "Apply fixed copper compounds preventatively at regular 5-to-7-day intervals during high-risk cool wet periods",
+      "Incorporate bio-fungicides",
+      "Keep fields perfectly weed-free to maximize wind drying across row paths",
+      "Limited field efficacy during active epidemics; certain biological antagonists may help suppress low levels of spore germination"
+    ],
+    "chemical_treatment": [
+      "Mancozeb (Protectant Fungicide (Multi-site)) — 2.0 - 2.5 g/Liter of water (or 500g/Acre)",
+      "Cyazofamid or Mandipropamid (Systemic / Oomycete Targeted Fungicide) — 2.1 - 2.75 fl oz/Acre (Cyazofamid dependent)"
+    ],
+    "prevention": [
+      "Inspect your fields daily if the weather turns cool, cloudy, and rainy.",
+      "Look on the undersides of dark leaf spots for a delicate white, fuzzy growth in the morning fog.",
+      "Bury or destroy any piles of waste tomatoes sitting near your fields immediately."
+    ],
+    "safety_note": "Late blight is a catastrophic disease. If you do not spray preventative barriers or manage an outbreak instantly, you can lose 100% of your crop yield within a single wet week."
+  },
+  "tomato::leaf_mold": {
+    "crop": "tomato",
+    "disease": "Leaf Mold",
+    "summary": "Tomato leaf mold is a common fungal disease that attacks tomato crops grown inside plastic tunnels or greenhouses where air stays still and damp. It creates light yellow patches on the tops of leaves and coats the bottom side in a thick, velvety, olive-green or grayish fur, causing the leaves to shrivel, roll up, and drop off early.",
+    "symptoms": [
+      "Pale green to light yellow, diffuse patches with indefinite borders appear on the upper surfaces of older lower leaves",
+      "A dense, velvety, olive-green to gray-purple mold mat grows over the corresponding leaf undersides directly beneath the yellow patches",
+      "The upper leaf yellowing deepens into bright chlorotic squares"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays or sulfur formulations frequently during high-humidity cycles",
+      "Use bio-fungicides",
+      "Prune out and remove suckers and lowest leaves up to the first active fruit cluster during dry afternoon hours",
+      "Apply formulations of Bacillus subtilis preventatively to help block fungal spore attachments on leaf undersides"
+    ],
+    "chemical_treatment": [
+      "Difenoconazole (Systemic Fungicide (Triazole)) — 0.5 - 0.8 mL/Liter of water (or local product dependent)"
+    ],
+    "prevention": [
+      "Open all your greenhouse curtains and turn on fans immediately to dry out the air and drop humidity.",
+      "Prune off the lowest tomato leaves up to the first fruit cluster during dry, sunny afternoons to let wind blow through the rows.",
+      "Check leaf backs weekly for olive velvet fur underneath yellow patches."
+    ],
+    "safety_note": "Leaf mold acts fast in stagnant, humid air. If ignored inside a greenhouse, it will strip your leaves early, starve your tomatoes of sugars, and reduce your market yield weights significantly."
+  },
+  "tomato::powdery_mildew": {
+    "crop": "tomato",
+    "disease": "Powdery Mildew",
+    "summary": "Tomato powdery mildew is a fungus that shows yellow patches on top of the leaf and a white powder underneath. In warm, dry weather it can dry up and drop many leaves. Sprays work best as a preventive, before it spreads.",
+    "symptoms": [
+      "Bright yellow blotches/spots (up to ~1.3 cm) appear on the UPPER leaf surface",
+      "White, powdery fungal growth appears on the LOWER leaf surface (Leveillula emerges through the stomata); upper side blotches turn yellow then brown"
+    ],
+    "organic_treatment": [
+      "Wettable sulphur (do not apply in very hot >32 C weather or near oil sprays)",
+      "Potassium bicarbonate sprays",
+      "Horticultural / neem oil",
+      "Resistant varieties",
+      "Plant spacing, pruning and staking for airflow",
+      "Remove the worst-affected leaves"
+    ],
+    "chemical_treatment": [
+      "Azoxystrobin (Strobilurin fungicide) — as per label Rotate with other groups to avoid resistance",
+      "Myclobutanil (Triazole (DMI) fungicide) — as per label",
+      "Wettable sulphur (Protectant) — as per label Apply before disease appears; preventive"
+    ],
+    "prevention": [
+      "Remove the worst-affected leaves and improve airflow by pruning/spacing",
+      "Spray a protectant such as wettable sulphur or potassium bicarbonate early",
+      "Rotate between different fungicide groups if you use chemicals"
+    ],
+    "safety_note": "Heavy leaf loss exposes fruit to sunscald. Treat early and preventively rather than after defoliation."
+  },
+  "tomato::septoria_leaf_spot": {
+    "crop": "tomato",
+    "disease": "Septoria Leaf Spot",
+    "summary": "Septoria Leaf Spot is a common fungal disease that starts as thousands of tiny circular gray freckles with dark rims on the oldest bottom tomato leaves. It thrives during warm, wet weather when rain drops splash fungal spores up from the dirt onto the leaves, causing them to turn yellow and drop off fast. It strips the bottom branches completely bare, moving steadily upward and leaving fruits exposed to sunburn.",
+    "symptoms": [
+      "Numerous tiny, circular spots (1-3 mm) break out on the oldest lower leaves nearest the ground line",
+      "Spots look dark brown initially before changing centers quickly",
+      "Spots develop distinct gray-to-white centers wrapped in a sharp, dark brown or black border ring",
+      "Using a magnifying lens reveals tiny, black, pimple-like fruiting dots (pycnidia) embedded inside the gray center",
+      "Surrounding leaf tissue turns brilliant yellow"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays or sulfur dust formulations at early vegetative stages before row canopy closure",
+      "Incorporate high organic mulch barriers over field soil lines to block rain-spore vertical splash paths",
+      "Foliar application of commercial formulations based on Bacillus subtilis can help outcompete early spore landing pads on leaf faces"
+    ],
+    "chemical_treatment": [
+      "Chlorothalonil (Protectant Fungicide (Multi-site)) — 1.5 - 2.0 pt/Acre (Product dependent)",
+      "Pyraclostrobin or Difenoconazole (Systemic / Translaminar Fungicide) — 6.0 - 9.0 fl oz/Acre (Pyraclostrobin dependent)"
+    ],
+    "prevention": [
+      "Check your lowest bottom tomato leaves weekly for tiny gray pin-spots with dark brown borders.",
+      "Prune off the lowest sick leaves during warm, sunny afternoons and throw them away outside your field lanes.",
+      "Spread a thick layer of clean straw or plastic mulch over the dirt rows to stop rain from splashing dirt spores onto leaves."
+    ],
+    "safety_note": "While this disease rarely rot tomato fruits directly, stripping the leaf canopy early starves the plant of energy, leading to small, flavorless fruits and heavy yield reductions from sunburn."
+  },
+  "tomato::spider_mites_two_spotted_spider_mite": {
+    "crop": "tomato",
+    "disease": "Two-Spotted Spider Mite",
+    "summary": "Tiny sap-sucking pests that thrive in hot, dry weather, causing leaves to turn yellow and webbed.",
+    "symptoms": [
+      "Mottled, speckled, or 'stippled' appearance on upper leaf surfaces (tiny white/yellow dots).",
+      "Leaves turn yellow and develop a crusty tan/yellow texture underneath."
+    ],
+    "organic_treatment": [
+      "Neem oil or insecticidal soap (ensure underside coverage).",
+      "Reduce dust (spray water on dirt roads).",
+      "Release predatory mites (Phytoseiulus persimilis)."
+    ],
+    "chemical_treatment": [
+      "Abamectin (Miticide) — 1mL/L"
+    ],
+    "prevention": [
+      "Spray an approved miticide or neem oil, targeting the UNDERSIDE of the leaves."
+    ],
+    "safety_note": "Can kill the plant if webs cover it completely."
+  },
+  "tomato::target_spot": {
+    "crop": "tomato",
+    "disease": "Target Spot",
+    "summary": "Target spot is a serious fungal disease that pops up across all leaf layers of tomato plants during warm, damp, foggy weeks. It creates circular brown spots with highly fine, tight concentric rings inside and sharp yellow rims. Unlike other spot diseases, it directly attacks tomato fruits, covering them in round sunken craters that crack open deeply in the center, causing fruits to rot and split.",
+    "symptoms": [
+      "Small, pinpoint, dark brown spots break out scattered across leaf blades across all canopy layers",
+      "Spots look flat and dry initially",
+      "Spots expand into circular lesions (3-10 mm) showing fine, tightly packed concentric rings inside the brown core",
+      "A sharp, striking yellow chlorotic ring wraps around each spot margin",
+      "Small, dark brown elongated streaks appear on petioles and staking stems"
+    ],
+    "organic_treatment": [
+      "Apply preventative fixed copper sprays or sulfur formulations frequently during warm wet monsoon periods",
+      "Use bio-fungicides",
+      "Prune out and remove suckers and lowest leaves during dry sunny middays to optimize wind movement through staking lines",
+      "Apply formulations of Bacillus subtilis preventatively to help suppress early fungal spore attachments on leaf faces"
+    ],
+    "chemical_treatment": [
+      "Fluxapyroxad + Pyraclostrobin (Combination Systemic / SDHI / Strobilurin Fungicide) — 4.0 - 8.0 fl oz/Acre (Product dependent)"
+    ],
+    "prevention": [
+      "Check your tomato leaves for small brown circles with highly fine, tight target rings and sharp yellow rims.",
+      "Prune off low interior leaves and thin out thick rows during dry sunny middays to let wind dry out the canopy air layers.",
+      "Spray a recommended systemic fungicide immediately if you see round spots and skin cracking starting on your fruits after warm rains."
+    ],
+    "safety_note": "Target spot damages fruits directly and aggressively. If left unmanaged during a warm rainy month, it will split your developing tomatoes open on the vines, making your entire harvest worthless for market sale."
+  },
+  "tomato::tomato_mosaic_virus": {
+    "crop": "tomato",
+    "disease": "Tomato Mosaic Virus",
+    "summary": "Tomato Mosaic Virus is an extremely contagious disease that spreads like a cold. It does not fly on the wind; instead, it catches onto your hands, clothes, or pruning knives and smears from plant to plant when you trim or tie the vines. It turns leaves into a yellow-and-green blistered paint design, twists them into thin green shoestrings, and rots the inside of tomato fruits with brown woody rings, making them impossible to sell.",
+    "symptoms": [
+      "Young leaflets show a faint alternating light-and-dark green mottled design",
+      "Slight leaf wrinkling or blistering on emerging top foliage layers",
+      "Leaves develop an intense yellow-green checkered or mosaic mottle pattern",
+      "Leaf blades turn bumpy and blistered, raising dark green island bubbles over pale tissue backgrounds",
+      "Leaflets curl down slightly and can narrow into irregular shapes"
+    ],
+    "organic_treatment": [
+      "Soak seeds in a 10% Trisodium Phosphate solution before sowing to completely deactivate surface virus particles on seed coats",
+      "**Train workers to always prune and tie flagged virus-infected lines last during the day to prevent carrying sap to clean plants**",
+      "Limited field data; cross-protection using mild engineered virus strains has been used historically in specialized greenhouse tracks"
+    ],
+    "chemical_treatment": [
+      "Trisodium Phosphate (TSP) or Skim Milk (Disinfectant Tool) (Virucidal Tool / Equipment Sanitizer) — 10% TSP solution in water dip tank, or full-strength skim milk bucket"
+    ],
+    "prevention": [
+      "Pull out and bury any young tomato plants that show bumpy green-and-yellow blistered leaves early in the season.",
+      "**Dip your pruning shears and wash your hands in a bucket of fresh skim milk or 10% TSP powder solution between trimming each tomato plant.**",
+      "Always handle or prune sick tomato rows strictly *last* during the day so you do not carry the virus sap onto healthy rows."
+    ],
+    "safety_note": "This virus is incredibly tough and survives on dry tools, old stakes, and greenhouse strings for years. If ignored during pruning, you will personally carry the virus down your rows, blistering your leaves and turning your valuable tomatoes into brown woody waste."
+  },
+  "tomato::tomato_yellow_leaf_curl_virus": {
+    "crop": "tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "summary": "Tomato Yellow Leaf Curl Virus (Tomato ka Matha Bandha Rog or Pila Murjhan) is a highly destructive viral disease carried from plant to plant by tiny, white flying insects called whiteflies. It thrives during hot, dry summer months, turning new tomato leaf edges bright yellow and curling them tightly upward into little spoon or bowl shapes. It stops the tomato plant from growing tall, bunching it up into a useless yellow dwarf bush that drops all its flowers and produces zero tomatoes.",
+    "symptoms": [
+      "Young emerging leaflets on top shoots look pale light green with minor yellowing along edges",
+      "Slight upward curling or cupping of leaflet margins",
+      "Leaves turn distinctly yellow-green or lime-yellow across edges",
+      "Leaflets cup upward aggressively, looking like tiny deep bowls or spoons (cupping symptom)",
+      "Stem internodes shorten dramatically, giving top shoots a clustered appearance"
+    ],
+    "organic_treatment": [
+      "Spray neem oil formulations (3000 ppm) at 3-5 mL/Liter or apply fresh 5% neem seed kernel extract (NSKE) preventatively to act as a feeding deterrent",
+      "Install yellow sticky plastic cards across rows at 15-20 cards per acre to trap flying whiteflies naturally and lower vector loads",
+      "Conserve whitefly natural predators like lacewings, ladybird beetles, and mirid bugs in chemical-free field boundary buffer zones"
+    ],
+    "chemical_treatment": [
+      "Imidacloprid or Thiamethoxam (Systemic Insecticide (Neonicotinoid)) — 0.4 - 0.5 mL/Id of water (or local product dependent)"
+    ],
+    "prevention": [
+      "Pull out and bury any young tomato plants that show bright yellow edges and upward spoon cupping early in the season.",
+      "Hang bright yellow sticky plastic cards across your rows to catch and glue flying whiteflies naturally.",
+      "Spray a targeted whitefly-killing systemic insecticide or neem oil immediately to stop insects from spreading the virus further."
+    ],
+    "safety_note": "This is a viral infection; chemicals cannot cure it once inside the tomato plant. If infected early in the vegetative stage, the plant will become 100% sterile and produce zero yield, causing total crop failure on those lines."
+  },
+  "wheat::healthy": {
+    "crop": "wheat",
+    "disease": "healthy",
+    "summary": "The leaf looks healthy — no supported disease pattern detected.",
+    "symptoms": [],
+    "organic_treatment": [],
+    "chemical_treatment": [],
+    "prevention": [
+      "Continue regular field scouting.",
+      "Keep irrigation balanced; avoid prolonged leaf wetness.",
+      "Remove crop residue after harvest."
+    ],
+    "safety_note": "No treatment needed. Re-check if new spots, curling, or yellowing appear."
+  },
+  "wheat::septoria": {
+    "crop": "wheat",
+    "disease": "Septoria Tritici Blotch",
+    "summary": "A fungus that causes brown rectangular spots with black specks on leaves, reducing yield if it reaches the top leaves.",
+    "symptoms": [
+      "Small, chlorotic (yellow) spots on lower leaves.",
+      "Spots expand into irregular, light tan to reddish-brown lesions, often rectangular/elongated, restricted by veins."
+    ],
+    "organic_treatment": [
+      "None highly effective.",
+      "Stubble management.",
+      "N/A"
+    ],
+    "chemical_treatment": [
+      "Propiconazole + Azoxystrobin (Fungicide) — 1mL/L"
+    ],
+    "prevention": [
+      "Apply a recommended fungicide if the weather is rainy."
+    ],
+    "safety_note": "Protecting the flag leaf is critical for yield."
+  },
+  "wheat::stripe_rust": {
+    "crop": "wheat",
+    "disease": "Stripe Rust (Yellow Rust)",
+    "summary": "A highly destructive fungus causing yellow powdery stripes on leaves.",
+    "symptoms": [
+      "Small, bright yellow to orange-yellow powdery pustules on leaves.",
+      "Pustules align to form narrow, linear stripes parallel to leaf veins."
+    ],
+    "organic_treatment": [
+      "Not highly effective.",
+      "None once infected.",
+      "N/A"
+    ],
+    "chemical_treatment": [
+      "Tebuconazole (Fungicide) — 1mL/L"
+    ],
+    "prevention": [
+      "Spray an approved triazole fungicide immediately."
+    ],
+    "safety_note": "Can decimate yields if untreated."
+  }
+}

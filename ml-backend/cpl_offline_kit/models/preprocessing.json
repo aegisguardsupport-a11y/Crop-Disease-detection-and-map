@@ -1,0 +1,12 @@
+{
+  "input_size": [
+    224,
+    224
+  ],
+  "channels": 3,
+  "pixel_range": "0..255 float32",
+  "color": "RGB",
+  "output": "softmax probabilities",
+  "num_classes": 72,
+  "note": "MobileNetV3 normalizes internally; feed raw 0..255 RGB floats."
+}
