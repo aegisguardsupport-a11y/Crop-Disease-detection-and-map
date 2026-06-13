@@ -1,0 +1,6 @@
+# Streamlit demo dependencies — separate from the API server's deps.
+# Install with:  pip install -r streamlit_app/requirements.txt
+streamlit>=1.40,<2.0
+httpx>=0.27,<1.0
+pandas>=2.0,<3.0
+pillow>=10.0,<12.0

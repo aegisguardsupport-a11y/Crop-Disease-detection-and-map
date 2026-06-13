@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/cpl_crop/__init__.py
+src/cpl_crop/config.py
+src/cpl_crop/labels.py
+src/cpl_crop/model_loader.py
+src/cpl_crop/preprocessing.py
+src/cpl_crop_disease.egg-info/PKG-INFO
+src/cpl_crop_disease.egg-info/SOURCES.txt
+src/cpl_crop_disease.egg-info/dependency_links.txt
+src/cpl_crop_disease.egg-info/top_level.txt
+tests/test_labels.py
+tests/test_model_loader.py
+tests/test_preprocessing.py

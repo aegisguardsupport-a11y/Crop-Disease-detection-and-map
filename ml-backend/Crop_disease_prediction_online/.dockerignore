@@ -1,0 +1,68 @@
+# Source control
+.git/
+.gitignore
+.gitattributes
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+streamlit_app/.venv/
+
+# Test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project local artifacts
+.env
+*.log
+predictions.parquet
+mlruns/
+artifacts/
+runs/
+outputs/
+notebooks/
+data/
+monitoring/*.jsonl
+monitoring/*.html
+monitoring/*.parquet
+
+# Heavy zip kept locally; the extracted contents are what we ship
+cpl_crop_disease_model_bundle.zip
+
+# Local test artifacts
+scripts/wheat_test.jpg
+scripts/realtest_*
+scripts/last_overlay.png
+scripts/last_v2_*.png
+scripts/tomato_leaf.jpg
+scripts/potato_leaf.jpg
+scripts/cabbage_leaf.jpg
+
+# Markdown / docs (not needed at runtime)
+*.md
+docs/
+
+# Don't ship the development requirements file
+requirements-dev.txt

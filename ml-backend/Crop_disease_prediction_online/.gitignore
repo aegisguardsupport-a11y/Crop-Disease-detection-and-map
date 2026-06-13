@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+*.log
+
+# Phase 5 artifacts
+predictions.parquet
+mlruns/
+artifacts/
+monitoring/*.jsonl
+monitoring/*.html
+monitoring/*.parquet
+
+# Large model bundle: should be tracked via DVC / model registry, not git.
+cpl_crop_disease_model_bundle.zip
+exports/saved_model/variables/variables.data-00000-of-00001
+exports/cpl_crop_disease_finetuned.tflite
+
+# YOLO leaf segmenter weights (trained in image_segmentation project)
+models/leaf_seg/*.pt
+models/leaf_seg/*.onnx
+
+# Hierarchical bundle (large binaries; tracked in source project, mirrored here)
+models/hierarchical/models/*.pt
+models/hierarchical/models/*.joblib
+models/hierarchical/models/per_crop_heads/*.joblib

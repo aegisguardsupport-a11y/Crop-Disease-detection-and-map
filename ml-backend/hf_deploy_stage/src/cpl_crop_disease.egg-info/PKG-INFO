@@ -1,0 +1,95 @@
+Metadata-Version: 2.4
+Name: cpl-crop-disease
+Version: 0.1.0
+Summary: MLOps service for the CPL crop-disease classifier (EfficientNetB2, 139 classes)
+Author: CPL Hackathon
+License: Proprietary
+Requires-Python: <3.13,>=3.12
+Description-Content-Type: text/markdown
+
+# CPL Crop-Disease Prediction — MLOps Service
+
+Production-grade serving + explainability stack around the
+fine-tuned EfficientNetB2 crop-disease classifier
+(139 `crop::disease` classes, 93.6% top-1 / 99.4% top-3 on test set).
+
+## Project status
+
+| Phase | Scope | State |
+|---|---|---|
+| 1 | Project skeleton, packaging, model loader, smoke test | **in progress** |
+| 2 | FastAPI inference service with Prometheus + structured logs | planned |
+| 3 | Grad-CAM++ + Integrated Gradients explainability | planned |
+| 4 | Docker, docker-compose, GitHub Actions CI | planned |
+| 5 | MLflow registry + Evidently drift monitoring | planned |
+| 6 | Streamlit demo UI (optional) | planned |
+
+## Layout
+
+```
+.
+├── exports/                       # the model bundle (extracted from zip)
+│   ├── saved_model/               # TF SavedModel
+│   ├── cpl_crop_disease_finetuned.tflite
+│   ├── cpl_id_to_label.json
+│   └── cpl_preprocessing_config.json
+├── src/
+│   └── cpl_crop/                  # importable Python package
+│       ├── config.py              # pydantic-settings configuration
+│       ├── labels.py              # label-map loader
+│       ├── preprocessing.py       # PIL → numpy preprocessing
+│       └── model_loader.py        # singleton SavedModel wrapper
+├── tests/                         # pytest suite (incl. @slow smoke test)
+├── configs/                       # per-environment env files
+├── notebooks/                     # exploratory notebooks
+├── pyproject.toml                 # build + tool config
+├── requirements*.txt              # pinned ranges
+├── Makefile / tasks.py            # task runner (Linux/Win)
+└── .env.example                   # environment template
+```
+
+## Getting started (Phase 1)
+
+The repo ships with a Python 3.12 virtualenv at `./.venv`.
+
+```powershell
+# Activate venv
+.\.venv\Scripts\Activate.ps1
+
+# Install dev dependencies
+pip install -r requirements-dev.txt
+pip install -e .
+
+# Quick checks
+ruff check src tests
+mypy src
+pytest -m "not slow"
+
+# Full smoke test (loads the SavedModel; ~10s on CPU)
+pytest -m slow -v
+```
+
+Or with the cross-platform task runner:
+
+```powershell
+inv install
+inv check       # lint + typecheck + fast tests
+inv smoke       # full model-loading test
+```
+
+## Model bundle
+
+The bundle is **not** committed to git (it is large and should be
+distributed via a model registry). The expected layout under `./exports/`
+matches the upstream zip — see `exports/README.md` for full input/output
+contract.
+
+Input: 260×260 RGB float32, values in `[0, 255]` (no `/255` — the
+EfficientNetB2 backbone has its own normalisation layer).
+
+Output: shape `(1, 139)`, softmax probabilities over `crop::disease`
+labels.
+
+## License
+
+Proprietary — internal hackathon project.
