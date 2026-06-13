@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 CPL Crop Doctor — Premium AI Diagnostics</title>
+    
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styling stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Blobs -->
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+
+    <div class="app-container">
+        <!-- COLLAPSIBLE SIDEBAR -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🌿</span>
+                    <span class="logo-text">CPL Crop Doctor</span>
+                </div>
+                <button class="sidebar-toggle" id="sidebarCollapseBtn" aria-label="Toggle Sidebar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#diagnostics" class="nav-item active" data-view="diagnostics">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    <span>Diagnostics Hub</span>
+                </a>
+                <a href="#inspector" class="nav-item" data-view="inspector">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+                    <span>Model Inspector</span>
+                </a>
+                <a href="#analytics" class="nav-item" data-view="analytics">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+                    <span>Logs & Metrics</span>
+                </a>
+                <a href="#settings" class="nav-item" data-view="settings">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                    <span>Configuration</span>
+                </a>
+            </nav>
+
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="status-dot online"></span>
+                    <span class="status-text">Backend Sim Connected</span>
+                </div>
+                <div class="model-meta">
+                    <div>yolov8s-seg: v2.1</div>
+                    <div>efficientnetv2-b2: v3.0</div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT CONTAINER -->
+        <main class="main-content">
+            <!-- HEADER -->
+            <header class="top-header">
+                <div class="header-left">
+                    <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    </button>
+                    <h1 class="header-title" id="viewTitle">Diagnostics Hub</h1>
+                </div>
+                <div class="header-right">
+                    <div class="demo-select-container">
+                        <label for="demoScenario">Test Scenario:</label>
+                        <select id="demoScenario" class="custom-select">
+                            <option value="tomato_late_blight">🟢 Tomato Late Blight (Accept)</option>
+                            <option value="sugarcane_rust">🟡 Sugarcane Rust (Expert Queue)</option>
+                            <option value="blurry_leaf">🔴 Blurry Photo (Rejected/Retake)</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+
+            <!-- VIEW 1: DIAGNOSTICS HUB -->
+            <section id="view-diagnostics" class="content-view active">
+                <div class="grid-2col">
+                    <!-- Left Column: Upload and Pipeline -->
+                    <div class="pane-column">
+                        <!-- Upload Card -->
+                        <div class="glass-card upload-card">
+                            <div class="card-header">
+                                <h2 class="card-title">1. Upload Crop Leaf Image</h2>
+                                <span class="card-subtitle">Drop raw photos from fields to analyze</span>
+                            </div>
+                            
+                            <div class="dropzone" id="dropzone">
+                                <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                                <div class="dropzone-content">
+                                    <div class="dropzone-icon">
+                                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                                    </div>
+                                    <h3>Drag & Drop Leaf Photo</h3>
+                                    <p>Supports JPEG, PNG, WEBP (Max 10MB)</p>
+                                    <button class="btn btn-primary" id="selectBtn">Browse Files</button>
+                                </div>
+                                <div class="dropzone-preview" id="dropzonePreview" style="display: none;">
+                                    <canvas id="originalCanvas" class="preview-canvas"></canvas>
+                                    <div class="preview-overlay-controls">
+                                        <button class="btn btn-danger btn-sm" id="resetBtn">Remove Image</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stepper Progress Card -->
+                        <div class="glass-card stepper-card">
+                            <div class="card-header">
+                                <h2 class="card-title">2. Processing pipeline telemetry</h2>
+                                <span class="card-subtitle">Real-time trace of algorithmic checks</span>
+                            </div>
+                            
+                            <div class="stepper" id="pipelineStepper">
+                                <div class="step disabled" id="step-quality">
+                                    <div class="step-icon">1</div>
+                                    <div class="step-content">
+                                        <div class="step-header">
+                                            <span class="step-title">Image Quality Verification</span>
+                                            <span class="step-badge badge-pending">Pending</span>
+                                        </div>
+                                        <p class="step-desc">Analyzing brightness, contrast, blur, and resolution.</p>
+                                        <div class="step-details" id="details-quality" style="display: none;"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="step disabled" id="step-segmentation">
+                                    <div class="step-icon">2</div>
+                                    <div class="step-content">
+                                        <div class="step-header">
+                                            <span class="step-title">YOLOv8 Leaf Isolation</span>
+                                            <span class="step-badge badge-pending">Pending</span>
+                                        </div>
+                                        <p class="step-desc">Finding leaves and drawing pixel boundaries (masks).</p>
+                                        <div class="step-details" id="details-segmentation" style="display: none;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="step disabled" id="step-area">
+                                    <div class="step-icon">3</div>
+                                    <div class="step-content">
+                                        <div class="step-header">
+                                            <span class="step-title">Leaf-Area Validation</span>
+                                            <span class="step-badge badge-pending">Pending</span>
+                                        </div>
+                                        <p class="step-desc">Verifying leaf fills an acceptable proportion of frame.</p>
+                                        <div class="step-details" id="details-area" style="display: none;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="step disabled" id="step-extraction">
+                                    <div class="step-icon">4</div>
+                                    <div class="step-content">
+                                        <div class="step-header">
+                                            <span class="step-title">Standardized Leaf Cropping</span>
+                                            <span class="step-badge badge-pending">Pending</span>
+                                        </div>
+                                        <p class="step-desc">Extracting cropped 260x260 portrait leaf and flat background.</p>
+                                        <div class="step-details" id="details-extraction" style="display: none;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="step disabled" id="step-classification">
+                                    <div class="step-icon">5</div>
+                                    <div class="step-content">
+                                        <div class="step-header">
+                                            <span class="step-title">Disease Classification AI</span>
+                                            <span class="step-badge badge-pending">Pending</span>
+                                        </div>
+                                        <p class="step-desc">Predicting specific crop disease using retrained EfficientNetV2.</p>
+                                        <div class="step-details" id="details-classification" style="display: none;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Results & Advisory -->
+                    <div class="pane-column">
+                        <!-- Empty Hub State -->
+                        <div class="glass-card empty-state-card" id="emptyResultState">
+                            <div class="empty-state-content">
+                                <span class="empty-state-large-icon">🌿</span>
+                                <h2>Awaiting Diagnostic Input</h2>
+                                <p>Upload an image on the left or click "Browse Files" to begin. The diagnostic results, confidence scores, and RAG treatments will render here automatically.</p>
+                            </div>
+                        </div>
+
+                        <!-- Results Container (hidden initially) -->
+                        <div class="results-container" id="resultsContainer" style="display: none;">
+                            <!-- Decision Banner -->
+                            <div class="decision-banner" id="decisionBanner">
+                                <div class="decision-main">
+                                    <span class="decision-icon" id="decisionIcon">🟢</span>
+                                    <div>
+                                        <h3 class="decision-title" id="decisionTitle">AUTO-ACCEPT DIAGNOSIS</h3>
+                                        <span class="decision-subtitle" id="decisionSubtitle">High system confidence, safe for autonomous action</span>
+                                    </div>
+                                </div>
+                                <div class="decision-value" id="decisionValue">92.4%</div>
+                            </div>
+
+                            <!-- Crop Mask Visuals Card -->
+                            <div class="glass-card segment-visuals-card">
+                                <div class="card-header">
+                                    <h2 class="card-title">Leaf Mask Isolation</h2>
+                                    <span class="card-subtitle">YOLO Bounding Outline vs standard 260px model input</span>
+                                </div>
+                                <div class="segment-grid">
+                                    <div class="image-box">
+                                        <canvas id="maskCanvas" class="result-canvas"></canvas>
+                                        <span>YOLO Mask Overlay</span>
+                                    </div>
+                                    <div class="image-box">
+                                        <canvas id="cropCanvas" class="result-canvas"></canvas>
+                                        <span>Standardized Input (260x260)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Diagnosis Summary Card -->
+                            <div class="glass-card diagnosis-details-card">
+                                <div class="card-header">
+                                    <h2 class="card-title">Top Disease Predictions</h2>
+                                    <span class="card-subtitle">Marginal probability values from EfficientNetV2</span>
+                                </div>
+                                <div class="predictions-list" id="predictionsList">
+                                    <!-- Dynamic prediction bars -->
+                                </div>
+                            </div>
+
+                            <!-- RAG Treatments Card -->
+                            <div class="glass-card advisory-card">
+                                <div class="card-header">
+                                    <h2 class="card-title">RAG Treatment Advisory</h2>
+                                    <span class="card-subtitle">Verified treatment plans retrieved from ChromaDB manuals</span>
+                                </div>
+                                
+                                <div class="advisory-tabs">
+                                    <button class="advisory-tab active" data-tab="symptoms">Symptoms</button>
+                                    <button class="advisory-tab" data-tab="organic">Organic Cures</button>
+                                    <button class="advisory-tab" data-tab="chemical">Chemical Cures</button>
+                                    <button class="advisory-tab" data-tab="prevention">Prevention</button>
+                                </div>
+                                
+                                <div class="advisory-tab-content" id="advisoryContent">
+                                    <!-- Dynamic content -->
+                                </div>
+                            </div>
+
+                            <!-- ChromaDB Chunks Citation -->
+                            <div class="glass-card citations-card">
+                                <div class="citation-header" id="citationToggle">
+                                    <div class="title-group">
+                                        <h2 class="card-title">ChromaDB Sources</h2>
+                                        <span class="card-subtitle">Documents retrieved to ground Gemini responses</span>
+                                    </div>
+                                    <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
+                                </div>
+                                <div class="citations-list" id="citationsList" style="display: none;">
+                                    <!-- Citations load here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 2: MODEL INSPECTOR -->
+            <section id="view-inspector" class="content-view">
+                <div class="grid-2col">
+                    <!-- Left: Grad-CAM Explanations -->
+                    <div class="pane-column">
+                        <div class="glass-card gradcam-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Grad-CAM Explainability</h2>
+                                <span class="card-subtitle">Visualizing pixels that directed classification weight</span>
+                            </div>
+                            
+                            <div class="gradcam-viewport">
+                                <div class="gradcam-container">
+                                    <canvas id="gradcamCleanCanvas" class="gradcam-base"></canvas>
+                                    <canvas id="gradcamHeatCanvas" class="gradcam-heat"></canvas>
+                                </div>
+                                <div class="gradcam-legend">
+                                    <span>Background (Low Focus)</span>
+                                    <div class="heatmap-gradient-bar"></div>
+                                    <span>Lesion/Spot (High Focus)</span>
+                                </div>
+                            </div>
+
+                            <div class="gradcam-controls">
+                                <div class="slider-group">
+                                    <div class="slider-label">
+                                        <span>Heatmap Opacity</span>
+                                        <span id="opacityVal">60%</span>
+                                    </div>
+                                    <input type="range" id="opacitySlider" min="0" max="100" value="60" class="custom-slider">
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-outline btn-sm active" id="methodVanilla">Saliency</button>
+                                    <button class="btn btn-outline btn-sm" id="methodSmooth">SmoothGrad</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fused Confidence Breakdown -->
+                        <div class="glass-card confidence-fusion-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Confidence Signal Fusion</h2>
+                                <span class="card-subtitle">Weighted inputs composing final decision threshold</span>
+                            </div>
+                            <div class="confidence-fusion-grid">
+                                <div class="gauge-column">
+                                    <div class="radial-gauge-container">
+                                        <svg viewBox="0 0 100 100" class="radial-gauge">
+                                            <circle cx="50" cy="50" r="40" class="gauge-bg"></circle>
+                                            <circle cx="50" cy="50" r="40" class="gauge-fill" id="fusedGaugeFill"></circle>
+                                        </svg>
+                                        <div class="gauge-center">
+                                            <span class="gauge-value" id="fusedGaugeValue">0%</span>
+                                            <span class="gauge-label">Fused</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="signals-weights-list" id="signalsWeightsList">
+                                    <!-- Dynamic list of signals -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Multi-Model Cross-Check & Latency -->
+                    <div class="pane-column">
+                        <!-- Multi-Model Cross-Check -->
+                        <div class="glass-card crosscheck-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Multi-Model Crop Verifier</h2>
+                                <span class="card-subtitle">Verifying correct crop taxonomy via 3 independent voting pipelines</span>
+                            </div>
+
+                            <div class="crosscheck-banner" id="crosscheckBanner">
+                                <span class="crosscheck-badge" id="crosscheckBadge">✓ Crop Verified</span>
+                                <p class="crosscheck-summary" id="crosscheckSummary">EfficientNet classifier, Hierarchical router, and CLIP match crop labels.</p>
+                            </div>
+
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Neural Pipeline</th>
+                                        <th>Class Prediction</th>
+                                        <th>Confidence</th>
+                                        <th>Agreement</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="crosscheckTableBody">
+                                    <!-- Dynamic rows -->
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Performance Latency Card -->
+                        <div class="glass-card latency-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Pipeline Response Telemetry</h2>
+                                <span class="card-subtitle">Total server-side processing delay breakdown</span>
+                            </div>
+
+                            <div class="latency-summary">
+                                <div class="latency-metric">
+                                    <span class="latency-num" id="latencyTotalVal">0 ms</span>
+                                    <span class="latency-lbl">Total Time</span>
+                                </div>
+                            </div>
+
+                            <div class="latency-timeline" id="latencyTimeline">
+                                <!-- Dynamic progress bars representing ms -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 3: LOGS & METRICS -->
+            <section id="view-analytics" class="content-view">
+                <!-- Analytics KPIs -->
+                <div class="analytics-kpi-row">
+                    <div class="glass-card kpi-card">
+                        <span class="kpi-icon">📱</span>
+                        <div class="kpi-details">
+                            <span class="kpi-value" id="kpiTotalScans">142</span>
+                            <span class="kpi-label">Cumulative Scans</span>
+                        </div>
+                    </div>
+                    <div class="glass-card kpi-card">
+                        <span class="kpi-icon">🎯</span>
+                        <div class="kpi-details">
+                            <span class="kpi-value" id="kpiAvgConfidence">89.6%</span>
+                            <span class="kpi-label">Average System Trust</span>
+                        </div>
+                    </div>
+                    <div class="glass-card kpi-card">
+                        <span class="kpi-icon">⚠️</span>
+                        <div class="kpi-details">
+                            <span class="kpi-value" id="kpiReviewRate">14.1%</span>
+                            <span class="kpi-label">Expert Review Queue Rate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-2col" style="margin-top: 24px;">
+                    <!-- Left: Historical Activity Feed -->
+                    <div class="pane-column">
+                        <div class="glass-card history-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Activity Feed Logs</h2>
+                                <span class="card-subtitle">Click item to load diagnostic logs into viewer</span>
+                            </div>
+                            
+                            <div class="table-actions">
+                                <input type="text" id="logSearch" placeholder="Search by crop, disease, or request id..." class="custom-input">
+                            </div>
+
+                            <div class="table-scroll-container">
+                                <table class="data-table selectable">
+                                    <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>Crop</th>
+                                            <th>Diagnosis</th>
+                                            <th>Confidence</th>
+                                            <th>Decision</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="historyTableBody">
+                                        <!-- Dynamic items -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Spatial Map Outbreaks -->
+                    <div class="pane-column">
+                        <div class="glass-card map-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Agricultural Disease Hotspots</h2>
+                                <span class="card-subtitle">Outbreak simulation mapped across field deployments</span>
+                            </div>
+                            
+                            <div class="map-viewport">
+                                <!-- Styled Simulated SVG Vector Map of Agricultural fields -->
+                                <div class="map-vector-container" id="mapVectorContainer">
+                                    <!-- Dynamic markers will populate here -->
+                                    <svg viewBox="0 0 500 300" class="map-bg-grid">
+                                        <defs>
+                                            <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                                                <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(23, 184, 100, 0.05)" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid)" />
+                                        
+                                        <!-- Simulated topography fields -->
+                                        <path d="M 40 40 L 150 20 L 160 120 L 30 110 Z" fill="rgba(23, 184, 100, 0.05)" stroke="rgba(23, 184, 100, 0.15)" stroke-dasharray="2"/>
+                                        <path d="M 180 50 L 320 30 L 330 130 L 190 140 Z" fill="rgba(23, 184, 100, 0.03)" stroke="rgba(23, 184, 100, 0.1)"/>
+                                        <path d="M 350 80 L 470 90 L 450 200 L 330 180 Z" fill="rgba(23, 184, 100, 0.07)" stroke="rgba(23, 184, 100, 0.2)" stroke-dasharray="2"/>
+                                        <path d="M 60 150 L 220 180 L 200 280 L 50 250 Z" fill="rgba(23, 184, 100, 0.05)" stroke="rgba(23, 184, 100, 0.15)"/>
+                                        
+                                        <text x="75" y="75" fill="rgba(23, 184, 100, 0.3)" font-size="10" font-family="Outfit" text-anchor="middle">Tomato Fields</text>
+                                        <text x="250" y="85" fill="rgba(23, 184, 100, 0.3)" font-size="10" font-family="Outfit" text-anchor="middle">Sugarcane</text>
+                                        <text x="390" y="140" fill="rgba(23, 184, 100, 0.3)" font-size="10" font-family="Outfit" text-anchor="middle">Rice Zone</text>
+                                        <text x="130" y="210" fill="rgba(23, 184, 100, 0.3)" font-size="10" font-family="Outfit" text-anchor="middle">Cotton Belt</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 4: CONFIGURATION / SETTINGS -->
+            <section id="view-settings" class="content-view">
+                <div class="grid-2col">
+                    <!-- Config Left Column -->
+                    <div class="pane-column">
+                        <div class="glass-card config-form-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Server Connection Options</h2>
+                                <span class="card-subtitle">Connect local client to FastAPI service</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="apiEndpoint" class="form-label">FastAPI Endpoint URL</label>
+                                <input type="url" id="apiEndpoint" value="http://127.0.0.1:8000" class="custom-input">
+                                <span class="form-help">Ensure local server is running on port 8000.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="topkSlider" class="form-label">Top-K Results Displayed</label>
+                                <div class="slider-control-row">
+                                    <input type="range" id="topkSlider" min="1" max="10" value="3" class="custom-slider">
+                                    <span class="control-value-badge" id="topkVal">3</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="explainCheckbox" checked>
+                                    <span class="checkmark"></span>
+                                    <span>Automatically compute SmoothGrad explanations</span>
+                                </label>
+                                <span class="form-help">Calculates pixels gradient vectors; increases response latency slightly.</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-card config-form-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Decision Boundary Thresholds</h2>
+                                <span class="card-subtitle">Tune confidence gate ranges for the Router</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="thresholdHigh" class="form-label">Auto-Accept Gate (High Confidence)</label>
+                                <div class="slider-control-row">
+                                    <input type="range" id="thresholdHigh" min="0" max="100" value="80" class="custom-slider">
+                                    <span class="control-value-badge" id="thresholdHighVal">0.80</span>
+                                </div>
+                                <span class="form-help">Any confidence above this value bypasses review.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="thresholdMedium" class="form-label">Expert Review Gate (Medium Confidence)</label>
+                                <div class="slider-control-row">
+                                    <input type="range" id="thresholdMedium" min="0" max="100" value="50" class="custom-slider">
+                                    <span class="control-value-badge" id="thresholdMediumVal">0.50</span>
+                                </div>
+                                <span class="form-help">Confidence values between medium and high are queued. Below are flagged for retake.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Config Right Column -->
+                    <div class="pane-column">
+                        <div class="glass-card config-form-card">
+                            <div class="card-header">
+                                <h2 class="card-title">Confidence Signal Weights</h2>
+                                <span class="card-subtitle">Adjust blending equations (Must sum to 1.0)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="weight-control-row">
+                                    <label class="form-label">Image Quality Assessment</label>
+                                    <input type="number" id="wQuality" value="0.10" step="0.05" class="custom-input-num">
+                                </div>
+                                <div class="weight-control-row">
+                                    <label class="form-label">YOLO Segmentation Mask</label>
+                                    <input type="number" id="wSeg" value="0.15" step="0.05" class="custom-input-num">
+                                </div>
+                                <div class="weight-control-row">
+                                    <label class="form-label">Leaf Area Proportion</label>
+                                    <input type="number" id="wArea" value="0.10" step="0.05" class="custom-input-num">
+                                </div>
+                                <div class="weight-control-row">
+                                    <label class="form-label">EfficientNet Top-1 Prob</label>
+                                    <input type="number" id="wTop1" value="0.30" step="0.05" class="custom-input-num">
+                                </div>
+                                <div class="weight-control-row">
+                                    <label class="form-label">Classification Margin Gap</label>
+                                    <input type="number" id="wGap" value="0.15" step="0.05" class="custom-input-num">
+                                </div>
+                                <div class="weight-control-row">
+                                    <label class="form-label">Hierarchical router / CLIP agreement</label>
+                                    <input type="number" id="wCross" value="0.20" step="0.05" class="custom-input-num">
+                                </div>
+                            </div>
+                            
+                            <div class="weight-total-footer">
+                                <span>Summed Weights:</span>
+                                <span id="weightSumBadge" class="badge-status pass">1.00</span>
+                            </div>
+                        </div>
+
+                        <div class="btn-footer-group">
+                            <button class="btn btn-primary" id="saveSettingsBtn">Save Settings</button>
+                            <button class="btn btn-outline" id="resetSettingsBtn">Reset Defaults</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- UI Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
