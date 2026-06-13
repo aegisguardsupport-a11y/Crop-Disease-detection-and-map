@@ -1,0 +1,1659 @@
+[
+  {
+    "id": "cabbage_alternaria_leaf_spot",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea var. capitata",
+      "local_names": [
+        "Bandh Gobhi",
+        "Patta Gobhi",
+        "Muttaikose",
+        "Kos",
+        "Gobi"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Alternaria leaf spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Alternaria brassicicola",
+        "Alternaria brassicae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Heads",
+        "Cotyledons"
+      ],
+      "disease_stage": "All growth stages (Seedling to Mature Head)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, dark brown to black dots surrounded by yellow (chlorotic) halos, typically appearing first on older lower leaves.",
+        "In seedling stage, small dark lesions on cotyledons or young stems."
+      ],
+      "middle_stage": [
+        "Spots expand into circular, dark brown-to-black lesions with characteristic concentric 'target-like' rings.",
+        "The centers of the spots become dry and paper-like."
+      ],
+      "severe_stage": [
+        "Centers of older spots dry up, crack, and fall out, leaving ragged 'shot holes'.",
+        "Multiple spots merge into large dead patches, causing the leaf to turn yellow, dry, and fall off (severe defoliation).",
+        "On mature heads, dark, sunken, rotting lesions appear on outer layers, making the head unmarketable and inviting secondary bacterial rot."
+      ],
+      "visible_signs": [
+        "Concentric dark rings (target-board pattern) on cabbage leaves.",
+        "Shot-holes in older leaves.",
+        "Dark, sunken decaying spots on the cabbage head."
+      ],
+      "farmer_reported_signs": [
+        "Dark circles like targets on older leaves",
+        "Cabbage leaves full of dry holes falling off",
+        "Black rotting patches on cabbage heads"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown",
+        "Black",
+        "Yellow chlorotic halo"
+      ],
+      "spot_or_patch_shape": "Concentric rings / Target-board shape",
+      "pattern": "Circular, expanding lesions with concentric rings",
+      "location_on_plant": "Starts on older lower leaves and progresses upward to outer wrapper leaves and mature head",
+      "starts_from": "Older lower leaves near the soil line",
+      "progression": "Lower leaves -> Wrapper leaves -> Cabbage head -> Post-harvest head rot",
+      "image_clues": [
+        "Look for concentric dark rings (bullseye) on a cabbage leaf",
+        "Look for a yellow ring surrounding a dark brown target-like spot",
+        "Sunken black circles on the top of the cabbage head"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black rot",
+        "difference": "Black rot produces V-shaped yellow spots starting from the leaf margins pointing inward with blackened leaf veins, without target-board concentric rings.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Downy mildew",
+        "difference": "Downy mildew causes angular yellow spots on upper surfaces with a fluffy grayish-white mold directly underneath, instead of dry dark concentric spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet, and highly humid weather",
+        "Frequent rain showers or heavy morning dews"
+      ],
+      "temperature_range": "20\u00b0C - 30\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Winter / Late Kharif (monsoon)",
+      "soil_conditions": [
+        "Poorly drained soils",
+        "High soil nitrogen producing dense canopy"
+      ],
+      "field_conditions": [
+        "Crowded spacing blocking airflow",
+        "Presence of cruciferous weeds like wild mustard"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation",
+        "Watering late in the evening keeping leaves wet overnight"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Overwintering fungal spores in cabbage crop debris",
+        "Cruciferous weeds"
+      ],
+      "survival_method": "The fungus survives as dormant mycelium or spores on infected cabbage seed coats and inside diseased crop debris in the soil.",
+      "spread_speed": "Fast under warm, continuously wet weather",
+      "nearby_crop_risk": "High for other cruciferous crops (broccoli, cauliflower, radish)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated dark spots on the bottom-most leaves; no head lesions.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic sprays like Copper Hydroxide or Bacillus amyloliquefaciens."
+      },
+      {
+        "level": "Medium",
+        "description": "Concentric circles spreading to wrapper leaves; initial shot-holes observed.",
+        "field_indicator": "10% to 25% wrapper leaves showing spots.",
+        "recommended_action": "Spray contact fungicides like Chlorothalonil or Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Sunken black lesions on the cabbage heads; heavy leaf drop and rotting.",
+        "field_indicator": ">25% of leaves affected; spots visible on cabbage heads.",
+        "recommended_action": "Immediately spray highly effective systemic mixtures like Azoxystrobin + Difenoconazole or Fluxapyroxad + Pyraclostrobin."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use certified disease-free seeds.",
+        "Treat seeds in hot water at 50\u00b0C (122\u00b0F) for 25 minutes before sowing to kill internal spores."
+      ],
+      "field_management": [
+        "Observe proper spacing (45 x 45 cm or 60 x 45 cm) to allow ventilation.",
+        "Keep fields completely free of cruciferous weeds."
+      ],
+      "irrigation_management": [
+        "Avoid overhead sprinkler irrigation.",
+        "Use drip or furrow irrigation; water early in the morning."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Use balanced NPK; avoid excessive nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate cabbage with non-cruciferous crops (such as corn, beans, or wheat) for at least 3 years."
+      ],
+      "sanitation": [
+        "Regularly remove and destroy infected lower leaves.",
+        "Bury or burn cabbage residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Monitor weekly, checking lower leaves for dark spots starting from 20 days after transplanting."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue and destroy infected lower leaves.",
+        "Improve drainage and avoid overhead watering.",
+        "Apply a protective fungicide spray immediately."
+      ],
+      "cultural_control": [
+        "Mow or deeply disk cabbage residues after harvest.",
+        "Eradicate wild mustard and other weed hosts."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+        "Apply baking soda-soap mixtures early on."
+      ],
+      "biological_control": [
+        "Apply Bacillus amyloliquefaciens or Trichoderma harzianum @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply preventatively before canopy closure."
+        },
+        {
+          "active_ingredient": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "1 day",
+          "safety_note": "Provides excellent curative and systemic protection. Rotate with other chemical groups to avoid resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Alternaria leaf spot is a fungal disease that makes dark brown or black target-like spots on cabbage leaves. These spots can dry out and leave holes. If left untreated, the spots will spread to the cabbage head, causing black rotting patches that ruin your harvest.",
+      "what_to_do_now": [
+        "Pick off and burn the spotted bottom leaves.",
+        "Stop using overhead sprinkler watering.",
+        "Spray Chlorothalonil (2g/L) or Azoxystrobin + Difenoconazole (1mL/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave cabbage waste on the ground after harvesting.",
+        "Do not plant cabbage in the same soil where broccoli, cauliflower, or mustard grew last season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if black rot-like lesions are spreading to cabbage heads within 2 weeks of expected harvest."
+      ],
+      "risk_warning": "Severe Alternaria leaf spot ruins the cabbage head quality, causing it to rot in storage and reducing its market value to zero."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_alternaria_leaf_spot"
+      ],
+      "segmentation_labels": [
+        "concentric_target_spot",
+        "sunken_head_rot"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The spots are confused with chemical spray burns or physical leaf tears."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the leaf blade showing the concentric dark rings or sunken spots on the cabbage head in natural daylight."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Alternaria Leaf Spot alert! Wet weather is triggering cabbage leaf spot. Apply preventive fungicides and avoid sprinkler watering.",
+      "nearby_farm_advice": [
+        "Apply preventive Chlorothalonil spray",
+        "Avoid overhead irrigation",
+        "Remove yellowing lower leaves"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Disease Management of Cole Crops",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Guide",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers hot water seed treatment parameters and chemical controls."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:00:00Z",
+      "updated_at": "2024-10-27T17:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cabbage_black_rot",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea var. capitata",
+      "local_names": [
+        "Bandh Gobhi",
+        "Patta Gobhi",
+        "Muttaikose",
+        "Kos",
+        "Gobi"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Black rot",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Xanthomonas campestris pv. campestris"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Vascular bundles",
+        "Stems",
+        "Heads",
+        "Cotyledons"
+      ],
+      "disease_stage": "All growth stages (Seedling to Mature Head)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Yellowing V-shaped lesions starting from the margins of older leaves and pointing inward toward the leaf midrib.",
+        "Young seedlings show yellowing cotyledons that wilt and drop off."
+      ],
+      "middle_stage": [
+        "V-shaped yellow zones expand; leaf veins inside these yellow areas turn dark brown or black, forming a black network.",
+        "Interior of the main stem starts turning black when cut."
+      ],
+      "severe_stage": [
+        "Systemic invasion: Stem vascular bundle turns black, blocking water transport.",
+        "Plants exhibit stunting, leaf wilting, and complete head decay.",
+        "Soft rot bacteria often enter secondary to Black Rot, causing a foul-smelling mushy rot of the entire head."
+      ],
+      "visible_signs": [
+        "Bright yellow V-shaped lesions on leaf edges.",
+        "Black network of leaf veins when held to light.",
+        "Black ring inside a cross-cut cabbage stem.",
+        "Foul smell under wet conditions during head decay."
+      ],
+      "farmer_reported_signs": [
+        "Yellow V-shaped patches on leaf edges",
+        "Black veins in the yellow parts of leaves",
+        "Black ring inside the cut stem",
+        "Rotten, smelly cabbage heads"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellow V-shaped area",
+        "Black leaf veins",
+        "Black internal stem rings",
+        "Dark brown decayed head"
+      ],
+      "spot_or_patch_shape": "V-shaped lesions pointing inward from leaf margins",
+      "pattern": "V-shaped chlorosis and black-vein network",
+      "location_on_plant": "Starts on leaf margins and moves inward via veins to the main stem and head",
+      "starts_from": "Hydathodes (water pores) on leaf edges",
+      "progression": "Leaf margin water pore -> Yellow V-shaped patch -> Blackened veins -> Stem vascular infection -> Plant stunting/head rot",
+      "image_clues": [
+        "Look for a yellow triangle or V on the edge of a cabbage leaf",
+        "Look for black veins looking like a dark net inside a yellowed leaf patch",
+        "A cut stem showing a black circle inside"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Alternaria leaf spot",
+        "difference": "Alternaria causes circular spots with concentric target rings, not margin-based V-shaped yellowing or black vein networks.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Fusarium Yellows",
+        "difference": "Fusarium yellows causes leaf yellowing on one side of the plant, often warping the leaves, but does not form V-shaped lesions from the margin or black net-like veins.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet, and humid conditions",
+        "Heavy rainstorms or strong winds wounding the leaves"
+      ],
+      "temperature_range": "25\u00b0C - 35\u00b0C",
+      "humidity_level": ">85% RH",
+      "season": "Rainy / Warm Autumn season",
+      "soil_conditions": [
+        "Poorly drained, wet soils"
+      ],
+      "field_conditions": [
+        "Presence of cruciferous weeds",
+        "Working in fields when foliage is wet with rain or dew"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation spreading bacteria via splashes"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Splashing water (rain or sprinkler)",
+        "Wind-driven rain",
+        "Contaminated farming tools, machinery, shoes, and hands",
+        "Insects or chewing pests"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Cruciferous weeds",
+        "Infected cabbage residues in the soil"
+      ],
+      "survival_method": "The bacteria survive in infected seeds, inside crop residue for up to 2 years, or on wild brassica weeds.",
+      "spread_speed": "Very Fast under warm, wet storm conditions",
+      "nearby_crop_risk": "Extremely High for all brassicas (cauliflower, broccoli, mustard, radish)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few V-shaped yellow spots restricted to the bottom leaves of <5% of plants.",
+        "field_indicator": "Isolated plants showing yellow margins.",
+        "recommended_action": "Avoid entering the field when wet. Rogue out infected plants carefully. Spray Copper Hydroxide."
+      },
+      {
+        "level": "Medium",
+        "description": "V-shaped lesions and black veins spreading to wrapper leaves; stunting starting.",
+        "field_indicator": "5% to 15% of plants showing margin yellowing and black veins.",
+        "recommended_action": "Spray Copper Oxychloride + Streptocycline. Eliminate weed hosts. Clean tools."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely stunted, with rotting heads and blackened cut stems.",
+        "field_indicator": "Foul-smelling head decay; widespread yellowing and stunting.",
+        "recommended_action": "Apply Copper Hydroxide or plant activators like Actigard. Uproot highly rotten heads. Rotate fields for 3 years."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always sow certified pathogen-free seeds.",
+        "Treat seeds in hot water at 50\u00b0C (122\u00b0F) for 25-30 minutes before sowing."
+      ],
+      "field_management": [
+        "Keep plants spaced adequately to prevent canopy humidity.",
+        "Control wild brassica weeds."
+      ],
+      "irrigation_management": [
+        "Never use overhead sprinklers; use drip irrigation."
+      ],
+      "soil_management": [
+        "Ensure proper drainage; use raised beds in heavy clay soils."
+      ],
+      "crop_rotation": [
+        "Rotate cabbage with non-brassica crops (corn, wheat, beans) for at least 3 years."
+      ],
+      "sanitation": [
+        "Never work in fields when leaves are wet.",
+        "Clean and sanitize tools (with 10% bleach) after working in infected plots.",
+        "Remove and burn crop residues after harvest."
+      ],
+      "monitoring": [
+        "Monitor closely twice a week, checking leaf margins, starting 15 days after transplanting."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead watering.",
+        "Rogue and destroy infected plants immediately.",
+        "Apply copper bactericides to protect healthy plants."
+      ],
+      "cultural_control": [
+        "Destroy weeds.",
+        "Incorporate cabbage residues deep into soil to rot.",
+        "Sanitize tools."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+        "Apply copper-based organic formulations."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide 50% WP",
+          "product_type": "Contact Protective Bactericide / Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Helps suppress bacterial spread. Avoid mixing with adjuvants as it can scorch cabbage leaves."
+        },
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Antibiotic Bactericide",
+          "dose": "0.1 g/L of water",
+          "application_method": "Foliar Spray / Seed Treatment",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Used for bacterial suppression. Highly effective early on. Check local regulations on agricultural antibiotic use."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Black rot is a highly contagious bacterial disease of cabbage. It makes yellow, V-shaped patches on the edges of leaves. Inside these yellow parts, the veins turn black like a dark net. It then travels to the stem and head, turning the inside black, stunting the plant, and rotting the head.",
+      "what_to_do_now": [
+        "Pull out any yellow-edged plants immediately and bury or burn them.",
+        "Stop watering from above (sprinklers).",
+        "Spray Copper Hydroxide (2g/L) + Streptocycline (0.1g/L) to protect the healthy plants."
+      ],
+      "what_not_to_do": [
+        "Never enter or work in your cabbage field when the leaves are wet from dew or rain, as you will carry the bacteria to healthy plants on your clothes and tools.",
+        "Do not plant cabbage or cauliflower in this soil next season if you have black rot."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if black rot is spreading rapidly after rainstorms and cabbage heads are rotting with a bad smell."
+      ],
+      "risk_warning": "Because it is systemic, black rot cannot be cured once inside the stem. It can wipe out up to 50% to 100% of your crop during warm, wet seasons."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_black_rot"
+      ],
+      "segmentation_labels": [
+        "v_shaped_margin_chlorosis",
+        "blackened_vein_net",
+        "black_ring_in_cut_stem"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "The model confuses physical leaf margin damage or potassium deficiency with V-shaped bacterial lesions."
+      ],
+      "image_quality_requirements": [
+        "High-resolution photos focusing on the V-shaped yellow margin of leaves, a backlit leaf showing the black vein network, or the cut stem cross-section."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Black Rot Alert! Warm days and heavy rain have triggered black rot outbreaks. Disinfect tools and spray copper bactericides immediately.",
+      "nearby_farm_advice": [
+        "Do not work in wet fields",
+        "Disinfect farming tools with bleach",
+        "Apply preventive copper spray"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Black Rot of Crucifers - Xanthomonas",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers seed sanitation (hot water) and copper-streptocycline drench guidelines."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:15:00Z",
+      "updated_at": "2024-10-27T17:15:00Z",
+      "reviewed_by": "Senior Plant Bacteriologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cabbage_downy_mildew",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea var. capitata",
+      "local_names": [
+        "Bandh Gobhi",
+        "Patta Gobhi",
+        "Muttaikose",
+        "Kos",
+        "Gobi"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Downy mildew",
+      "category": "Oomycete (Fungal-like)",
+      "pathogen_or_cause": [
+        "Hyaloperonospora brassicae",
+        "Peronospora parasitica"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Wrapper leaves",
+        "Cotyledons",
+        "Heads"
+      ],
+      "disease_stage": "All growth stages (Seedling to Mature Head)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, light-green to pale-yellow angular spots on the upper leaf surface.",
+        "Young cotyledons turn yellow and drop off."
+      ],
+      "middle_stage": [
+        "Angular spots enlarge, turn yellow-brown, and can become papery or dry.",
+        "Under cool, humid conditions, a characteristic fluffy, grayish-white downy growth develops directly beneath the spots on the lower leaf surface."
+      ],
+      "severe_stage": [
+        "Infected leaves wither, turn completely brown, and dry up, leading to defoliation.",
+        "On mature heads, the disease causes dark, purplish, or black sunken spots on wrapper leaves, reducing marketability and shelf life."
+      ],
+      "visible_signs": [
+        "Fluffy, grayish-white downy mold on the lower leaf surface.",
+        "Angular, vein-bounded yellow-brown spots on the upper leaf surface.",
+        "Dark purplish sunken spots on the cabbage head."
+      ],
+      "farmer_reported_signs": [
+        "Yellow angular patches on top of cabbage leaves",
+        "Grey-white moldy fuzz under the leaf spots",
+        "Black sunken spots on the cabbage head",
+        "Seedlings dying in the nursery"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light green",
+        "Pale yellow",
+        "Yellow-brown",
+        "Fluffy grayish-white growth",
+        "Dark purplish/black head spots"
+      ],
+      "spot_or_patch_shape": "Angular or blocky spots limited by leaf veins",
+      "pattern": "Vein-limited blocky spots on upper leaf with matching fuzzy mold underneath",
+      "location_on_plant": "Starts on lower leaves or cotyledons and spreads upward to outer wrapper leaves and head",
+      "starts_from": "Older leaves or nursery seedlings",
+      "progression": "Seedling/Lower leaf angular spots -> Fuzzy under-leaf mold -> Leaf drying -> Outer wrapper leaf lesions -> Cabbage head damage",
+      "image_clues": [
+        "Look for yellow, blocky, angular patterns on the upper side of cabbage leaves",
+        "Look for grayish-white fuzzy mold directly underneath those yellow patterns on the bottom side of the leaf"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Powdery Mildew",
+        "difference": "Powdery mildew produces a dry, white powdery dust mostly on the upper leaf surface and does not form vein-bounded angular patches or grey fuzzy growth underneath.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Alternaria leaf spot",
+        "difference": "Alternaria spots are circular with concentric target rings and lack the vein-limited boundaries or under-leaf fuzzy downy mold.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet, and highly humid conditions",
+        "Frequent rain, heavy fog, or prolonged morning dews"
+      ],
+      "temperature_range": "10\u00b0C - 20\u00b0C",
+      "humidity_level": ">90% RH",
+      "season": "Winter / Rabi season",
+      "soil_conditions": [
+        "Wet, poorly drained soils",
+        "High soil moisture"
+      ],
+      "field_conditions": [
+        "Dense planting blocking ventilation",
+        "Weeds (like wild mustard) harboring spores"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation",
+        "Excessive watering leaving leaves wet for hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne sporangia (spores)",
+        "Water splashes (rain or irrigation)"
+      ],
+      "source_of_infection": [
+        "Oospores surviving in the soil",
+        "Infected crop debris",
+        "Alternative brassica weeds",
+        "Volunteer crucifer plants"
+      ],
+      "survival_method": "The pathogen survives as resting spores (oospores) in the soil and diseased crop residue, or as active mycelium in wild brassicas.",
+      "spread_speed": "Very Fast under cool, wet winter conditions",
+      "nearby_crop_risk": "High for all nearby brassicas (broccoli, cauliflower, mustard, radish)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few angular yellow spots on bottom leaves; minor grey fuzz underneath.",
+        "field_indicator": "<10% plants showing early angular leaf yellowing.",
+        "recommended_action": "Avoid overhead watering. Space plants properly. Apply preventive contact fungicides like Mancozeb."
+      },
+      {
+        "level": "Medium",
+        "description": "Angular yellow patches and grey fuzz spreading to wrapper leaves; outer leaves drying.",
+        "field_indicator": "10% to 25% of plants showing visible leaf drying and under-leaf mold.",
+        "recommended_action": "Apply systemic anti-oomycete fungicides like Metalaxyl + Mancozeb or Mandipropamid."
+      },
+      {
+        "level": "High",
+        "description": "Cabbage heads showing purplish sunken spots; wrapper leaves dried; severe defoliation.",
+        "field_indicator": ">25% of leaves dried and head outer layers damaged.",
+        "recommended_action": "Apply curative systemic mixtures like Ametoctradin + Dimethomorph or Cyazofamid immediately to prevent head loss."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Grow resistant varieties if available.",
+        "Ensure nursery seedlings are grown in well-ventilated, dry areas."
+      ],
+      "field_management": [
+        "Observe proper spacing (45 x 45 cm or 60 x 45 cm) to allow foliage to dry fast.",
+        "Keep fields free of wild brassica weeds."
+      ],
+      "irrigation_management": [
+        "Avoid overhead irrigation; use drip or furrow.",
+        "Water in the morning so canopy dries during the day."
+      ],
+      "soil_management": [
+        "Provide proper field drainage to avoid waterlogging."
+      ],
+      "crop_rotation": [
+        "Rotate cabbage with non-cruciferous crops for at least 2-3 years."
+      ],
+      "sanitation": [
+        "Remove and burn or deep bury cabbage residue after harvest.",
+        "Rogue out early diseased nursery seedlings."
+      ],
+      "monitoring": [
+        "Inspect nursery seedlings daily and field crops twice a week, checking lower leaf undersides for grey fuzz in cool wet seasons."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead watering immediately.",
+        "Thin out plants to improve airflow.",
+        "Spray a systemic anti-oomycete fungicide."
+      ],
+      "cultural_control": [
+        "Destroy wild brassica weeds.",
+        "Water only in the morning."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L (avoid mixing with adjuvants).",
+        "Apply sulfur or copper protective sprays."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L to foliage and nursery beds."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Ametoctradin 27% + Dimethomorph 20.3% SC",
+          "product_type": "Systemic + Contact Anti-oomycete Fungicide",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Highly effective at controlling downy mildew. Ensure thorough leaf coverage."
+        },
+        {
+          "active_ingredient": "Mandipropamid 23.3% SC",
+          "product_type": "Translaminar Fungicide",
+          "dose": "0.6 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "1 day",
+          "safety_note": "Always add a spreading/penetrating adjuvant as per label to improve crop coverage."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Downy mildew is a fungus-like disease that attacks cabbage in cool, foggy, or wet winter weather. It causes blocky, angular yellow patches on top of the leaves and a grey, fuzzy mold directly underneath them. It can kill young nursery seedlings and create dark sunken spots on mature cabbage heads.",
+      "what_to_do_now": [
+        "Stop watering from above (sprinklers); water only the roots.",
+        "Foliar spray Zampro (Ametoctradin + Dimethomorph @ 1mL/L) or Revus (Mandipropamid @ 0.6mL/L).",
+        "Spray early in the morning so the crop dries during the day."
+      ],
+      "what_not_to_do": [
+        "Do not leave cabbage seedlings crowded or in waterlogged nursery beds.",
+        "Do not plant cabbage in the winter near wild mustard weeds."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if downy mildew is spreading fast in your nursery, killing young seedlings before transplanting."
+      ],
+      "risk_warning": "In cool wet weather, downy mildew spreads incredibly fast. It can wipe out your nursery seedlings or rot mature cabbage wrapper leaves within days."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_downy_mildew"
+      ],
+      "segmentation_labels": [
+        "angular_yellow_spot",
+        "grey_downy_fuzz",
+        "sunken_wrapper_spot"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": [
+        "The symptoms are confused with nutrient chlorosis (which lacks fuzzy growth underneath) or powdery mildew."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the angular, vein-limited yellow spots on the upper side, and/or the grayish fuzzy growth on the leaf underside."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Downy Mildew Alert! Cool, wet, foggy conditions are ideal for downy mildew in cabbage. Apply preventative sprays immediately.",
+      "nearby_farm_advice": [
+        "Avoid overhead irrigation",
+        "Check nursery beds for grey fuzzy mold",
+        "Foliar spray Mandipropamid"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Cole Crop Diseases and Their Control",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers Peronospora parasitica taxonomy and modern oomycete chemical controls."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:30:00Z",
+      "updated_at": "2024-10-27T17:30:00Z",
+      "reviewed_by": "Senior Oomycete Specialist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cabbage_bacterial_spot_rot",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "local_names": [
+        "Patta Gobhi"
+      ],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Bacterial Spot Rot",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Pectobacterium carotovorum"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Heads",
+        "Stems"
+      ],
+      "disease_stage": "Vegetative to Mature"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small water-soaked spots on leaves."
+      ],
+      "middle_stage": [
+        "Spots enlarge, become sunken, soft and mushy."
+      ],
+      "severe_stage": [
+        "Head turns into a foul-smelling mushy rot. Plant collapses."
+      ],
+      "visible_signs": [
+        "Foul smell, soft decaying tissue, watery spots."
+      ],
+      "farmer_reported_signs": [
+        "Cabbage head rotting and smelling bad",
+        "Mushy spots on leaves"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Translucent",
+        "Brown to black mush"
+      ],
+      "spot_or_patch_shape": "Irregular expanding soft spots",
+      "pattern": "Wet decay",
+      "location_on_plant": "Anywhere, primarily head and stem",
+      "starts_from": "Wounds or insect damage",
+      "progression": "Small spots -> Soft rot -> Complete collapse",
+      "image_clues": [
+        "Look for wet, mushy decay on cabbage head"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black Rot",
+        "difference": "Black rot has V-shaped yellow margins and black veins without initial mushy decay.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet",
+        "High rainfall"
+      ],
+      "temperature_range": "25-30C",
+      "humidity_level": ">90%",
+      "season": "Monsoon",
+      "soil_conditions": [
+        "Waterlogged"
+      ],
+      "field_conditions": [
+        "Poor drainage"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Splashing water",
+        "Insects",
+        "Contaminated tools"
+      ],
+      "source_of_infection": [
+        "Soil",
+        "Crop debris"
+      ],
+      "survival_method": "In soil or plant residue",
+      "spread_speed": "Fast",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Minor water-soaked spots.",
+        "field_indicator": "<5% infected.",
+        "recommended_action": "Improve drainage, remove affected leaves."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified disease-free seeds."
+      ],
+      "field_management": [
+        "Avoid wounding plants."
+      ],
+      "irrigation_management": [
+        "Avoid overhead irrigation."
+      ],
+      "soil_management": [
+        "Improve drainage."
+      ],
+      "crop_rotation": [
+        "Rotate with cereals."
+      ],
+      "sanitation": [
+        "Destroy infected debris."
+      ],
+      "monitoring": [
+        "Check for rot after heavy rains."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove and destroy infected plants."
+      ],
+      "cultural_control": [
+        "Sanitize tools."
+      ],
+      "organic_control": [
+        "Copper-based sprays."
+      ],
+      "biological_control": [
+        "Bacillus species."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide",
+          "product_type": "Bactericide",
+          "dose": "2g/L",
+          "application_method": "Spray",
+          "spray_interval": "7 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Apply carefully."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A bacterial disease causing mushy, smelly rot.",
+      "what_to_do_now": [
+        "Remove rotting plants immediately."
+      ],
+      "what_not_to_do": [
+        "Don't leave rotting cabbage in the field.",
+        "Don't water from above."
+      ],
+      "when_to_call_expert": [
+        "If rot spreads rapidly."
+      ],
+      "risk_warning": "Can destroy entire heads quickly."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_bacterial_spot_rot"
+      ],
+      "segmentation_labels": [
+        "soft_rot_patch"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "Symptoms resemble chemical burn."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the rot."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Soft Rot alert.",
+      "nearby_farm_advice": [
+        "Improve drainage."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cabbage_aphid_colony",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "local_names": [
+        "Patta Gobhi"
+      ],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Aphid Colony",
+      "category": "Pest",
+      "pathogen_or_cause": [
+        "Brevicoryne brassicae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Tender shoots"
+      ],
+      "disease_stage": "All stages"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small gray-green insects on undersides of leaves."
+      ],
+      "middle_stage": [
+        "Leaves turn yellow, crinkle, and cup. Sticky honeydew appears."
+      ],
+      "severe_stage": [
+        "Stunted growth, sooty mold covers leaves, dense colonies."
+      ],
+      "visible_signs": [
+        "Mealy gray aphid clusters, honeydew, sooty mold."
+      ],
+      "farmer_reported_signs": [
+        "Small bugs under leaves",
+        "Sticky black leaves"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing",
+        "Black sooty mold"
+      ],
+      "spot_or_patch_shape": "Clusters of insects",
+      "pattern": "Dense colonies",
+      "location_on_plant": "Undersides of leaves, shoots",
+      "starts_from": "Tender new growth",
+      "progression": "A few aphids -> Huge colonies -> Plant stunting",
+      "image_clues": [
+        "Look for waxy gray insect clusters."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Whitefly",
+        "difference": "Whiteflies fly around when disturbed, aphids do not.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Dry, warm"
+      ],
+      "temperature_range": "20-25C",
+      "humidity_level": "<60%",
+      "season": "Spring/Autumn",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Weed presence"
+      ],
+      "irrigation_conditions": [
+        "Water stress"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind (winged aphids)"
+      ],
+      "source_of_infection": [
+        "Weeds",
+        "Nearby crops"
+      ],
+      "survival_method": "Eggs or adults on weeds",
+      "spread_speed": "Fast",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Few aphids.",
+        "field_indicator": "<10% plants.",
+        "recommended_action": "Use insecticidal soap."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Inspect seedlings."
+      ],
+      "field_management": [
+        "Remove weeds."
+      ],
+      "irrigation_management": [
+        "Avoid water stress."
+      ],
+      "soil_management": [
+        "Avoid excess nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate with non-brassicas."
+      ],
+      "sanitation": [
+        "Destroy residues."
+      ],
+      "monitoring": [
+        "Regularly check undersides of leaves."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Spray neem oil or soap."
+      ],
+      "cultural_control": [
+        "Use yellow sticky traps."
+      ],
+      "organic_control": [
+        "Neem oil 3%."
+      ],
+      "biological_control": [
+        "Ladybugs, lacewings."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid",
+          "product_type": "Insecticide",
+          "dose": "0.5mL/L",
+          "application_method": "Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply strictly."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Aphids suck sap and weaken the plant.",
+      "what_to_do_now": [
+        "Spray neem oil."
+      ],
+      "what_not_to_do": [
+        "Don't over-fertilize with nitrogen."
+      ],
+      "when_to_call_expert": [
+        "If populations explode."
+      ],
+      "risk_warning": "Can spread viruses."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_aphid_colony"
+      ],
+      "segmentation_labels": [
+        "aphid_cluster"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Macro shot of insects."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Aphid alert.",
+      "nearby_farm_advice": [
+        "Spray neem."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cabbage_club_root",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "local_names": [
+        "Patta Gobhi"
+      ],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Club Root",
+      "category": "Fungal-like",
+      "pathogen_or_cause": [
+        "Plasmodiophora brassicae"
+      ],
+      "affected_parts": [
+        "Roots"
+      ],
+      "disease_stage": "All stages"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Wilting during sunny days, recovery at night."
+      ],
+      "middle_stage": [
+        "Stunted growth, pale green or yellow leaves."
+      ],
+      "severe_stage": [
+        "Large, swollen, distorted 'clubs' or galls on roots. Plant dies."
+      ],
+      "visible_signs": [
+        "Swollen roots, daytime wilting."
+      ],
+      "farmer_reported_signs": [
+        "Roots are swollen like a club",
+        "Plants wilt in the sun even with wet soil"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing foliage"
+      ],
+      "spot_or_patch_shape": "Swollen galls on roots",
+      "pattern": "Systemic root distortion",
+      "location_on_plant": "Roots",
+      "starts_from": "Root hairs",
+      "progression": "Root swelling -> Nutrient blockage -> Wilting",
+      "image_clues": [
+        "Look for swollen distorted roots when pulled out."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Root-knot nematode",
+        "difference": "Nematode galls are smaller and bead-like, while club root forms massive, solid swellings.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet"
+      ],
+      "temperature_range": "15-20C",
+      "humidity_level": "High",
+      "season": "Winter",
+      "soil_conditions": [
+        "Acidic (pH < 7.0)",
+        "Poorly drained"
+      ],
+      "field_conditions": [
+        "Infested soil"
+      ],
+      "irrigation_conditions": [
+        "Waterlogged"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Soil movement",
+        "Tools",
+        "Water runoff"
+      ],
+      "source_of_infection": [
+        "Soil resting spores"
+      ],
+      "survival_method": "Spores in soil for up to 10 years",
+      "spread_speed": "Slow (field-wise) but devastating",
+      "nearby_crop_risk": "High for brassicas"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Severe wilting.",
+        "field_indicator": "Root galls.",
+        "recommended_action": "Uproot and destroy."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use clean transplants."
+      ],
+      "field_management": [
+        "Lime soil to pH 7.2."
+      ],
+      "irrigation_management": [
+        "Improve drainage."
+      ],
+      "soil_management": [
+        "Add agricultural lime."
+      ],
+      "crop_rotation": [
+        "Rotate non-brassicas for 5+ years."
+      ],
+      "sanitation": [
+        "Clean boots and tools."
+      ],
+      "monitoring": [
+        "Check roots of wilting plants."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove infected plants."
+      ],
+      "cultural_control": [
+        "Liming."
+      ],
+      "organic_control": [
+        "None effective once infected."
+      ],
+      "biological_control": [
+        "None highly effective."
+      ],
+      "chemical_control": [],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "A soil pathogen that deforms roots and starves the plant.",
+      "what_to_do_now": [
+        "Apply lime to soil for future crops."
+      ],
+      "what_not_to_do": [
+        "Don't move soil from infested fields.",
+        "Don't plant brassicas here again soon."
+      ],
+      "when_to_call_expert": [
+        "Always, to confirm clubroot."
+      ],
+      "risk_warning": "Pathogen lives 10+ years in soil."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_club_root"
+      ],
+      "segmentation_labels": [
+        "swollen_root_gall"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "Nematode suspected."
+      ],
+      "image_quality_requirements": [
+        "Photo of washed roots."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "Field",
+      "risk_radius": "0km",
+      "report_count_threshold": "1",
+      "outbreak_alert_message": "Clubroot detected.",
+      "nearby_farm_advice": [
+        "Sanitize machinery."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cabbage_ring_spot",
+    "crop": {
+      "common_name": "Cabbage",
+      "english_name": "Cabbage",
+      "scientific_name": "Brassica oleracea",
+      "local_names": [
+        "Patta Gobhi"
+      ],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Ring Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Mycosphaerella brassicicola"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Mid to Late"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small dark circular spots on older leaves."
+      ],
+      "middle_stage": [
+        "Spots expand to 2-3cm with tiny black specks arranged in concentric rings."
+      ],
+      "severe_stage": [
+        "Leaves turn yellow and drop. Lesions on stems and seed pods."
+      ],
+      "visible_signs": [
+        "Concentric rings of black specks within a spot."
+      ],
+      "farmer_reported_signs": [
+        "Circles with black dots on leaves",
+        "Leaves dying early"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown",
+        "Yellow halo"
+      ],
+      "spot_or_patch_shape": "Circular with concentric rings",
+      "pattern": "Target-like with black dots",
+      "location_on_plant": "Older leaves first",
+      "starts_from": "Lower leaves",
+      "progression": "Spots -> Yellowing -> Defoliation",
+      "image_clues": [
+        "Look for tiny black pinhead dots inside the spots."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Alternaria Leaf Spot",
+        "difference": "Alternaria has concentric dark rings but lacks the distinct tiny black fruiting bodies (pycnidia) of ring spot.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, moist"
+      ],
+      "temperature_range": "15-20C",
+      "humidity_level": ">90%",
+      "season": "Winter/Spring",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Dense planting"
+      ],
+      "irrigation_conditions": [
+        "Overhead irrigation"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind",
+        "Rain splashes"
+      ],
+      "source_of_infection": [
+        "Crop debris",
+        "Seeds"
+      ],
+      "survival_method": "Infected debris",
+      "spread_speed": "Moderate",
+      "nearby_crop_risk": "Medium"
+    },
+    "severity_levels": [
+      {
+        "level": "Medium",
+        "description": "Spots with rings.",
+        "field_indicator": "10% foliage.",
+        "recommended_action": "Spray fungicide."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Hot water seed treatment."
+      ],
+      "field_management": [
+        "Weed control."
+      ],
+      "irrigation_management": [
+        "Drip irrigation."
+      ],
+      "soil_management": [
+        "Good drainage."
+      ],
+      "crop_rotation": [
+        "2-3 year rotation."
+      ],
+      "sanitation": [
+        "Destroy debris."
+      ],
+      "monitoring": [
+        "Scout older leaves."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove infected leaves."
+      ],
+      "cultural_control": [
+        "Sanitation."
+      ],
+      "organic_control": [
+        "Copper fungicide."
+      ],
+      "biological_control": [
+        "N/A"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil",
+          "product_type": "Fungicide",
+          "dose": "2g/L",
+          "application_method": "Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply preventatively."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A fungal disease causing ringed spots with black dots on leaves.",
+      "what_to_do_now": [
+        "Spray fungicide like Chlorothalonil."
+      ],
+      "what_not_to_do": [
+        "Don't use overhead sprinklers."
+      ],
+      "when_to_call_expert": [
+        "If confusion with Alternaria exists."
+      ],
+      "risk_warning": "Can reduce yield if defoliation is severe."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_ring_spot"
+      ],
+      "segmentation_labels": [
+        "ring_spot_lesion"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Macro of the spot showing black dots."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Ring spot alert.",
+      "nearby_farm_advice": [
+        "Apply fungicide."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  }
+]

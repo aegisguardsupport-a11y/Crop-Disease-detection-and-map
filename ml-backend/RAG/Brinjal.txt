@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "brinjal_insect_pest_bsfb",
+    "crop": {
+      "common_name": "Brinjal",
+      "english_name": "Eggplant / Brinjal / Aubergine",
+      "scientific_name": "Solanum melongena",
+      "local_names": ["Brinjal", "Baingan", "Vankaya", "Kathirikai", "Badanekayi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Insect Pest Disease (Shoot and Fruit Borer)",
+      "category": "Insect Pest",
+      "pathogen_or_cause": ["Leucinodes orbonalis"],
+      "affected_parts": ["Shoots", "Fruits", "Flower buds"],
+      "disease_stage": "Vegetative to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Larvae bore into terminal shoots, cutting water/nutrient flow, causing young shoots to droop, wilt, and dry up (dead hearts).", "Small entrance holes plugged with insect excreta (frass) on shoots."],
+      "middle_stage": ["Caterpillars bore into flower buds, causing them to shed prematurely.", "Larvae bore into growing fruits, leaving small entrance holes sealed with dried brownish frass."],
+      "severe_stage": ["Fruits become hollowed out, discolored, filled with feces/frass, decay rapidly, and become completely unmarketable.", "Heavy branching of stems occurs due to damaged main growing tips."],
+      "visible_signs": ["Drooping of terminal shoots.", "Entrance holes on shoots and fruits plugged with brownish frass.", "Creamy-white caterpillars with pinkish backs inside cut shoots/fruits."],
+      "farmer_reported_signs": ["Drooping top shoots of brinjal", "Holes in brinjal fruit with brown dust-like waste", "Worm inside the fruit"]
+    },
+    "visual_identification": {
+      "color_changes": ["Dry brown drooping shoots", "Decayed brown patches on fruits", "Larvae are pinkish-white"],
+      "spot_or_patch_shape": "Small, circular entrance holes plugged with dark brown frass",
+      "pattern": "Drooping terminal shoots (dead hearts) scattered across the field",
+      "location_on_plant": "Terminal growing shoots during vegetative phase; flower buds and fruits during reproductive phase",
+      "starts_from": "Tender shoot tips or under the fruit calyx",
+      "progression": "Larvae hatch on leaf undersides -> Bore into shoots -> Move to flowers -> Bore into fruits",
+      "image_clues": ["Look for a drooping or dried leaf tip on an otherwise healthy green brinjal plant", "Look for small holes plugged with brownish dust near the fruit stalk"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Wilt",
+        "difference": "Bacterial wilt causes the entire plant to wilt suddenly without physical bore holes or localized drooping of isolated shoot tips.",
+        "confusion_risk": "Medium"
+      },
+      {
+        "name": "Drought stress",
+        "difference": "Drought stress causes uniform wilting of the whole plant, which recovers after watering, whereas shoot borer causes permanent localized shoot death.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, humid conditions", "No heavy rainfall to wash off eggs"],
+      "temperature_range": "25°C - 35°C",
+      "humidity_level": "70% - 90% RH",
+      "season": "Summer and Rainy seasons",
+      "soil_conditions": ["High nitrogen soils producing soft, succulent shoots"],
+      "field_conditions": ["Continuous brinjal cultivation in the same plot", "Improper cleaning of fallen infested fruits"],
+      "irrigation_conditions": ["Frequent light watering promoting succulent shoots"]
+    },
+    "spread": {
+      "spread_by": ["Adult moths (active flyers at night)"],
+      "source_of_infection": ["Infested plant residues", "Volunteer brinjal crops", "Alternative wild solanaceous hosts"],
+      "survival_method": "The pest pupates in the soil, on fallen leaves, or inside crop debris in a cocoon.",
+      "spread_speed": "Very Fast under warm weather",
+      "nearby_crop_risk": "High for other brinjal fields in the vicinity"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few drooping shoot tips (<5% shoot damage); no fruit infestation yet.",
+        "field_indicator": "Isolated drooping shoots in the field.",
+        "recommended_action": "Clip and destroy drooping shoots. Install BSFB pheromone traps @ 12-15 traps/hectare."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% shoot damage; initial holes seen on early fruits.",
+        "field_indicator": "Frequent drooping shoots; early infested fruits on some plants.",
+        "recommended_action": "Manually clip infected shoots. Spray Emamectin Benzoate or Spinosad."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of shoots dried; massive fruit damage with holes and rotting fruits.",
+        "field_indicator": "Widespread drooping shoots; most harvestable fruits have borer holes.",
+        "recommended_action": "Immediately spray Chlorantraniliprole or Flubendiamide; harvest and destroy all infested fruits."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Clean, healthy seedlings.", "Avoid transplanting infested nursery stock."],
+      "field_management": ["Plant barrier crops like maize or tall sorghum around the field.", "Install pheromone traps early in the crop cycle."],
+      "irrigation_management": ["Provide optimum irrigation to avoid creating excessively soft succulent plants."],
+      "soil_management": ["Use balanced nitrogenous fertilizers; do not over-apply urea."],
+      "crop_rotation": ["Rotate brinjal with non-solanaceous crops like legumes, pulses, or cereals."],
+      "sanitation": ["Weekly clip and burn/deep bury affected drooping shoots and bored fruits.", "Clean up fallen leaves and fruits."],
+      "monitoring": ["Monitor crop twice a week, checking shoot tips and under fruit calyces starting 25 days after transplanting."]
+    },
+    "management": {
+      "immediate_action": ["Clip and bury affected shoots and fruits.", "Deploy pheromone traps immediately.", "Apply a targeted lepidopteran insecticide."],
+      "cultural_control": ["Intercrop brinjal with coriander or fennel to attract natural predators.", "Weekly hand-picking of infested shoots."],
+      "organic_control": ["Foliar spray of Azadirachtin (Neem) 1% EC @ 3 mL/L.", "Apply Bio-pesticide Beauveria bassiana @ 2.5 g/L of water."],
+      "biological_control": ["Release Trichogramma chilonis (egg parasitoid) @ 50,000/acre weekly."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorantraniliprole 18.5% SC",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.4 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "3 days",
+          "safety_note": "Highly effective systemic control; extremely safe to non-target beneficials. Spray in the evening."
+        },
+        {
+          "active_ingredient": "Emamectin Benzoate 5% SG",
+          "product_type": "Contact + Translaminar Insecticide",
+          "dose": "0.4 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "3 days",
+          "safety_note": "Excellent translaminar activity to kill larvae inside tissues."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "The Brinjal Shoot and Fruit Borer is a caterpillar pest. The worm bores into the growing shoot tips, making them droop and dry up. Later, it enters the brinjal fruit, making holes and filling the inside with waste, which rots the fruit and makes it unmarketable.",
+      "what_to_do_now": [
+        "Cut off the drooping green shoots with a knife and bury them deep in the soil.",
+        "Hang BSFB pheromone traps (12 per hectare) to trap male moths.",
+        "Spray Chlorantraniliprole (0.4mL/L) or Emamectin Benzoate (0.4g/L) to kill the worms."
+      ],
+      "what_not_to_do": [
+        "Do not leave bored, rotten fruits lying in the field as the worms will pupate in the soil and multiply.",
+        "Do not apply excessive urea as it makes shoots soft and easier for the worm to bore."
+      ],
+      "when_to_call_expert": ["Contact an expert if borer damage continues to rise despite weekly spraying of recommended chemicals."],
+      "risk_warning": "This is the most dangerous pest of brinjal. If ignored, it can destroy up to 70% to 90% of your harvest."
+    },
+    "model_support": {
+      "classification_labels": ["brinjal_insect_pest_bsfb"],
+      "segmentation_labels": ["drooping_shoot_dead_heart", "borer_hole_on_fruit"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": ["The borer hole is confused with physical damage from strong winds or mechanical weeding."],
+      "image_quality_requirements": ["Clear focus on the drooping shoot tip showing the exit/entry hole or a close-up of fruit showing borer holes and frass."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Shoot and Fruit Borer alert! Heavy moth catches in pheromone traps reported in your area. Clip shoots and spray immediately.",
+      "nearby_farm_advice": ["Hang pheromone traps immediately", "Clip and bury drooping shoots", "Spray Emamectin Benzoate"]
+    },
+    "source_metadata": {
+      "source_title": "IPM Package for Eggplant (Brinjal)",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers both shoot and fruit boring phase biology and thresholds."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T15:00:00Z",
+      "updated_at": "2024-10-27T15:00:00Z",
+      "reviewed_by": "Senior Entomologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "brinjal_leaf_spot",
+    "crop": {
+      "common_name": "Brinjal",
+      "english_name": "Eggplant / Brinjal / Aubergine",
+      "scientific_name": "Solanum melongena",
+      "local_names": ["Brinjal", "Baingan", "Vankaya", "Kathirikai", "Badanekayi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Leaf Spot Disease",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Cercospora melongenae", "Alternaria alternata", "Alternaria solani"],
+      "affected_parts": ["Leaves", "Petioles", "Fruits"],
+      "disease_stage": "Vegetative to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, chlorotic, circular-to-oval or irregular spots on older lower leaves.", "Spots are initially light brown or yellowish."],
+      "middle_stage": ["Cercospora spots turn greyish-brown with light/ash-grey centers and dark brown/purplish borders.", "Alternaria spots develop distinct concentric rings mimicking a 'target-board' pattern."],
+      "severe_stage": ["Infected tissue dries out, crack, and centers fall out leaving 'shot holes'.", "Leaves roll, wilt, turn yellow, and drop prematurely (defoliation).", "Alternaria can directly attack fruits, creating sunken, circular, dark brown lesions leading to post-harvest rot."],
+      "visible_signs": ["Concentric rings (target pattern) on leaf spots.", "Ash-grey centers with purplish rims.", "Circular shot-holes in older leaves.", "Sunken dark brown spots on mature fruits."],
+      "farmer_reported_signs": ["Grey and brown spots on lower leaves", "Spots with concentric circles like a target", "Leaves with holes falling off", "Sunken rotten spots on brinjal fruit"]
+    },
+    "visual_identification": {
+      "color_changes": ["Ash-grey center", "Purplish-brown border", "Concentric dark brown rings", "Yellowing of leaf blade"],
+      "spot_or_patch_shape": "Circular to oval spots with distinct rings or ash-grey centers",
+      "pattern": "Scattered circular spots that dry and create shot-holes",
+      "location_on_plant": "Starts on older lower leaves and progresses upward; fruits can be affected by Alternaria",
+      "starts_from": "Lower leaves close to soil surface",
+      "progression": "Lower leaves -> Mid canopy leaves -> Top leaves -> Fruit lesions",
+      "image_clues": ["Look for concentric circles in a brown spot on a leaf", "Look for a spot with a light grey center surrounded by a dark purple ring", "Look for clean-cut round holes in leaf blades"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Phomopsis Blight",
+        "difference": "Phomopsis spots are usually larger, irregular, and contain numerous tiny black specks (pycnidia) in a concentric pattern; it causes soft, watery brown rot of the entire fruit.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm and highly humid conditions", "Frequent rains or heavy dews"],
+      "temperature_range": "24°C - 32°C",
+      "humidity_level": ">80% RH",
+      "season": "Monsoon / Kharif season",
+      "soil_conditions": ["Poor drainage with water logging", "High humidity in microclimate"],
+      "field_conditions": ["Dense planting blocking ventilation", "Weeds keeping canopy humid"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation", "Excessive evening watering"]
+    },
+    "spread": {
+      "spread_by": ["Wind currents", "Rain splashes", "Splashing irrigation water"],
+      "source_of_infection": ["Infected seeds (seed-borne)", "Overwintering fungal structures in crop debris", "Alternative solanaceous weeds"],
+      "survival_method": "The fungi survive as mycelium or spores in infected seed coat or diseased crop residue in the soil.",
+      "spread_speed": "Moderate to Fast during continuous rain and warm days",
+      "nearby_crop_risk": "Moderate to High for other solanaceous crops like tomato or chili"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated grey or brown spots on bottom leaves; no shot-holes or defoliation.",
+        "field_indicator": "<10% leaf area affected on lower foliage.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic sprays like Neem Oil @ 3% or Trichoderma harzianum."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots with target patterns or grey centers starting to form shot-holes on middle leaves.",
+        "field_indicator": "10% to 30% foliage affected; mild leaf yellowing.",
+        "recommended_action": "Spray contact protective fungicides like Mancozeb or Chlorothalonil."
+      },
+      {
+        "level": "High",
+        "description": "Massive shot-holes on most leaves; severe leaf yellowing and defoliation; spots appearing on fruits.",
+        "field_indicator": ">30% foliage affected with heavy defoliation; rotting fruits.",
+        "recommended_action": "Spray curative systemic mixtures like Carbendazim + Mancozeb or Azoxystrobin + Tebuconazole immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always use certified disease-free seeds.", "Treat seeds with Thiram or Captan @ 2g/kg of seed before sowing."],
+      "field_management": ["Maintain proper plant spacing (at least 60x60 cm) to allow ventilation.", "Keep fields completely free of weeds."],
+      "irrigation_management": ["Avoid overhead sprinkler irrigation.", "Use drip irrigation or furrow irrigation; water early in the morning."],
+      "soil_management": ["Ensure proper drainage.", "Apply balanced NPK; avoid excessive nitrogen."],
+      "crop_rotation": ["Rotate brinjal with cereals, maize, or legumes for 2 years."],
+      "sanitation": ["Regularly remove and destroy older infected lower leaves.", "Collect and burn crop debris after harvesting."],
+      "monitoring": ["Monitor weekly during wet, warm seasons, checking the lower leaves closely."]
+    },
+    "management": {
+      "immediate_action": ["Pluck and destroy infected lower leaves.", "Ensure proper soil drainage.", "Spray a broad-spectrum protective fungicide."],
+      "cultural_control": ["Destroy weed hosts.", "Manually prune old leaves to improve air flow."],
+      "organic_control": ["Foliar spray of Neem Seed Kernel Extract (NSKE) 5%.", "Foliar spray of garlic-chili extract."],
+      "biological_control": ["Soil application and foliar spray of Trichoderma harzianum or Pseudomonas fluorescens @ 10 g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Apply preventatively or at the first sign of symptoms."
+        },
+        {
+          "active_ingredient": "Azoxystrobin 11% + Tebuconazole 18.3% SC",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Provides excellent curative and systemic protection for both leaves and fruits."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Brinjal leaf spot is a fungal disease that makes brown or grey spots on the lower leaves. Some spots look like 'targets' with circles inside. The center of these spots can dry out and leave holes. This causes leaves to turn yellow and drop off, and can rot the brinjal fruit.",
+      "what_to_do_now": [
+        "Pick off the spotted lower leaves and burn or bury them.",
+        "Avoid watering the plants from above (use drip or basin irrigation).",
+        "Spray Mancozeb (2g/L) or Azoxystrobin + Tebuconazole (1mL/L) to control the spread."
+      ],
+      "what_not_to_do": [
+        "Do not leave old crop waste or fallen leaves in the field.",
+        "Do not plant brinjal plants too close to each other."
+      ],
+      "when_to_call_expert": ["Contact an expert if leaves are falling rapidly and brown rotten spots are appearing on the fruits despite spraying."],
+      "risk_warning": "Severe leaf spot can cause early leaf drop, exposing fruits to sunburn, and Alternaria can rot fruits directly, reducing yield by up to 30%."
+    },
+    "model_support": {
+      "classification_labels": ["brinjal_leaf_spot"],
+      "segmentation_labels": ["target_board_lesion", "grey_spot_purple_border", "leaf_shot_hole"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The spots are confused with Phomopsis blight, which requires a slightly different chemical management plan."],
+      "image_quality_requirements": ["High-contrast images showing clear details of the leaf spot (concentric rings or grey centers with purplish rims) on both surfaces of the leaf."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Brinjal Leaf Spot alert: Warm, humid monsoon days are triggering Cercospora/Alternaria. Apply preventive contact fungicides.",
+      "nearby_farm_advice": ["Avoid overhead irrigation", "Remove bottom-most yellow leaves", "Apply preventive Mancozeb spray"]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Brinjal: Alternaria and Cercospora Leaf Spots",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Good description of target-board vs ash-grey spots on Solanum melongena."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T15:15:00Z",
+      "updated_at": "2024-10-27T15:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "brinjal_mosaic_virus",
+    "crop": {
+      "common_name": "Brinjal",
+      "english_name": "Eggplant / Brinjal / Aubergine",
+      "scientific_name": "Solanum melongena",
+      "local_names": ["Brinjal", "Baingan", "Vankaya", "Kathirikai", "Badanekayi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Mosaic Virus Disease",
+      "category": "Viral",
+      "pathogen_or_cause": ["Tobacco Mosaic Virus (TMV)", "Cucumber Mosaic Virus (CMV)", "Potato Virus Y (PVY)"],
+      "affected_parts": ["Leaves", "Stems", "Fruits"],
+      "disease_stage": "All growth stages (Seedling to Harvesting)"
+    },
+    "symptoms": {
+      "early_stage": ["Mild light-green and yellow patchy/mottling patterns on young leaves."],
+      "middle_stage": ["Clear mosaic mottling (green and yellow patches) on foliage.", "Blistering, puckering, upward/downward curling, or 'shoestring' (fern-like) narrow leaves.", "Mild plant stunting."],
+      "severe_stage": ["Severe stunting of the entire plant, making it look bushy.", "Fruit set is extremely low.", "Fruits are small, deformed, showing yellow rings, brown dead spots on the skin, and brown patches inside the flesh."],
+      "visible_signs": ["Vivid yellow and green mottling on leaves.", "Curling, narrowing (shoestringing), and puckering of leaves.", "Tiny sap-sucking insects (aphids) clustered on leaf undersides (for CMV/PVY)."],
+      "farmer_reported_signs": ["Yellow and green patches on leaves", "Thin, twisted leaves like strings", "Stunted bushy brinjal plants", "Small, hard, deformed brinjals with yellow rings"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light green and yellow patches", "Yellow rings on fruits", "Brown internal fruit patches"],
+      "spot_or_patch_shape": "Irregular mosaic mottling on leaves",
+      "pattern": "Patchy mottling or fern-like narrow leaves",
+      "location_on_plant": "Starts on young emerging terminal leaves and affects the entire plant over time",
+      "starts_from": "Terminal young leaves and shoot tips",
+      "progression": "Young leaves mottle -> Leaves twist and blister -> Plant growth halts, severe stunting -> Deformed fruits",
+      "image_clues": ["Look for a mixture of yellow and dark green patches on the same leaf blade", "Look for extremely narrow, twisted, string-like leaves (shoestring symptom)"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Small Leaf Disease (Phytoplasma)",
+        "difference": "Small Leaf disease causes extreme reduction in leaf size, pale yellow leaves, and witches' broom appearance but does not form the characteristic green-yellow mosaic mottling or shoestring leaves.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Herbicide Injury",
+        "difference": "2,4-D or other hormone herbicide drift can cause severe leaf twisting and narrowing, but the yellowing is more uniform and does not have the classic yellow-green mosaic pattern.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry and warm weather which favors aphid vectors", "Lack of rain promoting vector population explosion"],
+      "temperature_range": "25°C - 35°C",
+      "humidity_level": "<70% RH",
+      "season": "Summer and Spring seasons",
+      "soil_conditions": ["Dry soil stressing the crop"],
+      "field_conditions": ["Presence of alternative solanaceous weed hosts (e.g. Solanum nigrum)", "Frequent manual handling/weeding without tool sterilization (for TMV)"],
+      "irrigation_conditions": ["Inadequate irrigation causing crop stress"]
+    },
+    "spread": {
+      "spread_by": ["Aphids (Myzus persicae, Aphis gossypii) for CMV and PVY (non-persistent transmission)", "Mechanical contact, contaminated tools, hands, and clothes for TMV", "Infected seed (seed-borne)"],
+      "source_of_infection": ["Infected weed hosts", "Infected seed stocks", "Alternative crops like tomato, chili, tobacco, cucumber"],
+      "survival_method": "TMV survives on crop residues in soil, seed coat, or dry tobacco products. CMV/PVY survive in perennial weed hosts.",
+      "spread_speed": "Very Fast (for CMV/PVY as aphids migrate; for TMV via manual labor)",
+      "nearby_crop_risk": "High for other solanaceous and cucurbit crops nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing mild mosaic mottling on top leaves.",
+        "field_indicator": "Isolated plants with patchy green-yellow leaves.",
+        "recommended_action": "Rogue out infected plants immediately (bury or burn). Spray Neem Oil @ 3%. Set up sticky traps."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing blistering, curling, and stunting; aphids observed.",
+        "field_indicator": "Frequent patches of stunted, mosaic-affected plants.",
+        "recommended_action": "Rogue infected plants. Spray systemic insecticides like Imidacloprid to control aphids. Disinfect tools."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely stunted with shoestring leaves; zero fruit setting or heavily deformed fruits.",
+        "field_indicator": "Widespread stunting; major crop failure in infected blocks.",
+        "recommended_action": "Spray Thiamethoxam or Dimethoate to stop vector migration. Strongly consider uprooting highly infected blocks."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always use certified virus-free seeds.", "Soak seeds in 10% trisodium phosphate (TSP) for 15 mins before sowing.", "Grow resistant varieties if available."],
+      "field_management": ["Use silver-reflective plastic mulches to repel aphids.", "Maintain weed-free conditions, especially eliminating Solanum nigrum."],
+      "irrigation_management": ["Maintain regular irrigation to prevent water-stress."],
+      "soil_management": ["Apply balanced nutrients to encourage strong natural plant defenses."],
+      "crop_rotation": ["Do not rotate brinjal with potato, tomato, or pepper crops.", "Rotate with grain cereals or corn."],
+      "sanitation": ["Regularly uproot and destroy infected plants at early stages.", "Wash hands with soap and water before handling plants. Disinfect tools using 10% bleach.", "Do not smoke or chew tobacco while working in the field."],
+      "monitoring": ["Inspect the crop twice a week, checking young leaves for mosaic patterns and leaf undersides for aphids."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and burn/bury infected plants immediately.", "Deploy yellow sticky traps.", "Apply systemic insecticides to control aphid populations."],
+      "cultural_control": ["Sow 3-4 rows of barrier crops (maize, sorghum, or millet) around the brinjal field to block migrating aphids.", "Eradicate solanaceous weeds."],
+      "organic_control": ["Foliar spray of Neem Oil @ 3% (30 mL/L) or NSKE 5% to repel aphids.", "Spray insecticidal soaps to kill aphid nymphs."],
+      "biological_control": ["Conserve natural predators like ladybird beetles and lacewings which feed on aphids."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Do not spray when honeybees are actively pollinating; apply in late afternoon."
+        },
+        {
+          "active_ingredient": "Thiamethoxam 25% WG",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Ensure complete coverage of leaf undersides where aphids reside."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Mosaic disease is a virus disease. It cannot be cured. It causes green and yellow patches on the leaves, and twists or narrows them like thin strings. The plants remain small and bushy, producing tiny deformed brinjal fruits. It is spread by small sucking insects (aphids) or through dirty hands and tools.",
+      "what_to_do_now": [
+        "Pull out any yellow, patchy, or twisted plants and burn them away from the field.",
+        "Wash hands and tools with soap and water after touching sick plants.",
+        "Spray Imidacloprid (0.5mL/L) to kill the aphids spreading the virus."
+      ],
+      "what_not_to_do": [
+        "Do not keep seeds from sick plants for next season.",
+        "Do not smoke or chew tobacco in the brinjal field as tobacco can carry the virus (TMV) to your brinjal plants.",
+        "Do not touch healthy plants after touching infected ones without washing hands."
+      ],
+      "when_to_call_expert": ["Contact an expert if aphid populations are soaring and mosaic patches are spreading rapidly across the entire field."],
+      "risk_warning": "Early infection can ruin your crop, causing up to 60% to 100% loss because plants remain stunted and bear no marketable fruits."
+    },
+    "model_support": {
+      "classification_labels": ["brinjal_mosaic_virus"],
+      "segmentation_labels": ["mosaic_mottling_patch", "shoestring_leaf_distortion"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The symptoms are confused with physiological yellowing from iron deficiency or heavy herbicide spray drift."],
+      "image_quality_requirements": ["High-resolution photos focusing on the mosaic pattern on the leaf blade or twisted string-like leaves in bright, natural light."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "8 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Mosaic Virus Alert! Hot, dry winds are increasing aphid activity in your area. Implement preventive vector control now.",
+      "nearby_farm_advice": ["Rogue out early yellow plants", "Control aphids with Imidacloprid", "Grow barrier crops like maize"]
+    },
+    "source_metadata": {
+      "source_title": "Viral Diseases of Brinjal and Their Management",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "Department of Plant Pathology, TNAU",
+      "published_year": "2022",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Excellent details on TMV mechanical transmission vs CMV aphid transmission."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T15:30:00Z",
+      "updated_at": "2024-10-27T15:30:00Z",
+      "reviewed_by": "Senior Plant Virologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "brinjal_small_leaf",
+    "crop": {
+      "common_name": "Brinjal",
+      "english_name": "Eggplant / Brinjal / Aubergine",
+      "scientific_name": "Solanum melongena",
+      "local_names": ["Brinjal", "Baingan", "Vankaya", "Kathirikai", "Badanekayi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Small Leaf Disease",
+      "category": "Phytoplasma",
+      "pathogen_or_cause": ["Candidatus Phytoplasma species"],
+      "affected_parts": ["Leaves", "Petioles", "Internodes", "Flowers", "Fruits"],
+      "disease_stage": "All growth stages (Seedling to Flowering)"
+    },
+    "symptoms": {
+      "early_stage": ["Newly emerging leaves become abnormally small, thin, smooth, and pale-green/chlorotic."],
+      "middle_stage": ["Extremely shortened leaf stalks (petioles) and stems (internodes).", "Leaves appear tightly clustered or 'glued' to the stem.", "Proliferation of side buds causing a dense, bushy, 'witches' broom' appearance."],
+      "severe_stage": ["Floral parts turn green and leafy (phyllody), causing complete sterility.", "Thorns are lost in thorny varieties.", "No fruits are produced, or if infected late, fruits remain extremely small, hard, wood-like, and completely unmarketable."],
+      "visible_signs": ["Extremely tiny, clustered, pale-green leaves.", "Witches' broom (highly branched, bushy) plant shape.", "Leafy green sterile flowers.", "Presence of brown leafhoppers jumping when plants are shaken."],
+      "farmer_reported_signs": ["Tiny leaves clustered together", "Okra-like or leafy green flowers", "Brinjal plant looking like a tiny broom", "Very small, hard, wood-like brinjals"]
+    },
+    "visual_identification": {
+      "color_changes": ["Pale green to light yellow", "Green colored flowers (phyllody)"],
+      "spot_or_patch_shape": "None (extreme leaf reduction and leaf clustering)",
+      "pattern": "Dense bushy clustering of tiny leaves",
+      "location_on_plant": "Starts on young shoots and rapidly dominates the entire plant canopy",
+      "starts_from": "Terminal buds and side shoots",
+      "progression": "Young leaves shrink -> Internodes shorten -> Auxillary buds explode into bushy growth -> Flowers turn green -> Plant becomes sterile",
+      "image_clues": ["Look for a plant that has extremely small leaves (size of a coin or smaller) compared to normal brinjal leaves", "Green leaf-like structures instead of normal flowers"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Mosaic Virus Disease",
+        "difference": "Mosaic disease leaves are mottled yellow-green and may show twisting/narrowing, but do not shrink uniformly to a tiny coin size or form green leafy flowers.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Mite Infestation",
+        "difference": "Severe mite damage causes leaf curling and reduction in leaf expansion, but leaves remain dark green, rough, and show heavy webbing underneath, without green leafy flowers.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, dry weather which favors leafhopper vector reproduction", "Lack of rainfall"],
+      "temperature_range": "25°C - 35°C",
+      "humidity_level": "<70% RH",
+      "season": "Summer and Autumn seasons",
+      "soil_conditions": ["Dry, stressed soils"],
+      "field_conditions": ["Weed-infested boundaries acting as leafhopper reservoirs", "No barrier crops"],
+      "irrigation_conditions": ["Under-watering causing crop stress"]
+    },
+    "spread": {
+      "spread_by": ["Brown leafhopper vector (Hishimonus phycitis)"],
+      "source_of_infection": ["Infected perennial solanaceous weeds (e.g., Datura, wild brinjal)", "Infected brinjal volunteer plants"],
+      "survival_method": "The Phytoplasma pathogen survives in the salivary glands of leafhoppers and inside perennial weed hosts year-round.",
+      "spread_speed": "Fast during leafhopper breeding seasons",
+      "nearby_crop_risk": "High for other brinjal crops in the same district"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing early leaf reduction on top shoots; leafhoppers present.",
+        "field_indicator": "Isolated plants with tiny leaves on top branches.",
+        "recommended_action": "Rogue out infected plants immediately. Spray Neem Seed Kernel Extract (NSKE 5%) or Imidacloprid."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing classic 'witches' broom' bushy growth and small leaves.",
+        "field_indicator": "Patches of dwarf, bushy brinjal plants across the field.",
+        "recommended_action": "Rogue out all bushy plants. Spray Thiamethoxam or Dimethoate to control the leafhopper vector."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely bushy with green sterile flowers and zero fruit production.",
+        "field_indicator": "Heavy infestation of leafhoppers; extensive sterility and yield loss.",
+        "recommended_action": "Spray Thiamethoxam immediately. Pull out highly infected blocks. Plant barrier crops for future protection."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Grow tolerant varieties like Padagoda.", "Dip seedling roots in Streptocycline solution (0.1%) for 15 mins before transplanting."],
+      "field_management": ["Plant tall border crops like maize or sorghum (3-4 rows) around the brinjal field.", "Eradicate weeds like Datura stramonium from field borders."],
+      "irrigation_management": ["Maintain optimum soil moisture to avoid leafhopper-attracting dry stress."],
+      "soil_management": ["Apply balanced organic and inorganic fertilizers."],
+      "crop_rotation": ["Rotate with non-solanaceous crops like maize, sugarcane, or rice."],
+      "sanitation": ["Inspect the field weekly; uproot and burn/bury infected plants showing small leaves immediately.", "Remove wild solanaceous weeds."],
+      "monitoring": ["Scout the field weekly, shaking plants gently to monitor jumping leafhoppers starting 15 days after transplanting."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected bushy plants.", "Spray a systemic insecticide to target leafhoppers.", "Avoid spreading weeds during weeding."],
+      "cultural_control": ["Eradicate weed hosts.", "Utilize barrier crops to block leafhoppers."],
+      "organic_control": ["Foliar spray of Neem Seed Kernel Extract (NSKE) 5% or Neem Oil @ 3% as a repellant."],
+      "biological_control": ["Apply Pseudomonas fluorescens or Bacillus subtilis @ 10g/L to boost plant defenses."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Thiamethoxam 25% WG",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Highly effective at killing leafhoppers and preventing transmission. Apply in the late afternoon."
+        },
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Ensure thorough coverage of the plant canopy."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Small Leaf (Little Leaf) is a dangerous disease caused by bacteria-like germs and spread by small jumping insects called leafhoppers. It makes the leaves grow extremely small (like tiny coins) and tightly packed together, looking like a broom. The flowers turn into green leaves and become sterile, producing no fruits.",
+      "what_to_do_now": [
+        "Pull out any bushy, tiny-leaved plants immediately and bury them.",
+        "Spray Thiamethoxam (0.3g/L) to kill the leafhoppers spreading the disease.",
+        "Keep the field borders clean of weeds."
+      ],
+      "what_not_to_do": [
+        "Do not leave infected bushy plants in the field, as leafhoppers will carry the disease from them to healthy plants.",
+        "Do not ignore leafhopper insects jumping around your crop."
+      ],
+      "when_to_call_expert": ["Contact an expert if leafhoppers are in high numbers and more than 10% of plants show small leaves despite spraying insecticides."],
+      "risk_warning": "Because the disease turns flowers into green leaves, infected plants become 100% sterile and will not produce a single usable brinjal fruit."
+    },
+    "model_support": {
+      "classification_labels": ["brinjal_small_leaf"],
+      "segmentation_labels": ["tiny_leaf_clustering", "green_leafy_flower_phyllody", "bushy_broom_habit"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The model confuses severe stunt/leaf shrinkage from chemical/herbicide injury with phytoplasma small leaf disease."],
+      "image_quality_requirements": ["Clear focus on the tiny clustered leaves compared to normal leaves, or the green leaf-like flowers."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Small Leaf (Little Leaf) warning! Leafhopper vectors are highly active in your block. Rogue out infected plants and spray Thiamethoxam immediately.",
+      "nearby_farm_advice": ["Rogue and burn infected bushy plants", "Foliar spray of Thiamethoxam", "Plant barrier crops of maize"]
+    },
+    "source_metadata": {
+      "source_title": "Little Leaf Disease of Brinjal: Management Guide",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Excellent detail on Hishimonus phycitis leafhopper vector and phytoplasma biology."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T15:45:00Z",
+      "updated_at": "2024-10-27T15:45:00Z",
+      "reviewed_by": "Senior Plant Pathologist / Entomologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "brinjal_white_mold",
+    "crop": {
+      "common_name": "Brinjal",
+      "english_name": "Eggplant / Brinjal / Aubergine",
+      "scientific_name": "Solanum melongena",
+      "local_names": ["Brinjal", "Baingan", "Vankaya", "Kathirikai", "Badanekayi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "White Mold Disease",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Sclerotinia sclerotiorum"],
+      "affected_parts": ["Stems", "Branches", "Leaves", "Fruits", "Collar region"],
+      "disease_stage": "Flowering to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Watery, dark-green to light-brown elongated lesions on stems, usually near the collar region, pruning wounds, or areas touching the soil."],
+      "middle_stage": ["Lesions expand and girdle the stem, disrupting water transport.", "Leaves turn pale-yellow, wilt, and droop.", "Under cool, humid conditions, a dense, fluffy, cottony white fungal growth (mycelium) covers the infected stems."],
+      "severe_stage": ["Hard, irregular, coal-black survival structures (sclerotia) resembling mouse droppings form inside the hollowed-out stems or on infected tissues.", "Fruits undergo a moist, watery, soft dark rot, rapidly shrinking, mummifying, or completely collapsing."],
+      "visible_signs": ["Dense, fluffy cottony white fungal growth on stems/fruits.", "Hard black sclerotia (mouse-dropping-like) inside hollow stems.", "Watery rot of fruits.", "Sudden stem girdling and wilting."],
+      "farmer_reported_signs": ["White cotton-like mold on brinjal stems", "Black hard seeds inside dead stems", "Rotten soft brinjals that look dry and wrinkled", "Plant wilting and breaking near the soil"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light brown lesions", "Cottony white mycelium", "Coal-black sclerotia", "Watery dark-green fruit rot"],
+      "spot_or_patch_shape": "Elongated lesions on stems; watery circular rot on fruits",
+      "pattern": "Fluffy white mold growth with black seeds (sclerotia) interspersed",
+      "location_on_plant": "Lower stems near the soil, branch junctions, and developing fruits",
+      "starts_from": "Collar region or stem wounds in contact with soil",
+      "progression": "Stem lesion -> Cottony mold -> Plant wilting -> Sclerotia formation inside stem -> Fruit soft rot",
+      "image_clues": ["Look for fluffy white 'cotton' growing on a dark, wet brinjal stem", "Look for hard black pellets resembling mouse droppings inside a split-open dead brinjal stem"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Wilt",
+        "difference": "Bacterial wilt causes rapid wilting without any fluffy white cottony mold or hard black sclerotia pellets inside the stems.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Late Blight / Phytophthora Rot",
+        "difference": "Phytophthora causes dark brown lesions and watery rot, but its white growth is very sparse, thin, and powdery (not fluffy cottony), and it never produces hard black sclerotia pellets.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool, wet, and highly humid weather", "Overcast skies and heavy morning dews"],
+      "temperature_range": "15°C - 22°C",
+      "humidity_level": ">90% RH",
+      "season": "Winter / Late Rabi season",
+      "soil_conditions": ["Wet, poorly drained soils", "High organic matter with resting sclerotia"],
+      "field_conditions": ["Dense planting creating a humid microclimate", "Excessive nitrogen promoting a dense canopy", "Soil containing sclerotia from previous crops"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation", "Excessive furrow irrigation keeping the soil surface constantly wet"]
+    },
+    "spread": {
+      "spread_by": ["Soil-borne sclerotia (primary source)", "Wind-borne ascospores (secondary spread)", "Water splashes", "Movement of infested soil or tools"],
+      "source_of_infection": ["Sclerotia surviving in the soil", "Infected crop debris", "Alternative hosts (beans, tomato, cabbage)"],
+      "survival_method": "The fungus survives as hard sclerotia in the soil for up to 5-8 years, resisting extreme temperatures and drought.",
+      "spread_speed": "Rapid in cool, continuously wet weather",
+      "nearby_crop_risk": "High for other susceptible winter vegetables (cabbage, tomato, potato, peas)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated plants with minor watery lesions on stems near the soil; no wilting or white mold yet.",
+        "field_indicator": "<5% of plants showing initial stem lesions.",
+        "recommended_action": "Avoid overhead watering. Rogue out infected plants. Drench soil with Trichoderma harzianum."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing fluffy white mold on stems; leaves yellowing and wilting.",
+        "field_indicator": "Wilting plants with visible cottony growth near the soil.",
+        "recommended_action": "Uproot infected plants carefully (without dropping sclerotia). Spray/drench soil with Carbendazim + Mancozeb or Carbendazim alone."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants wilting and dead; black sclerotia visible; fruits showing watery rotting with white cotton.",
+        "field_indicator": "Widespread plant death and rotting fruits covered in thick white mold.",
+        "recommended_action": "Apply Boscalid or Tebuconazole + Trifloxystrobin immediately. Clear and burn all debris after harvest; plan for soil solarization."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Ensure seeds or seedlings are sourced from disease-free fields."],
+      "field_management": ["Keep plants wide apart to ensure dry canopy.", "Use clear plastic mulch for soil solarization in summer."],
+      "irrigation_management": ["Never use overhead sprinklers.", "Use drip irrigation to keep soil surface and leaves dry."],
+      "soil_management": ["Apply bio-control Coniothyrium minitans or Trichoderma harzianum to the soil before transplanting to destroy sclerotia.", "Avoid excess nitrogen."],
+      "crop_rotation": ["Rotate with non-susceptible crops like corn, wheat, onions, or rice for at least 3-4 years."],
+      "sanitation": ["Prune lower leaves to improve airflow.", "Uproot and burn infected plants. Never compost infected plants as sclerotia will survive."],
+      "monitoring": ["Scout the field weekly in winter, checking lower stems near the soil for watery spots or white fuzz."]
+    },
+    "management": {
+      "immediate_action": ["Stop overhead watering immediately.", "Carefully remove infected plants and bury/burn them.", "Drench the soil and spray plants with systemic fungicides."],
+      "cultural_control": ["Perform deep plowing to bury sclerotia deep (>10 cm) where they rot.", "Prune lower branches."],
+      "organic_control": ["Soil solarization during summer.", "Apply copper-based organic sprays."],
+      "biological_control": ["Incorporate Trichoderma harzianum or Coniothyrium minitans into the soil @ 10g/sq. meter before planting."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim 12% + Mancozeb 63% WP",
+          "product_type": "Systemic + Contact Fungicide Mixture",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray and Soil Drench",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply as a soil drench around the collar region of the plants."
+        },
+        {
+          "active_ingredient": "Thiophanate-methyl 70% WP",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Highly effective at suppressing Sclerotinia mycelium."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "White Mold (Sclerotinia stem rot) is a fungal disease that attacks brinjal stems and fruits during cool, wet winter weather. It creates a fluffy, white cotton-like mold on the stems. Inside the dead stems, it forms hard, black seeds that look like mouse droppings. The plant wilts and dies, and fruits melt into a watery rot.",
+      "what_to_do_now": [
+        "Pull out the infected plants carefully, put them in a bag so the black seeds do not fall into the soil, and burn them.",
+        "Drench the soil around nearby healthy plants with Carbendazim (1g/L of water).",
+        "Stop watering from above."
+      ],
+      "what_not_to_do": [
+        "Do not leave dead plants in the field or throw them in the compost pile, as the black seeds can live in the soil for 8 years and infect future crops.",
+        "Do not apply excess nitrogen fertilizer as it makes the canopy too thick and humid."
+      ],
+      "when_to_call_expert": ["Contact an expert if white mold is spreading rapidly in your winter crop and plants are dying in large patches despite drenching fungicides."],
+      "risk_warning": "Because the black sclerotia seeds survive in the soil for up to 8 years, failing to control this disease can ruin your field for brinjal, tomato, and beans for years."
+    },
+    "model_support": {
+      "classification_labels": ["brinjal_white_mold"],
+      "segmentation_labels": ["fluffy_white_mycelium", "black_sclerotia_pellet", "watery_fruit_decay"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": ["The model confuses physical white mold with powdery mildew or sparse late blight growth."],
+      "image_quality_requirements": ["Clear macro photos focusing on the fluffy cotton-like mold on the stem, or the split stem showing black sclerotia pellets inside."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "White Mold (Sclerotinia) alert! Cool nights, high humidity, and morning mists have triggered stem rot. Ensure soil drenching and avoid overwatering.",
+      "nearby_farm_advice": ["Avoid overhead irrigation", "Perform soil drenching with Carbendazim", "Carefully rogue out white mold infected plants"]
+    },
+    "source_metadata": {
+      "source_title": "Sclerotinia Stem Rot of Eggplant",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers winter-season Sclerotinia sclerotiorum dynamics on Solanum melongena."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T16:00:00Z",
+      "updated_at": "2024-10-27T16:00:00Z",
+      "reviewed_by": "Senior Fungal Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "brinjal_wilt",
+    "crop": {
+      "common_name": "Brinjal",
+      "english_name": "Eggplant / Brinjal / Aubergine",
+      "scientific_name": "Solanum melongena",
+      "local_names": ["Brinjal", "Baingan", "Vankaya", "Kathirikai", "Badanekayi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Wilt Disease",
+      "category": "Soil-borne (Bacterial / Fungal)",
+      "pathogen_or_cause": ["Ralstonia solanacearum (Bacterial)", "Fusarium oxysporum", "Fusarium solani (Fungal)"],
+      "affected_parts": ["Roots", "Vascular bundle", "Stems", "Leaves"],
+      "disease_stage": "Vegetative to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Bacterial Wilt: Sudden wilting of leaves during hot days; leaves recover in the morning/evening.", "Fusarium Wilt: Gradual yellowing (chlorosis) and drooping of lower leaves first, slowly moving upward."],
+      "middle_stage": ["Bacterial Wilt: Rapid permanent wilting of the whole plant. Leaves remain green ('green wilt') without major yellowing before death.", "Fusarium Wilt: Leaves turn pale yellow, dry up, and hang down. Stems show stunted growth and poor fruit set."],
+      "severe_stage": ["Vascular browning: Cutting the lower stem reveals a dark brown to reddish-brown discoloration of the internal water-transporting (xylem) tissues.", "Suspended stem in clear water releases a milky-white bacterial slime (for Bacterial Wilt only).", "Roots turn soft, dark, and rot completely."],
+      "visible_signs": ["Sudden wilting of the plant (green or yellow).", "Internal brown streaks inside the stem when cut open.", "Milky white stream of bacterial ooze flowing from cut stem suspended in a glass of water.", "Soft, decayed, dark roots."],
+      "farmer_reported_signs": ["Plant dies suddenly while still looking green", "Leaves turning yellow from the bottom up and drying", "Inside of the stem has brown woody lines", "White milk-like string coming out of stem in water"]
+    },
+    "visual_identification": {
+      "color_changes": ["Green leaves wilting suddenly (Bacterial)", "Yellowing of lower leaves (Fusarium)", "Brown to reddish-brown vascular bundles", "Dark rotted roots"],
+      "spot_or_patch_shape": "None (complete wilting and vascular discoloration)",
+      "pattern": "Scattered wilting plants across the field, often following water flow directions",
+      "location_on_plant": "Roots and water-transporting system of the stem, progressing to the entire leaf canopy",
+      "starts_from": "Soil line / Roots",
+      "progression": "Root infection -> Colonization of water tubes in stem -> Blocked water flow -> Sudden leaf wilting -> Complete plant death",
+      "image_clues": ["Look for a completely wilted green brinjal plant next to healthy ones", "Look for brown rings inside a cut stem", "Look for a glass of water with white cloudy ooze coming from a cut stem tip"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Drought stress",
+        "difference": "Drought-stressed plants wilt uniformly across the entire field (not in patches or single plants) and recover fully within hours of watering, without any brown lines inside the stems.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "White Mold Disease",
+        "difference": "White mold causes stem lesions and has white cottony mold and black seeds on the stem surface, which wilt pathogens do not have.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm to hot weather with high soil moisture (for Bacterial)", "Dry weather following a wet period (for Fusarium)"],
+      "temperature_range": "28°C - 35°C",
+      "humidity_level": ">80% RH (high soil moisture)",
+      "season": "Summer and Rainy seasons",
+      "soil_conditions": ["Acidic to neutral soil pH", "Poorly drained, clayey, or waterlogged soils", "Soil infested with nematodes which wound roots"],
+      "field_conditions": ["Continuous planting of solanaceous crops", "Root injuries during transplanting or weeding"],
+      "irrigation_conditions": ["Excessive irrigation water spreading the soil bacteria", "Standing water in the field"]
+    },
+    "spread": {
+      "spread_by": ["Soil-borne bacteria/fungal spores", "Irrigation water carrying the pathogen", "Contaminated farming tools and footwear", "Nematodes wounding plant roots"],
+      "source_of_infection": ["Inested soil", "Infected crop residues", "Alternative solanaceous weeds (e.g., Solanum nigrum)"],
+      "survival_method": "The bacteria/fungal spores survive in soil, root systems of weeds, and infected crop residues for many years.",
+      "spread_speed": "Bacterial Wilt is extremely fast (plants wilt in 2-3 days). Fusarium Wilt is slow (progresses over weeks).",
+      "nearby_crop_risk": "Extremely High for other solanaceous crops (tomato, potato, chili)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<2%) showing midday wilting (Bacterial) or lower leaf yellowing (Fusarium).",
+        "field_indicator": "Isolated plants looking droopy during hot hours.",
+        "recommended_action": "Avoid root wounding during weeding. Drench soil around nearby plants with Streptocycline (Bacterial) or Carbendazim (Fusarium)."
+      },
+      {
+        "level": "Medium",
+        "description": "2% to 10% of plants permanently wilted and dying; vascular browning visible in stems.",
+        "field_indicator": "Patches of dead and dying plants; visible yellowing patterns.",
+        "recommended_action": "Carefully uproot and burn infected plants. Drench the entire crop row soil with Copper Oxychloride + Streptocycline or Carbendazim."
+      },
+      {
+        "level": "High",
+        "description": "Over 10% of plants dead; disease spreading rapidly through irrigation lines; root rot severe.",
+        "field_indicator": "Widespread wilting and empty patches in the field.",
+        "recommended_action": "Uproot infected blocks. Stop furrow irrigation to prevent spread. Plan for soil solarization, grafting, and 3-year crop rotation."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Grow resistant varieties (e.g., Pant Samrat) or use brinjal scions grafted onto wild resistant rootstocks.", "Dip seedling roots in Streptocycline solution (0.1%) for 15 mins before transplanting."],
+      "field_management": ["Keep soil pH neutral to slightly alkaline (apply lime if acidic).", "Control root-knot nematodes which wound roots, allowing wilt entrance."],
+      "irrigation_management": ["Never let water stand in the field; provide raised beds.", "Do not use run-off water from infected fields."],
+      "soil_management": ["Perform soil solarization using clear plastic sheets in hot summer for 4-6 weeks.", "Avoid deep weeding near roots."],
+      "crop_rotation": ["Rotate with non-susceptible crops like maize, wheat, rice, or millets for at least 3 years."],
+      "sanitation": ["Clean and disinfect farming tools (with bleach/sanitizer) before moving to healthy fields.", "Uproot and burn infected plants immediately."],
+      "monitoring": ["Scout fields twice a week during warm, wet periods, checking for isolated wilting plants."]
+    },
+    "management": {
+      "immediate_action": ["Uproot and burn wilted plants immediately.", "Isolate the irrigation flow from infected patches.", "Drench soil around neighboring healthy plants with bactericides/fungicides."],
+      "cultural_control": ["Apply agricultural lime to acidic soils.", "Use raised planting beds to prevent standing water."],
+      "organic_control": ["Soil solarization in summer.", "Apply neem cake to the soil to suppress nematodes and pathogens."],
+      "biological_control": ["Incorporate Trichoderma harzianum or Pseudomonas fluorescens @ 10g/sq. meter into soil at planting, and drench roots weekly."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Bactericide (For Bacterial Wilt)",
+          "dose": "0.1 g to 0.2 g/L of water",
+          "application_method": "Soil Drench",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply as a soil drench around the root zone of healthy plants next to wilted ones. Never spray on open flowers."
+        },
+        {
+          "active_ingredient": "Copper Oxychloride 50% WP",
+          "product_type": "Contact Fungicide / Bactericide",
+          "dose": "2.0 g to 3.0 g/L of water",
+          "application_method": "Soil Drench",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Helps suppress bacterial spread in the soil."
+        },
+        {
+          "active_ingredient": "Carbendazim 50% WP",
+          "product_type": "Systemic Fungicide (For Fusarium Wilt)",
+          "dose": "1.0 g/L of water",
+          "application_method": "Soil Drench",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Highly effective at suppressing Fusarium colonization in roots."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Wilt is a deadly soil disease. It blocks the water tubes inside the brinjal stem, starving the plant of water. Bacterial wilt makes the plant dry up and die suddenly while still looking green. Fungal wilt slowly turns the bottom leaves yellow and dries them. Both cause the inside of the stem to turn brown.",
+      "what_to_do_now": [
+        "Pull out the wilted plant with its roots, put it in a bag, and burn it far away.",
+        "Do not let irrigation water flow from a wilted patch to a healthy patch.",
+        "Drench the soil around the surrounding healthy plants with Streptocycline (0.15g/L) + Copper Oxychloride (2g/L)."
+      ],
+      "what_not_to_do": [
+        "Do not use deep weeding tools near the plants, as cutting the roots gives the soil bacteria/fungi an easy entry way.",
+        "Do not plant eggplants, tomatoes, potatoes, or chilies in the same soil next season if you had a wilt outbreak."
+      ],
+      "when_to_call_expert": ["Contact an expert if plants are dying in large numbers and patches of your field are becoming bare despite soil drenching."],
+      "risk_warning": "Wilt pathogens live in the soil for years. A severe outbreak can destroy 50% to 100% of your crop and prevent you from growing any brinjal or tomato in that soil for 3 years."
+    },
+    "model_support": {
+      "classification_labels": ["brinjal_wilt"],
+      "segmentation_labels": ["wilted_plant_canopy", "vascular_browning_stem", "bacterial_ooze_milky_string"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": ["The model confuses water deficiency/drought wilting with pathogen-induced vascular wilt."],
+      "image_quality_requirements": ["Clear focus on the wilted plant canopy, or macro photos of the cut stem showing internal brown wood lines or the water ooze test."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Brinjal Wilt Alert! Warm temperatures and high soil moisture have triggered bacterial/fungal wilt. Rogue infected plants and drench roots immediately.",
+      "nearby_farm_advice": ["Stop furrow irrigation in infected blocks", "Drench healthy roots with Streptocycline + Copper Oxychloride", "Perform summer soil solarization"]
+    },
+    "source_metadata": {
+      "source_title": "Bacterial and Fungal Wilts of Eggplant",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Excellent details on differentiating Ralstonia (sudden green wilt, ooze test) vs Fusarium (gradual yellowing)."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T16:15:00Z",
+      "updated_at": "2024-10-27T16:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist / Microbiologist",
+      "status": "Approved"
+    }
+  }
+]

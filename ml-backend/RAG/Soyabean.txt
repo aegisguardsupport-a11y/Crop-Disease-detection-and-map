@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "SOYBEAN-SMV-001",
+    "crop": {
+      "common_name": "Soybean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean",
+        "Bhatmas",
+        "Soja"
+      ],
+      "crop_category": "Oilseed / Legume"
+    },
+    "disease": {
+      "name": "Soybean Mosaic Virus",
+      "category": "Viral (Vector-borne / Seed-borne)",
+      "pathogen_or_cause": [
+        "Soybean mosaic virus (SMV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Pods",
+        "Seeds"
+      ],
+      "disease_stage": "All growth stages; most pronounced during mid-vegetative to pod fill"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Young leaflets show mild translucent clearing of veins",
+        "Slight upward or downward curling of leaflet margins"
+      ],
+      "middle_stage": [
+        "Leaves develop an intense yellow-green mosaic mottle pattern",
+        "Leaf tissue puckers and crinkles heavily, distorting standard leaf shape",
+        "Main leaf veins turn dark green while surrounding tissue turns pale green"
+      ],
+      "severe_stage": [
+        "Leaflets become severely stunted, narrow, elongated, and leathery",
+        "Pods are reduced in size, flattened, and contain fewer seeds",
+        "Harvested seeds show a distinct brown or black bleeding streak running outward from the seed eye (hilum)"
+      ],
+      "visible_signs": [
+        "Heavily crinkled, distorted, puckered green leaves with downward rolled margins and brown-streaked seed coats"
+      ],
+      "farmer_reported_signs": [
+        "My soyabean leaves are curling downward and look wrinkled or bumpy like a toad's skin",
+        "The harvested beans have dark black or brown ink stains bleeding from the center seed eye"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Alternating yellow-green mosaic mottling over blades; dark green vein-banding; dark bleeding lines on seed skins"
+      ],
+      "spot_or_patch_shape": "No localized dead spots; diffuse, bumpy, distorted rugose puckering across leaf surfaces",
+      "pattern": "Systemic crinkling and leaf narrowing across emerging top shoots",
+      "location_on_plant": "Most severe and visually distinct on the youngest, topmost growing shoots and trifoliate leaves",
+      "starts_from": "Terminal buds and young emerging leaves following insect vector feeding",
+      "progression": "Spreads internally from vegetative shoots down into pod formation layers, altering bean coat pigmentation",
+      "image_clues": [
+        "Deeply puckered soyabean leaf curled tightly downward at the edges",
+        "Yellow-and-green mottled crinkled shoots",
+        "Mottled brown-stained harvested seeds"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Soybean Yellow Mosaic Virus (Soybean yellow mosaic virus)",
+        "difference": "Yellow mosaic virus causes brilliant, stark, bright yellow patches or a full golden bleaching of the leaf blade, completely lacking the severe, bumpy puckering, leaf distortion, and downward rolling typical of Soybean Mosaic Virus.",
+        "confusion_risk": "High, due to shared 'Mosaic' name markers."
+      },
+      {
+        "name": "Growth Regulator Herbicide Drift (e.g., Dicamba / 2,4-D Injury)",
+        "difference": "Herbicide injury causes extreme leaf strapping into parallel veins ('feathering') or uniform cupping of all leaf tips simultaneously across field edges, lacking seed coat staining or mosaic color patterns.",
+        "confusion_risk": "Extreme, as both distort leaf structures heavily."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cooler ambient temperatures during early vegetative stages (under 25\u00b0C) favor severe leaf puckering; warm dry periods drive aphid migrations"
+      ],
+      "temperature_range": "20\u00b0C - 25\u00b0C (68\u00b0F - 77\u00b0F) for maximum visual symptoms; drops off at temperatures above 30\u00b0C",
+      "humidity_level": "Moderate profiles",
+      "season": "Main Kharif or summer monsoon cycles with high initial weed populations",
+      "soil_conditions": [
+        "Not directly dependent on soil indices, but fields with heavy perennial wild legume weed lines across bunds are at higher risk"
+      ],
+      "field_conditions": [
+        "High populations of sap-sucking aphid vectors",
+        "Planting saved seed lots from prior contaminated threshed plots"
+      ],
+      "irrigation_conditions": [
+        "Standard moisture parameters"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Sap-sucking aphids (e.g., Aphis glycines, Myzus persicae) transmitting virus particles mechanically in a non-persistent style",
+        "Planting seed lines carrying the virus internally",
+        "Mechanical plant-to-plant leaf rubbing via machinery"
+      ],
+      "source_of_infection": [
+        "Infected saved seeds used for planting",
+        "Alternative wild leguminous weeds or volunteer soyabean clumps"
+      ],
+      "survival_method": "Overwinters internally inside the seed embryo or stays active inside multi-season wild legume weed bridges",
+      "spread_speed": "Highly rapid across field plots once winged aphid flights migrate between lines",
+      "nearby_crop_risk": "High for adjacent younger pulse plots downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint yellow-green lines or minor leaf wrinkling restricted to less than 5% of young plants across lines.",
+        "field_indicator": "A few isolated wrinkled leaves on top shoots; zero pod distortions.",
+        "recommended_action": "Rogue out and bury infected crinkled plants immediately if within 30 days of sowing. Control wild weeds along bund borders."
+      },
+      {
+        "level": "Medium",
+        "description": "Severe puckering and leaf rolling visible across 5% to 15% of the crop canopy; plants look slightly stunted.",
+        "field_indicator": "Distinct patches of crinkled yellow-green foliage easily visible while walking the lines.",
+        "recommended_action": "Apply targeted eco-friendly or chemical sprays to suppress aphid vectors. Tag and segregate infected blocks to prevent seed saving."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of plants are severely deformed, stunted, and leathery; pods are flat, hairy, or mostly seedless.",
+        "field_indicator": "Massive canopy distortion; high numbers of stunted flower lines; heavy seed rejection risk due to hilum bleeding.",
+        "recommended_action": "Control vectors to safeguard nearby plots. Plan for complete seed lot replacement for the subsequent season; switch to immune resistant cultivars."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant exclusively certified, virus-free seed stocks from documented producers",
+        "Select resistant soybean varieties with clear field documentation"
+      ],
+      "field_management": [
+        "Delay planting slightly if early aphid migrations are peaking locally",
+        "Maintain ideal wide spacing to limit branch rubbing"
+      ],
+      "irrigation_management": [
+        "Maintain standard drainage channels; avoid excessive water stress"
+      ],
+      "soil_management": [
+        "Apply balanced primary nutrients; avoid over-dosages of nitrogen which attract heavy aphid clustering"
+      ],
+      "crop_rotation": [
+        "Rotate with non-leguminous species like maize or sorghum for a minimum of one season break"
+      ],
+      "sanitation": [
+        "Uproot and destroy infected mottle plants during the first 3-4 weeks",
+        "Thoroughly eliminate alternative wild legume weed hosts on boundaries"
+      ],
+      "monitoring": [
+        "Scout top growing buds weekly from seedling emergence onward, looking for early leaf margin downward curling or green aphid colonies"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify the leaf distortion is accompanied by mosaic color variance rather than clean strapping to rule out herbicide injury",
+        "Rogue out early wrinkled hotspots"
+      ],
+      "cultural_control": [
+        "Enforce strict weed-free periods along all drainage canals and row paths"
+      ],
+      "organic_control": [
+        "Foliar application of 5% Neem Seed Kernel Extract (NSKE) or azadirachtin 1500 ppm to act as an insect feeding deterrent"
+      ],
+      "biological_control": [
+        "Conserve natural aphid predators like ladybird beetle larvae and chrysopid lacewings inside the field plot ecosystem"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Thiamethoxam",
+          "product_type": "Systemic Insecticide (Neonicotinoid)",
+          "dose": "0.5 g/Liter of water (or 100g/Acre)",
+          "application_method": "Foliar mist spray directed thoroughly over young top shoots to control aphid vector tracks",
+          "spray_interval": "10 - 14 days apart if aphid counts exceed economic thresholds",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Highly toxic to bees. Never spray during active flowering hours; apply during late afternoon only."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Soybean Mosaic Virus is an internal disease carried into fields inside infected seeds and spread plant-to-plant by tiny green insects called aphids. It causes leaves to curl downward, look heavily wrinkled or bumpy like a toad's skin, and stains the harvested beans with ugly dark streaks bleeding out from the seed eye, making them low value.",
+      "what_to_do_now": [
+        "Pull out and bury any young soyabean plants that show wrinkled, bumpy, or downward-curled leaves early in the season.",
+        "Clear away wild grassy and pulse weeds growing along your field borders to remove hidden insect homes.",
+        "Spray a recommended insect-killing spray or neem oil to stop aphid bugs from carrying the virus to healthy rows."
+      ],
+      "what_not_to_do": [
+        "Never save or reuse seeds from a soyabean field that produced dark-stained, ink-streaked beans.",
+        "Do not mistake herbicide chemical drift for virus damage\u2014check if the wrinkling follows a mosaic yellow-green pattern.",
+        "Do not apply fungicides; this is a virus spread by insects, so only insect controls or certified seeds work."
+      ],
+      "when_to_call_expert": [
+        "If you notice aphid insects swarming your fields and your young top soyabean leaves are curling and twisting heavily across rows."
+      ],
+      "risk_warning": "Once a plant is infected with this virus, it cannot be cured. It will stay stunted, produce flat or empty pods, and ruin the market quality of your harvested beans."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soybean_mosaic_virus",
+        "soybean_healthy",
+        "soybean_herbicide_injury"
+      ],
+      "segmentation_labels": [
+        "rugose_puckered_leaf",
+        "dark_vein_band",
+        "hilum_bleeding_seed"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Leaves look thin and shoe-string-like without any mosaic color variations, suggesting severe hormonal weed-killer damage across the block"
+      ],
+      "image_quality_requirements": [
+        "Requires ultra-sharp focus on the top trifoliate leaf faces to clearly resolve the bumpy puckering pattern across leaf veins"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SOY-SMV-CH-01",
+        "chunk_type": "Virology / Seed Pathology",
+        "title": "Soybean Mosaic Virus Transmission and Seed Hilum Mottling",
+        "content": "Soybean Mosaic Virus (SMV), a Potyvirus, is transmitted vertically through seeds (up to 30% frequency depending on cultivar) and horizontally via aphid vectors in a non-persistent style. Pathogenesis induces severe rugosity, downward margin curling, and vascular accumulation altering anthocyanin pathways, which results in distinct pigment bleeding from the hilum across the seed coat surface.",
+        "keywords": [
+          "Potyvirus",
+          "vertical seed transmission",
+          "non-persistent vector",
+          "rugosity",
+          "hilum mottling",
+          "anthocyanin"
+        ],
+        "language": "English",
+        "target_user": "Plant Virologist / Seed Certification Specialist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 active aphid vector surge alerts logged within a week",
+      "outbreak_alert_message": "Soybean Mosaic Notice: Rising aphid counts are accelerating SMV spread. Implement vector controls and remove early wrinkled hotspots.",
+      "nearby_farm_advice": [
+        "Check top vegetative growth buds daily.",
+        "Avoid using non-certified local seed lots for subsequent sowing cycles."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Compendium of Soybean Diseases",
+      "source_url": "https://extension.umn.edu/soybean-diseases/soybean-mosaic-virus",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "University of Minnesota Extension",
+      "published_year": "2022",
+      "region": "Global / North America",
+      "language": "English",
+      "last_verified": "2026-04-10",
+      "trust_level": "High",
+      "notes": "Premium diagnostic guide handling viral and vector threshold indices for commercial soybean farms."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T12:00:00Z",
+      "updated_at": "2026-06-01T15:30:00Z",
+      "reviewed_by": "Soybean Virology Directorate Committee",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SOYBEAN-SB-002",
+    "crop": {
+      "common_name": "Soybean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean",
+        "Bhatmas",
+        "Soja"
+      ],
+      "crop_category": "Oilseed / Legume"
+    },
+    "disease": {
+      "name": "Southern Blight",
+      "category": "Fungal (Soilborne)",
+      "pathogen_or_cause": [
+        "Sclerotium rolfsii",
+        "Athelia rolfsii"
+      ],
+      "affected_parts": [
+        "Roots",
+        "Lower stem base / Hypocotyl",
+        "Leaves near ground line"
+      ],
+      "disease_stage": "Early vegetative to pod maturity stage; highly active during hot humid intervals"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Localized individual plants show slight wilting or drooping of top leaves during hot afternoons",
+        "The lower stem base near the soil line changes from green to a dark brown, water-soaked hue"
+      ],
+      "middle_stage": [
+        "A thick, brilliant white, fan-like mat of cottony fungal threads (mycelium) grows over the stem base and spreads onto surrounding soil debris",
+        "Leaves turn uniform brown, shrivel, and dry out completely but stay firmly attached to the branch nodes"
+      ],
+      "severe_stage": [
+        "Numerous tiny, perfectly round, hard beads form inside the white cottony mat",
+        "Beads turn from white to a dark mustard-yellow or tan-brown color (sclerotia)",
+        "The stem bark rots completely, causing full plant death and bleaching across circular field spots"
+      ],
+      "visible_signs": [
+        "Thick white web-like mats wrapped around the lower stem base holding mustard-seed-like tan round beads"
+      ],
+      "farmer_reported_signs": [
+        "My soyabean plants are drying up in patches, and the base of the dead stems is covered in white cotton mold with tiny round brown seeds stuck to it",
+        "The dead leaves dry out brown but do not drop off the plant"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Stem base turns chocolate brown; fungal mat is bright white; overwintering beads turn mustard-tan to dark brown"
+      ],
+      "spot_or_patch_shape": "No independent leaf spots; wide systemic wilting that expands in distinct circular expanding field patches",
+      "pattern": "Rapid, permanent wilting of the whole plant hill while leaves remain attached without dropping early",
+      "location_on_plant": "Restricted to the lowest 2-5 inches of the stem base trunk and primary upper root zones",
+      "starts_from": "The crown zone at the exact soil-air contact interface line",
+      "progression": "Fungus girdles the stem bark completely, severing internal moisture paths and forcing immediate plant desiccation",
+      "image_clues": [
+        "Lower soyabean stem base wrapped in a thick white cottony fungal mat holding tan mustard-like round beads",
+        "Wilting brown dead plant patch"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Phytophthora Root and Stem Rot (Phytophthora sojae)",
+        "difference": "Phytophthora stem rot forms a dark purple-to-black lesion that climbs up from the root into the lower stem nodes but completely lacks the brilliant white fan-like cottony mold threads and never forms hard mustard-seed-like sclerotia beads.",
+        "confusion_risk": "High, as both cause lower stem browning and sudden wilting."
+      },
+      {
+        "name": "Charcoal Rot (Macrophomina phaseolina)",
+        "difference": "Charcoal rot lines the lower stem core internally with millions of microscopic black dust points, giving split stems a silver-charcoal grey appearance, lacking white surface fuzz or round seed-like beads.",
+        "confusion_risk": "Medium during dry warm phases."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, sunny, tropical days mixed with high soil humidity levels following heavy monsoon rains"
+      ],
+      "temperature_range": "27\u00b0C - 35\u00b0C (80\u00b0F - 95\u00b0F) optimal for rapid Sclerotium mycelial extension",
+      "humidity_level": "High relative humidity at the ground surface layer with wet topsoil crusts",
+      "season": "Mid-Kharif or late summer cycles during peak canopy density phases",
+      "soil_conditions": [
+        "Light, sandy loam soils with high levels of un-decomposed plant organic matter or straw residues on top"
+      ],
+      "field_conditions": [
+        "Dense rows with zero wind movement near the soil line",
+        "Continuous soybean or pulse farming blocks"
+      ],
+      "irrigation_conditions": [
+        "Heavy flooding style irrigation cycles followed immediately by extreme summer afternoon heat stress"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Moving irrigation water currents washing loose sclerotia beads along row paths",
+        "Contaminated soil stuck to tractor tires, weeding blades, or footwear lines"
+      ],
+      "source_of_infection": [
+        "Infested farm soils holding high populations of sclerotia beads",
+        "Unburied crop residues from previous infected harvests"
+      ],
+      "survival_method": "Survives for over 3 to 5 years inside the topsoil layer as hard, leathery sclerotial beads that easily resist freezing, drought, and chemical treatments",
+      "spread_speed": "Moderate across the field surface, creeping row-by-row via mycelial extensions through damp surface soil debris",
+      "nearby_crop_risk": "High for downstream susceptible pulse, peanut, or vegetable blocks sharing the soil matrix"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Wilting or lower white mold signs found on less than 2% of plants in isolated, low field spots.",
+        "field_indicator": "A few scattered dead plants standing brown; white fuzz just starting at soil lines.",
+        "recommended_action": "Carefully uproot and remove infected dead plants along with nearby soil into bags and burn them. Avoid wounding stems during weeding."
+      },
+      {
+        "level": "Medium",
+        "description": "Distinct patches of wilting plants visible; 2% to 8% of row counts show active white mold fans and mustard beads.",
+        "field_indicator": "Circular dead spots are emerging across lines; neighboring green plants show early water-soaked base stems.",
+        "recommended_action": "Apply targeted soil-drench fungicides around infection patch boundaries immediately to block outward crawling. Manage water flow."
+      },
+      {
+        "level": "High",
+        "description": "More than 8% of the entire field crop is completely wilted, bleached, or holding dense layers of tan mustard beads at base nodes.",
+        "field_indicator": "Massive direct yield loss; large empty brown patches across rows; high soil spore contamination.",
+        "recommended_action": "Uproot and harvest surviving lines carefully. Enforce strict deep inversion plowing post-harvest and map a 3-year non-host rotation plan."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Treat soyabean seeds with systemic protectant fungicides before sowing",
+        "Source clean seed lots free of soil dirt contaminants"
+      ],
+      "field_management": [
+        "Maintain wide row spacing and configure rows parallel to prevailing air currents to dry out the soil surface quickly",
+        "Avoid wounding lower stem tissue"
+      ],
+      "irrigation_management": [
+        "Utilize furrow or drip systems where practical; avoid running deep flooding lines through historically infected spots"
+      ],
+      "soil_management": [
+        "Incorporate high amounts of organic neem cake or mustard cake into the soil to suppress fungal growth lines",
+        "Avoid excessive nitrogen"
+      ],
+      "crop_rotation": [
+        "**Rotate fields out of susceptible hosts for 2-3 years using immune grass species like Corn, Sorghum, or Pearl Millet**"
+      ],
+      "sanitation": [
+        "Execute deep moldboard plowing (at least 6-8 inches deep) to bury surface sclerotia beads into anaerobic layers where they naturally rot",
+        "Eradicate alternate broadleaf weeds"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly from mid-vegetative stage onward, looking closely at soil lines inside dense, shaded rows after heavy rain events"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Look closely for white cotton threads and mustard-like round beads to confirm Southern Blight",
+        "Stop cross-row water movement from infected patches"
+      ],
+      "cultural_control": [
+        "Wrap or hill soil carefully around rows; avoid using sharp hand hoes roughly near the stem base to prevent root wounds"
+      ],
+      "organic_control": [
+        "Incorporate massive loads of Trichoderma harzianum bio-agents mixed along with well-rotted manure during land preparation phases",
+        "Drench soil with organic copper lines"
+      ],
+      "biological_control": [
+        "Apply commercial formulations of Trichoderma viride or Gliocladium virens directly onto the soil line around row bases to parasitize sclerotia structures"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim or Thiophanate-methyl",
+          "product_type": "Systemic Fungicide (Soil Drench)",
+          "dose": "1.0 - 1.5 g/Id of water for targeted spot drenching",
+          "application_method": "Directed high-volume soil drenching applied straight at the lower stem trunk and surrounding soil zone of plants surrounding the infection patch",
+          "spray_interval": "Repeat once along infected patch borders after 10 days if soils stay highly damp",
+          "pre_harvest_interval": "28 days",
+          "safety_note": "Foliar canopy leaf spraying is completely useless against this soilborne pathogen. Must reach the root crown zone. Wear protective waterproof footwear."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Southern Blight is a destructive soil-borne fungus disease that attacks soyabean stems right at the ground line during hot, humid weeks. It wraps the lower stem trunk in a thick white cotton-like mold fan holding tiny round beads that look exactly like brown mustard seeds, causing the entire plant to dry up completely while its dead leaves stay stuck to the branches.",
+      "what_to_do_now": [
+        "Pull up dead, dried soyabean plants entirely with their roots and burn them safely away from your cultivation blocks.",
+        "Drench the soil and bases of healthy plants around the edges of the dead patches with a recommended fungicide or Trichoderma mix to stop the mold from crawling further.",
+        "Plow your field very deeply (with a moldboard plow) after harvest to bury the tiny brown beads deep underground so they rot and die."
+      ],
+      "what_not_to_do": [
+        "Do not run irrigation water straight through a dead white mold patch into clean sections of your field.",
+        "Do not use sharp weeding tools roughly near the soyabean stem bases\u2014scratches act as open doors for the fungus.",
+        "Do not plant soyabeans or pulses in this exact field next season if it suffered from patch drying\u2014switch to corn or jowar instead."
+      ],
+      "when_to_call_expert": [
+        "If you see multiple expanding circular patches of soyabeans drying up and dying rapidly across your fields during hot, damp monsoon weeks."
+      ],
+      "risk_warning": "Because the tiny mustard-like beads can live inside your soil for many years, ignoring this disease will permanently poison your land for pulse cultivation, leading to expanding losses each season."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soybean_southern_blight_mats",
+        "soybean_healthy",
+        "soybean_charcoal_rot"
+      ],
+      "segmentation_labels": [
+        "white_mycelial_fan",
+        "mustard_seed_sclerotia",
+        "girdled_brown_hypocotyl"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "Stems turn black but totally lack any white surface threads or round mustard-like beads, indicating potential root infections requiring laboratory plating"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused sharply right at the soil contact level to clearly resolve the white thread structures and round mustard beads"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SOY-SB-CH-02",
+        "chunk_type": "Pathology / Soil Biology",
+        "title": "Sclerotium rolfsii Sclerotial Germination and Deep Burial",
+        "content": "Southern Blight of soybean is induced by the necrotrophic soilborne fungus Sclerotium rolfsii. It synthesizes oxalic acid and pectinolytic enzymes to rapidly girdle host hypocotyl cortex lines under hot humid profiles (27-35\u00b0C). The fungus produces characteristic white mycelial strands and differentiating sclerotia (tan mustard-seed analogs). Deep inversion plowing below 6 inches is highly effective, as sclerotia lose viability when subjected to long-term anaerobic soil parameters.",
+        "keywords": [
+          "Sclerotium rolfsii",
+          "necrotroph",
+          "oxalic acid",
+          "hypocotyl cortex",
+          "sclerotia",
+          "deep inversion plowing"
+        ],
+        "language": "English",
+        "target_user": "Soil Pathologist / Extension Officer"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Village / Sub-District",
+      "risk_radius": "10 km",
+      "report_count_threshold": "4 confirmed soilborne wilt hotspots logged within 10 days",
+      "outbreak_alert_message": "Southern Blight Notification: Rising soil warmth following monsoons is driving Sclerofium mycelial expansion. Implement isolated drenching and avoid structural stem injuries.",
+      "nearby_farm_advice": [
+        "Check ground soil layers inside dense canopy rows.",
+        "Avoid moving cross-row shared cultivation machinery from dry-patch zones."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Soybean Disease Identification Manual",
+      "source_url": "https://www.icar-iisr.ratlam.in/southern-blight-soybean",
+      "source_type": "National Research Center Factsheet",
+      "author_or_organization": "ICAR - Indian Institute of Soybean Research (IISR)",
+      "published_year": "2021",
+      "region": "South Asia / India",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Excellent operational field manual managing soilborne sclerotial complexes across pulse farming zones."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T12:15:00Z",
+      "updated_at": "2026-06-01T15:45:00Z",
+      "reviewed_by": "ICAR-IISR Crop Protection Division Committee",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SOYBEAN-SDS-003",
+    "crop": {
+      "common_name": "Soybean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean",
+        "Bhatmas",
+        "Soja"
+      ],
+      "crop_category": "Oilseed / Legume"
+    },
+    "disease": {
+      "name": "Sudden Death Syndrome",
+      "category": "Fungal (Soilborne / Vascular)",
+      "pathogen_or_cause": [
+        "Fusarium virguliforme",
+        "Fusarium tucumanense"
+      ],
+      "affected_parts": [
+        "Roots",
+        "Internal taproot xylem",
+        "Leaves (via translocated toxins)"
+      ],
+      "disease_stage": "Infection occurs at seedling stage; visual symptoms manifest during early flowering to pod fill"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Faint, scattered yellow chlorotic spots appear between the leaf veins on upper trifoliate leaves",
+        "Roots develop minor dark brown dry rot streaks"
+      ],
+      "middle_stage": [
+        "Yellow spots expand and merge into large, dramatic streaks between veins, while the tissue directly along the main vein lines stays bright green (interveinal chlorosis)",
+        "The yellow strips turn brown and die, leaving a bright green skeleton appearance across the leaf face"
+      ],
+      "severe_stage": [
+        "Infected leaflets drop off the plant completely early, leaving the bare leaf stalks (petioles) standing naked like small fingers",
+        "Splitting the lower taproot reveals a distinct milky-tan or light brown discoloration of the outer wood ring, while the central pith remains clean white",
+        "Plants die rapidly, forcing pods to dry empty"
+      ],
+      "visible_signs": [
+        "Stark brown-and-yellow striped interveinal dead patches on leaves, bare standing leaf stems (stalks) with dropped leaflets, and discolored root wood layers"
+      ],
+      "farmer_reported_signs": [
+        "My soyabean leaves are turning heavily striped with yellow and brown patches between the veins, but the vein itself is green",
+        "The leaflets are dropping off fast, leaving nothing but bare green toothpicks or stalks standing on the plant branches"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Tissue between leaf veins changes from green to bright yellow, then to necrotic brown; internal taproot wood shifts to tan-brown"
+      ],
+      "spot_or_patch_shape": "Elongated, broad, jagged dead stripes bounded tightly between the parallel lateral leaf veins",
+      "pattern": "Systemic skeleton-like leaf drying moving progressively from top canopies across row patches",
+      "location_on_plant": "Foliar signs display clearly across the full mid-to-upper leaf canopy; root rot is underground on primary tap lines",
+      "starts_from": "Root crown layers underground; symptoms climb foliarly via root-produced fungal toxins flowing up vascular water paths",
+      "progression": "Rapid leaf necrosis followed by sudden leaflet dropping, leaving naked petiole pins attached to branches",
+      "image_clues": [
+        "Soybean leaf showing bright yellow and brown dead tracks between thick green veins",
+        "Bare leaf stalks standing on a dying stem",
+        "Split taproot showing tan outer core circles"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Brown Stem Rot (Cadophora gregata)",
+        "difference": "Brown Stem Rot creates identical yellow-and-brown striped leaves, but when the lower stem trunk is split open, the *inner central pith core* turns dark chocolate brown, whereas in Sudden Death Syndrome, the central pith stays perfectly white while the *outer root wood ring* changes color.",
+        "confusion_risk": "Extreme, as the foliar leaves look completely identical.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Nutritional Manganese Deficiency",
+        "difference": "Manganese deficiency causes light green or yellow mottling between leaf veins but never causes the tissue to die brown or fall off rapidly, and leaf stalks do not stand naked.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, excessively wet, saturated soils immediately after sowing (favoring root infection), followed by high rainfall during flowering lines"
+      ],
+      "temperature_range": "15\u00b0C - 22\u00b0C (59\u00b0F - 72\u00b0F) optimal for early root invasion phase; symptoms accelerate under summer heat stress during pod fill",
+      "humidity_level": "Saturated soil moisture dynamics",
+      "season": "Early Kharif or early spring sowings where heavy early monsoons saturate fields",
+      "soil_conditions": [
+        "Compacted soils with poor water infiltration",
+        "Fields with high standing water tables or structural low-lying pans",
+        "Co-infestation with Soybean Cyst Nematodes (SCN) heavy zones"
+      ],
+      "field_conditions": [
+        "Planting susceptible hybrids into wet, cold soil tracks early",
+        "High soil compaction from heavy machinery usage"
+      ],
+      "irrigation_conditions": [
+        "Excessive or heavy flooding irrigation applied during pre-flowering weeks"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Soil movement carrying microscopic fungal spores via field grading tools, tractor treads, or heavy tires",
+        "Water runoff drifting contaminated dirt lines across plots"
+      ],
+      "source_of_infection": [
+        "Infested field soils holding spore configurations",
+        "Infected crop root crowns left decaying in the ground layer"
+      ],
+      "survival_method": "Overwinters easily for many years inside topsoils or old root tissues as thick-walled chlamydospores that easily survive freezing and dry cycles",
+      "spread_speed": "Slow across field blocks between years, but fast foliar collapse on individual plants during pod filling",
+      "nearby_crop_risk": "Moderate to high for adjacent poorly drained field blocks sharing soil corridors"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint yellow specking between veins found on a few isolated plants in low-lying, damp row spots.",
+        "field_indicator": "Fewer than 3 plants showing early interveinal leaf markings; roots are mostly firm.",
+        "recommended_action": "Avoid heavy irrigation loops. Record the locations of infected spots to plan soil compaction remediation and choose resistant seeds next season."
+      },
+      {
+        "level": "Medium",
+        "description": "Distinct yellow-brown leaf striping visible across 5% to 15% of row canopies; minor leaflet dropping noticed.",
+        "field_indicator": "Skeleton leaves easy to spot; splitting a few taproots reveals tan outer wood linings.",
+        "recommended_action": "Manage irrigation carefully to reduce plant moisture stress. Foliar fungicide sprays provide **zero benefit** as the fungus stays in the roots. Avoid moving muddy tools from this spot."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of the field canopy shows severe leaf scorching, dead bare stalks, or premature plant death.",
+        "field_indicator": "Large rows of naked green leaf stalks standing upright; heavy pod abortion; severe root rot lines.",
+        "recommended_action": "Harvest surviving lines separate from seed blocks. Enforce strict subsoil ripping to break compaction pans and utilize targeted seed treatments next year."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "**Sow exclusively certified seeds of soybean cultivars carrying high resistance ratings for Sudden Death Syndrome**",
+        "Treat seeds with specialized targeted systemic fungicides (e.g., Fluopyram)"
+      ],
+      "field_management": [
+        "**Perform deep tillage or subsoiling to break hardpan layers and improve internal water drainage**",
+        "Delay sowing slightly until soils warm up and dry to promote rapid growth"
+      ],
+      "irrigation_management": [
+        "Manage field leveling to avoid standing water pockets; implement tile or deep ditch drainage networks"
+      ],
+      "soil_management": [
+        "Manage soil compaction vectors; implement strict field sanitation zones. Track and control Soybean Cyst Nematode populations"
+      ],
+      "crop_rotation": [
+        "Rotate with non-host crop lines like corn or small grains; avoid continuous soybean-on-soybean layouts"
+      ],
+      "sanitation": [
+        "Clean mud and soil accumulations thoroughly from all tractor tires and tillage gear before moving between field tracts"
+      ],
+      "monitoring": [
+        "Scout fields starting at early bloom, focusing closely on low-lying compacted wheel-track zones for early yellow leaf mottling between veins"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Split the lower stem base and taproot vertically to inspect inner pith color and confirm SDS over Brown Stem Rot",
+        "Improve local row drainage trenches"
+      ],
+      "cultural_control": [
+        "Avoid any late-season field cultivation operations that could clip or stress already compromised root systems"
+      ],
+      "organic_control": [
+        "Incorporate high organic composts to stimulate beneficial soil microflora arrays over fallow years"
+      ],
+      "biological_control": [
+        "Incorporate select fungal antagonists into the soil during field preparation cycles to help compete with soilborne Fusarium strains"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Fluopyram",
+          "product_type": "Systemic Seed Treatment Fungicide",
+          "dose": "0.15 - 0.25 mg/seed (Product dependent)",
+          "application_method": "Applied explicitly as a commercial seed treatment layer *prior to sowing*",
+          "spray_interval": "Single seed-level application before planting; foliar canopy chemical sprays provide **zero medical cure** because the pathogen remains embedded in the roots",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Highly effective premium preventative chemical barrier against early Fusarium seedling root damage. Follow strict chemical handling protocols."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Sudden Death Syndrome (SDS) is a serious soil-borne fungus disease that attacks soyabean roots early inside cold, wet, compacted soil. While the fungus stays hidden in the roots, it produces powerful toxins that flow up into the leaves, causing the tissue between the veins to turn yellow and die brown, creating a green leaf skeleton. The leaflets then drop off early, leaving nothing but bare green leaf stalks standing naked like little sticks on the branches.",
+      "what_to_do_now": [
+        "If your leaves are turning heavily striped, split the lower taproot open with a knife\u2014if the center is clean white but the outer wood ring is brown, it is SDS.",
+        "Do not apply leaf sprays; they cannot reach or cure the root infection hidden underground.",
+        "Mark the infected fields to ensure you break up hard compacted soil layers with deep plowing before the next planting season."
+      ],
+      "what_not_to_do": [
+        "Never drive heavy tractors over wet fields, as this packs the soil tight, trapping water and triggering root rot.",
+        "Do not move muddy plows or tractors straight from a sick field patch into clean fields without hosing the tires clean of dirt.",
+        "Do not plant susceptible soyabean seeds early into cold, soggy mud paths."
+      ],
+      "when_to_call_expert": [
+        "Call an expert or village extension agronomist immediately if you see leaf tissue turning yellow-brown and dropping off rapidly while bare leaf stalks stand naked across rows during pod development weeks."
+      ],
+      "risk_warning": "SDS is a silent killer because it infects seedlings early but destroys fields suddenly near harvest. If left unmanaged in compacted soils, it will abort your pods and shrink your bean yields drastically."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soybean_sudden_death_syndrome",
+        "soybean_healthy",
+        "soybean_brown_stem_rot"
+      ],
+      "segmentation_labels": [
+        "interveinal_necrosis_stripe",
+        "naked_standing_petiole",
+        "discolored_taproot_cortex"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "The split stem shows a dark chocolate brown central pith core, indicating a highly critical outbreak of Brown Stem Rot instead"
+      ],
+      "image_quality_requirements": [
+        "Requires clear images showing a split taproot alongside bare standing leaf stalks to confirm accurate diagnosis over mineral toxicities"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SOY-SDS-CH-03",
+        "chunk_type": "Pathology / Soil Diagnostics",
+        "title": "Fusarium virguliforme Vascular Pathogenesis and Stem Pith Anatomy",
+        "content": "Sudden Death Syndrome (SDS) is caused by the soilborne fungus Fusarium virguliforme. It colonizes root cortical tissues during early seedling emergence in cool saturated soils. The fungus remains restricted to roots but translocates phytotoxins (e.g., FvToxin1) systemically via xylem flow, eliciting interveinal foliar chlorosis and defoliation where petioles remain attached. In diagnostic checks, the stem pith remains structurally pristine white, whereas the surrounding cortical xylem displays distinct tan vascular discoloration.",
+        "keywords": [
+          "Fusarium virguliforme",
+          "root cortical tissue",
+          "phytotoxins",
+          "xylem flow",
+          "interveinal chlorosis",
+          "pristine white pith"
+        ],
+        "language": "English",
+        "target_user": "Agronomist / Plant Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional / County wide",
+      "risk_radius": "30 km",
+      "report_count_threshold": "3 confirmed site locations inside a block within 14 days",
+      "outbreak_alert_message": "CRITICAL ALERT: Sudden Death Syndrome (SDS) symptoms expanding during pod fill following early wet monsoons. Remedy compaction and use premium protective seed coatings.",
+      "nearby_farm_advice": [
+        "Inspect fields for interveinal skeleton leaves.",
+        "Note affected field blocks for mandatory compaction ripping post-harvest."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Soybean Disease Management Series: SDS",
+      "source_url": "https://cropprotectionnetwork.org/publications/soybean-sudden-death-syndrome",
+      "source_type": "Multi-University Extension Publication",
+      "author_or_organization": "Crop Protection Network (CPN)",
+      "published_year": "2021",
+      "region": "Global / Midwest US",
+      "language": "English",
+      "last_verified": "2026-04-22",
+      "trust_level": "High",
+      "notes": "The primary clinical diagnostic and management benchmark document for managing Fusarium virguliforme epidemics."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T12:30:00Z",
+      "updated_at": "2026-06-01T15:45:00Z",
+      "reviewed_by": "CPN Plant Pathology Editorial Review Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SOYBEAN-YMV-004",
+    "crop": {
+      "common_name": "Soybean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean",
+        "Bhatmas",
+        "Soja"
+      ],
+      "crop_category": "Oilseed / Legume"
+    },
+    "disease": {
+      "name": "Yellow Mosaic Virus",
+      "category": "Viral (Vector-borne)",
+      "pathogen_or_cause": [
+        "Mungbean yellow mosaic virus (MYMV)",
+        "Mungbean yellow mosaic India virus (MYMIV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Whole Plant Frame"
+      ],
+      "disease_stage": "Early vegetative to flowering stage; highly active during warm summer months"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, bright yellow, scattered yellow spots or flecks break out on young green leaflets",
+        "Spots run parallel to major leaf veins initially"
+      ],
+      "middle_stage": [
+        "Yellow patches rapidly expand and merge, covering broad areas of the leaf blade",
+        "Leaves look distinctly checkered with bright golden-yellow patches mixed alongside dark green islands"
+      ],
+      "severe_stage": [
+        "Complete golden-yellow bleaching of the entire leaf blade tissue (yellow-out symptom)",
+        "Infected plants remain severely stunted, produce fewer flowers, and develop small, curved, yellowed pods containing tiny shriveled beans"
+      ],
+      "visible_signs": [
+        "Brilliant, stark golden-yellow coloration covering large sections of the soyabean foliage without leaf wrinkling or dry fungal spots"
+      ],
+      "farmer_reported_signs": [
+        "My soyabean leaves are changing color into a bright golden yellow paint look",
+        "Plants are stunted and the leaves look smooth but completely yellowed in patches across the field"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Leaves shift from deep green to stark golden-yellow and bright cream-yellow tones"
+      ],
+      "spot_or_patch_shape": "Diffuse, irregular yellow patches and broad bands running along the structural leaf vein lines",
+      "pattern": "Systemic yellow color takeover across all young emerging leaves and side tillers",
+      "location_on_plant": "Most eye-catching and visible across the youngest top leaves first, eventually engulfing the entire row block canopy",
+      "starts_from": "Upper growing leaves where virus-carrying whitefly insects feed heavily",
+      "progression": "Early infected blocks become severely stunted, turning golden yellow and producing zero commercial pods",
+      "image_clues": [
+        "Soybean leaf showing brilliant golden yellow patches alongside normal green leaves",
+        "Stunted patch of completely yellowed bean lines"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Soybean Mosaic Virus (SMV)",
+        "difference": "Soybean Mosaic Virus causes severe leaf wrinkling, bumpy puckering, and downward edge rolling with dark green vein paths, completely lacking the flat, smooth, stark golden-yellow color bleaching typical of Yellow Mosaic Virus.",
+        "confusion_risk": "High, due to shared 'Mosaic' name markers.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Nitrogen Starvation Chlorosis",
+        "difference": "Nitrogen deficiency causes a pale green, faded yellowing that starts uniformly on the oldest, lowest leaves first and moves upward, whereas Yellow Mosaic strikes the youngest top leaves first with bright golden patches.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry, sunny weather phases with low rainfall that accelerate whitefly insect breeding and movement across field blocks"
+      ],
+      "temperature_range": "28\u00b0C - 35\u00b0C (82\u00b0F - 95\u00b0F) optimal for whitefly vector multi-generation multiplication",
+      "humidity_level": "Low to moderate humidity profiles",
+      "season": "Main Kharif or summer cropping cycles with prolonged dry spells between monsoons",
+      "soil_conditions": [
+        "Not directly dependent on soil types, but dense weed growth along bunds provides continuous vector homes"
+      ],
+      "field_conditions": [
+        "Presence of high populations of whitefly insects",
+        "Sowing susceptible pulse crops nearby across seasons"
+      ],
+      "irrigation_conditions": [
+        "Fields left dry due to rain failure or irregular water supply lines, which stresses plants and attracts vectors"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Whiteflies (Bemisia tabaci) acting as the obligate insect vector, carrying the virus particles in a persistent style between crops",
+        "Mechanical friction or seeds do NOT transmit this virus"
+      ],
+      "source_of_infection": [
+        "Infected neighboring pulse crops like black gram, green gram, or cowpea fields",
+        "Perennial leguminous weeds along bund borders"
+      ],
+      "survival_method": "Survives continuously inside alternative wild weed hosts and winter pulse crops over dry seasons",
+      "spread_speed": "Extremely high; wind-blown whitefly swarms can spread the virus across full field blocks within a few warm days",
+      "nearby_crop_risk": "Extreme risk for adjacent soyabean, mungbean, or urdbean fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Bright yellow flecks visible on a few isolated plants (less than 3% of row count) across the field.",
+        "field_indicator": "A few random golden-spotted plants across rows; top shoots starting to fade.",
+        "recommended_action": "Rogue out and bury infected golden plants immediately to stop whiteflies from sucking the virus. Clean bund weeds."
+      },
+      {
+        "level": "Medium",
+        "description": "Golden-yellow patches cover 3% to 12% of the crop canopy; rows look uneven and yellow-flecked.",
+        "field_indicator": "Distinct patches of golden-checkered foliage visible; whitefly flies are easy to disturb from leaf undersides.",
+        "recommended_action": "Apply targeted systemic insecticides immediately to manage whitefly populations across the whole field block."
+      },
+      {
+        "level": "High",
+        "description": "More than 12% of plants are completely golden-yellow, severely stunted, and forming shriveled pods.",
+        "field_indicator": "Large field blocks look entirely bright yellow or bleached; massive reduction in commercial flower lines.",
+        "recommended_action": "Control whitefly vectors immediately to limit further spread to nearby clean plots. Choose certified resistant varieties for the next sowing cycle."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Sow exclusively certified, yellow-mosaic-resistant soybean cultivars (e.g., JS 20-34, JS 20-29, or varieties evaluated by local research centers)"
+      ],
+      "field_management": [
+        "Grow 2-3 rows of tall barrier crops like Maize, Sorghum, or Pearl Millet around the field borders to block incoming whiteflies",
+        "Maintain clean boundaries"
+      ],
+      "irrigation_management": [
+        "Provide regular irrigation during dry spells to keep plants strong and lower whitefly attraction profiles"
+      ],
+      "soil_management": [
+        "Apply balanced primary nutrients; avoid excessive nitrogen that creates soft vegetative tissues favored by whiteflies"
+      ],
+      "crop_rotation": [
+        "Avoid growing sequential or overlapping leguminous crops in adjacent fields across seasons"
+      ],
+      "sanitation": [
+        "Uproot infected golden clumps during the first 30 days of growth",
+        "Keep fields thoroughly free of alternative weed hosts"
+      ],
+      "monitoring": [
+        "Monitor leaf undersides twice a week from seedling stage onward, looking for microscopic whitefly insects or early yellow spots"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Confirm the color is bright golden-yellow and strikes top shoots first to rule out nitrogen starvation",
+        "Uproot early infected yellow clumps"
+      ],
+      "cultural_control": [
+        "Install yellow sticky traps across the field at 10-15 per acre to trap flying whiteflies naturally"
+      ],
+      "organic_control": [
+        "Spray neem oil formulations (3000 ppm) at 3 mL/Liter of water or apply fresh 5% neem seed kernel extract (NSKE) preventatively"
+      ],
+      "biological_control": [
+        "Conserve whitefly natural enemies like parasitoid wasps (Encarsia formosa) and predatory mites in chemical-free zones"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid",
+          "product_type": "Systemic Insecticide (Neonicotinoid)",
+          "dose": "0.3 - 0.5 mL/Id of water (or 100 mL/Acre)",
+          "application_method": "Foliar spray directed thoroughly at leaf undersides where whiteflies sit and breed",
+          "spray_interval": "10 - 12 days apart if whitefly populations remain high",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Highly effective systemic insecticide to block whitefly feeding vectors. Toxic to bees; spray only during late afternoons."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Yellow Mosaic Disease (Pila Mojayk Rog) is a dangerous viral infection carried from plant to plant by tiny white flying insects called whiteflies. It turns soyabean leaves a bright golden-yellow color, stunts plant growth, and prevents the crop from making healthy pods, leading to heavy yield losses.",
+      "what_to_do_now": [
+        "Pull out and bury any young soyabean plants that show bright golden-yellow spots early in the season.",
+        "Hang yellow sticky plastic cards across your rows to catch the whiteflies naturally.",
+        "Spray a targeted whitefly-killing systemic insecticide or neem oil immediately to stop insects from spreading the virus further."
+      ],
+      "what_not_to_do": [
+        "Never ignore bright yellow patches in your field; they are not caused by simple sun exposure and will spread fast.",
+        "Do not spray fungicides; this is a viral disease spread by insects, so only insect sprays work.",
+        "Do not leave weed grasses standing tall along irrigation channels next to your crop rows."
+      ],
+      "when_to_call_expert": [
+        "If large patches of your soyabean crop are changing color into a bright golden yellow band and whitefly insects are swarming when you shake the plants."
+      ],
+      "risk_warning": "This is a viral infection; chemicals cannot cure it once inside the soyabean plant. Your only shields are pulling out infected plants early, killing the whitefly insects, and planting certified resistant seeds."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soybean_yellow_mosaic_virus",
+        "soybean_healthy",
+        "soybean_nitrogen_deficiency"
+      ],
+      "segmentation_labels": [
+        "golden_yellow_patch",
+        "green_island_tissue",
+        "stunted_chlorotic_node"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Yellowing leaves are wrinkling up heavily with bumpy dark green bands, which points to a severe Soybean Mosaic Virus outbreak instead"
+      ],
+      "image_quality_requirements": [
+        "Requires clear images under natural diffuse daylight to accurately distinguish bright golden mosaic patches from uniform nutritional paleness"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SOY-YMV-CH-04",
+        "chunk_type": "Virology / Epidemiology",
+        "title": "Mungbean Yellow Mosaic Virus and Begomovirus Whitefly Dynamics",
+        "content": "Yellow Mosaic Disease in soybeans across South Asia is induced by Mungbean yellow mosaic virus (MYMV) or Mungbean yellow mosaic India virus (MYMIV), which are bipartite Begomoviruses (Geminiviridae). Transmitted explicitly by the whitefly vector Bemisia tabaci in a persistent, circulative style, the virus localizes within phloem cells, interrupting chlorophyll synthesis and triggering absolute golden-yellow chlorosis of the leaf blade tissue without causing leaf rugosity.",
+        "keywords": [
+          "Begomovirus",
+          "Geminiviridae",
+          "Bemisia tabaci",
+          "persistent transmission",
+          "phloem cells",
+          "golden-yellow chlorosis"
+        ],
+        "language": "English",
+        "target_user": "Extension Virologist / Research Scientist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "12 km",
+      "report_count_threshold": "5 active whitefly migration alerts logged within 7 days",
+      "outbreak_alert_message": "Yellow Mosaic Warning: High temperatures and dry intervals are driving whitefly vectors. Implement immediate border protection and whitefly controls.",
+      "nearby_farm_advice": [
+        "Set up yellow sticky traps across rows immediately.",
+        "Monitor upper shoots for bright golden fleck developments."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Guidelines for Managing Yellow Mosaic in Soybeans",
+      "source_url": "https://www.icar-iisr.ratlam.in/yellow-mosaic-bulletin",
+      "source_type": "National Research Center Monograph",
+      "author_or_organization": "ICAR - Indian Institute of Soybean Research",
+      "published_year": "2022",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-03-24",
+      "trust_level": "High",
+      "notes": "Premium operative directive detailing insect vector economic thresholds and resistant variety mapping charts."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:00:00Z",
+      "updated_at": "2026-06-01T16:00:00Z",
+      "reviewed_by": "ICAR-IISR Plant Pathology Expert Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SOYBEAN-BB-005",
+    "crop": {
+      "common_name": "Soybean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean",
+        "Bhatmas",
+        "Soja"
+      ],
+      "crop_category": "Oilseed / Legume"
+    },
+    "disease": {
+      "name": "Bacterial Blight",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Pseudomonas savastanoi pv. glycinea"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Pods"
+      ],
+      "disease_stage": "Early vegetative to mid-pod stage; common during cool, wet spring or early monsoon phases"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, angular, water-soaked spots appear on leaves",
+        "Spots turn from light green to a dark brown or blackish color within days"
+      ],
+      "middle_stage": [
+        "Spots are surrounded by a prominent, narrow, lime-yellow chlorotic halo",
+        "Lesions expand and merge, creating large jagged dead patches between leaf veins"
+      ],
+      "severe_stage": [
+        "The dead brown center centers of old spots become brittle and dry, breaking completely out of the leaf blade during winds to create a ragged, 'shredded' or 'shot-hole' appearance",
+        "Leaves drop off early; small sunken black spots form on green pods"
+      ],
+      "visible_signs": [
+        "Angular dark brown spots wrapped in bright yellow halos that break open into ragged holes across the leaves"
+      ],
+      "farmer_reported_signs": [
+        "My soyabean leaves have tiny angular dark spots with yellow edges, and the wind is ripping the spots into ragged holes, making leaves look shredded"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Water-soaked spots turning dark reddish-brown or translucent black, ringed with narrow yellow borders"
+      ],
+      "spot_or_patch_shape": "Strictly angular spots bounded tightly by the small intersecting leaf veins",
+      "pattern": "Scattered uniformly across leaf blades, eventually breaking open into irregular ragged tears",
+      "location_on_plant": "Concentrated primarily on the younger leaves within the upper third of the plant canopy",
+      "starts_from": "Leaf edges or faces following rain storms that splash bacterial cells into stomata wounds",
+      "progression": "Spots turn papery, brittle, and drop out of the center, creating extensive leaf shredding and early leaf drop",
+      "image_clues": [
+        "Angular dark brown leaf spots with yellow halos",
+        "Shredded soyabean leaf showing open holes between veins"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Pustule (Xanthomonas axonopodis pv. glycines)",
+        "difference": "Bacterial pustule creates small, raised, volcanic pimples or bumps in the center of leaf spots on the leaf underside, and completely lacks the thin water-soaked margins or early tissue shredding typical of Bacterial Blight.",
+        "confusion_risk": "High, as both form angular brown yellow-ringed spots.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Septoria Brown Spot (Septoria glycines)",
+        "difference": "Septoria spots are small, dark chocolate brown, and affect the oldest, lowest leaves first, moving vertically upward without creating angular ragged holes or shredded wind tears.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, rainy weather mixed with heavy winds or hailstorms that create minor leaf tears and bruises"
+      ],
+      "temperature_range": "20\u00b0C - 26\u00b0C (68\u00b0F - 79\u00b0F) optimal for Pseudomonas growth; stalls above 30\u00b0C",
+      "humidity_level": "Continuous leaf wetness from rain or morning fogs",
+      "season": "Early monsoon phases or wet mid-summer cropping tracks",
+      "soil_conditions": [
+        "Fields cluttered with unburied plant residues from prior infected seasons"
+      ],
+      "field_conditions": [
+        "Entering fields with machinery or tools while the crop canopy is wet with morning dew",
+        "Dense row tracking"
+      ],
+      "irrigation_conditions": [
+        "Frequent overhead sprinkler irrigation applied late in the evening hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-driven rain splash transporting bacterial cells across rows",
+        "Field workers, animals, or machinery brushing against damp leaf layers",
+        "Planting internally contaminated seed sets"
+      ],
+      "source_of_infection": [
+        "Infected crop leftovers on the soil line",
+        "Contaminated seeds",
+        "Volunteer soyabean lines"
+      ],
+      "survival_method": "Overwinters on old un-plowed surface leaf debris or attached to the seed coat matrix until wet conditions return",
+      "spread_speed": "Highly rapid after severe storm systems with strong winds that bruise foliage",
+      "nearby_crop_risk": "Moderate to high for adjacent fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Small angular dark spots present on less than 5% of upper foliage; zero leaf tearing or shredding noticed.",
+        "field_indicator": "Isolated angular dots with clean yellow rims; top flag lines green.",
+        "recommended_action": "Avoid entering or working in rows while leaves are damp. Monitor fields weekly."
+      },
+      {
+        "level": "Medium",
+        "description": "Angular lesions cover 5% to 20% of the leaf canopy; early shot-holes and ragged leaf tips appearing.",
+        "field_indicator": "Shredded leaves visible across row tops; yellow halos are clear under morning light.",
+        "recommended_action": "Apply recommended copper protectant sprays or bactericides to shield remaining foliage. Suspend overhead watering."
+      },
+      {
+        "level": "High",
+        "description": "More than 20% of leaf surfaces are severely torn, shredded, or falling off; black lesions visible on pods.",
+        "field_indicator": "Upper canopy looks shredded or burned; early defoliation; high risk of grain weight reduction.",
+        "recommended_action": "Apply systemic copper-antibiotic sprays instantly to protect pod filling. Do not save seeds from this harvested plot."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant exclusively certified, clean seed lots sourced from disease-free fields",
+        "Avoid highly susceptible cultivars in wet regions"
+      ],
+      "field_management": [
+        "Maintain ideal wide row spacing to promote quick canopy drying after rain spells"
+      ],
+      "irrigation_management": [
+        "Switch to furrow or drip irrigation paths; avoid late evening overhead sprinkler watering"
+      ],
+      "soil_management": [
+        "Incorporate balanced primary inputs; avoid heavy nitrogen overdosages that create soft, tear-vulnerable leaves"
+      ],
+      "crop_rotation": [
+        "Rotate out of legumes with cereal grass crops like corn or wheat for a minimum of 1-2 years"
+      ],
+      "sanitation": [
+        "Plow under crop residues deeply after harvest to accelerate bacterial cell breakdown in the soil",
+        "Keep borders clear"
+      ],
+      "monitoring": [
+        "Scout upper canopies bi-weekly during cool, rainy stretches, looking closely for angular water-soaked marks"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Check leaf undersides for raised volcanic pimples to rule out Bacterial Pustule and confirm Blight",
+        "Halt all field work until leaves dry under the sun"
+      ],
+      "cultural_control": [
+        "Never cultivate, weed, or enter field rows when leaves are wet with rain or heavy dews to prevent bacterial smearing"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays (copper hydroxide or copper oxychloride) at early disease onset"
+      ],
+      "biological_control": [
+        "Limited field data; preventive applications of select Bacillus subtilis strains may help slow bacterial colony setup"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Oxychloride + Streptomycin Sulfate",
+          "product_type": "Bactericide / Protectant Combination Spray",
+          "dose": "2.5 g/Id (Copper) + 100 ppm (Streptomycin) mixture",
+          "application_method": "Foliar broadcast spray using fine misting nozzles to coat leaf surfaces uniformly before upcoming rain fronts",
+          "spray_interval": "7 - 10 days apart if cool, wet weather persists",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Provides a protective toxic shield against bacterial entry. Always alternate to prevent streptomycin antibiotic resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial Blight is a bacterial disease that attacks soyabean leaves during cool, wet, windy weeks. It creates small angular dark brown spots with thin yellow borders. As the spot centers dry out and turn brittle, the wind rips them right out of the leaf blade, leaving the leaves looking ragged, torn, and full of holes like they were hit by a shotgun blast.",
+      "what_to_do_now": [
+        "**Never walk through, weed, or work in your fields when the leaves are wet with rain or morning dew**, as this smears the bacteria across healthy rows.",
+        "Apply a recommended copper-antibicide spray if spots are spreading fast across your top leaves during cool rainy weeks.",
+        "Plow old soyabean stalks deep into the ground after harvest so the bacteria die quickly."
+      ],
+      "what_not_to_do": [
+        "Never save seeds for next year from a soyabean field that showed heavy leaf shredding and dark spots on pods.",
+        "Do not mistake this for a standard fungus disease\u2014regular single-site fungicides will not cure a bacterial infection.",
+        "Do not use heavy overhead sprinklers late in the evening."
+      ],
+      "when_to_call_expert": [
+        "If cool, rainy storms hit and your top soyabean leaves are turning blackish, tearing into holes, and dropping off fast across rows."
+      ],
+      "risk_warning": "This bacterial disease spreads very fast via wind-driven rain. If left unmanaged, it will shred your leaf canopy early, causing pods to drop and reducing bean sizes."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soybean_bacterial_blight",
+        "soybean_healthy",
+        "soybean_bacterial_pustule"
+      ],
+      "segmentation_labels": [
+        "angular_necrotic_lesion",
+        "chlorotic_halo_rim",
+        "shredded_shot_hole"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots develop raised pustule-like pimples on the leaf undersides, indicating a shift to Bacterial Pustule needing adjusted seed selection"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused sharply on leaf spot edges to distinguish strictly angular borders from rounded fungal spots"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SOY-BB-CH-05",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Pseudomonas savastanoi pv. glycinea Wounding and Shredding Pathogenesis",
+        "content": "Bacterial Blight of soybean is caused by Pseudomonas savastanoi pv. glycinea. The bacterium overwinters on crop residues and enters via hydathodes or stomata, heavily enhanced by mechanical wind wounding during storm events. It colonizes leaf intercellular spaces under cool profiles (20-26\u00b0C), releasing phytotoxins that form narrow yellow haloes. The necrotic centers turn papery and break away under wind friction, creating a typical ragged shredded canopy layout.",
+        "keywords": [
+          "Pseudomonas savastanoi",
+          "hydathodes",
+          "wind wounding",
+          "intercellular spaces",
+          "shredded canopy",
+          "shot-hole"
+        ],
+        "language": "English",
+        "target_user": "Crop Consultant / Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 cases logged after heavy pre-monsoon storm fronts",
+      "outbreak_alert_message": "Bacterial Blight Alert: Wind wounds from recent storms are driving leaf shredding. Avoid entering damp fields to stop cell smearing.",
+      "nearby_farm_advice": [
+        "Isolate row cultivation loops.",
+        "Apply protective copper films before subsequent rainy weather blocks arrive."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Soybean Leaf Diseases Manual",
+      "source_url": "https://extension.sdstate.edu/bacterial-blight-soybean",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "South Dakota State University Extension",
+      "published_year": "2022",
+      "region": "Global / Northern Plains",
+      "language": "English",
+      "last_verified": "2026-03-10",
+      "trust_level": "High",
+      "notes": "Excellent clinical reference tool sorting diagnostic markers between bacterial and fungal spot groups."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:15:00Z",
+      "updated_at": "2026-06-01T16:15:00Z",
+      "reviewed_by": "Extension Plant Pathology Directorate Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SOYBEAN-SBS-006",
+    "crop": {
+      "common_name": "Soybean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean",
+        "Bhatmas",
+        "Soja"
+      ],
+      "crop_category": "Oilseed / Legume"
+    },
+    "disease": {
+      "name": "Septoria Brown Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Septoria glycines"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Pods",
+        "Stems"
+      ],
+      "disease_stage": "All growth stages; typically spikes from early vegetative on lower leaves to late pod fill"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, irregular, dark chocolate-brown or reddish-brown spots appear on the lowest leaves",
+        "Spots measure 1-4 mm and look like dense brown freckles"
+      ],
+      "middle_stage": [
+        "Infected leaves turn pale yellow around the spots",
+        "Lesions merge into large dark brown dead zones, and spots begin to appear on middle canopy leaf layers"
+      ],
+      "severe_stage": [
+        "Extensive yellowing and premature dropping (defoliation) of lower leaves, moving vertically upward",
+        "The lower stem branches look completely bare of leaves, leaving only top flag leaflets active, which shrinks seed sizes"
+      ],
+      "visible_signs": [
+        "Dense clusters of tiny dark chocolate brown spots covering lower leaves, followed by rapid leaf yellowing and drop"
+      ],
+      "farmer_reported_signs": [
+        "The oldest bottom leaves of my soyabean plants are covered in tiny dark brown spots, turning yellow, and falling off early, leaving the bottom stems bare"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Tiny dark brown or charcoal spots wrapped inside broad yellow aging leaf zones"
+      ],
+      "spot_or_patch_shape": "Small, irregular, fleck-like angular dots that run together into dark leathery dead zones",
+      "pattern": "Strictly vertical progression climbing from the oldest bottom leaves up toward the top shoots",
+      "location_on_plant": "Starts on the lowest unshaded leaves (cotyledons and primary leaves) and climbs upwards",
+      "starts_from": "Older bottom leaf layers exposed to damp ground soil vapours",
+      "progression": "Causes progressive lower canopy leaf drop, stripping branches from the ground up as rows close",
+      "image_clues": [
+        "Lower soyabean leaf covered in tiny dark chocolate brown spots turning yellow",
+        "Bare lower stem branches on a standing plant hill"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Blight (Pseudomonas savastanoi pv. glycinea)",
+        "difference": "Bacterial blight affects the youngest, topmost leaves with strictly angular spots holding clear yellow halos that tear open into ragged wind holes, whereas Septoria forms small solid brown dots on the oldest, lowest leaves that drop off without tearing holes.",
+        "confusion_risk": "High, during early middle leaf infection phases."
+      },
+      {
+        "name": "Frogeye Leaf Spot (Cercospora sojina)",
+        "difference": "Frogeye leaf spot forms much larger, circular spots with distinct ash-grey or paper-white centers wrapped in prominent dark reddish-purple borders, rather than tiny solid dark brown freckles.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet weather with frequent short rain showers or prolonged morning dews"
+      ],
+      "temperature_range": "20\u00b0C - 28\u00b0C (68\u00b0F - 82\u00b0F) optimal for Septoria spore germination and cycling",
+      "humidity_level": "Extended relative humidity above 85% inside closed rows",
+      "season": "Mid-monsoon Kharif lines when row canopies close completely",
+      "soil_conditions": [
+        "Fields where crop residues are left on top without deep burial plowing"
+      ],
+      "field_conditions": [
+        "Dense planting layouts that block wind movement near the soil line",
+        "Continuous soyabean cultivation plots"
+      ],
+      "irrigation_conditions": [
+        "Frequent overhead sprinkler irrigation applied late in the afternoon"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Rain water droplets splashing spores upward from the soil surface into the lower canopy",
+        "Wind lines carrying spores short distances across row lines"
+      ],
+      "source_of_infection": [
+        "Infected soyabean crop residues left standing or on the topsoil surface",
+        "Volunteer soybean plants"
+      ],
+      "survival_method": "Overwinters as dormant pycnidia or mycelium inside infested plant residues left in the field soil surface layer",
+      "spread_speed": "Moderate; climbs steadily up the plant frame during extended rainy spells",
+      "nearby_crop_risk": "Moderate for neighboring younger soyabean fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Tiny dark brown spots restricted entirely to the lowest 10% of older leaves; zero defoliation noticed.",
+        "field_indicator": "Fewer than 10 spots per lower leaf blade; middle and top canopy perfectly clean green.",
+        "recommended_action": "No chemical action needed. Monitor field weekly. Improve weeding to maximize soil line wind drying."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots are common on lower leaves, causing leaf yellowing; early spots climbing onto middle canopy layers.",
+        "field_indicator": "Spots visible across 10% to 25% of the total canopy; bottom leaves are starting to drop off.",
+        "recommended_action": "Apply recommended protective or systemic fungicides if rain forecasts are extended and crops are near bloom."
+      },
+      {
+        "level": "High",
+        "description": "Severe lower leaf drop climbing into the upper canopy layer; lower third of stems completely bare.",
+        "field_indicator": "Widespread leaf yellowing and early dropping across rows; green leaf area reduced during critical pod fill.",
+        "recommended_action": "Apply systemic fungicides instantly to protect upper flag leaves and pod development. Plan for deep residue plowing post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified seed lines free of outer pod stain blemishes",
+        "Select cultivars showing high field tolerance scores"
+      ],
+      "field_management": [
+        "Maintain recommended row spaces to maximize sunlight penetration and speed leaf drying"
+      ],
+      "irrigation_management": [
+        "Schedule overhead irrigation for early morning hours so leaf surfaces dry before nightfall"
+      ],
+      "soil_management": [
+        "Apply balanced primary nutrients based on soil tests to prevent premature plant aging stress"
+      ],
+      "crop_rotation": [
+        "**Rotate out of soyabeans with non-host cereal crops like corn, sorghum, or wheat for at least 1-2 years**"
+      ],
+      "sanitation": [
+        "Plow fields deeply after harvest to bury old leaf debris under soil layers where they rot quickly",
+        "Destroy volunteer hosts"
+      ],
+      "monitoring": [
+        "Inspect the lowest canopy leaf layers bi-weekly from early vegetative stage, looking closely for chocolate-brown freckles"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify spots are solid chocolate brown on lowest leaves to confirm Septoria over bacterial blight",
+        "Ensure proper row weeding along drainage paths"
+      ],
+      "cultural_control": [
+        "Incorporate regular multi-year crop rotation matrices to systematically lower soilborne residue spore loads"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays or sulfur dusts at early vegetative stages before row canopy closure"
+      ],
+      "biological_control": [
+        "Limited field data; seed treatment or foliar sprays with Pseudomonas fluorescens may help suppress early fungal setup"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Pyraclostrobin",
+          "product_type": "Systemic / Strobilurin Fungicide",
+          "dose": "6.0 - 9.0 fl oz/Acre (or local product equivalent)",
+          "application_method": "Foliar spray applied at R1 (early bloom) to R3 (early pod fill) stages for canopy preservation",
+          "spray_interval": "Single well-timed application usually sufficient; repeat after 14 days only if rainy weather stays continuous",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Excellent systemic control. Always alternate or tank-mix with triazoles (FRAC 3) to prevent fungal resistance development."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Septoria Brown Spot is a common fungal disease that starts as tiny dark chocolate-brown freckles on the oldest bottom leaves of soyabean plants. It thrives in warm, wet weather, causing the infected lower leaves to turn yellow and drop off early, stripping the bottom stems bare and slowly moving upward as the plant tries to fill its pods.",
+      "what_to_do_now": [
+        "Check the lowest bottom leaves of your soyabean plants for tiny dark brown freckle spots.",
+        "Keep rows clear of thick weeds so wind can flow near the ground and dry the lower leaves.",
+        "Apply a recommended protective fungicide spray if spots begin climbing onto your middle leaves before flowering."
+      ],
+      "what_not_to_do": [
+        "Do not mistake this for simple leaf aging\u2014check closely for the small dark brown spot freckles inside the yellow zones.",
+        "Do not grow soyabeans in the exact same field year after year without a break, as the fungus lives in old leaf waste.",
+        "Do not run overhead sprinklers late in the afternoon or evening."
+      ],
+      "when_to_call_expert": [
+        "If the lower leaves are turning yellow and dropping off so fast that the bottom half of your soyabean plants are left completely bare during pod growth."
+      ],
+      "risk_warning": "While brown spot moves slowly, heavy leaf dropping during pod growth starves the developing beans of energy, leading to small, lightweight seeds and reduced oil yields."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soybean_septoria_brown_spot",
+        "soybean_healthy",
+        "soybean_bacterial_blight"
+      ],
+      "segmentation_labels": [
+        "chocolate_brown_fleck",
+        "yellow_chlorotic_blade",
+        "defoliated_bare_node"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots grow large with clear ash-grey or paper-white centers, which signals a potential outbreak of destructive Frogeye leaf spot instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused closely on lower leaves to clearly resolve tiny brown spots over broad nutritional yellowing lines"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SOY-SBS-CH-06",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Septoria glycines Conidial Splash and Vertical Canopy Tracking",
+        "content": "Septoria Brown Spot is caused by Septoria glycines. Fungal pycnidia overwinter on surface crop residues. Early season rain events cause conidial release via vertical splash upward onto cotyledons and primary leaves. The fungus drives progressive chlorosis and defoliation under warm wet regimes (20-28\u00b0C), tracking systemically upward from the lower canopy layers to the upper third, reducing photosynthetic green leaf area indices during critical pod fill.",
+        "keywords": [
+          "Septoria glycines",
+          "pycnidia",
+          "conidial splash",
+          "vertical tracking",
+          "defoliation",
+          "leaf area index"
+        ],
+        "language": "English",
+        "target_user": "Extension Pathologist / Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "6 confirmed cases logged during mid-monsoon canopy closure",
+      "outbreak_alert_message": "Septoria Brown Spot Warning: Warm humid rows are driving vertical leaf spot progression. Implement canopy protective shields near bloom.",
+      "nearby_farm_advice": [
+        "Inspect lower leaf layers immediately.",
+        "Ensure spray equipment uses deep canopy penetration nozzle adjustments."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Soybean Disease Diagnostic Guide",
+      "source_url": "https://extension.missouri.edu/publications/g4442",
+      "source_type": "University Extension Publication",
+      "author_or_organization": "University of Missouri Extension",
+      "published_year": "2021",
+      "region": "Global / Midwest US",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Standard reference matrix mapping foliar fungal lesions across commercial legume varieties."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:30:00Z",
+      "updated_at": "2026-06-01T16:30:00Z",
+      "reviewed_by": "University Plant Pathology Review Board Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "soyabean_ferrugen",
+    "crop": {
+      "common_name": "Soyabean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean"
+      ],
+      "crop_category": "Legume"
+    },
+    "disease": {
+      "name": "Ferrugen (Soybean Rust)",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Phakopsora pachyrhizi"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Flowering to Maturity"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Tiny brown or brick-red spots on the lower leaves."
+      ],
+      "middle_stage": [
+        "Spots expand, form raised pustules on the underside of leaves."
+      ],
+      "severe_stage": [
+        "Pustules burst, releasing rust-colored spores. Leaves turn yellow, dry up, and drop prematurely."
+      ],
+      "visible_signs": [
+        "Rust colored powdery spores on leaf undersides."
+      ],
+      "farmer_reported_signs": [
+        "Rusty powder on the bottom of leaves",
+        "Leaves turning yellow and falling off"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Brick red",
+        "Yellow"
+      ],
+      "spot_or_patch_shape": "Small pustules",
+      "pattern": "Dense clusters on underside",
+      "location_on_plant": "Lower canopy progressing upwards",
+      "starts_from": "Lower leaves",
+      "progression": "Spots -> Pustules -> Yellowing -> Defoliation",
+      "image_clues": [
+        "Look for raised rusty pustules on the underside of the leaf."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Brown Spot (Septoria)",
+        "difference": "Brown spot lacks the raised rusty pustules on the underside.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, moist",
+        "Cloudy"
+      ],
+      "temperature_range": "15-28C",
+      "humidity_level": "High (prolonged leaf wetness)",
+      "season": "Late Summer/Monsoon",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Dense canopy"
+      ],
+      "irrigation_conditions": [
+        "Frequent rain or dew"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind (long distances)"
+      ],
+      "source_of_infection": [
+        "Spores blown from warmer regions"
+      ],
+      "survival_method": "Living hosts",
+      "spread_speed": "Very Fast",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Rapid spread of pustules.",
+        "field_indicator": "Lower canopy yellowing.",
+        "recommended_action": "Apply fungicide immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use tolerant varieties."
+      ],
+      "field_management": [
+        "Wider row spacing."
+      ],
+      "irrigation_management": [
+        "Avoid overhead watering."
+      ],
+      "soil_management": [
+        "Balanced nutrition."
+      ],
+      "crop_rotation": [
+        "N/A"
+      ],
+      "sanitation": [
+        "N/A"
+      ],
+      "monitoring": [
+        "Scout lower canopy frequently after flowering."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Spray fungicide at first sign."
+      ],
+      "cultural_control": [
+        "None very effective once spores arrive."
+      ],
+      "organic_control": [
+        "Limited effectiveness."
+      ],
+      "biological_control": [
+        "N/A"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Azoxystrobin",
+          "product_type": "Fungicide",
+          "dose": "1mL/L",
+          "application_method": "Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Ensure underside coverage."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A very fast-spreading fungus that causes rusty powder on the undersides of leaves.",
+      "what_to_do_now": [
+        "Spray a strobilurin/triazole fungicide."
+      ],
+      "what_not_to_do": [
+        "Don't wait; rust spreads incredibly fast."
+      ],
+      "when_to_call_expert": [
+        "If unsure if it is rust or brown spot."
+      ],
+      "risk_warning": "Can cause massive yield loss if ignored."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soyabean_ferrugen"
+      ],
+      "segmentation_labels": [
+        "rust_pustule"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Macro shot of leaf underside."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "State",
+      "risk_radius": "100km",
+      "report_count_threshold": "1",
+      "outbreak_alert_message": "Soybean Rust in your region. Spray preventatively.",
+      "nearby_farm_advice": [
+        "Scout and spray."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  },
+  {
+    "id": "soyabean_powdery_mildew",
+    "crop": {
+      "common_name": "Soyabean",
+      "english_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "local_names": [
+        "Soyabean"
+      ],
+      "crop_category": "Legume"
+    },
+    "disease": {
+      "name": "Powdery Mildew",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Erysiphe diffusa"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Pods"
+      ],
+      "disease_stage": "Late Season"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, circular white to light-gray 'talcum-powder-like' patches on upper leaf surfaces."
+      ],
+      "middle_stage": [
+        "Patches enlarge and cover entire leaves (both sides)."
+      ],
+      "severe_stage": [
+        "Leaves turn yellow, brown, and drop. Pods may be affected, leading to shriveled seeds."
+      ],
+      "visible_signs": [
+        "White powdery growth on leaves."
+      ],
+      "farmer_reported_signs": [
+        "White powder coating the leaves"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "White",
+        "Yellowing"
+      ],
+      "spot_or_patch_shape": "Irregular powdery patches",
+      "pattern": "Dusting effect",
+      "location_on_plant": "Upper leaves mostly",
+      "starts_from": "Upper surface",
+      "progression": "Spots -> Full coverage -> Yellowing -> Defoliation",
+      "image_clues": [
+        "Look for white talcum powder-like dusting."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Downy Mildew",
+        "difference": "Downy mildew is yellowish on top and has fuzzy gray growth ONLY on the bottom, while Powdery is white on top.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, cloudy"
+      ],
+      "temperature_range": "18-24C",
+      "humidity_level": "Low to Moderate",
+      "season": "Late season",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Late planted crops"
+      ],
+      "irrigation_conditions": [
+        "N/A"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind"
+      ],
+      "source_of_infection": [
+        "Wind-blown spores"
+      ],
+      "survival_method": "Alternate hosts",
+      "spread_speed": "Moderate",
+      "nearby_crop_risk": "Medium"
+    },
+    "severity_levels": [
+      {
+        "level": "Medium",
+        "description": "White powder on leaves.",
+        "field_indicator": "Usually occurs late, low yield impact.",
+        "recommended_action": "Spray only if severe."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Resistant varieties."
+      ],
+      "field_management": [
+        "Plant on time (avoid late planting)."
+      ],
+      "irrigation_management": [
+        "N/A"
+      ],
+      "soil_management": [
+        "N/A"
+      ],
+      "crop_rotation": [
+        "Not highly effective."
+      ],
+      "sanitation": [
+        "N/A"
+      ],
+      "monitoring": [
+        "Scout late-season."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Often not economical to spray late season."
+      ],
+      "cultural_control": [
+        "None."
+      ],
+      "organic_control": [
+        "Sulfur or neem oil."
+      ],
+      "biological_control": [
+        "N/A"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Wettable Sulfur",
+          "product_type": "Fungicide",
+          "dose": "3g/L",
+          "application_method": "Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Do not spray in extreme heat."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A fungus that coats leaves in white powder, usually late in the season.",
+      "what_to_do_now": [
+        "Evaluate if spraying is worth the cost if harvest is near."
+      ],
+      "what_not_to_do": [
+        "Don't spray sulfur on very hot days."
+      ],
+      "when_to_call_expert": [
+        "If symptoms appear very early in the season."
+      ],
+      "risk_warning": "Often cosmetic unless infection happens early."
+    },
+    "model_support": {
+      "classification_labels": [
+        "soyabean_powdery_mildew"
+      ],
+      "segmentation_labels": [
+        "powdery_patch"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear shot of the white powder."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "",
+      "nearby_farm_advice": []
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  }
+]

@@ -1,0 +1,869 @@
+[
+  {
+    "id": "RAGI-DM-001",
+    "crop": {
+      "common_name": "Finger Millet",
+      "english_name": "Finger Millet / Ragi",
+      "scientific_name": "Eleusine coracana",
+      "local_names": ["Ragi", "Mandua", "Nachni", "Keppai"],
+      "crop_category": "Cereal / Small Millet"
+    },
+    "disease": {
+      "name": "Downy Mildew / Green Ear",
+      "category": "Oomycete (Water Mold)",
+      "pathogen_or_cause": ["Sclerophthora macrospora"],
+      "affected_parts": ["Leaves", "Stems", "Inflorescence (In ear heads)"],
+      "disease_stage": "Vegetative to Flowering stage"
+    },
+    "symptoms": {
+      "early_stage": ["Severe stunting of young plants with excessive, bunched tillering (bushy look)", "Leaves turn pale green to light yellow and look thick, leathery, and twisted"],
+      "middle_stage": ["Shortened stem internodes create a dense, crowded 'witches' broom' or rosette look", "A faint white downy mold layer appears on lower leaf surfaces under humid morning conditions"],
+      "severe_stage": ["Complete transformation of floral parts into small, green leaf-like structures (Green Ear symptom)", "Infected ear heads produce zero grains, turning completely sterile and deformed"],
+      "visible_signs": ["Ear heads converted into a bunch of green leafy structural fragments instead of normal grain fingers"],
+      "farmer_reported_signs": ["My ragi plants look like stunted green bushes or wild grass", "The grain heads have no ragi seed at all; they just look like twisted green leaves"]
+    },
+    "visual_identification": {
+      "color_changes": ["Leaves turn pale yellow-green; floral organs turn into bright green leaf shoots"],
+      "spot_or_patch_shape": "No localized spots; systemic leafy proliferation across stems and ear structures",
+      "pattern": "Bunched, crowded rosette branching at the plant crown with wrinkled, thick leaf tissue",
+      "location_on_plant": "Affects the entire plant frame systemically, most distinct on the topmost head fingers",
+      "starts_from": "Emerging central leaves or developing seed heads",
+      "progression": "Moves from early vegetative crowding into total structural conversion of the grain head",
+      "image_clues": ["Ragi ear head completely deformed into messy green leaf clusters", "Severely bunched, short, stunted grass-like millet plant"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Crazy Top of Maize / Millets",
+        "difference": "Caused by the same water mold family, but in ragi, it explicitly manifests as tight, short multi-tillered witches' brooms with finger-specific conversions rather than long leaf extensions.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Persistent heavy rains, waterlogging, or flooding of field nurseries early in the cycle", "Cool, cloudy weather with morning mist"],
+      "temperature_range": "15°C - 25°C (59°F - 77°F)",
+      "humidity_level": "Extremely high relative humidity (>90%) with standing surface water layers",
+      "season": "Rainy season (Kharif) or low-lying irrigated cropping tracks",
+      "soil_conditions": ["Heavy, poorly drained soils subject to prolonged water retention"],
+      "field_conditions": ["Low-lying zones where rain runoff accumulates continuously", "Over-crowded seedling nurseries"],
+      "irrigation_conditions": ["Excessive or flooding style surface irrigation during early vegetative phases"]
+    },
+    "spread": {
+      "spread_by": ["Waterborne swimming zoospores moving through standing field water channels", "Windborne sporangia carried short distances during wet nights"],
+      "source_of_infection": ["Soil-dwelling oospores from previous seasons", "Infected seed lots", "Alternative grassy weed hosts along fields"],
+      "survival_method": "Overwinters as thick-walled oospores surviving inside old crop residue or field soil layers for several years",
+      "spread_speed": "Moderate, but highly localized around flood or waterlog zones",
+      "nearby_crop_risk": "Moderate for neighboring small millet blocks"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated plants in low pockets show stunting or leafy head changes (less than 2%).",
+        "field_indicator": "Isolated bushy anomalies found inside water accumulation spots.",
+        "recommended_action": "Rogue out infected stunted plants immediately. Drain out all excess surface water from fields."
+      },
+      {
+        "level": "Medium",
+        "description": "2% to 10% of plants show severe bunching and green ear heads; field spots look uneven.",
+        "field_indicator": "Distinct scattered patches of sterile, bushy millet stands across lines.",
+        "recommended_action": "Apply targeted oomycete-specific fungicides to stop further field water spread. Improve field drainage lines."
+      },
+      {
+        "level": "High",
+        "description": "More than 10% of the entire plot shows total stunting and leafy head distortions; heavy crop yield loss.",
+        "field_indicator": "Massive structural failures across rows; large blocks produce zero normal grain fingers.",
+        "recommended_action": "Harvest healthy sections manually. Enforce a deep plowing schedule and select resistant cultivars for the next sowing."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Source certified seed from completely disease-free crop zones", "Treat seeds with metalaxyl before nursery sowing"],
+      "field_management": ["Avoid establishing nurseries or sowing ragi in low-lying, flood-prone field corners", "Maintain wide row gaps"],
+      "irrigation_management": ["Provide excellent drainage channels to let storm water exit within hours"],
+      "soil_management": ["Practice deep summer plowing to bury soil-surface oospores deeply into underlying layers"],
+      "crop_rotation": ["Rotate out of millets and cereal grains with deep-rooted legumes for 2 to 3 years"],
+      "sanitation": ["Uproot and burn or bury infected leafy heads early to stop oospore drop back into the soil", "Keep field borders weed-free"],
+      "monitoring": ["Scout nurseries and early tillering crops weekly, especially after heavy monsoon storm events"]
+    },
+    "management": {
+      "immediate_action": ["Rogue out deformed green ear heads safely into bags before destroying them", "Open deep trenches to remove standing field water immediately"],
+      "cultural_control": ["Avoid using irrigation runoff water from infected upstream fields to water clean downstream plots"],
+      "organic_control": ["Treat seeds with bio-control formulations based on Pseudomonas fluorescens", "Apply preventive copper oxychloride sprays at early tillering stages"],
+      "biological_control": ["Incorporate Trichoderma harzianum into the farm soil matrix during field preparation steps"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Metalaxyl-M",
+          "product_type": "Systemic Oomycete Fungicide",
+          "dose": "2.0 g/kg of seed (Treatment) or 2.5 g/Liter foliar spray",
+          "application_method": "Seed treatment prior to sowing, or foliar application if early symptoms emerge in wet conditions",
+          "spray_interval": "10 - 12 days if wet weather persists",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Specifically targets water molds. Always rotate with non-systemic protectants to avoid rapid resistance build-up."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Downy mildew (or Green Ear disease) is a water-loving mold that attacks ragi fields when water logs the soil. It turns the grain fingers into a useless bunch of green leaves, making the plant completely sterile so it produces no ragi grain.",
+      "what_to_do_now": [
+        "Dig channels to clear out any standing water or pools from your fields immediately.",
+        "Pull out any stunted, bushy ragi plants and burn them away from your farm.",
+        "Treat your ragi seeds with specialized anti-mold chemicals before your next sowing."
+      ],
+      "what_not_to_do": [
+        "Never establish your nursery beds in low-lying, damp areas where water collects.",
+        "Do not leave deformed green ear heads rotting in the field, as they poison the soil for the next season.",
+        "Do not use seed collected from a field that suffered from green ear disease."
+      ],
+      "when_to_call_expert": [
+        "If large patches of your ragi crop are turning into dense green leafy brushes instead of developing grain fingers."
+      ],
+      "risk_warning": "If your field gets waterlogged during early growth phases, this water mold can destroy 100% of the grain on infected plants."
+    },
+    "model_support": {
+      "classification_labels": ["ragi_downy_mildew_green_ear", "ragi_healthy", "ragi_blast"],
+      "segmentation_labels": ["leafy_earhead_distortion", "stunted_rosette_tillers", "healthy_stem"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Leafy ears emerge during dry, drought conditions where water molds typically cannot thrive"],
+      "image_quality_requirements": ["Clear focus on the deformed leafy ear structures compared to a normal healthy finger layout"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RAGI-DM-CH-01",
+        "chunk_type": "Pathology",
+        "title": "Sclerophthora macrospora Oospore Dynamics",
+        "content": "Downy mildew in finger millet, induced by Sclerophthora macrospora, acts systemically. Soil oospores germinate in free water to produce zoospores that infect seedlings. Hypertrophy and hyperplasia lead to witches' broom habits and full green ear malformations.",
+        "keywords": ["Sclerophthora macrospora", "zoospores", "hypertrophy", "green ear", "witches broom"],
+        "language": "English",
+        "target_user": "Millet Breeder / Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block",
+      "risk_radius": "20 km",
+      "report_count_threshold": "4 confirmed cases following nursery flooding",
+      "outbreak_alert_message": "Green Ear Disease Alert: Prolonged waterlogging is promoting Sclerophthora infections. Ensure prompt drainage.",
+      "nearby_farm_advice": ["Inspect field depressions for stunted tillers.", "Ensure downstream irrigation lines are segregated from flooded plots."]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Small Millets: A Sourcing Compendium",
+      "source_url": "https://www.icar.org.in/millet-pathology-reports",
+      "source_type": "ICAR Research Bulletin",
+      "author_or_organization": "Indian Council of Agricultural Research (ICAR) - ICAR-IIMR",
+      "published_year": "2021",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-04-18",
+      "trust_level": "High",
+      "notes": "Excellent manual tracking downy mildew systemic lines across Eleusine families."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:00:00Z",
+      "updated_at": "2026-06-01T20:30:00Z",
+      "reviewed_by": "All-India Coordinated Small Millets Improvement Project",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "RAGI-MOT-002",
+    "crop": {
+      "common_name": "Finger Millet",
+      "english_name": "Finger Millet / Ragi",
+      "scientific_name": "Eleusine coracana",
+      "local_names": ["Ragi", "Mandua", "Nachni", "Keppai"],
+      "crop_category": "Cereal / Small Millet"
+    },
+    "disease": {
+      "name": "Ragi Mottle / Mosaic Virus",
+      "category": "Viral (Vector-borne)",
+      "pathogen_or_cause": ["Finger millet mottle virus (FMMV)", "Ragi mosaic virus"],
+      "affected_parts": ["Leaves", "Stems", "Whole Plant Canopy"],
+      "disease_stage": "Early Vegetative to Tillering stage"
+    },
+    "symptoms": {
+      "early_stage": ["Faint, alternating light green and dark green lines running parallel to leaf veins", "Mild chlorotic flecking on the youngest emerging leaf blades"],
+      "middle_stage": ["Severe mosaic mottle patterns where leaves look distinctly variegated with yellow streaks", "Moderate plant stunting with slow leaf emergence"],
+      "severe_stage": ["Leaves display extensive yellow-to-white bleaching, crinkling, and marginal necrosis", "Plants produce highly small, poorly filled ear fingers or remain completely unproductive"],
+      "visible_signs": ["Stark yellow-and-green striped mosaic mottling across ragi leaf blades without dry fungal spots"],
+      "farmer_reported_signs": ["My ragi leaves look like they are losing color, turning striped with pale yellow paint tracks", "Plants are lagging in height compared to the rest of the lines"]
+    },
+    "visual_identification": {
+      "color_changes": ["Alternating tracks of cream-yellow, light green, and dark green over the foliage"],
+      "spot_or_patch_shape": "Elongated chlorotic stripes or broken mosaic mottling running up the leaf frame",
+      "pattern": "Systemic, uniform viral mottling across all newly forming tillers",
+      "location_on_plant": "Most prominent on younger canopy leaves and structural leaf sheaths",
+      "starts_from": "The leaf base areas and spreads outward to the tips",
+      "progression": "Early infected clumps become severely stunted; late infections create minor leaf streaks with small seed fingers",
+      "image_clues": ["Ragi leaves showing stark parallel yellow-green mosaic patterns", "Slightly stunted patch of pale millet tillers"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Iron Deficiency Chlorosis",
+        "difference": "Iron deficiency causes a clean, uniform yellowing of the entire area between leaf veins across all top leaves, completely lacking the broken, patchy dark-and-light green checkered mosaic mottling pattern.",
+        "confusion_risk": "High, as both cause yellow striping on millets.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Nutritional Zinc Deficiency",
+        "difference": "Zinc deficiency creates wide, broad bleached white bands on mid-leaf areas rather than fine systemic mosaic streaks.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry, warm weather phases that accelerate vector insect populations", "Low wind speeds that facilitate insect migration"],
+      "temperature_range": "22°C - 32°C (71°F - 90°F) optimal for aphid or cicadellid vector breeding",
+      "humidity_level": "Moderate humidity profiles",
+      "season": "Summer or early Kharif seasons with high weed presence",
+      "soil_conditions": ["Fields with heavy wild grass weed infestations along bund borders"],
+      "field_conditions": ["Presence of multi-season continuous wild grassy weed bridges near borders", "Close plant spacing"],
+      "irrigation_conditions": ["Not directly dependent on irrigation types"]
+    },
+    "spread": {
+      "spread_by": ["Vector insects, primarily aphids (e.g., Rhopalosiphum maidis) or leafhoppers, transmitting the virus particles sap-mechanically", "Mechanical sap friction from field tools"],
+      "source_of_infection": ["Perennial wild grasses (e.g., Eleusine indica, Digitaria species) acting as host reservoirs", "Infected volunteer millet plants"],
+      "survival_method": "Survives continuously inside alternative wild grass hosts and perennial grassy weeds over the dry season",
+      "spread_speed": "Fast during vector insect migration cycles across field plots",
+      "nearby_crop_risk": "High for adjacent maize, sorghum, or minor millet plots"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint mosaic patterns found on isolated scattered plants (less than 3% of row count).",
+        "field_indicator": "A few random pale-green striped plants across rows.",
+        "recommended_action": "Rogue out infected lines immediately. Manually destroy wild grasses growing along bund borders."
+      },
+      {
+        "level": "Medium",
+        "description": "Mosaic mottling and mild stunting clear across 3% to 12% of the crop canopy.",
+        "field_indicator": "Distinct yellow-green striped patches visible in the field; tillering is low.",
+        "recommended_action": "Apply targeted eco-friendly or chemical insect sprays to suppress vector populations and limit virus transfer."
+      },
+      {
+        "level": "High",
+        "description": "More than 12% of plants are severely bleached, stunted, or showing crinkled leaf margins.",
+        "field_indicator": "Large field spots look yellowed and stunted; crop ears are absent or completely malformed.",
+        "recommended_action": "Control vector populations to safeguard remaining fields. Map out strict weed eradication plans for the next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Sow clean seeds harvested strictly from non-infected field tracts"],
+      "field_management": ["Keep field borders and bund lines completely clear of alternative wild grasses", "Adopt ideal wide row spaces to limit mechanical plant-to-plant rubbing"],
+      "irrigation_management": ["Maintain balanced field water inputs to keep plants strong"],
+      "soil_management": ["Apply balanced nitrogenous inputs; avoid heavy nitrogen overdosages that attract sap-sucking vectors"],
+      "crop_rotation": ["Rotate with pulse crops like pigeonpea, field bean, or cowpea between seasons"],
+      "sanitation": ["Uproot and bury infected mottle clumps during the first 30 days of growth", "Clean farm tools"],
+      "monitoring": ["Scan young leaves bi-weekly for fine yellow parallel lines or active aphid colonies under leaf blades"]
+    },
+    "management": {
+      "immediate_action": ["Confirm the pattern is broken mosaic rather than uniform vein chlorosis to rule out iron issues", "Uproot early infected striped clumps"],
+      "cultural_control": ["Eradicate wild Eleusine indica (goosegrass) from all adjacent water pathways and borders"],
+      "organic_control": ["Spray neem oil formulations (3000 ppm) at 3 mL/Liter of water to deter aphid vectors from feeding"],
+      "biological_control": ["Conserve natural aphid predators like ladybird beetles and lacewings within the farm plot ecosystem"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Dimethoate",
+          "product_type": "Systemic Insecticide",
+          "dose": "1.7 mL/Liter of water (or 350 mL/Acre)",
+          "application_method": "Foliar spray hitting leaf undersides completely to manage insect vector tracks",
+          "spray_interval": "10 - 14 days if vector count exceeds economic thresholds",
+          "pre_harvest_interval": "28 days",
+          "safety_note": "Toxic to bees. Apply only during late afternoons when pollinator activity is low."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Ragi mottle (or mosaic) is a virus disease carried from plant to plant by tiny sap-sucking insects like aphids. It paint-stripes ragi leaves with alternating green and yellow lines, stunts growth, and shrinks seed finger production.",
+      "what_to_do_now": [
+        "Pull out and bury any young ragi plants showing broken yellow-and-green striped patterns.",
+        "Clear out wild grasses growing along your field borders, as they house the virus and insects.",
+        "Spray an insect-killing spray or neem oil to stop vector insects from spreading the virus across your rows."
+      ],
+      "what_not_to_do": [
+        "Do not mistake this virus for iron deficiency—look closely for patchy mosaic tracks, not uniform pale sheets.",
+        "Do not save or use seeds from ragi crops that showed heavy mosaic striping.",
+        "Do not leave weed grasses standing tall along water channels next to your crop."
+      ],
+      "when_to_call_expert": [
+        "If vector insects like aphids are swarming your ragi plots and leaves are changing into pale yellow-white bands field-wide."
+      ],
+      "risk_warning": "This is a viral infection; chemicals cannot cure it once inside the plant. Your only shield is pulling out infected plants early and stopping vector insects from feeding."
+    },
+    "model_support": {
+      "classification_labels": ["ragi_mottle_mosaic", "ragi_healthy", "ragi_iron_deficiency"],
+      "segmentation_labels": ["mosaic_mottled_stripe", "chlorotic_flecking", "healthy_blade"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Yellowing is perfectly uniform across all leaf veins on every single plant in a line, which indicates true soil mineral starvation"],
+      "image_quality_requirements": ["Requires highly clear resolution of the leaf face to differentiate broken mosaic tracks from continuous mineral chlorosis lines"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RAGI-MOT-CH-02",
+        "chunk_type": "Virology",
+        "title": "Finger Millet Mottle Virus Vector Epidemiology",
+        "content": "Ragi mottle virus presents systemic mosaic manifestations across Eleusine coracana architectures. Transmitted sap-mechanically and via aphid vectors (Rhopalosiphum maidis) in a non-persistent style, it overwinters in wild grass refugia like Digitaria and Eragrostis species.",
+        "keywords": ["mottle virus", "mosaic", "Rhopalosiphum maidis", "non-persistent", "grassy weeds"],
+        "language": "English",
+        "target_user": "Extension Virologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block",
+      "risk_radius": "12 km",
+      "report_count_threshold": "5 distinct vector surge alerts within a week",
+      "outbreak_alert_message": "Mottle Virus Warning: Aphid vector counts are rising in summer grass borders. Manage vector lanes preventatively.",
+      "nearby_farm_advice": ["Eradicate boundary goosegrass fields immediately.", "Monitor for non-persistent mosaic stripes on young tillers."]
+    },
+    "source_metadata": {
+      "source_title": "Virus Diseases of Millets in India",
+      "source_url": "https://www.iimr.res.in/millet-virus-compendium",
+      "source_type": "Research Monograph",
+      "author_or_organization": "Indian Institute of Millets Research (IIMR)",
+      "published_year": "2019",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-03-24",
+      "trust_level": "High",
+      "notes": "Premium diagnostic guide mapping virus vectors across dryland cereal farming zones."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:15:00Z",
+      "updated_at": "2026-06-01T20:45:00Z",
+      "reviewed_by": "IIMR Crop Protection Directorate",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "RAGI-SB-003",
+    "crop": {
+      "common_name": "Finger Millet",
+      "english_name": "Finger Millet / Ragi",
+      "scientific_name": "Eleusine coracana",
+      "local_names": ["Ragi", "Mandua", "Nachni", "Keppai"],
+      "crop_category": "Cereal / Small Millet"
+    },
+    "disease": {
+      "name": "Seedling Blight / Foot Rot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Bipolaris nodulosa", "Helminthosporium nodulosum", "Pythium spp."],
+      "affected_parts": ["Roots", "Seedling base", "Young Leaves"],
+      "disease_stage": "Nursery / Seedling phase (1 to 4 weeks old)"
+    },
+    "symptoms": {
+      "early_stage": ["Poor or patchy nursery germination blocks", "Small, oval chocolate-brown or dark spots emerge on the delicate base (hypocotyl) of young sprouts"],
+      "middle_stage": ["The stem base turns dark brown, soft, and shrinks (girdling appearance)", "Young seedling leaf tips begin to yellow, wilt, and droop over"],
+      "severe_stage": ["Massive damping-off or foot rot where seedlings collapse in patches at the soil line", "The root system turns black and rots away completely, making seedlings easy to pull up"],
+      "visible_signs": ["Dark, sunken neck rot at the soil line causing seedlings to tip over and wither away"],
+      "farmer_reported_signs": ["My ragi seedlings are rotting at the base and falling over in the nursery bed", "The nursery patch looks patchy with dead, brown withered sprouts"]
+    },
+    "visual_identification": {
+      "color_changes": ["Stem base turns from light green to a dark chocolate-brown or charcoal-black necrotic state"],
+      "spot_or_patch_shape": "Sunken, elongated, girdling lesions around the soft lower seedling trunk",
+      "pattern": "Circular or irregular expanding collapse dead zones across nursery beds",
+      "location_on_plant": "Concentrated strictly at the soil contact line (foot zone) and primary roots",
+      "starts_from": "The soil line or seed coat jacket during emergence",
+      "progression": "Causes rapid seedling damping-off followed by soft root breakdown and total desiccation",
+      "image_clues": ["Tiny ragi seedlings collapsing sideways at the soil contact line", "Rotted dark brown root crown on a wilted sprout"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Nursery Insect Cutworm Damage",
+        "difference": "Cutworms cleanly chew through the seedling stem, leaving sharp, mechanical scissor-like cut marks without any dark brown, sunken, watery rotting tissue around the break line.",
+        "confusion_risk": "Medium as both cause seedlings to fall over.",
+        "confusion_risk_level": "Medium"
+      },
+      {
+        "name": "Soil Surface Sun-Scorching",
+        "difference": "Extreme soil heat bleaches the stem base white and hardens it, rather than creating a dark, wet, chocolate-brown fungal rot.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Hot, oppressive, cloudy days mixed with heavy short downpours that saturate nursery soil lines"],
+      "temperature_range": "28°C - 34°C (82°F - 93°F) highly favorable for Bipolaris seedling sweeps",
+      "humidity_level": "Saturated soil moisture and high humidity at the ground boundary layer",
+      "season": "Early Kharif nursery seasons or early summer sowing sets",
+      "soil_conditions": ["Heavy, poorly leveled clay soils prone to water pooling", "High organic matter content that is poorly decomposed"],
+      "field_conditions": ["Over-crowded, dense nursery seeding rates", "Thick soil crusts that delay seedling emergence"],
+      "irrigation_conditions": ["Frequent, heavy surface flooding of delicate nursery beds during evening hours"]
+    },
+    "spread": {
+      "spread_by": ["Seedborne fungal mycelium hidden inside the seed coat", "Water currents moving through infected nursery beds", "Contaminated soil layers on hands or tools"],
+      "source_of_infection": ["Infected seed lots used for sowing", "Fungal spores surviving in surface crop residues", "Infested nursery soils"],
+      "survival_method": "Survives as dormant mycelium or conidia on the seed surface, or inside old unplowed millet crop straws",
+      "spread_speed": "Extremely fast; can wipe out a full nursery bed within 3 to 5 days once foot rot begins",
+      "nearby_crop_risk": "High for adjacent nursery plots or newly transplanted lines"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Less than 5% of seedlings show small brown foot marks; no major patch collapse noticed.",
+        "field_indicator": "Isolated yellowing tips; a few scattered fallen sprouts in low-lying corners.",
+        "recommended_action": "Reduce irrigation frequency immediately. Break up soil crusts gently to improve aeration."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of nursery seedlings have collapsed, rotted, or dried up in clear patches.",
+        "field_indicator": "Distinct circular dead brown patches visible across nursery beds.",
+        "recommended_action": "Drench nursery beds immediately with targeted protective or curative fungicides. Remove dead patches manually."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of seedlings are completely dead, rotten, or tipped over; nursery supply is compromised.",
+        "field_indicator": "Massive damping-off collapse; large bare ground holes inside nursery boundaries.",
+        "recommended_action": "Drench with systemic fungicides immediately. Prepare an alternative, well-drained nursery site using fully treated seed if short on supply."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always use certified, healthy ragi seed lines", "Enforce strict seed treatment with Thiram, Captan, or Carbendazim before sowing"],
+      "field_management": ["Construct raised nursery beds (15 cm high) to ensure excellent water drainage from the root zone", "Avoid dense seeding"],
+      "irrigation_management": ["Water nurseries lightly in the morning; do not allow water to stand overnight"],
+      "soil_management": ["Apply well-decomposed farmyard manure; avoid un-rotted straw inputs that harbor fungi"],
+      "crop_rotation": ["Avoid using the exact same nursery bed layout year after year; rotate nursery sites"],
+      "sanitation": ["Sterilize or solarize nursery topsoils using transparent plastic sheets during hot summer months"],
+      "monitoring": ["Inspect nursery sprouts daily from day 4 of emergence, looking closely at the soil-stem contact zone"]
+    },
+    "management": {
+      "immediate_action": ["Confirm the presence of dark brown foot rot marks to rule out insect cuts", "Stop all overhead flooding irrigation and allow the bed surface to dry out completely"],
+      "cultural_control": ["Thin out dense seedling stands to allow morning sunlight to hit the ground soil line directly"],
+      "organic_control": ["Treat seeds with Trichoderma viride formulations (4g/kg seed)", "Drench the nursery bed soil line with fresh neem leaf extract or copper formulations"],
+      "biological_control": ["Mix Trichoderma bio-agents extensively into nursery bed topsoil layers during bed preparation phases"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Systemic Fungicide",
+          "dose": "2.0 g/kg seed (Treatment) or 1.0 g/Id of water for soil drenching",
+          "application_method": "Dry seed mixing before sowing, or targeted soil line drenching using a spray nozzle with the rose-cap removed",
+          "spray_interval": "Single drenching usually sufficient; repeat after 7 days if weather remains intensely cloudy",
+          "pre_harvest_interval": "Not applicable at nursery stage",
+          "safety_note": "Ensure direct contact with soil around the seedling stem base. Wear waterproof gloves during application."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Contact Fungicide",
+          "dose": "2.5 g/Id of water for drenching/spray",
+          "application_method": "Nursery bed surface spray drenching",
+          "spray_interval": "7 days",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Provides a protective shield over the soil line and young leaves."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Seedling blight (or foot rot) is a nursery fungus disease that rots the tender bases of young ragi sprouts right at the soil line. It turns the stem brown and soft, causing the tiny seedlings to collapse sideways and die in patches.",
+      "what_to_do_now": [
+        "Stop flooding your nursery bed; let the topsoil surface dry out in the sun.",
+        "Drench the soil along the rows with a recommended protective chemical spray or Trichoderma solution.",
+        "Always make nursery beds raised higher than the surrounding soil so water flows away easily."
+      ],
+      "what_not_to_do": [
+        "Do not sow seeds too close together; thick, crowded beds trap wet air that fuels the fungus.",
+        "Do not apply fresh, un-rotted animal manure into your nursery soil layers.",
+        "Do not water your nursery beds late in the evening."
+      ],
+      "when_to_call_expert": [
+        "If whole patches of your nursery are melting down and dying within a couple of days, putting your planting supply at risk."
+      ],
+      "risk_warning": "If seed treatments are skipped and nurseries are kept flooded, this disease can destroy your nursery within days, leaving you with zero seedlings to transplant into your main fields."
+    },
+    "model_support": {
+      "classification_labels": ["ragi_seedling_blight_footrot", "ragi_healthy_seedlings", "ragi_cutworm_damage"],
+      "segmentation_labels": ["sunken_footrot_lesion", "collapsed_seedling_stem", "healthy_green_sprout"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Seedlings show clean, sharp horizontal scissor-like cuts with zero brown rot, which points to a severe cutworm bug attack"],
+      "image_quality_requirements": ["Requires macro photos focused sharply right at the soil line level to inspect the condition of the seedling foot"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RAGI-SB-CH-03",
+        "chunk_type": "Pathology",
+        "title": "Bipolaris nodulosa Nursery Damping-off Mechanics",
+        "content": "Seedling blight in finger millet is primarily triggered by seedborne Bipolaris nodulosa (Helminthosporium nodulosum). Pathogen activation occurs during seed hydration, colonizing hypocotyl tissues and inducing enzymatic breakdown of cell walls at the soil interface, leading to typical seedling lodging and mortality.",
+        "keywords": ["Bipolaris nodulosa", "seedborne", "hypocotyl", "damping-off", "soil interface"],
+        "language": "English",
+        "target_user": "Nursery Specialist / Extension Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Village / Sub-District",
+      "risk_radius": "8 km",
+      "report_count_threshold": "6 nursery mortality complaints within a week",
+      "outbreak_alert_message": "Seedling Blight Notification: Wet, humid nursery beds are experiencing Bipolaris foot rot outbreaks. Implement immediate drying and drenching.",
+      "nearby_farm_advice": ["Keep nursery water gates closed during heavy morning rains.", "Incorporate curative drench loops across infected bed borders."]
+    },
+    "source_metadata": {
+      "source_title": "Nursery Management and Diseases of Millets",
+      "source_url": "https://www.uasbangalore.edu.in/ragi-nursery-guidelines",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "University of Agricultural Sciences, Bangalore (UASB)",
+      "published_year": "2022",
+      "region": "South India",
+      "language": "English",
+      "last_verified": "2026-05-02",
+      "trust_level": "High",
+      "notes": "Practical guidelines focused heavily on small millet seed health and nursery raised-bed geometry standards."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:30:00Z",
+      "updated_at": "2026-06-01T21:00:00Z",
+      "reviewed_by": "UASB Plant Pathology Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "RAGI-SMU-004",
+    "crop": {
+      "common_name": "Finger Millet",
+      "english_name": "Finger Millet / Ragi",
+      "scientific_name": "Eleusine coracana",
+      "local_names": ["Ragi", "Mandua", "Nachni", "Keppai"],
+      "crop_category": "Cereal / Small Millet"
+    },
+    "disease": {
+      "name": "Ragi Smut",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Melanopsichium eleusinis"],
+      "affected_parts": ["Grains in the Ear head"],
+      "disease_stage": "Grain Formation / Milking stage"
+    },
+    "symptoms": {
+      "early_stage": ["Isolated individual grain ovaries within the ragi finger turn slightly enlarged, soft, and pale green"],
+      "middle_stage": ["Infected grains swell into large, prominent, round or oval green galls (2-5 mm in diameter)", "The galls are enveloped by a tough greyish-white membrane mask"],
+      "severe_stage": ["The outer protective membrane ruptures, exposing a dense, dry, black soot-like powder composed of millions of fungal spores", "Multiple grain positions on a single finger are destroyed, completely replacing food starch with black smut dust"],
+      "visible_signs": ["Large swollen black balls or soot pouches breaking open out of ragi finger structures"],
+      "farmer_reported_signs": ["A few seeds on the ragi fingers are growing into giant fat black balls", "When I touch the ragi head, a dirty black charcoal powder bursts out onto my fingers"]
+    },
+    "visual_identification": {
+      "color_changes": ["Grains turn from normal reddish-brown into bright green galls, then rupture into a charcoal-black powdery mass"],
+      "spot_or_patch_shape": "Spherical or pimple-like swollen galls breaking out from individual flower slots",
+      "pattern": "Scattered, non-systemic infection; only a few random grains on an ear head turn into smut galls while others stay healthy",
+      "location_on_plant": "Restricted strictly to the grain ovaries inside the mature finger heads",
+      "starts_from": "Individual flower sites during peak pollination intervals",
+      "progression": "The smut gall expands during grain filling and bursts open completely during harvest threshing operations",
+      "image_clues": ["Ragi finger showing a few swollen, dark black soot pouches mixed with healthy brown seeds", "Ruptured gray gall leaking fine black powder"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Ragi Grain Mold",
+        "difference": "Grain mold produces a superficial furry pink, gray, or black mold layer over the outside surface of normal-sized grains, completely lacking the distinct internal swelling and rupture of giant soot galls.",
+        "confusion_risk": "Medium during late rainy harvests."
+      },
+      {
+        "name": "False Smut of Rice / Millets",
+        "difference": "False smut creates velvety orange-yellow balls that turn dark green later, rather than the true charcoal-black soot powder wrapped in a silvery-white membrane seen in ragi smut.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["High relative humidity and frequent drizzling rain during the flowering and pollination window", "Cloudy, warm afternoons during ear head emergence"],
+      "temperature_range": "25°C - 30°C (77°F - 86°F)",
+      "humidity_level": "Relative humidity above 85% during peak anthesis (flowering)",
+      "season": "Late rainy season (Kharif) when flowering matches monsoon exit rains",
+      "soil_conditions": ["Fields where smut-infected millets were grown repeatedly without deep soil overturning"],
+      "field_conditions": ["Crops that flower unevenly over a prolonged period", "Lack of wind movement inside dense valleys"],
+      "irrigation_conditions": ["Overhead sprinkler watering applied during peak daily flowering hours"]
+    },
+    "spread": {
+      "spread_by": ["Windborne airborne sporidia landing directly on open flowers", "Threshing equipment distributing spores into soil layers"],
+      "source_of_infection": ["Soilborne teliospores from previous smutted harvests", "Contaminated seed coats"],
+      "survival_method": "Teliospores survive for over a year in the field soil or attached to seed coats, germinating when conditions favor to produce infective wind-borne sporidia",
+      "spread_speed": "Slow and localized across fields, but expands across storage lots during rough harvesting",
+      "nearby_crop_risk": "Low to moderate for neighboring healthy fields"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Only 1 or 2 small smut galls present on rare ear heads across the field plot (less than 1%).",
+        "field_indicator": "Rare black powder galls noticed while walking through rows.",
+        "recommended_action": "Carefully cut off infected heads into plastic bags to prevent spore leakage, then burn them away from the field."
+      },
+      {
+        "level": "Medium",
+        "description": "1% to 5% of ear heads show multiple distinct black smut galls replacing grain slots.",
+        "field_indicator": "Black soot balls clearly visible on multiple ragi heads across rows.",
+        "recommended_action": "Mark healthy blocks for seed collection. Avoid using mechanical threshers on infected sections to limit soil contamination."
+      },
+      {
+        "level": "High",
+        "description": "More than 5% of ear heads are heavily contaminated with ruptured smut galls; grain quality is downgraded.",
+        "field_indicator": "Heavy charcoal dusting over ragi fingers; major portion of food grains replaced by soot.",
+        "recommended_action": "Harvest and process contaminated blocks separately. Enforce strict seed dressing and deep crop rotation for the next cycle."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Never save seed from fields that showed visible black smut galls", "Treat seeds with systemic fungicides like Carboxin or Carbendazim before sowing"],
+      "field_management": ["Practice synchronized sowing across the village block so flowering finishes within a short window", "Maintain clean borders"],
+      "irrigation_management": ["Avoid running overhead sprinkler lines while ragi fingers are actively flowering"],
+      "soil_management": ["Execute deep inversion plowing post-harvest to bury dropped teliospores deep into anaerobic soil zones"],
+      "crop_rotation": ["Rotate with non-cereal crops like groundnut, sunflower, or pulses for at least 2 seasons"],
+      "sanitation": ["Collect and destroy active smut galls *before* their protective membranes break open", "Clean threshing yard floors"],
+      "monitoring": ["Carefully inspect emerging ragi fingers during early grain milking stages, looking for abnormal green grain swellings"]
+    },
+    "management": {
+      "immediate_action": ["Manually collect and destroy individual smutted heads using bags to catch loose soot powder", "Segregate clean grain fields from dirty field blocks"],
+      "cultural_control": ["Thoroughly clean and wash all harvesting and threshing machinery before moving between farms"],
+      "organic_control": ["Apply a preventative foliar spray of fresh cow urine formulation or fermented neem extract at early ear head emergence"],
+      "biological_control": ["Limited field data; seed treatment with Trichoderma species helps minimize initial seedborne spore loads"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Systemic Fungicide",
+          "dose": "2.0 g/kg seed treatment or 1.0 g/Id spray at ear head stage",
+          "application_method": "Foliar spray applied uniformly over emerging ragi ear heads at the onset of flowering",
+          "spray_interval": "Single well-timed spray at 50% flowering is usually sufficient to block spore entry",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "A systemic barrier. Spraying *after* black galls have already ruptured provides zero curative benefit."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Ragi smut is a flower fungus disease that transforms individual growing grains into giant, swollen balls filled with a dirty, black charcoal-like powder. It directly destroys your food grain, turning it into useless black soot.",
+      "what_to_do_now": [
+        "If you see a few black soot balls forming, slip a plastic bag over the head, cut it off, and burn it safely.",
+        "Do not mix clean ragi heads with smutted heads during threshing, or the black powder will ruin your whole harvest.",
+        "Plow your field deeply after harvest to bury loose black spores deep in the ground."
+      ],
+      "what_not_to_do": [
+        "Never save seeds for next year from a ragi field that had black soot galls.",
+        "Do not use sticks to beat or thresh smutted ragi heads in open wind corridors.",
+        "Do not ignore early green swollen grains on the fingers."
+      ],
+      "when_to_call_expert": [
+        "If you notice a large number of ragi heads bursting with black soot powder across your fields during harvest."
+      ],
+      "risk_warning": "While it doesn't kill the whole plant, smut directly replaces your food seeds with black fungal dust, reducing your grain quality and market price."
+    },
+    "model_support": {
+      "classification_labels": ["ragi_smut_galls", "ragi_healthy_ears", "ragi_grain_mold"],
+      "segmentation_labels": ["smut_soot_gall", "ruptured_silvery_membrane", "healthy_grain_finger"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["The black powder covers the entire stem structure rather than being localized inside individual grain positions"],
+      "image_quality_requirements": ["Clear close-up macro shots showing the distinct white-gray membrane holding the black soot ball inside the ragi finger"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RAGI-SMU-CH-04",
+        "chunk_type": "Pathology",
+        "title": "Melanopsichium eleusinis Anthesis Infection Pathway",
+        "content": "Ragi smut is caused by Melanopsichium eleusinis. The fungus targets open floral ovaries during anthesis. Airborne sporidia germinate on stigma structures, penetrating the ovary wall and redirecting plant starch compounds to build localized fungal chlamydosporic galls bounded by host membranes.",
+        "keywords": ["Melanopsichium eleusinis", "anthesis", "sporidia", "ovary wall", "chlamydosporic gall"],
+        "language": "English",
+        "target_user": "Millet Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 high-soot threshing complaints reported",
+      "outbreak_alert_message": "Smut Notification: Drizzling rains during ragi anthesis have triggered localized Melanopsichium galling. Practice selective harvesting.",
+      "nearby_farm_advice": ["Inspect fields for charcoal galls before mechanical harvesting.", "Treat all saved grain lots with protective fungicides."]
+    },
+    "source_metadata": {
+      "source_title": "Handbook on Indian Smuts and Bunts",
+      "source_url": "https://www.icar.org.in/smut-disease-manual",
+      "source_type": "Research Monograph",
+      "author_or_organization": "ICAR - Indian Agricultural Research Institute (IARI)",
+      "published_year": "2018",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-04-10",
+      "trust_level": "High",
+      "notes": "Premium diagnostic index for identifying floral smut pathways across dryland crops."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:45:00Z",
+      "updated_at": "2026-06-01T21:15:00Z",
+      "reviewed_by": "IARI Plant Pathology Directorate",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "RAGI-WIL-005",
+    "crop": {
+      "common_name": "Finger Millet",
+      "english_name": "Finger Millet / Ragi",
+      "scientific_name": "Eleusine coracana",
+      "local_names": ["Ragi", "Mandua", "Nachni", "Keppai"],
+      "crop_category": "Cereal / Small Millet"
+    },
+    "disease": {
+      "name": "Fusarium Wilt / Sclerotium Wilt",
+      "category": "Fungal (Soilborne)",
+      "pathogen_or_cause": ["Fusarium oxysporum", "Sclerotium rolfsii"],
+      "affected_parts": ["Roots", "Lower Stem Base", "Vascular Bundles"],
+      "disease_stage": "Tillering to Grain-heading stage"
+    },
+    "symptoms": {
+      "early_stage": ["Lower leaves show premature yellowing and losing turgidity (drooping look) during hot afternoons", "Slight stunted growth in localized field patches"],
+      "middle_stage": ["Leaves turn dull yellow-brown, dry out from margins inward, and wither systemically upwards", "Splitting the lower stem reveals dark brown or reddish streaks inside the water channels (vascular discoloration)"],
+      "severe_stage": ["Complete drying and death of the entire plant hill (wilt collapse)", "If Sclerotium is involved, a thick white fan of cottony mold and tiny mustard-seed-like brown beads (sclerotia) cluster right around the soil line base"],
+      "visible_signs": ["Internal browning of the stem core when cut open vertically; plant dries up completely while root system is brittle"],
+      "farmer_reported_signs": ["Healthy ragi clumps are suddenly drying up and dying in patches across the field", "The base of the dead stems has a white mold layer with small brown mustard-like seeds stuck to it"]
+    },
+    "visual_identification": {
+      "color_changes": ["Leaves fade from green to yellow, then dry to a straw-brown color; internal stem wood turns dark reddish-brown"],
+      "spot_or_patch_shape": "No distinct leaf spots; broad systemic wilting expanding in circular field patches",
+      "pattern": "Progressive drying from bottom leaves to the top head, leading to full clump desiccation",
+      "location_on_plant": "Starts hidden in the root system and stem base, then manifests across the entire canopy",
+      "starts_from": "The root tissue underground following fungal invasion",
+      "progression": "The fungus clogs internal water pipelines, causing fast dehydration and death of all tillers on the hill",
+      "image_clues": ["Completely brown, dried-up ragi plant standing next to healthy green rows", "Internal brown vascular lines visible inside a sliced ragi stem base"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Severe Drought Stunting",
+        "difference": "Drought dries out the entire field uniformly, starting from the sandy zones, and completely lacks internal reddish-brown stem discoloration or white fungal base beads when split open.",
+        "confusion_risk": "High during hot, dry summer spells.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Ragi Stem Borer Insect Attack",
+        "difference": "Stem borers tunnel through the center of the stalk, leaving hollow spaces filled with insect frass and a dry central shoot ('dead heart') that pulls out easily, rather than uniform internal wood discoloration.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Hot, sunny dry periods following heavy rainfall or excess irrigation cycles"],
+      "temperature_range": "26°C - 32°C (79°F - 90°F)",
+      "humidity_level": "High moisture at the soil level followed by high air temperatures that accelerate evaporation stress",
+      "season": "Late Kharif or intensive summer irrigated cropping tracks",
+      "soil_conditions": ["Acidic, light sandy soils or soils continuously cropped with millets without break cycles"],
+      "field_conditions": ["Presence of high soilborne fungal structures; poor root aeration", "Root wounding caused by rough weeding tools"],
+      "irrigation_conditions": ["Irregular water schedules; allowing fields to dry completely then flooding heavily"]
+    },
+    "spread": {
+      "spread_by": ["Soilborne fungal structures carried by moving irrigation water lines", "Contaminated soil stuck to tractor tires or weeding tools"],
+      "source_of_infection": ["Infested farm soils", "Infected crop root stumps left unplowed", "Contaminated organic manure blends"],
+      "survival_method": "Survives for many years in the soil as thick-walled chlamydospores (Fusarium) or hard sclerotial beads (Sclerotium) that resist weather extremes",
+      "spread_speed": "Slow, moving step-by-step across field patches year after year",
+      "nearby_crop_risk": "High for adjacent susceptible small millet or pulse crops sharing the soil line"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few rare, scattered plants show afternoon wilting or lower leaf yellowing (less than 2% of field).",
+        "field_indicator": "Isolated yellowing or dried ragi clumps noticed across rows.",
+        "recommended_action": "Drench around infected lines with organic bio-agents. Avoid mechanical weeding near wilt zones to prevent root wounds."
+      },
+      {
+        "level": "Medium",
+        "description": "2% to 8% of ragi clumps have dried up completely in distinct circular field patches.",
+        "field_indicator": "Clear dead brown patches visible across rows; neighboring plants look pale.",
+        "recommended_action": "Apply targeted soil-drench fungicides around patch borders to block outward fungus expansion. Regulate irrigation."
+      },
+      {
+        "level": "High / Critical",
+        "description": "More than 8% of the crop canopy is completely wilted, dead, or showing white mold beads at the base.",
+        "field_indicator": "Large dead bare patches across field layout; heavy reduction in total grain yield.",
+        "recommended_action": "Uproot and burn dead patches post-harvest. Implement strict soil solarization and multi-year crop rotation schedules."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Treat ragi seeds with Trichoderma formulations or systematic fungicides before sowing"],
+      "field_management": ["Avoid injuring plant roots during mechanical weeding operations", "Maintain optimal soil drainage"],
+      "irrigation_management": ["Maintain uniform soil moisture; avoid extreme drying followed by heavy flooding cycles"],
+      "soil_management": ["Apply generous amounts of well-composted farmyard manure enriched with Trichoderma bio-agents"],
+      "crop_rotation": ["Enforce a strict 2-to-3-year crop rotation out of millets and solanaceous crops using non-hosts like Marigold or Legumes"],
+      "sanitation": ["Uproot completely and burn dead wilted clumps including their root structures to prevent spore build-up in the soil"],
+      "monitoring": ["Scout fields bi-weekly from tillering onwards, checking patches that show early leaf drooping on hot afternoons"]
+    },
+    "management": {
+      "immediate_action": ["Split an affected stem base vertically to check for internal brown lines and confirm fungal wilt", "Isolate infected patch water channels"],
+      "cultural_control": ["Incorporate high amounts of neem cake into the field soil lines around infected patches to suppress fungal growth"],
+      "organic_control": ["Soil drench with Trichoderma harzianum or Pseudomonas fluorescens liquid formulations (10 g/Id of water) around patch margins"],
+      "biological_control": ["Incorporate massive loads of Trichoderma-enriched compost into field beds during early land breakdown stages"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Systemic Fungicide (Soil Drench)",
+          "dose": "1.0 g/Id of water for spot drenching at the plant base",
+          "application_method": "Targeted drenching directed at the soil and stem base of plants surrounding the wilted field patches",
+          "spray_interval": "Repeat once after 10 days along infection patch borders",
+          "pre_harvest_interval": "28 days",
+          "safety_note": "Foliar canopy spraying is ineffective for soilborne vascular wilt. Must reach the root zone. Wear protective boots."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Fusarium/Sclerotium wilt is a destructive soil fungus disease that enters ragi roots and completely clogs up the plant's internal water pipelines. This starves the tillers of water, causing the whole plant to dry up and die in patches across your field.",
+      "what_to_do_now": [
+        "Pull up dead, dried ragi clumps entirely with their roots and burn them away from your farm plots.",
+        "Drench the soil around the edges of the dead patches with a recommended bio-agent or chemical spray to stop the fungus from crawling into healthy rows.",
+        "Mix helpful Trichoderma powder into your organic manure before spreading it on your fields."
+      ],
+      "what_not_to_do": [
+        "Do not run irrigation water straight through a dead wilt patch into healthy sections of your field.",
+        "Do not use sharp weeding tools roughly near the ragi stems, as root wounds act as open doors for the fungus.",
+        "Do not plant ragi in the exact same spot next year if it suffered from patch drying this season."
+      ],
+      "when_to_call_expert": [
+        "If you see multiple large circular patches of ragi drying up and dying rapidly across your fields despite keeping the soil moist."
+      ],
+      "risk_warning": "Because this fungus survives inside the soil for years, ignoring wilt patches will permanently ruin your land's health for millet cultivation, causing higher losses each season."
+    },
+    "model_support": {
+      "classification_labels": ["ragi_fungal_wilt_collapse", "ragi_healthy", "ragi_drought_drying"],
+      "segmentation_labels": ["vascular_browning_stem", "white_base_sclerotia", "wilted_straw_canopy"],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": ["The drying is uniform across the entire local sub-district, which points to a regional drought water crisis rather than fungal patch wilt"],
+      "image_quality_requirements": ["Requires sharp focus on the cross-section of a split stem base showing internal brown vascular lines, or close-ups of white base mold beads"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RAGI-WIL-CH-05",
+        "chunk_type": "Pathology",
+        "title": "Fusarium oxysporum Vascular Occlusion Mechanics",
+        "content": "Fungal wilt in finger millet is caused by soilborne Fusarium oxysporum. Microconidia enter via root wounds or root hair zones, colonizing the xylem pipelines. The production of mycelial mats and gel plugs occludes the vascular system, inducing systemic water stress and eventual patch desiccation.",
+        "keywords": ["Fusarium oxysporum", "soilborne", "xylem pipelines", "vascular occlusion", "chlamydospores"],
+        "language": "English",
+        "target_user": "Agronomist / Soil Health Consultant"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Village / Block level",
+      "risk_radius": "10 km",
+      "report_count_threshold": "4 confirmed soilborne wilt hotspots within a week",
+      "outbreak_alert_message": "Vascular Wilt Warning: Rising soil temperatures are accelerating fungal patch wilting in ragi lines. Practice isolated drenching protocols.",
+      "nearby_farm_advice": ["Incorporate neem cake barriers along field rows.", "Avoid cross-contamination via shared cultivation machinery."]
+    },
+    "source_metadata": {
+      "source_title": "Soilborne Diseases of Dryland Millets",
+      "source_url": "https://www.kvk-icar.org.in/millet-wilt-manual",
+      "source_type": "KVK Extension Monograph",
+      "author_or_organization": "ICAR - Krishi Vigyan Kendra Network (KVK)",
+      "published_year": "2020",
+      "region": "Semi-Arid Zones",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Practical manual detailing bio-intensive soil amendment procedures against systemic fungal wilts."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T16:00:00Z",
+      "updated_at": "2026-06-01T21:30:00Z",
+      "reviewed_by": "KVK Plant Protection Expert Board",
+      "status": "Verified"
+    }
+  }
+]

@@ -1,0 +1,851 @@
+[
+  {
+    "id": "chilli_bacterial_spot",
+    "crop": {
+      "common_name": "Chilli",
+      "english_name": "Chilli / Pepper / Hot Pepper",
+      "scientific_name": "Capsicum annuum",
+      "local_names": ["Mirch", "Lal Mirch", "Kanthari", "Milagai", "Pacha Mirapakaya"],
+      "crop_category": "Spices / Vegetables"
+    },
+    "disease": {
+      "name": "Bacterial Spot",
+      "category": "Bacterial",
+      "pathogen_or_cause": ["Xanthomonas campestris pv. vesicatoria", "Xanthomonas euvesicatoria"],
+      "affected_parts": ["Leaves", "Stems", "Fruits", "Pedicels"],
+      "disease_stage": "Vegetative to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, water-soaked, greasy, circular spots on the lower leaf surface.", "Spots are initially light-green to yellow."],
+      "middle_stage": ["Spots turn dark brown to black and develop a slightly raised, rough, or warty appearance on the lower leaf surface.", "Corresponding spots on the upper leaf surface are slightly sunken with a narrow yellow halo."],
+      "severe_stage": ["Numerous spots coalesce, causing leaves to turn yellow, wither, and drop prematurely (severe defoliation).", "On fruits, spots start as small green blisters, which enlarge, turn brown, and become raised, rough, scabby, or cracked.", "Stems develop elongated, raised, corky-looking brown cankers."],
+      "visible_signs": ["Rough, warty, or corky brown lesions on stems and pods.", "Water-soaked greasy circular spots on leaf undersides.", "Sunken dark spots with a yellow ring on upper leaf surfaces."],
+      "farmer_reported_signs": ["Greasy-looking wet spots under chilli leaves", "Rough, scabby black spots on chilli pods", "Chilli leaves turning yellow and falling off rapidly after rain"]
+    },
+    "visual_identification": {
+      "color_changes": ["Water-soaked green", "Dark brown to black", "Corky-brown spots", "Yellow chlorotic halo"],
+      "spot_or_patch_shape": "Small, circular to irregular rough, warty lesions",
+      "pattern": "Scattered greasy spots on leaves; raised scabby blisters on fruits",
+      "location_on_plant": "All aerial parts, beginning on lower leaves and progressing to stems and fruits",
+      "starts_from": "Lower leaf undersides close to soil",
+      "progression": "Lower leaves -> Upper leaves -> Stem cankers -> Fruit blisters/scabs",
+      "image_clues": ["Look for small, rough, raised scabs resembling warts on the green or red chilli fruit", "Look for wet-looking greasy dots on the bottom side of leaf blades"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cercospora Leaf Spot",
+        "difference": "Cercospora spots are larger, circular, and have paper-white or ash-grey centers with dark brown borders, unlike the small, uniform, rough, greasy black spots of Bacterial Spot.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Anthracnose Fruit Rot",
+        "difference": "Anthracnose causes large, circular, sunken, water-soaked concentric lesions specifically on fruits, which may ooze pink/orange spores, unlike the dry, raised, scabby warts of Bacterial Spot.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, wet, and highly humid weather", "Frequent heavy rainstorms accompanied by strong winds which wound plants"],
+      "temperature_range": "24°C - 32°C",
+      "humidity_level": ">85% RH",
+      "season": "Monsoon / Kharif season",
+      "soil_conditions": ["Wet, poorly drained clay soils"],
+      "field_conditions": ["Dense planting trapping humidity within the canopy", "Presence of alternative solanaceous weeds"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation spreading bacteria via water splashes"]
+    },
+    "spread": {
+      "spread_by": ["Splashing rain or sprinkler irrigation water", "Wind-driven rain", "Contaminated farming tools, footwear, and hands", "Insects feeding on leaves"],
+      "source_of_infection": ["Infected seeds (seed-borne)", "Overwintering bacteria in chilli crop residues", "Alternative solanaceous weeds"],
+      "survival_method": "The bacteria survive on infected seed coats, inside diseased crop debris in the soil for up to 2 years, or on wild solanaceous weeds.",
+      "spread_speed": "Very Fast under warm, wet, stormy conditions",
+      "nearby_crop_risk": "High for other solanaceous crops like tomato, eggplant, or potato nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated greasy spots on bottom leaves of <5% of plants; no fruit scabs.",
+        "field_indicator": "Rare, scattered greasy spots on lower leaves.",
+        "recommended_action": "Avoid entering fields when wet. Rogue out infected seedlings. Spray Copper Hydroxide."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots and yellow halos spreading to middle canopy leaves; early corky lesions on stems.",
+        "field_indicator": "5% to 15% of plants showing leaf spotting and minor leaf drop.",
+        "recommended_action": "Spray Copper Oxychloride + Streptocycline. Control weed hosts. Clean tools."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants showing severe defoliation; pods covered in raised, rough brown scabs.",
+        "field_indicator": "Corky scabs on most pods; bare stems with high leaf drop.",
+        "recommended_action": "Apply Copper Hydroxide + Mancozeb. Harvest mature clean pods early. Rotate fields for 3 years."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always sow certified pathogen-free seeds.", "Treat seeds in hot water at 50°C (122°F) for 25 minutes or soak in 1.0% Calcium Hypochlorite solution before sowing."],
+      "field_management": ["Maintain proper spacing (at least 45x45 cm) to allow ventilation.", "Keep fields completely free of solanaceous weeds."],
+      "irrigation_management": ["Never use overhead sprinklers; use drip or furrow irrigation."],
+      "soil_management": ["Ensure proper drainage; use raised beds in heavy clay soils."],
+      "crop_rotation": ["Rotate chilli with non-solanaceous crops (maize, sorghum, beans) for at least 3 years."],
+      "sanitation": ["Never work in fields when leaves are wet.", "Clean and sanitize tools (with 10% bleach) after working in infected plots.", "Remove and burn crop residues after harvest."],
+      "monitoring": ["Monitor closely twice a week, checking lower leaf surfaces, starting 15 days after transplanting."]
+    },
+    "management": {
+      "immediate_action": ["Stop overhead watering.", "Rogue and destroy infected plants immediately.", "Apply copper bactericides to protect healthy plants."],
+      "cultural_control": ["Destroy weeds.", "Incorporate chilli residues deep into soil to rot.", "Sanitize tools."],
+      "organic_control": ["Foliar spray of Copper Hydroxide @ 1.5 g/L.", "Apply copper-based organic formulations."],
+      "biological_control": ["Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide 50% WP",
+          "product_type": "Contact Protective Bactericide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Helps suppress bacterial spread. Avoid mixing with adjuvants as it can scorch leaves."
+        },
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Antibiotic Bactericide",
+          "dose": "0.1 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Highly effective early on. Check local regulations on agricultural antibiotic use."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial Spot is a highly contagious bacterial disease of chilli. It makes small, greasy-looking wet spots under the leaves and rough, scabby, brown 'warts' on the chilli pods. It spreads in warm, wet weather and causes leaves to turn yellow and drop off rapidly, leaving the plant bare and the pods ruined.",
+      "what_to_do_now": [
+        "Pull out any heavily spotted or scabby plants and burn or bury them.",
+        "Stop watering from above (sprinklers).",
+        "Spray Copper Hydroxide (2g/L) + Streptocycline (0.1g/L) to protect the healthy plants."
+      ],
+      "what_not_to_do": [
+        "Never work in your chilli field when the leaves are wet from dew or rain, as you will carry the bacteria to healthy plants on your clothes and tools.",
+        "Do not plant chilli, tomato, or eggplant in this soil next season if you have bacterial spot."
+      ],
+      "when_to_call_expert": ["Contact an expert if bacterial spot is spreading rapidly to the chilli pods within 2 weeks of expected harvest."],
+      "risk_warning": "Because it is highly contagious, bacterial spot can destroy up to 50% to 100% of your marketable pod harvest during warm, wet monsoon seasons."
+    },
+    "model_support": {
+      "classification_labels": ["chilli_bacterial_spot"],
+      "segmentation_labels": ["peppery_greasy_leaf_spot", "scabby_pod_blister", "corky_stem_canker"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The model confuses physical pod scars or wind rubbing with bacterial spot scabs."],
+      "image_quality_requirements": ["High-resolution photos focusing on the tiny, greasy spots on leaf undersides, or a close-up of the rough brown scabs on the pod surface."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Spot Alert! Warm, wet weather is triggering peppery leaf spot in chilli. Apply preventive copper bactericides.",
+      "nearby_farm_advice": ["Do not work in wet fields", "Disinfect farming tools with bleach", "Apply preventive copper spray"]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Chilli and Their Management",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers seed sanitation and copper-streptocycline guidelines on Capsicum annuum."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T18:00:00Z",
+      "updated_at": "2024-10-27T18:00:00Z",
+      "reviewed_by": "Senior Plant Bacteriologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "chilli_cercospora_leaf_spot",
+    "crop": {
+      "common_name": "Chilli",
+      "english_name": "Chilli / Pepper / Hot Pepper",
+      "scientific_name": "Capsicum annuum",
+      "local_names": ["Mirch", "Lal Mirch", "Kanthari", "Milagai", "Pacha Mirapakaya"],
+      "crop_category": "Spices / Vegetables"
+    },
+    "disease": {
+      "name": "Cercospora Leaf Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Cercospora capsici"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Fruit stalks"],
+      "disease_stage": "Vegetative to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, water-soaked, chlorotic (yellowish) circular spots on the leaves."],
+      "middle_stage": ["Spots enlarge up to 1-1.5 cm in diameter; the centers turn light-grey to ash-white, surrounded by a distinct dark brown or reddish-brown margin.", "A prominent yellow chlorotic halo surrounds the dark border, giving the spot a classic 'frog-eye' appearance."],
+      "severe_stage": ["The thin, brittle, dry white centers crack and fall out, leaving ragged 'shot holes'.", "Heavily infected leaves turn completely yellow and drop off prematurely (severe defoliation).", "Loss of foliage exposes chilli fruits directly to sunlight, causing severe sunscald.", "Elongated, dark brown lesions with pale white centers develop on petioles and stems."],
+      "visible_signs": ["Classic 'frog-eye' spots (ash-grey center, dark brown rim, yellow halo) on leaves.", "Clean-cut shot-holes in leaf blades.", "Elongated white-centered spots on stems and leaf stalks."],
+      "farmer_reported_signs": ["Circular grey leaf spots with brown borders and yellow rings", "Dry holes in chilli leaves", "Leaves turning yellow and dropping, causing chilli pods to burn in the sun"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light grey or ash-white center", "Dark brown or reddish-brown margin", "Chlorotic yellow halo"],
+      "spot_or_patch_shape": "Circular to oval spots ('frog-eye' pattern)",
+      "pattern": "Scattered circular spots that dry out and leave shot-holes",
+      "location_on_plant": "Mainly on foliage; also on petioles, stems, and fruit stalks",
+      "starts_from": "Older, lower leaves and progresses upward",
+      "progression": "Lower leaves -> Mid canopy leaves -> Petioles and stems -> Heavy defoliation -> Pod sunscald",
+      "image_clues": ["Look for a circular spot on a chilli leaf with a paper-white center, surrounded by a reddish-brown ring and a bright yellow outer circle"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "White spot (Stemphylium)",
+        "difference": "White spot (Stemphylium) lesions are smaller, more angular, and have cleaner paper-white centers that tear easily without the prominent reddish-brown margins or thick 'frog-eye' circles.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Spot",
+        "difference": "Bacterial spot produces much smaller, greasy, rough, warty black spots under leaves, rather than large circular grey-white frog-eye spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, wet, and highly humid weather", "Frequent rain showers or heavy morning dews"],
+      "temperature_range": "20°C - 30°C",
+      "humidity_level": ">80% RH",
+      "season": "Rainy / Kharif season",
+      "soil_conditions": ["Wet, poorly drained soils"],
+      "field_conditions": ["Crowded plant spacing restricting airflow", "Presence of alternative solanaceous weeds"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation leaving foliage wet for hours"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne spores (conidia)", "Rain splashes or splashing irrigation water"],
+      "source_of_infection": ["Infected seeds (seed-borne)", "Overwintering fungal structures in crop residues", "Alternative solanaceous weeds"],
+      "survival_method": "The fungus survives as dormant mycelium or spores on infected seed coats and inside diseased crop debris in the soil.",
+      "spread_speed": "Moderate to Fast during continuous rain and warm days",
+      "nearby_crop_risk": "High for other solanaceous crops like eggplant or tomato nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated 'frog-eye' spots on bottom leaves; no shot-holes or defoliation.",
+        "field_indicator": "<10% leaf area affected on lower foliage.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic sprays like Neem Oil @ 3% or Trichoderma harzianum."
+      },
+      {
+        "level": "Medium",
+        "description": "Frog-eye spots starting to form shot-holes on middle leaves; minor leaf yellowing.",
+        "field_indicator": "10% to 25% foliage affected with visible shot-holes.",
+        "recommended_action": "Spray contact protective fungicides like Mancozeb or Chlorothalonil."
+      },
+      {
+        "level": "High",
+        "description": "Massive shot-holes on most leaves; severe leaf yellowing and defoliation; pods showing sunscald.",
+        "field_indicator": ">25% foliage affected with heavy defoliation; bare canopy exposing pods.",
+        "recommended_action": "Spray curative systemic mixtures like Carbendazim + Mancozeb or Azoxystrobin + Tebuconazole immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always use certified disease-free seeds.", "Treat seeds with Thiram or Captan @ 2g/kg of seed before sowing."],
+      "field_management": ["Maintain proper plant spacing (at least 45x45 cm) to allow ventilation.", "Keep fields completely free of weeds."],
+      "irrigation_management": ["Avoid overhead sprinkler irrigation.", "Use drip or furrow irrigation; water early in the morning."],
+      "soil_management": ["Ensure proper drainage.", "Apply balanced NPK; avoid excessive nitrogen."],
+      "crop_rotation": ["Rotate chilli with cereals, maize, or legumes for 2 years."],
+      "sanitation": ["Regularly remove and destroy infected lower leaves.", "Collect and burn crop debris after harvesting."],
+      "monitoring": ["Monitor weekly during wet, warm seasons, checking the lower leaves closely."]
+    },
+    "management": {
+      "immediate_action": ["Pluck and destroy infected lower leaves.", "Ensure proper soil drainage.", "Spray a broad-spectrum protective fungicide."],
+      "cultural_control": ["Destroy weed hosts.", "Manually prune old leaves to improve air flow."],
+      "organic_control": ["Foliar spray of Neem Seed Kernel Extract (NSKE) 5%.", "Foliar spray of garlic-chili extract."],
+      "biological_control": ["Soil application and foliar spray of Trichoderma harzianum or Pseudomonas fluorescens @ 10 g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g to 2.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Apply preventatively or at the first sign of symptoms."
+        },
+        {
+          "active_ingredient": "Azoxystrobin 11% + Tebuconazole 18.3% SC",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Provides excellent curative and systemic protection for leaves and stems."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Cercospora leaf spot is a fungal disease that makes 'frog-eye' spots on chilli leaves. These spots have dry grey-white paper-like centers with dark brown borders and yellow rings. The centers can fall out, leaving dry holes. This causes the leaves to turn yellow and drop off, exposing the chillies to hot sunlight which burns and ruins them.",
+      "what_to_do_now": [
+        "Pick off and burn the spotted lower leaves.",
+        "Avoid watering the plants from above (use drip or basin irrigation).",
+        "Spray Mancozeb (2g/L) or Azoxystrobin + Tebuconazole (1mL/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave old crop waste or fallen leaves in the field.",
+        "Do not plant chillies too close to each other."
+      ],
+      "when_to_call_expert": ["Contact an expert if leaves are falling rapidly and chilli pods are burning in the sun despite spraying."],
+      "risk_warning": "Severe Cercospora leaf spot can cause early leaf drop, exposing fruits to severe sunscald and reducing your yield of good chillies by 30% to 50%."
+    },
+    "model_support": {
+      "classification_labels": ["chilli_cercospora_leaf_spot"],
+      "segmentation_labels": ["frog_eye_spot", "leaf_shot_hole", "fruit_sunscald_lesion"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The spots are confused with Stemphylium white spot, which requires a slightly different chemical management plan."],
+      "image_quality_requirements": ["High-contrast images showing clear details of the frog-eye spot (grey center, dark rim, yellow halo) on the leaf blade."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Cercospora Leaf Spot alert: Warm, humid monsoon days are triggering frog-eye leaf spot in chilli. Apply preventive contact fungicides.",
+      "nearby_farm_advice": ["Avoid overhead irrigation", "Remove bottom-most yellow leaves", "Apply preventive Mancozeb spray"]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Chilli: Cercospora Leaf Spot",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Good description of frog-eye spot symptoms and sunscald correlation on Capsicum annuum."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T18:15:00Z",
+      "updated_at": "2024-10-27T18:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "chilli_leaf_curl_virus",
+    "crop": {
+      "common_name": "Chilli",
+      "english_name": "Chilli / Pepper / Hot Pepper",
+      "scientific_name": "Capsicum annuum",
+      "local_names": ["Mirch", "Lal Mirch", "Kanthari", "Milagai", "Pacha Mirapakaya"],
+      "crop_category": "Spices / Vegetables"
+    },
+    "disease": {
+      "name": "Curl Virus",
+      "category": "Viral",
+      "pathogen_or_cause": ["Chilli Leaf Curl Begomovirus (ChiLCV)"],
+      "affected_parts": ["Leaves", "Stems", "Flowers", "Fruits"],
+      "disease_stage": "All growth stages (Seedling to Harvesting)"
+    },
+    "symptoms": {
+      "early_stage": ["Mild vein clearing and upward curling of young terminal leaves."],
+      "middle_stage": ["Severe upward curling, puckering, crinkling, and rolling of leaves.", "Leaves become smaller than normal, thick, and leathery.", "Leaf veins turn thick and light-green."],
+      "severe_stage": ["Extreme stunting of the plant with short internodes, making it look dense, bushy, or rosette-like.", "Flowers are deformed, sterile, and drop off prematurely.", "Chilli pods are extremely small, pale green, distorted, twisted, containing few or no seeds, and are completely unmarketable."],
+      "visible_signs": ["Upward curled, puckered, thick, small leaves.", "Bushy or rosette plant appearance with zero or deformed pods.", "Tiny, white-winged insects (whiteflies) clustering under the leaves."],
+      "farmer_reported_signs": ["Chilli leaves curling upwards like a cup", "Stunted bushy chilli plants looking like a small cabbage", "Very small, twisted, pale chillies", "Tiny white flies under the leaves"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light green thickened veins", "Pale green distorted pods", "Dark green puckered leaves"],
+      "spot_or_patch_shape": "None (leaf crinkling, curling, and distortion)",
+      "pattern": "Upward curling and cupping of the entire leaf foliage",
+      "location_on_plant": "Terminal young leaves first, rapidly affecting the entire canopy",
+      "starts_from": "Terminal buds and young emerging leaves",
+      "progression": "Young leaves curl -> Veins thicken -> Internodes shorten, plant stunts -> Sterile flowers -> Small twisted pods",
+      "image_clues": ["Look for upward-cupped leaves with prominent veins", "Look for tiny white flies clustered on the undersides of leaves"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Thrip or Mite Damage",
+        "difference": "Thrips cause leaf margins to curl upward with a silvery/brown metallic sheen on the underside. Mites cause leaves to curl downward, looking dark green and rough. Neither mites nor thrips cause true vein thickening.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Herbicide Injury",
+        "difference": "Herbicide drift causes leaves to twist, cup, and narrow, but does not cause vein thickening or attract whitefly colonies.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry and hot weather which favors whitefly vector multiplication and migration", "Lack of rainfall"],
+      "temperature_range": "28°C - 38°C",
+      "humidity_level": "<65% RH",
+      "season": "Summer and Spring seasons",
+      "soil_conditions": ["Dry, stressed soils"],
+      "field_conditions": ["Presence of alternative host weeds in field boundaries", "Chilli crops planted next to tomatoes or cotton"],
+      "irrigation_conditions": ["Under-irrigation causing plant stress and dry field conditions attractive to whiteflies"]
+    },
+    "spread": {
+      "spread_by": ["Whitefly (Bemisia tabaci) vector in a persistent, circulative manner"],
+      "source_of_infection": ["Infected weed hosts", "Alternative solanaceous crops (tomato, tobacco, eggplant) and cotton"],
+      "survival_method": "The virus survives in alternative host crops and weed species and is carried over continuously by active whiteflies.",
+      "spread_speed": "Very Fast once whitefly populations explode",
+      "nearby_crop_risk": "High for other solanaceous and cotton crops nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing mild upward curling of young leaves; few whiteflies seen.",
+        "field_indicator": "Isolated plants with slightly curled leaves.",
+        "recommended_action": "Rogue out infected plants immediately. Set up yellow sticky traps. Spray Neem Oil @ 3%."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing clear upward cupping, vein thickening, and stunting; whiteflies active.",
+        "field_indicator": "Patchy distribution of curled, stunted plants.",
+        "recommended_action": "Rogue infected plants. Spray systemic insecticides like Imidacloprid or Diafenthiuron to control whiteflies."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely stunted, with leathery leaves and zero pod setting or distorted pods.",
+        "field_indicator": "Field looks uneven, bushy, and pale, with severely reduced yield.",
+        "recommended_action": "Spray Spiromesifen or Thiamethoxam. Strongly consider uprooting highly infected blocks."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Grow curl virus-resistant/tolerant chilli varieties.", "Treat seeds with Thiamethoxam 75 WG @ 3-5 g/kg of seed to protect seedlings."],
+      "field_management": ["Install yellow sticky traps @ 10-15 per acre at canopy level to monitor and trap whiteflies.", "Maintain clean, weed-free boundaries."],
+      "irrigation_management": ["Keep soil moisture optimum to avoid stressing plants, which makes them susceptible."],
+      "soil_management": ["Apply balanced nutrients to encourage strong natural plant defenses."],
+      "crop_rotation": ["Do not plant chilli near tomato, tobacco, cotton, or eggplant fields.", "Rotate with non-host cereals or beans."],
+      "sanitation": ["Regularly rogue out infected plants in the early stages, bag them, and burn them outside the field.", "Eradicate weed hosts in and around the field."],
+      "monitoring": ["Scout the field twice a week, checking young leaves for curl patterns and leaf undersides for whitefly activity."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected yellow plants.", "Hang yellow sticky traps.", "Apply a systemic insecticide foliar spray immediately."],
+      "cultural_control": ["Plant 3-4 rows of barrier crops (maize, sorghum, or millet) around the chilli field to block migrating whiteflies.", "Destroy and bury weed hosts."],
+      "organic_control": ["Foliar spray of Neem Oil @ 3% (30 mL/L) at 20 and 45 days after transplanting.", "Spray Neem Seed Kernel Extract (NSKE) 5%."],
+      "biological_control": ["Apply Pseudomonas fluorescens or Bacillus subtilis as soil drench and foliar spray to improve plant defense."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Target whiteflies. Spray in the evening when bees are not active."
+        },
+        {
+          "active_ingredient": "Thiamethoxam 25% WG",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Ensure proper coverage of leaf undersides."
+        },
+        {
+          "active_ingredient": "Spiromesifen 22.9% SC",
+          "product_type": "Insect Growth Regulator / Miticide",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "15 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Highly effective against whitefly nymphs and eggs; provides long-lasting control."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Chilli Leaf Curl is a dangerous virus disease carried and spread by tiny white insects called whiteflies. Once infected, the plants cannot be cured. The leaves curl up like cups, grow thick and hard, and the plant stops growing. Control the whitefly insect to save your crop.",
+      "what_to_do_now": [
+        "Pull out any yellow, curly plants immediately, put them in a plastic bag, and bury or burn them away from the field.",
+        "Hang yellow sticky traps in the field to catch whiteflies.",
+        "Spray Imidacloprid (0.5mL/L) or Spiromesifen (1mL/L) to kill whiteflies under the leaves."
+      ],
+      "what_not_to_do": [
+        "Do not leave infected curly plants in the field, as whiteflies will carry the virus from them to healthy plants.",
+        "Do not let weeds grow on your field borders."
+      ],
+      "when_to_call_expert": ["Contact an expert if whitefly populations remain high and more than 15% of your field has curled leaves despite chemical sprays."],
+      "risk_warning": "Early infection (within 30 days of sowing) can lead to 100% loss of marketable pods, as the plants remain stunted and produce useless woody fruit."
+    },
+    "model_support": {
+      "classification_labels": ["chilli_leaf_curl_virus"],
+      "segmentation_labels": ["leaf_upward_curling", "vein_thickening"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The model confuses upward curling with thrips feeding damage (which has a metallic/silvery sheen under leaves)."],
+      "image_quality_requirements": ["High-resolution photos focusing on the upward-cupped leaves or whitefly clusters on the undersides of leaves in bright, natural light."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10 km",
+      "report_count_threshold": "6",
+      "outbreak_alert_message": "Chilli Leaf Curl warning! Whitefly vector populations are rising rapidly in your area due to dry weather. Monitor and spray whiteflies immediately.",
+      "nearby_farm_advice": ["Deploy yellow sticky traps immediately", "Control whiteflies with Imidacloprid", "Rogue out early symptomatic plants"]
+    },
+    "source_metadata": {
+      "source_title": "Chilli Leaf Curl Virus: Management Guide",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers both ChiLCV and vector whitefly biology."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T18:30:00Z",
+      "updated_at": "2024-10-27T18:30:00Z",
+      "reviewed_by": "Senior Virologist / Entomologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "chilli_nutrition_deficiency",
+    "crop": {
+      "common_name": "Chilli",
+      "english_name": "Chilli / Pepper / Hot Pepper",
+      "scientific_name": "Capsicum annuum",
+      "local_names": ["Mirch", "Lal Mirch", "Kanthari", "Milagai", "Pacha Mirapakaya"],
+      "crop_category": "Spices / Vegetables"
+    },
+    "disease": {
+      "name": "Nutrition Deficiency",
+      "category": "Abiotic Physiological Disorder",
+      "pathogen_or_cause": ["Lack of Nitrogen", "Potassium", "Calcium", "Magnesium", "Phosphorus", "Iron in soil"],
+      "affected_parts": ["Leaves", "Roots", "Stems", "Fruits"],
+      "disease_stage": "All growth stages (Seedling to Harvesting)"
+    },
+    "symptoms": {
+      "early_stage": ["Nitrogen (N) Deficiency: Older leaves turn a uniform pale green color.", "Calcium (Ca) Deficiency: New leaf tips emerge distorted and cupped downward.", "Magnesium (Mg) Deficiency: Interveinal chlorosis (yellowing between green veins) on older leaves."],
+      "middle_stage": ["Potassium (K) Deficiency: Marginal leaf chlorosis; leaf edges turn yellow, then brown and dry up (margin burn).", "Phosphorus (P) Deficiency: Leaves turn dark green with a purple, red, or bronze tint on undersides.", "Calcium Deficiency: Blossom-end rot (BER) starts as small water-soaked spots at the bottom of pods."],
+      "severe_stage": ["Nitrogen Deficiency: Lower yellow leaves drop off; plant is stunted and woody.", "Calcium Deficiency: Large, dry, leathery, dark brown/black sunken patches at the bottom of chilli pods (Blossom-end rot).", "Magnesium Deficiency: Older leaves turn completely yellow with necrotic spots and drop."],
+      "visible_signs": ["Dark, sunken, leathery patches on the bottom (blossom end) of chilli pods (Calcium).", "Bright yellow older leaves with green veins (Magnesium) or completely yellow leaves (Nitrogen).", "Purple undersides of stunted leaves (Phosphorus).", "Burnt brown leaf margins (Potassium)."],
+      "farmer_reported_signs": ["Chilli pods rotting and turning black at the very bottom", "Bottom leaves turning yellow while veins stay green", "Red or purple leaves under the plant", "Dry brown burnt leaf edges"]
+    },
+    "visual_identification": {
+      "color_changes": ["Uniform leaf yellowing (N)", "Interveinal yellowing with green veins (Mg)", "Purple/bronze leaf tint (P)", "Marginal brown leaf burn (K)", "Black sunken pod bottom (Ca)"],
+      "spot_or_patch_shape": "Sunken leathery patch on the bottom of the pod (for Calcium deficiency)",
+      "pattern": "Mobile nutrients (N, K, Mg, P) show first on older lower leaves; immobile (Ca, Fe) show first on young top leaves/fruits",
+      "location_on_plant": "Foliage and fruits",
+      "starts_from": "Older leaves for N, K, Mg, P; young shoots/fruits for Ca, Fe",
+      "progression": "Nutrient depletion in soil -> Root uptake failure -> Leaf yellowing/purple discoloration -> Flower drop -> Blossom end rot on fruit pods",
+      "image_clues": ["Look for a dark, dry, leathery flat circle at the very tip (bottom) of a green or red chilli pod (Calcium)", "Look for older lower leaves looking like a yellow-green checkerboard (Magnesium)"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Spot (on pods)",
+        "difference": "Bacterial spot on pods produces raised, rough, scabby brown warts, whereas Calcium deficiency produces a large, flat, sunken, dry leathery black circle exclusively at the bottom tip of the pod.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Mosaic Virus (on leaves)",
+        "difference": "Mosaic virus causes yellow-green patchy mottling and leaf puckering/distortion, whereas Nitrogen deficiency causes a uniform, flat pale-yellow coloring of the entire leaf starting from the bottom of the plant.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry hot spells followed by heavy rain (restricting calcium transport)", "Very cold soil temperatures (making Phosphorus unavailable)"],
+      "temperature_range": "Below 15°C (Phosphorus unavailable) or above 32°C (Water stress causing Calcium deficiency)",
+      "humidity_level": "Varies",
+      "season": "All seasons",
+      "soil_conditions": ["Acidic soils (pH < 6.0 causing Ca/Mg deficiency)", "Alkaline soils (pH > 7.5 causing Iron/Phosphorus deficiency)", "Leached sandy soils (low N and K)"],
+      "field_conditions": ["Inconsistent irrigation (drying and flooding)", "Highly compacted soils preventing root growth"],
+      "irrigation_conditions": ["Inconsistent watering (dry soil prevents Calcium absorption; waterlogging leaches out Nitrogen and Potassium)"]
+    },
+    "spread": {
+      "spread_by": ["Non-transmissible (abiotic physiological disorder)"],
+      "source_of_infection": ["None"],
+      "survival_method": "Non-applicable",
+      "spread_speed": "Slow (gradual development as plant utilizes reserves)",
+      "nearby_crop_risk": "None"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint uniform yellowing of lowest 2 leaves (Nitrogen) or slight downward cupping of new leaves (Calcium).",
+        "field_indicator": "<10% plants showing early leaf chlorosis.",
+        "recommended_action": "Apply a balanced NPK fertilizer. Ensure consistent irrigation."
+      },
+      {
+        "level": "Medium",
+        "description": "Marginal leaf burning (Potassium) or interveinal yellowing (Magnesium) spreading to mid-foliage; rare blossom end rot spots on early chillies.",
+        "field_indicator": "10% to 30% of plants showing visible nutrient stress patterns.",
+        "recommended_action": "Apply targeted fertilizers: Calcium Nitrate (for Ca), Magnesium Sulfate (Epsom salt for Mg), or Muriate of Potash (for K) as foliar spray and soil application."
+      },
+      {
+        "level": "High",
+        "description": "Severe plant stunting; most pods showing large black sunken leathery bottoms (Blossom End Rot); heavy leaf drop.",
+        "field_indicator": ">30% of pods showing black bottoms; bare lower stems.",
+        "recommended_action": "Spray Calcium Nitrate immediately. Implement a strict, consistent irrigation schedule. Incorporate gypsum into soil."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Grow healthy transplants. Seedling nutrition is key."],
+      "field_management": ["Keep soil pH between 6.0 and 6.8.", "Mulch fields to keep soil moisture levels consistent."],
+      "irrigation_management": ["Water consistently; do not let soil completely dry out and then flood, as this causes calcium deficiency (blossom end rot)."],
+      "soil_management": ["Add well-rotted organic compost to sandy soils.", "Apply gypsum (calcium sulfate) or agricultural lime to acidic soils."],
+      "crop_rotation": ["Non-applicable."],
+      "sanitation": ["Non-applicable."],
+      "monitoring": ["Inspect crops weekly, checking leaf colors at the bottom and top of the plant, and scanning pod bottoms."]
+    },
+    "management": {
+      "immediate_action": ["Water the crop consistently.", "Apply a foliar spray of Calcium Nitrate or Epsom salt depending on symptoms.", "Avoid over-applying nitrogen."],
+      "cultural_control": ["Mulching to retain soil moisture.", "Loosen compacted soil around plants."],
+      "organic_control": ["Apply bone meal (rich in calcium/phosphorus).", "Apply wood ash (rich in potassium).", "Drench soil with compost tea."],
+      "biological_control": ["Apply Mycorrhizae (AMF) to the soil at planting to increase root surface area, boosting phosphorus and micronutrient uptake."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Calcium Nitrate",
+          "product_type": "Foliar & Soil Fertilizer (To treat Calcium deficiency)",
+          "dose": "5.0 g/L of water",
+          "application_method": "Foliar Spray and Soil Drench",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Foliar spray is highly effective during fruit development to quickly prevent Blossom End Rot."
+        },
+        {
+          "active_ingredient": "Magnesium Sulfate (Epsom Salt)",
+          "product_type": "Foliar Fertilizer (To treat Magnesium deficiency)",
+          "dose": "10.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Apply when interveinal yellowing is observed on lower leaves."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Nutrition Deficiency is not a disease caused by germs. It is like hunger in plants when the soil lacks essential foods like Nitrogen, Potassium, Calcium, or Magnesium, or when inconsistent watering prevents the roots from drinking them. Calcium deficiency makes the bottom tips of your chilli pods turn black, dry, and leathery (Blossom End Rot). Lack of magnesium makes the bottom leaves look yellow with green veins.",
+      "what_to_do_now": [
+        "Water your chilli field consistently; do not let the soil become bone-dry.",
+        "If pods have black bottoms, spray Calcium Nitrate (5g/L of water) on the plants.",
+        "If lower leaves are yellowing between the green veins, spray Epsom Salt (10g/L of water)."
+      ],
+      "what_not_to_do": [
+        "Do not over-apply urea (nitrogen) when your soil is dry, as it can block calcium uptake.",
+        "Do not flood the field after letting it dry out completely; keep soil moist."
+      ],
+      "when_to_call_expert": ["Contact an expert if your chillies continue to develop black bottoms or leaves continue to yellow despite adding fertilizers and watering regularly."],
+      "risk_warning": "Blossom End Rot caused by calcium deficiency ruins the fruit entirely, making up to 40% of your chilli harvest unmarketable."
+    },
+    "model_support": {
+      "classification_labels": ["chilli_nutrition_deficiency"],
+      "segmentation_labels": ["blossom_end_rot_patch", "interveinal_chlorosis_leaf"],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.85",
+        "high": "0.95"
+      },
+      "send_to_expert_if": ["The symptoms are confused with bacterial or fungal rot on pods."],
+      "image_quality_requirements": ["Clear focus showing the flat, dry, leathery black circle at the very bottom tip of the pod, or the checkboard yellow-green lower leaves."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "None (physiological)",
+      "risk_radius": "None",
+      "report_count_threshold": "None",
+      "outbreak_alert_message": "Physiological alert! Dry hot days and dry soils can block calcium transport, triggering Blossom End Rot. Ensure regular irrigation.",
+      "nearby_farm_advice": ["Maintain consistent soil moisture", "Apply Calcium Nitrate foliar sprays"]
+    },
+    "source_metadata": {
+      "source_title": "Nutritional Disorders of Vegetables: Pepper Section",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers symptoms of macro and micro nutrient deficiencies on Capsicum."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T18:45:00Z",
+      "updated_at": "2024-10-27T18:45:00Z",
+      "reviewed_by": "Senior Soil Chemist / Horticulturist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "chilli_white_spot",
+    "crop": {
+      "common_name": "Chilli",
+      "english_name": "Chilli / Pepper / Hot Pepper",
+      "scientific_name": "Capsicum annuum",
+      "local_names": ["Mirch", "Lal Mirch", "Kanthari", "Milagai", "Pacha Mirapakaya"],
+      "crop_category": "Spices / Vegetables"
+    },
+    "disease": {
+      "name": "White spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Stemphylium solani", "Stemphylium lycopersici"],
+      "affected_parts": ["Leaves", "Petioles"],
+      "disease_stage": "Vegetative to Fruiting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, dark, or tan-colored angular spots on middle and lower older leaves."],
+      "middle_stage": ["The center of the spots quickly fades to a very clean paper-white or light-grey color, while the narrow borders remain dark brown.", "A faint light-yellow chlorotic halo outlines each lesion."],
+      "severe_stage": ["The thin, paper-white center of the spot frequently splits, tears, or falls out, leaving ragged holes.", "Multiple spots coalesce, causing leaves to turn yellow rapidly, wither, dry up, and drop (defoliation).", "Severe leaf loss stunts plant growth and exposes pods to direct sunscald."],
+      "visible_signs": ["Extremely clean paper-white circular to angular spots with thin dark brown borders on leaves.", "Torn or split leaf spots.", "Defoliation starting on lower leaves."],
+      "farmer_reported_signs": ["Clean paper-white spots with thin brown borders on leaves", "White spots on leaves that tear and leave holes", "Chilli leaves turning yellow and falling from the bottom up"]
+    },
+    "visual_identification": {
+      "color_changes": ["Tan-colored", "Clean paper-white or light-grey", "Dark brown margin", "Yellow halo"],
+      "spot_or_patch_shape": "Small, circular to angular spots",
+      "pattern": "Scattered white-centered spots that easily tear",
+      "location_on_plant": "Restricted to leaves and leaf stalks, starting on the lower canopy",
+      "starts_from": "Older lower leaves and moves upward",
+      "progression": "Lower leaf tan spots -> Clean paper-white centers -> Spot tearing/split -> Yellowing leaf -> Defoliation",
+      "image_clues": ["Look for a spot on a chilli leaf with an extremely white (paper-white) center and a very thin, clean dark brown outline"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cercospora Leaf Spot",
+        "difference": "Cercospora spots are larger, circular 'frog-eye' lesions with a wider, thick dark-reddish margin and a highly prominent, broad yellow halo, unlike the smaller, cleaner paper-white thin-bordered Stemphylium spots.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Spot",
+        "difference": "Bacterial spot produces small, greasy, rough warty black spots under leaves rather than paper-white thin-bordered flat spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, highly humid weather", "Prolonged leaf wetness due to fog, rain, or heavy dews"],
+      "temperature_range": "20°C - 30°C",
+      "humidity_level": ">80% RH",
+      "season": "Rainy / Late Kharif season",
+      "soil_conditions": ["Wet, poorly drained soils"],
+      "field_conditions": ["Dense planting blocking ventilation", "Cruciferous/Solanaceous weeds in borders"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation keeping leaves wet for hours"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne spores", "Water splashes (rain or irrigation)"],
+      "source_of_infection": ["Infected seeds (seed-borne)", "Overwintering fungal structures in crop residues", "Alternative solanaceous weeds"],
+      "survival_method": "The fungus survives in diseased crop residues in the soil or on seeds as dormant mycelium/spores.",
+      "spread_speed": "Moderate to Fast in warm, wet weather",
+      "nearby_crop_risk": "High for other solanaceous crops like tomato or eggplant nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated paper-white spots on bottom leaves; no tearing or defoliation.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic copper sprays or Neem Oil."
+      },
+      {
+        "level": "Medium",
+        "description": "White spots starting to split and tear on middle leaves; minor leaf yellowing.",
+        "field_indicator": "10% to 25% foliage affected with visible torn spots.",
+        "recommended_action": "Spray contact protective fungicides like Chlorothalonil or Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Extensive tearing of leaf spots; severe leaf yellowing and defoliation; plants looking bare.",
+        "field_indicator": ">25% foliage affected with heavy defoliation.",
+        "recommended_action": "Immediately spray curative systemic mixtures like Tebuconazole or Azoxystrobin."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always sow certified disease-free seeds.", "Treat seeds with Thiram or Captan @ 2g/kg of seed before sowing."],
+      "field_management": ["Observe proper spacing (at least 45x45 cm) to allow ventilation.", "Keep fields completely free of weeds."],
+      "irrigation_management": ["Avoid overhead sprinkler irrigation.", "Use drip or furrow irrigation; water early in the morning."],
+      "soil_management": ["Ensure proper drainage.", "Apply balanced NPK; avoid excessive nitrogen."],
+      "crop_rotation": ["Rotate chilli with cereals, maize, or legumes for 2 years."],
+      "sanitation": ["Regularly remove and destroy infected lower leaves.", "Collect and burn crop debris after harvesting."],
+      "monitoring": ["Monitor weekly during wet, warm seasons, checking the lower leaves closely."]
+    },
+    "management": {
+      "immediate_action": ["Pluck and destroy infected lower leaves.", "Ensure proper soil drainage.", "Spray a broad-spectrum protective fungicide."],
+      "cultural_control": ["Destroy weed hosts.", "Manually prune old leaves to improve air flow."],
+      "organic_control": ["Foliar spray of Neem Seed Kernel Extract (NSKE) 5%.", "Foliar spray of garlic-chili extract."],
+      "biological_control": ["Soil application and foliar spray of Trichoderma harzianum or Pseudomonas fluorescens @ 10 g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g to 2.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Apply preventatively or at the first sign of symptoms."
+        },
+        {
+          "active_ingredient": "Tebuconazole 25% EC",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Provides excellent curative and systemic protection."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "White spot (Stemphylium leaf spot) is a fungal disease that makes clean, paper-white spots with very thin brown borders on chilli leaves. These white parts are thin and papery, so they tear easily and leave ragged holes. This causes leaves to turn yellow and drop off from the bottom of the plant up.",
+      "what_to_do_now": [
+        "Pick off and burn the spotted lower leaves.",
+        "Avoid watering the plants from above (use drip or basin irrigation).",
+        "Spray Mancozeb (2g/L) or Tebuconazole (1mL/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave old crop waste or fallen leaves in the field.",
+        "Do not plant chillies too close to each other."
+      ],
+      "when_to_call_expert": ["Contact an expert if leaves are falling rapidly and plants are losing foliage despite chemical spraying."],
+      "risk_warning": "Severe white spot can cause early leaf drop, reducing plant vigor and exposing chilli pods to severe sunscald, which ruins their market value."
+    },
+    "model_support": {
+      "classification_labels": ["chilli_white_spot"],
+      "segmentation_labels": ["white_papery_leaf_spot", "leaf_tears_shot_hole"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The spots are confused with Cercospora leaf spot or chemical spray burns."],
+      "image_quality_requirements": ["High-contrast images showing clear details of the clean paper-white spot with thin brown outline on the leaf blade."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "White Spot (Stemphylium) alert: Warm, humid monsoon days are triggering white leaf spot in chilli. Apply preventive contact fungicides.",
+      "nearby_farm_advice": ["Avoid overhead irrigation", "Remove bottom-most yellow leaves", "Apply preventive Mancozeb spray"]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Solanaceous Crops: Chilli",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Good description of Stemphylium solani symptoms and distinction from Cercospora capsici."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T18:15:00Z",
+      "updated_at": "2024-10-27T18:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  }
+]

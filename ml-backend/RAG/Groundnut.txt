@@ -1,0 +1,1739 @@
+[
+  {
+    "id": "groundnut_early_leaf_spot_1",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Groundnut / Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongfali",
+        "Senga",
+        "Verkadavu",
+        "Nelakadalai",
+        "Pallelu"
+      ],
+      "crop_category": "Oilseeds / Legumes"
+    },
+    "disease": {
+      "name": "early_leaf_spot_1",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Cercospora arachidicola"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems"
+      ],
+      "disease_stage": "Early Vegetative (3-4 weeks after sowing)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, chlorotic, yellow-green spots appearing on the upper leaf surface of older lower leaves."
+      ],
+      "middle_stage": [
+        "Spots expand into circular, light brown to reddish-brown lesions.",
+        "A highly distinct, bright yellow chlorotic halo always surrounds each circular spot on the upper leaf surface."
+      ],
+      "severe_stage": [
+        "Spots may coalesce to form large irregular necrotic areas.",
+        "Infected leaves turn yellow and drop off prematurely (defoliation).",
+        "Under high humidity, a sparse greyish fungal growth can be seen primarily on the upper surface of the leaf spots."
+      ],
+      "visible_signs": [
+        "Circular light brown spots with a highly prominent bright yellow halo on upper leaf surfaces.",
+        "Defoliation starting on bottom leaves.",
+        "Diffuse grey fungal growth on the upper spot surface."
+      ],
+      "farmer_reported_signs": [
+        "Brown spots on lower groundnut leaves with wide yellow rings",
+        "Bottom leaves turning yellow and dropping early"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light brown",
+        "Reddish-brown",
+        "Bright yellow halo"
+      ],
+      "spot_or_patch_shape": "Circular spots with sharp margins",
+      "pattern": "Scattered circular spots with thick yellow haloes",
+      "location_on_plant": "Appears first on older, lower leaves and progresses upward",
+      "starts_from": "Older lower leaves near the soil line",
+      "progression": "Lower leaves -> Mid canopy leaves -> Petioles and stems -> Early defoliation",
+      "image_clues": [
+        "Look for circular brown leaf spots surrounded by a very bright, wide yellow ring on the top side of the leaf"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "late_leaf_spot_1",
+        "difference": "Late Leaf Spot lesions are dark brown to carbon-black with a very faint or absent yellow halo. Spores are produced in dense black concentric rings on the lower leaf surface, whereas Early Leaf Spot has light brown lesions with bright halos and diffuse spores on the upper leaf surface.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "rust_1",
+        "difference": "Rust causes raised orange-to-chestnut brown pustules mostly on the lower leaf surface which rupture to release a powdery mass, unlike the flat circular spots of leaf spot.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid, and wet weather",
+        "Persistent rainfall or heavy morning dews"
+      ],
+      "temperature_range": "20\u00b0C - 28\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Monsoon / Kharif season",
+      "soil_conditions": [
+        "Wet, poorly drained soils",
+        "Previous groundnut debris left on soil"
+      ],
+      "field_conditions": [
+        "Dense planting blocking ventilation",
+        "Presence of volunteer groundnut plants"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation leaving foliage wet for long periods"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Infected previous crop residues on soil",
+        "Volunteer groundnut plants",
+        "Alternative legume hosts"
+      ],
+      "survival_method": "The fungus survives as dormant mycelium or spores inside diseased crop debris in the soil between seasons.",
+      "spread_speed": "Moderate to Fast during continuous rain and warm days",
+      "nearby_crop_risk": "High for other groundnut fields nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated light brown spots on bottom leaves; no defoliation.",
+        "field_indicator": "<10% leaf area affected on lower foliage.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic sprays like Neem Seed Kernel Extract (NSKE) 5%."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots with bright halos spreading to middle canopy leaves; leaf yellowing starting.",
+        "field_indicator": "10% to 25% foliage affected with visible yellowing.",
+        "recommended_action": "Spray contact protective fungicides like Mancozeb or Chlorothalonil."
+      },
+      {
+        "level": "High",
+        "description": "Severe defoliation; bare lower stems; spots appearing on petioles.",
+        "field_indicator": ">25% foliage affected with heavy defoliation.",
+        "recommended_action": "Immediately spray highly effective systemic mixtures like Carbendazim + Mancozeb or Tebuconazole + Trifloxystrobin."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use certified disease-free seeds.",
+        "Treat seeds with Carbendazim 50% WP @ 2g/kg seed before sowing."
+      ],
+      "field_management": [
+        "Observe proper spacing (30x10 cm) to allow ventilation.",
+        "Keep fields free of volunteer groundnut plants."
+      ],
+      "irrigation_management": [
+        "Avoid overhead sprinkler irrigation.",
+        "Use drip or furrow irrigation; water early in the morning."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Apply balanced fertilizers."
+      ],
+      "crop_rotation": [
+        "Rotate groundnut with cereal crops (maize, sorghum, pearl millet) for at least 2 years."
+      ],
+      "sanitation": [
+        "Regularly remove and destroy infected lower leaves.",
+        "Bury or burn crop residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Monitor weekly starting 25 days after sowing, checking lower leaf surfaces closely for light brown spots."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Pluck and destroy infected lower leaves.",
+        "Ensure proper soil drainage.",
+        "Spray a broad-spectrum protective fungicide."
+      ],
+      "cultural_control": [
+        "Destroy volunteer plants.",
+        "Ensure crop residue is deeply plowed under."
+      ],
+      "organic_control": [
+        "Foliar spray of Neem Seed Kernel Extract (NSKE) 5% twice at a 10-day interval."
+      ],
+      "biological_control": [
+        "Foliar spray of Trichoderma harzianum or Pseudomonas fluorescens @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim 12% + Mancozeb 63% WP",
+          "product_type": "Systemic + Contact Fungicide Mixture",
+          "dose": "1.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Highly effective and economical. Apply immediately at first sign of spots."
+        },
+        {
+          "active_ingredient": "Tebuconazole 50% + Trifloxystrobin 25% WG",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "0.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-15 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Provides excellent curative and systemic protection with long-lasting green canopy retention."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Early Leaf Spot is a fungal disease that makes light brown spots on groundnut leaves. Each spot is surrounded by a bright, wide yellow ring. It starts on the lower leaves about 3-4 weeks after planting. If left untreated, leaves turn yellow and drop off, which stops pod development.",
+      "what_to_do_now": [
+        "Pick off the spotted lower leaves and burn or bury them.",
+        "Avoid watering the plants from above.",
+        "Spray Carbendazim + Mancozeb (Saaf @ 1.5g/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave dry, fallen crop waste in the field.",
+        "Do not plant groundnuts in the same soil next season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if leaf spotting is spreading rapidly and leaves are falling in large numbers despite chemical sprays."
+      ],
+      "risk_warning": "Early leaf spot (Tikka) is highly destructive. Severe infections cause early leaf drop, reducing groundnut yields by up to 20% to 50%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_early_leaf_spot_1"
+      ],
+      "segmentation_labels": [
+        "circular_brown_spot",
+        "bright_yellow_halo"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The spots are confused with late leaf spot, which lacks a yellow halo and requires slightly different resistance rotation."
+      ],
+      "image_quality_requirements": [
+        "High-contrast images showing clear details of the circular brown spot with a bright yellow ring on the upper leaf surface."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Early Leaf Spot alert! Warm, humid monsoon days are triggering leaf spots in groundnut. Apply preventive fungicides immediately.",
+      "nearby_farm_advice": [
+        "Avoid overhead irrigation",
+        "Remove bottom yellow leaves",
+        "Apply preventive Carbendazim+Mancozeb spray"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Foliar Diseases of Groundnut: Tikka disease",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Covers distinct diagnostic features of early vs late leaf spot."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T21:00:00Z",
+      "updated_at": "2024-10-27T21:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "groundnut_early_rust_1",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Groundnut / Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongfali",
+        "Senga",
+        "Verkadavu",
+        "Nelakadalai",
+        "Pallelu"
+      ],
+      "crop_category": "Oilseeds / Legumes"
+    },
+    "disease": {
+      "name": "early_rust_1",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Puccinia arachidis"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Early Vegetative to Pre-Flowering"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, isolated, pinhead-sized, unruptured orange-to-chestnut brown pustules (uredosori) appearing exclusively on the lower leaf surface of older leaves."
+      ],
+      "middle_stage": [
+        "Pustules grow slightly larger and turn reddish-brown.",
+        "Small, corresponding chlorotic (yellow) spots begin to develop on the upper surface of the leaflets.",
+        "Pustules remain intact without releasing extensive dry powder yet."
+      ],
+      "severe_stage": [
+        "If left untreated, pustules begin to rupture, starting secondary cycles.",
+        "Leaf edges start drying, turning brown and necrotic.",
+        "Leaf stalks (petioles) remain mostly free of pustules in this early phase."
+      ],
+      "visible_signs": [
+        "Tiny, isolated, unruptured orange-brown dots under lower leaflets.",
+        "Corresponding yellow dots on upper leaf surfaces.",
+        "No active powdery spore release in this early phase."
+      ],
+      "farmer_reported_signs": [
+        "Tiny orange dots under groundnut leaves",
+        "Yellow dots on top of leaves",
+        "Leaves look slightly dusty under the plant"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Orange",
+        "Chestnut brown",
+        "Light yellow"
+      ],
+      "spot_or_patch_shape": "Tiny circular, raised pimple-like spots (pustules)",
+      "pattern": "Isolated, scattered tiny pustules mostly on the underside",
+      "location_on_plant": "Restricted to the lower surfaces of oldest bottom leaves",
+      "starts_from": "Underside of lower leaves",
+      "progression": "Under-leaf tiny orange dots -> Corresponding top-leaf yellow spots -> Early pustule ripening -> Initial leaf drying",
+      "image_clues": [
+        "Look for tiny raised orange 'pimples' under the bottom-most groundnut leaflets before they break open and turn powdery"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "early_leaf_spot_1",
+        "difference": "Early Leaf Spot produces flat circular brown spots surrounded by wide yellow rings on the upper leaf surface, whereas Early Rust produces raised orange 'pimple-like' pustules on the lower leaf surface.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "rust_1",
+        "difference": "Rust (mature stage) features ruptured, powdery, brown masses of spores that coat stems, petioles, and bolls, causing widespread leaf death, drying, and heavy defoliation, whereas early rust features isolated, intact, unruptured under-leaf pustules.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool nights with heavy dew",
+        "Warm humid days",
+        "Prolonged leaf wetness"
+      ],
+      "temperature_range": "20\u00b0C - 25\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Late Kharif / Rabi season",
+      "soil_conditions": [
+        "Non-applicable"
+      ],
+      "field_conditions": [
+        "Volunteer plants in field borders",
+        "Weeds blocking wind and trapping humidity"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation creating high leaf wetness in the evening"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne urediniospores (conidia)",
+        "Splashing rain or irrigation water"
+      ],
+      "source_of_infection": [
+        "Volunteer groundnut plants",
+        "Infected crop residues",
+        "Alternative hosts"
+      ],
+      "survival_method": "The fungus survives as urediniospores on volunteer plants or crop residues.",
+      "spread_speed": "Moderate during early phase; can become extremely fast once pustules rupture",
+      "nearby_crop_risk": "Moderate to High for neighboring groundnut fields"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few unruptured orange pustules under bottom leaves; top leaves healthy.",
+        "field_indicator": "<5% leaflets showing tiny orange dots.",
+        "recommended_action": "Rogue out infected lower leaves. Spray Neem Seed Kernel Extract (NSKE) 5% as a preventive."
+      },
+      {
+        "level": "Medium",
+        "description": "Pustules becoming reddish-brown; yellow spots visible on upper leaflets.",
+        "field_indicator": "5% to 15% leaf surface showing orange-brown dots.",
+        "recommended_action": "Spray contact protective fungicides like Mancozeb @ 2g/L or Chlorothalonil @ 2g/L immediately."
+      },
+      {
+        "level": "High",
+        "description": "Initial pustules starting to rupture; minor brown drying of leaf edges.",
+        "field_indicator": ">15% leaflets affected with early edge necrosis.",
+        "recommended_action": "Apply curative systemic fungicides like Difenoconazole or Hexaconazole to stop spore release."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Clean, healthy seed certified free of rust spores."
+      ],
+      "field_management": [
+        "Keep plants spaced properly.",
+        "Eradicate volunteer groundnut plants during the off-season."
+      ],
+      "irrigation_management": [
+        "Avoid evening overhead irrigation; irrigate early morning."
+      ],
+      "soil_management": [
+        "Non-applicable."
+      ],
+      "crop_rotation": [
+        "Rotate with cereals (sorghum, maize) for 2 seasons."
+      ],
+      "sanitation": [
+        "Regularly remove infected lower leaves.",
+        "Bury or burn crop residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Inspect the underside of lower leaves weekly starting 30 days after sowing, looking for tiny raised orange dots."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove and bury infected lower leaves.",
+        "Avoid sprinkler irrigation.",
+        "Apply a protective contact fungicide spray immediately."
+      ],
+      "cultural_control": [
+        "Destroy volunteer plants.",
+        "Ensure crop residue is deeply plowed under."
+      ],
+      "organic_control": [
+        "Foliar spray of Neem Seed Kernel Extract (NSKE) 5%."
+      ],
+      "biological_control": [
+        "Foliar spray of Trichoderma harzianum or Bacillus subtilis @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Apply protectively at the very first sign of under-leaf orange pustules."
+        },
+        {
+          "active_ingredient": "Chlorothalonil 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Highly effective at shielding the leaves and stopping rust spore germination."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Early Rust is the starting stage of a serious rust disease. It makes tiny, raised orange 'pimples' under the oldest bottom leaves of the groundnut plant. At this stage, the spots have not broken open yet. If caught early, it can be easily stopped using simple protective sprays.",
+      "what_to_do_now": [
+        "Check the bottom of lower leaves for tiny raised orange pimples.",
+        "Stop watering from above (sprinklers).",
+        "Spray Mancozeb (2g/L) or Chlorothalonil (2g/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not allow volunteer groundnut weeds to grow on field borders, as they carry the rust spores."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if orange spots are spreading to middle leaves and starting to turn brown/powdery despite spraying."
+      ],
+      "risk_warning": "While early rust is easy to control, if ignored, it will rupture into a brown powdery mass that spreads rapidly, drying up leaves and ruining your yields."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_early_rust_1"
+      ],
+      "segmentation_labels": [
+        "unruptured_pustule_orange_dot"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.78",
+        "high": "0.90"
+      },
+      "send_to_expert_if": [
+        "The tiny spots are confused with early insect egg clusters or early leaf spot lesions."
+      ],
+      "image_quality_requirements": [
+        "High-resolution photos focusing on the underside of lower leaflets, showing the intact raised orange-brown pimples in sharp focus."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Early Rust reported in nearby groundnut crops. Check under your lower leaflets and apply preventive sprays.",
+      "nearby_farm_advice": [
+        "Monitor under-leaf surfaces daily",
+        "Avoid overhead irrigation",
+        "Apply preventive Mancozeb spray"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Groundnut Rust and Its Integrated Control",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers early symptom identification and chemical controls for Puccinia arachidis."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T21:15:00Z",
+      "updated_at": "2024-10-27T21:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "groundnut_late_leaf_spot_1",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Groundnut / Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongfali",
+        "Senga",
+        "Verkadavu",
+        "Nelakadalai",
+        "Pallelu"
+      ],
+      "crop_category": "Oilseeds / Legumes"
+    },
+    "disease": {
+      "name": "late_leaf_spot_1",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Phaeoisariopsis personata",
+        "Cercosporidium personatum"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Pegs"
+      ],
+      "disease_stage": "Late Vegetative to Mature (6-8 weeks after sowing)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, chlorotic, dark brown spots on the upper leaf surface of middle leaves."
+      ],
+      "middle_stage": [
+        "Spots expand into circular, dark brown to carbon-black lesions.",
+        "The yellow chlorotic halo is absent or very faint and thin.",
+        "Spores (conidia) form dense, black, concentric rings on the lower leaf surface, giving it a rough texture."
+      ],
+      "severe_stage": [
+        "Multiple carbon-black spots coalesce, causing leaves to turn brown, dry, and drop off rapidly.",
+        "Extensive premature defoliation, often stripping the lower and middle canopy bare.",
+        "Spots spread to stems, petioles, and pegs, forming elongated black lesions.",
+        "Pods fail to develop fully, producing shriveled, low-quality seeds."
+      ],
+      "visible_signs": [
+        "Circular carbon-black spots on upper leaves without prominent yellow halos.",
+        "Dense black concentric rings of spores on the leaf undersides.",
+        "Widespread bare stems due to rapid leaf drop.",
+        "Elongated black spots on pegs and stems."
+      ],
+      "farmer_reported_signs": [
+        "Dark black spots on groundnut leaves with no yellow ring",
+        "Black rings of powder under the leaves",
+        "Leaves falling off in huge numbers leaving bare stems"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown",
+        "Carbon-black",
+        "No yellow halo"
+      ],
+      "spot_or_patch_shape": "Circular spots with sharp, distinct margins",
+      "pattern": "Dense circular spots merging and causing rapid defoliation",
+      "location_on_plant": "Appears on middle and upper leaves, rapidly spreading down and up the plant",
+      "starts_from": "Middle leaf canopy",
+      "progression": "Middle leaves -> Lower leaves -> Spore rings on undersides -> Stem/peg lesions -> Defoliation -> Shriveled pods",
+      "image_clues": [
+        "Look for circular carbon-black leaf spots on the upper side of the leaf, and flip the leaf over to look for rough, black concentric spore rings underneath"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "early_leaf_spot_1",
+        "difference": "Early Leaf Spot lesions are light brown with a highly distinct bright yellow halo on the upper surface, and diffuse grey spores on the upper surface, unlike the carbon-black halo-less lesions of Late Leaf Spot.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "rust_1",
+        "difference": "Rust produces raised orange-brown powdery pustules under the leaf, whereas Late Leaf Spot produces flat carbon-black spots with black concentric spore rings underneath.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, highly humid, and wet weather",
+        "Frequent rain showers or heavy morning dews"
+      ],
+      "temperature_range": "20\u00b0C - 30\u00b0C",
+      "humidity_level": ">85% RH",
+      "season": "Late Kharif / Winter season",
+      "soil_conditions": [
+        "Wet, poorly drained soils",
+        "Previous groundnut debris left on soil"
+      ],
+      "field_conditions": [
+        "Crowded plant spacing restricting airflow",
+        "Late-sown crops"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation leaving foliage wet for long periods"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Infected previous crop residues on soil",
+        "Volunteer groundnut plants",
+        "Alternative legume hosts"
+      ],
+      "survival_method": "The fungus survives as dormant mycelium or spores inside diseased crop debris in the soil between seasons.",
+      "spread_speed": "Very Fast under warm, wet conditions (causes rapid defoliation)",
+      "nearby_crop_risk": "High for other groundnut fields nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated dark brown/black spots on middle leaves; no defoliation.",
+        "field_indicator": "<10% leaf area affected on mid-canopy.",
+        "recommended_action": "Rogue out affected middle leaves. Spray contact protective fungicides like Mancozeb."
+      },
+      {
+        "level": "Medium",
+        "description": "Concentric black spore rings visible under leaves; leaf yellowing and minor leaf drop starting.",
+        "field_indicator": "10% to 25% foliage affected with visible leaf drop.",
+        "recommended_action": "Spray contact protective fungicides like Chlorothalonil @ 2g/L or systemic mixtures like Carbendazim + Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Bare stems with massive leaf drop; spots appearing on stems and pegs; pods shriveled.",
+        "field_indicator": ">25% foliage affected with heavy defoliation and peg lesions.",
+        "recommended_action": "Immediately spray highly effective systemic mixtures like Tebuconazole + Trifloxystrobin or Hexaconazole."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use certified disease-free seeds.",
+        "Treat seeds with Carbendazim 50% WP @ 2g/kg seed before sowing."
+      ],
+      "field_management": [
+        "Observe proper spacing (30x10 cm) to allow ventilation.",
+        "Keep fields free of volunteer groundnut plants."
+      ],
+      "irrigation_management": [
+        "Avoid overhead sprinkler irrigation.",
+        "Use drip or furrow irrigation; water early in the morning."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Apply balanced fertilizers."
+      ],
+      "crop_rotation": [
+        "Rotate groundnut with cereal crops (maize, sorghum, pearl millet) for at least 2 years."
+      ],
+      "sanitation": [
+        "Regularly remove and destroy infected leaves.",
+        "Bury or burn crop residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Monitor weekly starting 40 days after sowing, checking leaf undersides closely for carbon-black spots and rough spore rings."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Pluck and destroy infected leaves.",
+        "Ensure proper soil drainage.",
+        "Spray a broad-spectrum protective fungicide."
+      ],
+      "cultural_control": [
+        "Destroy volunteer plants.",
+        "Ensure crop residue is deeply plowed under."
+      ],
+      "organic_control": [
+        "Foliar spray of Neem Seed Kernel Extract (NSKE) 5% twice at a 10-day interval."
+      ],
+      "biological_control": [
+        "Foliar spray of Trichoderma harzianum or Pseudomonas fluorescens @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim 12% + Mancozeb 63% WP",
+          "product_type": "Systemic + Contact Fungicide Mixture",
+          "dose": "1.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Highly effective and economical. Apply immediately at first sign of spots."
+        },
+        {
+          "active_ingredient": "Tebuconazole 50% + Trifloxystrobin 25% WG",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "0.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-15 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Provides excellent curative and systemic protection with long-lasting green canopy retention."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Late Leaf Spot is a highly destructive fungal disease that makes carbon-black circular spots on groundnut leaves. Unlike early leaf spot, these spots have no yellow ring. Underneath the leaves, rough black rings of powdery spores form. This disease spreads very fast, stripping the leaves and causing massive leaf drop, which ruins pod filling.",
+      "what_to_do_now": [
+        "Pick off the spotted leaves and burn or bury them.",
+        "Avoid watering the plants from above.",
+        "Spray Tebuconazole + Trifloxystrobin (Nativo @ 0.5g/L) immediately to stop leaf drop."
+      ],
+      "what_not_to_do": [
+        "Do not leave dry, fallen crop waste in the field.",
+        "Do not plant groundnuts in the same soil next season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if leaf drop is massive and stems are turning bare despite spraying systemic chemicals."
+      ],
+      "risk_warning": "Late leaf spot (LLS) is extremely destructive. Widespread defoliation prevents pod filling, reducing groundnut yields by up to 30% to 70%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_late_leaf_spot_1"
+      ],
+      "segmentation_labels": [
+        "carbon_black_spot",
+        "rough_black_spore_ring",
+        "bare_stem_defoliation"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The spots are confused with early leaf spot, which has a distinct yellow halo and requires slightly different resistance rotation."
+      ],
+      "image_quality_requirements": [
+        "High-contrast images showing clear details of the carbon-black spots and the lower leaf underside showing rough black spore rings."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Late Leaf Spot alert! Warm, humid monsoon days are triggering severe black spots and defoliation in groundnut. Spray systemic fungicides immediately.",
+      "nearby_farm_advice": [
+        "Avoid overhead irrigation",
+        "Apply systemic Triazole sprays",
+        "Clear fallen leaf debris"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Foliar Diseases of Groundnut: Tikka disease",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Covers distinct diagnostic features of early vs late leaf spot on Arachis hypogaea."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T21:00:00Z",
+      "updated_at": "2024-10-27T21:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "groundnut_nutrition_deficiency_1",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Groundnut / Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongfali",
+        "Senga",
+        "Verkadavu",
+        "Nelakadalai",
+        "Pallelu"
+      ],
+      "crop_category": "Oilseeds / Legumes"
+    },
+    "disease": {
+      "name": "nutrition_deficiency_1",
+      "category": "Abiotic Physiological Disorder",
+      "pathogen_or_cause": [
+        "Lime-Induced Iron Chlorosis (Iron deficiency due to alkaline/calcareous soils)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Pegs",
+        "Pods"
+      ],
+      "disease_stage": "Active Vegetative to Pegging (30-70 days after emergence)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Interveinal chlorosis: Yellowing of the leaf tissue (mesophyll) on the youngest, newly emerging leaves while the network of veins remains dark green."
+      ],
+      "middle_stage": [
+        "Veins lose their green color, and the entire young leaf turns a pale yellow, ivory-white, or bleached white.",
+        "Plant growth is stunted; leaf size is significantly reduced."
+      ],
+      "severe_stage": [
+        "Leaf margins turn brown (necrosis), dry up, wither, and die (marginal scorching).",
+        "Complete failure of peg and pod development due to lack of photosynthates, ultimately leading to plant death."
+      ],
+      "visible_signs": [
+        "Ivory-white or bleached yellow youngest leaves.",
+        "Checkboard-like green veins on a yellow leaf background (interveinal chlorosis).",
+        "Dry brown leaf margins on yellow leaves.",
+        "Stunted dwarf groundnut plants with empty pods."
+      ],
+      "farmer_reported_signs": [
+        "Youngest top groundnut leaves turning completely yellow or paper-white",
+        "Leaves look like a yellow board with green veins",
+        "Burnt brown leaf borders on yellow top leaves",
+        "Groundnut plants are small with very few or no pods"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Interveinal yellowing",
+        "Ivory-white or bleached white",
+        "Reddish-brown marginal scorch"
+      ],
+      "spot_or_patch_shape": "None (complete leaf discoloration)",
+      "pattern": "Uniform interveinal yellowing concentrated on youngest terminal leaves",
+      "location_on_plant": "Restricted to the youngest, newly emerging leaves at the top of the canopy",
+      "starts_from": "Terminal young shoots",
+      "progression": "Nutrient lockout in alkaline soil -> Root uptake failure -> Young leaf interveinal yellowing -> Bleached white leaves -> Marginal scorching -> Poor pegging and empty pods",
+      "image_clues": [
+        "Look for a groundnut plant where the youngest, top-most leaves are bright pale yellow or bleached paper-white, while the older bottom leaves remain normal dark green"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "early_leaf_spot_1",
+        "difference": "Early Leaf Spot causes distinct, circular brown spots surrounded by yellow rings, whereas Iron Deficiency causes uniform yellowing of the entire leaf blade between green veins without any brown spots.",
+        "confusion_risk": "Low"
+      },
+      {
+        "name": "Nitrogen Deficiency",
+        "difference": "Nitrogen deficiency causes uniform yellowing starting on the oldest lower leaves, whereas Iron Deficiency is immobile and starts exclusively on the youngest top leaves.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet weather followed by hot dry spells",
+        "Excessive soil moisture restricting root respiration"
+      ],
+      "temperature_range": "Varies",
+      "humidity_level": "Varies",
+      "season": "All seasons",
+      "soil_conditions": [
+        "Calcareous, alkaline soils (pH > 7.0) with high calcium carbonate content",
+        "Poorly drained, waterlogged clay soils",
+        "Coarse-textured sandy soils easily leached"
+      ],
+      "field_conditions": [
+        "Water accumulation in fields",
+        "Using well water rich in bicarbonate ions for irrigation"
+      ],
+      "irrigation_conditions": [
+        "Over-irrigation causing temporary anaerobic conditions and bicarbonate buildup"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Non-transmissible (abiotic physiological disorder)"
+      ],
+      "source_of_infection": [
+        "None"
+      ],
+      "survival_method": "Non-applicable",
+      "spread_speed": "Slow (gradual yellowing as new leaves emerge under nutrient lockout)",
+      "nearby_crop_risk": "None"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint interveinal yellowing on the youngest 2-3 leaves on top shoots; older leaves dark green.",
+        "field_indicator": "<10% plants showing light yellowing on top.",
+        "recommended_action": "Apply consistent, light irrigation. Avoid waterlogging. Apply foliar spray of Ferrous Sulfate."
+      },
+      {
+        "level": "Medium",
+        "description": "Top leaves completely bleached yellow or paper-white; plant growth is slowed.",
+        "field_indicator": "10% to 30% of plants showing bleached top foliage.",
+        "recommended_action": "Spray Ferrous Sulfate @ 0.5% combined with 0.1% Citric Acid during evening. Improve field drainage."
+      },
+      {
+        "level": "High",
+        "description": "Severe plant stunting; leaf margins turning brown and necrotic; pegs failing to form.",
+        "field_indicator": ">30% of foliage completely yellow/bleached; visible bare spaces.",
+        "recommended_action": "Repeat Ferrous Sulfate (0.5%) + Citric Acid (0.1%) sprays twice, spaced 10 days apart. Drench soil with Fe-EDDHA chelates if economically viable. Plant on ridges."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Choose iron-efficient tolerant cultivars (e.g., ICGV-86031, LGN-2) for calcareous soils.",
+        "Avoid sensitive varieties (e.g., TMV-2, ICGS-11) in high pH fields."
+      ],
+      "field_management": [
+        "Plant groundnuts on ridges (Ridge and Furrow Method) rather than flatbeds to prevent waterlogging.",
+        "Avoid over-irrigation."
+      ],
+      "irrigation_management": [
+        "Never allow water to stand in the field; provide proper drainage channels."
+      ],
+      "soil_management": [
+        "Apply elemental sulfur to the soil to help lower local soil pH, making native iron more available.",
+        "Avoid excess phosphorus or calcium fertilizers which block iron uptake."
+      ],
+      "crop_rotation": [
+        "Non-applicable for abiotic disorders."
+      ],
+      "sanitation": [
+        "Non-applicable."
+      ],
+      "monitoring": [
+        "Monitor closely weekly during active vegetative and pegging stages (30-70 days), checking top leaves for yellowing."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Clear any standing water from the field immediately.",
+        "Apply foliar sprays of Ferrous Sulfate and Citric Acid.",
+        "Irrigate lightly if field is dry."
+      ],
+      "cultural_control": [
+        "Improve field drainage channels.",
+        "Plant on ridges."
+      ],
+      "organic_control": [
+        "Apply rich organic compost or vermicompost to the soil.",
+        "Foliar spray of organic seaweed extracts."
+      ],
+      "biological_control": [
+        "Non-applicable."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Ferrous Sulfate (FeSO4)",
+          "product_type": "Foliar Micronutrient Fertilizer",
+          "dose": "5.0 g/L of water (0.5% concentration)",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Apply during evening or cool cloudy days to prevent foliage burn. Mix with 0.1% Citric Acid to double absorption."
+        },
+        {
+          "active_ingredient": "Citric Acid",
+          "product_type": "Solubilizing Agent",
+          "dose": "1.0 g/L of water (0.1% concentration)",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Highly effective at keeping the iron in a soluble form that groundnut leaves can easily absorb."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Iron Deficiency (Iron Chlorosis) is not a disease caused by germs. It is plant starvation that happens in alkaline, chalky, or waterlogged soils. Although iron is in the soil, the plant cannot absorb it, making the youngest top leaves turn paper-white or yellow while the veins stay green. This stops pods from forming, leading to empty shells.",
+      "what_to_do_now": [
+        "Drain any standing water from your groundnut field immediately.",
+        "Foliar spray Ferrous Sulfate (5g/L of water) mixed with Citric Acid (1g/L of water) during the evening.",
+        "Repeat this spray after 10 days to help plants turn green again."
+      ],
+      "what_not_to_do": [
+        "Do not apply excessive phosphorus or lime fertilizers.",
+        "Do not let water stand in the field."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if leaves continue to turn bleached white and dry up at the edges despite spraying Ferrous Sulfate."
+      ],
+      "risk_warning": "Severe iron chlorosis can severely affect pod filling and peg development, leading to empty groundnut shells and up to 20% to 40% loss of your pod harvest."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_nutrition_deficiency_1"
+      ],
+      "segmentation_labels": [
+        "interveinal_chlorosis_young_leaf",
+        "bleached_white_terminal_leaves"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.85",
+        "high": "0.95"
+      },
+      "send_to_expert_if": [
+        "The yellowing is confused with severe virus infections or uniform nitrogen deficiency starting on bottom leaves."
+      ],
+      "image_quality_requirements": [
+        "Clear focus showing the uniform yellowing/bleaching of the youngest top leaves while older lower leaves remain dark green in natural light."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "None (physiological)",
+      "risk_radius": "None",
+      "report_count_threshold": "None",
+      "outbreak_alert_message": "Iron Chlorosis physiological alert! High soil pH and wet soils are locking iron absorption. Spray Ferrous Sulfate + Citric Acid immediately.",
+      "nearby_farm_advice": [
+        "Provide proper field drainage",
+        "Foliar spray FeSO4 @ 0.5% + Citric Acid @ 0.1%",
+        "Plant groundnuts on ridges"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Lime-Induced Iron Chlorosis in Groundnut",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers symptoms of iron deficiencies and specific citric acid synergy guidelines on Arachis hypogaea."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T21:45:00Z",
+      "updated_at": "2024-10-27T21:45:00Z",
+      "reviewed_by": "Senior Soil Chemist / Plant Physiologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "groundnut_rust_1",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Groundnut / Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongfali",
+        "Senga",
+        "Verkadavu",
+        "Nelakadalai",
+        "Pallelu"
+      ],
+      "crop_category": "Oilseeds / Legumes"
+    },
+    "disease": {
+      "name": "rust_1",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Puccinia arachidis"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Pegs"
+      ],
+      "disease_stage": "Flowering to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, isolated, pinhead-sized, orange-to-chestnut brown pustules (uredosori) on the lower leaf surface of older leaves."
+      ],
+      "middle_stage": [
+        "Pustules grow larger, turn reddish-brown, and rupture the leaf epidermis to release a powdery mass of reddish-brown or orange spores.",
+        "Small, corresponding chlorotic (yellow) spots develop on the upper leaf surface."
+      ],
+      "severe_stage": [
+        "Widespread ruptured pustules coat the entire underside of leaves.",
+        "Pustules spread to stems, petioles, and pegs, forming elongated powdery lesions.",
+        "Severely infected leaves turn necrotic, desiccate (dry up), turn brown and brittle, and drop off prematurely (defoliation).",
+        "Rapid defoliation prevents pod filling, resulting in small, shriveled seeds."
+      ],
+      "visible_signs": [
+        "Orange-to-chestnut brown powdery pustules under the leaf blade.",
+        "Reddish-brown powdery mass of spores coating stems and pegs.",
+        "Severe leaf drying and early defoliation.",
+        "Small, shriveled harvested groundnut pods."
+      ],
+      "farmer_reported_signs": [
+        "Powdery orange-brown dust under groundnut leaves",
+        "Dry, burnt-looking leaves falling off early",
+        "Elongated rusty spots on stems",
+        "Very small groundnuts inside pods"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Orange",
+        "Reddish-brown",
+        "Chestnut brown",
+        "Yellow",
+        "Dry necrotic brown"
+      ],
+      "spot_or_patch_shape": "Tiny circular to elongated raised, ruptured, powdery spots (pustules)",
+      "pattern": "Widespread powdery pustule colonies covering the lower leaves and stems",
+      "location_on_plant": "All aerial parts, especially leaf undersides, petioles, stems, and pegs",
+      "starts_from": "Underside of lower leaves and moves rapidly upward",
+      "progression": "Lower leaf orange pustules -> Pustule rupturing -> Spores spread to stems/pegs -> Leaf drying & defoliation -> Pod stunting",
+      "image_clues": [
+        "Look for leaf undersides that are completely covered in raised, ruptured, orange-brown powdery spots that leave a rusty dust on your fingers"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "late_leaf_spot_1",
+        "difference": "Late Leaf Spot produces flat circular carbon-black spots with black concentric spore rings underneath, whereas Rust produces raised orange-brown powdery pustules that rupture.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "early_rust_1",
+        "difference": "Early Rust (early stage) features isolated, intact, unruptured orange-brown under-leaf pustules without active powdery spore release or stem lesions, whereas Rust features ruptured, powdery, brown masses coating foliage, stems, and pegs with severe drying.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool nights with heavy dew",
+        "Warm, humid, and wet days",
+        "Prolonged leaf wetness"
+      ],
+      "temperature_range": "20\u00b0C - 25\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Late Kharif / Winter season",
+      "soil_conditions": [
+        "Non-applicable"
+      ],
+      "field_conditions": [
+        "Volunteer plants in field borders",
+        "Weeds blocking wind and trapping humidity",
+        "Continuous groundnut cropping"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation creating high leaf wetness in the evening"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne urediniospores (conidia)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Volunteer groundnut plants",
+        "Infected crop residues",
+        "Alternative hosts"
+      ],
+      "survival_method": "The fungus survives as urediniospores on volunteer plants or crop residues.",
+      "spread_speed": "Extremely Fast under warm, wet, windy conditions",
+      "nearby_crop_risk": "High for neighboring groundnut fields"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Scattered ruptured orange pustules under bottom leaves; no stem lesions.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out affected lower leaves. Apply contact protective fungicides like Mancozeb."
+      },
+      {
+        "level": "Medium",
+        "description": "Powdery rust pustules covering middle leaves; yellowing spots visible on upper leaflets.",
+        "field_indicator": "10% to 25% foliage showing rusty powdery coating.",
+        "recommended_action": "Spray contact protective fungicides like Chlorothalonil @ 2g/L or systemic Triadimefon."
+      },
+      {
+        "level": "High",
+        "description": "Pustules coating stems and pegs; massive leaf drying and defoliation; pods shriveled.",
+        "field_indicator": ">25% foliage affected with heavy defoliation and stem pustules.",
+        "recommended_action": "Immediately spray highly effective systemic fungicides like Difenoconazole or Tridemorph."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Clean, healthy seed certified free of rust spores.",
+        "Grow moderately resistant or tolerant varieties (such as ALR 1, Sedi)."
+      ],
+      "field_management": [
+        "Keep plants spaced properly.",
+        "Eradicate volunteer groundnut plants during the off-season."
+      ],
+      "irrigation_management": [
+        "Avoid evening overhead irrigation; irrigate early morning."
+      ],
+      "soil_management": [
+        "Non-applicable."
+      ],
+      "crop_rotation": [
+        "Rotate with cereals (sorghum, maize) for 2 seasons."
+      ],
+      "sanitation": [
+        "Regularly remove infected leaves.",
+        "Bury or burn crop residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Inspect the underside of leaves weekly starting 30 days after sowing, checking leaf undersides, petioles, and stems closely."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove and bury infected leaves.",
+        "Avoid sprinkler irrigation.",
+        "Apply a systemic fungicide spray immediately."
+      ],
+      "cultural_control": [
+        "Destroy volunteer plants.",
+        "Ensure crop residue is deeply plowed under."
+      ],
+      "organic_control": [
+        "Foliar spray of Neem Seed Kernel Extract (NSKE) 5%."
+      ],
+      "biological_control": [
+        "Foliar spray of Trichoderma harzianum or Bacillus subtilis @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Highly effective at shielding the leaves and stopping rust spore germination."
+        },
+        {
+          "active_ingredient": "Difenoconazole 25% EC",
+          "product_type": "Systemic Fungicide (Triazole)",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-15 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Provides excellent curative and systemic protection to stop active rust spread."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Groundnut Rust is a highly destructive fungal disease. It makes orange-to-chestnut brown 'pimples' under the leaves that break open and release a rusty, brown powder. It spreads very fast, coating the stems and leaf stalks. It causes the leaves to dry up, look burnt, and fall off, resulting in tiny, empty, or shriveled groundnuts.",
+      "what_to_do_now": [
+        "Avoid watering the plants from above (use drip or furrow irrigation).",
+        "Spray Difenoconazole (1mL/L of water) or Chlorothalonil (2g/L of water) immediately to stop the rust.",
+        "Keep the field boundaries free of volunteer groundnut weeds."
+      ],
+      "what_not_to_do": [
+        "Do not leave old crop waste or fallen leaves in the field.",
+        "Do not use seeds from an infected field for next season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if rust is spreading rapidly to the stems and pegs and leaves are falling in large numbers despite chemical sprays."
+      ],
+      "risk_warning": "Groundnut rust is highly destructive. Widespread leaf loss prevents pod development, reducing your groundnut yields by up to 30% to 70%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_rust_1"
+      ],
+      "segmentation_labels": [
+        "ruptured_powdery_pustule",
+        "stem_pustule_lesion"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The spots are confused with late leaf spot, which lacks raised powdery orange pustules."
+      ],
+      "image_quality_requirements": [
+        "High-contrast images showing clear details of the ruptured, orange-brown powdery pustules under the leaf blade or on the stems."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Groundnut Rust alert! Cool nights and wet days are triggering severe rust spread. Spray systemic Triazole fungicides immediately.",
+      "nearby_farm_advice": [
+        "Avoid overhead irrigation",
+        "Apply systemic Difenoconazole sprays",
+        "Clear fallen leaf debris"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Groundnut Rust and Its Integrated Control",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers mature symptom identification and chemical controls for Puccinia arachidis."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T21:15:00Z",
+      "updated_at": "2024-10-27T21:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "groundnut_dead_leaf",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongphali"
+      ],
+      "crop_category": "Oilseed"
+    },
+    "disease": {
+      "name": "Dead Leaf (Generic)",
+      "category": "Abiotic / Senescence",
+      "pathogen_or_cause": [
+        "Natural aging",
+        "Water stress",
+        "Nutrient deficiency"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Late stage"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Overall yellowing or browning of older leaves."
+      ],
+      "middle_stage": [
+        "Leaves turn completely brown and dry."
+      ],
+      "severe_stage": [
+        "Leaves fall off naturally or remain attached if rapidly desiccated."
+      ],
+      "visible_signs": [
+        "Crispy brown dead leaves at the base."
+      ],
+      "farmer_reported_signs": [
+        "Bottom leaves drying up and dying"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Brown",
+        "Yellow"
+      ],
+      "spot_or_patch_shape": "Whole leaf",
+      "pattern": "Uniform drying",
+      "location_on_plant": "Lower canopy",
+      "starts_from": "Older leaves",
+      "progression": "Yellowing -> Drying -> Dropping",
+      "image_clues": [
+        "Uniformly brown dry leaf with no distinct spots or fuzz."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Leaf Spot (Tikka)",
+        "difference": "Tikka has distinct dark spots with yellow halos, while dead leaf is generally uniform browning without specific distinct spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry"
+      ],
+      "temperature_range": ">35C",
+      "humidity_level": "<50%",
+      "season": "Summer",
+      "soil_conditions": [
+        "Dry"
+      ],
+      "field_conditions": [
+        "Water stress"
+      ],
+      "irrigation_conditions": [
+        "Drought"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "N/A"
+      ],
+      "source_of_infection": [
+        "N/A"
+      ],
+      "survival_method": "N/A",
+      "spread_speed": "N/A",
+      "nearby_crop_risk": "Low"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Natural senescence.",
+        "field_indicator": "Only oldest leaves.",
+        "recommended_action": "Ensure adequate watering."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "N/A"
+      ],
+      "field_management": [
+        "Proper nutrition."
+      ],
+      "irrigation_management": [
+        "Consistent watering."
+      ],
+      "soil_management": [
+        "Mulching."
+      ],
+      "crop_rotation": [
+        "N/A"
+      ],
+      "sanitation": [
+        "N/A"
+      ],
+      "monitoring": [
+        "Monitor soil moisture."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Water the crop if dry."
+      ],
+      "cultural_control": [
+        "None."
+      ],
+      "organic_control": [
+        "None."
+      ],
+      "biological_control": [
+        "None."
+      ],
+      "chemical_control": [],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Leaves dying due to old age or lack of water/nutrients.",
+      "what_to_do_now": [
+        "Check soil moisture."
+      ],
+      "what_not_to_do": [
+        "Don't spray fungicides unnecessarily."
+      ],
+      "when_to_call_expert": [
+        "If young leaves are dying."
+      ],
+      "risk_warning": "No major risk unless widespread."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_dead_leaf"
+      ],
+      "segmentation_labels": [
+        "dead_leaf_tissue"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear shot of the leaf."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "N/A",
+      "risk_radius": "0km",
+      "report_count_threshold": "0",
+      "outbreak_alert_message": "",
+      "nearby_farm_advice": []
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "groundnut_diseased_leaf",
+    "crop": {
+      "common_name": "Groundnut",
+      "english_name": "Peanut",
+      "scientific_name": "Arachis hypogaea",
+      "local_names": [
+        "Moongphali"
+      ],
+      "crop_category": "Oilseed"
+    },
+    "disease": {
+      "name": "Diseased Leaf (Generic)",
+      "category": "Fungal / Unknown",
+      "pathogen_or_cause": [
+        "Fungal complex (Alternaria, Cercospora, etc.)"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Any stage"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Unspecified spots or blighting on the leaf."
+      ],
+      "middle_stage": [
+        "Spots expand, causing tissue necrosis and yellowing."
+      ],
+      "severe_stage": [
+        "Leaf drop and plant weakening."
+      ],
+      "visible_signs": [
+        "Spots, blights, or necrosis on leaves."
+      ],
+      "farmer_reported_signs": [
+        "Leaves looking sick or spotted"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellow",
+        "Brown",
+        "Black"
+      ],
+      "spot_or_patch_shape": "Variable spots",
+      "pattern": "Variable",
+      "location_on_plant": "Leaves",
+      "starts_from": "Anywhere",
+      "progression": "Spotting -> Blighting",
+      "image_clues": [
+        "Leaf with unspecified lesions."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Tikka / Rust",
+        "difference": "This is a generic class for undiagnosed leaf spots.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid"
+      ],
+      "temperature_range": "20-30C",
+      "humidity_level": ">80%",
+      "season": "Monsoon",
+      "soil_conditions": [
+        "Variable"
+      ],
+      "field_conditions": [
+        "Dense planting"
+      ],
+      "irrigation_conditions": [
+        "Overhead"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind",
+        "Water"
+      ],
+      "source_of_infection": [
+        "Debris"
+      ],
+      "survival_method": "Crop residue",
+      "spread_speed": "Variable",
+      "nearby_crop_risk": "Medium"
+    },
+    "severity_levels": [
+      {
+        "level": "Medium",
+        "description": "Spotting on leaves.",
+        "field_indicator": "10% foliage.",
+        "recommended_action": "Apply broad-spectrum fungicide."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Healthy seeds."
+      ],
+      "field_management": [
+        "Weed control."
+      ],
+      "irrigation_management": [
+        "Drip irrigation."
+      ],
+      "soil_management": [
+        "Good drainage."
+      ],
+      "crop_rotation": [
+        "Rotate non-legumes."
+      ],
+      "sanitation": [
+        "Destroy debris."
+      ],
+      "monitoring": [
+        "Scout fields."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove worst affected leaves."
+      ],
+      "cultural_control": [
+        "Sanitation."
+      ],
+      "organic_control": [
+        "Neem spray."
+      ],
+      "biological_control": [
+        "Trichoderma."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Broad-spectrum Fungicide",
+          "dose": "2g/L",
+          "application_method": "Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "10 days",
+          "safety_note": "Apply as protective."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "A generic leaf spot disease requiring broad-spectrum treatment.",
+      "what_to_do_now": [
+        "Spray Mancozeb or Chlorothalonil."
+      ],
+      "what_not_to_do": [
+        "Don't use overhead sprinklers."
+      ],
+      "when_to_call_expert": [
+        "To identify specific pathogen if it doesn't respond to spray."
+      ],
+      "risk_warning": "Yield loss if unchecked."
+    },
+    "model_support": {
+      "classification_labels": [
+        "groundnut_diseased_leaf"
+      ],
+      "segmentation_labels": [
+        "disease_lesion"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "Always, for exact diagnosis."
+      ],
+      "image_quality_requirements": [
+        "Clear photo of spots."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Foliar disease spread.",
+      "nearby_farm_advice": [
+        "Spray broad-spectrum fungicide."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "Medium",
+      "notes": "Generic class for unclassified leaf spots."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  }
+]

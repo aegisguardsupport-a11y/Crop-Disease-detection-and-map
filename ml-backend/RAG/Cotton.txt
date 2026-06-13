@@ -1,0 +1,1789 @@
+[
+  {
+    "id": "cotton_bacterial_blight",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas",
+        "Parthi",
+        "Arathi",
+        "Prathi",
+        "Karpas"
+      ],
+      "crop_category": "Fiber Crop / Cash Crop"
+    },
+    "disease": {
+      "name": "Bacterial Blight",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Xanthomonas axonopodis pv. malvacearum",
+        "Xanthomonas citri pv. malvacearum"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Bolls",
+        "Petioles",
+        "Cotyledons"
+      ],
+      "disease_stage": "All growth stages (Seedling to Boll-Development)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, water-soaked, greasy-looking angular spots on the lower leaf surface, bounded by veinlets."
+      ],
+      "middle_stage": [
+        "Spots expand and turn dark brown to black on the upper leaf surface, maintaining an angular shape.",
+        "Spots may spread along the main veins of the leaf (Vein Blight or Black Vein).",
+        "Water-soaked, circular spots develop on young bolls."
+      ],
+      "severe_stage": [
+        "Black Arm: Elongated, black, sunken cankers girdle the stems and branches, making them brittle and easily broken by wind.",
+        "Boll Rot: Sunken, dark brown-to-black lesions rot the inside of the bolls, preventing them from opening, staining the lint, and destroying fiber quality.",
+        "Severe leaf yellowing and defoliation."
+      ],
+      "visible_signs": [
+        "Angular, water-soaked, greasy leaf spots.",
+        "Blackened leaf veins (Black Vein).",
+        "Black, sunken, girdling cankers on stems (Black Arm).",
+        "Sunken, circular black spots on bolls oozing a slimy bacterial mass under humid conditions."
+      ],
+      "farmer_reported_signs": [
+        "Angular black spots on cotton leaves",
+        "Leaf veins turning black",
+        "Branches turning black and snapping easily",
+        "Bolls rotting and turning black on the plant"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Water-soaked green",
+        "Dark brown to black",
+        "Yellow chlorotic halo"
+      ],
+      "spot_or_patch_shape": "Angular leaf spots (bounded by veins); circular sunken spots on bolls",
+      "pattern": "Angular blocky spots on leaves; elongated blackened cankers on stems",
+      "location_on_plant": "All plant parts, starting on lower leaves and moving to stems, branches, and bolls",
+      "starts_from": "Lower leaf undersides or cotyledons",
+      "progression": "Cotyledon spots -> Angular leaf spots -> Black Vein -> Black Arm (stems) -> Boll Rot",
+      "image_clues": [
+        "Look for leaf spots that are strictly angular (blocky), stopped by leaf veins, looking greasy on the bottom side",
+        "Elongated black lesions on green stems"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Alternaria Leaf Spot",
+        "difference": "Alternaria leaf spots are circular with concentric 'target-board' rings, not angular or vein-limited, and do not cause stem blackening (Black Arm).",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Sucking pest damage (Jassids)",
+        "difference": "Jassids cause leaf edges to turn yellow and red-brown, curling downwards, without forming distinct water-soaked angular spots or stem cankers.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet, and highly humid weather",
+        "Heavy rainstorms or strong winds wounding the leaves"
+      ],
+      "temperature_range": "28\u00b0C - 35\u00b0C",
+      "humidity_level": ">85% RH",
+      "season": "Kharif (Monsoon) season",
+      "soil_conditions": [
+        "Wet, poorly drained clay soils",
+        "High soil nitrogen levels promoting soft succulent tissue"
+      ],
+      "field_conditions": [
+        "Dense planting trapping humidity within the canopy",
+        "Failure to remove previous crop residue"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation spreading bacteria via water splashes"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Splashing rain or sprinkler irrigation water",
+        "Wind-driven rain",
+        "Contaminated farming tools, machinery, and hands",
+        "Sowing infected seeds"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Overwintering bacteria in cotton crop residues",
+        "Volunteer cotton plants"
+      ],
+      "survival_method": "The bacteria survive on infected seed coats, inside fuzz/lint, and inside diseased crop debris in the soil for up to 2 years.",
+      "spread_speed": "Very Fast under warm, wet storm conditions",
+      "nearby_crop_risk": "High for other cotton fields in the block"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated angular greasy spots on bottom leaves of <5% of plants; no stem cankers.",
+        "field_indicator": "Rare, scattered angular spots on lower leaves.",
+        "recommended_action": "Avoid entering fields when wet. Rogue out infected seedlings. Apply copper bactericides."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots spreading to middle canopy leaves; early blackening of veins or minor stem cankers (Black Arm).",
+        "field_indicator": "5% to 15% of plants showing leaf spotting and minor branch blackening.",
+        "recommended_action": "Spray Copper Oxychloride + Streptocycline immediately. Avoid excess nitrogen."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants showing broken branches (Black Arm) and rotting black bolls.",
+        "field_indicator": "Frequent broken branches; bolls covered in sunken black lesions with stained lint.",
+        "recommended_action": "Apply curative Copper Hydroxide + Streptocycline. Harvest mature clean bolls early. Rotate fields for 3 years."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always sow certified disease-free seeds.",
+        "Acid delinting of cotton seeds with concentrated Sulphuric acid (100 ml/kg seed) to kill external bacteria.",
+        "Treat seeds with Streptocycline @ 1g/10L of water before sowing."
+      ],
+      "field_management": [
+        "Maintain proper spacing (at least 60-90 cm between rows) to allow ventilation.",
+        "Keep fields completely free of weeds."
+      ],
+      "irrigation_management": [
+        "Never use overhead sprinklers; use drip or furrow irrigation."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Apply balanced NPK; avoid excessive nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate cotton with non-host crops (maize, wheat, sorghum, pulses) for at least 2-3 years."
+      ],
+      "sanitation": [
+        "Never work in fields when leaves are wet.",
+        "Uproot and burn infected plants.",
+        "Bury or burn crop residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Monitor closely twice a week, checking lower leaf surfaces and stems, starting 20 days after sowing."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead watering.",
+        "Rogue and destroy infected plants immediately.",
+        "Apply copper bactericides to protect healthy plants."
+      ],
+      "cultural_control": [
+        "Destroy weeds.",
+        "Incorporate cotton residues deep into soil to rot.",
+        "Sanitize tools."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+        "Apply copper-based organic formulations."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Oxychloride 50% WP",
+          "product_type": "Contact Protective Bactericide",
+          "dose": "2.0 g to 2.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Helps suppress bacterial spread. Ensure thorough coverage of stems and bolls."
+        },
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Antibiotic Bactericide",
+          "dose": "0.1 g/L of water",
+          "application_method": "Foliar Spray / Seed Treatment",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "20 days",
+          "safety_note": "Highly effective early on. Check local regulations on agricultural antibiotic use."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial Blight is a dangerous bacterial disease of cotton. It starts as greasy-looking, blocky angular spots on leaf bottoms, turns leaf veins black, and creates sunken black wounds on stems (Black Arm), causing branches to snap easily. It also rots the cotton bolls, staining and destroying the cotton lint inside.",
+      "what_to_do_now": [
+        "Pull out any heavily black-stemmed plants and burn or bury them.",
+        "Stop watering from above (sprinklers).",
+        "Spray Copper Oxychloride (2.5g/L) + Streptocycline (0.1g/L) immediately to protect the healthy plants."
+      ],
+      "what_not_to_do": [
+        "Never work in your cotton field when the leaves are wet from dew or rain, as you will carry the bacteria to healthy plants on your clothes and tools.",
+        "Do not use seeds from an infected field for next season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if branch snapping (Black Arm) and boll rotting are spreading rapidly during heavy monsoon rains."
+      ],
+      "risk_warning": "Bacterial blight is highly destructive. If ignored during warm, wet weather, it can cause severe branch breakage and rot 30% to 50% of your cotton bolls."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_bacterial_blight"
+      ],
+      "segmentation_labels": [
+        "angular_greasy_leaf_spot",
+        "black_arm_stem_canker",
+        "boll_rot_lesion"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "The model confuses physical wind damage or branch breakage with Black Arm stem cankers."
+      ],
+      "image_quality_requirements": [
+        "High-resolution photos focusing on the angular, vein-limited leaf spots, or a close-up of the black sunken cankers on the stems."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Blight Alert! Warm, wet weather is triggering angular leaf spot and Black Arm in cotton. Apply preventive copper bactericides.",
+      "nearby_farm_advice": [
+        "Do not work in wet fields",
+        "Disinfect farming tools with bleach",
+        "Apply preventive copper spray"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Pest and Disease Management in Cotton",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers acid delinting parameters and copper-streptocycline guidelines."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T19:00:00Z",
+      "updated_at": "2024-10-27T19:00:00Z",
+      "reviewed_by": "Senior Plant Bacteriologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cotton_leaf_curl_virus",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas",
+        "Parthi",
+        "Arathi",
+        "Prathi",
+        "Karpas"
+      ],
+      "crop_category": "Fiber Crop / Cash Crop"
+    },
+    "disease": {
+      "name": "Curl Virus",
+      "category": "Viral",
+      "pathogen_or_cause": [
+        "Cotton Leaf Curl Begomovirus (CLCuV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Bolls"
+      ],
+      "disease_stage": "All growth stages (Seedling to Boll-Development)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Mild vein clearing and upward/downward curling of the margins of young terminal leaves."
+      ],
+      "middle_stage": [
+        "Severe upward or downward curling, puckering, crinkling, and thickening of leaves.",
+        "Leaf veins turn thick, dark green, and leathery.",
+        "Formation of cup-shaped or leaf-like outgrowths (enations) on the undersides of leaves along the main veins."
+      ],
+      "severe_stage": [
+        "Extreme stunting of the plant with short internodes, making it look dense and bushy.",
+        "Flowers are deformed, sterile, and drop off.",
+        "Bolls are extremely small, deformed, fail to open, and produce low-quality fiber or fall off prematurely."
+      ],
+      "visible_signs": [
+        "Upward/downward curled, puckered, thick, leathery leaves.",
+        "Leaf-like or cup-shaped outgrowths (enations) under the leaves.",
+        "Stunted, bushy cotton plants.",
+        "Tiny, white-winged insects (whiteflies) clustering under leaves."
+      ],
+      "farmer_reported_signs": [
+        "Cotton leaves curling up or down like cups",
+        "Thick green leaf veins",
+        "Leaf-like small ears growing under leaves",
+        "Stunted bushy cotton plants bearing few bolls"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Thickened dark green veins",
+        "Pale green deformed bolls"
+      ],
+      "spot_or_patch_shape": "None (leaf crinkling, curling, and distortion)",
+      "pattern": "Curling and cupping of the entire leaf foliage; thick vein network",
+      "location_on_plant": "Terminal young leaves first, rapidly affecting the entire canopy",
+      "starts_from": "Terminal buds and young emerging leaves",
+      "progression": "Young leaves curl -> Veins thicken -> Under-leaf enations appear -> Internodes shorten, plant stunts -> Small deformed bolls",
+      "image_clues": [
+        "Look for upward-cupped leaves with prominent veins",
+        "Look for small warty or leaf-like growths (enations) on the leaf undersides along the veins"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Herbicide Growth Damage (2,4-D)",
+        "difference": "2,4-D damage causes leaf narrowing (strapping) and parallel veins like an onion leaf, but does not cause under-leaf leaf-like outgrowths (enations) or attract whitefly colonies.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Leaf Hopper (Jassid) damage",
+        "difference": "Jassids cause leaf margins to turn yellow and red-brown, curling downwards, with a burnt margin (hopperburn), but do not cause vein thickening or under-leaf enations.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Dry and hot weather which favors whitefly vector multiplication and migration",
+        "Lack of rainfall"
+      ],
+      "temperature_range": "28\u00b0C - 38\u00b0C",
+      "humidity_level": "<65% RH",
+      "season": "Summer and Spring seasons",
+      "soil_conditions": [
+        "Dry, stressed soils"
+      ],
+      "field_conditions": [
+        "Presence of alternative host weeds in field boundaries",
+        "Cotton crops planted next to tomatoes, tobacco, or chili"
+      ],
+      "irrigation_conditions": [
+        "Under-irrigation causing plant stress and dry field conditions attractive to whiteflies"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Whitefly (Bemisia tabaci) vector in a persistent, circulative manner"
+      ],
+      "source_of_infection": [
+        "Infected weed hosts",
+        "Alternative host crops (tomato, tobacco, chili, eggplant, okra)"
+      ],
+      "survival_method": "The virus survives in alternative host crops and weed species and is carried over continuously by active whiteflies.",
+      "spread_speed": "Very Fast once whitefly populations explode",
+      "nearby_crop_risk": "High for other cotton and solanaceous crops nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing mild curling of young leaves; few whiteflies seen.",
+        "field_indicator": "Isolated plants with slightly curled leaves.",
+        "recommended_action": "Rogue out infected plants immediately. Set up yellow sticky traps. Spray Neem Oil @ 3%."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing clear upward cupping, vein thickening, and under-leaf enations.",
+        "field_indicator": "Patchy distribution of curled, stunted plants.",
+        "recommended_action": "Rogue infected plants. Spray systemic insecticides like Imidacloprid or Flonicamid to control whiteflies."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely stunted, with leathery leaves, enations, and zero or small deformed bolls.",
+        "field_indicator": "Field looks uneven, bushy, and pale, with severely reduced yield.",
+        "recommended_action": "Spray Spiromesifen or Thiamethoxam immediately. Keep weed boundaries clean."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Grow leaf curl virus-resistant/tolerant cotton hybrids.",
+        "Treat seeds with Imidacloprid 70% WS @ 5-10 g/kg of seed to protect seedlings."
+      ],
+      "field_management": [
+        "Install yellow sticky traps @ 10-15 per acre at canopy level to monitor and trap whiteflies.",
+        "Maintain clean, weed-free boundaries."
+      ],
+      "irrigation_management": [
+        "Keep soil moisture optimum to avoid stressing plants, which makes them susceptible."
+      ],
+      "soil_management": [
+        "Apply balanced nutrients to encourage strong natural plant defenses."
+      ],
+      "crop_rotation": [
+        "Do not plant cotton near tomato, tobacco, chili, okra, or eggplant fields.",
+        "Rotate with non-host crops like wheat, maize, or millets."
+      ],
+      "sanitation": [
+        "Regularly rogue out infected plants in the early stages, bag them, and burn them outside the field.",
+        "Eradicate weed hosts in and around the field."
+      ],
+      "monitoring": [
+        "Scout the field twice a week, checking young leaves for curl patterns and leaf undersides for whitefly activity."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue and destroy infected yellow plants.",
+        "Hang yellow sticky traps.",
+        "Apply a systemic insecticide foliar spray immediately."
+      ],
+      "cultural_control": [
+        "Plant 3-4 rows of barrier crops (maize, sorghum, or millet) around the cotton field to block migrating whiteflies.",
+        "Destroy and bury weed hosts."
+      ],
+      "organic_control": [
+        "Foliar spray of Neem Oil @ 3% (30 mL/L) at 20 and 45 days after transplanting.",
+        "Spray Neem Seed Kernel Extract (NSKE) 5%."
+      ],
+      "biological_control": [
+        "Apply Pseudomonas fluorescens or Bacillus subtilis as soil drench and foliar spray to improve plant defense."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Target whiteflies. Spray in the evening when bees are not active."
+        },
+        {
+          "active_ingredient": "Flonicamid 50% WG",
+          "product_type": "Systemic Insecticide (Anti-feeding agent)",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "15 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Highly effective at stopping whiteflies from feeding and transmitting the virus."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Cotton Leaf Curl is a dangerous virus disease carried and spread by tiny white insects called whiteflies. Once infected, the plants cannot be cured. The leaves curl up or down, grow thick and hard, and develop small leaf-like outgrowths (enations) underneath. The plant stops growing and produces very few, small, deformed bolls.",
+      "what_to_do_now": [
+        "Pull out any yellow, curly plants immediately, put them in a plastic bag, and bury or burn them away from the field.",
+        "Hang yellow sticky traps in the field to catch whiteflies.",
+        "Spray Imidacloprid (0.5mL/L) or Flonicamid (0.3g/L) to kill whiteflies under the leaves."
+      ],
+      "what_not_to_do": [
+        "Do not leave infected curly plants in the field, as whiteflies will carry the virus from them to healthy plants.",
+        "Do not let weeds grow on your field borders."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if whitefly populations remain high and more than 15% of your field has curled leaves despite chemical sprays."
+      ],
+      "risk_warning": "Early infection (within 40 days of sowing) can lead to severe stunting, reducing your cotton boll harvest by up to 50% to 80%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_leaf_curl_virus"
+      ],
+      "segmentation_labels": [
+        "leaf_upward_curling",
+        "thickened_green_vein",
+        "leaf_enation_under_surface"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "The model confuses curling caused by 2,4-D herbicide damage with viral leaf curl."
+      ],
+      "image_quality_requirements": [
+        "High-resolution photos focusing on the upward-cupped leaves or under-leaf enation outgrowths along veins in natural light."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10 km",
+      "report_count_threshold": "6",
+      "outbreak_alert_message": "Cotton Leaf Curl warning! Whitefly vector populations are rising rapidly in your area due to dry weather. Monitor and spray whiteflies immediately.",
+      "nearby_farm_advice": [
+        "Deploy yellow sticky traps immediately",
+        "Control whiteflies with Imidacloprid",
+        "Rogue out early symptomatic plants"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Cotton Leaf Curl Disease and Its Vectors",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers both CLCuV and vector whitefly biology on Gossypium hirsutum."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T19:15:00Z",
+      "updated_at": "2024-10-27T19:15:00Z",
+      "reviewed_by": "Senior Virologist / Entomologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cotton_herbicide_growth_damage",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas",
+        "Parthi",
+        "Arathi",
+        "Prathi",
+        "Karpas"
+      ],
+      "crop_category": "Fiber Crop / Cash Crop"
+    },
+    "disease": {
+      "name": "Herbicide Growth Damage",
+      "category": "Abiotic Chemical Injury",
+      "pathogen_or_cause": [
+        "Off-target herbicide drift (mainly 2,4-D or Glyphosate)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Petioles",
+        "Growing tips"
+      ],
+      "disease_stage": "Vegetative to Early Flowering"
+    },
+    "symptoms": {
+      "early_stage": [
+        "2,4-D Injury: Rapid twisting, curling, and bending of young stems and leaf stalks (epinasty) within 24-48 hours of exposure.",
+        "Glyphosate Injury: Light-yellowing (chlorosis) starting at the base of the youngest terminal leaves."
+      ],
+      "middle_stage": [
+        "2,4-D Injury: Leaves grow abnormally long, narrow, and strap-like with parallel veins ('strapping' or 'onion-leafing'). Margins cup tightly downward.",
+        "Glyphosate Injury: Severe yellowing spreading across the canopy; vegetative growth halts completely."
+      ],
+      "severe_stage": [
+        "2,4-D Injury: Stem splitting, puckering, or blistering of leaves; plants fail to produce normal bolls on early nodes.",
+        "Glyphosate Injury: Slow browning and drying up (necrosis) of growing tips and leaves; eventual death of sensitive non-resistant plants."
+      ],
+      "visible_signs": [
+        "Extremely narrow, ribbon-like leaves with parallel veins (2,4-D).",
+        "Rapid twisting/curling of stems (2,4-D).",
+        "Bright yellow terminal growing tips (Glyphosate).",
+        "Stunted, deformed plant architecture."
+      ],
+      "farmer_reported_signs": [
+        "Cotton leaves growing long and narrow like onion leaves",
+        "Twisted green leaf stems",
+        "Yellowing tops of cotton plants after nearby weed sprays",
+        "Blistered bubbly leaf surfaces"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing of young leaves (Glyphosate)",
+        "Reddish-brown patches on stems (2,4-D)"
+      ],
+      "spot_or_patch_shape": "None (leaf deformation, strapping, and chlorosis)",
+      "pattern": "Uniform strapping of new leaves (2,4-D) or uniform yellowing of young growth (Glyphosate)",
+      "location_on_plant": "Terminal growing points and newly emerging leaves",
+      "starts_from": "Active growing points / Meristems",
+      "progression": "Herbicide exposure -> Twisting of stems -> Leaf strapping or terminal yellowing -> Stunted plant growth -> Altered boll development",
+      "image_clues": [
+        "Look for cotton leaves that look like long green ribbons or onion leaves instead of normal broad palm-shaped cotton leaves",
+        "Look for twisted leaf stems"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cotton Leaf Curl Virus",
+        "difference": "Leaf curl virus causes upward/downward leaf cupping, thick leathery texture, and leafy under-leaf outgrowths (enations), but does not cause narrow ribbon-like leaves (strapping) or parallel veins.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Leaf Hopper (Jassid) damage",
+        "difference": "Jassids cause leaf margins to turn yellow and red-brown, curling downwards (hopperburn), without leaf strapping or stem twisting.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Windy conditions during nearby herbicide sprays (causing drift)",
+        "Temperature inversions or stable air carrying fine spray droplets",
+        "Hot, dry conditions increasing herbicide volatility"
+      ],
+      "temperature_range": "Varies (worst under high temperatures promoting volatility of ester formulations)",
+      "humidity_level": "Varies",
+      "season": "Early vegetative stage (correlated with nearby cereal weed control)",
+      "soil_conditions": [
+        "Non-applicable"
+      ],
+      "field_conditions": [
+        "Spraying weeds in nearby maize or sugarcane fields with 2,4-D",
+        "Using contaminated spray equipment"
+      ],
+      "irrigation_conditions": [
+        "Non-applicable"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Physical wind-borne drift of herbicide spray droplets",
+        "Vapor drift of volatile herbicides"
+      ],
+      "source_of_infection": [
+        "Off-target spray application in neighboring fields",
+        "Contaminated spray tanks/hoses"
+      ],
+      "survival_method": "Non-applicable",
+      "spread_speed": "Very Fast (visual twisting within 1-2 days after drift exposure)",
+      "nearby_crop_risk": "None (only affects plants physically exposed to drift)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Minor stem twisting; few top leaves showing slight strapping or yellowing.",
+        "field_indicator": "Isolated plants or field border showing mild twisting.",
+        "recommended_action": "Avoid further drift. Provide light irrigation and light nitrogen fertilizer to help plants outgrow mild stress."
+      },
+      {
+        "level": "Medium",
+        "description": "Clear leaf strapping ('onion-leafing') and terminal yellowing on up to 20% of plants; growth is slowed.",
+        "field_indicator": "Border rows or sections of the field showing uniform strapping and yellowing.",
+        "recommended_action": "Ensure soil moisture is optimal. Do not apply further growth regulators. Plants may slowly recover but maturity will be delayed."
+      },
+      {
+        "level": "High",
+        "description": "Severe plant stunting, leaf blistering, and death of growing tips across a large area.",
+        "field_indicator": "Large sections of the field showing warped, blistered, narrow-leaved plants.",
+        "recommended_action": "Heavily affected non-resistant plants will not produce normal yields. Plan to manage remaining healthy areas and use resistant cultivars in future seasons."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Grow herbicide-resistant cotton hybrids (e.g., Enlist cotton for 2,4-D tolerance; Roundup Ready Flex for Glyphosate tolerance) if drift is common."
+      ],
+      "field_management": [
+        "Always spray nearby weed fields with low-drift nozzles producing coarse droplets.",
+        "Maintain physical buffer zones between cotton and nearby sprayed fields.",
+        "Avoid spraying during windy days or temperature inversions."
+      ],
+      "irrigation_management": [
+        "Keep soil moisture optimal to reduce abiotic plant stress."
+      ],
+      "soil_management": [
+        "Non-applicable."
+      ],
+      "crop_rotation": [
+        "Non-applicable."
+      ],
+      "sanitation": [
+        "Thoroughly triple-rinse and clean spray equipment using tank cleaners immediately after spraying herbicides to prevent cross-contamination."
+      ],
+      "monitoring": [
+        "Inspect field borders regularly, especially downwind of neighboring fields, starting from 15 days after emergence."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Water the crop to help dilute herbicide stress.",
+        "Apply a light foliar spray of Urea (1-2%) to stimulate vegetative recovery.",
+        "Do not apply any further chemical growth regulators."
+      ],
+      "cultural_control": [
+        "Use physical windbreaks or buffer crops around fields.",
+        "Cultivate when wind directions are blowing away from the cotton field."
+      ],
+      "organic_control": [
+        "Apply organic bio-stimulants or seaweed extracts to help plants recover from chemical shock."
+      ],
+      "biological_control": [
+        "Non-applicable."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "None (Chemical Injury)",
+          "product_type": "Not applicable",
+          "dose": "Do not apply chemical pesticides",
+          "application_method": "Non-applicable",
+          "spray_interval": "Non-applicable",
+          "pre_harvest_interval": "Non-applicable",
+          "safety_note": "Do not apply any herbicide or pesticide; apply only recovery nutrients like Urea foliar sprays."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Herbicide Growth Damage is not a disease caused by germs. It is chemical poisoning that happens when weed-killer sprays (like 2,4-D or Glyphosate) used in nearby fields drift onto your cotton plants on windy days, or if you use a dirty spray tank. It twists the stems and makes new leaves grow narrow and long like green ribbons or onion leaves, stunting the crop.",
+      "what_to_do_now": [
+        "Water your cotton crop to reduce chemical shock.",
+        "Spray 1% to 2% Urea on the plants to help them grow new healthy green leaves.",
+        "Ensure sprayers are thoroughly cleaned with tank cleaners before using them on cotton."
+      ],
+      "what_not_to_do": [
+        "Do not spray any chemical growth hormones or weed killers to fix the problem; it will worsen the damage.",
+        "Do not spray herbicides in nearby fields on windy days."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if leaves are blistered and growing tips are completely dead across a large portion of your field."
+      ],
+      "risk_warning": "Severe herbicide drift can cause permanent plant stunting, delay cotton boll maturity, and reduce your fiber yield by 20% to 50%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_herbicide_growth_damage"
+      ],
+      "segmentation_labels": [
+        "narrowed_strapped_leaf",
+        "twisted_stem_epinasty"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.85",
+        "high": "0.95"
+      },
+      "send_to_expert_if": [
+        "The symptoms are confused with viral leaf curl or genetic variegation."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the narrow, strapped ribbon-like leaves or the twisted, bent green petioles in bright daylight."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "None (chemical)",
+      "risk_radius": "None",
+      "report_count_threshold": "None",
+      "outbreak_alert_message": "Herbicide drift warning! Weed sprays in neighboring cereal crops can severely damage sensitive cotton. Avoid spraying on windy days.",
+      "nearby_farm_advice": [
+        "Use drift-reducing nozzles",
+        "Thoroughly clean spray equipment",
+        "Apply light nitrogen to injured cotton"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Herbicide Injury Symptoms in Cotton",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers distinct 2,4-D and glyphosate injury symptoms on Gossypium hirsutum."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T19:30:00Z",
+      "updated_at": "2024-10-27T19:30:00Z",
+      "reviewed_by": "Senior Weed Scientist / Agronomist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cotton_leaf_hopper_jassids",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas",
+        "Parthi",
+        "Arathi",
+        "Prathi",
+        "Karpas"
+      ],
+      "crop_category": "Fiber Crop / Cash Crop"
+    },
+    "disease": {
+      "name": "Leaf Hopper Jassids",
+      "category": "Insect Pest",
+      "pathogen_or_cause": [
+        "Amrasca biguttula biguttula"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Vegetative to Boll-Development"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Nymphs and adults feed on leaf undersides, sucking sap.",
+        "Young leaf margins start yellowing and curl gently downward."
+      ],
+      "middle_stage": [
+        "Leaf margins turn bronze, rust-red, or brick-red, extending toward the leaf midrib.",
+        "Leaves start looking thick and dry at the edges."
+      ],
+      "severe_stage": [
+        "Hopperburn: The entire leaf dry up completely (necrosis), becomes brittle, and sheds prematurely (defoliation).",
+        "Severe plant stunting, leading to premature shedding of buds, flowers, and bolls.",
+        "Heavy reduction in fiber yield and lint quality."
+      ],
+      "visible_signs": [
+        "Downward curled leaf margins with yellow-to-brick-red edges.",
+        "Brittle dry leaves.",
+        "Tiny, wedge-shaped, greenish-yellow insects (jassids) walking diagonally on the undersides of leaves."
+      ],
+      "farmer_reported_signs": [
+        "Cotton leaf edges turning red and curling down",
+        "Dry burnt leaf borders",
+        "Tiny green insects walking sideways under the leaves",
+        "Bolls and flowers dropping early"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing margins",
+        "Bronze to brick-red coloration",
+        "Necrotic brown edges"
+      ],
+      "spot_or_patch_shape": "Edge-limited drying and discoloration (hopperburn)",
+      "pattern": "Downward curling and margin reddening across the leaf borders",
+      "location_on_plant": "Mainly on middle and lower leaves of the canopy",
+      "starts_from": "Leaf margins on the undersides",
+      "progression": "Sap sucking on undersides -> Margin yellowing -> Edge reddening -> Brittle dry leaf -> Defoliation -> Boll drop",
+      "image_clues": [
+        "Look for leaf borders that are turned downwards and are bright yellow or brick-red, while the leaf center remains green",
+        "Look for tiny greenish-yellow wedge-shaped insects under leaves"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Leaf Redding (Lalya)",
+        "difference": "Physiological leaf reddening turns the entire leaf blade deep red including the veins, without leaf margin downward curling or diagnostic diagonal-walking jassid insects. A jassid-reddened leaf will shatter into small dry pieces when crumpled in a fist, whereas a physiological red leaf unfolds flat.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Blight",
+        "difference": "Bacterial blight causes angular, blocky, water-soaked dark spots on leaf blades, rather than margin-limited yellowing/reddening and curling.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Dry and warm weather",
+        "Lack of heavy rain showers to wash off nymphs",
+        "High morning humidity followed by warm days"
+      ],
+      "temperature_range": "25\u00b0C - 35\u00b0C",
+      "humidity_level": "70% - 85% RH",
+      "season": "Late Kharif / Summer",
+      "soil_conditions": [
+        "Non-applicable"
+      ],
+      "field_conditions": [
+        "Excessive application of nitrogenous fertilizers producing lush, green succulent leaves",
+        "Weedy boundaries hosting jassids"
+      ],
+      "irrigation_conditions": [
+        "Frequent light watering promoting succulent foliage"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Adult leafhoppers (highly active flyers and jumpers)"
+      ],
+      "source_of_infection": [
+        "Alternative weed hosts",
+        "Infected nearby crops (okra, brinjal, potato)"
+      ],
+      "survival_method": "The leafhoppers survive on wild solanaceous and malvaceous weeds during off-seasons and migrate to cotton during early growth.",
+      "spread_speed": "Fast under warm, dry weather conditions",
+      "nearby_crop_risk": "High for nearby okra, brinjal, and other cotton fields"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few leaves showing yellow margins (<5% leaves affected); less than 1 jassid per leaf.",
+        "field_indicator": "Isolated plants with slightly curled green leaf margins.",
+        "recommended_action": "Spray Neem Seed Kernel Oil Extract (NSKE) 5% or Neem Oil. Protect ladybugs."
+      },
+      {
+        "level": "Medium",
+        "description": "1 to 2 jassids per leaf; leaf margins turning rust-red on up to 20% of plants.",
+        "field_indicator": "Visible red edges on lower foliage; minor shedding of lower buds.",
+        "recommended_action": "Foliar spray of Imidacloprid or Acetamiprid. Avoid over-applying nitrogen."
+      },
+      {
+        "level": "High",
+        "description": "Over 2 jassids per leaf (or hopperburn on >20% leaves); heavy defoliation and boll dropping.",
+        "field_indicator": "Large sections of the field showing brick-red, dry, brittle leaves and high boll drop.",
+        "recommended_action": "Spray Flonicamid or Diafenthiuron immediately to halt feeding and prevent crop failure."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Cultivate hairy (hirsute) cotton varieties which deter jassids.",
+        "Treat seeds before sowing with Imidacloprid 70% WS @ 5-10 g/kg of seed."
+      ],
+      "field_management": [
+        "Plant early in the season to avoid peak leafhopper windows.",
+        "Avoid excessive nitrogenous fertilizers."
+      ],
+      "irrigation_management": [
+        "Avoid water stress or over-irrigation."
+      ],
+      "soil_management": [
+        "Non-applicable."
+      ],
+      "crop_rotation": [
+        "Rotate with non-host crops like wheat, mustard, or sorghum."
+      ],
+      "sanitation": [
+        "Keep fields and borders weed-free.",
+        "Destroy crop residues post-harvest."
+      ],
+      "monitoring": [
+        "Monitor twice a week, checking the undersides of 50 leaves across the field starting 30 days after sowing. Note economic threshold (1-2 jassids/leaf)."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Inspect the crop for nymphs on leaf undersides.",
+        "Avoid applying nitrogenous fertilizers.",
+        "Apply a targeted systemic insecticide."
+      ],
+      "cultural_control": [
+        "Eradicate weed hosts from field borders.",
+        "Avoid delayed sowing."
+      ],
+      "organic_control": [
+        "Foliar spray of Neem Seed Kernel Extract (NSKE) 5% or Neem Oil @ 3% as a repellent."
+      ],
+      "biological_control": [
+        "Conserve and release green lacewings (Chrysoperla carnea) @ 50,000/acre weekly."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Flonicamid 50% WG",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-15 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Excellent selective insecticide. Stops jassid feeding within hours and is safe for beneficial predators."
+        },
+        {
+          "active_ingredient": "Diafenthiuron 50% WP",
+          "product_type": "Contact + Stomach Poison Insecticide",
+          "dose": "1.2 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "20 days",
+          "safety_note": "Highly effective against both jassids and whiteflies; provides strong knockdown."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Cotton Jassids are tiny, greenish-yellow jumping bugs that live under the leaves. They suck the plant's sap and inject poison, making the leaf edges turn yellow, then red-brown, and curl downwards like cups. Eventually, the leaves dry up like paper and fall off, causing bolls to drop early.",
+      "what_to_do_now": [
+        "Check the undersides of leaves for tiny green insects walking sideways.",
+        "Avoid using urea/nitrogen fertilizers when jassid populations are high.",
+        "Spray Flonicamid (0.3g/L) or Diafenthiuron (1.2g/L) to control the pests."
+      ],
+      "what_not_to_do": [
+        "Do not delay spraying once you see yellow/red curled leaf edges.",
+        "Do not allow weeds to grow on your field borders."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if jassids are in high numbers (>2 per leaf) and leaves are drying up rapidly despite insecticide spraying."
+      ],
+      "risk_warning": "Heavy leaf hopper infestation (hopperburn) can destroy the leaf canopy, causing massive flower and boll drop, reducing lint yield by up to 40%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_leaf_hopper_jassids"
+      ],
+      "segmentation_labels": [
+        "hopperburn_margin_reddening",
+        "leaf_downward_curling"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.78",
+        "high": "0.90"
+      },
+      "send_to_expert_if": [
+        "The symptoms are confused with physiological Leaf Redding (Lalya)."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the leaf margins showing downward curling and yellow-to-brick-red edges, or macro photos of the tiny greenish jassids on the leaf underside."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Leaf Hopper Alert! Warm, dry conditions are favoring jassid multiplication. Check leaf undersides and spray Flonicamid immediately.",
+      "nearby_farm_advice": [
+        "Rogue weeds in boundaries",
+        "Monitor jassid ETL levels",
+        "Apply preventive neem sprays"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Insect Pests of Cotton and Their Management",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers ETL guidelines and recommended neonicotinoid doses on cotton."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T19:45:00Z",
+      "updated_at": "2024-10-27T19:45:00Z",
+      "reviewed_by": "Senior Agricultural Entomologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cotton_leaf_reddening",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas",
+        "Parthi",
+        "Arathi",
+        "Prathi",
+        "Karpas"
+      ],
+      "crop_category": "Fiber Crop / Cash Crop"
+    },
+    "disease": {
+      "name": "Leaf Redding",
+      "category": "Physiological Disorder",
+      "pathogen_or_cause": [
+        "Abiotic stress (Nitrogen & Magnesium deficiency, cold night temperatures, waterlogging/drought)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Bolls"
+      ],
+      "disease_stage": "Flowering to Boll-Development"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Lower leaves of the cotton canopy start showing faint yellowing of margins during flowering."
+      ],
+      "middle_stage": [
+        "Discoloration spreads from leaf margins to the veins and the rest of the leaf blade, turning it a deep red color.",
+        "Leaves retain their elasticity initially."
+      ],
+      "severe_stage": [
+        "Lalya: Reddened leaves turn dry, hard, and highly brittle.",
+        "Crumpled leaves easily shatter into pieces under hand pressure.",
+        "Severe premature leaf drop (defoliation).",
+        "Stems can turn red; bolls fail to develop fully, split prematurely, and produce low-quality fiber."
+      ],
+      "visible_signs": [
+        "Vibrant deep red-to-purple lower leaves.",
+        "Brittle dry foliage.",
+        "Reddish discoloration of stems.",
+        "Stunted bolls cracking early."
+      ],
+      "farmer_reported_signs": [
+        "Cotton leaves turning completely red (Lalya)",
+        "Red dry leaves that break easily",
+        "Cotton stems turning red",
+        "Bolls opening early with poor cotton lint"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing margins",
+        "Deep red to purple leaf blade and veins",
+        "Reddish stems"
+      ],
+      "spot_or_patch_shape": "None (entire leaf turns red uniformly)",
+      "pattern": "Uniform reddening of the entire leaf blade starting from bottom canopy upward",
+      "location_on_plant": "Lower, older leaves first, progressing to middle leaves and stems",
+      "starts_from": "Older leaves at the base of the plant",
+      "progression": "Flowering stage lower leaves yellow -> Red pigment (anthocyanin) accumulation -> Stems turn red -> Brittle leaf drop -> Stunted bolls",
+      "image_clues": [
+        "Look for a cotton plant where the bottom leaves are completely deep red (or purple) while the veins and stem look slightly red, but without leaf strapping or pest webbing"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Leaf Hopper (Jassid) damage",
+        "difference": "Jassid reddening is limited to leaf borders which curl downwards and burn, whereas physiological Leaf Redding turns the entire leaf blade red. When crumpled in a fist, a jassid-damaged leaf shatters into tiny dry fragments, whereas a physiological red leaf unfolds mostly whole.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Blight",
+        "difference": "Bacterial blight causes angular, blocky, water-soaked dark spots on leaves rather than uniform deep red leaf blades.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Sudden drops in night temperatures (below 21\u00b0C) during flowering/boll stage",
+        "Prolonged waterlogging depriving roots of oxygen",
+        "Drought stress locking soil nutrients"
+      ],
+      "temperature_range": "Night temperatures below 20\u00b0C with warm sunny days",
+      "humidity_level": "Varies",
+      "season": "Late Kharif (Autumn) / Boll-Development phase",
+      "soil_conditions": [
+        "Nutrient-deficient soils (especially low nitrogen and magnesium)",
+        "Poorly drained, heavy clay soils prone to waterlogging"
+      ],
+      "field_conditions": [
+        "Water accumulation in fields due to poor drainage",
+        "Bt cotton hybrids which have high nutrient demands during boll loading"
+      ],
+      "irrigation_conditions": [
+        "Excessive irrigation or flooding causing waterlogging",
+        "Under-irrigation causing severe drought stress"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Non-transmissible (abiotic physiological disorder)"
+      ],
+      "source_of_infection": [
+        "None"
+      ],
+      "survival_method": "Non-applicable",
+      "spread_speed": "Slow (gradual development across the field during temperature drops and boll load)",
+      "nearby_crop_risk": "None"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint yellowing or light reddish tints on the margins of lowest 2-3 leaves.",
+        "field_indicator": "<10% plants showing early leaf margin yellowing/reddening.",
+        "recommended_action": "Spray Urea @ 2% or DAP @ 2% to supply nitrogen quickly."
+      },
+      {
+        "level": "Medium",
+        "description": "Entire leaf blades of lower canopy looking deep red; veins starting to turn red.",
+        "field_indicator": "10% to 30% of plants showing red lower foliage.",
+        "recommended_action": "Spray Magnesium Sulphate @ 1% combined with Urea @ 2% or DAP @ 2%. Ensure field drainage is clear."
+      },
+      {
+        "level": "High",
+        "description": "Lower and middle leaves dry, brittle, and dropping; stems red; bolls splitting early.",
+        "field_indicator": ">30% of foliage completely red/brittle; visible defoliation.",
+        "recommended_action": "Repeat Magnesium Sulphate (1%) and Urea (2%) sprays twice, spaced 10 days apart. Provide light irrigation if dry. Plan soil magnesium applications for next sowing."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Ensure balanced hybrid selection. Bt cotton has higher nutrient demands."
+      ],
+      "field_management": [
+        "Keep soil moisture levels balanced; avoid waterlogging.",
+        "Construct proper drainage channels in the field."
+      ],
+      "irrigation_management": [
+        "Water lightly during dry spells; never allow fields to flood or waterlog during flowering/boll stages."
+      ],
+      "soil_management": [
+        "Basal application: Apply Magnesium Sulphate @ 20-25 kg per hectare directly to the soil at sowing.",
+        "Maintain balanced NPK fertilizer application."
+      ],
+      "crop_rotation": [
+        "Non-applicable for abiotic disorders."
+      ],
+      "sanitation": [
+        "Non-applicable."
+      ],
+      "monitoring": [
+        "Monitor closely weekly during flowering and boll development, especially when night temperatures start dropping in Autumn."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Clear any standing water from the field immediately.",
+        "Apply foliar sprays of Nitrogen (Urea) and Magnesium Sulphate.",
+        "Water lightly if field is dry."
+      ],
+      "cultural_control": [
+        "Improve field drainage channels.",
+        "Avoid late sowing."
+      ],
+      "organic_control": [
+        "Apply rich organic compost or vermicompost to the soil.",
+        "Foliar spray of organic seaweed extracts."
+      ],
+      "biological_control": [
+        "Non-applicable."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Magnesium Sulphate (MgSO4)",
+          "product_type": "Foliar & Soil Fertilizer (To treat Magnesium deficiency)",
+          "dose": "10.0 g to 15.0 g/L of water (1.0% to 1.5%)",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Apply during flowering and boll development stages. Can be safely mixed with Urea."
+        },
+        {
+          "active_ingredient": "Urea / DAP (Di-ammonium Phosphate)",
+          "product_type": "Foliar Nitrogen Fertilizer",
+          "dose": "20.0 g/L of water (2.0%)",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Ensure fertilizer is completely dissolved in water before spraying to avoid foliage scorch."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Leaf Redding (Lalya) is not a disease caused by germs. It is a plant stress reaction when cotton lacks Nitrogen and Magnesium food, or when cold night temperatures and waterlogged soils prevent the roots from absorbing nutrients. The leaves turn completely red, grow dry and brittle, and fall off, causing the cotton bolls to open too early with low-quality fiber.",
+      "what_to_do_now": [
+        "Drain any standing water from your cotton field immediately.",
+        "Foliar spray Magnesium Sulphate (MgSO4 @ 10-15g/L) mixed with Urea (20g/L of water).",
+        "Repeat this spray after 10 days to help plants recover."
+      ],
+      "what_not_to_do": [
+        "Do not allow water to stand in the field during the flowering and boll loading stage.",
+        "Do not spray any chemical insecticides if leaf crumpling shows the leaf remains flat and whole (nutritional stress)."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if leaves are turning red across the entire field and dropping rapidly despite drainage and foliar sprays."
+      ],
+      "risk_warning": "Lalya can severely affect boll weight and lint quality, leading to up to 20% to 30% yield loss in Bt cotton crops."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_leaf_reddening"
+      ],
+      "segmentation_labels": [
+        "complete_leaf_reddening",
+        "reddish_stem_discoloration"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.85",
+        "high": "0.95"
+      },
+      "send_to_expert_if": [
+        "The reddening is confused with severe jassid hopperburn or spider mite bronzing."
+      ],
+      "image_quality_requirements": [
+        "Clear focus showing the uniform reddening of the leaf blade including veins on lower branches under bright natural light."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "None (physiological)",
+      "risk_radius": "None",
+      "report_count_threshold": "None",
+      "outbreak_alert_message": "Lalya (Leaf Redding) warning! Cold autumn nights and wet soils are blocking magnesium and nitrogen uptake. Spray MgSO4 + Urea immediately.",
+      "nearby_farm_advice": [
+        "Provide proper field drainage",
+        "Foliar spray MgSO4 @ 1%",
+        "Avoid waterlogging during boll stage"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Physiological Leaf Redding (Lalya) in Cotton",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers distinct diagnostic fist test and nutritional spray guidelines on Bt cotton."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T19:45:00Z",
+      "updated_at": "2024-10-27T19:45:00Z",
+      "reviewed_by": "Senior Soil Chemist / Plant Physiologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cotton_leaf_variegation",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas",
+        "Parthi",
+        "Arathi",
+        "Prathi",
+        "Karpas"
+      ],
+      "crop_category": "Fiber Crop / Cash Crop"
+    },
+    "disease": {
+      "name": "Leaf Variegation",
+      "category": "Genetic / Chimeral",
+      "pathogen_or_cause": [
+        "Spontaneous somatic genetic mutation affecting chlorophyll synthesis"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems"
+      ],
+      "disease_stage": "All growth stages (Seedling to Mature)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Discolored patches (white, cream, or bright yellow) appearing on a single leaf or branch on an otherwise normal green plant."
+      ],
+      "middle_stage": [
+        "Affected leaves display distinct, uneven, multi-colored patchy, linear, or mosaic patterns.",
+        "Green and white/yellow tissue grow side-by-side with sharp, clean-cut boundaries."
+      ],
+      "severe_stage": [
+        "No tissue decay, necrosis, or rotting is observed.",
+        "In extremely rare cases where a large portion of the plant is mutated, growth may be slightly slowed due to less green chlorophyll. However, this is a harmless, non-infectious condition that does not affect cotton yield."
+      ],
+      "visible_signs": [
+        "Multi-colored patchy leaf patterns (green next to white, cream, or yellow).",
+        "Sharp, clean boundaries between green and discolored zones.",
+        "Healthy leaf texture without curling, spots, or rot."
+      ],
+      "farmer_reported_signs": [
+        "Cotton leaf looking half white and half green",
+        "Yellow and green stripes on cotton leaves",
+        "A single branch of cotton with white leaves"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "White",
+        "Cream",
+        "Bright yellow",
+        "Normal green"
+      ],
+      "spot_or_patch_shape": "Uneven, patchy, linear, or marbled patterns",
+      "pattern": "Marbled or striped variegation with sharp green-white boundaries",
+      "location_on_plant": "Often restricted to a single leaf, branch, or sector of the plant",
+      "starts_from": "Genetic mutation in a single cell during growth",
+      "progression": "Single mutated cell -> Mutated leaf tissue -> Variegated branch -> Harmless presence",
+      "image_clues": [
+        "Look for a leaf with clean, bright white or cream sections directly next to normal green sections, with sharp distinct lines of separation"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Chilli Leaf Curl / Tobacco Mosaic (in nearby fields)",
+        "difference": "Viral mosaic diseases cause puckered, warped, distorted, curled leaves with blurry yellow-green mottling, whereas genetic Leaf Variegation leaf tissue is flat, smooth, healthy, and has sharp, clean-cut white/green borders.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Herbicide Injury (Glyphosate)",
+        "difference": "Glyphosate causes a gradual, blurry yellowing starting from the base of young leaves and moves to necrosis, rather than sharp, clean white-green marbled patterns.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "None (independent of weather)"
+      ],
+      "temperature_range": "Non-applicable",
+      "humidity_level": "Non-applicable",
+      "season": "All seasons",
+      "soil_conditions": [
+        "Non-applicable"
+      ],
+      "field_conditions": [
+        "Spontaneous natural mutation in individual seeds"
+      ],
+      "irrigation_conditions": [
+        "Non-applicable"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Non-transmissible (genetic somatic mutation)"
+      ],
+      "source_of_infection": [
+        "None"
+      ],
+      "survival_method": "Non-applicable",
+      "spread_speed": "Static (does not spread to neighboring plants or other fields)",
+      "nearby_crop_risk": "None"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Variegation restricted to a single leaf or minor branch; harmless.",
+        "field_indicator": "Isolated plants with a variegated leaf.",
+        "recommended_action": "No action required. The condition is harmless and does not affect yields."
+      },
+      {
+        "level": "Medium",
+        "description": "Several branches on an individual plant showing variegation.",
+        "field_indicator": "Individual plants looking highly variegated.",
+        "recommended_action": "No action required. Maintain normal agronomic practices."
+      },
+      {
+        "level": "High",
+        "description": "Extremely rare; entire plant variegated and slightly stunted.",
+        "field_indicator": "Single dwarf variegated plant.",
+        "recommended_action": "No action required. Crop yield of the field remains completely unaffected."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified hybrid seeds to minimize seed-borne genetic mutations."
+      ],
+      "field_management": [
+        "Non-applicable."
+      ],
+      "irrigation_management": [
+        "Non-applicable."
+      ],
+      "soil_management": [
+        "Non-applicable."
+      ],
+      "crop_rotation": [
+        "Non-applicable."
+      ],
+      "sanitation": [
+        "Non-applicable."
+      ],
+      "monitoring": [
+        "Identify during routine field walks to avoid confusing it with viral mosaic diseases."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "No action is needed as this is a harmless genetic condition.",
+        "Do not apply chemical pesticides or fertilizers; they will not change genetic patterns.",
+        "Leave the plant alone."
+      ],
+      "cultural_control": [
+        "Maintain standard field practices."
+      ],
+      "organic_control": [
+        "Non-applicable."
+      ],
+      "biological_control": [
+        "Non-applicable."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "None (Genetic condition)",
+          "product_type": "Not applicable",
+          "dose": "Do not apply chemical pesticides",
+          "application_method": "Non-applicable",
+          "spray_interval": "Non-applicable",
+          "pre_harvest_interval": "Non-applicable",
+          "safety_note": "Variegated leaves are genetic. Chemical sprays are completely unnecessary and wasteful."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Leaf Variegation is not a disease. It is a harmless genetic mutation (like a birthmark) that happens in individual cotton plants, making parts of the leaf turn white or yellow because they lack chlorophyll. It does not spread to other plants, does not cause rotting, and does not affect your cotton yield.",
+      "what_to_do_now": [
+        "Leave the plant alone. It is completely healthy other than the color.",
+        "Do not spend money on sprays or special fertilizers; they cannot change the plant's genes."
+      ],
+      "what_not_to_do": [
+        "Do not pull out the plant unless you need the space, as it will still produce normal cotton bolls."
+      ],
+      "when_to_call_expert": [
+        "No need to call an expert unless the white parts start rotting, or leaves are twisting and curling with insect activity (which indicates other pests/diseases)."
+      ],
+      "risk_warning": "Leaf Variegation is completely harmless and carries zero economic risk to your crop."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_leaf_variegation"
+      ],
+      "segmentation_labels": [
+        "variegated_white_patch"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.85",
+        "high": "0.95"
+      },
+      "send_to_expert_if": [
+        "The variegation is confused with viral mosaic patterns accompanied by puckered leaf blades."
+      ],
+      "image_quality_requirements": [
+        "Clear focus showing the sharp, clean-cut boundaries between green and white tissue on a flat leaf blade in bright daylight."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "None (genetic)",
+      "risk_radius": "None",
+      "report_count_threshold": "None",
+      "outbreak_alert_message": "Leaf variegation is a non-infectious genetic mutation. No treatment is necessary.",
+      "nearby_farm_advice": [
+        "No action required"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Somatic Mutations and Variegation in Crop Plants",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers genetic chimera dynamics on cotton foliage."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T19:45:00Z",
+      "updated_at": "2024-10-27T19:45:00Z",
+      "reviewed_by": "Senior Geneticist / Botanist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cotton_fussarium_wilt",
+    "crop": {
+      "common_name": "Cotton",
+      "english_name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "local_names": [
+        "Kapas"
+      ],
+      "crop_category": "Fiber"
+    },
+    "disease": {
+      "name": "Fusarium Wilt",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Fusarium oxysporum f. sp. vasinfectum"
+      ],
+      "affected_parts": [
+        "Roots",
+        "Vascular system",
+        "Leaves"
+      ],
+      "disease_stage": "Seedling to Mature"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Poor germination, seedlings wilt rapidly."
+      ],
+      "middle_stage": [
+        "Lower leaves show yellowing (chlorosis) or browning at margins. Sudden wilting during heat."
+      ],
+      "severe_stage": [
+        "Continuous brown discoloration in the internal vascular tissue of stem/root. Stunting and death."
+      ],
+      "visible_signs": [
+        "Brown ring inside cut stems, wilting."
+      ],
+      "farmer_reported_signs": [
+        "Plants wilt in hot sun",
+        "Brown ring inside the stem",
+        "Lower leaves drying"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing leaves",
+        "Brown vascular ring"
+      ],
+      "spot_or_patch_shape": "None on leaves (systemic)",
+      "pattern": "Vascular browning",
+      "location_on_plant": "Systemic",
+      "starts_from": "Roots",
+      "progression": "Root infection -> Vascular blockage -> Wilting -> Death",
+      "image_clues": [
+        "Cut stem showing dark brown ring inside."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Verticillium Wilt",
+        "difference": "Verticillium causes mottled yellowing between veins, often on cooler days, while Fusarium browning in the stem is continuous rather than streaky.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, dry periods followed by wet"
+      ],
+      "temperature_range": "25-30C",
+      "humidity_level": "Variable",
+      "season": "Summer",
+      "soil_conditions": [
+        "Acidic, sandy",
+        "Presence of root-knot nematodes"
+      ],
+      "field_conditions": [
+        "Infested soil"
+      ],
+      "irrigation_conditions": [
+        "Water stress"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Soil movement",
+        "Water",
+        "Farm tools"
+      ],
+      "source_of_infection": [
+        "Soil",
+        "Seed"
+      ],
+      "survival_method": "Chlamydospores in soil for years",
+      "spread_speed": "Moderate",
+      "nearby_crop_risk": "Low (host specific)"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Severe wilting.",
+        "field_indicator": "Brown vascular rings.",
+        "recommended_action": "Uproot and destroy."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use resistant varieties.",
+        "Carbendazim seed treatment."
+      ],
+      "field_management": [
+        "Manage nematode populations."
+      ],
+      "irrigation_management": [
+        "Consistent watering."
+      ],
+      "soil_management": [
+        "Avoid excess nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate non-hosts for 3-4 years."
+      ],
+      "sanitation": [
+        "Destroy crop debris."
+      ],
+      "monitoring": [
+        "Scout for wilting."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove infected plants."
+      ],
+      "cultural_control": [
+        "Manage root-knot nematodes."
+      ],
+      "organic_control": [
+        "Trichoderma viride soil application."
+      ],
+      "biological_control": [
+        "Trichoderma sp."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Fungicide",
+          "dose": "2g/kg",
+          "application_method": "Seed Treatment",
+          "spray_interval": "N/A",
+          "pre_harvest_interval": "N/A",
+          "safety_note": "Handle treated seeds carefully."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A soil fungus that blocks the plant's water pipes, causing it to wilt and die.",
+      "what_to_do_now": [
+        "Apply Trichoderma to soil if early."
+      ],
+      "what_not_to_do": [
+        "Don't move infested soil."
+      ],
+      "when_to_call_expert": [
+        "To confirm via stem cutting."
+      ],
+      "risk_warning": "Very hard to eradicate from soil once established."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cotton_fussarium_wilt"
+      ],
+      "segmentation_labels": [
+        "wilted_leaf",
+        "vascular_browning"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "Similar to Verticillium."
+      ],
+      "image_quality_requirements": [
+        "Cross section of stem."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "Field",
+      "risk_radius": "0km",
+      "report_count_threshold": "1",
+      "outbreak_alert_message": "Wilt detected.",
+      "nearby_farm_advice": [
+        "Check roots."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  }
+]

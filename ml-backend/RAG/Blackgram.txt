@@ -1,0 +1,672 @@
+[
+  {
+    "id": "blackgram_anthracnose",
+    "crop": {
+      "common_name": "Blackgram",
+      "english_name": "Blackgram / Urdbean / Mash",
+      "scientific_name": "Vigna mungo",
+      "local_names": ["Urd", "Urad Dal", "Mash Kalai", "Minumu", "Ulundu"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Anthracnose",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Colletotrichum lindemuthianum", "Colletotrichum truncatum"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods", "Cotyledons"],
+      "disease_stage": "All growth stages (Seedling to Harvesting)"
+    },
+    "symptoms": {
+      "early_stage": ["Minute, water-soaked, dark brown to black spots on the lower leaf surface.", "Infected seedlings show rust-colored specks on the cotyledons."],
+      "middle_stage": ["Enlarged circular, sunken lesions with dark centers and bright yellow, orange, or reddish-brown margins on leaves.", "Elongated, dark, sunken cankers along stems and petioles."],
+      "severe_stage": ["Sunken rust-colored to circular black lesions with bright reddish-orange margins on pods.", "Leaves become dry, papery, and drop off prematurely (severe defoliation); pods shrivel and seeds dry up."],
+      "visible_signs": ["Dark sunken spots on pods with bright reddish-orange borders.", "Pinkish to orange-colored mucilaginous mass of spores under highly humid conditions in the center of the lesions."],
+      "farmer_reported_signs": ["Sunken black spots on pods with orange margins", "Dry, papery leaves with dark spots falling early"]
+    },
+    "visual_identification": {
+      "color_changes": ["Dark brown", "Sunken black center", "Reddish-brown or orange margin"],
+      "spot_or_patch_shape": "Circular, sunken lesions",
+      "pattern": "Irregularly distributed sunken spots on stems, leaves, and pods",
+      "location_on_plant": "All aerial parts (leaves, stems, petioles, and pods)",
+      "starts_from": "Lower leaf surface and progresses upward",
+      "progression": "Lower leaves -> Upper leaves -> Stems and petioles -> Pods",
+      "image_clues": ["Look for sunken dark spots on the green pods with a bright reddish-orange rim", "Look for sunken elongated black wounds (cankers) on the leaf stems (petioles)"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cercospora leaf spot",
+        "difference": "Cercospora spots are circular, not sunken, have greyish centers with reddish-brown borders, and are mostly restricted to leaves rather than pods and stems.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, humid weather", "Continuous rainy or overcast days"],
+      "temperature_range": "20°C - 28°C",
+      "humidity_level": ">80% RH",
+      "season": "Kharif season",
+      "soil_conditions": ["Waterlogged soils", "Poor soil aeration"],
+      "field_conditions": ["Dense planting blocking sunlight and air flow", "Presence of infected crop debris in the field"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation", "Excessive watering keeping leaf canopy wet"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne spores (conidia)", "Rain splashes or overhead irrigation water"],
+      "source_of_infection": ["Infected seeds (seed-borne)", "Overwintering fungal mycelium on crop debris", "Alternative legume hosts"],
+      "survival_method": "Survives as dormant mycelium or spores in infected seeds and diseased crop residues left in the field.",
+      "spread_speed": "Fast under warm, continuous wet weather",
+      "nearby_crop_risk": "High for other pulses like mungbean or cowpea nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Scattered small dark spots on lower leaves only.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out infected seedlings. Apply botanical sprays like Neem Oil @ 3% or Chitosan @ 0.1%."
+      },
+      {
+        "level": "Medium",
+        "description": "Sunken lesions appearing on stems, petioles, and young pods.",
+        "field_indicator": "10% to 25% plant parts affected; minor yellowing of leaves.",
+        "recommended_action": "Apply foliar sprays of Carbendazim + Mancozeb or Thiophanate Methyl."
+      },
+      {
+        "level": "High",
+        "description": "Severe shriveled pods with sunken black lesions; heavy leaf drop and plant wilting.",
+        "field_indicator": ">25% plants showing sunken lesions on pods; heavy defoliation.",
+        "recommended_action": "Immediately spray curative systemic mixtures like Tebuconazole + Trifloxystrobin or Azoxystrobin + Difenoconazole."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always use certified disease-free seeds from healthy crops.", "Treat seeds before sowing with Carbendazim 50% WP @ 2g/kg of seed, or Trichoderma viride @ 5-10g/kg of seed."],
+      "field_management": ["Maintain optimum plant density; avoid thick, crowded planting.", "Clean field borders of weed hosts."],
+      "irrigation_management": ["Avoid overhead sprinkler irrigation.", "Provide proper field drainage to prevent waterlogging."],
+      "soil_management": ["Ensure balanced potassium and phosphorus application to improve plant resilience.", "Incorporate organic manure."],
+      "crop_rotation": ["Rotate blackgram with non-host cereal crops (like maize or pearl millet) for 2 seasons."],
+      "sanitation": ["Remove and burn or deep bury infected crop residues after harvest.", "Do not work in wet fields to prevent spore movement."],
+      "monitoring": ["Monitor crop weekly, focusing on lower leaves and stems, beginning 20 days after sowing."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy diseased plants.", "Reduce water supply to allow the canopy to dry.", "Apply a systemic fungicide spray immediately."],
+      "cultural_control": ["Destroy and burn crop residues after harvest.", "Eradicate weed hosts."],
+      "organic_control": ["Foliar spray of Chitosan @ 0.1% at 30 and 60 days after sowing.", "Spray Neem Seed Kernel Extract (NSKE) 5%."],
+      "biological_control": ["Seed treatment and foliar spray of Pseudomonas fluorescens or Trichoderma viride @ 10 g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim 12% + Mancozeb 63% WP",
+          "product_type": "Systemic + Contact Fungicide Mixture",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Wear protective gear; do not spray within 15 days of pod harvest."
+        },
+        {
+          "active_ingredient": "Tebuconazole 50% + Trifloxystrobin 25% WG",
+          "product_type": "Systemic Curative Fungicide Mixture",
+          "dose": "0.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-15 days",
+          "pre_harvest_interval": "10 days",
+          "safety_note": "Excellent preventive and curative control. Thoroughly cover the foliage and pods."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Anthracnose is a fungal disease that causes dark, sunken 'cups' or black spots on the leaves, stems, and pods of your blackgram. Under humid weather, these spots can develop a pinkish ooze in the center, causing the pods to dry up, shrivel, and produce useless seeds.",
+      "what_to_do_now": [
+        "Destroy and burn highly infected plants.",
+        "Spray Carbendazim + Mancozeb (Saaf) at 2g per liter of water.",
+        "Ensure water does not stand in the field."
+      ],
+      "what_not_to_do": [
+        "Do not enter or work in your field when the leaves are wet from dew or rain.",
+        "Do not use seeds from an infected field for the next sowing season."
+      ],
+      "when_to_call_expert": ["Contact an expert if the disease starts destroying pods rapidly in the early pod development stage despite spraying fungicides."],
+      "risk_warning": "If wet, cloudy weather continues, anthracnose can destroy your entire pod harvest, leaving the seeds shriveled and black."
+    },
+    "model_support": {
+      "classification_labels": ["blackgram_anthracnose"],
+      "segmentation_labels": ["sunken_pod_lesion", "stem_canker"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The model confuses physical pod scars from thrips or wind with sunken anthracnose spots."],
+      "image_quality_requirements": ["High-contrast images showing sunken dark spots on pods, or elongated dark wounds on stems/petioles in focus."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Anthracnose alert: Warm, wet weather has triggered outbreaks in your block. Inspect pods and stems of your blackgram crop immediately.",
+      "nearby_farm_advice": ["Avoid working in wet fields", "Treat seeds for next crop", "Apply preventive Carbendazim+Mancozeb spray"]
+    },
+    "source_metadata": {
+      "source_title": "Crop Production Guide - Pulses Section",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Manual",
+      "author_or_organization": "Tamil Nadu Agricultural University (TNAU)",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Valid details on Colletotrichum truncatum seed-borne nature and chemical recommendations."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T14:00:00Z",
+      "updated_at": "2024-10-27T14:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "blackgram_leaf_crinkle",
+    "crop": {
+      "common_name": "Blackgram",
+      "english_name": "Blackgram / Urdbean / Mash",
+      "scientific_name": "Vigna mungo",
+      "local_names": ["Urd", "Urad Dal", "Mash Kalai", "Minumu", "Ulundu"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Leaf Crinkle",
+      "category": "Viral",
+      "pathogen_or_cause": ["Urdbean Leaf Crinkle Virus (ULCV)"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Flowers", "Pods"],
+      "disease_stage": "Vegetative to Flowering"
+    },
+    "symptoms": {
+      "early_stage": ["Abnormal enlargement and light green color of the third trifoliate leaf around 3 weeks after sowing."],
+      "middle_stage": ["Severe crinkling, puckering, upward/downward curling, and leathery/rough texture (rugosity) of leaves.", "Thickened leaf veins showing reddish discoloration.", "Shortened leaf stalks (petioles)."],
+      "severe_stage": ["Severely stunted plant growth.", "Floral parts become highly malformed, distorted, and sterile.", "Extremely poor pod formation; pods that develop are deformed with oversized, discolored seeds."],
+      "visible_signs": ["Extremely crinkled, puckered, rough, thick leaves.", "Reddish thickened leaf veins.", "Presence of aphid clusters or epilachna beetles under the leaves."],
+      "farmer_reported_signs": ["Rough, wrinkled, bubbly leaves", "Stunted plants that do not produce flowers", "Leaf veins turning thick and reddish"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light green", "Reddish discoloration of veins", "Dark green puckered areas"],
+      "spot_or_patch_shape": "None (leaf crinkling, puckering, and deformation)",
+      "pattern": "Crinkling/wrinkling covering the entire leaf blade",
+      "location_on_plant": "Spreads from young emerging leaves to the entire canopy",
+      "starts_from": "Terminal young leaves",
+      "progression": "Young leaf enlargement -> Extreme puckering/leatheriness -> Shortened nodes and stunting -> Flower sterility",
+      "image_clues": ["Look for abnormally large, thick, wrinkled, and bubbled-up dark green leaves", "Thick reddish veins on the back of curled leaves"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Yellow Mosaic Disease",
+        "difference": "Yellow Mosaic causes bright yellow patches on the leaves without causing severe crinkling, thickening, or warty texture.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Mite Damage",
+        "difference": "Mites cause leaves to curl downwards and have dusty spider-like webbing on the underside, but do not make leaves abnormally large or thick.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry and warm weather", "Low relative humidity which favors aphid and beetle vectors"],
+      "temperature_range": "25°C - 35°C",
+      "humidity_level": "<70% RH",
+      "season": "Rabi and Summer seasons",
+      "soil_conditions": ["Dry soil stressing the crop", "Poor nutrition status"],
+      "field_conditions": ["Presence of infected weed hosts nearby", "High weed density providing shelter to insect vectors"],
+      "irrigation_conditions": ["Drought stress or irregular watering"]
+    },
+    "spread": {
+      "spread_by": ["Infected seeds (primary transmission)", "Aphids (Aphis craccivora, Aphis gossypii) (secondary spread)", "Whiteflies (Bemisia tabaci)", "Epilachna beetles (Henosepilachna dodecastigma)", "Mechanical sap transmission"],
+      "source_of_infection": ["Infected seed stocks", "Weed hosts", "Infected blackgram or mungbean volunteer plants"],
+      "survival_method": "The virus primarily survives in infected seeds and is carried over via insect vectors from weed hosts during off-seasons.",
+      "spread_speed": "Fast once vector populations build up",
+      "nearby_crop_risk": "High for other pulses (mungbean, cowpea)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing puckering on young top leaves.",
+        "field_indicator": "Isolated plants with slightly wrinkled top leaves.",
+        "recommended_action": "Rogue out infected plants immediately. Set up sticky traps. Apply botanical extracts like Mirabilis jalapa."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing heavy puckering, thick leaves, and shortened stalks; aphid colonies present.",
+        "field_indicator": "Frequent patches of wrinkled, stunted plants.",
+        "recommended_action": "Rogue out infected plants. Spray systemic insecticides like Imidacloprid to control the aphid vectors."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely stunted, showing malformed flowers and producing no pods.",
+        "field_indicator": "Widespread stunting and crinkling; severe crop sterility.",
+        "recommended_action": "Spray Dimethoate or Thiamethoxam immediately to stop vector transmission; uproot highly sterile plants."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always sow certified virus-free seeds.", "Perform seed treatment with Imidacloprid 70 WS @ 5 ml/kg of seed to protect young seedlings from early insect vectors."],
+      "field_management": ["Grow resistant cultivars (like VBN 6 or others recommended locally).", "Maintain weed-free field boundaries."],
+      "irrigation_management": ["Keep soil moist to avoid drought stress which attracts pests."],
+      "soil_management": ["Apply recommended dosage of organic manure and mineral fertilizers."],
+      "crop_rotation": ["Avoid growing blackgram sequentially; rotate with non-host grain crops."],
+      "sanitation": ["Inspect the field weekly; uproot (rogue) and bury or burn infected plants during the first 35 days after sowing."],
+      "monitoring": ["Monitor closely starting 15 days after sowing, checking the top leaves and undersides for aphids, whiteflies, or beetles."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected plants.", "Deploy yellow sticky traps.", "Apply a systemic insecticide spray for insect vectors."],
+      "cultural_control": ["Uproot and destroy infected plants at early vegetative stages.", "Maintain field sanitation."],
+      "organic_control": ["Foliar spray of 10% leaf extract of Bougainvillea spectabilis or Mirabilis jalapa.", "Spray fresh buttermilk @ 5% concentration on the crop."],
+      "biological_control": ["Seed treatment and foliar application of Pseudomonas fluorescens @ 10g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Target aphids and whiteflies. Spray in the evening to protect honeybees."
+        },
+        {
+          "active_ingredient": "Dimethoate 30% EC",
+          "product_type": "Systemic Insecticide",
+          "dose": "1.5 to 2.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Wear protective clothing and mask during application."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Leaf Crinkle is a viral disease of blackgram. It starts from infected seeds or is spread from plant to plant by insects like aphids and beetles. Infected plants develop thick, wrinkled, puckered, 'bubbly' leaves, stop growing, and produce malformed sterile flowers that bear no pods.",
+      "what_to_do_now": [
+        "Pull out any puckered, wrinkled plants, bag them, and bury or burn them away from the field.",
+        "Spray Imidacloprid (0.5mL/L) to kill the aphids and beetles spreading the virus.",
+        "Apply Bougainvillea leaf extract @ 10% to reduce viral spread."
+      ],
+      "what_not_to_do": [
+        "Do not keep seeds from infected fields for sowing next season.",
+        "Do not let weeds grow along field borders, as they act as homes for virus-carrying insects."
+      ],
+      "when_to_call_expert": ["Contact an expert if your crop has reached flowering and more than 15% of plants are showing wrinkled leaves with zero flower/pod setting."],
+      "risk_warning": "Because the virus causes flower sterility, early and severe infections can result in 100% loss of pod yield."
+    },
+    "model_support": {
+      "classification_labels": ["blackgram_leaf_crinkle"],
+      "segmentation_labels": ["puckered_leaf", "thickened_reddish_vein"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.78",
+        "high": "0.90"
+      },
+      "send_to_expert_if": ["The symptoms are confused with chemical herbicide (such as 2,4-D or Glyphosate) drift damage which also causes severe leaf distortion and curling."],
+      "image_quality_requirements": ["High-quality macro shots showing the puckered, bubbly, thick leaf texture and shortened leaf stalks in clear focus."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Leaf Crinkle warning! High vector activity and seed transmission have caused outbreaks in your region. Inspect your fields and rogue out infected plants.",
+      "nearby_farm_advice": ["Rogue and burn infected plants", "Control vectors with Imidacloprid seed treatment for next sowing", "Set up sticky traps"]
+    },
+    "source_metadata": {
+      "source_title": "Identification and management of Urdbean Leaf Crinkle Virus",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "Department of Plant Pathology, TNAU",
+      "published_year": "2022",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Good description of Bougainvillea spectabilis extract and buttermilk applications."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T14:15:00Z",
+      "updated_at": "2024-10-27T14:15:00Z",
+      "reviewed_by": "Senior Virologist / Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "blackgram_powdery_mildew",
+    "crop": {
+      "common_name": "Blackgram",
+      "english_name": "Blackgram / Urdbean / Mash",
+      "scientific_name": "Vigna mungo",
+      "local_names": ["Urd", "Urad Dal", "Mash Kalai", "Minumu", "Ulundu"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Powdery_Mildew",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Erysiphe polygoni"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods"],
+      "disease_stage": "Flowering to Pod-Development"
+    },
+    "symptoms": {
+      "early_stage": ["Small, irregular, white-to-greyish powdery spots or patches on the upper surface of the leaves."],
+      "middle_stage": ["White powdery growth spreads to the lower leaf surfaces, leaf stalks (petioles), stems, and young pods."],
+      "severe_stage": ["The entire plant is covered in a dull, greyish-white powdery coating.", "Leaves turn yellow, then black, and drop prematurely.", "Pods become small, shriveled, and contain few poorly filled seeds."],
+      "visible_signs": ["White-to-greyish powdery dust coating the leaves, stems, and pods.", "Premature leaf shedding leaving bare stems with small shriveled pods."],
+      "farmer_reported_signs": ["White powder or flour-like coating on leaves", "Leaves turning yellow and falling off", "Shriveled small pods with dry powder"]
+    },
+    "visual_identification": {
+      "color_changes": ["White-to-greyish powdery color", "Yellow", "Black"],
+      "spot_or_patch_shape": "Irregular powdery spots merging into a complete coat",
+      "pattern": "Flour-like powdery coating covering the entire plant surface",
+      "location_on_plant": "Starts on upper leaves and spreads to stems, petioles, and pods",
+      "starts_from": "Upper leaf surface",
+      "progression": "Upper leaves -> Lower leaves -> Stems and petioles -> Pods -> Complete defoliation",
+      "image_clues": ["Look for a distinct, white, flour-like powder coating on the green leaf surface", "Powdery white patches on the immature pods"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Downy Mildew",
+        "difference": "Downy mildew produces a grey-white fuzz exclusively on the undersides of leaves under cool, wet conditions, whereas Powdery mildew covers the upper leaf surface with a dry powdery flour-like coating.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool nights and warm humid days", "Dry weather with morning mist/dew"],
+      "temperature_range": "20°C - 28°C",
+      "humidity_level": "70% - 85% RH",
+      "season": "Late Rabi / Summer season",
+      "soil_conditions": ["Low soil moisture", "Sandy soils stressing the crop"],
+      "field_conditions": ["Shaded areas in the field", "Late sown crops"],
+      "irrigation_conditions": ["Inadequate irrigation creating moisture stress"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne conidia (spores)"],
+      "source_of_infection": ["Infected crop debris", "Alternative host plants (other legumes, weeds)"],
+      "survival_method": "The fungus survives as dormant mycelium or resting structures (cleistothecia) in infected crop residue and alternative weed hosts.",
+      "spread_speed": "Very Fast under dry, cool night conditions with high morning dews",
+      "nearby_crop_risk": "High for other pulses (green gram, cowpea) and pea crops nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few scattered powdery white spots on the upper leaves.",
+        "field_indicator": "<10% leaf area covered with powder.",
+        "recommended_action": "Spray Neem Oil @ 3% or Neem Seed Kernel Extract (NSKE) @ 5% twice at a 10-day interval."
+      },
+      {
+        "level": "Medium",
+        "description": "Powdery patches covering most leaves and spreading to stems.",
+        "field_indicator": "10% to 30% plant surface showing white powder.",
+        "recommended_action": "Apply a foliar spray of Wettable Sulphur @ 2g/L or Carbendazim @ 1g/L of water."
+      },
+      {
+        "level": "High",
+        "description": "The entire plant covered in white powder; heavy leaf yellowing and dropping; pods shriveled.",
+        "field_indicator": ">30% foliage affected; visible defoliation.",
+        "recommended_action": "Immediately apply systemic fungicides like Propiconazole or Hexaconazole to stop spore spread."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Use seeds from healthy crops.", "Grow resistant varieties if available."],
+      "field_management": ["Sow the crop early in the season to avoid late-season powdery mildew outbreaks.", "Maintain weed-free conditions."],
+      "irrigation_management": ["Keep optimum soil moisture to avoid plant stress."],
+      "soil_management": ["Incorporate balanced nutrition; avoid excess nitrogen."],
+      "crop_rotation": ["Rotate with non-host crops like cereals."],
+      "sanitation": ["Collect and destroy crop debris immediately after harvest to reduce overwintering spore loads."],
+      "monitoring": ["Monitor closely from pre-flowering stage, especially on the upper surface of middle canopy leaves."]
+    },
+    "management": {
+      "immediate_action": ["Spray Wettable Sulphur or Carbendazim at the first sign of symptoms.", "Ensure plants are not moisture-stressed.", "Clean up fallen leaves."],
+      "cultural_control": ["Destroy and burn crop residue after harvest.", "Ensure crop has adequate sunlight and spacing."],
+      "organic_control": ["Foliar spray of Neem Oil @ 3% (30 mL/L) or NSKE 5%.", "Spray Eucalyptus leaf extract @ 10%."],
+      "biological_control": ["Apply bio-fungicide Ampelomyces quisqualis @ 2 mL/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Wettable Sulphur 80% WP",
+          "product_type": "Contact Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "10 days",
+          "safety_note": "Do not spray Sulphur in extremely hot midday weather to avoid phytotoxicity (leaf burning)."
+        },
+        {
+          "active_ingredient": "Carbendazim 50% WP",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Ensure thorough coverage of both surfaces of the leaves."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Powdery mildew is a fungal disease that covers your blackgram plants with a white, flour-like powder. It starts as small spots on the top of leaves, spreads quickly to stems and pods, and causes the leaves to turn yellow and drop off, leading to small, empty pods.",
+      "what_to_do_now": [
+        "Spray Wettable Sulphur (2g/L) or Carbendazim (1g/L) immediately at the first sign of white powder.",
+        "Keep the soil moist by irrigating if the field is dry."
+      ],
+      "what_not_to_do": [
+        "Do not spray Sulphur when the sun is very hot during midday (apply early morning or late afternoon).",
+        "Do not delay spraying once the white powder is seen, as it spreads very quickly via wind."
+      ],
+      "when_to_call_expert": ["Call an expert if the powder is covering more than 30% of the crop and leaves are dropping rapidly within a few days."],
+      "risk_warning": "Widespread powdery mildew during pod formation can reduce grain yields by up to 40% due to poorly filled, shriveled seeds."
+    },
+    "model_support": {
+      "classification_labels": ["blackgram_powdery_mildew"],
+      "segmentation_labels": ["white_powdery_patch"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The model confuses white chemical residues (like pesticide spray marks) with white powdery mildew patches."],
+      "image_quality_requirements": ["Clear close-up images of leaf blades showing the dry white powder texture in natural lighting."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Powdery Mildew alert! Cool nights and warm days have triggered powdery mildew in blackgram. Apply preventive Sulphur sprays immediately.",
+      "nearby_farm_advice": ["Maintain field irrigation", "Apply preventive sulphur dust", "Remove weed hosts"]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Field Crops: Pulses",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Portal",
+      "author_or_organization": "TNAU, Tamil Nadu",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Covers Erysiphe polygoni biology and specific wettable sulphur rates."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T14:30:00Z",
+      "updated_at": "2024-10-27T14:30:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "blackgram_yellow_mosaic",
+    "crop": {
+      "common_name": "Blackgram",
+      "english_name": "Blackgram / Urdbean / Mash",
+      "scientific_name": "Vigna mungo",
+      "local_names": ["Urd", "Urad Dal", "Mash Kalai", "Minumu", "Ulundu"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Yellow_Mosaic",
+      "category": "Viral",
+      "pathogen_or_cause": ["Mungbean Yellow Mosaic Virus (MYMV)", "Mungbean Yellow Mosaic India Virus (MYMIV)"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods", "Seeds"],
+      "disease_stage": "All growth stages (Seedling to Pod-Development)"
+    },
+    "symptoms": {
+      "early_stage": ["Mild, scattered, irregular green-yellow or bright yellow spots on young expanding leaves."],
+      "middle_stage": ["Yellow spots expand and merge to form large, bright yellow patches interspersed with green areas (mosaic pattern) on leaf blades."],
+      "severe_stage": ["The entire leaf lamina turns completely bright yellow.", "Infected plants exhibit severe stunting and lack of vigor.", "Fewer flowers and small, distorted pods containing shriveled, immature, low-quality seeds."],
+      "visible_signs": ["Bright yellow patches on green leaves.", "Severe plant stunting.", "Presence of tiny, powdery white insects (whiteflies) under the leaves."],
+      "farmer_reported_signs": ["Bright yellow patches on the leaves", "Stunted plants with very few pods", "Tiny white flies flying when shaking the plants"]
+    },
+    "visual_identification": {
+      "color_changes": ["Bright yellow patches", "Chlorotic yellow leaf blades"],
+      "spot_or_patch_shape": "Irregular mosaic patches",
+      "pattern": "Bright yellow and green mosaic pattern on leaves",
+      "location_on_plant": "Starts on young leaves and rapidly spreads to the entire foliage",
+      "starts_from": "Young, actively growing leaves",
+      "progression": "Yellow spots on young leaves -> Expansion into large mosaic patches -> Complete yellowing of leaves -> Pod stunting and distortion",
+      "image_clues": ["Look for a vivid mosaic pattern of bright golden yellow and deep green on the same leaf blade", "Look for tiny whiteflies clustered on the leaf undersides"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Iron deficiency / Chlorosis",
+        "difference": "Iron deficiency causes uniform yellowing of the leaf blades while leaf veins remain dark green, without forming irregular mosaic patches of yellow and green.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Leaf Crinkle",
+        "difference": "Leaf Crinkle causes severe leaf puckering, thickening, and stunting without the bright golden-yellow mosaic color patches.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry and hot weather", "Prolonged dry spells which favor whitefly multiplication and migration"],
+      "temperature_range": "30°C - 38°C",
+      "humidity_level": "<65% RH",
+      "season": "Summer and early Kharif seasons",
+      "soil_conditions": ["Dry soil stressing the crop", "Poor soil organic matter"],
+      "field_conditions": ["Presence of alternative host weeds in field boundaries", "Lack of barrier crops like maize"],
+      "irrigation_conditions": ["Under-irrigation causing plant stress and dry field conditions attractive to pests"]
+    },
+    "spread": {
+      "spread_by": ["Whitefly (Bemisia tabaci) vector in a persistent, circulative manner"],
+      "source_of_infection": ["Infected weed hosts (e.g. Croton, Malvastrum)", "Nearby infected legume fields (mungbean, soybean)"],
+      "survival_method": "The virus survives in alternative host plants and weed species and is carried over continuously by active whiteflies.",
+      "spread_speed": "Very Fast as whitefly populations increase",
+      "nearby_crop_risk": "High for other pulses (green gram, cowpea) and soybean crops"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few scattered yellow spots on young leaves on <5% of plants.",
+        "field_indicator": "Rare, isolated yellowing leaves in the field.",
+        "recommended_action": "Rogue out infected plants immediately. Set up yellow sticky traps. Spray Neem Oil @ 3%."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 20% of plants showing bright yellow mosaic patches; whiteflies active.",
+        "field_indicator": "Visible yellow patches appearing across the field.",
+        "recommended_action": "Rogue out infected plants. Spray systemic vector-control chemicals like Imidacloprid or Flonicamid immediately."
+      },
+      {
+        "level": "High",
+        "description": "Over 20% of plants completely yellow and severely stunted, with distorted pods.",
+        "field_indicator": "Massive yellowing across the field; heavy loss of flowers and pod setting.",
+        "recommended_action": "Spray Thiamethoxam or Diafenthiuron immediately to halt whitefly feeding and vector transmission; consider removing highly infected plants."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Grow MYMV-resistant/tolerant blackgram varieties (such as VBN 6, Uttara, or Mash 338).", "Treat seeds with Thiamethoxam 75 WG @ 3-5 g/kg of seed, or Imidacloprid 600 FS @ 5 ml/kg of seed."],
+      "field_management": ["Install Yellow Sticky Traps @ 10-12 traps per acre at canopy height to catch whiteflies.", "Maintain clean, weed-free boundaries."],
+      "irrigation_management": ["Provide regular irrigation to keep the crop healthy and prevent pest attraction."],
+      "soil_management": ["Use balanced NPK fertilizers to promote plant vigor."],
+      "crop_rotation": ["Avoid planting blackgram near cotton, tomato, or soybean fields.", "Rotate with non-host cereals."],
+      "sanitation": ["Walk the field weekly; uproot and burn/bury any plants showing early yellow mosaic symptoms during the first 30 days.", "Eradicate alternative host weeds."],
+      "monitoring": ["Inspect fields twice a week starting 10 days after sowing, checking the undersides of leaves for whitefly activity."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected yellow plants.", "Hang yellow sticky traps.", "Apply a systemic insecticide foliar spray immediately."],
+      "cultural_control": ["Plant 3-4 rows of sorghum, maize, or pearl millet as barrier crops around the field.", "Destroy and bury weed hosts."],
+      "organic_control": ["Foliar spray of Neem Oil @ 3% (30 mL/L) at 25 and 50 days after sowing.", "Spray Neem Seed Kernel Extract (NSKE) 5%."],
+      "biological_control": ["Apply Pseudomonas fluorescens or Bacillus subtilis as seed and foliar spray to improve plant defense."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Target whiteflies. Spray in the evening when bees are not active."
+        },
+        {
+          "active_ingredient": "Thiamethoxam 25% WG",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Ensure proper coverage of leaf undersides."
+        },
+        {
+          "active_ingredient": "Flonicamid 50% WG",
+          "product_type": "Systemic Insecticide (Anti-feeding agent)",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "15 days",
+          "pre_harvest_interval": "10 days",
+          "safety_note": "Highly effective at stopping whiteflies from feeding and transmitting the virus."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Yellow Mosaic is a viral disease of blackgram that is carried and spread by tiny whiteflies. It starts as yellow spots on young leaves, which quickly turn the entire leaf golden-yellow. Infected plants stop growing and produce tiny, empty pods, causing heavy yield loss.",
+      "what_to_do_now": [
+        "Uproot any yellow plants, put them in a bag, and burn or bury them far away.",
+        "Hang yellow sticky traps to catch whiteflies.",
+        "Spray Imidacloprid (0.5mL/L) or Flonicamid (0.3g/L) to control the whiteflies."
+      ],
+      "what_not_to_do": [
+        "Do not leave yellow plants in the field, as they act as a source of virus for whiteflies to spread to healthy plants.",
+        "Do not allow wild weeds to grow on your field borders."
+      ],
+      "when_to_call_expert": ["Contact an expert if whitefly populations remain high and more than 15% of your field has turned yellow despite chemical sprays."],
+      "risk_warning": "Yellow Mosaic is a highly destructive disease. Early infection can cause up to 80% to 100% loss of your blackgram yield."
+    },
+    "model_support": {
+      "classification_labels": ["blackgram_yellow_mosaic"],
+      "segmentation_labels": ["yellow_mosaic_patch"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The yellowing pattern is confused with uniform iron/nitrogen deficiency or herbicide injury without the distinct green-yellow mosaic border."],
+      "image_quality_requirements": ["High-resolution photos focusing on the mosaic pattern on the leaves and/or whitefly clusters on the undersides of leaves in bright, natural light."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10 km",
+      "report_count_threshold": "6",
+      "outbreak_alert_message": "Yellow Mosaic Disease Alert! Whitefly numbers are soaring in your region due to hot, dry winds. Implement whitefly vector control immediately.",
+      "nearby_farm_advice": ["Deploy yellow sticky traps immediately", "Rogue out early yellow plants", "Foliar spray of Imidacloprid or Flonicamid"]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Management of Yellow Mosaic Disease in Blackgram",
+      "source_url": "https://www.icar.org.in",
+      "source_type": "Research Bulletin",
+      "author_or_organization": "Indian Council of Agricultural Research (ICAR)",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Excellent detail on MYMV vs MYMIV differentiation and vector thresholds."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T14:45:00Z",
+      "updated_at": "2024-10-27T14:45:00Z",
+      "reviewed_by": "Senior Virologist / Entomologist",
+      "status": "Approved"
+    }
+  }
+]

@@ -1,0 +1,1450 @@
+[
+  {
+    "id": "SUGARCANE-PB-001",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna",
+        "Eekh",
+        "Ganna",
+        "Caña de azúcar"
+      ],
+      "crop_category": "Cash Crop / Sugar Crop"
+    },
+    "disease": {
+      "name": "Pokkah Boeng",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Fusarium moniliforme",
+        "Fusarium sacchari"
+      ],
+      "affected_parts": [
+        "Spindle leaves",
+        "Top growing point",
+        "Stalk rind nodes"
+      ],
+      "disease_stage": "Early vegetative to tillering phase; high activity during monsoon initiation"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Chlorotic (pale yellow) whitening of the leaf bases of young emerging spindle leaves",
+        "Minor twisting or wrinkling along the lower margins of young blades"
+      ],
+      "middle_stage": [
+        "Deformation of the top spindle canopy where emerging leaves twist, fold, and hook together tightly",
+        "Reddish-brown necrotic streaks cut across the pale bleached sections, creating a burned look"
+      ],
+      "severe_stage": [
+        "The top growing point rots completely (top-rot phase), causing the entire cane head to die back",
+        "Stalk node points display internal and external ladder-like deep cut scars (knife-cut symptom)",
+        "Cane elongation stops completely, triggering premature sprouting of weak side buds"
+      ],
+      "visible_signs": [
+        "Tightly twisted, distorted, hooked green-white cane heads holding distinct brick-red cross scars or vertical split slits"
+      ],
+      "farmer_reported_signs": [
+        "The top growing leaves of my ganna are twisted, crumpled, and caught together like a knot",
+        "The base of the top leaves looks bleached white with red slash marks, and some cane heads are snapping off and rotting"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Leaf bases bleach to ivory or pale cream-yellow, followed by brick-red to black necrotic scarring"
+      ],
+      "spot_or_patch_shape": "Deformed, wrinkled, or crumpled leaves with narrow elongated slits or crosswise lesion streaks",
+      "pattern": "Systemic structural crumpling locked around the central emerging growing shoot line",
+      "location_on_plant": "Restricted strictly to the uppermost growing whorl, spindle leaves, and newly forming top stem nodes",
+      "starts_from": "The inner leaf sheath base inside the emerging spindle throat",
+      "progression": "Moves from early leaf twisting directly into full stem node cracking and localized terminal bud rot",
+      "image_clues": [
+        "Sugarcane head looking crumpled and hooked downward with white distorted leaf bases",
+        "Deep knife-like cut lines across the node wood ring"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Top Borer Insect Damage (Scirpophaga excerptalis)",
+        "difference": "Top borer feeding cuts a clean, straight row of small uniform needle holes across the leaf face and leaves a distinct hollow tunnel packed with brown insect dirt inside the upper stem core, whereas Pokkah Boeng causes jagged knife slashes, white twisting, and completely lacks hollow insect tunnels.",
+        "confusion_risk": "High, because both cause full cane top death or dead hearts."
+      },
+      {
+        "name": "Mechanical / Whip Injury",
+        "difference": "Wind friction splits leaf tips cleanly into ribbons but never causes ivory whitening, base crumpling, or internal ladder scars on nodes.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, oppressive, dry summer days followed immediately by sudden, heavy monsoon rains and high wind gusts"
+      ],
+      "temperature_range": "25°C - 32°C (77°F - 90°F) optimal for Fusarium spore germination",
+      "humidity_level": "Relative humidity above 80% with continuous moisture pools inside the leaf whorl throat",
+      "season": "Pre-monsoon to peak monsoon rainy months (June to September)",
+      "soil_conditions": [
+        "Fields retaining excessive nitrogen, creating rapid, tender, soft growth surges"
+      ],
+      "field_conditions": [
+        "Growing highly vulnerable sugarcane varieties (e.g., certain commercial co-cane selections)",
+        "Low air movement zones"
+      ],
+      "irrigation_conditions": [
+        "Heavy flooding irrigation applied during hot summer afternoons right before monsoon onset"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia (fungal spores) carried over long distances by wind currents",
+        "Rainwater droplets splashing spores into open spindle throats"
+      ],
+      "source_of_infection": [
+        "Infected plant residues left on the soil surface",
+        "Decaying stubbles",
+        "Alternative wild grass hosts along field bund lines"
+      ],
+      "survival_method": "Overwinters as dormant mycelium or spores inside old unplowed cane stubbles or resting in the topsoil matrix for over a year",
+      "spread_speed": "Highly rapid across plots following early monsoon wind and storm cycles",
+      "nearby_crop_risk": "High for adjacent younger sugarcane fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low (Chlorosis Phase)",
+        "description": "Faint whitening or mild wrinkling restricted to the bases of emerging spindle leaves on less than 5% of canes.",
+        "field_indicator": "Isolated plants show pale leaf bases; top growing points are completely alive and upright.",
+        "recommended_action": "Avoid excessive nitrogen top-dressing. Monitor rows weekly. Most plants recover naturally if dry sunny weather returns."
+      },
+      {
+        "level": "Medium (Top-Distortion Phase)",
+        "description": "Severe twisting, hooking, and early red slash markings visible across 5% to 15% of the cane canopies.",
+        "field_indicator": "Knot-like twisted cane heads are clear; early knife-cut marks visible on young tender stems.",
+        "recommended_action": "Apply recommended systemic fungicides immediately to protect the growing point. Clear surrounding high weed lines."
+      },
+      {
+        "level": "High (Top-Rot Phase)",
+        "description": "More than 15% of cane tops are fully rotted, black, and breaking; side buds are sprouting into weak bushy lines.",
+        "field_indicator": "Widespread dead heads across rows; terminal bud rot complete; ladder-like deep cut cracks across nodes.",
+        "recommended_action": "Apply curative systemic fungicides instantly to limit spread to healthy rows. Rogue out severely rotten cane heads safely into bags and burn them."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant exclusively healthy, disease-free seed sets sourced from documented clean seed plots",
+        "Select resistant varieties recommended by local sugar institutes (e.g., Co 0238 or equivalent regional selections showing high field tolerance scores)"
+      ],
+      "field_management": [
+        "Maintain recommended row spaces to maximize wind flow and accelerate canopy drying after rain storms"
+      ],
+      "irrigation_management": [
+        "Provide proper field drainage outlets; avoid prolonged water logging inside fields"
+      ],
+      "soil_management": [
+        "Apply balanced primary inputs based on soil analysis; avoid overdosages of Nitrogen which create soft, vulnerable spindle tissues"
+      ],
+      "crop_rotation": [
+        "Rotate out of sugarcane with broadleaf pulse crops or green manures every 2-3 ratoon cycles"
+      ],
+      "sanitation": [
+        "Plow fields deeply after harvest to bury old crop debris",
+        "Uproot and destroy heavily infected top-rot canes early to stop spore clouds"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly from mid-summer onward, looking closely at emerging young spindle leaf bases for ivory whitening marks"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Check leaf throat bases for red slash marks to confirm Pokkah Boeng over top borer insects",
+        "Isolate heavily twisted blocks from evening flooding loops"
+      ],
+      "cultural_control": [
+        "Carefully remove heavily rotted cane tops manually before they discharge high spore clouds into wind lanes"
+      ],
+      "organic_control": [
+        "Spray copper hydroxide or copper oxychloride formulations preventatively at early disease onset",
+        "Treat seed sets with liquid bio-control agents before planting"
+      ],
+      "biological_control": [
+        "Apply commercial formulations of Trichoderma harzianum or Bacillus subtilis into the soil matrix to naturally suppress soilborne pathogen loads"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 g/Id of water (or 200g/Acre)",
+          "application_method": "Foliar spray directed straight into the young emerging spindle whorl throat using high-pressure mist nozzles",
+          "spray_interval": "10 - 12 days apart if wet monsoon weather stays continuous",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Provides vital systemic protection to the growing bud. Wear full PPE; do not let spray drift touch adjacent cattle forage lines."
+        },
+        {
+          "active_ingredient": "Copper Oxychloride",
+          "product_type": "Protectant Fungicide",
+          "dose": "2.5 g/Id of water (or 500g/Acre)",
+          "application_method": "Foliar broadcast spray applied preventatively at early monsoon onset",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Forms a protective metallic film over leaf sheaths to block spore germination pathways."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Pokkah Boeng is a dangerous fungal disease that attacks the top growing tips of sugarcane during hot, wet monsoon weeks. It bleaches the base of young leaves white, twists and ties the top leaves into tight messy knots, and cuts deep red slash marks across the stem nodes, which can rot the entire cane head and stop cane growth completely.",
+      "what_to_do_now": [
+        "Check your ganna crops weekly for young leaves that look twisted, crumpled, or caught in knots at the top.",
+        "Avoid using excessive urea (nitrogen) fertilizer, which makes the top shoots soft and easy for the fungus to attack.",
+        "Spray a recommended systemic fungicide straight down into the top leaf throats if you see white twisting marks spreading."
+      ],
+      "what_not_to_do": [
+        "Never ignore twisted cane heads as simple wind damage—check closely for red knife-slash marks.",
+        "Do not collect seed sets for planting from a field that suffered from severe top-rot or node cracking.",
+        "Do not let heavy rainwater pool or stand inside your field channels for days."
+      ],
+      "when_to_call_expert": [
+        "If the top growing points of your sugarcane are turning black, rotting, and breaking off across rows, forcing side buds to sprout prematurely."
+      ],
+      "risk_warning": "Pokkah Boeng spreads very fast on the wind during monsoon shifts. If left unmanaged, it will kill the growing tips of your canes, permanently stunting your field tonnage and ruining sugar yields."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sugarcane_pokkah_boeng",
+        "sugarcane_healthy",
+        "sugarcane_top_borer_damage"
+      ],
+      "segmentation_labels": [
+        "twisted_spindle_whorl",
+        "knife_cut_lesion",
+        "chlorotic_leaf_base"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "The split stem core shows a clean hollow tunnel with brown sawdust frass, indicating a severe top borer insect attack needing insecticidal wire treatment"
+      ],
+      "image_quality_requirements": [
+        "Requires clear high-resolution close-ups focusing straight down into the twisted spindle throat or on external node cracks to confirm accurate diagnosis"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SUG-PB-CH-01",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Fusarium moniliforme Spindle Pathogenesis and Knife-Cut Anatomy",
+        "content": "Pokkah Boeng in sugarcane is induced by Fusarium moniliforme (Fusarium sacchari). Airborne conidia land inside the humid leaf spindle throat, germinating to penetrate the tender leaf sheath base. Pathogenesis progresses through distinct phases: chlorosis, leaf malformation/hooking, and a critical acute vascular necrosis phase which induces deep crosswise 'knife-cut' slits on the stalk rind nodes and complete terminal bud rot.",
+        "keywords": [
+          "Fusarium moniliforme",
+          "spindle throat",
+          "chlorosis phase",
+          "knife-cut symptom",
+          "terminal bud rot",
+          "rind nodes"
+        ],
+        "language": "English",
+        "target_user": "Sugarcane Breeder / Plant Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Cane Factory Zone",
+      "risk_radius": "20 km",
+      "report_count_threshold": "6 confirmed cases logged after early pre-monsoon storm shifts",
+      "outbreak_alert_message": "Pokkah Boeng Alert: Hot dry spells followed by heavy rains are driving Fusarium spindle rot waves. Balance nitrogen inputs and initiate targeted whorl sprays.",
+      "nearby_farm_advice": [
+        "Inspect top cane canopies immediately.",
+        "Ensure spray equipment uses high-clearance vertical boom adjustments to hit leaf throats."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Sugarcane: Operational Field Manual",
+      "source_url": "https://sbi.icar.gov.in/pokkah-boeng-sugarcane",
+      "source_type": "National Research Institute Bulletin",
+      "author_or_organization": "ICAR - Sugarcane Breeding Institute (SBI)",
+      "published_year": "2021",
+      "region": "South Asia / India",
+      "language": "English",
+      "last_verified": "2026-04-18",
+      "trust_level": "High",
+      "notes": "Premium authoritative source managing clinical fungal and viral sugarcane complexes across factory command areas."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:00:00Z",
+      "updated_at": "2026-06-01T19:00:00Z",
+      "reviewed_by": "ICAR-SBI Plant Protection Committee Review Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SUGARCANE-SMU-002",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna",
+        "Eekh",
+        "Ganna",
+        "Caña de azúcar"
+      ],
+      "crop_category": "Cash Crop / Sugar Crop"
+    },
+    "disease": {
+      "name": "Sugarcane Smut",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Sporisorium scitamineum",
+        "Ustilago scitaminea"
+      ],
+      "affected_parts": [
+        "Top growing apex / Spindle shoot",
+        "Leaves",
+        "Bud nodes"
+      ],
+      "disease_stage": "Tillering to grand growth phase; systemic infection manifests early from planted sets or ratoon roots"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Infected cane lines look noticeably thin, erect, and grow clusters of small, narrow, stiff grassy leaves",
+        "Cane elongation slows down, making affected stools look shorter than healthy rows"
+      ],
+      "middle_stage": [
+        "The central growing tip of the cane elongates into a giant, prominent, curved, gray-white rod structure",
+        "This structure curves downwards, resembling a long dark riding whip or telephone wire (smut whip) wrapped inside a silver skin membrane"
+      ],
+      "severe_stage": [
+        "The silver skin membrane cracks open completely, releasing billions of loose, dusty charcoal-black powdery spores into air currents",
+        "The empty whip is left standing as a bare, dark, twisted wire core, while the entire affected cane stool turns woody, thin, and completely useless for sugar extraction"
+      ],
+      "visible_signs": [
+        "Long, black, dusty, curved whip-like structures (ranging from a few inches to several feet long) breaking out directly from the top center canopy of sugarcane stools"
+      ],
+      "farmer_reported_signs": [
+        "The top center of my ganna is growing a long, curved black whip or tail covered in thick charcoal dust",
+        "Infected canes are very thin like wild reeds and have zero sweet juice inside them"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Emerging gray-white silver skin tubes change instantly into a messy, loose charcoal-black powdery state as they break open"
+      ],
+      "spot_or_patch_shape": "Long, continuous, curved cylindrical whip structure replacing the central leaf spindle entirely",
+      "pattern": "Systemic and complete destruction of the affected cane stool; all tillers from the same root block often produce whips",
+      "location_on_plant": "Erupts directly out of the terminal apex growth tip at the very top of the sugarcane column",
+      "starts_from": "The planted seed set or infected ratoon root lines underground, tracking systemically up the inner cane center hidden",
+      "progression": "Completely consumes the terminal bud tissue, transforming it into a spore-producing whip before millable stalks can form",
+      "image_clues": [
+        "Sugarcane stalk tip ending in a long, curved, dusty black charcoal whip structure",
+        "Thin reed-like stunted cane stool cluster"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Grassy Shoot Disease (Phytoplasma Infection)",
+        "difference": "Grassy shoot causes a massive outbreak of hundreds of tiny, paper-white or light yellow dwarf tillers at the cane base, looking like a bunch of wild grass, but completely lacks the long, curved terminal black soot whips typical of Sugarcane Smut.",
+        "confusion_risk": "Medium, because both cause severe stunting and thin reed-like stalks."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry summer months punctuated by high winds that carry loose spores, alternating with warm rainy cycles"
+      ],
+      "temperature_range": "25°C - 35°C (77°F - 95°F) optimal for spore germination and systemic movement",
+      "humidity_level": "High humidity helps spores attach to node eyes; dry winds favor spore dust spread",
+      "season": "Spring planting cycles and early ratoon growth phases (March to June)",
+      "soil_conditions": [
+        "Fields where smutted cane ratoon roots are left standing year after year without block holidays"
+      ],
+      "field_conditions": [
+        "Planting untreated saved sets harvested from contaminated mill lines",
+        "Cultivating highly susceptible old cane cultivars"
+      ],
+      "irrigation_conditions": [
+        "Low soil moisture or moisture stress during early tillering, which slows down cane growth and permits fungal tracking"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind currents carrying millions of loose black spores from ruptured whips across full field blocks",
+        "Irrigation water currents washing dropped spores onto open node eye buds",
+        "Contaminated cane cutting knives"
+      ],
+      "source_of_infection": [
+        "Infected seed sets used for planting",
+        "Infected ratoon stools left standing from the previous season",
+        "Loose spores resting on topsoil layers"
+      ],
+      "survival_method": "Survives as dormant fungal mycelium inside the infected node eyes of seed canes, or as resilient spores resting in field dirt layers for over a year",
+      "spread_speed": "Highly rapid across the district if loose soot whips are left to blow freely in wind lines during dry summer days",
+      "nearby_crop_risk": "Extreme risk for adjacent sugarcane blocks downwind (spores infect open node eyes, which will show whips next season)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 1% of cane stools in the plot show active black curved whips at their tops.",
+        "field_indicator": "Isolated black whips noticed while scanning rows; majority of cane stools look thick and healthy.",
+        "recommended_action": "Carefully pull a long wet gunny bag over the entire whip *before* it releases dust, cut the stalk at the base, remove it from the field, and burn it completely. Do not ratoon this stool."
+      },
+      {
+        "level": "Medium",
+        "description": "1% to 5% of entire stool counts across the lines are completely thin, stunted, and producing black soot whips.",
+        "field_indicator": "Black messy whips are easy to see across multiple rows; affected stalks look like thin wild reeds.",
+        "recommended_action": "Eradicate active smutted stools manually with high caution. Mark this entire block to ensure **zero ratoon cropping or seed set collection** for the next year. Enforce chemical hot-water set treatments."
+      },
+      {
+        "level": "High",
+        "description": "More than 5% of cane stools are destroyed into soot masses; field rows look patchy, short, and thin.",
+        "field_indicator": "Widespread presence of black tails across the canopy; heavy direct loss in millable stalk tonnage and sugar content.",
+        "recommended_action": "Harvest the remaining clean stalks promptly for immediate factory milling. **Never use seed canes from this plot.** Plow the field deeply, implement a 2-year non-cane crop holiday, and switch to certified immune varieties."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "**Subject seed sets to moist hot water treatment (52°C for 30 minutes) mixed with systematic fungicides before planting**",
+        "Never save or reuse seed sets from fields or zones showing visible black whips"
+      ],
+      "field_management": [
+        "Practice strict multi-year crop rotation breaks to allow soilborne spore populations to naturally die down",
+        "Maintain uniform spacing"
+      ],
+      "irrigation_management": [
+        "Provide regular irrigation during dry summer spells to maintain vigorous cane growth, outrunning fungal tracking lines"
+      ],
+      "soil_management": [
+        "Practice deep summer soil inversion plowing to bury dropped topsoil spores deep away from new root horizons"
+      ],
+      "crop_rotation": [
+        "**Enforce a strict 2-to-3-year rotation break out of sugarcane** using non-grass crops like paddy, green gram, soybean, or cotton"
+      ],
+      "sanitation": [
+        "Uproot and destroy infected cane stools entirely including root blocks *before* the silver skin whip splits open completely",
+        "Disinfect harvesting knives"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly from early tillering onward, tracking unusually thin, straight tillers with narrow leaves before whips emerge"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify the presence of the long black charcoal-covered whip to confirm Sugarcane Smut",
+        "Isolate infected stools using wet bags before cutting to trap soot dust"
+      ],
+      "cultural_control": [
+        "Enforce a strict village-wide crop holiday for heavily infested blocks—do not take ratoon crops from smutted lines"
+      ],
+      "organic_control": [
+        "Dip seed sets in a slurry of fresh cow dung and clay mixed with Trichoderma viride powder before planting rows"
+      ],
+      "biological_control": [
+        "Mass soil application of beneficial fungal antagonists can help speed up the natural breakdown of soil-resting smut spores over fallow years"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Triadimefon or Carbendazim",
+          "product_type": "Fungicide Seed Set Treatment",
+          "dose": "1.0 - 2.0 g/Id of water for seed dipping tank",
+          "application_method": "Soak cane seed sets thoroughly in the fungicide chemical solution for 15-20 minutes *prior to planting in furrows*",
+          "spray_interval": "Single set-level treatment before planting; foliar canopy chemical sprays on leaves provide **zero medical cure** once the black whips show up",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Highly effective and essential preventative barrier that kills hidden mycelium inside node eyes. Wear thick rubber gloves during set dipping."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Sugarcane Smut (Ganne ka Kani Rog) is a highly destructive systemic disease. The fungus enters hidden inside infected seed sets or crawls into node eyes from the soil, growing up inside the cane center. It completely destroys the plant's capability to make thick sugary stalks, turning the main top growing tip into a long, curved black whip or tail covered in millions of loose charcoal-black soot spores that blow away easily in the wind.",
+      "what_to_do_now": [
+        "If you see a black whip forming at a cane top, immediately cover it with a wet plastic or cloth bag, cut the stalk at the ground line, and burn it to stop spores from blowing into your soil.",
+        "**Never save or reuse seed sets from this field, and do not take a ratoon crop next year—the root blocks are permanently infected.**",
+        "Always treat new seed sets using hot water and recommended chemical fungicides before planting your next crop."
+      ],
+      "what_not_to_do": [
+        "Never leave a smutted cane field standing as a ratoon crop, as the disease will grow twice as bad and ruin your entire acreage.",
+        "Do not spend money on spraying leaf chemicals once the black whips appear—sprays are useless because the infection is locked inside the stem center.",
+        "Do not use dry cutting knives from a sick stool to cut sets for fresh clean lines without washing the blades."
+      ],
+      "when_to_call_expert": [
+        "Call a sugar mill agronomist or village extension officer immediately if you notice black curved whips breaking out across multiple sugarcane rows in your area."
+      ],
+      "risk_warning": "Sugarcane smut is an absolute cane killer. It turns thick, heavy, profitable sugar stalks into thin, dry, hollow wild wooden sticks, completely destroying your field weight and causing heavy financial rejections at the sugar factory mill."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sugarcane_smut_whip",
+        "sugarcane_healthy",
+        "sugarcane_grassy_shoot"
+      ],
+      "segmentation_labels": [
+        "charcoal_black_whip",
+        "silvery_peridium_membrane",
+        "stunted_thin_culm"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "The black powdery growth covers individual side buds rather than erupting as a single giant central whip from the main top canopy"
+      ],
+      "image_quality_requirements": [
+        "Requires clear photos showing the full continuous curved black whip structure to differentiate cleanly from minor insect chewing scars"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SUG-SMU-CH-02",
+        "chunk_type": "Pathology / Systemic Mycology",
+        "title": "Sporisorium scitamineum Systemic Tracking and Spindle Whip Morphology",
+        "content": "Sugarcane smut is caused by the systemic basidiomycete Sporisorium scitamineum. Fungal mycelium overwinters inside dormant node eyes or enters young seedling sprouts. The fungus tracks systemically within the apex meristem. Upon entering reproductive or seasonal growth shifts, it suppresses normal leaf expansion, transforming the entire terminal growing apex into a single long, curved unbranched columella whip wrapped in a fragile silvery peridium containing millions of black teliospores.",
+        "keywords": [
+          "Sporisorium scitamineum",
+          "basidiomycete",
+          "systemic tracking",
+          "apex meristem",
+          "terminal whip",
+          "peridium",
+          "teliospores"
+        ],
+        "language": "English",
+        "target_user": "Sugar Factory Agronomist / Plant Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Cane Factory command area / Sub-District",
+      "risk_radius": "25 km",
+      "report_count_threshold": "4 active field alerts logged during early dry summer grand-growth transitions",
+      "outbreak_alert_message": "CRITICAL ALERT: Sugarcane Smut whips expanding in ratoon blocks. Implement mandatory bag-and-cut rogueing and enforce hot-water chemical seed treatment mandates.",
+      "nearby_farm_advice": [
+        "Do not save seed from contaminated command blocks.",
+        "Plow under heavily infested ratoon roots immediately; do not carry over to next season."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Sugarcane Smut Epidemiology and Eradication Manual",
+      "source_url": "https://iisr.icar.gov.in/smut-disease-sugarcane",
+      "source_type": "National Research Institute Bulletin",
+      "author_or_organization": "ICAR - Indian Institute of Sugarcane Research (IISR)",
+      "published_year": "2022",
+      "region": "South Asia / Global",
+      "language": "English",
+      "last_verified": "2026-03-20",
+      "trust_level": "High",
+      "notes": "Premium administrative directive mapping mandatory hot-water thermal standards and triazole chemical set disinfection protocols."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:15:00Z",
+      "updated_at": "2026-06-01T19:25:00Z",
+      "reviewed_by": "ICAR-IISR Crop Protection Directorate Review Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SUGARCANE-GSD-003",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna",
+        "Eekh",
+        "Ganna",
+        "Caña de azúcar"
+      ],
+      "crop_category": "Cash Crop / Sugar Crop"
+    },
+    "disease": {
+      "name": "Grassy Shoot Disease",
+      "category": "Phytoplasma (Vector-borne / Seed-borne)",
+      "pathogen_or_cause": [
+        "Sugarcane grassy shoot phytoplasma (SCGSP)"
+      ],
+      "affected_parts": [
+        "Cane base nodes",
+        "Tillers",
+        "Leaves",
+        "Whole stool architecture"
+      ],
+      "disease_stage": "Early tillering stage onward; highly pronounced in early ratoon crops"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Production of an abnormally high number of thin, weak side sprouts from the ground base node lines",
+        "Young emerging leaves turn pale green to distinct cream-white lines"
+      ],
+      "middle_stage": [
+        "Massive multiplication of small dwarf shoots, turning the sugarcane stool into a tight, dense, crowded brush look",
+        "Leaves turn completely paper-white or light lemon-yellow and lose their thick structure"
+      ],
+      "severe_stage": [
+        "The sugarcane stool looks exactly like a dense clump of wild green-white lawn grass, completely failing to form thick cane stalks",
+        "Affected shoots stay short (under 1-2 feet) and produce zero millable stems, resulting in a total crop failure for the infected root line"
+      ],
+      "visible_signs": [
+        "A dense, short, bushy mat of hundreds of thin paper-white grassy leaves clustering tightly at the base of the sugarcane hill, completely bare of thick sweet cane stalks"
+      ],
+      "farmer_reported_signs": [
+        "My ganna stool has turned into a giant bunch of white wild grass",
+        "The roots are throwing out hundreds of tiny white thin shoots that stay short and never form hard sugarcane stalks"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Leaves drop their deep green chlorophyll, turning completely paper-white, ivory, or pale bleached yellow"
+      ],
+      "spot_or_patch_shape": "No localized dead spots; complete conversion of foliage into small, thin, crowded grass-like structural shapes",
+      "pattern": "Systemic and heavy proliferation of dwarf tillers across the entire root block structure",
+      "location_on_plant": "Concentrated heavily at the ground contact base line, completely swarming the cane stool crown",
+      "starts_from": "The underground nodes of the seed set or infected ratoon root stock channels",
+      "progression": "Early infected sets fail to grow upward, forming nothing but short grassy clumps that produce zero sugar yield",
+      "image_clues": [
+        "Sugarcane stool looking like a short cluster of white-and-green grass blades",
+        "Complete absence of thick sweet stalks on a standing hill"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Sugarcane Smut (Sporisorium scitamineum Early Tillering)",
+        "difference": "Smut-infected stools can also produce thin reed-like stalks and small leaves early, but they will eventually shoot out a giant, unmistakable curved central black charcoal whip from the top center canopy, which never occurs in Grassy Shoot Disease.",
+        "confusion_risk": "Medium during early tillering months."
+      },
+      {
+        "name": "Severe Iron Deficiency Chlorosis",
+        "difference": "Iron starvation causes leaves to turn pale yellow-white but affects broad field blocks uniformly based on sandy or alkaline soil lines, and completely lacks the dense multi-sprouting of hundreds of dwarf grassy tillers from a single stool crown.",
+        "confusion_risk": "High, due to identical paper-white leaf bleaching patterns."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid tropical weather zones that accelerate sap-sucking vector insect multi-generation multiplication"
+      ],
+      "temperature_range": "25°C - 35°C (77°F - 95°F) optimal for leafhopper vector movement and breeding lines",
+      "humidity_level": "Moderate to high humidity levels within dense enclosed row systems",
+      "season": "Spring tillering months and peak ratoon shoot development cycles (April to August)",
+      "soil_conditions": [
+        "Not directly dependent on soil chemistry, but keeping ratoon crops for over 3 sequential seasons spikes pathogen loads"
+      ],
+      "field_conditions": [
+        "High field populations of sap-sucking leafhopper vectors",
+        "Planting untreated saved sets harvested from contaminated commercial blocks"
+      ],
+      "irrigation_conditions": [
+        "Standard water inputs"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Sap-sucking leafhopper insects (e.g., Pyrilla perpusilla, Brachyplatys subaeneus) carrying phytoplasma organisms in a persistent style",
+        "Planting seed sets harvested from infected cane blocks",
+        "Shared cutting knives transferring infected plant sap during set preparation"
+      ],
+      "source_of_infection": [
+        "Infected ratoon cane stools left standing from prior seasons",
+        "Infected seed sets used for planting",
+        "Alternative wild grass hosts near field boundaries"
+      ],
+      "survival_method": "Survives continuously inside the living phloem cells of un-plowed cane ratoon stumps, alternative perennial wild grass vectors, or seed set node eyes",
+      "spread_speed": "Moderate across fields via insect lines, but absolute and permanent inside individual stools if sets carry the disease",
+      "nearby_crop_risk": "High for young fresh sugarcane plantings situated downwind of infected old ratoon blocks"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Isolated scattered cane stools (less than 2% of field count) show thin grassy base shoots and pale green leaves.",
+        "field_indicator": "A few random grass-like clumps found at the ground line; rest of the rows have thick green standing stalks.",
+        "recommended_action": "Uproot the entire infected grassy stool root block completely, remove it from the field row, and bury or burn it. Disinfect knives immediately."
+      },
+      {
+        "level": "Medium",
+        "description": "Distinct patches of grassy white clumps cover 2% to 7% of the field layout; total stool failure on those spots.",
+        "field_indicator": "White grass bunches are easy to spot across rows; affected blocks produce zero hard stalks.",
+        "recommended_action": "Rogue out infected clumps thoroughly. Apply targeted systemic insecticides immediately across the field block to suppress sap-sucking vector insects."
+      },
+      {
+        "level": "High",
+        "description": "More than 7% of the field crop is converted into short paper-white grassy mats; severe crop stunting field-wide.",
+        "field_indicator": "Massive direct tonnage loss; large row spaces look like white grassy lawns; zero sweet stalks formed on affected lines.",
+        "recommended_action": "Mill the surviving thick stalks immediately. **Do not carry this block over into a ratoon crop next year—destroy the root lines completely.** Enforce strict thermal heat treatment standards for all future planting sets."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "**Subject seed sets to Hot Water Treatment (50°C for 2 hours) or Aerated Steam Therapy (50°C for 1 hour) to kill internal phytoplasmas before planting**",
+        "Sow only certified tissue-cultured disease-free seed sets"
+      ],
+      "field_management": [
+        "Avoid keeping ratoon fields for multiple years if grassy shoot symptoms are increasing locally",
+        "Maintain ideal wide spaces"
+      ],
+      "irrigation_management": [
+        "Regulate water lines; maintain healthy crop vigor through balanced nutrient splits"
+      ],
+      "soil_management": [
+        "Apply balanced inputs; avoid heavy nitrogen overdosages that create soft succulent tissues highly favored by vector insects"
+      ],
+      "crop_rotation": [
+        "Rotate the plot out of sugarcane with paddy, maize, or leguminous green manures for a minimum of 1-2 years"
+      ],
+      "sanitation": [
+        "**Uproot and burn infected grassy hills instantly during the first 30-45 days of growth**",
+        "Boil or disinfect cutting knives using lysol solution regularly"
+      ],
+      "monitoring": [
+        "Monitor row bases twice a week from early tillering onward, looking out for abnormal paper-white thin sprouts emerging from the soil lines"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Confirm the presence of hundreds of multi-sprouts from a single crown to rule out pure iron deficiency and confirm Grassy Shoot",
+        "Rogue out early hotspots"
+      ],
+      "cultural_control": [
+        "Enforce a strict seed selection protocol—never cut seed sets from a stool block that has even a single white grass clump inside it"
+      ],
+      "organic_control": [
+        "Dip seed sets in warm water baths enriched with organic leaf extracts or sulfur before row sowing paths"
+      ],
+      "biological_control": [
+        "Conserve natural leafhopper predators like specialized parasitoids (e.g., Epiricania melanoleuca) within the farm plot ecosystem"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Malathion or Dimethoate",
+          "product_type": "Systemic Insecticide",
+          "dose": "1.5 - 2.0 mL/Id of water (or 400 mL/Acre)",
+          "application_method": "Foliar mist spray directed thoroughly over cane bases and leaf layers to suppress sap-sucking leafhopper vector tracks",
+          "spray_interval": "12 - 14 days apart only if insect vector counts exceed local economic thresholds",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Targeted at managing insect vectors; does not treat the internal phytoplasma directly. Highly toxic to pollinators; apply during late afternoon only."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Grassy Shoot Disease (Ganne ka Ghasia Rog) is a dangerous internal disease caused by a microscopic organism called a phytoplasma. It is carried into fields inside sick seed sets and spread plant-to-plant by tiny sap-sucking leafhopper insects. It completely destroys the ganna plant's capacity to grow tall, forcing the root block to sprout hundreds of tiny, paper-white, thin leaves that look exactly like wild lawn grass, producing zero sweet sugarcane stalks.",
+      "what_to_do_now": [
+        "Walk your fields and immediately dig out any young ganna clumps that look like white wild grass, roots and all, and burn them.",
+        "**Never take a ratoon crop next year from a field patch that showed white grassy shoots—destroy the roots completely after harvest.**",
+        "Always purchase certified tissue-culture seeds or treat your planting sets with clean hot water/steam heat therapies at a factory facility."
+      ],
+      "what_not_to_do": [
+        "Never use cutting knives from a field holding white grass clumps to prepare seed sets for fresh fields without boiling the blades first.",
+        "Do not apply standard fungicides; this is a phytoplasma disease spread by insects, so only heat treatments or insect sprays work.",
+        "Do not mistake paper-white grass clumps for simple nutritional problems—if it has hundreds of thin dwarf tillers, it is a viral-like infection."
+      ],
+      "when_to_call_expert": [
+        "Call an extension expert or factory agronomist immediately if you notice multiple rows of your sugarcane field failing to grow tall and turning into short mats of bright paper-white wild grass."
+      ],
+      "risk_warning": "Grassy Shoot Disease is a total yield killer. Once a sugarcane root block is infected, it stays permanently stunted, forms zero commercial cane stalks, and will result in a 100% loss of tonnage for that infected hill."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sugarcane_grassy_shoot",
+        "sugarcane_healthy",
+        "sugarcane_smut_whip"
+      ],
+      "segmentation_labels": [
+        "paper_white_tillers",
+        "bushy_stool_crown",
+        "stunted_chlorotic_blade"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "The pale yellow leaves are large and normal-sized but show fine green lines along veins across the whole plot, pointing to pure iron soil starvation instead"
+      ],
+      "image_quality_requirements": [
+        "Requires clear images showing the massive crowding of tiny dwarf sprouts right at the soil crown level to confirm accurate diagnosis over mineral blockages"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SUG-GSD-CH-03",
+        "chunk_type": "Virology / Phloem Pathology",
+        "title": "Sugarcane Grassy Shoot Phytoplasma and Phloem Proliferation",
+        "content": "Grassy Shoot Disease (GSD) is induced by an obligate phloem-bound wall-less prokaryote: Sugarcane grassy shoot phytoplasma (SCGSP). Transmitted vertically via infected seed cuttings and horizontally via leafhopper vectors (Pyrilla perpusilla) in a circulative style, it multiplies within sieve tubes. This triggers hormonal imbalances that break lateral bud dormancy, inducing excessive multi-tillering of dwarf vegetative shoots with profound chlorophyll loss (albinism/paper-white leaves), resulting in absolute failure of millable culm formation.",
+        "keywords": [
+          "phytoplasma",
+          "phloem-bound",
+          "SCGSP",
+          "sieve tubes",
+          "lateral bud dormancy",
+          "multi-tillering",
+          "albinism"
+        ],
+        "language": "English",
+        "target_user": "Sugar Factory Extension Officer / Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional / Cane Factory Command Zone",
+      "risk_radius": "30 km",
+      "report_count_threshold": "3 confirmed site alerts inside a local circle within 14 days",
+      "outbreak_alert_message": "CRITICAL ALERT: Grassy Shoot Disease (GSD) expanding heavily across early ratoon cane sets. Execute absolute rogueing protocols and enforce moist hot-water thermal cleansing maps.",
+      "nearby_farm_advice": [
+        "Check ground shoot crown layers for white albinism sprouts.",
+        "Note infected plots for absolute ratoon termination post-harvest."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Sugarcane Phloem Diseases Operational Guide",
+      "source_url": "https://sbi.icar.gov.in/grassy-shoot-sugarcane",
+      "source_type": "National Research Institute Monograph",
+      "author_or_organization": "ICAR - Sugarcane Breeding Institute",
+      "published_year": "2021",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-04-22",
+      "trust_level": "High",
+      "notes": "The definitive operational benchmark mapping hot water thermal exposure profiles and vector leafhopper threshold indexes."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:30:00Z",
+      "updated_at": "2026-06-01T19:40:00Z",
+      "reviewed_by": "ICAR-SBI Plant Pathology Division Expert Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "sugarcane_mosaic",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna"
+      ],
+      "crop_category": "Cash Crop"
+    },
+    "disease": {
+      "name": "Mosaic",
+      "category": "Viral",
+      "pathogen_or_cause": [
+        "Sugarcane Mosaic Virus (SCMV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stalks"
+      ],
+      "disease_stage": "Early growth"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Mottled appearance on younger growing leaves with light green to yellow patches/stripes."
+      ],
+      "middle_stage": [
+        "Plant appears pale, chlorotic, and stunted. Fewer tillers."
+      ],
+      "severe_stage": [
+        "Yellow stripes on leaf sheaths. Necrotic lesions on stalks. Stems may split."
+      ],
+      "visible_signs": [
+        "Yellow/green mottling on young leaves, stunted growth."
+      ],
+      "farmer_reported_signs": [
+        "Leaves look streaky yellow and green",
+        "Plant is not growing well"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light green",
+        "Yellow"
+      ],
+      "spot_or_patch_shape": "Irregular patches/stripes",
+      "pattern": "Mosaic/mottled",
+      "location_on_plant": "Young leaves",
+      "starts_from": "New growth",
+      "progression": "Mottling -> Stunting -> Yield loss",
+      "image_clues": [
+        "Look for the classic mosaic mottled pattern on the newest leaves."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Nutrient deficiency",
+        "difference": "Nutrient deficiency is usually uniform yellowing, while mosaic is distinctly mottled/patchy.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm"
+      ],
+      "temperature_range": "25-35C",
+      "humidity_level": "Variable",
+      "season": "Spring/Summer",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Presence of aphids"
+      ],
+      "irrigation_conditions": [
+        "N/A"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Aphids",
+        "Infected setts (cuttings)",
+        "Tools"
+      ],
+      "source_of_infection": [
+        "Infected seed canes"
+      ],
+      "survival_method": "In living plants",
+      "spread_speed": "Moderate",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "Medium",
+        "description": "Mosaic pattern on leaves.",
+        "field_indicator": "Stunted tillers.",
+        "recommended_action": "Rogue out infected plants."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified disease-free setts.",
+        "Aerated Steam Therapy (AST) at 56C."
+      ],
+      "field_management": [
+        "Remove infected clumps (roguing)."
+      ],
+      "irrigation_management": [
+        "N/A"
+      ],
+      "soil_management": [
+        "Adequate fertilizer."
+      ],
+      "crop_rotation": [
+        "N/A"
+      ],
+      "sanitation": [
+        "Sanitize cutting knives."
+      ],
+      "monitoring": [
+        "Scout for aphids and mottled leaves."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue and destroy infected plants."
+      ],
+      "cultural_control": [
+        "Vector control."
+      ],
+      "organic_control": [
+        "Release green lacewings for aphids."
+      ],
+      "biological_control": [
+        "Chrysoperla carnea."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid",
+          "product_type": "Insecticide",
+          "dose": "0.5mL/L",
+          "application_method": "Spray",
+          "spray_interval": "15 days",
+          "pre_harvest_interval": "N/A",
+          "safety_note": "Target aphids."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A virus transmitted by aphids and infected cuttings that stunts plant growth.",
+      "what_to_do_now": [
+        "Remove the infected plants completely."
+      ],
+      "what_not_to_do": [
+        "Don't use cuttings from this field for next planting."
+      ],
+      "when_to_call_expert": [
+        "If you see widespread mottling."
+      ],
+      "risk_warning": "Cannot be cured; prevention is key."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sugarcane_mosaic"
+      ],
+      "segmentation_labels": [
+        "mosaic_mottling"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear shot of the leaf mottling."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "",
+      "nearby_farm_advice": []
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  },
+  {
+    "id": "sugarcane_red_rot",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna"
+      ],
+      "crop_category": "Cash Crop"
+    },
+    "disease": {
+      "name": "Red Rot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Colletotrichum falcatum"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stalks"
+      ],
+      "disease_stage": "All stages"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Premature yellowing and wilting of upper leaves. Red patches with ash-colored centers on midribs."
+      ],
+      "middle_stage": [
+        "Cane loses firmness. Leaves wither."
+      ],
+      "severe_stage": [
+        "Internal stalk shows dark brown/red discoloration with white patches across the width. Sour alcoholic odor."
+      ],
+      "visible_signs": [
+        "Red/white banded pith inside the cane, sour smell."
+      ],
+      "farmer_reported_signs": [
+        "Inside of the cane is red with white spots",
+        "Field smells like alcohol or vinegar",
+        "Top leaves drying"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Red",
+        "White patches"
+      ],
+      "spot_or_patch_shape": "Transverse white bands",
+      "pattern": "Red pith with white bands",
+      "location_on_plant": "Inside stalk, leaf midribs",
+      "starts_from": "Internal stalk",
+      "progression": "Wilting -> Internal rotting -> Death",
+      "image_clues": [
+        "Split cane showing red tissue with white cross-bands."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Wilt",
+        "difference": "Wilt causes purple/red discoloration but lacks the distinct white horizontal patches and sour smell of red rot.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid",
+        "Heavy rains"
+      ],
+      "temperature_range": "25-30C",
+      "humidity_level": "High",
+      "season": "Monsoon",
+      "soil_conditions": [
+        "Waterlogged"
+      ],
+      "field_conditions": [
+        "Debris present"
+      ],
+      "irrigation_conditions": [
+        "Stagnant water"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Infected setts",
+        "Water runoff",
+        "Soil"
+      ],
+      "source_of_infection": [
+        "Seed material",
+        "Soil debris"
+      ],
+      "survival_method": "In soil/debris",
+      "spread_speed": "Fast in waterlogged fields",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Internal rotting and wilting.",
+        "field_indicator": "Sour smell in field.",
+        "recommended_action": "Uproot and burn."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified disease-free setts.",
+        "Hot water treatment (52C for 30 mins)."
+      ],
+      "field_management": [
+        "Improve drainage."
+      ],
+      "irrigation_management": [
+        "Avoid stagnation."
+      ],
+      "soil_management": [
+        "N/A"
+      ],
+      "crop_rotation": [
+        "Rotate for 3 years."
+      ],
+      "sanitation": [
+        "Uproot and burn infected plants."
+      ],
+      "monitoring": [
+        "Check midribs for lesions."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove and burn infected clumps."
+      ],
+      "cultural_control": [
+        "Drainage."
+      ],
+      "organic_control": [
+        "None effective for systemic rot."
+      ],
+      "biological_control": [
+        "N/A"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Thiophanate methyl",
+          "product_type": "Fungicide",
+          "dose": "0.2%",
+          "application_method": "Sett dip",
+          "spray_interval": "N/A",
+          "pre_harvest_interval": "N/A",
+          "safety_note": "Use before planting."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A devastating fungal disease known as the 'cancer of sugarcane', causing internal red rot.",
+      "what_to_do_now": [
+        "Uproot and burn the infected canes immediately."
+      ],
+      "what_not_to_do": [
+        "Don't use canes from this field for next planting.",
+        "Don't ratoon the infected crop."
+      ],
+      "when_to_call_expert": [
+        "If you suspect red rot, confirm immediately."
+      ],
+      "risk_warning": "Total crop failure is possible."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sugarcane_red_rot"
+      ],
+      "segmentation_labels": [
+        "red_rot_pith"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear shot of a longitudinally split cane."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "2",
+      "outbreak_alert_message": "Red Rot spotted. Inspect your canes.",
+      "nearby_farm_advice": [
+        "Drain water."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  },
+  {
+    "id": "SUGARCANE-RUST-EXT-01",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna",
+        "Ikshu"
+      ],
+      "crop_category": "Sugar / Cash crop"
+    },
+    "disease": {
+      "name": "Common Rust",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Puccinia melanocephala"
+      ],
+      "affected_parts": [
+        "Leaves (mainly lower leaf surface)"
+      ],
+      "disease_stage": "Young to mid-age crop (most damaging in the first 2-6 months)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small elongated yellowish spots (1-4 mm) appear, mainly on the lower leaf surface, running parallel to the leaf veins"
+      ],
+      "middle_stage": [
+        "Spots enlarge (up to ~20 mm long, 1-3 mm wide) and turn orange-brown to red-brown with a pale chlorotic halo",
+        "Raised rust pustules form on the underside and release orange-brown powdery spores"
+      ],
+      "severe_stage": [
+        "Pustules fuse, the leaf epidermis ruptures, and large necrotic (dead) areas develop, drying the leaves and reducing cane growth"
+      ],
+      "visible_signs": [
+        "Orange-brown powder on the underside of leaves that rubs off on fingers",
+        "Red-brown streaks parallel to the veins"
+      ],
+      "farmer_reported_signs": [
+        "Orange-brown dusty pustules under the leaves that come off on my hand",
+        "Leaves drying with rusty red-brown streaks"
+      ]
+    },
+    "favorable_conditions": {
+      "notes": [
+        "High humidity (around 98%) with long leaf wetness (9+ hours)",
+        "Cool nights followed by warm days, ~20-25 C"
+      ]
+    },
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant rust-resistant/tolerant cultivars (the main control)",
+        "Use healthy setts"
+      ],
+      "field_management": [
+        "Maintain balanced soil nutrition and adequate water during growth",
+        "Use wider/paired-row spacing for airflow to reduce leaf wetness"
+      ],
+      "sanitation": [
+        "Remove heavily infected trash/leaves and avoid carrying infected material to clean fields"
+      ],
+      "monitoring": [
+        "Scout young crops during humid weather; rust is most damaging early"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Improve airflow (detrash lower leaves) and correct nutrient/water stress"
+      ],
+      "cultural_control": [
+        "Grow resistant cultivars",
+        "Balanced nutrition and adequate irrigation",
+        "Proper spacing/paired-row planting"
+      ],
+      "organic_control": [
+        "Remove and destroy heavily infected leaves; maintain field hygiene"
+      ],
+      "biological_control": [],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole (triazole)",
+          "product_type": "Systemic fungicide",
+          "dose": "as per label",
+          "notes": "Only justified in severe outbreaks on susceptible varieties / seed-cane; fungicides are usually not economical for general rust control"
+        }
+      ],
+      "expert_recommendation_required": "Yes before any fungicide programme — rust is normally managed by resistant varieties, not spraying"
+    },
+    "farmer_advice": {
+      "simple_explanation": "Sugarcane common rust is a fungus that makes orange-brown rusty pustules on the underside of leaves. Severe rust dries the leaves and slows cane growth. It is worst in cool, very humid weather on young cane.",
+      "what_to_do_now": [
+        "Remove and destroy the worst-affected lower leaves",
+        "Make sure the crop has balanced nutrition and enough water",
+        "Improve airflow by detrashing; avoid keeping leaves wet"
+      ],
+      "what_not_to_do": [
+        "Do not rely on fungicide as the main fix — choose resistant varieties for next planting",
+        "Do not move infected trash to clean fields"
+      ],
+      "when_to_call_expert": "For widespread rust on a susceptible variety, ask your agricultural officer whether a fungicide is justified.",
+      "risk_warning": "The best long-term control is planting a rust-resistant variety; spraying is rarely economical across a whole field."
+    },
+    "source_metadata": {
+      "compiled_from": [
+        "Plantix",
+        "CABI Compendium",
+        "Infonet-Biovision",
+        "Sugar Research Australia"
+      ]
+    }
+  },
+  {
+    "id": "SUGARCANE-YLD-EXT-01",
+    "crop": {
+      "common_name": "Sugarcane",
+      "english_name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "local_names": [
+        "Ganna",
+        "Ikshu"
+      ],
+      "crop_category": "Sugar / Cash crop"
+    },
+    "disease": {
+      "name": "Yellow Leaf Disease",
+      "category": "Viral",
+      "pathogen_or_cause": [
+        "Sugarcane yellow leaf virus (SCYLV), a Polerovirus",
+        "Spread by infected setts and the aphid Melanaphis sacchari"
+      ],
+      "affected_parts": [
+        "Leaf midrib",
+        "Leaf blade",
+        "Whole plant (stunting)"
+      ],
+      "disease_stage": "Usually visible from mid to late growth (after about 5-6 months)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Intense yellowing of the midrib, first seen on the underside of leaves"
+      ],
+      "middle_stage": [
+        "Yellowing spreads from the midrib into the adjoining leaf blade",
+        "Tissue starts to die (necrosis) from the leaf tip towards the base"
+      ],
+      "severe_stage": [
+        "Drying of leaves, stunted growth with shortened internodes, and a 'bunchy top' appearance; reduced cane weight and sugar"
+      ],
+      "visible_signs": [
+        "Bright yellow midrib that stands out against the green blade",
+        "Leaf tips drying and browning while the midrib stays yellow"
+      ],
+      "farmer_reported_signs": [
+        "The middle vein of the leaves has turned bright yellow",
+        "The top of the cane looks bunched and stunted with drying leaf tips"
+      ]
+    },
+    "favorable_conditions": {
+      "notes": [
+        "Planting infected setts is the main source",
+        "Aphid activity spreads it; stress conditions worsen symptoms"
+      ]
+    },
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use only virus-free, certified seed setts (a clean-seed programme is the most effective control)",
+        "Where available, plant tolerant/resistant varieties",
+        "Tissue-culture (meristem) derived clean seed for foundation material"
+      ],
+      "field_management": [
+        "Manage the aphid vector; use yellow sticky traps to monitor aphids",
+        "Avoid water/nutrient stress that intensifies symptoms"
+      ],
+      "sanitation": [
+        "Rogue out (remove) clearly infected stools and do not use them as seed"
+      ],
+      "monitoring": [
+        "Inspect for yellow midribs and monitor aphid populations"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Mark and remove obviously infected stools; do not save them for seed"
+      ],
+      "cultural_control": [
+        "Clean-seed programme",
+        "Plant tolerant varieties",
+        "Vector (aphid) management"
+      ],
+      "organic_control": [
+        "Use yellow sticky traps and encourage natural aphid enemies to reduce vector spread"
+      ],
+      "biological_control": [],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid / systemic aphicide",
+          "product_type": "Insecticide (vector control)",
+          "dose": "as per label",
+          "notes": "Targets the aphid vector, not the virus itself; there is no chemical cure for the virus"
+        }
+      ],
+      "expert_recommendation_required": "Yes — confirmation often needs a lab test (the virus has no chemical cure)"
+    },
+    "farmer_advice": {
+      "simple_explanation": "Yellow leaf disease is caused by a virus carried in the seed cane and spread by aphids. It turns the middle vein of the leaf bright yellow, then the leaf tips dry and the cane stays stunted. There is no spray that cures the virus.",
+      "what_to_do_now": [
+        "Remove clearly infected stools and never use them as seed",
+        "Control aphids (yellow sticky traps; aphicide if needed)",
+        "For next crop, plant certified virus-free seed setts"
+      ],
+      "what_not_to_do": [
+        "Do not replant setts from infected fields",
+        "Do not expect a fungicide/spray to cure it — it is a virus"
+      ],
+      "when_to_call_expert": "If many canes show yellow midribs, get a lab confirmation and source certified clean seed.",
+      "risk_warning": "The virus spreads through seed cane. Using clean, certified setts is the only reliable way to keep it out."
+    },
+    "source_metadata": {
+      "compiled_from": [
+        "Springer Archives of Virology",
+        "EDIS (UF/IFAS)",
+        "Plantix",
+        "PMC review"
+      ]
+    }
+  }
+]

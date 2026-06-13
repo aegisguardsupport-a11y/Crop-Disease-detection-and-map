@@ -1,0 +1,741 @@
+[
+  {
+    "id": "SUNFLOWER-DM-001",
+    "crop": {
+      "common_name": "Sunflower",
+      "english_name": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "local_names": [
+        "Surajmukhi",
+        "Surajmuki",
+        "Girasol"
+      ],
+      "crop_category": "Oilseed"
+    },
+    "disease": {
+      "name": "Downy Mildew",
+      "category": "Oomycete (Water Mold)",
+      "pathogen_or_cause": [
+        "Plasmopara halstedii"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Roots",
+        "Flower/Seed Heads"
+      ],
+      "disease_stage": "Seedling to Early Vegetative stage (Systemic phase matches early lifecycle)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Young seedlings look severely stunted with shortened stem internodes",
+        "Leaves turn pale green or bright yellow directly along the primary veins (veinal chlorosis)"
+      ],
+      "middle_stage": [
+        "A thick, cottony, bright white fuzzy mold layer covers the under-surface of the yellowed leaves during humid mornings",
+        "Leaves become thick, wrinkled, leathery, and curl downward at the margins"
+      ],
+      "severe_stage": [
+        "Affected plants remain permanently dwarfed (under 1-2 feet tall) with flat, rigid stems",
+        "The flowering seed heads stay facing straight up toward the sky (horizontal or erect) rather than nodding downward, producing entirely empty or sterile seeds"
+      ],
+      "visible_signs": [
+        "Bright white, dense velvety carpet of mold spores underneath pale yellow leaf veins on dwarfed plants"
+      ],
+      "farmer_reported_signs": [
+        "My surajmukhi seedlings are staying tiny and stunted like dwarf bushes",
+        "The bottom side of the yellow leaves is covered in a thick white cottony fur in the morning dew",
+        "The flower heads stay stiff, pointing straight up, and have no seeds inside them"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Top leaf faces turn pale green-yellow following the vein tracks; underside mold is brilliant white"
+      ],
+      "spot_or_patch_shape": "Broad, continuous yellow bands tracking the vein layout, rather than round spots",
+      "pattern": "Systemic stunting and flattening of the entire plant frame across localized row patches",
+      "location_on_plant": "Foliar yellowing shows across all leaves; white velvet fuzz is explicitly restricted to leaf undersides",
+      "starts_from": "The root zones underground, traveling systemically up the stem into emerging leaf veins",
+      "progression": "Forces absolute plant dwarfism and shifts seed head posture from a healthy nod to an erect, sterile orientation",
+      "image_clues": [
+        "Brilliant white thick fuzzy mat coating the underside of a yellow-veined sunflower leaf",
+        "Severely short, flat-stemmed stunted seedling hill"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Nutritional Nitrogen Deficiency",
+        "difference": "Nitrogen starvation causes a uniform fading pale yellowing of the entire leaf blade starting strictly on the oldest bottom leaves first, and completely lacks the thick white cottony morning fuzz underneath or severe plant dwarfism.",
+        "confusion_risk": "Medium during early vegetative shifts."
+      },
+      {
+        "name": "Powdery Mildew (Golovinomyces cichoracearum)",
+        "difference": "Powdery mildew produces a dry, dusty, white powder explicitly on the *top surface* of older leaves late in the summer, which can be rubbed off with a finger, whereas Downy Mildew forms a dense velvet mat *only on the leaf underside* early in the season.",
+        "confusion_risk": "High, due to shared 'white mold' descriptions."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, persistently rainy, overcast weather immediately following seed sowing and emergence"
+      ],
+      "temperature_range": "12\u00b0C - 18\u00b0C (53\u00b0F - 64\u00b0F) optimal for early seedling root invasion by water mold spores",
+      "humidity_level": "Saturated soil moisture lines (flooded fields) and relative humidity near 100% overnight",
+      "season": "Spring or early Kharif winter-sown windows matching extended monsoon exit or entry rains",
+      "soil_conditions": [
+        "Heavy clay soils with poor water drainage, or low-lying patches prone to long water retention"
+      ],
+      "field_conditions": [
+        "Sowing non-treated saved seeds from historically infected blocks",
+        "High soil compaction trapping water lines"
+      ],
+      "irrigation_conditions": [
+        "Heavy flooding style irrigation cycles applied directly over newly germinated seedlings"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Swimming oomycete zoospores moving through waterlogged soil lines to drill into root hairs",
+        "Windborne sporangia blowing short distances during wet fogs",
+        "Contaminated soil stuck to tractor treads"
+      ],
+      "source_of_infection": [
+        "Soilborne resting spores from previous infected harvests",
+        "Internally or externally contaminated seed lots"
+      ],
+      "survival_method": "Overwinters as highly resilient, thick-walled resting spores (oospores) inside field soils or crop residues for over 5 to 8 years, germinating when soils saturate",
+      "spread_speed": "Highly rapid across wet nursery patches or flood basins, though systemic symptoms express over weeks",
+      "nearby_crop_risk": "Moderate to high for downstream low-lying sunflower blocks"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint veinal yellowing or stunting visible on less than 2% of young seedlings in low-lying field patches.",
+        "field_indicator": "A few isolated dwarf plants with yellowing tops; white mold just starting to appear under lower leaf faces.",
+        "recommended_action": "Immediately dig out and remove infected stunted plants safely into bags and burn them. Open drainage trenches to remove standing water layers."
+      },
+      {
+        "level": "Medium",
+        "description": "Distinct patches of severely stunted plants (1-2 feet tall) cover 2% to 10% of field lines; leaf undersides show thick white mats.",
+        "field_indicator": "Rows look highly uneven with clear patches of dwarfed bushes; downy fur is clear during morning scouting.",
+        "recommended_action": "Apply targeted oomycete-specific systemic fungicides to protect neighboring un-infected rows. Stop flooding irrigation paths."
+      },
+      {
+        "level": "High",
+        "description": "More than 10% of the field population is permanently stunted, showing thick leathery leaves and stiff erect flower heads.",
+        "field_indicator": "Massive direct oilseed yield loss; large field spots produce zero commercial seeds as heads remain erect and empty.",
+        "recommended_action": "Harvest the surviving healthy sections separately. **Do not save seeds from this plot.** Enforce strict systemic seed treatments and long-term non-host crop rotations next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "**Treat seeds with specialized targeted systemic fungicides (e.g., Metalaxyl-M or Oxathiapiprolin) before sowing (essential control)**",
+        "Always plant certified, downy-mildew-resistant sunflower hybrids from reputable sources"
+      ],
+      "field_management": [
+        "Avoid planting sunflowers in historically low-lying field corners or heavy clay zones prone to standing water",
+        "Break compaction"
+      ],
+      "irrigation_management": [
+        "Manage field leveling to optimize quick rain runoff drainage; use raised bed configurations where practical"
+      ],
+      "soil_management": [
+        "Practice deep summer soil inversion plowing to bury surface oospores deep away from new seedling root horizons"
+      ],
+      "crop_rotation": [
+        "**Enforce a strict 4-to-5-year rotation out of sunflowers** using non-host crops like maize, wheat, sorghum, or legumes to let soil spore counts drop"
+      ],
+      "sanitation": [
+        "Uproot and burn infected stunted seedlings early before they release airborne spore clouds back into field soils",
+        "Clean machinery"
+      ],
+      "monitoring": [
+        "Scout fields weekly from day 10 of emergence, checking leaf undersides closely for white velvet fuzz in low-lying wet patches"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Check leaf undersides for white fuzz to confirm Downy Mildew over nitrogen deficiency",
+        "Open deep drainage furrows immediately to flush standing water out"
+      ],
+      "cultural_control": [
+        "Thin out and destroy stunted dwarfed plants during early vegetative weeding cycles to lower spore reservoirs"
+      ],
+      "organic_control": [
+        "Treat seeds with biological powder formulations based on Trichoderma harzianum or Pseudomonas fluorescens",
+        "Apply preventive copper sprays"
+      ],
+      "biological_control": [
+        "Soil application of beneficial bio-agents helps speed up the decomposition of old sunflower residues, lowering resting spore counts over fallow breaks"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Metalaxyl-M (Mefenoxam)",
+          "product_type": "Systemic Seed Treatment Fungicide",
+          "dose": "3.0 - 4.0 mL/kg of seed",
+          "application_method": "Applied as a specialized seed coating slurry *prior to sowing in fields*",
+          "spray_interval": "Single seed-level application before planting; foliar canopy leaf sprays provide **zero cure** once a plant is systemically infected from the roots",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Essential preventative chemical shield against water mold roots. Note: Pathogen populations in some regions have developed resistance; check local guidelines."
+        },
+        {
+          "active_ingredient": "Azoxystrobin",
+          "product_type": "Systemic Foliar Fungicide",
+          "dose": "6.0 - 12.0 fl oz/Acre",
+          "application_method": "Foliar broadcast spray applied strictly as a preventative shield on healthy plants surrounding active infection zones",
+          "spray_interval": "7 - 10 days if cool wet conditions persist",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Helps block secondary airborne sporangia from infecting leaf faces. Rotate FRAC codes."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Downy Mildew (Surajmukhi ka Mirdul Romil Asita Rog) is a highly damaging water mold disease that attacks sunflower roots underground when fields stay flooded or soggy. It climbs hidden inside the plant, keeping it permanently short and stunted like a tiny wild bush. The leaves turn pale yellow along their lines and grow a thick, brilliant white cottony fur underneath on damp mornings, while the flower heads stay stiff and point straight up at the sky, producing empty, useless seeds.",
+      "what_to_do_now": [
+        "If you spot tiny, stunted sunflower plants with pale yellow leaves, check the bottom side of the leaf for white cottony fur.",
+        "Immediately dig out any stunted dwarf plants with their roots and burn them to stop the disease from poisoning your soil.",
+        "Dig quick drainage channels to clear any standing rain pools or water logs out of your fields right away."
+      ],
+      "what_not_to_do": [
+        "**Never save or reuse seeds from a field that suffered from downy mildew stunting**, as the infection lives inside the seeds.",
+        "Do not waste money spraying leaves to cure a stunted plant\u2014once the plant stays dwarfed, it is infected systemically and cannot be healed.",
+        "Do not allow heavy irrigation water to pool over newly sown rows."
+      ],
+      "when_to_call_expert": [
+        "Call an agricultural extension expert immediately if large sections of your sunflower field are staying tiny, flat-stemmed, and bush-like during a cool, wet spring or monsoon cycle."
+      ],
+      "risk_warning": "Because this water mold resting spores can live inside your soil for over 5 years, ignoring it will permanently ruin your land for sunflower farming, turning your profitable oilseed flower heads into empty, seedless weeds."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sunflower_downy_mildew_underside",
+        "sunflower_healthy",
+        "sunflower_powdery_mildew"
+      ],
+      "segmentation_labels": [
+        "white_downy_carpet",
+        "veinal_chlorosis_stripe",
+        "stunted_dwarf_stalk"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "White powdery dust is found exclusively on the *top surface* of normal-height mature leaves, indicating a shift to powdery mildew requiring simple foliar lines"
+      ],
+      "image_quality_requirements": [
+        "Requires clear photos focused directly on the underside of the leaf to resolve the dense white carpet layers against the yellow vein stripes"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SUN-DM-CH-01",
+        "chunk_type": "Pathology / Soil Biology",
+        "title": "Plasmopara halstedii Oospores and Systemic Seedling Infection",
+        "content": "Downy Mildew of sunflower is caused by the obligate oomycete Plasmopara halstedii. Soilborne oospores germinate in free water to produce flagellated zoospores that chemically track and infect the radical or root hairs of emerging seedlings. Pathogenesis moves systemically through xylem and cortical parenchyma, producing severe veinal chlorosis, suppression of internode elongation (dwarfism), a dense felt of white zoosporangiophores on the abaxial leaf surface, and flat, erect, sterile head geotropism.",
+        "keywords": [
+          "Plasmopara halstedii",
+          "oomycete",
+          "zoospores",
+          "veinal chlorosis",
+          "dwarfism",
+          "abaxial felt",
+          "erect geotropism"
+        ],
+        "language": "English",
+        "target_user": "Oilseed Pathologist / Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block wide",
+      "risk_radius": "20 km",
+      "report_count_threshold": "4 confirmed cases following heavy seedling-stage waterlogging",
+      "outbreak_alert_message": "Downy Mildew Notification: Saturated soils and cool fronts are accelerating Plasmopara root sweeps. Implement isolated rogueing and manage field drainage channels.",
+      "nearby_farm_advice": [
+        "Inspect low field corners for seedling stunting.",
+        "Avoid moving muddy shared plows straight from dry-patch zones."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Sunflower Disease Diagnostic Index",
+      "source_url": "https://extension.sdstate.edu/sunflower-downy-mildew",
+      "source_type": "University Extension Publication",
+      "author_or_organization": "South Dakota State University Extension",
+      "published_year": "2022",
+      "region": "Global / Northern Great Plains",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Excellent clinical reference manual detailing physiological race tracking and seed treatment thresholds."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:00:00Z",
+      "updated_at": "2026-06-01T21:00:00Z",
+      "reviewed_by": "Extension Plant Protection Editorial Panel Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SUNFLOWER-GM-002",
+    "crop": {
+      "common_name": "Sunflower",
+      "english_name": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "local_names": [
+        "Surajmukhi",
+        "Surajmuki",
+        "Girasol"
+      ],
+      "crop_category": "Oilseed"
+    },
+    "disease": {
+      "name": "Gray Mold (Head Rot phase)",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Botrytis cinerea"
+      ],
+      "affected_parts": [
+        "Flower/Seed Heads",
+        "Back of the head",
+        "Stems",
+        "Leaves"
+      ],
+      "disease_stage": "Flowering to Seed Maturation stage; highly critical during late humid harvest weeks"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, water-soaked, soft gray-brown spots emerge on the fleshy green back of the flower head",
+        "Petals around the face begin to turn brown and look mushy"
+      ],
+      "middle_stage": [
+        "The spots expand rapidly, rotting the fleshy tissue of the head into a soft, spongy brown state",
+        "A dense, fuzzy, mouse-gray or ash-gray powdery mold coat blankets the rotting sections heavily under humid weather"
+      ],
+      "severe_stage": [
+        "The entire seed head rots completely, turns soft and mushy, and collapses or breaks cleanly off the stalk tip",
+        "Grains are totally ruined, covered in fuzzy gray fur mixed with hard, flat, black irregular crusts (sclerotia) that imbed between seed slots"
+      ],
+      "visible_signs": [
+        "Thick, dusty, mouse-gray fuzzy fungal hair mats covering soft, rotting brown flower head frames"
+      ],
+      "farmer_reported_signs": [
+        "The back of my sunflower heads is turning into soft brown rotten mush",
+        "The seed heads are covered in a heavy gray furry mold that looks like ash dust, and heads are snapping off and dropping to the ground"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Green fleshy heads turn soft light brown; fungal spore layers are distinctly mouse-gray or ash-colored; overwintering crusts are charcoal-black"
+      ],
+      "spot_or_patch_shape": "Broad, expansive, ill-defined water-soaked rotting zones that quickly mask the full rounded flower frame",
+      "pattern": "Fast-moving soft rot spreading across individual flower branches, highly localized within rows that catch late rains",
+      "location_on_plant": "Concentrated heavily on the fleshy receptacle back of the sunflower head and surrounding seed hulls",
+      "starts_from": "Old dying petals or mechanical bird-pecking wounds where moisture pools after rains",
+      "progression": "Fungus digests the cellular glue of the head structure, liquefying the tissue and causing total head dropping or seed shattering",
+      "image_clues": [
+        "Sunflower seed head completely covered in a dense coat of mouse-gray furry mold spores",
+        "Mushy brown collapsed flower back"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Rhizopus Head Rot (Rhizopus oryzae / stolonifer)",
+        "difference": "Rhizopus head rot turns the tissue into a soft brown mush but produces a loose, coarse, stringy whiskery white mold mat dotted with millions of tiny, distinct black pinhead bubbles (like wet cobwebs), rather than the tight, uniform, velvety ash-gray furry coat typical of Gray Mold.",
+        "confusion_risk": "Extreme, as both cause soft brown rotting of sunflower heads during wet harvests.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Sclerotinia Head Rot (Sclerotinia sclerotiorum)",
+        "difference": "Sclerotinia turns the back of the head into a bleached, straw-white, shredded fibrous frame holding large, heavy, hard inside black stones, completely lacking gray surface fur layers.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, persistently misty, foggy, or raining weather tracks during peak flowering and seed ripening weeks"
+      ],
+      "temperature_range": "15\u00b0C - 22\u00b0C (59\u00b0F - 72\u00b0F) optimal for rapid Botrytis spore germination and hair extensions",
+      "humidity_level": "Relative humidity above 90% with extended leaf and head wetness exceeding 8 to 12 hours",
+      "season": "Late Kharif or rainy autumn harvesting cycles where seed drying blocks catch cold rain fronts",
+      "soil_conditions": [
+        "Not directly dependent on soil types, but high moisture topsoils keep humidity trapped inside rows"
+      ],
+      "field_conditions": [
+        "High plant density blocking cross-row wind flow",
+        "Severe bird-pecking or hail injury wounds on heads"
+      ],
+      "irrigation_conditions": [
+        "Running high-volume overhead sprinklers while sunflowers are actively in full bloom"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia spores drifting miles in clouds on wind currents",
+        "Rain water splash running down seed clusters",
+        "Field workers or insects tracking loose gray powder across heads"
+      ],
+      "source_of_infection": [
+        "Infected crop residue leftovers on the soil line",
+        "Alternative weedy hosts",
+        "Decaying old flower heads left in cull piles"
+      ],
+      "survival_method": "Overwinters as hard, black sclerotial crusts in field soils or inside un-plowed stubbles, operating as a tough saprophyte that activates whenever damp warmth spikes",
+      "spread_speed": "Explosive; can rot a full field sector of ripe flower heads within 4 to 6 damp, misty days",
+      "nearby_crop_risk": "High for adjacent blocks entering flowering or seed drying phases simultaneously"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Minor water-soaked brown spots or faint gray fuzz visible on less than 5% of flower head backs across rows.",
+        "field_indicator": "Rare soft patches on flowers; majority of heads are firm, green/yellow, and drying normally.",
+        "recommended_action": "Monitor weather lines closely. If mature, prioritize early mechanical harvest and immediate artificial solar drying steps."
+      },
+      {
+        "level": "Medium",
+        "description": "Active soft brown rot and ash-gray downy coats cover 5% to 20% of sunflower heads; some petals look fully mushy.",
+        "field_indicator": "Fuzzy gray mold clusters are easy to spot across multiple lines; some head margins look burned and weak.",
+        "recommended_action": "Apply recommended protective or systemic fungicides immediately if heads are early in seed filling and rains are extended. Control birds."
+      },
+      {
+        "level": "High",
+        "description": "More than 20% of seed heads are completely mushy, gray-furred, or snapping off stalks completely.",
+        "field_indicator": "Widespread head drop across field floors; massive seed rot and cloud emission of gray spore dust during contact.",
+        "recommended_action": "Harvest surviving firm heads instantly to save remaining oilseeds. **Discard heavily molded, mushy heads entirely; do not mix into clean stores.** Execute deep residue burial plowing post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Sow certified seed lines free of black sclerotial fragments",
+        "Select hybrids showing open, looser head structures that shed rain water quickly rather than trapping it"
+      ],
+      "field_management": [
+        "Maintain adequate wide row spaces and align rows parallel to prevailing winds to drive quick head drying after rains",
+        "Control thrips/birds"
+      ],
+      "irrigation_management": [
+        "Avoid overhead sprinkler irrigation formats entirely from flowering onward; switch to furrow or drip paths"
+      ],
+      "soil_management": [
+        "Ensure balanced soil fertilization; avoid overdosages of Nitrogen which create ultra-fleshy, water-rich head tissues easy to rot"
+      ],
+      "crop_rotation": [
+        "Rotate out of oilseeds with non-host cereal crops like corn, wheat, or sorghum for a minimum of 2-3 seasons"
+      ],
+      "sanitation": [
+        "Plow fields deeply post-harvest to completely bury old rotten flower residues",
+        "Keep field boundary lines clear of alternative weed hosts"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly from flowering onward, checking the green backs of flower heads closely for soft spots following rain storm spans"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Check the mold color\u2014if uniform mouse-gray fuzzy hair, confirm Gray Mold over cobwebby Rhizopus",
+        "Plan for immediate mechanical or solar drying arrays post-harvest"
+      ],
+      "cultural_control": [
+        "Avoid harvesting during wet morning fogs; wait until afternoon sun dries head frames before clipping stalks"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays or sulfur dust formulations at early head emergence",
+        "Drench with neem oil extracts"
+      ],
+      "biological_control": [
+        "Foliar application of commercial formulations based on Trichoderma harzianum or Bacillus subtilis onto open heads can help outcompete early spore landing pads"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Boscalid or Fenhexamid",
+          "product_type": "Targeted Gray Mold Fungicide (SDHI / An those)",
+          "dose": "6.0 - 8.0 oz/Acre (or local product equivalent)",
+          "application_method": "Foliar spray calibrated to deliver uniform coverage straight onto the sunflower head faces and backs during early mid-flowering stages",
+          "spray_interval": "Single well-timed spray at 50% bloom is standard; repeat after 10 days only if misty rains stay continuous",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Specifically formulated against grey molds. Always alternate chemical classes to protect against fast resistance build-up loops. Wear eye shields."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Gray Mold (Surajmukhi ka Dhunsar Faphundi Rog) is a destructive fungal disease that rots sunflower heads during cold, wet, misty harvest weeks. It enters through bird wounds or old petals, turning the fleshy back of the flower into a soft brown mush and wrapping the seeds in a thick, velvety, mouse-gray or ash-colored furry powder, causing the heavy heads to break off and smash onto the ground.",
+      "what_to_do_now": [
+        "Check the green backs of your sunflower heads weekly for any soft, water-soaked brown spots after rains.",
+        "Harvest your crop promptly as soon as heads mature, rather than leaving them to sit standing in cold autumn rains.",
+        "Spread your clipped seed heads under a hot sun or use dryers quickly to stop the gray fur from eating the oilseeds."
+      ],
+      "what_not_to_do": [
+        "**Never pack away or mix gray-molded mushy heads into clean seed storage bags**, as they will rot your entire harvest within days.",
+        "Do not run overhead watering systems over your crop rows once the flowers start blooming.",
+        "Do not leave old rotten heads lying in piles along your field edges\u2014bury them deep under the soil with a plow."
+      ],
+      "when_to_call_expert": [
+        "If a heavy mist or cold rainy spell strikes your ripening field and flower heads are turning brown, soft, and dropping off fast across rows."
+      ],
+      "risk_warning": "Gray mold acts like a wildfire in damp weather. If left ignored when heads are ripe, it can rot your entire flower crop into useless mush within a single week, destroying your oilseed weight and quality completely."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sunflower_gray_mold_head",
+        "sunflower_healthy",
+        "sunflower_rhizopus_rot"
+      ],
+      "segmentation_labels": [
+        "mouse_gray_conidia_fuzz",
+        "soft_brown_receptacle",
+        "black_crust_sclerotia"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "The mold fuzz looks like loose stringy white cobwebs filled with tiny separate black bubbles, pointing to a Rhizopus rot outbreak instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused closely on the rotting head layers to clearly resolve the tight gray velvety spore clusters over coarse web lines"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SUN-GM-CH-02",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Botrytis cinerea Head Rot Mechanics and Sclerotial Accumulation",
+        "content": "Gray Mold of sunflower head is induced by the necrotrophic fungus Botrytis cinerea. Fungal conidia heavily colonize senescing petals or bird-pecking wounds under cool damp profiles (15-22\u00b0C). The pathogen secretes cell-wall degrading enzymes, inducing rapid pectolytic liquefaction of the fleshy receptacle tissue. This triggers structural head collapse (head drop). Black, irregular sclerotial crusts differentiate within infected seed matrices, serving as persistent soil-resting inocula over fallow cycles.",
+        "keywords": [
+          "Botrytis cinerea",
+          "necrotroph",
+          "senescing petals",
+          "pectolytic liquefaction",
+          "receptacle rot",
+          "head drop",
+          "sclerotia"
+        ],
+        "language": "English",
+        "target_user": "Extension Pathologist / Crop Consultant"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 confirmed cases logged during cool rainy seed-maturation phases",
+      "outbreak_alert_message": "Gray Mold Warning: Prolonged morning fogs and rain are accelerating Botrytis head rot. Prioritize early harvest at physiological maturity and solar dry.",
+      "nearby_farm_advice": [
+        "Inspect flower backs for soft brown decay marks.",
+        "Ensure mechanical harvesters are cleared of mold residue between plots."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Fungal Diseases of Oilseed Crops",
+      "source_url": "https://agops.ndsu.edu/sunflower-head-rot-management",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "North Dakota State University Extension",
+      "published_year": "2023",
+      "region": "Global / Oilseed Belts",
+      "language": "English",
+      "last_verified": "2026-03-20",
+      "trust_level": "High",
+      "notes": "Premium standard Scouting index mapping chemical control lines and alternative oomycete/fungal head differentiation keys."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:15:00Z",
+      "updated_at": "2026-06-01T21:15:00Z",
+      "reviewed_by": "NDSU Plant Pathology Expert Advisory Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "sunflower_leaf_scars",
+    "crop": {
+      "common_name": "Sunflower",
+      "english_name": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "local_names": [
+        "Surajmukhi"
+      ],
+      "crop_category": "Oilseed"
+    },
+    "disease": {
+      "name": "Leaf Scars (Generic / Abiotic)",
+      "category": "Abiotic / Mechanical",
+      "pathogen_or_cause": [
+        "Insect feeding",
+        "Hail",
+        "Wind damage",
+        "Mechanical injury"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Any stage"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Physical tearing or scratching on leaves."
+      ],
+      "middle_stage": [
+        "Edges of the torn tissue dry out and turn brown/tan."
+      ],
+      "severe_stage": [
+        "Large holes or tattered leaves."
+      ],
+      "visible_signs": [
+        "Dried brown edges around physical damage holes."
+      ],
+      "farmer_reported_signs": [
+        "Leaves look torn or eaten"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Brown edges"
+      ],
+      "spot_or_patch_shape": "Irregular holes or tears",
+      "pattern": "Random",
+      "location_on_plant": "Canopy",
+      "starts_from": "Outer leaves",
+      "progression": "Damage -> Drying of edges -> Stable scar",
+      "image_clues": [
+        "Look for physical holes with dry, healed brown edges."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Alternaria Leaf Spot",
+        "difference": "Fungal spots have concentric rings, while scars are physical holes with simple brown dried edges.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hailstorms",
+        "High winds"
+      ],
+      "temperature_range": "N/A",
+      "humidity_level": "N/A",
+      "season": "Any",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Presence of chewing insects"
+      ],
+      "irrigation_conditions": [
+        "N/A"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "N/A"
+      ],
+      "source_of_infection": [
+        "N/A"
+      ],
+      "survival_method": "N/A",
+      "spread_speed": "N/A",
+      "nearby_crop_risk": "Low"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Cosmetic damage.",
+        "field_indicator": "A few torn leaves.",
+        "recommended_action": "None."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "N/A"
+      ],
+      "field_management": [
+        "Control chewing pests if present."
+      ],
+      "irrigation_management": [
+        "N/A"
+      ],
+      "soil_management": [
+        "N/A"
+      ],
+      "crop_rotation": [
+        "N/A"
+      ],
+      "sanitation": [
+        "N/A"
+      ],
+      "monitoring": [
+        "N/A"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "None required if abiotic."
+      ],
+      "cultural_control": [
+        "None."
+      ],
+      "organic_control": [
+        "None."
+      ],
+      "biological_control": [
+        "None."
+      ],
+      "chemical_control": [],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Physical damage to the leaf from weather or chewing insects that has healed over.",
+      "what_to_do_now": [
+        "Check if caterpillars or beetles are actively eating the plant."
+      ],
+      "what_not_to_do": [
+        "Don't spray fungicide; it is not a disease."
+      ],
+      "when_to_call_expert": [
+        "N/A"
+      ],
+      "risk_warning": "No risk unless insect defoliation is extreme."
+    },
+    "model_support": {
+      "classification_labels": [
+        "sunflower_leaf_scars"
+      ],
+      "segmentation_labels": [
+        "healed_scar"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear shot of the hole/scar."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "N/A",
+      "risk_radius": "0km",
+      "report_count_threshold": "0",
+      "outbreak_alert_message": "",
+      "nearby_farm_advice": []
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": "Generic class for abiotic physical leaf damage."
+    }
+  }
+]

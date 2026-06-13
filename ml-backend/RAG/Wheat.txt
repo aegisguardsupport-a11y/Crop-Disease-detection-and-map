@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "WHEAT-BP-001",
+    "crop": {
+      "common_name": "Wheat",
+      "english_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "local_names": [
+        "Gehun",
+        "Gehu",
+        "Trigo",
+        "Bl\u00e9"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Black Point / Kernel Smudge",
+      "category": "Fungal Complex",
+      "pathogen_or_cause": [
+        "Bipolaris sorokiniana",
+        "Alternaria alternata",
+        "Cladosporium spp."
+      ],
+      "affected_parts": [
+        "Grains / Seeds (specifically the embryo end)"
+      ],
+      "disease_stage": "Grain Filling to Physiological Maturity stage"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Faint, light brown discoloration on the outer glumes wrapping the milk-stage grain",
+        "No visible internal seed changes"
+      ],
+      "middle_stage": [
+        "A distinct dark brown to pitch-black discoloration forms explicitly over the embryo end (germ end) of the expanding grain",
+        "The black smudge covers less than one-third of the total grain coat surface"
+      ],
+      "severe_stage": [
+        "The dark black smudge expands along the grain crease and onto the grain shoulders",
+        "The embryo layer softens or loses viability, resulting in severely reduced seedling emergence rates during subsequent sowing operations",
+        "Flour processed from infected lots exhibits off-color dark specks and a bitter chemical taste profile"
+      ],
+      "visible_signs": [
+        "Sharp, dark brown or charcoal-black ink-like staining localized explicitly at the germ/embryo tip of harvested wheat kernels"
+      ],
+      "farmer_reported_signs": [
+        "My harvested gehun seeds have a dirty black spot or ink-stain right on their sprout tip, making the grain lot look low quality"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Seed germ ends shift from normal golden-amber into a deep chocolate-brown or glossy charcoal-black state"
+      ],
+      "spot_or_patch_shape": "Semi-circular, localized smudge or stain wrapping the rounded point base of the seed core",
+      "pattern": "Restricted cleanly to the embryo apex; the rest of the main endosperm starch body remains normal cream-amber",
+      "location_on_plant": "Restricted strictly to the kernels nested inside the spikelets of the mature ear head",
+      "starts_from": "The basal attachment node of the ovary during late grain milk-dough cycles",
+      "progression": "Fungus remains superficial on the seed jacket matrix but can penetrate and kill the germ tissue underneath if late rains linger",
+      "image_clues": [
+        "Wheat grain tip showing a sharp dark black smudge covering the germ embryo",
+        "Discolored spikelet hulls"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Karnal Bunt (Tilletia indica)",
+        "difference": "Karnal bunt breaks open the grain crease into a hollow, foul-smelling black soot powder pouch that smells like rotting fish (trimethylamine), whereas Black Point is a solid, dry, odor-free surface stain that does not convert seed starch into loose soot powder.",
+        "confusion_risk": "Extreme, as both form black markings on harvested grains, risking grain lot rejections.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Common Bunt / Stinking Smut",
+        "difference": "Common bunt transforms the *entire inside* of every kernel into a round ball of foul-smelling greasy black spore powder wrapped inside a thin gray hull shell, rather than just staining the embryo tip.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Frequent rain showers, heavy morning fogs, or heavy overhead irrigations during the heading, flowering, and milk-dough phases"
+      ],
+      "temperature_range": "20\u00b0C - 30\u00b0C (68\u00b0F - 86\u00b0F) optimal for rapid Alternaria and Bipolaris grain mapping",
+      "humidity_level": "Relative humidity above 85% with standing water films inside the ear spikelets for over 12 hours",
+      "season": "Late Rabi harvest windows when monsoon transition rains arrive early",
+      "soil_conditions": [
+        "Not directly dependent on soil indices, but hyper-fertile soil profiles delay grain drying speeds"
+      ],
+      "field_conditions": [
+        "Heavy crop lodging where standing ear heads fall flat onto damp topsoils",
+        "Dense thick canopies trapping moisture layers"
+      ],
+      "irrigation_conditions": [
+        "Applying heavy flooding irrigation late in the season while the crop is in the soft dough stage"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia spores drifting via wind currents onto open flowering spikes",
+        "Rain droplets splashing spores upward from underlying dead leaf canopy tracks"
+      ],
+      "source_of_infection": [
+        "Infected leaf residues (e.g., Spot Blight patches) standing inside the lower crop layers",
+        "Contaminated seeds used for sowing"
+      ],
+      "survival_method": "Overwinters as active mycelium inside infested crop straws, wild grasses, or attached superficially inside the seed coat envelope",
+      "spread_speed": "Moderate across ear heads if drizzling rains hit during peak dough maturity weeks",
+      "nearby_crop_risk": "Moderate for neighboring fields maturing concurrently"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint brown smudging on less than 5% of harvested kernels; embryo damage is absent.",
+        "field_indicator": "Rare discolored grains in threshed bags; seed lot looks mostly bright golden.",
+        "recommended_action": "Dry the grain lot quickly to under 12% moisture to halt further fungal growth. Use standard mill processing lanes."
+      },
+      {
+        "level": "Medium",
+        "description": "Dark black spots are clear across 5% to 15% of kernels; minor reductions in seed lot germination scores.",
+        "field_indicator": "Black embryo stains are easily visible during sampling; grain lots look dull.",
+        "recommended_action": "Segregate the lot. If saving for future seed uses, plan for mandatory chemical seed dressing. Adjust sorting machinery to separate blackened grains."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of grains display large charcoal smudges; embryos are damaged; seed grading scores drop significantly.",
+        "field_indicator": "High rate of dark specks in grain test weights; low market value; poor germination capacity.",
+        "recommended_action": "Do not reuse this lot for sowing operations next cycle. Blend with high-quality lots only if meeting safety parameters; evaluate for animal feed use if toxin profiles match safety guidelines."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Sow certified clean seeds free of dark germ-end blemishes",
+        "Always apply an effective protective fungicide seed dressing before sowing lines"
+      ],
+      "field_management": [
+        "Manage plant populations to avoid dense, lodging-prone rows; choose lodging-resistant straw hybrids"
+      ],
+      "irrigation_management": [
+        "**Stop all field irrigation cycles completely once the crop reaches the early soft-dough stage (typically 10-15 days before harvest)**"
+      ],
+      "soil_management": [
+        "Apply balanced nitrogenous fertilizers based on soil tests; avoid heavy nitrogen splits that delay maturity and soften straws"
+      ],
+      "crop_rotation": [
+        "Rotate with non-cereal crops like mustard, chickpea, or oilseed crops for at least 1-2 seasons to lower soil fungal inoculum loads"
+      ],
+      "sanitation": [
+        "Plow fields deeply post-harvest to bury lower leaf straws; clear wild host grasses from borders"
+      ],
+      "monitoring": [
+        "Monitor weather reports closely during the milk-dough stage, scanning standing spikes for early glume browning after fogs"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify the smudge is localized strictly on the embryo skin surface without a foul odor to rule out Karnal Bunt",
+        "Execute fast mechanical drying post-threshing"
+      ],
+      "cultural_control": [
+        "Harvest the crop immediately upon maturity; do not leave mature wheat standing inside fields during late spring rain events"
+      ],
+      "organic_control": [
+        "Treat saved seeds with Trichoderma viride powder formulations (4-6g/kg seed) prior to planting steps"
+      ],
+      "biological_control": [
+        "Foliar application of select antagonistic bacterial strains at anthesis can help suppress early fungal spore germination inside spikelets"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole or Tebuconazole",
+          "product_type": "Systemic Fungicide Spray",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar canopy spray directed thoroughly onto emerging ear heads at peak anthesis to early grain fill stages",
+          "spray_interval": "Single well-timed spray at flowering is standard; only required if wet, foggy forecasts are extended",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Acts preventatively to protect forming grain skin coats from fungal spore attachment. Spraying *after* grains are already black provides zero benefit."
+        },
+        {
+          "active_ingredient": "Carboxin + Thiram",
+          "product_type": "Fungicide Seed Dressing Treatment",
+          "dose": "2.0 - 2.5 g/kg of seed",
+          "application_method": "Dry or slurry seed mixing to coat seed jackets thoroughly *prior to sowing*",
+          "spray_interval": "Single seed coating before planting; stops seed-borne mycelium from causing seedling blights",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Ensures excellent seedling stand establishment from mildly affected seed lots. Wear gloves during seed preparation loops."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Black point is a grain disease caused by a combination of fungi when wheat heads stay wet from late rains or heavy morning fogs during seed filling. It paint-stains the sprout tip (embryo) of individual wheat seeds with a dark brown or glossy black smudge, lowering the grain's market look and cutting the germination power of your seed lot.",
+      "what_to_do_now": [
+        "Stop watering your wheat fields completely once the grains enter the soft-dough phase to let heads dry out.",
+        "Harvest your mature wheat crops promptly; do not let ripe grain heads stand under late spring rains.",
+        "Thresh your crop and sun-dry the seeds quickly on clean plastic sheets to lower moisture below 12%."
+      ],
+      "what_not_to_do": [
+        "**Never confuse black point with Karnal Bunt**\u2014smell the grain; if it lacks a foul, rotting-fish stench and the seed core is hard, it is black point.",
+        "Do not reuse saved seeds showing a high percentage of black sprout tips without applying fungicide powder coatings first.",
+        "Do not apply excessive nitrogen fertilizer, which softens wheat straws and causes the crop to fall flat into damp mud lanes."
+      ],
+      "when_to_call_expert": [
+        "If you notice your threshed wheat lots being rejected or heavily discounted at grain markets due to high counts of dark-spotted kernels."
+      ],
+      "risk_warning": "While it doesn't reduce crop weight directly, heavy black point staining ruins grain color, creates bitter black specks inside your bread flour, and heavily lowers the seedling emergence rates of saved planting seeds."
+    },
+    "model_support": {
+      "classification_labels": [
+        "wheat_black_point",
+        "wheat_healthy_grain",
+        "wheat_karnal_bunt"
+      ],
+      "segmentation_labels": [
+        "charcoal_embryo_smudge",
+        "crease_stain_extension",
+        "healthy_endosperm_body"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "The black spot ruptures into a loose, foul-smelling black soot powder pouch along the crease line, indicating a high-priority Karnal Bunt outbreak instead"
+      ],
+      "image_quality_requirements": [
+        "Requires sharp macro close-ups focused cleanly on the embryo tips of separate grains to resolve surface staining from structural kernel ruptures"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "WHEAT-BP-CH-01",
+        "chunk_type": "Pathology / Grain Quality",
+        "title": "Black Point Fungal Complex and Embryo Viability",
+        "content": "Black point of wheat is a grain discoloration complex primarily involving Alternaria alternata and Bipolaris sorokiniana. Infection occurs when rainy, humid conditions coincide with anthesis and grain filling. Fungal mycelium accumulates superficially within the pericarp covering the embryonic apex. While Alternaria causes mostly saprophytic aesthetic staining, Bipolaris sorokiniana can invade embryo tissues directly, degrading cellular structures and severely depressing germination rates in subsequently sown seed lots.",
+        "keywords": [
+          "Alternaria alternata",
+          "Bipolaris sorokiniana",
+          "pericarp",
+          "embryonic apex",
+          "germination depression",
+          "aesthetic staining"
+        ],
+        "language": "English",
+        "target_user": "Seed Pathologist / Grain Quality Inspector"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "8 grain lot quality downgrades reported following late pre-harvest showers",
+      "outbreak_alert_message": "Black Point Notification: Late harvest showers are driving kernel smudge lines. Halt late irrigations and ensure prompt drying cycles.",
+      "nearby_farm_advice": [
+        "Harvest mature blocks immediately.",
+        "Screen seed lots carefully before keeping for future sowing sets."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Compendium of Wheat Diseases",
+      "source_url": "https://www.icar-dwr.res.in/black-point-wheat-guide",
+      "source_type": "National Institute Factsheet",
+      "author_or_organization": "ICAR - Indian Institute of Wheat and Barley Research (IIWBR)",
+      "published_year": "2021",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-04-12",
+      "trust_level": "High",
+      "notes": "Excellent standard reference for clarifying diagnostic criteria separating superficial stains from quarantine bunts."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T22:00:00Z",
+      "updated_at": "2026-06-01T22:30:00Z",
+      "reviewed_by": "ICAR-IIWBR Grain Health Review Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "WHEAT-FFR-002",
+    "crop": {
+      "common_name": "Wheat",
+      "english_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "local_names": [
+        "Gehun",
+        "Gehu",
+        "Trigo",
+        "Bl\u00e9"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Fusarium Foot Rot and Crown Rot",
+      "category": "Fungal (Soilborne / Seed-borne)",
+      "pathogen_or_cause": [
+        "Fusarium culmorum",
+        "Fusarium graminearum",
+        "Fusarium pseudograminearum"
+      ],
+      "affected_parts": [
+        "Roots",
+        "Crown zone",
+        "Lower stem internodes / Foot"
+      ],
+      "disease_stage": "Seedling to Heading stage; visible indicators spike post-flowering during hot dry spells"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Delicate seedlings show poor, patchy emergence in field rows",
+        "The base of young leaf sheaths near the soil line turns a light chocolate-brown color"
+      ],
+      "middle_stage": [
+        "Lower stem internodes develop a deep chocolate-brown to reddish-brown coloration (foot rot)",
+        "Splitting the stem core base reveals a hollowed, dark, dry rot line within the crown pith area"
+      ],
+      "severe_stage": [
+        "Individual tillers or full wheat hills dry up and die prematurely, forming striking 'white heads' (bleached grain-less heads) across rows",
+        "Under heavy damp morning fogs, a soft pink or salmon-colored powdery mold mass blankets the lower nodes",
+        "The root system becomes brittle, dark brown, and snaps easily when pulled"
+      ],
+      "visible_signs": [
+        "Chocolate-brown stem girdling at the lowest 2-3 inches of the stalk trunk; dead bleached white ears standing among normal green rows; salmon-pink mold cushions on base nodes"
+      ],
+      "farmer_reported_signs": [
+        "My wheat stalks are turning dark chocolate brown at their exact foot line and dying early, making the grain heads turn pale white and empty before harvest"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Stem base turns from green to dark chocolate-reddish brown; grain heads fade into a bleached straw-white state; mold clusters are salmon-pink"
+      ],
+      "spot_or_patch_shape": "No localized leaf spots; broad girdling lesions wrapping around the lower stem columns; expanding dry field patches",
+      "pattern": "Scattered individual plants or circular row patches drying out systemically, leaving grainless white heads standing straight",
+      "location_on_plant": "Concentrated heavily within the lowest 2 internodes of the stem crown and structural primary root networks",
+      "starts_from": "The crown node interface just beneath or at the ground topsoil boundary layer",
+      "progression": "Fungus destroys the vascular pipelines, blocking water lift and causing sudden foliar dehydration and head bleaching during warm afternoon surges",
+      "image_clues": [
+        "Lower wheat stem base showing a solid dark chocolate brown rot zone",
+        "Bleached white empty ear head standing in a green row",
+        "Salmon-pink node fuzz"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Take-All Disease (Gaeumannomyces graminis)",
+        "difference": "Take-all root rot coats the lower stem and crown roots in a distinct, glossy, coal-black or charcoal-like shiny sheet that can be scraped off, completely lacking the reddish-brown tint or salmon-pink spore cushions typical of Fusarium.",
+        "confusion_risk": "Extreme, as both form white heads and dry foot rots on wheat.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Sorghum / Wheat Stem Borer Attack",
+        "difference": "Stem borers chew holes through the stalk core, leaving a hollow path packed with sand-like insect dirt, causing only the central leaf shoot to die ('dead heart') which pulls out easily with a gentle tug, rather than rotting the full root crown brown.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet early soil blocks during planting (favoring initial root setup), followed by prolonged hot, dry drought parameters during heading and grain filling stages"
+      ],
+      "temperature_range": "20\u00b0C - 28\u00b0C (68\u00b0F - 82\u00b0F) optimal for Fusarium vegetative growth surges; stress accelerates head bleaching above 25\u00b0C",
+      "humidity_level": "High moisture at ground line early; low air relative humidity and dry winds late in the cycle",
+      "season": "Mid-to-late Rabi cropping phases with dry moisture-stressed finishes",
+      "soil_conditions": [
+        "Light, sandy, dry soils with low water retention capacities",
+        "Fields with deep soil compaction zones that restrict deep root tracking"
+      ],
+      "field_conditions": [
+        "Crops undergoing high moisture stress or nutritional imbalances",
+        "Continuous wheat-on-barley mono-cropping histories"
+      ],
+      "irrigation_conditions": [
+        "Allowing fields to suffer severe water shortages during the critical jointing and booting cycles"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Soil movement carrying microscopic spores via tillage discs or heavy tractor treads",
+        "Water currents drifting infected stubble fragments along irrigation furrows",
+        "Sowing seed lines carrying the fungus internally"
+      ],
+      "source_of_infection": [
+        "Infected crop straw residues left on the soil surface from prior harvests",
+        "Infested farm soils",
+        "Contaminated saved seed lots"
+      ],
+      "survival_method": "Overwinters easily for over 2 to 3 years inside topsoil profiles or on un-plowed crown stubbles as thick-walled chlamydospores or dormant mycelium mycelia loops",
+      "spread_speed": "Slow across field blocks between seasons, but fast systemic tiller collapse during hot grain-filling weeks",
+      "nearby_crop_risk": "Moderate for adjacent fields sharing identical soil hardpans or moisture shortages"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Chocolate-brown foot marks restricted to less than 5% of stem bases; no premature white heads observed.",
+        "field_indicator": "Isolated seedlings show minor base discoloration; root networks mostly cream-white.",
+        "recommended_action": "Avoid moisture stress loops; keep scheduled irrigation lines active. Monitor field lines bi-weekly."
+      },
+      {
+        "level": "Medium",
+        "description": "Foot rot lesions clear on 5% to 15% of plants; scattered bleached white heads popping up across rows.",
+        "field_indicator": "Distinct scattered white ears standing straight; splitting bases reveals crown pith browning.",
+        "recommended_action": "Provide a corrective irrigation loop to lower crop water stress. Foliar chemical sprays provide **zero benefit** as the fungus is deep inside the foot. Mark block to prevent seed saving."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of wheat hills are dead, showing dry chocolate trunks and completely empty white ear heads.",
+        "field_indicator": "Massive patch drying across rows; high numbers of blind grain-less ears; salmon-pink mold visible on base nodes.",
+        "recommended_action": "Harvest the surviving lines separate from seed reserves. Implement deep inversion plowing post-harvest and map a strict 2-year broadleaf crop rotation break."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always sow certified clean seed stocks sourced from non-infected field zones",
+        "Dress seeds with systemic triazole fungicides before planting"
+      ],
+      "field_management": [
+        "**Break up underground hardpan layers using a deep subsoiler plow to help wheat roots track deep moisture cushions**",
+        "Avoid over-seeding rates"
+      ],
+      "irrigation_management": [
+        "Maintain uniform soil moisture; ensure regular water provision during the critical boot and anthesis stages to block moisture stress triggers"
+      ],
+      "soil_management": [
+        "Apply balanced primary nutrients; ensure proper organic matter decomposition to suppress soilborne Fusarium lines"
+      ],
+      "crop_rotation": [
+        "**Enforce a strict 2-year rotation break out of cereal grains** using tap-rooted non-hosts like chickpea, field pea, mustard, or canola"
+      ],
+      "sanitation": [
+        "Plow field residues deeply post-harvest to speed up old root breakdown lines in deeper soil layers",
+        "Clean muddy tractor blades"
+      ],
+      "monitoring": [
+        "Scout row bases closely from jointing onward, checking for chocolate-brown base banding in low-yielding fields after early heat snaps"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Split a brown base stem open to check for crown pith rot and confirm Fusarium foot rot over Take-All",
+        "Alleviate crop water stress immediately"
+      ],
+      "cultural_control": [
+        "Avoid over-applying nitrogenous inputs late in the season, which drives high foliage area and increases crop water draw rates"
+      ],
+      "organic_control": [
+        "Incorporate generous amounts of organic neem cake into soil beds during land preparation phases to slow fungal tracking"
+      ],
+      "biological_control": [
+        "Coat seeds with Trichoderma harzianum or Pseudomonas fluorescens formulations to help shield early seedling root shields"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Tebuconazole + Prothioconazole",
+          "product_type": "Systemic Seed Treatment Fungicide",
+          "dose": "0.15 - 0.20 g/kg of seed (Product dependent)",
+          "application_method": "Applied thoroughly as a liquid slurry seed dressing *prior to sowing seeds into furrows*",
+          "spray_interval": "Single seed-level coating before planting; foliar canopy leaf sprays provide **zero medical cure** for crown-resting foot rots",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Vital preventative barrier that protects the fragile young seedling crown from soil fungal entry. Follow strict seed chemical handling parameters."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Fusarium foot rot is a serious soil-borne disease that attacks the lower trunk and roots of wheat crops. It thrives when the early soil is wet but the final spring weather turns hot and bone-dry. It rots the lowest 2 inches of the stem base into a dark chocolate-brown dry band, choking the plant's internal water lines, which suddenly turns the entire grain head a bleached white color containing zero seeds.",
+      "what_to_do_now": [
+        "If you see dry white heads standing early, dig up the plant and check its foot line\u2014if it is chocolate brown, it is foot rot.",
+        "Do not apply foliar leaf sprays; they cannot reach or heal an infection locked deep inside the root crown underground.",
+        "Provide a regular watering loop during flowering and booting phases to keep your wheat from suffering dry stress, which triggers the rot collapse."
+      ],
+      "what_not_to_do": [
+        "Never save seeds from a field patch that showed heavy numbers of blind white heads and rotted brown feet.",
+        "Do not grow wheat or barley in this exact field next season if it suffered from patch drying\u2014switch to chickpea or mustard instead.",
+        "Do not drive heavy machinery over wet soil beds, which packs the earth tight and restricts root growth."
+      ],
+      "when_to_call_expert": [
+        "Call an expert or village extension agronomist immediately if large patches of your wheat field are turning a pale straw-white color and drying out early during warm spring weeks."
+      ],
+      "risk_warning": "Foot rot is a silent robber because it infects seedlings early but destroys fields suddenly near harvest. If left unmanaged in dry compacted soils, it will kill your tillers and leave you with empty, grain-less white heads."
+    },
+    "model_support": {
+      "classification_labels": [
+        "wheat_fusarium_foot_rot",
+        "wheat_healthy_canopy",
+        "wheat_take_all_rot"
+      ],
+      "segmentation_labels": [
+        "chocolate_brown_foot_girdle",
+        "bleached_white_earhead",
+        "salmon_pink_spore_mat"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "The foot rot base is coated in a glossy, coal-black shiny sheet that rubs off cleanly, indicating a high-priority Take-All outbreak instead"
+      ],
+      "image_quality_requirements": [
+        "Requires clear photos showing a split stem base core alongside a bleached white ear head to confirm accurate diagnosis over insect boring"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "WHEAT-FFR-CH-02",
+        "chunk_type": "Pathology / Soil Diagnostics",
+        "title": "Fusarium Crown Rot Vascular Occlusion and White Head Kinetics",
+        "content": "Fusarium foot rot and crown rot of wheat, primarily induced by Fusarium pseudograminearum and Fusarium culmorum, targets the sub-crown internodes. Pathogen hyphae colonize the cortical cells and advance into vascular xylem elements. Under conditions of low soil moisture and high evaporative demand post-anthesis, mycelial accumulation and enzymatic plugs completely occlude vascular transport pipelines. This severe block elicits acute water stress within the individual tillers, resulting in chlorophyll degradation across the spikes, leading to characteristic sterile 'white heads'.",
+        "keywords": [
+          "Fusarium pseudograminearum",
+          "crown rot",
+          "xylem elements",
+          "vascular occlusion",
+          "evaporative demand",
+          "white heads",
+          "sterile tillers"
+        ],
+        "language": "English",
+        "target_user": "Plant Pathologist / Soil Mycologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block wide",
+      "risk_radius": "20 km",
+      "report_count_threshold": "4 confirmed soilborne crown rot alerts logged during early spring dry spells",
+      "outbreak_alert_message": "Foot Rot Notification: High spring temperatures and moisture deficits are accelerating Fusarium crown rot collapses. Mitigate moisture stress immediately.",
+      "nearby_farm_advice": [
+        "Check lower node points for chocolate-brown girdling bands.",
+        "Avoid continuous winter cereal rotations across fields holding hardpan records."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Soilborne Diseases of Small Grain Cereals",
+      "source_url": "https://www.agric.wa.gov.au/barley/crown-rot-cereals",
+      "source_type": "Government Agriculture Portal",
+      "author_or_organization": "Department of Primary Industries and Regional Development (DPIRD)",
+      "published_year": "2023",
+      "region": "Global / Mediterranean Grain Tracks",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Premium field guide outlining technical diagnostic indexes separating complex root rots using vascular tissue dissection markers."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T22:05:00Z",
+      "updated_at": "2026-06-01T22:35:00Z",
+      "reviewed_by": "DPIRD Plant Pathology Directorate",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "WHEAT-LB-003",
+    "crop": {
+      "common_name": "Wheat",
+      "english_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "local_names": [
+        "Gehun",
+        "Gehu",
+        "Trigo",
+        "Bl\u00e9"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Leaf Blight / Helminthosporium Leaf Blight Complex",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Bipolaris sorokiniana",
+        "Exserohilum turcicum",
+        "Alternaria triticina"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Leaf sheaths",
+        "Spikes rarely"
+      ],
+      "disease_stage": "Tillering to Grain Maturity stage; aggressively peaks from booting to early milking cycles"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, oval to elongated, dark brown spots (1-2 mm) break out on lower leaves",
+        "Spots are initially surrounded by a narrow light yellow chlorotic ring"
+      ],
+      "middle_stage": [
+        "Spots expand into large boat-shaped or spindle-shaped tan-brown patches (up to 1-2 cm long)",
+        "The spots display a prominent dark brown margin holding a light gray or straw-colored center core",
+        "Lesions move upward onto middle canopy leaf layers"
+      ],
+      "severe_stage": [
+        "Multiple boat-shaped patches merge across the leaf blades, causing entire leaves to turn dry brown, crisp, and shrivel up early",
+        "The top flag leaf becomes heavily blighted and dies back from the tip, preventing normal grain filling",
+        "Under dense wet weather, a dark greenish-black velvet layer of spores coats the dead leaf centers"
+      ],
+      "visible_signs": [
+        "Large boat-shaped tan patches with gray centers and dark brown edges running along leaf lines; dark greenish-black velvety spore soot on dead leaf layers"
+      ],
+      "farmer_reported_signs": [
+        "My wheat leaves are covered in large brown patches shaped like little boats with gray centers, and the leaves are drying up and burning from the bottom up fast"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Spots display light gray or straw-colored centers bounded by dark chocolate-brown rings and bright yellow margins"
+      ],
+      "spot_or_patch_shape": "Elongated, spindle-shaped, or boat-shaped spots that run parallel with the primary leaf lines",
+      "pattern": "Progressive ladder-like climb starting on older lower leaves and ascending up onto critical top flag leaves",
+      "location_on_plant": "Concentrated heavily on the foliar leaf blades and structural leaf sheaths across all canopy layers",
+      "starts_from": "Older lower leaves exposed to damp soil vapors and early spore splash cycles",
+      "progression": "Forces extensive leaf shriveling and drying, stripping green leaf area during critical grain milk stages",
+      "image_clues": [
+        "Wheat leaf blade showing large boat-shaped tan patches with a light gray center core",
+        "Tip-burning on critical flag leaves"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Tan Spot / Yellow Leaf Spot (Pyrenophora tritici-repentis)",
+        "difference": "Tan spot forms small oval tan spots with a very prominent, wide, intense lemon-yellow ring halo and a tiny dark brown center dot, completely lacking the large, elongated, gray-centered boat shapes typical of Leaf Blight.",
+        "confusion_risk": "High, as both form tan patches on wheat leaves."
+      },
+      {
+        "name": "Leaf Rust / Brown Rust (Puccinia triticina)",
+        "difference": "Leaf rust forms tiny, raised, round orange-brown blisters that erupt open to leak a fine powdery brick-red dust that rubs off onto fingers, completely lacking flat gray-centered boat patches.",
+        "confusion_risk": "Medium during early spot stages."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid weather punctuated by frequent short rain showers, heavy morning fogs, or long dew periods"
+      ],
+      "temperature_range": "22\u00b0C - 28\u00b0C (71\u00b0F - 82\u00b0F) optimal for Bipolaris leaf blight expansions",
+      "humidity_level": "Relative humidity above 85% with continuous liquid leaf wetness layers for over 6 to 8 hours",
+      "season": "Mid-to-late Rabi cropping phases, heavily tracking warm spring transitions (February to April)",
+      "soil_conditions": [
+        "Nutrient-deficient soils, particularly fields low in Nitrogen or Potassium which drives early leaf weakness"
+      ],
+      "field_conditions": [
+        "Dense planting layouts trapping wet air blocks inside the canopy lines",
+        "Leaving old wheat stubble unburied on topsoils"
+      ],
+      "irrigation_conditions": [
+        "Frequent late-evening overhead sprinkler watering loops that keep foliage wet all night"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia spores blowing long distances on wind lines across regional counties",
+        "Rain droplets splashing spores upward from bottom leaves onto top flag layers"
+      ],
+      "source_of_infection": [
+        "Infected wheat crop residues and straw leftovers left on topsoil lines",
+        "Volunteer wheat grass clumps",
+        "Alternative wild host weeds (e.g., wild bromes)"
+      ],
+      "survival_method": "Overwinters easily as active mycelium or spores inside un-plowed leaf residues or attached superficially to saved seed coats until wet warmth returns",
+      "spread_speed": "Highly rapid; wind lines can spread spores across full county blocks during warm wet spring weeks",
+      "nearby_crop_risk": "High for downstream adjacent wheat or barley fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Small brown spots restricted entirely to the lowest 10% of older leaves; top canopies and flag lines are clean green.",
+        "field_indicator": "Fewer than 5 spots per lower leaf blade; zero leaf shriveling observed.",
+        "recommended_action": "No chemical action needed. Monitor field rows weekly. Improve weeding to speed up canopy wind drying."
+      },
+      {
+        "level": "Medium",
+        "description": "Boat-shaped tan patches are easy to find across 10% to 30% of lower and middle leaf layers; minor lower leaf drying.",
+        "field_indicator": "Spindle patches clear on multiple middle leaves; grey centers starting to form under morning fog.",
+        "recommended_action": "Apply a recommended systemic triazole fungicide spray immediately to shield critical upper middle leaf tiers."
+      },
+      {
+        "level": "High",
+        "description": "More than 30% of total foliar canopy is destroyed; critical top flag leaves are heavily blighted, turning brown and crisp.",
+        "field_indicator": "Widespread canopy browning; flag leaves dead from the tip down; green leaf area heavily cut during critical grain filling.",
+        "recommended_action": "Apply systemic curative fungicides instantly to preserve remaining green leaf parts and save grain weights. Plow stubbles deep post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always sow certified clean seed stocks free of outer coat stain marks",
+        "Select locally adapted resistant wheat varieties with high field scores"
+      ],
+      "field_management": [
+        "Maintain ideal row spacing to optimize wind flow and accelerate canopy drying after rain spells"
+      ],
+      "irrigation_management": [
+        "Avoid running late afternoon overhead sprinkling loops; switch to flood or morning schedules"
+      ],
+      "soil_management": [
+        "Apply balanced primary inputs; ensure adequate Nitrogen and Potassium based on field tests to prevent early leaf aging stress"
+      ],
+      "crop_rotation": [
+        "**Rotate out of wheat and barley with non-host crops like mustard, chickpea, lentil, or linseed for at least 1-2 seasons**"
+      ],
+      "sanitation": [
+        "Plow fields deeply immediately post-harvest to completely bury old leaf residues where they rot quickly",
+        "Destroy volunteer hosts"
+      ],
+      "monitoring": [
+        "Scout middle canopy leaf layers bi-weekly from jointing onward, looking closely for elongated tan spots with grey centers after rainy spells"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify spots are large, tan, and boat-shaped with light gray centers to confirm Leaf Blight Complex",
+        "Regulate irrigation cycles"
+      ],
+      "cultural_control": [
+        "Avoid entering fields with tools or machinery early in the morning when leaves are wet with rain or heavy dew drops to prevent spore smearing"
+      ],
+      "organic_control": [
+        "Treat seeds with Trichoderma viride powder (4-5g/kg seed) and spray fresh neem leaf extracts preventatively at early vegetative stages"
+      ],
+      "biological_control": [
+        "Foliar applications of Bacillus subtilis strains early can help slow down early fungal spore colonization pathways on leaf faces"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole or Tebuconazole",
+          "product_type": "Systemic Triazole Fungicide",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar broadcast spray directed uniformly over the leaf canopy using fine misting nozzles for deep row penetration",
+          "spray_interval": "10 - 14 days apart if warm, humid, rainy weather stays continuous from booting onward",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Provides premium systemic curative and preventive action to protect the critical top flag leaf (the flag leaf drives 70% of final grain weight). Wear eye shields."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Helminthosporium leaf blight is a common fungal disease that sweeps through wheat fields during warm, wet spring weeks. It creates large tan-brown patches shaped like little boats with light gray centers on the leaves. It climbs steadily from the old bottom leaves up onto the critical top flag leaves, causing them to dry up and shrivel early, which starves the grain head of energy and leads to small shriveled wheat seeds.",
+      "what_to_do_now": [
+        "Check your middle and lower wheat leaves for large, boat-shaped tan patches with gray centers.",
+        "Clear out tall weeds from row lines so the wind can circulate and dry the leaves quickly after morning fogs.",
+        "Spray a recommended systemic fungicide immediately if you see these spots moving up onto your upper leaves before grain heading."
+      ],
+      "what_not_to_do": [
+        "Never work inside or walk through your crop rows early in the morning when the leaves are wet with heavy dew drops.",
+        "Do not grow wheat or barley in the exact same field year after year without a break\u2014the fungus lives inside old straw residues left in the dirt.",
+        "Do not over-use nitrogen fertilizer without enough potassium, which creates weak leaf tissues."
+      ],
+      "when_to_call_expert": [
+        "If warm rainy weather holds and your top flag leaves are turning brown, crisp, and drying up fast from the tip down during the grain milking phase."
+      ],
+      "risk_warning": "The top flag leaf feeds your grain heads directly. If left unmanaged during a warm wet spring, leaf blight will burn down this flag leaf early, causing your wheat seeds to stay light, shriveled, and small, cutting your harvest weight drastically."
+    },
+    "model_support": {
+      "classification_labels": [
+        "wheat_leaf_blight_complex",
+        "wheat_healthy_canopy",
+        "wheat_tan_spot"
+      ],
+      "segmentation_labels": [
+        "boat_shaped_tan_lesion",
+        "gray_necrotic_center_leaf",
+        "flag_leaf_tip_burn"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots are tiny and produce millions of raised, erupting orange-brown blister dots that leak powder, indicating a shift to leaf rust instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused sharply on middle leaf lines to clearly resolve the elongated spindle shapes and gray center centers"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "WHEAT-LB-CH-03",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Bipolaris sorokiniana Foliar Blighting and Flag Leaf Protection",
+        "content": "Leaf Blight complex of wheat, primarily dominated by Bipolaris sorokiniana (anamorph of Cochliobolus sativus), drives severe foliar necrosis across global warm wheat tracks. Fungal conidia germinate in free leaf water films under warm humid parameter sets (22-28\u00b0C). Pathogenesis creates elongated boat-shaped lesions with dark margins and gray centers containing dense conidiophore networks. Vertical climbing is highly aggressive post-booting, destroying the photosynthetic capacity of the critical flag leaf, which curtails photo-assimilate translocation to the spike and triggers severe grain shriveling.",
+        "keywords": [
+          "Bipolaris sorokiniana",
+          "Cochliobolus sativus",
+          "boat-shaped lesion",
+          "conidiophore",
+          "flag leaf necrosis",
+          "photo-assimilate translocation",
+          "grain shriveling"
+        ],
+        "language": "English",
+        "target_user": "Extension Pathologist / Wheat Specialist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "6 confirmed cases logged during spring canopy closure and heading lines",
+      "outbreak_alert_message": "Leaf Blight Warning: Warm humid weather blocks are driving Bipolaris conidial drops. Implement canopy protective shields to protect flag leaves.",
+      "nearby_farm_advice": [
+        "Inspect middle leaf layers immediately.",
+        "Ensure spray coverage hits both leaf surfaces uniformly using high-pressure mist nozzles."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Wheat Foliar Spot Diagnostics and Controls Manual",
+      "source_url": "https://www.cimmyt.org/wheat-spot-blight-bulletin",
+      "source_type": "International Database Manual",
+      "author_or_organization": "International Maize and Wheat Improvement Center (CIMMYT)",
+      "published_year": "2020",
+      "region": "Global / Semi-Arid Subtropics",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Premium international reference authority handling spot blight and tan spot economic injury threshold indexes."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T22:10:00Z",
+      "updated_at": "2026-06-01T22:40:00Z",
+      "reviewed_by": "CIMMYT Crop Protection Division Review Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "WHEAT-BLA-004",
+    "crop": {
+      "common_name": "Wheat",
+      "english_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "local_names": [
+        "Gehun",
+        "Gehu",
+        "Trigo",
+        "Bl\u00e9"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Wheat Blast",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Magnaporthe oryzae Triticum lineage",
+        "Pyricularia oryzae"
+      ],
+      "affected_parts": [
+        "Spikes / Ear heads",
+        "Rachis",
+        "Leaves rarely",
+        "Stems"
+      ],
+      "disease_stage": "Heading to Early Grain Formation stage (Anthesis peaks risk status)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, dark gray to black oily spots appear on the central green zig-zag stem of the ear head (the rachis)",
+        "Spikelets situated directly above this dark point begin to fade from rich green to light pale green"
+      ],
+      "middle_stage": [
+        "The fungus girdles the internal water lines of the ear stem (rachis choke)",
+        "The entire top section of the head located above the black point turns completely bleached straw-white prematurely, while the lower bottom section under the black point remains healthy and green (partial bleaching pattern)"
+      ],
+      "severe_stage": [
+        "The entire wheat head turns fully bleached white, dry, and brittle within days, producing zero grains or highly shriveled, thin, deformed seeds",
+        "Under damp humid mornings, a fine, velvety, dark gray to bluish-black coat of mold spores covers the choked rachis point",
+        "Whole field patches look bleached white while leaves can stay green"
+      ],
+      "visible_signs": [
+        "A sharp dark black band cutting across the green ear stem (rachis), with absolute straw-white bleaching of all spikelets located above that node point; dark gray mold dust inside the choked joint"
+      ],
+      "farmer_reported_signs": [
+        "My wheat heads are splitting into two looks\u2014the top half is completely dead bleached white and empty while the bottom half stays green, and there is a black band right at the break point"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "A dark charcoal-black band forms on the green ear stem; spikelets above fade into a dead bleached straw-white state; mold dust is dark gray-blue"
+      ],
+      "spot_or_patch_shape": "Sunken, girdling black necrotic bands on the central seed-head stem; spindle-shaped pointed spots on leaves rarely",
+      "pattern": "Highly striking partial or full ear head bleaching, creating a field pattern of white heads mixed inside healthy rows",
+      "location_on_plant": "Concentrated primarily on the central stem (rachis) of the emerged grain head and surrounding spikelet nodes; can rarely form gray pointed eyes on leaves",
+      "starts_from": "The node joints of the ear head rachis following wind spore landings during peak flowering loops",
+      "progression": "Extremely fast; chokes water lift to upper seeds, starving them of starch within a few warm damp days",
+      "image_clues": [
+        "Wheat ear head showing top half completely bleached white while bottom half stays green",
+        "Close-up of a dark black band girdling the green rachis stem node"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Fusarium Head Blight / Scab (Fusarium graminearum)",
+        "difference": "Fusarium head blight bleaches individual random spikelets or full heads but causes a light orange-to-pink or salmon-colored powdery mold blush over the seed hulls, completely lacking the sharp, dark charcoal-black girdling band on the rachis stem or the dark gray-blue spore dust typical of Wheat Blast.",
+        "confusion_risk": "Extreme, as both bleach wheat heads white on standing stalks.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Fusarium Foot Rot / Crown Rot (White Head Phase)",
+        "difference": "Foot rot bleaches the *entire plant hill* uniformly from the ground up, turning all tillers and leaves dry straw-brown, and displays a dark brown rot band on the lowest 2 inches of the foot near the dirt, whereas Blast *only* bleaches the ears while stalks and leaves can remain green.",
+        "confusion_risk": "High, due to shared 'white head' look inside fields."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, overcast, highly humid weather paired with continuous light rains, drizzling showers, or heavy morning mogs during peak heading and flowering (anthesis)"
+      ],
+      "temperature_range": "22\u00b0C - 30\u00b0C (71\u00b0F - 86\u00b0F) optimal for Magnaporthe spore germination and explosive cell splitting",
+      "humidity_level": "Relative humidity above 90% with continuous moisture films on the ear heads for over 10 to 14 hours",
+      "season": "Late Rabi harvesting cycles or warm rainy tropical wheat-sowing cycles",
+      "soil_conditions": [
+        "Not directly dependent on soil metrics, but fields holding heavy alternative wild grass weed lines are at higher risk"
+      ],
+      "field_conditions": [
+        "Cultivating highly vulnerable wheat cultivars across warm humid tracks",
+        "Delayed planting windows that push flowering into early spring rains"
+      ],
+      "irrigation_conditions": [
+        "Running overhead sprinkler lines during peak daily flowering or heading hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia spores carried long distances in clouds on regional wind lines",
+        "Rain water droplets splashing spores short distances between adjacent spikes",
+        "Planting infected seed grains"
+      ],
+      "source_of_infection": [
+        "Infected saved seeds used for planting",
+        "Alternative wild grass hosts near field boundaries (e.g., green foxtail, Digitaria species)",
+        "Neighboring contaminated crop plots"
+      ],
+      "survival_method": "Overwinters as active mycelium inside contaminated saved seeds, inside old unburned field stubbles, or lives year-round inside perennial wild grassy weed bridges along canals",
+      "spread_speed": "Explosive and catastrophic; can turn a healthy green field into a bleached empty crop loss zone within 5 to 7 days during flowering rains",
+      "nearby_crop_risk": "Extreme risk; represents an urgent community-level threat to all neighboring wheat fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low (Trace Status)",
+        "description": "Faint black spots on a few isolated ear stems; less than 1% of heads show partial bleaching signs.",
+        "field_indicator": "Rare white heads with dark base bands noticed; rest of rows are rich green and healthy.",
+        "recommended_action": "Isolate the field immediately. Apply systemic triazole-strobilurin fungicide blocks across the entire block instantly. Alert local extension agronomists."
+      },
+      {
+        "level": "Medium",
+        "description": "Partial or full bleaching clear across 1% to 10% of wheat heads; gray-blue spore dust active on stem nodes.",
+        "field_indicator": "White heads easy to spot across multiple rows; affected ears contain shriveled, lightweight seeds.",
+        "recommended_action": "Apply targeted systemic combination fungicides immediately. Tighten application loops. Notify regional seed health networks; **absolute ban on seed saving.**"
+      },
+      {
+        "level": "High / Critical (Epidemic Status)",
+        "description": "More than 10% of the entire field head count is fully bleached white, dry, and blind; severe seed shriveling.",
+        "field_indicator": "Field has a scorched, pale white appearance; massive direct grain weight failure; clouds of gray spore dust emit upon touch.",
+        "recommended_action": "Harvest the remaining clean sections promptly for isolated immediate milling. **Destroy or burn crop residues completely post-harvest to kill spores.** Enforce a mandatory multi-year non-cereal crop holiday across the village zone."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "**Sow exclusively certified, disease-free seed stocks sourced from non-blast geographical regions**",
+        "Select blast-resistant wheat cultivars carrying documented field tolerance lines (e.g., varieties holding the 2NS translocation chromosome segment like WB2 or local resistant lines)"
+      ],
+      "field_management": [
+        "**Adjust sowing schedules carefully so that wheat heading and flowering finish completely *before* the warm spring rainy transition windows begin**"
+      ],
+      "irrigation_management": [
+        "Use surface flood or furrow irrigation networks; **strictly avoid overhead sprinkler systems from booting onward**"
+      ],
+      "soil_management": [
+        "Apply balanced nutrients; avoid excessive nitrogen splits that prolong soft vegetative tissues favored by fungi"
+      ],
+      "crop_rotation": [
+        "**Enforce a strict 2-to-3-year rotation out of all winter cereals** using broadleaf crops like chickpea, lentil, mustard, or canola"
+      ],
+      "sanitation": [
+        "Completely burn or deeply bury all infected straw residues post-harvest to reduce spore carryover fields",
+        "Eradicate wild grassy weeds"
+      ],
+      "monitoring": [
+        "Scout fields daily from head emergence to flowering, focusing closely on interior lines after warm morning dews or rains"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Look closely for the dark black band on the ear stem node to confirm Wheat Blast over Fusarium scab",
+        "Initiate urgent community warnings and chemical sprays within 24 hours"
+      ],
+      "cultural_control": [
+        "Meticulously clear and destroy all alternative wild grass hosts (like goosegrass or foxtail lines) along all field bund borders early"
+      ],
+      "organic_control": [
+        "Soak seeds in hot water baths or coat seeds with heavy Trichoderma bio-agent lines to lower initial seed-borne spore survival"
+      ],
+      "biological_control": [
+        "Limited field efficacy during active epidemics; certain bacterial bio-agents are under research to slow spore landings"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Tebuconazole + Trifloxystrobin or Azoxystrobin + Cyproconazole",
+          "product_type": "Combination Systemic Triazole / Strobilurin Fungicide",
+          "dose": "1.0 - 1.2 mL/Liter of water (or local product dependent)",
+          "application_method": "Foliar broadcast spray directed thoroughly onto emerging ear heads using high-pressure mist systems for total spikelet wetting",
+          "spray_interval": "Apply a mandatory preventative spray at early heading (booting exit) and a second spray at 50% flowering if wet warm fogs persist",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "A vital preventative barrier. Spraying *after* heads are already bleached white and dead provides **zero curative cure** as the stem is already choked internally. Wear full PPE."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Wheat blast is a highly destructive and dangerous fungal disease that acts like a wildfire, attacking wheat heads during warm, rainy flowering weeks. It creates a dark charcoal-black band on the central stem of the ear, choking the internal pipelines. This suddenly turns the entire top half of the head a dead, empty bleached white color within days, leaving you with shriveled, feather-light seeds or completely empty husks.",
+      "what_to_do_now": [
+        "Inspect your fields daily from head emergence onward, looking for green heads with top halves that are turning pale white.",
+        "If you see a white head, look right at its stem node\u2014if it has a dark black ring band, it is blast disease.",
+        "Spray a recommended systemic combination fungicide immediately across your full field to protect healthy green heads before the next rain hits."
+      ],
+      "what_not_to_do": [
+        "**Never save or use seeds from a wheat field that showed even a trace of blast white heads\u2014the fungus lives inside the seeds.**",
+        "Do not use overhead sprinkler systems once the wheat heads come out\u2014overhead drops trigger explosive spore germination.",
+        "Do not leave old crop straw sitting on your topsoil after harvest\u2014burn or plow residues deep to kill the fungal spores."
+      ],
+      "when_to_call_expert": [
+        "**Call your local agricultural department or extension scientist immediately** upon noticing any suspected wheat blast signs\u2014it is a community threat that travels miles on wind lines."
+      ],
+      "risk_warning": "Wheat blast is a catastrophic crop killer. It spreads with explosive speed in warm damp weather. If left unmanaged during flowering rains, it can bleach and destroy your entire wheat harvest within a single week, leaving you with zero grain yield."
+    },
+    "model_support": {
+      "classification_labels": [
+        "wheat_blast_bleached_head",
+        "wheat_healthy_spike",
+        "wheat_fusarium_head_blight"
+      ],
+      "segmentation_labels": [
+        "rachis_black_girdling_band",
+        "bleached_upper_spikelets",
+        "velvety_gray_conidia_dust"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "Any positive or borderline classification occurs, due to high quarantine risk status",
+        "The bleached head grows a pink or salmon-colored mold crust, indicating common Fusarium scab instead"
+      ],
+      "image_quality_requirements": [
+        "Requires high-resolution macro close-ups focusing straight on the dark black band of the central rachis stem node to ensure clear structural confirmation"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "WHEAT-BLA-004-CH",
+        "chunk_type": "Pathology / Quarantine Epidemiology",
+        "title": "Magnaporthe oryzae Triticum Lineage Rachis Choking and Bleaching Kinetics",
+        "content": "Wheat Blast is caused by the highly aggressive fungus Magnaporthe oryzae Triticum lineage (Pyricularia oryzae). Airborne conidia land on emerging spikes, penetrating the central rachis stem during anthesis under warm wet parameters (22-30\u00b0C, >90% RH). Pathogenesis induces a dark, localized necrotic girdling band on the rachis node. This structural block completely cuts off the translocation of water and nutrients to all spikelets located distal to the point of infection. Consequently, the entire top section of the head undergoes acute dehydration, leading to full or partial spike bleaching, producing blind glumes or severely shriveled seeds.",
+        "keywords": [
+          "Magnaporthe oryzae Triticum",
+          "Pyricularia oryzae",
+          "rachis node",
+          "girdling band",
+          "translocation block",
+          "spikelet bleaching",
+          "anthesis infection",
+          "quarantine threat"
+        ],
+        "language": "English",
+        "target_user": "Wheat Breeder / Research Scientist / Quarantine Officer"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional / State wide / Quarantine Circle",
+      "risk_radius": "50 km",
+      "report_count_threshold": "1 single confirmed local case triggers highest state emergency alert status",
+      "outbreak_alert_message": "CRITICAL EPIDEMIC ALERT: Wheat Blast confirmed in your region. Warm overcast skies and rains favor explosive airborne spread. Mandate immediate preventative triazole-strobilurin sprays on all heading lines.",
+      "nearby_farm_advice": [
+        "Inspect all heading fields within 12 hours.",
+        "Eliminate overhead sprinkler lines entirely.",
+        "Burn infested crop residues completely post-harvest to halt environmental spore multiplication."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Emergency Action Protocols for Wheat Blast Mitigation",
+      "source_url": "https://www.cimmyt.org/wheat-blast-emergency-manual",
+      "source_type": "International Research Center Manual",
+      "author_or_organization": "CIMMYT / International Wheat Blast Consortium",
+      "published_year": "2022",
+      "region": "Global / South Asia / South America",
+      "language": "English",
+      "last_verified": "2026-05-20",
+      "trust_level": "High",
+      "notes": "Primary authoritative international manual establishing operational quarantine standards, chemical tracking tables, and genetic 2NS translocation resistance profiles."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T22:15:00Z",
+      "updated_at": "2026-06-01T22:45:00Z",
+      "reviewed_by": "CIMMYT Global Crop Health Review Committee",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "wheat_septoria",
+    "crop": {
+      "common_name": "Wheat",
+      "english_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "local_names": [
+        "Gehu"
+      ],
+      "crop_category": "Cereal"
+    },
+    "disease": {
+      "name": "Septoria Tritici Blotch",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Zymoseptoria tritici"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Tillering to Heading"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, chlorotic (yellow) spots on lower leaves."
+      ],
+      "middle_stage": [
+        "Spots expand into irregular, light tan to reddish-brown lesions, often rectangular/elongated, restricted by veins."
+      ],
+      "severe_stage": [
+        "Tiny black fruiting bodies (pycnidia) appear inside the dead tissue like black pepper grains. Leaves die prematurely."
+      ],
+      "visible_signs": [
+        "Tan rectangular lesions with tiny black dots inside."
+      ],
+      "farmer_reported_signs": [
+        "Brown patches on leaves",
+        "Tiny black specks in the brown patches"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Tan",
+        "Reddish-brown",
+        "Yellow"
+      ],
+      "spot_or_patch_shape": "Elongated, rectangular",
+      "pattern": "Restricted by leaf veins",
+      "location_on_plant": "Lower leaves first",
+      "starts_from": "Lower canopy",
+      "progression": "Spots -> Necrosis -> Pycnidia formation -> Death",
+      "image_clues": [
+        "Look for the tiny black pepper-like dots inside the brown lesions."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Tan Spot",
+        "difference": "Tan spot lacks the prominent tiny black pycnidia found in Septoria lesions.",
+        "confusion_risk": "High"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet",
+        "Frequent rain"
+      ],
+      "temperature_range": "15-20C",
+      "humidity_level": ">85%",
+      "season": "Spring",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Dense canopy"
+      ],
+      "irrigation_conditions": [
+        "Overhead irrigation"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Rain splash",
+        "Wind"
+      ],
+      "source_of_infection": [
+        "Infected wheat stubble"
+      ],
+      "survival_method": "In stubble",
+      "spread_speed": "Moderate",
+      "nearby_crop_risk": "Medium"
+    },
+    "severity_levels": [
+      {
+        "level": "Medium",
+        "description": "Lesions reaching upper leaves (flag leaf).",
+        "field_indicator": "Disease moving up canopy.",
+        "recommended_action": "Apply foliar fungicide."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use resistant varieties."
+      ],
+      "field_management": [
+        "Delay drilling/planting if in high-risk area."
+      ],
+      "irrigation_management": [
+        "N/A"
+      ],
+      "soil_management": [
+        "Bury or manage crop stubble."
+      ],
+      "crop_rotation": [
+        "Rotate with non-cereals for 1 year."
+      ],
+      "sanitation": [
+        "N/A"
+      ],
+      "monitoring": [
+        "Scout lower leaves during spring."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Spray fungicide before it hits the flag leaf."
+      ],
+      "cultural_control": [
+        "Stubble management."
+      ],
+      "organic_control": [
+        "None highly effective."
+      ],
+      "biological_control": [
+        "N/A"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole + Azoxystrobin",
+          "product_type": "Fungicide",
+          "dose": "1mL/L",
+          "application_method": "Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Rotate fungicide classes."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A fungus that causes brown rectangular spots with black specks on leaves, reducing yield if it reaches the top leaves.",
+      "what_to_do_now": [
+        "Apply a recommended fungicide if the weather is rainy."
+      ],
+      "what_not_to_do": [
+        "Don't ignore symptoms moving up the plant."
+      ],
+      "when_to_call_expert": [
+        "To distinguish from Tan Spot."
+      ],
+      "risk_warning": "Protecting the flag leaf is critical for yield."
+    },
+    "model_support": {
+      "classification_labels": [
+        "wheat_septoria"
+      ],
+      "segmentation_labels": [
+        "septoria_lesion",
+        "pycnidia"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Macro shot showing the black pycnidia dots."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "20km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Septoria risk is high due to rain.",
+      "nearby_farm_advice": [
+        "Scout fields now."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  },
+  {
+    "id": "wheat_stripe_rust",
+    "crop": {
+      "common_name": "Wheat",
+      "english_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "local_names": [
+        "Gehu"
+      ],
+      "crop_category": "Cereal"
+    },
+    "disease": {
+      "name": "Stripe Rust (Yellow Rust)",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Puccinia striiformis f. sp. tritici"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Glumes"
+      ],
+      "disease_stage": "Any stage"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, bright yellow to orange-yellow powdery pustules on leaves."
+      ],
+      "middle_stage": [
+        "Pustules align to form narrow, linear stripes parallel to leaf veins."
+      ],
+      "severe_stage": [
+        "Leaves turn yellow, brown, and dry out. Stunted growth, shriveled grains."
+      ],
+      "visible_signs": [
+        "Yellow/orange powdery stripes on leaves."
+      ],
+      "farmer_reported_signs": [
+        "Yellow powder forming lines on the leaves",
+        "Yellow dust gets on clothes when walking in field"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellow-orange"
+      ],
+      "spot_or_patch_shape": "Linear stripes",
+      "pattern": "Parallel to veins",
+      "location_on_plant": "Leaves primarily",
+      "starts_from": "Upper or lower leaves",
+      "progression": "Pustules -> Stripes -> Necrosis",
+      "image_clues": [
+        "Look for bright yellow powder arranged in distinct stripes/lines."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Leaf Rust (Brown Rust)",
+        "difference": "Leaf rust pustules are randomly scattered and darker orange/brown, while stripe rust forms distinct parallel yellow stripes.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, moist",
+        "Dewy nights"
+      ],
+      "temperature_range": "10-20C",
+      "humidity_level": "High",
+      "season": "Spring",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "N/A"
+      ],
+      "irrigation_conditions": [
+        "Prolonged leaf wetness"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind (long distances)"
+      ],
+      "source_of_infection": [
+        "Wind-blown spores",
+        "Volunteer wheat"
+      ],
+      "survival_method": "Green bridge (living plants)",
+      "spread_speed": "Very Fast",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Stripe rust pustules spreading rapidly.",
+        "field_indicator": "Yellow dust in field.",
+        "recommended_action": "Spray systemic fungicide immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use resistant varieties (check latest ratings)."
+      ],
+      "field_management": [
+        "Destroy volunteer wheat (green bridge) before planting."
+      ],
+      "irrigation_management": [
+        "N/A"
+      ],
+      "soil_management": [
+        "Avoid excess nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate with non-hosts."
+      ],
+      "sanitation": [
+        "N/A"
+      ],
+      "monitoring": [
+        "Scout early in spring."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Spray fungicide at first sign."
+      ],
+      "cultural_control": [
+        "None once infected."
+      ],
+      "organic_control": [
+        "Not highly effective."
+      ],
+      "biological_control": [
+        "N/A"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Tebuconazole",
+          "product_type": "Fungicide",
+          "dose": "1mL/L",
+          "application_method": "Spray",
+          "spray_interval": "15 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Apply before it reaches flag leaf."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A highly destructive fungus causing yellow powdery stripes on leaves.",
+      "what_to_do_now": [
+        "Spray an approved triazole fungicide immediately."
+      ],
+      "what_not_to_do": [
+        "Don't delay spraying; it spreads extremely fast."
+      ],
+      "when_to_call_expert": [
+        "If variety was supposed to be resistant but shows infection (new strain possible)."
+      ],
+      "risk_warning": "Can decimate yields if untreated."
+    },
+    "model_support": {
+      "classification_labels": [
+        "wheat_stripe_rust"
+      ],
+      "segmentation_labels": [
+        "yellow_stripe_pustule"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear shot of the parallel yellow stripes."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "State",
+      "risk_radius": "50km",
+      "report_count_threshold": "1",
+      "outbreak_alert_message": "Stripe rust detected in the region.",
+      "nearby_farm_advice": [
+        "Scout and spray."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  }
+]

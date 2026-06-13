@@ -1,0 +1,506 @@
+[
+  {
+    "id": "cowpea_bacterial_wilt",
+    "crop": {
+      "common_name": "Cowpea",
+      "english_name": "Cowpea / Black-eyed Pea",
+      "scientific_name": "Vigna unguiculata",
+      "local_names": ["Lobia", "Chawli", "Karamani", "Alasande", "Thattapayiru"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Bacterial wilt",
+      "category": "Bacterial",
+      "pathogen_or_cause": ["Curtobacterium flaccumfaciens pv. flaccumfaciens"],
+      "affected_parts": ["Leaves", "Vascular bundles", "Stems", "Seeds", "Pods"],
+      "disease_stage": "Vegetative to Pod-Development"
+    },
+    "symptoms": {
+      "early_stage": ["Lower leaves show mild, sudden wilting during the hottest part of the day; plants may temporarily recover in the evening."],
+      "middle_stage": ["Permanent foliar wilting under warm, dry conditions.", "Leaves develop wavy, interveinal yellowing (chlorosis) and light-brown tan necrotic lesions surrounded by bright yellow margins.", "Interior stems show dark brown discoloration of xylem water tubes when cut open."],
+      "severe_stage": ["Complete plant collapse, defoliation, and high plant mortality rates.", "Pods that develop contain dry, shriveled seeds showing distinct yellow, orange, pink, or purple discoloration depending on the bacterial variant strain."],
+      "visible_signs": ["Sudden wilting of foliage without early root rot.", "Discolored vascular bundles inside the stem.", "Shriveled, brightly colored (yellow/orange/pink) seeds inside harvested pods."],
+      "farmer_reported_signs": ["Lobia plants wilting suddenly under the hot sun but recovering at night", "Leaves turning yellow between the green veins and drying up", "Harvested cowpea seeds looking shriveled and colored pink or yellow"]
+    },
+    "visual_identification": {
+      "color_changes": ["Wavy yellow chlorosis", "Tan necrotic lesions", "Bright yellow margins", "Seed discoloration (yellow, orange, pink, purple)"],
+      "spot_or_patch_shape": "Irregular, wavy, interveinal lesions on leaf blades",
+      "pattern": "Systemic wilting accompanied by interveinal chlorosis and leaf drying",
+      "location_on_plant": "Starts on lower leaves and moves rapidly to upper foliage, stems, and seeds",
+      "starts_from": "Soil-line root infection or infected seed embryo",
+      "progression": "Vascular colonization -> Xylem clogging -> Lower leaf wilting -> Interveinal leaf drying -> Seed infection & shriveling",
+      "image_clues": ["Look for a wilted cowpea plant with wavy yellow edges on its dry leaves", "A cut stem showing a distinct brown ring of blocked water tubes inside", "Cowpea seeds with orange or pink spots"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Fusarium Wilt",
+        "difference": "Fusarium wilt is a fungal disease that causes gradual yellowing of lower leaves and slow wilting over weeks, without producing the brightly colored (pink/orange) seed discoloration characteristic of Curtobacterium flaccumfaciens.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Drought stress",
+        "difference": "Drought causes uniform wilting of the entire field, which completely recovers after watering, without causing stem vascular browning or leaf chlorotic margins.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, dry weather following a wet period", "Moisture stress during flowering or early pod development"],
+      "temperature_range": "25°C - 32°C",
+      "humidity_level": "<70% RH (favors wilting symptoms)",
+      "season": "Summer / Kharif season",
+      "soil_conditions": ["Acidic to neutral soil pH", "Poor soil structure stressing roots"],
+      "field_conditions": ["Working in fields when foliage is wet with rain or dew", "Mechanical injuries to roots and stems during weeding"],
+      "irrigation_conditions": ["Under-irrigation causing water stress and accelerating wilting symptoms"]
+    },
+    "spread": {
+      "spread_by": ["Sowing infected seeds (primary transmission)", "Splashing rain or irrigation water", "Contaminated farming tools, tractors, and footwear", "Mechanical wounding of stems during cultivation"],
+      "source_of_infection": ["Infected seed stocks", "Infected crop residue left on soil", "Alternative legume hosts"],
+      "survival_method": "The bacteria survive inside seed embryos for many years and on dry crop debris in the soil.",
+      "spread_speed": "Moderate to Fast once established in a field",
+      "nearby_crop_risk": "High for other legumes (dry beans, soybeans) nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing mild wilting during hot midday hours; leaves mostly green.",
+        "field_indicator": "Isolated plants looking slightly droopy at noon.",
+        "recommended_action": "Avoid root weeding tools near plants. Rogue out infected seedlings. Apply copper bactericides."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants permanently wilted; leaves showing interveinal yellowing and tan lesions.",
+        "field_indicator": "Patches of yellowing, wilted cowpea plants.",
+        "recommended_action": "Rogue out wilted plants. Drench nearby soils with Copper Hydroxide to suppress spread. Disinfect tools."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants collapsed and dead; extensive seed shriveling and pod failure.",
+        "field_indicator": "Widespread empty spaces and dried, dead plants in the field.",
+        "recommended_action": "Apply immediate protective sprays of copper. Harvest mature clean pods early. Rotate fields for 3 years."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always sow certified pathogen-free seeds.", "Avoid saving seeds from a crop that showed any wilting or seed discoloration."],
+      "field_management": ["Maintain proper spacing to minimize plant-to-plant contact.", "Use deep plowing to bury and decompose previous crop residues."],
+      "irrigation_management": ["Provide regular, consistent irrigation; avoid water stress during flowering."],
+      "soil_management": ["Keep soil drained; avoid waterlogging.", "Apply balanced fertilizers."],
+      "crop_rotation": ["Rotate cowpea with non-host crops (wheat, maize, barley) for at least 3 years."],
+      "sanitation": ["Never work in fields when foliage is wet.", "Clean and sanitize tools with 10% bleach after working in infected plots.", "Remove and burn crop residues after harvest."],
+      "monitoring": ["Inspect the field weekly, checking lower leaves for midday wilting starting 20 days after sowing."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected plants immediately.", "Stop manual weeding to prevent root injuries.", "Clean and sanitize tools."],
+      "cultural_control": ["Mow or deeply disk crop residues after harvest.", "Ensure clean weeding borders."],
+      "organic_control": ["Foliar spray of Copper Hydroxide @ 1.5 g/L.", "Apply copper-based organic formulations."],
+      "biological_control": ["Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray to suppress bacteria."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide 50% WP",
+          "product_type": "Contact Protective Bactericide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray and Soil Drench",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Helps suppress bacterial spread. Avoid mixing with adjuvants as it can burn leaves."
+        },
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Antibiotic Bactericide",
+          "dose": "0.1 g/L of water",
+          "application_method": "Foliar Spray / Seed Treatment",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Highly effective early on. Check local regulations on agricultural antibiotic use."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial wilt is a seed-borne bacterial disease that blocks water flow inside cowpea stems. It makes plants wilt suddenly in the hot sun. Leaves turn yellow between the veins, dry up, and the plant collapses. Infected seeds look shriveled and develop strange yellow, orange, or pink spots.",
+      "what_to_do_now": [
+        "Pull out any wilted plants immediately and burn or bury them.",
+        "Do not enter the field to weed when the leaves are wet from dew or rain.",
+        "Drench the soil around nearby healthy plants with Copper Hydroxide (2g/L of water) to protect them."
+      ],
+      "what_not_to_do": [
+        "Do not keep seeds from this field for next year's crop, as the bacteria live inside the seeds.",
+        "Do not use dirty weeding tools that can cut plant roots."
+      ],
+      "when_to_call_expert": ["Contact an expert if plants are wilting and dying in large patches despite adding water and drenching with copper."],
+      "risk_warning": "Because it is heavily seed-borne, bacterial wilt can completely ruin your seed quality and reduce grain yields by up to 50%."
+    },
+    "model_support": {
+      "classification_labels": ["cowpea_bacterial_wilt"],
+      "segmentation_labels": ["wavy_interveinal_chlorosis", "discolored_seeds_pod"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The model confuses gradual Fusarium wilting with sudden bacterial wilt."],
+      "image_quality_requirements": ["Clear focus on the wavy interveinal leaf chlorosis, a cross-cut stem showing vascular browning, or harvested discolored seeds in natural light."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Wilt Alert! Warm, dry conditions are triggering wilt symptoms in cowpeas. Use certified seeds and avoid root wounding.",
+      "nearby_farm_advice": ["Do not work in wet fields", "Disinfect farming tools with bleach", "Apply preventive copper drench"]
+    },
+    "source_metadata": {
+      "source_title": "Seed-borne Diseases of Cowpea: Curtobacterium",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers Curtobacterium flaccumfaciens pv. flaccumfaciens symptoms and seed color variants."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T20:00:00Z",
+      "updated_at": "2024-10-27T20:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist / Virologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cowpea_mosaic_virus",
+    "crop": {
+      "common_name": "Cowpea",
+      "english_name": "Cowpea / Black-eyed Pea",
+      "scientific_name": "Vigna unguiculata",
+      "local_names": ["Lobia", "Chawli", "Karamani", "Alasande", "Thattapayiru"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Mosaic_virus",
+      "category": "Viral",
+      "pathogen_or_cause": ["Cowpea Aphid-Borne Mosaic Virus (CABMV)"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods"],
+      "disease_stage": "All growth stages (Seedling to Pod-Development)"
+    },
+    "symptoms": {
+      "early_stage": ["Mild vein clearing and light-green mottling on young emerging leaves."],
+      "middle_stage": ["Classic mosaic: Irregular dark-green and light-green/yellow patchwork on leaves bounded by leaf veins.", "Leaf veins develop dark green bands (vein banding) or yellowing between veins (interveinal chlorosis).", "Leaves show puckering, wrinkling, and blistering."],
+      "severe_stage": ["Severe plant stunting and lack of vigor.", "Leaves are deformed, twisted, and extremely small.", "Pods are short, pale, containing very few or no seeds, and are highly twisted/distorted."],
+      "visible_signs": ["Vivid yellow-green mosaic pattern on leaves.", "Puckered, bubbled, distorted leaves.", "Aphid colonies (tiny dark insects) clustered on young shoots and leaf undersides."],
+      "farmer_reported_signs": ["Lobia leaves having green and yellow mosaic patches", "Wrinkled, bubbly leaves", "Stunted bushy cowpea plants with tiny deformed pods", "Black aphids under the leaves"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light green and yellow patches", "Dark green vein banding", "Pale green pods"],
+      "spot_or_patch_shape": "Irregular mosaic patches bounded by leaf veins",
+      "pattern": "Patchy mottling or puckered leaf blades across the canopy",
+      "location_on_plant": "Starts on young emerging terminal leaves and affects the entire foliage",
+      "starts_from": "Terminal young leaves and shoot tips",
+      "progression": "Young leaves mottle -> Leaves twist and blister -> Plant stunting -> Small deformed bolls/pods",
+      "image_clues": ["Look for a mixture of yellow and dark green patches on the same leaf blade", "Look for wrinkled, bubbled leaf surfaces with tiny black aphids underneath"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Wilt (early chlorosis)",
+        "difference": "Bacterial wilt causes wavy yellow edges and uniform wilting of leaves during midday, without leaf puckering, blistering, or green-yellow mosaic patchwork.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Thrip Damage",
+        "difference": "Thrip damage causes leaf curling and silver scars under the leaves, but does not cause green-yellow mosaic patches or dark green vein banding.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry and warm weather which favors aphid vector multiplication and migration", "Lack of rainfall"],
+      "temperature_range": "24°C - 35°C",
+      "humidity_level": "<70% RH",
+      "season": "Summer and Spring seasons",
+      "soil_conditions": ["Dry, stressed soils"],
+      "field_conditions": ["Presence of alternative host weeds in field boundaries", "Lack of barrier crops like maize"],
+      "irrigation_conditions": ["Under-irrigation causing plant stress and dry field conditions attractive to aphids"]
+    },
+    "spread": {
+      "spread_by": ["Aphids (Aphis craccivora - cowpea aphid) in a non-persistent, stylet-borne manner", "Sowing infected seeds (seed-borne)"],
+      "source_of_infection": ["Infected seeds", "Alternative weed hosts", "Infected nearby pulse crops"],
+      "survival_method": "The virus survives inside infected seeds and is carried over continuously by active aphids from alternative weed hosts.",
+      "spread_speed": "Very Fast once aphid colonies build up",
+      "nearby_crop_risk": "High for other pulses (green gram, blackgram, soybean)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (<5%) showing mild mosaic mottling on top leaves; few aphids seen.",
+        "field_indicator": "Isolated plants with patchy green-yellow leaves.",
+        "recommended_action": "Rogue out infected plants immediately. Deploy yellow sticky traps. Spray Neem Oil @ 3%."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of plants showing blistering, curling, and stunting; aphid colonies active.",
+        "field_indicator": "Patchy distribution of curled, mosaic-affected plants.",
+        "recommended_action": "Rogue infected plants. Spray systemic insecticides like Imidacloprid to control aphids."
+      },
+      {
+        "level": "High",
+        "description": "Over 15% of plants severely stunted with bubbled leaves; zero pod setting or heavily deformed pods.",
+        "field_indicator": "Field looks uneven, bushy, and yellow-green, with severely reduced yield.",
+        "recommended_action": "Spray Cypermethrin or Dimethoate immediately to stop vector migration. Keep weed boundaries clean."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always sow certified virus-free seeds.", "Grow mosaic virus-resistant cowpea hybrids."],
+      "field_management": ["Plant early in the season to avoid peak aphid vectors.", "Maintain clean, weed-free boundaries."],
+      "irrigation_management": ["Keep soil moisture optimum to avoid stressing plants, which makes them susceptible."],
+      "soil_management": ["Apply balanced nutrients to encourage strong natural plant defenses."],
+      "crop_rotation": ["Do not rotate cowpea with other susceptible pulses like green gram.", "Rotate with grain cereals."],
+      "sanitation": ["Regularly rogue out infected plants in the early stages, bag them, and burn them outside the field.", "Eradicate weed hosts in and around the field."],
+      "monitoring": ["Scout the field twice a week, checking young leaves for mosaic patterns and leaf undersides for aphid activity."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected yellow plants.", "Deploy yellow sticky traps.", "Apply a systemic insecticide foliar spray immediately."],
+      "cultural_control": ["Plant 3-4 rows of barrier crops (maize or sorghum) around the cowpea field to block migrating aphids.", "Destroy and bury weed hosts."],
+      "organic_control": ["Foliar spray of Neem Oil @ 3% (30 mL/L) or NSKE 5% to repel aphids."],
+      "biological_control": ["Conserve natural predators like ladybird beetles and lacewings which feed on aphids."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Cypermethrin 5% EC",
+          "product_type": "Synthetic Pyrethroid (Contact)",
+          "dose": "2.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Disrupts aphid feeding behavior (shortens probing time) to prevent virus transmission. Spray in the evening."
+        },
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide (Neonicotinoid)",
+          "dose": "0.3 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Suppresses aphid populations. Thoroughly cover leaf undersides."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Mosaic disease is a virus disease. It cannot be cured once inside the plant. It makes cowpea leaves look patchy with green and yellow squares and causes them to wrinkle and bubble. The plants remain small and bushy, producing tiny deformed pods. It is spread by small black insects called aphids or through infected seeds.",
+      "what_to_do_now": [
+        "Pull out any yellow, patchy, or wrinkled plants and burn them away from the field.",
+        "Hang yellow sticky traps in the field to catch aphids.",
+        "Spray Cypermethrin (2mL/L) or Imidacloprid (0.3mL/L) to kill the aphids spreading the virus."
+      ],
+      "what_not_to_do": [
+        "Do not keep seeds from sick plants for next season.",
+        "Do not allow wild weeds to grow on your field borders, as they harbor aphids."
+      ],
+      "when_to_call_expert": ["Contact an expert if aphid populations are soaring and mosaic patches are spreading rapidly across the entire field."],
+      "risk_warning": "Because the virus ruins pod development, early infection can cause up to 60% to 100% loss of your cowpea harvest."
+    },
+    "model_support": {
+      "classification_labels": ["cowpea_mosaic_virus"],
+      "segmentation_labels": ["mosaic_mottling_patch", "puckered_leaf_blade"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The symptoms are confused with uniform nutrient deficiencies or herbicide injury."],
+      "image_quality_requirements": ["High-resolution photos focusing on the mosaic pattern on the leaf blade or wrinkled bubbled leaf texture in bright, natural light."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "8 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Mosaic Virus Alert! Hot, dry winds are increasing aphid activity in your area. Implement preventive vector control now.",
+      "nearby_farm_advice": ["Rogue out early yellow plants", "Control aphids with Cypermethrin", "Grow barrier crops like maize"]
+    },
+    "source_metadata": {
+      "source_title": "Viral Diseases of Legumes: Cowpea Mosaic",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "Department of Plant Pathology, TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Excellent details on CABMV aphid non-persistent transmission and pyrethroid behavior."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T20:15:00Z",
+      "updated_at": "2024-10-27T20:15:00Z",
+      "reviewed_by": "Senior Plant Virologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cowpea_septoria_leaf_spot",
+    "crop": {
+      "common_name": "Cowpea",
+      "english_name": "Cowpea / Black-eyed Pea",
+      "scientific_name": "Vigna unguiculata",
+      "local_names": ["Lobia", "Chawli", "Karamani", "Alasande", "Thattapayiru"],
+      "crop_category": "Pulses"
+    },
+    "disease": {
+      "name": "Septoria_leaf_spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Septoria vignae", "Septoria vignicola"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods"],
+      "disease_stage": "Vegetative to Pod-Development"
+    },
+    "symptoms": {
+      "early_stage": ["Small, pinhead-sized, water-soaked, reddish-brown, or circular grey spots on both leaf surfaces.", "Starts on older lower leaves first."],
+      "middle_stage": ["Spots enlarge into irregular circular lesions (up to 5-8 mm) with light-grey centers and distinct dark brown or reddish borders.", "Tiny black pinpoint dots (pycnidia) form within the grey centers of the spots."],
+      "severe_stage": ["Multiple spots merge (coalesce) to form large dead patches on leaves.", "Leaves turn yellow, shrivel, wither, and prematurely drop off (defoliation).", "Loss of foliage stunts pod development and drastically reduces seed yield."],
+      "visible_signs": ["Circular grey leaf spots with reddish-brown borders.", "Tiny black pinpoint dots (fruiting bodies) inside the grey spot centers.", "Premature yellowing and leaf drop starting from the bottom canopy."],
+      "farmer_reported_signs": ["Circular grey spots with reddish rims on leaves", "Tiny black pepper-like dots inside grey spots", "Lobia leaves turning yellow and dropping early"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light grey center", "Dark brown or reddish-brown border", "Yellowing of leaf blade"],
+      "spot_or_patch_shape": "Circular to irregular lesions",
+      "pattern": "Scattered circular spots that dry and create black pinpoint centers",
+      "location_on_plant": "Starts on older lower leaves and progresses upward; occasionally on stems and pods",
+      "starts_from": "Lower leaves close to the soil surface",
+      "progression": "Lower leaf circular spots -> Grey centers and black pycnidia specks -> Coalesced spots -> Leaf yellowing -> Defoliation",
+      "image_clues": ["Look for a circular grey spot on a cowpea leaf with a reddish-brown margin and tiny black dots (like black pepper) inside the grey center"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cercospora Leaf Spot",
+        "difference": "Cercospora spots are larger, have ash-grey centers with a broad yellow halo, but do not contain the tiny, distinct black pinpoint dots (pycnidia) characteristic of Septoria.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Wilt (early spots)",
+        "difference": "Bacterial wilt causes wavy, interveinal chlorosis and rapid midday wilting of the leaf blade, rather than circular grey spots with black pinpoints.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool to warm, wet, and highly humid weather", "Frequent rainfall or heavy morning dews"],
+      "temperature_range": "20°C - 28°C",
+      "humidity_level": ">80% RH",
+      "season": "Rainy / Kharif season",
+      "soil_conditions": ["Wet, poorly drained soils"],
+      "field_conditions": ["Crowded plant spacing restricting airflow", "Presence of previous year's cowpea residues on the soil surface"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation spreading fungal spores via water splashes"]
+    },
+    "spread": {
+      "spread_by": ["Rain splashes or splashing irrigation water", "Wind-borne spores released from pycnidia"],
+      "source_of_infection": ["Infected seeds (seed-borne)", "Overwintering fungal structures in crop residues", "Alternative weed hosts"],
+      "survival_method": "The fungus survives as pycnidia or dormant mycelium inside infected seed coats and on diseased crop debris left in the field.",
+      "spread_speed": "Moderate to Fast during continuous rain and humid days",
+      "nearby_crop_risk": "Moderate for other legume fields nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated grey spots on bottom leaves; no pycnidia or leaf drop.",
+        "field_indicator": "<10% leaf area affected on lower foliage.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic copper sprays or Neem Oil."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots enlarging and showing black pinpoint centers (pycnidia) on lower and middle leaves; minor leaf yellowing.",
+        "field_indicator": "10% to 25% foliage affected with visible black pinpoint dots.",
+        "recommended_action": "Spray contact protective fungicides like Mancozeb or Propineb."
+      },
+      {
+        "level": "High",
+        "description": "Coalesced spots on most leaves; severe leaf yellowing and defoliation; plants looking bare.",
+        "field_indicator": ">25% foliage affected with heavy defoliation.",
+        "recommended_action": "Spray curative systemic fungicides like Carbendazim or Benomyl immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Always sow certified disease-free seeds.", "Treat seeds with Carbendazim @ 2g/kg of seed before sowing."],
+      "field_management": ["Observe proper spacing to allow ventilation.", "Keep fields completely free of weeds."],
+      "irrigation_management": ["Avoid overhead sprinkler irrigation.", "Use drip or furrow irrigation; water early in the morning."],
+      "soil_management": ["Ensure proper drainage.", "Apply balanced NPK; avoid excessive nitrogen."],
+      "crop_rotation": ["Rotate cowpea with cereals, maize, or legumes for 2-3 years."],
+      "sanitation": ["Regularly remove and destroy infected lower leaves.", "Collect and burn crop debris after harvesting."],
+      "monitoring": ["Monitor weekly during wet, warm seasons, checking the lower leaves closely starting 20 days after sowing."]
+    },
+    "management": {
+      "immediate_action": ["Pluck and destroy infected lower leaves.", "Ensure proper soil drainage.", "Spray a broad-spectrum protective fungicide."],
+      "cultural_control": ["Destroy weed hosts.", "Manually prune old leaves to improve air flow."],
+      "organic_control": ["Foliar spray of Copper Hydroxide @ 1.5 g/L.", "Apply copper-based organic formulations."],
+      "biological_control": ["Soil application and foliar spray of Trichoderma harzianum @ 10 g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply preventatively or at the first sign of symptoms."
+        },
+        {
+          "active_ingredient": "Carbendazim 50% WP",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 g to 1.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Provides excellent curative and systemic protection."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Septoria leaf spot is a fungal disease that makes circular grey spots with reddish-brown margins on cowpea leaves. Inside the grey spots, you can see tiny black dots like black pepper. The infected leaves turn yellow, shrivel, and fall off from the bottom of the plant up, which stops pods from growing fully.",
+      "what_to_do_now": [
+        "Pick off and burn the spotted lower leaves.",
+        "Avoid watering the plants from above (use drip or basin irrigation).",
+        "Spray Mancozeb (2g/L) or Carbendazim (1.5g/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave old crop waste or fallen leaves in the field.",
+        "Do not plant cowpeas too close to each other."
+      ],
+      "when_to_call_expert": ["Contact an expert if leaves are falling rapidly and plants are losing foliage despite chemical spraying."],
+      "risk_warning": "Severe Septoria leaf spot can cause early leaf drop, reducing plant vigor and reducing cowpea seed yields by up to 30%."
+    },
+    "model_support": {
+      "classification_labels": ["cowpea_septoria_leaf_spot"],
+      "segmentation_labels": ["grey_spot_pycnidia_speck", "defoliation_yellow_leaf"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The spots are confused with Cercospora leaf spot, which lacks the distinct black pinpoint pycnidia in the center."],
+      "image_quality_requirements": ["High-contrast images showing clear details of the grey spot with tiny black pinpoint dots inside on the leaf blade."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Septoria Leaf Spot alert: Warm, humid monsoon days are triggering grey leaf spot in cowpeas. Apply preventive contact fungicides.",
+      "nearby_farm_advice": ["Avoid overhead irrigation", "Remove bottom-most yellow leaves", "Apply preventive Mancozeb spray"]
+    },
+    "source_metadata": {
+      "source_title": "Fungal Diseases of Pulses: Cowpea Septoria",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Good description of Septoria vignae symptoms and distinction from Cercospora."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T20:15:00Z",
+      "updated_at": "2024-10-27T20:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  }
+]

@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "RICE-BLB-001",
+    "crop": {
+      "common_name": "Rice",
+      "english_name": "Rice / Paddy",
+      "scientific_name": "Oryza sativa",
+      "local_names": [
+        "Dhan",
+        "Chawal",
+        "Paddy",
+        "Arroz"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Bacterial Leaf Blight",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Xanthomonas oryzae pv. oryzae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Leaf sheaths",
+        "Whole seedling (Kresek stage)"
+      ],
+      "disease_stage": "Tillering to Heading stage (Kresek stage can occur in seedlings)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Water-soaked streaks appear at the leaf margins or tips",
+        "Lesions turn wavy and pale green to yellow within a few days"
+      ],
+      "middle_stage": [
+        "Lesions expand along the leaf length with distinctive wavy margins, turning a straw-yellow color",
+        "Milky or turbid bacterial droplets dew out on infected leaf surfaces during humid mornings, drying into tiny yellowish amber beads"
+      ],
+      "severe_stage": [
+        "Entire leaves turn fully straw-colored, wither, and dry out completely, giving the field a scorched appearance",
+        "Seedlings undergo severe systemic wilting where leaves roll, turn grey-green, and die completely (Kresek symptom)"
+      ],
+      "visible_signs": [
+        "Dried, amber-colored bacterial ooze beads attached to leaf blades",
+        "Dirty yellow leaf-drying patches running downwards from leaf tips along the outer edges"
+      ],
+      "farmer_reported_signs": [
+        "The tips and side edges of my paddy leaves are turning wavy yellow and drying up like straw",
+        "Young transplanted seedlings are wilting fast, drying up, and dying in patches"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Water-soaked margins turning bright yellow, then fading to a dead straw-brown hue"
+      ],
+      "spot_or_patch_shape": "Elongated, linear blighted stripes with characteristic wavy margins running along the leaf edges",
+      "pattern": "Drying starts strictly at the leaf tip or margins and works its way downward vertically",
+      "location_on_plant": "Can look systemic on young seedlings (Kresek), but usually targets full-grown leaves from tillering onward",
+      "starts_from": "Leaf margins or tip points where hydathodes (water pores) leak dew drops",
+      "progression": "Spreads rapidly from the leaf tip down the blade, eventually burning out the whole plant canopy",
+      "image_clues": [
+        "Wavy yellow stripe pattern separating dead brown tissue from the green leaf center",
+        "Tiny hardened yellow amber beads on leaf faces"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Leaf Streak (Xanthomonas oryzae pv. oryzicola)",
+        "difference": "Leaf streak forms thin, narrow, translucent brown stripes strictly between leaf veins that stay internal and do not cause the broad, wavy-edged yellow margin drying seen in Leaf Blight.",
+        "confusion_risk": "High during early vegetative infection stages."
+      },
+      {
+        "name": "Potassium Deficiency Burn",
+        "difference": "Potassium deficiency causes yellowing and drying of leaf margins but lacks wavy borders or bacterial ooze beads, and affects older leaves uniformly across fields.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Heavy rain storms, monsoonal winds, or typhoons that cause mechanical leaf wounding",
+        "Warm, overcast rainy weather phases"
+      ],
+      "temperature_range": "25°C - 34°C (77°F - 93°F)",
+      "humidity_level": "Extremely high relative humidity (>90%) with continuous water film layers on leaves",
+      "season": "Monsoon / Kharif season with intense rain spells",
+      "soil_conditions": [
+        "Fields with high standing water depth",
+        "Over-fertilized field soils"
+      ],
+      "field_conditions": [
+        "Excessive application of nitrogen fertilizers that produces a dense, soft leaf canopy",
+        "Deep standing water lines in field channels"
+      ],
+      "irrigation_conditions": [
+        "Continuous deep flooding or flooding fields with contaminated canal runoff water"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-driven rain splash during monsoon storms",
+        "Shared irrigation water moving between adjacent field paddies",
+        "People or tools brushing against wet, bruised plants"
+      ],
+      "source_of_infection": [
+        "Infected crop residues and straw leftovers",
+        "Infected weed hosts along field bunds (e.g., Leersia hexandra)",
+        "Contaminated seed lots"
+      ],
+      "survival_method": "Survives in weed hosts, un-plowed stubble lines, or inside saved seeds until the next hydration phase",
+      "spread_speed": "Explosive; can sweep across full agricultural blocks within days following severe wind and rain storms",
+      "nearby_crop_risk": "Extreme risk for adjacent downstream rice paddies sharing irrigation paths"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 5% of leaves display early water-soaked or yellowing margins at tip points.",
+        "field_indicator": "Isolated yellowing leaf tips; no wilting noticed in transplanted patches.",
+        "recommended_action": "Halt all nitrogen fertilizer applications immediately. Drain the field to let soil breathe. Avoid working when crops are wet."
+      },
+      {
+        "level": "Medium",
+        "description": "Wavy yellow blights are visible across 5% to 20% of the paddy crop leaves; fields look pale green.",
+        "field_indicator": "Straw-colored wavy leaf strips are clear; bacterial ooze beads present under morning fog.",
+        "recommended_action": "Apply recommended bactericides combined with copper protectants. Top-dress with Potassium to boost cell wall strength."
+      },
+      {
+        "level": "High / Critical",
+        "description": "More than 20% of the entire field canopy is blighted, dried out, or undergoing systemic Kresek wilting.",
+        "field_indicator": "Field looks scorched or hit by severe drought; high percentage of dead leaves and empty grain heads.",
+        "recommended_action": "Apply systemic bactericidal blocks immediately to limit final yield collapse. Tag field to ensure zero seed saving from this harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Sow only certified, disease-free seed selections",
+        "Plant resistant varieties adapted to local zones (e.g., varieties carrying Xa21 or multiple resistance genes)"
+      ],
+      "field_management": [
+        "Avoid applying heavy, single-dose nitrogen fertilizer split loops",
+        "Maintain clean field boundaries"
+      ],
+      "irrigation_management": [
+        "Practice alternate wetting and drying (AWD) rather than continuous deep flooding",
+        "Ensure proper drainage out of field depressions"
+      ],
+      "soil_management": [
+        "Apply balanced NPK inputs; ensure adequate Potassium fertilization based on soil assessments"
+      ],
+      "crop_rotation": [
+        "Rotate with non-host crops like legumes or oilseeds for at least one seasonal break cycle"
+      ],
+      "sanitation": [
+        "Plow stubbles deeply under the soil after harvest to promote quick rotting",
+        "Eradicate alternative wild grass hosts from bund lines"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly starting from early tillering, focusing heavily after heavy rain and wind storm events"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Confirm wavy edge margins and test for bacterial stream using a clean water cut test",
+        "Drain standing water immediately from the field to check bacteria movement"
+      ],
+      "cultural_control": [
+        "Delay any weeding or field tracking activities until the canopy dries under afternoon sun glare"
+      ],
+      "organic_control": [
+        "Spray fresh cow dung filtrate solution preventatively to inhibit bacterial attachment",
+        "Apply field treatments with fresh neem leaf extracts"
+      ],
+      "biological_control": [
+        "Incorporate bio-agents like Bacillus subtilis or Pseudomonas fluorescens to naturally outcompete bacterial colonization fields"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Streptocycline (Streptomycin Sulfate + Tetracycline Hydrochloride)",
+          "product_type": "Antibiotic / Bactericide",
+          "dose": "6.0 - 10.0 g/Acre (Dissolved in 200 Liters of water)",
+          "application_method": "Foliar mist spray directed thoroughly over the leaf canopy at first sign of blight",
+          "spray_interval": "10 - 12 days depending on rain frequency",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Ensure accurate dilution. Always tank-mix or alternate with copper formulations to prevent rapid bacterial resistance."
+        },
+        {
+          "active_ingredient": "Copper Oxychloride",
+          "product_type": "Protectant Bactericide / Fungicide",
+          "dose": "500 g/Acre",
+          "application_method": "Foliar spray mixed along with antibiotic formulations",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Provides a protective surface film that prevents bacterial cells from entering open leaf wounds."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial leaf blight is a destructive disease caused by bacteria that enter rice leaves through wind wounds or water pores. It dries up leaf edges in a wavy pattern, turning healthy green rice plants into dead straw and causing severe yield loss.",
+      "what_to_do_now": [
+        "Stop adding urea or any nitrogen fertilizers immediately, as they feed the bacteria.",
+        "Drain the standing water out of your rice fields to help the soil dry and halt bacteria spread.",
+        "Spray an antibiotic-copper mixture if you see wavy yellow lines crawling down from leaf tips."
+      ],
+      "what_not_to_do": [
+        "Never work or weed inside the fields early in the morning when leaves are wet with dew.",
+        "Do not allow field runoff water from a diseased patch to flow straight into clean rice fields.",
+        "Do not save seeds from a field that suffered from severe leaf blight or seedling wilting."
+      ],
+      "when_to_call_expert": [
+        "Call an extension expert immediately if you notice large patches of young transplanted seedlings wilting, curling up, and dying fast (Kresek stage)."
+      ],
+      "risk_warning": "This bacterial disease spreads like wildfire during rainy monsoon storms. If ignored while adding heavy urea, it can scorch your entire crop canopy, causing severe grain loss."
+    },
+    "model_support": {
+      "classification_labels": [
+        "rice_bacterial_leaf_blight",
+        "rice_healthy",
+        "rice_bacterial_leaf_streak"
+      ],
+      "segmentation_labels": [
+        "wavy_blight_lesion",
+        "bacterial_ooze_bead",
+        "healthy_green_leaf"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "Seedling wilting occurs extensively without any visible leaf spot marks, to differentiate from severe root rot fungi"
+      ],
+      "image_quality_requirements": [
+        "Requires macro focus on leaf margin boundaries to resolve the characteristic wavy pattern separating healthy and dead tissue zones"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RICE-BLB-CH-01",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Xanthomonas oryzae pv. oryzae Infection Pathways",
+        "content": "Bacterial Leaf Blight (BLB) is induced by Xanthomonas oryzae pv. oryzae. The pathogen enters via hydathodes or mechanical lesions caused by storm friction. Systemic multiplication in the vascular xylem leads to xylem clogging, causing typical margin blighting and the seedling Kresek wilt phase.",
+        "keywords": [
+          "Xanthomonas oryzae",
+          "hydathodes",
+          "xylem clogging",
+          "Kresek phase",
+          "bacterial ooze"
+        ],
+        "language": "English",
+        "target_user": "Plant Pathologist / Rice Specialist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block-wide",
+      "risk_radius": "25 km",
+      "report_count_threshold": "5 active cases logged after monsoon storm surges",
+      "outbreak_alert_message": "CRITICAL ALERT: Bacterial Leaf Blight spreading due to heavy rains. Stop urea top-dressing and inspect field margins immediately.",
+      "nearby_farm_advice": [
+        "Isolate field drainage connections.",
+        "Apply preventative copper shields before the next rainy window opens."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Compendium of Rice Diseases",
+      "source_url": "https://www.irri.org/rice-bacterial-blight-guide",
+      "source_type": "International Institute Manual",
+      "author_or_organization": "International Rice Research Institute (IRRI)",
+      "published_year": "2020",
+      "region": "Global / Asia",
+      "language": "English",
+      "last_verified": "2026-05-12",
+      "trust_level": "High",
+      "notes": "Premium international operational standard manual for diagnosing bacterial grain complexes."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T17:00:00Z",
+      "updated_at": "2026-06-01T21:45:00Z",
+      "reviewed_by": "IRRI Crop Protection Expert Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "RICE-BS-002",
+    "crop": {
+      "common_name": "Rice",
+      "english_name": "Rice / Paddy",
+      "scientific_name": "Oryza sativa",
+      "local_names": [
+        "Dhan",
+        "Chawal",
+        "Paddy",
+        "Arroz"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Brown Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Bipolaris oryzae",
+        "Helminthosporium oryzae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Leaf sheaths",
+        "Grains / Glumes"
+      ],
+      "disease_stage": "All growth stages (Seedling to Maturity); heavily associated with poor soil nutrition"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, circular to oval dark brown or reddish-brown spots appear on young leaves",
+        "Spots match the size of pinheads initially"
+      ],
+      "middle_stage": [
+        "Spots expand into oval, sesame-seed-like shapes with light brown or gray centers",
+        "A prominent dark brown or reddish ring forms around each spot center, surrounded by a bright yellow halo"
+      ],
+      "severe_stage": [
+        "Thousands of spots coalesce, causing full leaf blades to turn yellow and dry up early",
+        "Pathogen directly attacks grain husks, causing severe dark brown to black velvet discoloration (dirty grains or glume blight)"
+      ],
+      "visible_signs": [
+        "Sesame-seed-shaped brown leaf lesions with distinct gray centers",
+        "Dark brown spot blemishes covering harvested grain glumes"
+      ],
+      "farmer_reported_signs": [
+        "My paddy leaves are covered in thousands of dark brown spots that look like sesame seeds",
+        "The grain heads are coming out dirty, discolored, and covered in dark brown stains"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Spots have gray or straw-colored centers wrapped in a dark reddish-brown border and yellow outer envelope"
+      ],
+      "spot_or_patch_shape": "Oval or elliptical spots resembling the precise dimensions of sesame seeds",
+      "pattern": "Spots are distributed evenly across the entire leaf blade surface area",
+      "location_on_plant": "Visible across all canopy layers; often peaks on older leaves when soil nutrients deplete",
+      "starts_from": "Leaf surfaces exposed to morning dew condensation pockets",
+      "progression": "Moves from leaf spotting directly into grain coat colonization as the panicles emerge",
+      "image_clues": [
+        "Sesame-seed-shaped brown leaf craters with gray centers",
+        "Discolored dark brown grains on the standing head"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Rice Blast (Magnaporthe oryzae)",
+        "difference": "Blast lesions are typically much larger and spindle-shaped or diamond-shaped with sharply pointed ends, rather than small, uniform, round-edged oval sesame-seed shapes.",
+        "confusion_risk": "High, as both form gray-centered brown spots on rice foliage.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Narrow Brown Leaf Spot (Cercospora janseana)",
+        "difference": "Narrow brown leaf spot forms thin, long, narrow linear brown streaks that parallel leaf veins, lacking gray centers or circular oval shapes.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Prolonged morning fogs, heavy dews, or long overcast days with light drizzling rains",
+        "Drought stress periods followed by high humidity"
+      ],
+      "temperature_range": "25°C - 30°C (77°F - 86°F)",
+      "humidity_level": "Relative humidity above 88% with leaf wetness exceeding 8 to 10 hours",
+      "season": "Late Kharif or rain-fed lowland cropping configurations",
+      "soil_conditions": [
+        "Nutrient-deficient soils, particularly starving in Nitrogen, Potassium, Silicon, or Manganese",
+        "Poorly drained, alkaline, or unfertilized sandy field soils ('hungry soils')"
+      ],
+      "field_conditions": [
+        "Fields where crops are under severe nutritional or moisture stress",
+        "Weedy plot domains"
+      ],
+      "irrigation_conditions": [
+        "Water stress or fields kept dry due to rain failure or irregular irrigation channels"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia (fungal spores) carried over long distances by wind lines",
+        "Splashing raindrops"
+      ],
+      "source_of_infection": [
+        "Infected seeds used for sowing",
+        "Crop stubbles and volunteer rice plants",
+        "Alternative wild grass weeds along bund lines (e.g., Echinochloa species)"
+      ],
+      "survival_method": "Overwinters as dormant mycelium or spores inside contaminated seeds or on dried crop residues left on the soil surface",
+      "spread_speed": "Moderate, but fast if the crop encounters severe nutrient deficiencies during grain filling",
+      "nearby_crop_risk": "Moderate to high for adjacent unfertilized paddy plots"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few scattered small brown spots on lower leaves; less than 5% of leaf surface area affected.",
+        "field_indicator": "Fewer than 5 sesame-shaped spots per leaf; grains look clean.",
+        "recommended_action": "Apply a corrective split dose of Nitrogen and Potassium fertilizers. Ensure proper soil moisture status."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots are numerous across all leaf levels, affecting 5% to 20% of the canopy tissue; some leaves look pale.",
+        "field_indicator": "Sesame spots with distinct gray centers are clear across rows; early blemish lines on young glumes.",
+        "recommended_action": "Apply recommended protective or systemic fungicides. Address soil nutritional gaps immediately."
+      },
+      {
+        "level": "High",
+        "description": "More than 20% of leaf tissue is covered in spots; leaves are drying early and grains are heavily discolored.",
+        "field_indicator": "Leaves are drying up prematurely; grain heads look dirty brown or black, leading to high chaffy grain counts.",
+        "recommended_action": "Apply systemic fungicides instantly to protect grain filling. Plan for thorough soil replenishment and seed treatment protocols next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use certified, clean seed lots",
+        "Enforce strict seed treatment with warm water or protective fungicides before nursery sowing"
+      ],
+      "field_management": [
+        "Maintain optimal soil fertility through balanced fertilization programs based on soil assays",
+        "Avoid moisture stress"
+      ],
+      "irrigation_management": [
+        "Keep field water levels regulated; avoid letting soils dry out into cracking phases"
+      ],
+      "soil_management": [
+        "Correct soil deficiencies by applying balanced Nitrogen, Potassium, and micronutrients like Manganese or Silicon amendments"
+      ],
+      "crop_rotation": [
+        "Practice crop rotation out of cereals with pulse crops or green manure configurations"
+      ],
+      "sanitation": [
+        "Bury or burn infected crop residues post-harvest to reduce spore survival",
+        "Keep fields free of wild grass weeds"
+      ],
+      "monitoring": [
+        "Monitor fields weekly from seedling stage onward, looking for dark pinhead spots on crops grown in poor soil fields"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Confirm sesame-seed shapes with gray centers to rule out blast disease",
+        "Apply a corrective fertilizer top-dressing if plants show overall nutritional paleness"
+      ],
+      "cultural_control": [
+        "Provide adequate field water management to alleviate any underlying drought stress factors"
+      ],
+      "organic_control": [
+        "Treat seeds with bio-agents like Trichoderma viride or Pseudomonas fluorescens formulations",
+        "Apply preventative foliar sprays of fresh neem seed kernel extract (NSKE 5%)"
+      ],
+      "biological_control": [
+        "Incorporate beneficial soil microorganisms to improve root health and general nutrient uptake efficiency"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole",
+          "product_type": "Systemic Fungicide (Triazole)",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar spray applied at booting to early panicle emergence stages",
+          "spray_interval": "10 - 14 days if wet, foggy conditions persist",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Provides curative and systemic action. Wear appropriate eye protection; do not over-dose."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Protectant Fungicide",
+          "dose": "2.5 g/Liter of water (or 500g/Acre)",
+          "application_method": "Foliar spray applied preventatively during vegetative stage",
+          "spray_interval": "7 - 10 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Broad-spectrum contact barrier. Ensure uniform leaf coating for optimal performance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Brown spot is a fungal disease that creates thousands of sesame-seed-shaped spots with gray centers on rice leaves. It is often a sign of 'hungry soil' and aggressively strikes fields that are low on fertilizers, making leaves dry up early and staining the grains black.",
+      "what_to_do_now": [
+        "Apply a balanced dose of fertilizers, especially Potassium, to feed and strengthen your rice plants.",
+        "Keep your field soil properly moist; do not let the field dry out completely and crack.",
+        "Spray an effective protective fungicide if spots are moving onto your emerging grain heads."
+      ],
+      "what_not_to_do": [
+        "Never save seeds from a rice field that produced dirty, heavily stained dark brown grains.",
+        "Do not ignore these spots as simple weather damage; they indicate your soil needs better nutrition.",
+        "Do not leave old infected straw sitting in piles along field borders after harvest."
+      ],
+      "when_to_call_expert": [
+        "If leaves are turning yellow and drying up rapidly across fields while emerging grain ears are coming out heavily covered in dark spots."
+      ],
+      "risk_warning": "Brown spot is closely tied to poor soil health. If left unmanaged, it will stain and shrivel your rice grains, leading to brittle grains that break easily during mill processing."
+    },
+    "model_support": {
+      "classification_labels": [
+        "rice_brown_spot",
+        "rice_healthy",
+        "rice_blast"
+      ],
+      "segmentation_labels": [
+        "sesame_spot_lesion",
+        "gray_center_necrotic",
+        "discolored_grain_husk"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots develop long pointed ends (spindle shapes), which signals a potential outbreak of highly destructive rice blast disease"
+      ],
+      "image_quality_requirements": [
+        "Requires high-resolution macro close-ups of individual spots to distinguish uniform rounded sesame oval lines from pointed spindle borders"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RICE-BS-CH-02",
+        "chunk_type": "Pathology / Agronomy",
+        "title": "Bipolaris oryzae and Soil Starvation Index",
+        "content": "Brown spot of rice, caused by Bipolaris oryzae, is historically labeled a 'poor man's disease' due to its strict correlation with nutrient-depleted soils deficient in N, K, Mn, or Si. Fungal conidia cause oval sesame-seed lesions on leaves and cause dark glume discoloration, reducing milling quality.",
+        "keywords": [
+          "Bipolaris oryzae",
+          "sesame-seed lesion",
+          "poor man's disease",
+          "glume discoloration",
+          "milling breakage"
+        ],
+        "language": "English",
+        "target_user": "Extension Agronomist / Soil Scientist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block",
+      "risk_radius": "15 km",
+      "report_count_threshold": "6 confirmed cases in low-fertility zones within 10 days",
+      "outbreak_alert_message": "Brown Spot Warning: High morning humidity and soil nutrition stress are driving leaf spotting. Implement corrective fertilization programs.",
+      "nearby_farm_advice": [
+        "Assess soil Potassium status immediately.",
+        "Apply systemic triazole protectants if crops are entering panicle emergence phases."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Paddy Production and Disease Manual",
+      "source_url": "https://www.icar-nrri.in/brown-spot-guidelines",
+      "source_type": "National Research Center Bulletin",
+      "author_or_organization": "ICAR-National Rice Research Institute (NRRI)",
+      "published_year": "2021",
+      "region": "South Asia / India",
+      "language": "English",
+      "last_verified": "2026-04-18",
+      "trust_level": "High",
+      "notes": "Authoritative focus on soil health management interventions to eliminate fungal spot development pathways."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T17:15:00Z",
+      "updated_at": "2026-06-01T22:00:00Z",
+      "reviewed_by": "ICAR-NRRI Plant Pathology Committee",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "RICE-LSM-003",
+    "crop": {
+      "common_name": "Rice",
+      "english_name": "Rice / Paddy",
+      "scientific_name": "Oryza sativa",
+      "local_names": [
+        "Dhan",
+        "Chawal",
+        "Paddy",
+        "Arroz"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Leaf Smut",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Entyloma oryzae"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Late Tillering to Maturity stage; often considered a minor disease"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, slightly raised, angular black spots or pimples appear on older leaves",
+        "Spots are initially less than 1-2 mm in size"
+      ],
+      "middle_stage": [
+        "Black spots increase in number, remaining as hard, charcoal-like angular pustules (sori)",
+        "The leaf tissue surrounding the hard black spots turns pale yellow"
+      ],
+      "severe_stage": [
+        "Under heavy infestation, high densities of black pimples cause entire leaf blades to turn yellow, dry up early, and split open vertically at the spot locations"
+      ],
+      "visible_signs": [
+        "Hard, raised, angular charcoal-black pimples embedded inside the leaf tissue that do not rub off like loose dust"
+      ],
+      "farmer_reported_signs": [
+        "My rice leaves have hundreds of tiny, hard, sand-like black pimples stuck inside them",
+        "Older leaves are turning yellow and drying out early because they are covered in hard black spots"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Hard black angular spots wrapped inside localized yellow aging leaf areas"
+      ],
+      "spot_or_patch_shape": "Small, angular, rectangular, or linear raised black pimples bounded by parallel leaf veins",
+      "pattern": "Spots run in lines between leaf veins and feel rough or bumpy when a finger is rubbed over the blade",
+      "location_on_plant": "Mainly restricted to older, lower canopy leaves late in the season",
+      "starts_from": "Older leaf blades facing high shade and ground vapor levels",
+      "progression": "Slow; remains confined to leaves and rarely spreads to the emerging grain structure directly",
+      "image_clues": [
+        "Tiny raised angular black charcoal spots embedded along rice leaf veins",
+        "Yellowing leaf tips covered in black bumpy marks"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "False Smut / Kernel Smut Damage Spores",
+        "difference": "False smut and kernel smut directly attack and transform the rice grains into powdery black or orange spore mass balls on the head. Leaf smut *only* forms hard black pimples inside the green leaf tissue and never touches the grains directly.",
+        "confusion_risk": "Medium due to the word 'Smut' shared in names."
+      },
+      {
+        "name": "Dirty Panicle Fungal Spots on Leaves",
+        "difference": "General saprophytic molds create superficial, soft fuzzy black layers on leaf surfaces that can be easily rubbed off with wet fingers, whereas leaf smut spots are hard and embedded inside the leaf structure.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "High relative humidity coupled with cloudy, warm, and shaded conditions late in the season"
+      ],
+      "temperature_range": "25°C - 30°C (77°F - 86°F)",
+      "humidity_level": "Relative humidity above 85% within damp canopy microclimates",
+      "season": "Late Kharif or late Rabi cycles near crop maturity",
+      "soil_conditions": [
+        "Fields with high soil nitrogen profiles that create dense canopy shade"
+      ],
+      "field_conditions": [
+        "Over-crowded, closely spaced fields with low air penetration",
+        "Highly shaded field positions near trees"
+      ],
+      "irrigation_conditions": [
+        "Continuous stagnant deep flooding keeping the bottom canopy damp"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-blown airborne sporidia released when wet pustules rupture",
+        "Water splash transfer"
+      ],
+      "source_of_infection": [
+        "Infected leaf residues dropped onto the soil surface",
+        "Volunteer rice lines"
+      ],
+      "survival_method": "Overwinters as dormant teliospores inside dead leaf debris left on field soil lines, germinating in spring to create airborne spores",
+      "spread_speed": "Slow to moderate; rarely creates explosive field-wide epidemics",
+      "nearby_crop_risk": "Low for neighboring fields unless layouts are heavily over-fertilized and shaded"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Hard black spots are rare and restricted entirely to the bottom 10% of older leaves; no yellowing observed.",
+        "field_indicator": "Fewer than 10 angular black dots per lower leaf blade.",
+        "recommended_action": "No chemical action needed. Balance nitrogen applications in upcoming cycles. Improve wind drying."
+      },
+      {
+        "level": "Medium",
+        "description": "Black pustules are distinct on middle and lower leaves, causing localized leaf yellowing across rows.",
+        "field_indicator": "Bumpy black spots are easy to spot on multiple leaves; slight premature drying of leaf margins.",
+        "recommended_action": "Avoid further nitrogen top-dressing. Keep field drainage functioning properly. If tracking high seed value plots, apply a protective triazole spray."
+      },
+      {
+        "level": "High",
+        "description": "High numbers of black pimples cause widespread leaf yellowing, drying, and vertical leaf splitting across the field.",
+        "field_indicator": "Lower leaves are completely dry and dead from heavy smut dotting; canopy looks mature too early.",
+        "recommended_action": "Apply a systemic protective fungicide to protect remaining green leaves. Deeply plow field stubbles post-harvest to break spore cycle paths."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Sow healthy certified seed stocks"
+      ],
+      "field_management": [
+        "Maintain optimal spacing between crop rows to permit sunlight entry into lower canopy zones",
+        "Avoid overdosages of Nitrogen"
+      ],
+      "irrigation_management": [
+        "Practice scheduled drainage loops; avoid keeping fields permanently flooded with stagnant water"
+      ],
+      "soil_management": [
+        "Apply balanced primary nutrients based on field tests; ensure adequate silicon availability if possible"
+      ],
+      "crop_rotation": [
+        "Rotate with non-cereal crops every 2-3 years if disease pressure ticks up over seasons"
+      ],
+      "sanitation": [
+        "Plow fields deeply after harvest to bury infected leaves under soil layers",
+        "Keep bund lines clear"
+      ],
+      "monitoring": [
+        "Inspect lower leaf layers late in the tillering stage, looking for hard black rectangular spots along leaf lines"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rub a finger over the black spots to verify they are hard and embedded, confirming Leaf Smut",
+        "Improve ventilation by managing surrounding weed borders"
+      ],
+      "cultural_control": [
+        "Incorporate proper crop geometry standards during next transplanting to limit extreme ground shading"
+      ],
+      "organic_control": [
+        "Apply preventive sprays of copper oxychloride formulations if spots emerge early in the cycle",
+        "Treat field plots with liquid bio-control agents"
+      ],
+      "biological_control": [
+        "Mass soil applications of Trichoderma-enriched organic matter can help accelerate the breakdown of smut-infected leaf debris"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Tebuconazole",
+          "product_type": "Systemic Fungicide (Triazole)",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar canopy spray directed at the leaf layer; only required if disease triggers premature drying of top leaves",
+          "spray_interval": "Single well-timed spray usually sufficient",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Rarely required for leaf smut unless under extreme nitrogen-driven overgrowth conditions."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Leaf smut is a minor fungal disease that makes tiny, hard, raised black pimples inside older rice leaves late in the season. These spots don't rub off like dust, and while they can make older leaves dry up early, they rarely cause severe damage to your final grain harvest.",
+      "what_to_do_now": [
+        "Avoid using excessive amounts of urea (nitrogen), which makes fields thick, dark, and shaded.",
+        "Keep your field water moving or drain it occasionally so the bottom leaves can dry.",
+        "Plow your field deeply after harvest to bury old leaves and kill hidden spores."
+      ],
+      "what_not_to_do": [
+        "Do not mistake this for grain smut diseases—this disease only stays on the leaves and does not ruin your rice grains.",
+        "Do not panic or spray heavy chemicals unless your top leaves are drying up fast before grain filling.",
+        "Do not plant seedlings too close together in shaded field corners near trees."
+      ],
+      "when_to_call_expert": [
+        "If the hard black spots are moving aggressively onto the top flag leaves before the grains have fully formed."
+      ],
+      "risk_warning": "Leaf smut is mostly a cosmetic disease that indicates a thick canopy or high nitrogen use. It rarely cuts yields significantly unless it forces full canopy death during early grain milking phases."
+    },
+    "model_support": {
+      "classification_labels": [
+        "rice_leaf_smut",
+        "rice_healthy",
+        "rice_brown_spot"
+      ],
+      "segmentation_labels": [
+        "angular_black_sori",
+        "yellow_chlorotic_margin",
+        "healthy_vein_line"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Black powdery growths appear directly on or inside the grain husks, indicating dangerous kernel or false smut outbreaks"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos showing clear focus on the hard rectangular raised black spots lined up between leaf veins"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "RICE-LSM-CH-03",
+        "chunk_type": "Pathology",
+        "title": "Entyloma oryzae Life Cycle and Sori Morphology",
+        "content": "Leaf smut of rice is caused by the basidiomycete Entyloma oryzae. It produces hard, black, raised angular sori within leaf epidermal layers, bounded cleanly by parallel leaf veins. Teliospores germinate in situ under wet parameters to produce sporidia that travel via air to upper leaves.",
+        "keywords": [
+          "Entyloma oryzae",
+          "basidiomycete",
+          "angular sori",
+          "teliospores",
+          "epidermal layer"
+        ],
+        "language": "English",
+        "target_user": "Rice Pathologist / Extension Officer"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Village level",
+      "risk_radius": "8 km",
+      "report_count_threshold": "10 mild incident reports logged near maturity",
+      "outbreak_alert_message": "Leaf Smut Notice: High nitrogen fields showing common Entyloma spotting on lower leaves. Balance field nutrition.",
+      "nearby_farm_advice": [
+        "No immediate chemical action needed for standard fields.",
+        "Optimize row aeration for subsequent cropping seasons."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Field Guide to Rice Diseases and Disorders",
+      "source_url": "http://www.knowledgebank.irri.org/decision-tools/rice-doctor/rice-doctor-fact-sheets/item/leaf-smut",
+      "source_type": "International Database Factsheet",
+      "author_or_organization": "IRRI Knowledge Bank",
+      "published_year": "2022",
+      "region": "Global",
+      "language": "English",
+      "last_verified": "2026-03-10",
+      "trust_level": "High",
+      "notes": "Excellent standard visual reference tool for differentiating minor leaf spots from critical grain epidemics."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T17:30:00Z",
+      "updated_at": "2026-06-01T22:15:00Z",
+      "reviewed_by": "IRRI Rice Doctor Diagnostics Team",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "rice_bacterialblight",
+    "crop": {
+      "common_name": "Rice",
+      "english_name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "local_names": [
+        "Dhan"
+      ],
+      "crop_category": "Cereal"
+    },
+    "disease": {
+      "name": "Bacterial Blight",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Xanthomonas oryzae pv. oryzae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Seedlings"
+      ],
+      "disease_stage": "Seedling to Mature"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Water-soaked yellowish stripes on leaf blades, starting at tips."
+      ],
+      "middle_stage": [
+        "Lesions expand with wavy margin, turning yellowish-white. Ooze appears in morning."
+      ],
+      "severe_stage": [
+        "Leaves dry, curl, and turn straw-colored. 'Kresek' (seedling wilt) causes death of whole seedling."
+      ],
+      "visible_signs": [
+        "Yellow wavy stripes, morning bacterial ooze drops."
+      ],
+      "farmer_reported_signs": [
+        "Leaves turning yellow and drying from the tips",
+        "Seedlings wilting and dying"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowish-white",
+        "Straw colored"
+      ],
+      "spot_or_patch_shape": "Long wavy stripes",
+      "pattern": "Following leaf veins from tip",
+      "location_on_plant": "Leaves",
+      "starts_from": "Leaf tips and margins",
+      "progression": "Tip -> Downwards -> Leaf death",
+      "image_clues": [
+        "Look for yellow wavy stripes with dried tips."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Leaf streak",
+        "difference": "Streak forms narrow translucent streaks between veins, not large wavy stripes from tips.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid",
+        "Typhoon or heavy rain"
+      ],
+      "temperature_range": "25-34C",
+      "humidity_level": ">70%",
+      "season": "Monsoon",
+      "soil_conditions": [
+        "Waterlogged"
+      ],
+      "field_conditions": [
+        "Excess nitrogen",
+        "Dense planting"
+      ],
+      "irrigation_conditions": [
+        "Stagnant water"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-driven rain",
+        "Irrigation water",
+        "Contact"
+      ],
+      "source_of_infection": [
+        "Weeds",
+        "Stubble"
+      ],
+      "survival_method": "In weeds and crop debris",
+      "spread_speed": "Very Fast",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Kresek wilt or severe leaf drying.",
+        "field_indicator": "Straw-colored fields.",
+        "recommended_action": "Drain water, stop nitrogen."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Resistant varieties (e.g. IR64)."
+      ],
+      "field_management": [
+        "Optimal spacing."
+      ],
+      "irrigation_management": [
+        "Drain field periodically."
+      ],
+      "soil_management": [
+        "Avoid excess N."
+      ],
+      "crop_rotation": [
+        "Rotate to non-host."
+      ],
+      "sanitation": [
+        "Remove stubble and weeds."
+      ],
+      "monitoring": [
+        "Check tips after storms."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Drain excess water.",
+        "Stop urea application."
+      ],
+      "cultural_control": [
+        "Field drainage."
+      ],
+      "organic_control": [
+        "None highly effective."
+      ],
+      "biological_control": [
+        "Pseudomonas fluorescens."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Streptocycline + Copper Oxychloride",
+          "product_type": "Bactericide",
+          "dose": "0.1g + 2g/L",
+          "application_method": "Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Spray evenly."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A bacterial disease causing yellow wavy stripes and drying of rice leaves.",
+      "what_to_do_now": [
+        "Drain the water from the field.",
+        "Do NOT apply urea."
+      ],
+      "what_not_to_do": [
+        "Don't keep water stagnant.",
+        "Don't over-fertilize."
+      ],
+      "when_to_call_expert": [
+        "If kresek occurs early."
+      ],
+      "risk_warning": "Can drastically reduce yield."
+    },
+    "model_support": {
+      "classification_labels": [
+        "rice_bacterialblight"
+      ],
+      "segmentation_labels": [
+        "wavy_yellow_stripe"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Clear view of leaf tip."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Bacterial Blight alert after heavy rains.",
+      "nearby_farm_advice": [
+        "Drain fields, avoid urea."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "rice_tungro",
+    "crop": {
+      "common_name": "Rice",
+      "english_name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "local_names": [
+        "Dhan"
+      ],
+      "crop_category": "Cereal"
+    },
+    "disease": {
+      "name": "Tungro",
+      "category": "Viral",
+      "pathogen_or_cause": [
+        "Rice tungro bacilliform virus (RTBV)",
+        "Rice tungro spherical virus (RTSV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Whole plant"
+      ],
+      "disease_stage": "Vegetative to Heading"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Discoloration of leaves starting from tip to downward (yellow/orange)."
+      ],
+      "middle_stage": [
+        "Stunted growth, reduced tillering, rust-colored spots on older leaves."
+      ],
+      "severe_stage": [
+        "Delayed flowering, small panicles, empty grains."
+      ],
+      "visible_signs": [
+        "Stunted yellow/orange plants, presence of Green Leafhoppers."
+      ],
+      "farmer_reported_signs": [
+        "Plants are stunted and turn yellow-orange",
+        "A lot of green insects in the field"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellow",
+        "Orange-yellow"
+      ],
+      "spot_or_patch_shape": "Whole leaf discoloration",
+      "pattern": "Interveinal stripes or mottling",
+      "location_on_plant": "Systemic",
+      "starts_from": "Leaf tips",
+      "progression": "Discoloration -> Stunting -> Sterile panicles",
+      "image_clues": [
+        "Look for orange-yellow stunted plants."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Nitrogen deficiency",
+        "difference": "Nitrogen deficiency causes uniform pale yellowing without the intense orange hue or severe stunting of tungro.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm"
+      ],
+      "temperature_range": "25-30C",
+      "humidity_level": "Variable",
+      "season": "Any",
+      "soil_conditions": [
+        "N/A"
+      ],
+      "field_conditions": [
+        "Presence of Green Leafhopper vectors"
+      ],
+      "irrigation_conditions": [
+        "N/A"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Green Leafhopper (GLH)"
+      ],
+      "source_of_infection": [
+        "Infected weeds",
+        "Volunteer rice"
+      ],
+      "survival_method": "In alternative hosts",
+      "spread_speed": "Fast if GLH is present",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Severe stunting and orange leaves.",
+        "field_indicator": "High GLH population.",
+        "recommended_action": "Spray insecticide against GLH."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Resistant varieties."
+      ],
+      "field_management": [
+        "Synchronous planting.",
+        "Destroy alternative weed hosts."
+      ],
+      "irrigation_management": [
+        "N/A"
+      ],
+      "soil_management": [
+        "Avoid excess nitrogen."
+      ],
+      "crop_rotation": [
+        "N/A"
+      ],
+      "sanitation": [
+        "Plow under infected stubble."
+      ],
+      "monitoring": [
+        "Scout for Green Leafhoppers."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Control GLH vectors immediately."
+      ],
+      "cultural_control": [
+        "Remove symptomatic plants early."
+      ],
+      "organic_control": [
+        "Neem oil to repel insects."
+      ],
+      "biological_control": [
+        "Spiders and natural GLH enemies."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid",
+          "product_type": "Insecticide",
+          "dose": "0.5mL/L",
+          "application_method": "Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Target vectors."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A virus spread by green leafhoppers causing yellow/orange stunted plants.",
+      "what_to_do_now": [
+        "Spray insecticide to kill the green leafhoppers."
+      ],
+      "what_not_to_do": [
+        "Don't ignore the presence of green insects on the leaves."
+      ],
+      "when_to_call_expert": [
+        "To confirm tungro vs nutrient deficiency via iodine test."
+      ],
+      "risk_warning": "Can cause massive yield loss if young plants are infected."
+    },
+    "model_support": {
+      "classification_labels": [
+        "rice_tungro"
+      ],
+      "segmentation_labels": [
+        "orange_discolored_leaf"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "Nutrient deficiency is suspected."
+      ],
+      "image_quality_requirements": [
+        "Clear shot of the colored leaves and whole plant structure."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Tungro alert. Spray against GLH.",
+      "nearby_farm_advice": [
+        "Monitor GLH."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "RICE-BLAST-EXT-01",
+    "crop": {
+      "common_name": "Rice",
+      "english_name": "Rice / Paddy",
+      "scientific_name": "Oryza sativa",
+      "local_names": [
+        "Dhan",
+        "Paddy",
+        "Chawal"
+      ],
+      "crop_category": "Cereal / Grain"
+    },
+    "disease": {
+      "name": "Rice Blast",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Magnaporthe oryzae (anamorph Pyricularia oryzae; formerly M. grisea)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Nodes",
+        "Neck/panicle",
+        "Collar"
+      ],
+      "disease_stage": "Seedling to grain-filling (leaf blast early; neck/panicle blast at heading)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small whitish to gray-green specks/spots on leaves that enlarge into spindle (diamond) shaped lesions",
+        "Lesions develop a gray or white center with a brown to reddish-brown margin, about 10-15 mm long and 3-5 mm wide"
+      ],
+      "middle_stage": [
+        "Lesions coalesce, killing large areas of the leaf and giving a scorched, burnt appearance",
+        "Dark brown to black lesions girdle the stem nodes, which may break"
+      ],
+      "severe_stage": [
+        "Neck/panicle blast: the panicle base turns grayish-brown and rots, causing the panicle to break over and grains to be empty (white heads)",
+        "Severe infections cause heavy yield loss or total crop failure"
+      ],
+      "visible_signs": [
+        "Diamond-shaped leaf lesions with pale centers and brown borders",
+        "Rotten, broken panicle necks ('rotten neck')"
+      ],
+      "farmer_reported_signs": [
+        "Eye-shaped spots with gray centers spreading on the leaves",
+        "The neck of the panicle has rotted and the heads have fallen over with empty grains"
+      ]
+    },
+    "favorable_conditions": {
+      "notes": [
+        "High humidity and long leaf wetness (dew)",
+        "Moderate temperatures (~25-28 C) and cloudy weather",
+        "Excess nitrogen fertiliser, dense planting, and upland/aerobic stress increase risk"
+      ]
+    },
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant certified, blast-resistant varieties suited to your area",
+        "Treat/seed-test with clean certified seed"
+      ],
+      "field_management": [
+        "Apply nitrogen in split doses; avoid excess nitrogen",
+        "Maintain recommended spacing for airflow",
+        "Keep a stable water level; avoid drought stress"
+      ],
+      "sanitation": [
+        "Remove and destroy infected stubble and weed hosts after harvest"
+      ],
+      "monitoring": [
+        "Scout fields from tillering and again at heading, especially after humid, cloudy spells"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Drain-and-refill to manage water, stop nitrogen top-dressing, and remove the most affected hills"
+      ],
+      "cultural_control": [
+        "Use resistant varieties",
+        "Balanced fertilisation (avoid excess N)",
+        "Proper spacing and water management"
+      ],
+      "organic_control": [
+        "Apply biocontrol agents such as Pseudomonas fluorescens or Bacillus subtilis as preventive sprays/seed treatment"
+      ],
+      "biological_control": [
+        "Bacillus subtilis and Pseudomonas-based products suppress the blast fungus"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Tricyclazole",
+          "product_type": "Systemic fungicide",
+          "dose": "0.6 g/L water",
+          "notes": "Spray at early leaf-blast and again before heading to protect the neck"
+        },
+        {
+          "active_ingredient": "Isoprothiolane",
+          "product_type": "Systemic fungicide",
+          "dose": "as per label",
+          "notes": "Effective for neck blast at boot/heading"
+        },
+        {
+          "active_ingredient": "Azoxystrobin",
+          "product_type": "Strobilurin fungicide",
+          "dose": "as per label",
+          "notes": "Rotate chemical groups to avoid resistance"
+        }
+      ],
+      "expert_recommendation_required": "Yes for severe neck-blast outbreaks or repeated failures"
+    },
+    "farmer_advice": {
+      "simple_explanation": "Rice blast is a fast fungal disease that makes eye-shaped grey spots on leaves and can rot the neck of the grain head, leaving empty grains. It spreads fast in humid, cloudy weather and with too much urea.",
+      "what_to_do_now": [
+        "Stop adding urea/nitrogen for now",
+        "Remove and bury badly infected plants",
+        "Spray a recommended fungicide (e.g., tricyclazole) early, and again before flowering to protect the neck",
+        "Manage water level; do not let the field dry out and stress the crop"
+      ],
+      "what_not_to_do": [
+        "Do not apply extra nitrogen",
+        "Do not keep the canopy wet for long periods"
+      ],
+      "when_to_call_expert": "If the neck/panicle is rotting or the disease is spreading despite spraying, consult your agricultural officer.",
+      "risk_warning": "Neck blast at heading can destroy most of the yield. Protect the crop before flowering, not after symptoms appear on the panicle."
+    },
+    "source_metadata": {
+      "compiled_from": [
+        "UC IPM (ipm.ucanr.edu)",
+        "ScienceDirect review (2025)",
+        "extension fact sheets"
+      ]
+    }
+  }
+]

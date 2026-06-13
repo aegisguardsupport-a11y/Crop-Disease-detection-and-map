@@ -1,0 +1,2209 @@
+[
+  {
+    "id": "maize_lethal_necrosis",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta",
+        "Mahangu"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Lethal Necrosis (MLN)",
+      "category": "Viral Disease Complex",
+      "pathogen_or_cause": [
+        "Maize chlorotic mottle virus (MCMV)",
+        "Sugarcane mosaic virus (SCMV)",
+        "Maize dwarf mosaic virus (MDMV)",
+        "Wheat streak mosaic virus (WSMV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stalk",
+        "Tassel",
+        "Ears",
+        "Cobs"
+      ],
+      "disease_stage": "Can affect all growth stages, but highly destructive during early vegetative and reproductive stages."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Mild chlorotic mottle on young leaves.",
+        "Faint yellowing or pale green mosaic patterns starting from the leaf base."
+      ],
+      "middle_stage": [
+        "Pronounced yellow streaks running parallel to veins.",
+        "Chlorosis starting from the leaf margins and moving inward toward the midrib.",
+        "Stunting of the whole plant and shortening of internodes."
+      ],
+      "severe_stage": [
+        "Leaf necrosis starting from leaf tips and margins, causing complete drying of the foliage.",
+        "'Dead heart' symptom, where the youngest leaves in the whorl dry up and die.",
+        "Sterility, failure to tassel, or malformed, small, poorly filled ears.",
+        "Total plant death before maturity."
+      ],
+      "visible_signs": [
+        "Chlorotic mottling and bright yellowing of leaves.",
+        "Premature drying and death of leaf tissue (necrosis).",
+        "Deformed, empty, or moldy cobs."
+      ],
+      "farmer_reported_signs": [
+        "Plants are severely stunted and 'shrinking' compared to healthy ones.",
+        "Leaves are turning bright yellow and drying up from the outer edges.",
+        "The youngest leaves in the center of the funnel are rotting or drying out."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Pale green",
+        "Bright yellow",
+        "Straw-colored/Brown (Necrosis)"
+      ],
+      "spot_or_patch_shape": "Elongated streaks",
+      "pattern": "Chlorotic mosaic and mottling progressing to margin-inward necrosis",
+      "location_on_plant": "Entire plant, starting from youngest leaf whorl and margins of older leaves",
+      "starts_from": "Leaf base (mottle) and leaf margins/tips (necrosis)",
+      "progression": "Rapidly moves from minor chlorosis to full plant necrosis and stunting",
+      "image_clues": [
+        "Stunted yellow plants interspersed with normal green plants.",
+        "Leaves with dried, brown outer margins and yellow inner tissue.",
+        "Whorl center completely dried and brown while the outer plant is yellow."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Nitrogen Deficiency",
+        "difference": "Deficiency is uniform across the entire field and starts on the oldest leaves, whereas MLN occurs in patches/clumps of plants and affects young leaves first.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Maize Dwarf Mosaic Disease",
+        "difference": "Only causes mild mosaic and stunting but does not result in rapid necrosis or 'dead heart' unless co-infected with MCMV.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, dry weather which promotes vector populations."
+      ],
+      "temperature_range": "20°C - 30°C",
+      "humidity_level": "Variable, but low rainfall/drought intensifies thrips and aphid activity.",
+      "season": "Dry seasons, continuous cropping seasons without a break.",
+      "soil_conditions": [
+        "Poor soil fertility leading to stressed plants that are more susceptible."
+      ],
+      "field_conditions": [
+        "High weed density acting as alternative hosts for vector insects and viruses.",
+        "Continuous maize cultivation without crop rotation."
+      ],
+      "irrigation_conditions": [
+        "Overhead irrigation can sometimes disperse insect vectors, while water stress exacerbates plant decline."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Insects (Thrips, Aphids, Leafhoppers, Corn rootworm beetles)",
+        "Contaminated seeds (low transmission rate but initiates infection)",
+        "Contaminated farm machinery, tools, and hands"
+      ],
+      "source_of_infection": [
+        "Infected seed",
+        "Alternative grass hosts",
+        "Infected crop residue"
+      ],
+      "survival_method": "Survives in alternative grass weeds, volunteer maize crops, and infected seeds.",
+      "spread_speed": "Highly rapid, especially under high vector pressure during dry periods.",
+      "nearby_crop_risk": "Extremely high for neighboring maize and sorghum fields."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint mosaic and minor chlorosis on a few scattered plants (<5% field incidence).",
+        "field_indicator": "Isolated plants showing light-green mottling.",
+        "recommended_action": "Rogue out infected plants immediately and control insect vectors."
+      },
+      {
+        "level": "Medium",
+        "description": "Stunting and yellowing visible in several patches of the field (5%-20% incidence).",
+        "field_indicator": "Clumps of yellowed, slightly stunted plants; some leaf margin drying.",
+        "recommended_action": "Spray registered insecticides to control thrips and aphids; pull out infected plants."
+      },
+      {
+        "level": "Severe",
+        "description": "Widespread stunting, 'dead hearts', and dried-up plants (>20% incidence).",
+        "field_indicator": "Entire field sections yellow, brown, and dying; failure to yield cobs.",
+        "recommended_action": "Harvest early for silage if possible; destroy heavily infected crops; do not plant maize in the next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified, disease-free seed.",
+        "Treat seeds with systemic insecticides (e.g., Imidacloprid) before sowing."
+      ],
+      "field_management": [
+        "Enforce a maize-free period (crop-free window) to break the virus and vector cycle.",
+        "Maintain optimal plant spacing and fertilization to promote vigor."
+      ],
+      "irrigation_management": [
+        "Ensure uniform watering to prevent plant stress."
+      ],
+      "soil_management": [
+        "Apply recommended nitrogen and potassium fertilizers to boost plant tolerance."
+      ],
+      "crop_rotation": [
+        "Rotate maize with non-cereal crops like beans, peas, potatoes, or brassicas for at least 2 seasons."
+      ],
+      "sanitation": [
+        "Remove and destroy alternative weed hosts (grasses) from field borders.",
+        "Clean farm machinery before moving to clean fields."
+      ],
+      "monitoring": [
+        "Scout weekly starting 2 weeks after emergence for early mosaic symptoms and vector activity."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Uproot and bury or burn infected plants to reduce inoculum.",
+        "Apply targeted vector control sprays."
+      ],
+      "cultural_control": [
+        "Synchronize planting dates within a farming community to prevent continuous vector breeding."
+      ],
+      "organic_control": [
+        "Spray neem-based formulations to repel thrips and aphids.",
+        "Use insecticidal soaps on young crops."
+      ],
+      "biological_control": [
+        "Conserve natural predators such as ladybugs, lacewings, and predatory mites that feed on vector insects."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid",
+          "product_type": "Systemic Insecticide",
+          "dose": "As specified by local product labels",
+          "application_method": "Foliar spray or seed dressing",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Toxic to bees; avoid spraying during active flowering periods."
+        },
+        {
+          "active_ingredient": "Lambda-cyhalothrin",
+          "product_type": "Contact Pyrethroid Insecticide",
+          "dose": "According to manufacturer guidelines",
+          "application_method": "Foliar spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Wear protective gear; highly toxic to aquatic life."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Maize Lethal Necrosis is caused by a double-virus infection spread by tiny sucking insects like thrips and aphids. It stunts plants, turns leaves yellow and dry, and stops cobs from forming.",
+      "what_to_do_now": [
+        "Remove and burn any young yellowing plants immediately.",
+        "Control weeds inside and around the field.",
+        "Apply an approved insecticide to kill the vector insects."
+      ],
+      "what_not_to_do": [
+        "Do not leave infected plants in the field to rot.",
+        "Do not plant maize continuously season after season.",
+        "Do not save seeds from infected harvests for replanting."
+      ],
+      "when_to_call_expert": [
+        "When stunting and yellowing spread rapidly over more than 5% of the field despite insecticide sprays."
+      ],
+      "risk_warning": "MLN can cause 100% crop loss if left unmanaged. Community coordination in planting and crop rotation is essential."
+    },
+    "model_support": {
+      "classification_labels": [
+        "maize_lethal_necrosis",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "chlorotic_streaks",
+        "necrotic_leaves",
+        "dead_heart"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": [
+        "Symptoms show unusual patterns inconsistent with typical MLN vector activity.",
+        "Infection occurs in fields planted with certified MLN-resistant varieties."
+      ],
+      "image_quality_requirements": [
+        "Close-up of the leaf surface showing mottling.",
+        "Clear view of the plant whorl/funnel.",
+        "Mid-distance shot showing whole-plant stunting relative to neighbors."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "mln_001",
+        "chunk_type": "text",
+        "title": "Introduction to Maize Lethal Necrosis",
+        "content": "Maize Lethal Necrosis (MLN) results from the synergistic interaction of Maize chlorotic mottle virus (MCMV) and a potyvirus like Sugarcane mosaic virus (SCMV). Symptom development is severe, causing rapid drying, stunting, and yield loss.",
+        "keywords": [
+          "MLN",
+          "MCMV",
+          "SCMV",
+          "Necrosis"
+        ],
+        "language": "en",
+        "target_user": "Extension workers, Researchers"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District/County",
+      "risk_radius": "10 km",
+      "report_count_threshold": "5 cases",
+      "outbreak_alert_message": "Maize Lethal Necrosis has been reported in your area. Monitor crops closely for stunting and yellowing, and manage vectors immediately.",
+      "nearby_farm_advice": [
+        "Establish buffer zones free of weed hosts.",
+        "Coordinate insecticide spraying with neighboring farms."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "CIMMYT Maize Lethal Necrosis Disease Field Guide",
+      "source_url": "https://www.cimmyt.org",
+      "source_type": "Research Publication",
+      "author_or_organization": "CIMMYT",
+      "published_year": "2018",
+      "region": "Global (particularly East Africa)",
+      "language": "en",
+      "last_verified": "2023-11-01",
+      "trust_level": "High",
+      "notes": "Primary guide for diagnosing and managing MLN."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Agronomy Specialist Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_rust",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Rust",
+      "category": "Fungal Disease",
+      "pathogen_or_cause": [
+        "Puccinia sorghi (Common Rust)",
+        "Puccinia polysora (Southern Rust)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Sheaths",
+        "Tassels",
+        "Husk leaves"
+      ],
+      "disease_stage": "Mid-to-late vegetative and reproductive stages."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, pale-yellow chlorotic flecks or spots on leaves."
+      ],
+      "middle_stage": [
+        "Flecks turn into raised, powdery, brick-red to cinnamon-brown pustules (Common Rust) or small, densely packed orange-brown circular pustules (Southern Rust).",
+        "Common rust pustules appear on both sides of the leaf, while Southern rust is mainly on the upper surface."
+      ],
+      "severe_stage": [
+        "Pustules darken to brownish-black as teliospores form.",
+        "Leaves yellow, dry, and die prematurely.",
+        "Severe defoliation, leading to stalk lodging and reduced grain fill."
+      ],
+      "visible_signs": [
+        "Powdery rust-colored pustules that release spores when touched.",
+        "Yellowing and premature drying of leaves."
+      ],
+      "farmer_reported_signs": [
+        "Leaves look like they are covered in rusty, reddish-brown dust.",
+        "Leaves are drying up from the bottom up, and the stalks feel weak."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellow",
+        "Brick-red",
+        "Cinnamon-brown",
+        "Orange",
+        "Black"
+      ],
+      "spot_or_patch_shape": "Pustules (raised bumps) that are oval to elongated (Common) or circular (Southern)",
+      "pattern": "Scattered or densely crowded powdery spots",
+      "location_on_plant": "Leaves primarily; extends to leaf sheaths and tassels in severe cases",
+      "starts_from": "Older, lower leaves and progresses upward",
+      "progression": "Pustules rupture to release wind-borne spores, quickly covering remaining foliage",
+      "image_clues": [
+        "Close-up of reddish-brown powdery blisters on a green leaf.",
+        "Leaves covered in small, raised orange dots.",
+        "Discoloration on fingertips after rubbing the leaf surface."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Southern Corn Leaf Blight",
+        "difference": "Southern Corn Leaf Blight has flat, elongated lesions without any raised, powdery pustules.",
+        "confusion_risk": "Medium"
+      },
+      {
+        "name": "Physoderma Brown Spot",
+        "difference": "Physoderma causes tiny dark brown/purple spots on the leaf blade, midrib, and sheath, but they do not rupture to release powdery spores.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool-to-moderate, wet weather (Common Rust).",
+        "Warm, humid, wet weather (Southern Rust)."
+      ],
+      "temperature_range": "15°C - 25°C for Common Rust; 25°C - 31°C for Southern Rust",
+      "humidity_level": "High relative humidity (near 100%)",
+      "season": "Rainy season, wet summer periods.",
+      "soil_conditions": [
+        "Highly fertile soils with excess nitrogen can promote lush growth susceptible to rust."
+      ],
+      "field_conditions": [
+        "Continuous leaf wetness for 4-6 hours from dew or light rain."
+      ],
+      "irrigation_conditions": [
+        "Overhead irrigation that prolongs leaf wetness."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (Urediniospores)"
+      ],
+      "source_of_infection": [
+        "Alternative hosts (e.g., Oxalis species for Common Rust)",
+        "Overwintering spores on crop residues",
+        "Spores blown from southern/warmer regions"
+      ],
+      "survival_method": "Survives as dormant teliospores on crop residue or living hosts in warmer climates.",
+      "spread_speed": "Rapid; wind can spread spores across entire districts quickly.",
+      "nearby_crop_risk": "High for all surrounding maize fields."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated pustules on lower leaves; less than 5% leaf area affected.",
+        "field_indicator": "Isolated yellow flecks or small reddish bumps on bottom leaves.",
+        "recommended_action": "Monitor weather conditions; usually doesn't require action unless highly susceptible variety."
+      },
+      {
+        "level": "Medium",
+        "description": "Pustules spreading to middle leaves; 5%-15% leaf area affected before silking.",
+        "field_indicator": "Numerous orange/red pustules on the upper leaves of multiple plants.",
+        "recommended_action": "Apply protective foliar fungicides, especially if weather is cool/humid."
+      },
+      {
+        "level": "Severe",
+        "description": "Heavy pustule coverage on most leaves, including sheaths and husks; >15% leaf area affected.",
+        "field_indicator": "Leaves turning black/brown and drying prematurely; stalks weak.",
+        "recommended_action": "Apply curative systemic fungicides immediately to save yield; plan for resistant varieties next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant rust-resistant or tolerant maize hybrids."
+      ],
+      "field_management": [
+        "Plant early in the season to avoid high late-season spore concentrations."
+      ],
+      "irrigation_management": [
+        "Irrigate in the early morning so leaves dry quickly during the day."
+      ],
+      "soil_management": [
+        "Maintain balanced soil nutrition (avoid excessive nitrogen; ensure adequate potassium)."
+      ],
+      "crop_rotation": [
+        "Rotate crops to reduce local spore populations on surface residue."
+      ],
+      "sanitation": [
+        "Incorporate or destroy crop debris after harvest to bury overwintering spores."
+      ],
+      "monitoring": [
+        "Inspect leaves weekly, particularly lower leaves, starting in the mid-vegetative stage."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Apply systemic fungicides if threshold is reached and weather is highly favorable."
+      ],
+      "cultural_control": [
+        "Avoid high-density planting to improve airflow and reduce humidity in the crop canopy."
+      ],
+      "organic_control": [
+        "Apply copper-based fungicides or sulfur sprays early in the disease cycle."
+      ],
+      "biological_control": [
+        "Limited commercial biological control options, but some Bacillus subtilis strains may offer suppression."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Azoxystrobin + Propiconazole",
+          "product_type": "Fungal Control - Premix (Systemic)",
+          "dose": "As per manufacturer directions",
+          "application_method": "Foliar spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Ensure thorough coverage of the crop canopy; alternate chemical classes to prevent resistance."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Fungal Control - Contact",
+          "dose": "2.0 - 2.5 g / Liter of water",
+          "application_method": "Foliar spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "40 days",
+          "safety_note": "Apply protectively before high disease pressure develops."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Maize Rust is a fungal disease that creates small, raised, orange or reddish-brown powdery bumps on leaves, reducing plant strength and grain yield.",
+      "what_to_do_now": [
+        "Scout the field weekly starting mid-season.",
+        "If red powder-like spots appear on many leaves and weather is wet, spray a registered fungicide.",
+        "Maintain a balanced fertilizer schedule."
+      ],
+      "what_not_to_do": [
+        "Do not over-apply nitrogen, which makes the plant more vulnerable.",
+        "Do not use overhead irrigation late in the afternoon or evening."
+      ],
+      "when_to_call_expert": [
+        "When rust spots appear very early (before tasseling) on a large percentage of plants."
+      ],
+      "risk_warning": "Southern Rust is highly aggressive and can destroy foliage rapidly if warm, humid weather persists."
+    },
+    "model_support": {
+      "classification_labels": [
+        "common_rust",
+        "southern_rust",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "rust_pustule",
+        "chlorotic_fleck"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "Difficult to distinguish between Common Rust and Southern Rust in warm transitional zones."
+      ],
+      "image_quality_requirements": [
+        "Macro/close-up photo showing distinct raised pustules.",
+        "Both upper and lower surfaces of the leaf should be visible."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "rust_001",
+        "chunk_type": "text",
+        "title": "Identifying Maize Rusts",
+        "content": "Common rust (Puccinia sorghi) is favored by cool, moist conditions, producing brick-red pustules on both leaf surfaces. Southern rust (Puccinia polysora) prefers hot, humid conditions, creating smaller, densely packed orange pustules mainly on upper leaf surfaces.",
+        "keywords": [
+          "Puccinia sorghi",
+          "Puccinia polysora",
+          "Common rust",
+          "Southern rust"
+        ],
+        "language": "en",
+        "target_user": "Farmers, Agronomists"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional",
+      "risk_radius": "50 km",
+      "report_count_threshold": "10 cases",
+      "outbreak_alert_message": "Maize rust spores have been detected migrating through the region. Check susceptible hybrids immediately.",
+      "nearby_farm_advice": [
+        "Consider preventative fungicide applications on sweet corn and seed production fields."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Purdue Extension: Common and Southern Corn Rusts",
+      "source_url": "https://extension.purdue.edu",
+      "source_type": "Extension Bulletin",
+      "author_or_organization": "Purdue University",
+      "published_year": "2020",
+      "region": "Midwest USA / Global",
+      "language": "en",
+      "last_verified": "2023-10-15",
+      "trust_level": "High",
+      "notes": "Excellent guide on differentiating the two major corn rust pathogens."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Pathology Expert Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_fall_armyworm",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Fall Armyworm",
+      "category": "Insect Pest",
+      "pathogen_or_cause": [
+        "Spodoptera frugiperda"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Whorl",
+        "Stem",
+        "Ear/Cob",
+        "Tassel"
+      ],
+      "disease_stage": "All vegetative stages (especially whorl stage) and reproductive stages."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Semi-transparent 'windowpanes' on leaves from young larvae scraping leaf tissue.",
+        "Small pinholes in emerging leaves."
+      ],
+      "middle_stage": [
+        "Large, ragged, elongated holes on leaves emerging from the whorl.",
+        "Yellow-green to dark brown larvae with an inverted 'Y' on their head visible in the whorl.",
+        "Presence of moist, sawdust-like droppings (frass) inside the leaf whorl."
+      ],
+      "severe_stage": [
+        "Complete defoliation, leaving only the tough midribs (skeletonized leaves).",
+        "'Dead heart' where the central growing tip of the plant is destroyed.",
+        "Larvae boring directly into the sides of cobs and feeding on developing kernels."
+      ],
+      "visible_signs": [
+        "Caterpillars with four dark spots in a square pattern on the second-to-last body segment.",
+        "Piles of brown, wet, sawdust-like frass on leaves and in whorls."
+      ],
+      "farmer_reported_signs": [
+        "Caterpillars eating the heart of the maize plant.",
+        "Large ragged holes in the leaves; plants look chewed and ragged.",
+        "Ears of corn have worms inside eating the kernels."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light green",
+        "Brown",
+        "Dark green/black (larvae)"
+      ],
+      "spot_or_patch_shape": "Irregular ragged holes and windowpane damage",
+      "pattern": "Chewed foliage starting from inside the whorl, moving outward",
+      "location_on_plant": "Whorl/funnel, leaf blades, and developing cobs",
+      "starts_from": "Leaf whorl where larvae seek shelter from the sun",
+      "progression": "Larvae grow rapidly and move from outer leaf grazing to eating deep whorl tissue and eventually boring into cobs",
+      "image_clues": [
+        "Sawdust-like frass piling up in the leaf joint/whorl.",
+        "Caterpillar with a clear, light-colored inverted 'Y' shape on its dark face.",
+        "Large holes in leaves that look like they were torn or heavily eaten."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Maize Stem Borer (Busseola fusca / Chilo partellus)",
+        "difference": "Stem borers usually make small neat rows of pinholes across the leaf and bore directly into the stalk early on, creating less visible external frass in the whorl compared to FAW.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Corn Earworm (Helicoverpa zea)",
+        "difference": "Mainly attacks ears/silks later in the season and lacks the distinct inverted 'Y' on the head capsule and the four-spot square on the tail.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid climates with moderate-to-heavy rainfall.",
+        "Warm dry periods can also accelerate larval development and moth migration."
+      ],
+      "temperature_range": "25°C - 30°C (Optimal for rapid lifecycle)",
+      "humidity_level": "Medium to High",
+      "season": "Year-round in tropical areas; late spring to autumn in temperate zones.",
+      "soil_conditions": [
+        "Moist soils that support rapid crop growth also support the pest."
+      ],
+      "field_conditions": [
+        "Late-planted crops, volunteer crops, or fields with dense grass weed populations."
+      ],
+      "irrigation_conditions": [
+        "Highly irrigated fields provide ideal lush host plants."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Adult moth flight (highly migratory, can fly up to 100 km in a single night)",
+        "Transport of infested sweet corn or fodder"
+      ],
+      "source_of_infection": [
+        "Neighboring fields",
+        "Alternative grass hosts (e.g., Napier grass, Guinea grass)"
+      ],
+      "survival_method": "Does not diapause; survives year-round as active populations in warm tropical regions.",
+      "spread_speed": "Extremely fast migration and breeding cycle.",
+      "nearby_crop_risk": "Very High for sorghum, millet, sugarcane, and other cereal crops."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "<5% of plants show early feeding (windowpaning) with small larvae.",
+        "field_indicator": "Fine scraping on leaves; few tiny caterpillars visible.",
+        "recommended_action": "Handpick caterpillars if on a small scale; monitor closely twice a week."
+      },
+      {
+        "level": "Medium",
+        "description": "5% - 20% of plants show active whorl damage with fresh frass.",
+        "field_indicator": "Visible ragged holes in leaf whorls; medium-sized caterpillars present.",
+        "recommended_action": "Apply targeted chemical sprays or biological biopesticides directly into the whorl."
+      },
+      {
+        "level": "Severe",
+        "description": ">20% of plants damaged, or damage starting to destroy the growing point (dead heart).",
+        "field_indicator": "Extensive skeletonized leaves, 'dead hearts' appearing, larvae migrating from plant to plant.",
+        "recommended_action": "Apply immediate systemic or contact chemical spray; repeat as permitted; use crop rotation next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified seed treated with systemic insecticides (e.g., Fortenza Duo).",
+        "Where approved, plant genetically modified Bt maize."
+      ],
+      "field_management": [
+        "Plant early and synchronously to avoid peak pest generations.",
+        "Practice 'Push-Pull' technology (intercropping with Desmodium and planting Napier grass borders)."
+      ],
+      "irrigation_management": [
+        "Avoid water stress to keep plants strong enough to withstand feeding."
+      ],
+      "soil_management": [
+        "Provide balanced fertilizer to ensure vigor, helping plants recover from early damage."
+      ],
+      "crop_rotation": [
+        "Rotate with non-host crops like legumes or cassava."
+      ],
+      "sanitation": [
+        "Clear weed hosts from field margins and plow soil after harvest to expose pupae to predators."
+      ],
+      "monitoring": [
+        "Check 50-100 plants in a 'W' pattern across the field weekly from germination."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Apply recommended insecticide directly into the whorl of infested plants.",
+        "Collect and destroy egg masses and larvae manually on small plots."
+      ],
+      "cultural_control": [
+        "Apply a pinch of dry sand, soil, or wood ash into the whorl to suffocate/irritate larvae."
+      ],
+      "organic_control": [
+        "Spray formulations based on Neem oil (Azadirachtin).",
+        "Apply Bacillus thuringiensis (Bt) biopesticides."
+      ],
+      "biological_control": [
+        "Release or protect parasitoid wasps (e.g., Trichogramma), ladybird beetles, and predatory earwigs."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Emamectin benzoate",
+          "product_type": "Insecticide",
+          "dose": "According to local registration (e.g., 0.2 - 0.4 g/L)",
+          "application_method": "Targeted spray directed into the leaf whorl",
+          "spray_interval": "7-10 days if threshold is still exceeded",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Do not spray when beneficial pollinators are highly active; wear full protective clothing."
+        },
+        {
+          "active_ingredient": "Chlorantraniliprole",
+          "product_type": "Insecticide (Diamide)",
+          "dose": "According to label instructions",
+          "application_method": "Foliar spray focused on the whorl",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Low toxicity to beneficial insects; excellent residual control."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Fall Armyworm is an aggressive caterpillar that feeds inside the maize leaf whorl (funnel). It eats large ragged holes and can destroy the growing tip of the plant.",
+      "what_to_do_now": [
+        "Check your field weekly for ragged leaves and sawdust-like droppings.",
+        "Spray insecticides directly into the whorls where the caterpillars hide, early in the morning or at dusk.",
+        "Kill caterpillars and egg masses by hand on small farms."
+      ],
+      "what_not_to_do": [
+        "Do not spray over the top of the leaves generally without directing the nozzle into the whorl.",
+        "Do not use the same chemical active ingredient repeatedly, as the pest quickly becomes resistant."
+      ],
+      "when_to_call_expert": [
+        "When more than 10-20% of the crop is damaged and standard insecticide sprays are failing."
+      ],
+      "risk_warning": "If left unchecked during early vegetative stages, Fall Armyworm can completely destroy young fields within days."
+    },
+    "model_support": {
+      "classification_labels": [
+        "fall_armyworm_damage",
+        "fall_armyworm_larva",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "ragged_hole",
+        "frass",
+        "larva"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.78",
+        "high": "0.93"
+      },
+      "send_to_expert_if": [
+        "Larval morphology does not match FAW (missing the inverted 'Y' head marking) but damage is highly severe."
+      ],
+      "image_quality_requirements": [
+        "Clear, high-resolution close-up of the caterpillar's head showing the inverted 'Y'.",
+        "Close-up of the tail showing the square of four dark dots.",
+        "Clear photo of the whorl with frass."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "faw_001",
+        "chunk_type": "text",
+        "title": "Fall Armyworm Identification and Damage",
+        "content": "The Fall Armyworm (Spodoptera frugiperda) larva has a dark head capsule with a distinct white/yellow inverted 'Y' pattern. They feed inside maize whorls, leaving large amounts of sawdust-like frass and ragged holes.",
+        "keywords": [
+          "Spodoptera frugiperda",
+          "Fall Armyworm",
+          "inverted Y",
+          "frass"
+        ],
+        "language": "en",
+        "target_user": "Farmers, Extension Officers"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-county / Village",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3 reports",
+      "outbreak_alert_message": "Fall Armyworm active moths have been captured in pheromone traps nearby. Inspect whorls immediately.",
+      "nearby_farm_advice": [
+        "Begin intensive field scouting.",
+        "Prepare bio-pesticides or chemical treatments."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "FAO Fall Armyworm Field Guide",
+      "source_url": "https://www.fao.org",
+      "source_type": "Technical Guide",
+      "author_or_organization": "FAO",
+      "published_year": "2019",
+      "region": "Global (especially Africa and Asia)",
+      "language": "en",
+      "last_verified": "2023-11-01",
+      "trust_level": "High",
+      "notes": "Global standard guide for FAW identification and IPM."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "IPM Specialist Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_grasshopper",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Grasshopper Infestation",
+      "category": "Insect Pest",
+      "pathogen_or_cause": [
+        "Melanoplus differentialis (Differential Grasshopper)",
+        "Melanoplus bivittatus (Twostriped Grasshopper)",
+        "Zonocerus variegatus (Variegated Grasshopper)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Silks",
+        "Ears",
+        "Stalks"
+      ],
+      "disease_stage": "Can attack at any stage, but most devastating to seedlings and during reproductive stages (silking/tasseling)."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Chewed leaf margins starting at the edges of the field.",
+        "Small, irregular notches along the outer borders of maize leaves."
+      ],
+      "middle_stage": [
+        "Large, ragged holes on leaves, with feeding progressing from the edges inward toward the midrib.",
+        "Noticeable presence of grasshopper nymphs jumping or crawling on plants."
+      ],
+      "severe_stage": [
+        "Complete defoliation, leaving only the central midribs (skeletonization).",
+        "Grasshoppers chewing off silks, disrupting pollination and leading to poorly filled ears.",
+        "Biting through developing ears and soft kernels; seedlings chewed down to ground level."
+      ],
+      "visible_signs": [
+        "Heavy presence of chewing insects with long hind legs.",
+        "Ragged leaf edges without any web or frass deposits in the whorl.",
+        "Large sections of leaf blades completely missing."
+      ],
+      "farmer_reported_signs": [
+        "Swarms of grasshoppers are eating the leaves.",
+        "Maize leaves are being eaten from the edges inward.",
+        "Silks are being cut off, and ears are damaged."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Brown",
+        "Yellow-green",
+        "Variegated/Bright colors (depending on species)"
+      ],
+      "spot_or_patch_shape": "Missing leaf sections and ragged margins",
+      "pattern": "Damage starts heavily on field borders and moves inward",
+      "location_on_plant": "Leaf margins, silks, and ears",
+      "starts_from": "Field margins, roadsides, or adjacent grassy pastures",
+      "progression": "Migrating grasshoppers systematically strip leaves of outer rows before invading the center of the field",
+      "image_clues": [
+        "Grasshoppers sitting on chewed leaf margins.",
+        "Leaf blades completely stripped, leaving only the central white midrib.",
+        "Silks cleanly cut off from the tip of the cob."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Hail Damage",
+        "difference": "Hail shreds leaves and can look like insect feeding, but hail damage occurs instantly, leaves tattered fibers, and will be uniform across the field without any insects present.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry summers following a dry spring (promotes nymph survival and adult activity)."
+      ],
+      "temperature_range": "25°C - 35°C",
+      "humidity_level": "Low (dry climates favor grasshopper outbreaks)",
+      "season": "Late spring, summer, and early autumn.",
+      "soil_conditions": [
+        "Undisturbed, dry, firm soils in field borders or pastures where eggs are laid."
+      ],
+      "field_conditions": [
+        "Fields bordered by dense weeds, ditches, or native grasslands.",
+        "Weedy, unplowed fields."
+      ],
+      "irrigation_conditions": [
+        "Dryland farming is highly susceptible; irrigated fields are attractive during droughts."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Crawl/hop (nymphs)",
+        "Flight (adults can fly long distances to find green vegetation)"
+      ],
+      "source_of_infection": [
+        "Adjacent uncultivated lands",
+        "Pastures, roadsides, and ditch banks"
+      ],
+      "survival_method": "Overwinters as egg pods buried 1-2 inches deep in the soil of undisturbed grassy areas.",
+      "spread_speed": "Highly rapid once adults develop wings.",
+      "nearby_crop_risk": "Very High for all surrounding vegetable, cereal, and forage crops."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 5 grasshoppers per square yard on field margins; minor feeding damage.",
+        "field_indicator": "Slight chewing on a few border plants.",
+        "recommended_action": "No treatment required; monitor populations in adjacent grassy areas."
+      },
+      {
+        "level": "Medium",
+        "description": "5-10 grasshoppers per square yard on margins, or 3-5 inside the field; noticeable feeding.",
+        "field_indicator": "Ragged leaves on border rows; silks starting to be nibbled.",
+        "recommended_action": "Spray insecticide only along the field borders and adjacent grasslands to block migration."
+      },
+      {
+        "level": "Severe",
+        "description": ">20 grasshoppers per square yard on margins, or >8 inside the field; silks being destroyed.",
+        "field_indicator": "Severe defoliation, clipped silks, and visible swarms of grasshoppers in the crop.",
+        "recommended_action": "Apply a full cover spray of foliar insecticide or spread poisoned baits immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "No resistant seeds available; prioritize planting early-maturing varieties."
+      ],
+      "field_management": [
+        "Keep field borders clean of weeds to deny early food sources to hatchlings.",
+        "Plant a 'trap crop' border (e.g., dense green grass) around the field."
+      ],
+      "irrigation_management": [
+        "Keep crops well-watered to withstand minor defoliation."
+      ],
+      "soil_management": [
+        "Till or disc field margins in early spring to expose and destroy buried egg pods."
+      ],
+      "crop_rotation": [
+        "Rotate with crops that are less attractive early in the season."
+      ],
+      "sanitation": [
+        "Mow and control weeds in adjacent ditches or non-crop areas before grasshoppers mature."
+      ],
+      "monitoring": [
+        "Count grasshopper numbers per square yard on field borders weekly starting in late spring."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Spray insecticide on the grassy borders where grasshoppers are breeding before they migrate.",
+        "Spread carbaryl-treated wheat bran bait on borders."
+      ],
+      "cultural_control": [
+        "Create physical barrier zones (clean-cultivated strips) between pastures and maize crops."
+      ],
+      "organic_control": [
+        "Use formulations of Neem oil (Azadirachtin) as a feeding deterrent.",
+        "Apply organic garlic and chili barrier sprays."
+      ],
+      "biological_control": [
+        "Apply biopesticides containing the fungus Metarhizium anisopliae.",
+        "Promote populations of natural enemies like birds, poultry, and blister beetle larvae (which eat eggs)."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbaryl",
+          "product_type": "Insecticide (Bait or Spray)",
+          "dose": "According to product specification (often as 5% bait)",
+          "application_method": "Spread bait on field borders or apply as foliar spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Carbaryl bait is highly selective and safer for beneficial insects than broad foliar sprays."
+        },
+        {
+          "active_ingredient": "Lambda-cyhalothrin",
+          "product_type": "Synthetic Pyrethroid",
+          "dose": "As per label directions",
+          "application_method": "Foliar cover spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Provides fast knockdown; apply during cooler hours when grasshoppers are less active."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Grasshoppers are voracious chewing pests that hatch in grassy field borders and move into maize fields, stripping leaves and cutting silks, which ruins pollination.",
+      "what_to_do_now": [
+        "Check field edges for small jumping nymphs in early summer.",
+        "Till ditches and borders in early spring to kill eggs.",
+        "If you see many grasshoppers on the borders, spray the border vegetation to stop them from entering the maize."
+      ],
+      "what_not_to_do": [
+        "Do not wait until the grasshoppers have wings and are flying before you treat them, as they are much harder to control then.",
+        "Do not mow grassy margins when grasshoppers are adult, as this will force them directly into your maize field."
+      ],
+      "when_to_call_expert": [
+        "If a large, flying migratory swarm enters your region."
+      ],
+      "risk_warning": "Heavy grasshopper populations can destroy a young maize crop or ruin ears during pollination within a few days."
+    },
+    "model_support": {
+      "classification_labels": [
+        "grasshopper_damage",
+        "grasshopper_present",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "ragged_margin",
+        "skeletonized_leaf",
+        "insect_body"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": [
+        "Unusually high populations of migratory locusts are suspected."
+      ],
+      "image_quality_requirements": [
+        "Clear picture of leaf margins showing chew marks.",
+        "Sharp close-up of the grasshopper species on the plant for identification."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "gh_001",
+        "chunk_type": "text",
+        "title": "Grasshopper Management in Field Corn",
+        "content": "Grasshopper damage is typically concentrated along field margins. Managing weeds on borders, early spring tillage of egg-laying beds, and early border insecticide applications are the most cost-effective strategies.",
+        "keywords": [
+          "Melanoplus",
+          "Grasshopper",
+          "Field borders",
+          "Tillage"
+        ],
+        "language": "en",
+        "target_user": "Farmers, Extension Officers"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional",
+      "risk_radius": "20 km",
+      "report_count_threshold": "10 reports",
+      "outbreak_alert_message": "Grasshopper populations are exceeding economic thresholds in your district. Check field margins immediately.",
+      "nearby_farm_advice": [
+        "Apply border treatments.",
+        "Avoid late mowing of pasture borders without treating first."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "University of Nebraska-Lincoln: Grasshopper Identification and Management",
+      "source_url": "https://extension.unl.edu",
+      "source_type": "Extension Guide",
+      "author_or_organization": "UNL Extension",
+      "published_year": "2021",
+      "region": "Great Plains / Global",
+      "language": "en",
+      "last_verified": "2023-09-12",
+      "trust_level": "High",
+      "notes": "Excellent instructions on field-margin management."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Pest Management Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_leaf_beetle",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Leaf Beetle Damage",
+      "category": "Insect Pest",
+      "pathogen_or_cause": [
+        "Myochrous denticollis (Southern Corn Leaf Beetle)",
+        "Oulema melanopus (Cereal Leaf Beetle)",
+        "Chaetocnema pulicaria (Corn Flea Beetle)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Whorl",
+        "Seedling Stems"
+      ],
+      "disease_stage": "Highly destructive to newly emerged seedlings and young vegetative plants."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Tiny round holes (shot-hole patterns) or bleached scratch-like scars on leaves.",
+        "Fine, narrow white streaks (windowpanes) on the leaf surface."
+      ],
+      "middle_stage": [
+        "Elongated white scratch marks running parallel to the veins.",
+        "Deep notches and ragged chewing on the leaf margins."
+      ],
+      "severe_stage": [
+        "Entire leaves shredded or skeletonized.",
+        "Whorls bored into at the base, causing young plants to wilt, bend over, or form a 'dead heart'.",
+        "Transmission of Stewart's Wilt disease (by flea beetles), leading to long yellow/brown necrotic streaks and plant wilting."
+      ],
+      "visible_signs": [
+        "Adult beetles feeding on leaves (flea beetles jump like fleas when disturbed).",
+        "Larval feeding scars resulting in semi-transparent leaf layers."
+      ],
+      "farmer_reported_signs": [
+        "Tiny black jumping bugs chewing little holes in young corn leaves.",
+        "Leaves look heavily notched and chewed at the edges, with some plants falling over.",
+        "Seedlings are dying or turning yellow/pale green in patches."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Bleached white",
+        "Yellow-green",
+        "Brown (Necrosis)"
+      ],
+      "spot_or_patch_shape": "Shot-holes, white streaks, or ragged margins",
+      "pattern": "Scrape marks running along leaf veins, or small clustered punctures",
+      "location_on_plant": "Foliage, especially lower leaves and leaf whorls",
+      "starts_from": "Older lower leaves on seedlings; moves upward",
+      "progression": "From superficial leaf scraping to chewing through the stem/whorl core",
+      "image_clues": [
+        "A tiny, shiny black flea beetle sitting inside a bleached leaf scratch.",
+        "A drab, soil-covered beetle chewing the stalk base of a tilted seedling."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cutworm Damage",
+        "difference": "Cutworms cut the stem completely flat near the soil line, while leaf beetles chew ragged notches or bore holes into the side of the stem, leaving the plant attached but tilted.",
+        "confusion_risk": "Medium"
+      },
+      {
+        "name": "Thrips Damage",
+        "difference": "Thrips cause silvery speckling and dry leaf tips but do not create large ragged leaf margins or deep holes.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet spring weather (slows seedling growth and favors beetle activity).",
+        "Mild winters that allow high adult survival."
+      ],
+      "temperature_range": "15°C - 25°C",
+      "humidity_level": "Variable; cool damp conditions keep beetles feeding longer at ground level.",
+      "season": "Spring and early summer.",
+      "soil_conditions": [
+        "High surface clay or silt soils where beetles can easily hide in soil cracks."
+      ],
+      "field_conditions": [
+        "Fields adjacent to grassy pastures, small grain fields (wheat/oats), or weedy field borders."
+      ],
+      "irrigation_conditions": [
+        "Dryland fields are more vulnerable to severe damage as drought-stressed seedlings grow slower."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Adult crawling and flight",
+        "Migration from dried small grains or grassy borders"
+      ],
+      "source_of_infection": [
+        "Adjacent small grain fields (wheat, oats, rye)",
+        "Grassy field margins and weeds"
+      ],
+      "survival_method": "Overwinters as adults in grassy borders, leaf litter, and crop residues.",
+      "spread_speed": "Moderate to fast migration during late spring harvest of small grains.",
+      "nearby_crop_risk": "High for late-planted maize adjacent to small grain fields."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Scattered small holes or scratches on lower leaves of seedlings; <5% stand affected.",
+        "field_indicator": "Isolated plants showing minor leaf scraping; beetles rarely spotted.",
+        "recommended_action": "Monitor; healthy seedlings will easily outgrow cosmetic damage."
+      },
+      {
+        "level": "Medium",
+        "description": "5%-15% of seedlings show leaf-margin chewing or wilting; beetles active.",
+        "field_indicator": "Notched leaves and tilted seedlings on field margins.",
+        "recommended_action": "Apply spot foliar spray to field borders to prevent inward migration."
+      },
+      {
+        "level": "Severe",
+        "description": ">15% seedling mortality, or heavy flea beetle feeding on varieties highly susceptible to Stewart's Wilt.",
+        "field_indicator": "Skeletonized leaves, dying seedling stands, multiple beetles per plant.",
+        "recommended_action": "Apply a full cover rescue foliar insecticide spray immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant certified seeds pre-treated with systemic neonicotinoid insecticides (e.g., Thiamethoxam, Clothianidin, Imidacloprid)."
+      ],
+      "field_management": [
+        "Plant early in warm soil to encourage rapid seedling growth, allowing plants to quickly outgrow the vulnerable stage."
+      ],
+      "irrigation_management": [
+        "Avoid water stress to keep seedlings growing vigorously."
+      ],
+      "soil_management": [
+        "Ensure proper soil fertility to promote robust early growth."
+      ],
+      "crop_rotation": [
+        "Avoid planting maize immediately after or adjacent to winter small grains."
+      ],
+      "sanitation": [
+        "Eradicate grassy weeds inside and around the field to reduce overwintering sites."
+      ],
+      "monitoring": [
+        "Inspect seedling fields twice weekly from emergence until plants reach 4-6 leaves."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Apply rescue foliar insecticide if thresholds are exceeded."
+      ],
+      "cultural_control": [
+        "Incorporate or destroy winter grassy cover crops at least 2-3 weeks before planting maize."
+      ],
+      "organic_control": [
+        "Apply neem-based formulations or pyrethrin-based organic sprays for minor beetle infestations."
+      ],
+      "biological_control": [
+        "Conserve native generalist predators like ground beetles, ladybirds, and spiders."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Lambda-cyhalothrin",
+          "product_type": "Foliar Insecticide (Pyrethroid)",
+          "dose": "As specified on local labels",
+          "application_method": "Foliar spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Highly toxic to beneficial pollinators; spray late in the day when bees are not active."
+        },
+        {
+          "active_ingredient": "Carbaryl",
+          "product_type": "Foliar Insecticide (Carbamate)",
+          "dose": "According to manufacturer guidelines",
+          "application_method": "Foliar spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Provides excellent knockdown of adult beetles."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Maize leaf beetles are small chewing bugs (including jumping flea beetles) that scrape away leaf tissue, leaving white streaks or ragged notches. They are highly dangerous to young seedlings.",
+      "what_to_do_now": [
+        "Inspect young seedlings for white scratches or ragged leaf edges.",
+        "Ensure seeds are pre-treated with protective insecticide dressings.",
+        "Apply a targeted border spray if you see beetles moving in from adjacent grasses."
+      ],
+      "what_not_to_do": [
+        "Do not ignore damage on tiny seedlings; they can be eaten to the ground in a few days.",
+        "Do not mow adjacent grassy areas during seedling emergence, as this drives beetles onto the maize."
+      ],
+      "when_to_call_expert": [
+        "When seedling plants are dying in large numbers or turning yellow with long streaks (possible Stewart's Wilt)."
+      ],
+      "risk_warning": "Early-season flea beetle feeding can spread deadly bacterial wilt diseases, leading to systemic plant death later in the season."
+    },
+    "model_support": {
+      "classification_labels": [
+        "beetle_damage",
+        "flea_beetle_present",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "shot_hole",
+        "windowpane_streak",
+        "chewed_margin"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.78",
+        "high": "0.91"
+      },
+      "send_to_expert_if": [
+        "Seedlings are dying rapidly despite using insecticide-treated seed."
+      ],
+      "image_quality_requirements": [
+        "High-resolution close-up of leaf damage patterns (shot-holes or scratches).",
+        "Clear macro shot of the beetle body for species identification."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "beetle_001",
+        "chunk_type": "text",
+        "title": "Maize Leaf Beetle Damage Patterns",
+        "content": "Leaf beetles (like cereal leaf beetles and corn flea beetles) scrape maize leaf tissue, causing long white parallel scratches or shot-holes. Flea beetles can vector Pantoea stewartii, the causal agent of Stewart’s Wilt.",
+        "keywords": [
+          "Flea beetle",
+          "Oulema melanopus",
+          "Stewart's Wilt",
+          "shot-holes"
+        ],
+        "language": "en",
+        "target_user": "Farmers, Agronomists"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 cases",
+      "outbreak_alert_message": "Cereal leaf beetles are migrating from matured wheat fields to young maize. Spray borders immediately.",
+      "nearby_farm_advice": [
+        "Check borders of maize fields adjacent to winter cereals."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Iowa State University Extension: Corn Flea Beetle and Southern Corn Leaf Beetle Guide",
+      "source_url": "https://extension.iastate.edu",
+      "source_type": "Extension Bulletin",
+      "author_or_organization": "Iowa State University",
+      "published_year": "2021",
+      "region": "Midwest US / Global",
+      "language": "en",
+      "last_verified": "2023-08-10",
+      "trust_level": "High",
+      "notes": "Excellent guide on seedling-chewing beetle identification."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Entomology Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_leaf_blight",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Leaf Blight",
+      "category": "Fungal Disease",
+      "pathogen_or_cause": [
+        "Exserohilum turcicum (Northern Corn Leaf Blight)",
+        "Bipolaris maydis (Southern Corn Leaf Blight)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Leaf sheaths",
+        "Husks",
+        "Ears"
+      ],
+      "disease_stage": "Mid-to-late vegetative and reproductive stages."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, water-soaked, light-green or grayish elliptical spots on lower leaves."
+      ],
+      "middle_stage": [
+        "Large, cigar-shaped tan lesions (1-7 inches long) running parallel to leaf margins (Northern Blight).",
+        "Small, tan, rectangular lesions with reddish-brown margins confined within leaf veins (Southern Blight)."
+      ],
+      "severe_stage": [
+        "Coalescence of lesions, causing complete blighting, drying, and death of entire leaves.",
+        "A velvety olive-green or dirty soot-like mass of fungal spores in the centers of wet lesions.",
+        "Premature plant death and increased susceptibility to stalk rot."
+      ],
+      "visible_signs": [
+        "Cigar-shaped tan wounds on leaves.",
+        "Sooty dark-green/olive-green spore layers on wet lesions."
+      ],
+      "farmer_reported_signs": [
+        "Leaves look like they have long, gray-tan cigar-shaped dead spots.",
+        "Large sections of the leaves are drying up and look burnt, starting from the bottom of the plant.",
+        "Lower leaves are rotting with a dirty green mold on them."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light green",
+        "Tan",
+        "Silvery-gray",
+        "Olive-green/Sooty"
+      ],
+      "spot_or_patch_shape": "Oblong, cigar-shaped lesions (Northern) or smaller rectangular lesions (Southern)",
+      "pattern": "Lesions running parallel to leaf veins, starting on lower leaves and moving up",
+      "location_on_plant": "Foliage, progressing from lower leaves to upper canopy",
+      "starts_from": "Older lower leaves near the soil line",
+      "progression": "Moves upward through the canopy, heavily blighting leaves during flowering and grain fill",
+      "image_clues": [
+        "A distinct, dry, tan 'cigar-shaped' wound on a green leaf.",
+        "A green leaf showing numerous small rectangular blocks with red margins."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Stewart's Wilt",
+        "difference": "Stewart’s Wilt causes long, wavy yellow-to-tan necrotic streaks that follow the leaf veins but do not have the neat, rounded 'cigar' shape or sooty spore centers.",
+        "confusion_risk": "Medium"
+      },
+      {
+        "name": "Diplodia Leaf Streak",
+        "difference": "Diplodia lesions are more irregular, often contain tiny black dots (pycnidia) embedded in the tissue, and lack the classic rounded cigar shape of NCLB.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Moderate temperatures and frequent rains (Northern Blight).",
+        "Warm temperatures and wet, humid conditions (Southern Blight)."
+      ],
+      "temperature_range": "18°C - 27°C (Northern Blight); 20°C - 32°C (Southern Blight)",
+      "humidity_level": "High relative humidity (>90%)",
+      "season": "Rainy season, wet summer periods.",
+      "soil_conditions": [
+        "Unplowed soil with high levels of infected crop residue."
+      ],
+      "field_conditions": [
+        "Extended periods of leaf wetness (6-18 hours) from rain, morning dew, or fog.",
+        "Continuous corn cropping."
+      ],
+      "irrigation_conditions": [
+        "Frequent overhead sprinkler irrigation which increases leaf wetness duration."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain-splash dispersing spores from soil residue to lower leaves"
+      ],
+      "source_of_infection": [
+        "Infected surface crop residue",
+        "Voluntary host plants"
+      ],
+      "survival_method": "Overwinters as mycelia and conidia on infected corn residue left on the soil surface.",
+      "spread_speed": "Rapid during warm, humid, windy periods.",
+      "nearby_crop_risk": "High for neighboring susceptible maize hybrids."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated elliptical or cigar-shaped lesions on lower leaves below the ear.",
+        "field_indicator": "Isolated gray-tan spots on bottom leaves; ear leaf is completely healthy.",
+        "recommended_action": "Monitor weekly; action is rarely needed unless weather is continuously wet."
+      },
+      {
+        "level": "Medium",
+        "description": "Lesions spreading to leaves near the ear level; 5%-15% leaf area affected around tasseling.",
+        "field_indicator": "Cigar-shaped wounds appearing on leaves just below or at the ear level.",
+        "recommended_action": "Apply protective foliar fungicides to safeguard the ear leaf."
+      },
+      {
+        "level": "Severe",
+        "description": "Extensive blighting on the ear leaf and leaves above; >15% leaf area destroyed.",
+        "field_indicator": "Upper leaves brown, dry, and shriveled; dirty olive-green spores visible.",
+        "recommended_action": "Apply systemic curative fungicides immediately to limit further grain-fill losses."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Choose high-yielding maize hybrids with strong genetic resistance to NCLB and SCLB."
+      ],
+      "field_management": [
+        "Avoid planting highly susceptible varieties in low-lying, foggy, or poorly drained areas."
+      ],
+      "irrigation_management": [
+        "Avoid irrigating in the late afternoon or evening; water early so the crop dries rapidly."
+      ],
+      "soil_management": [
+        "Apply balanced fertilizers (avoid nitrogen imbalance; ensure adequate potassium)."
+      ],
+      "crop_rotation": [
+        "Rotate maize with non-host crops (soybeans, alfalfa, clover, or vegetables) for at least one year."
+      ],
+      "sanitation": [
+        "Use deep tillage to bury infected corn residue, promoting decomposition of overwintering fungi."
+      ],
+      "monitoring": [
+        "Scout lower leaves weekly starting in the early vegetative stage, especially in fields with a history of blight."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Apply a dual-mode systemic fungicide if lesions reach the ear leaf around tasseling/silking."
+      ],
+      "cultural_control": [
+        "Manage planting density to ensure good airflow and faster drying of leaves."
+      ],
+      "organic_control": [
+        "Apply copper-based organic fungicides or potassium bicarbonate early in the cycle as protectants."
+      ],
+      "biological_control": [
+        "Apply commercial biopesticides based on Bacillus subtilis to suppress early fungal development."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Trifloxystrobin + Prothioconazole",
+          "product_type": "Foliar Fungicide (Strobilurin + Triazole)",
+          "dose": "As per local label directions",
+          "application_method": "Foliar spray (best at VT to R1 stage)",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Rotate with other chemical classes to prevent pathogen resistance."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Foliar Protectant Fungicide (Multi-site)",
+          "dose": "2.0 kg/ha",
+          "application_method": "Foliar spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "40 days",
+          "safety_note": "Apply preventively; does not offer curative control once lesions are mature."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Maize Leaf Blight is a fungal disease that causes large, dry, cigar-shaped tan spots on leaves, which can quickly dry out the entire plant and reduce grain yield.",
+      "what_to_do_now": [
+        "Inspect the bottom leaves of your maize for long, gray-tan elliptical spots.",
+        "If spots start moving up towards the ears during flowering, spray an approved fungicide.",
+        "Till the soil after harvest to bury old leaves so the fungus cannot survive the winter."
+      ],
+      "what_not_to_do": [
+        "Do not plant maize in the same field next season if you had a heavy blight infection.",
+        "Do not use overhead sprinklers late in the evening."
+      ],
+      "when_to_call_expert": [
+        "When cigar-shaped spots appear on leaves at or above the ear level before tasseling."
+      ],
+      "risk_warning": "If the leaves near and above the ear are destroyed before grain fill is complete, yield losses can exceed 50%."
+    },
+    "model_support": {
+      "classification_labels": [
+        "northern_corn_leaf_blight",
+        "southern_corn_leaf_blight",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "cigar_shaped_lesion",
+        "rectangular_lesion",
+        "sooty_spores"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.82",
+        "high": "0.94"
+      },
+      "send_to_expert_if": [
+        "Lesions appear atypical or exist alongside suspected chemical burn symptoms."
+      ],
+      "image_quality_requirements": [
+        "Clear close-up of a single lesion showing its shape and borders.",
+        "A wider view showing the progression of symptoms from the bottom of the plant upward."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "blight_001",
+        "chunk_type": "text",
+        "title": "Northern vs. Southern Corn Leaf Blight",
+        "content": "Northern Corn Leaf Blight (Exserohilum turcicum) is recognized by its signature cigar-shaped tan lesions. Southern Corn Leaf Blight (Bipolaris maydis) causes smaller rectangular spots and thrives in warmer climates.",
+        "keywords": [
+          "Exserohilum turcicum",
+          "Bipolaris maydis",
+          "cigar-shaped",
+          "NCLB"
+        ],
+        "language": "en",
+        "target_user": "Farmers, Agronomists"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-county",
+      "risk_radius": "12 km",
+      "report_count_threshold": "4 cases",
+      "outbreak_alert_message": "Maize Leaf Blight is spreading in humid valley fields. Inspect lower leaves immediately.",
+      "nearby_farm_advice": [
+        "Ensure good field drainage and avoid evening irrigation."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Ohio State University Extension: Northern Corn Leaf Blight Management",
+      "source_url": "https://extension.osu.edu",
+      "source_type": "Extension Bulletin",
+      "author_or_organization": "Ohio State University",
+      "published_year": "2020",
+      "region": "Midwest US / Global",
+      "language": "en",
+      "last_verified": "2023-09-10",
+      "trust_level": "High",
+      "notes": "Excellent guide on utilizing genetic resistance and fungicides for NCLB."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Pathology Expert Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_leaf_spot",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Leaf Spot (Gray Leaf Spot)",
+      "category": "Fungal Disease",
+      "pathogen_or_cause": [
+        "Cercospora zeae-maydis",
+        "Cercospora zeina"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Leaf sheaths",
+        "Husks"
+      ],
+      "disease_stage": "Mid-to-late vegetative and reproductive stages."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, pinpoint, tan or brown spots surrounded by a yellow, chlorotic halo on lower leaves.",
+        "Faint, water-soaked halo visible around early lesions when held up to the light."
+      ],
+      "middle_stage": [
+        "Lesions elongate into highly distinct, blocky, rectangular 'matchstick' shapes.",
+        "Lesions remain confined within leaf veins, showing sharp parallel margins and blunt ends."
+      ],
+      "severe_stage": [
+        "Lesions turn a characteristic silvery-gray color during periods of high humidity.",
+        "Individual rectangular spots merge, blighting and killing large sections of the leaf.",
+        "Complete premature leaf death, stalk rotting, and plant lodging."
+      ],
+      "visible_signs": [
+        "Blocky, rectangular, tan-to-gray spots on leaf blades.",
+        "Silvery-gray dust (spores) on the surfaces of mature lesions."
+      ],
+      "farmer_reported_signs": [
+        "Leaves have long, grey, rectangular blocks on them that look like matches.",
+        "Leaves are turning silver-grey and drying up completely.",
+        "The plant stems are getting weak and falling over before harvest."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Tan",
+        "Silvery-gray",
+        "Yellow-halo"
+      ],
+      "spot_or_patch_shape": "Rectangular, blocky, 'matchstick' shaped with blunt ends",
+      "pattern": "Wounds physically restricted by parallel leaf veins, giving them clean straight edges",
+      "location_on_plant": "Foliage, progressing from lower canopy upward to ear leaves",
+      "starts_from": "Older lower leaves near the ground",
+      "progression": "Moves upward through leaf layers, especially fast during warm, damp post-tasseling periods",
+      "image_clues": [
+        "A rectangular, straight-edged tan patch trapped perfectly between two leaf veins.",
+        "A leaf covered in dusty, silvery-gray rectangular blocks."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Southern Corn Leaf Blight",
+        "difference": "Southern Corn Leaf Blight has more oval-to-elliptical lesions with rounded ends, whereas Gray Leaf Spot has highly rectangular, blunt ends.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Leaf Streak",
+        "difference": "Bacterial Leaf Streak causes wavy-edged, water-soaked streaks that do not have the neat, straight, vein-bounded rectangular edges of Gray Leaf Spot.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, damp, and humid weather."
+      ],
+      "temperature_range": "25°C - 32°C",
+      "humidity_level": "Extremely high relative humidity (>90% for 12+ hours)",
+      "season": "Warm, wet mid-to-late summer.",
+      "soil_conditions": [
+        "Undisturbed soils with heavy crop residue from conservation tillage."
+      ],
+      "field_conditions": [
+        "Continuous corn planting, high-density sowing (reduced airflow), and valleys where fog or dew lingers."
+      ],
+      "irrigation_conditions": [
+        "Frequent overhead irrigation that prolongs canopy wetness."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain-splash moving spores from ground residue up to lower leaves"
+      ],
+      "source_of_infection": [
+        "Infected surface corn residue",
+        "Volunteer corn plants"
+      ],
+      "survival_method": "Overwinters as dormant mycelia in corn residue left on the soil surface.",
+      "spread_speed": "Highly rapid under warm, humid conditions.",
+      "nearby_crop_risk": "High for nearby susceptible hybrids."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few rectangular spots on the lowest leaves; <5% leaf area affected.",
+        "field_indicator": "Isolated tan blocks on bottom-most leaves below the ear level.",
+        "recommended_action": "Monitor; no immediate chemical action needed."
+      },
+      {
+        "level": "Medium",
+        "description": "Numerous lesions spreading to leaves below or at the ear level; 5%-15% leaf area affected near silking.",
+        "field_indicator": "Rectangular spots visible on the ear leaf and adjacent leaves during flowering.",
+        "recommended_action": "Apply systemic fungicides (Strobilurin + Triazole premixes) to protect the ear leaf."
+      },
+      {
+        "level": "Severe",
+        "description": ">15% leaf area affected; extensive blighting of ear leaves and upper canopy.",
+        "field_indicator": "Upper leaves turning dry, brown, and silvery-gray; plants prone to falling over.",
+        "recommended_action": "Apply curative fungicides immediately; plan for tillage and crop rotation for the next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Select and plant maize hybrids with high genetic tolerance or resistance to Gray Leaf Spot (GLS)."
+      ],
+      "field_management": [
+        "Avoid over-dense planting to ensure adequate airflow and sunlight penetration."
+      ],
+      "irrigation_management": [
+        "Irrigate in the morning to allow leaves to dry fully during the day."
+      ],
+      "soil_management": [
+        "Apply balanced N-P-K fertilizers to enhance general plant health."
+      ],
+      "crop_rotation": [
+        "Rotate maize with non-host crops (e.g., soybeans, alfalfa) for at least one year to deplete residue spores."
+      ],
+      "sanitation": [
+        "Incorporate crop residues through clean tillage where erosion risks are low."
+      ],
+      "monitoring": [
+        "Monitor lower leaves of susceptible hybrids weekly starting 2-3 weeks before tasseling."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Apply systemic fungicides if lesions appear on the leaves just below the ear around tasseling."
+      ],
+      "cultural_control": [
+        "Adjust sowing dates to avoid peak humidity periods during flowering."
+      ],
+      "organic_control": [
+        "Apply copper fungicides early as protectants, though they have limited efficacy once GLS is established."
+      ],
+      "biological_control": [
+        "Utilize Trichoderma-based biofungicides on the soil to accelerate the decomposition of infected crop residue."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Azoxystrobin + Propiconazole",
+          "product_type": "Foliar Fungicide (Strobilurin + Triazole)",
+          "dose": "According to manufacturer guidelines",
+          "application_method": "Foliar spray (optimum at VT to R1 stage)",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Do not make more than two consecutive applications of Strobilurins to prevent resistance."
+        },
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Foliar Fungicide (Benzimidazole)",
+          "dose": "As specified on local label",
+          "application_method": "Foliar spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "25 days",
+          "safety_note": "Apply at the first sign of disease on middle leaf layers."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Gray Leaf Spot is a fungal disease that makes straight, rectangular, gray-tan spots on maize leaves. It blocks the leaves from making food, causing early drying and weak stalks.",
+      "what_to_do_now": [
+        "Look for straight-edged, rectangular gray-tan spots on the lower leaves.",
+        "If you see these spots on leaves below the ears during tasseling, apply a systemic fungicide.",
+        "Rotate your maize crop with beans or other non-cereal crops next season."
+      ],
+      "what_not_to_do": [
+        "Do not plant maize directly into fields with heavy corn residue from last year's infected crop without tilling first.",
+        "Do not over-fertilize with nitrogen alone."
+      ],
+      "when_to_call_expert": [
+        "When rectangular gray spots are spotted on the leaves surrounding the corn ears before pollination."
+      ],
+      "risk_warning": "Gray Leaf Spot is one of the most yield-limiting diseases of maize globally, especially under zero-tillage systems."
+    },
+    "model_support": {
+      "classification_labels": [
+        "gray_leaf_spot",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "rectangular_lesion",
+        "silvery_spore_layer"
+      ],
+      "confidence_threshold": {
+        "low": "0.62",
+        "medium": "0.80",
+        "high": "0.93"
+      },
+      "send_to_expert_if": [
+        "Lesions are irregular, yellow, and do not show clean rectangular vein boundaries."
+      ],
+      "image_quality_requirements": [
+        "Clear macro photo showing the blunt, rectangular ends of the lesions.",
+        "Backlit leaf photo showing the yellow halos and straight vein-bounded margins."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "gls_001",
+        "chunk_type": "text",
+        "title": "Gray Leaf Spot Symptoms and Biology",
+        "content": "Gray Leaf Spot, caused by Cercospora zeae-maydis, is characterized by rectangular, blocky lesions with blunt ends that run parallel to the veins. Spore production gives these lesions a distinct silvery-gray appearance.",
+        "keywords": [
+          "Cercospora zeae-maydis",
+          "Gray leaf spot",
+          "rectangular",
+          "silvery-gray"
+        ],
+        "language": "en",
+        "target_user": "Agronomists, Extension workers"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "20 km",
+      "report_count_threshold": "6 cases",
+      "outbreak_alert_message": "Gray Leaf Spot is breaking out in warm, humid areas. Ensure susceptible crops are monitored during silking.",
+      "nearby_farm_advice": [
+        "Scout lower canopy leaves on fields with reduced tillage."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "University of Minnesota Extension: Gray Leaf Spot in Corn",
+      "source_url": "https://extension.umn.edu",
+      "source_type": "Extension Article",
+      "author_or_organization": "University of Minnesota",
+      "published_year": "2020",
+      "region": "North America / Global",
+      "language": "en",
+      "last_verified": "2023-09-05",
+      "trust_level": "High",
+      "notes": "Practical guide on thresholds and fungicide timing for GLS."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Pathology Expert Team",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "maize_streak_virus",
+    "crop": {
+      "common_name": "Maize",
+      "english_name": "Corn / Maize",
+      "scientific_name": "Zea mays",
+      "local_names": [
+        "Corn",
+        "Makka",
+        "Bhutta"
+      ],
+      "crop_category": "Cereals"
+    },
+    "disease": {
+      "name": "Maize Streak Virus (MSV)",
+      "category": "Viral Disease",
+      "pathogen_or_cause": [
+        "Maize streak virus (MSV-A strain)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Ears",
+        "Entire plant"
+      ],
+      "disease_stage": "Most damaging when infection occurs during seedling to early vegetative stages (up to 4-5 weeks)."
+    },
+    "symptoms": {
+      "early_stage": [
+        "Tiny, pale-circular spots or flecks (0.5 to 2 mm) at the base of newly emerging leaves."
+      ],
+      "middle_stage": [
+        "Spots elongate into narrow, broken, creamy-white or yellow streaks running parallel to leaf veins.",
+        "Streaks are highly uniform and distributed across newly formed leaves."
+      ],
+      "severe_stage": [
+        "Individual streaks merge, covering the majority of the leaf surface and blocking photosynthesis.",
+        "Severe plant stunting, failure to tassel, and production of tiny, empty, or misshapen cobs.",
+        "Complete plant death before grain production if infected early."
+      ],
+      "visible_signs": [
+        "Broken, pale yellow/white parallel stripes across the green leaf blade.",
+        "Severely dwarfed, stunted maize plants with pale green foliage."
+      ],
+      "farmer_reported_signs": [
+        "Young corn leaves are covered in long, thin, yellow-white zebra-like stripes.",
+        "The plants are remaining very small and 'dwarf', refusing to grow taller.",
+        "Cobs are not forming at all, or are tiny and empty."
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Pale yellow",
+        "White",
+        "Pale green"
+      ],
+      "spot_or_patch_shape": "Narrow, broken, parallel streaks/stripes",
+      "pattern": "Uniform chlorotic stripes running alongside leaf veins",
+      "location_on_plant": "All leaves formed after the infection occurs, particularly the upper young foliage",
+      "starts_from": "Base of the youngest emerging leaves",
+      "progression": "Spreads upward as new leaves emerge; older leaves infected prior to virus entry remain green and symptomless",
+      "image_clues": [
+        "A highly stunted plant next to a healthy green one, with leaves displaying pale white zebra-stripes.",
+        "Close-up of a leaf showing highly defined, broken, creamy-white lines running along the veins."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Maize Stripe Virus",
+        "difference": "Maize Stripe Virus causes continuous, broad, yellow bands along the leaves rather than the narrow, broken, dotted lines of Maize Streak Virus.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Zinc Deficiency",
+        "difference": "Zinc deficiency causes broad, continuous bleached bands on either side of the midrib, whereas MSV creates distinct, broken, narrow streaks across the entire leaf blade.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, dry weather which encourages the multiplication and flight of the leafhopper vector."
+      ],
+      "temperature_range": "24°C - 30°C",
+      "humidity_level": "Variable; dry conditions promote vector leafhopper migration.",
+      "season": "Dry seasons, or late-planted rainy season crops when vector populations have peaked.",
+      "soil_conditions": [
+        "Poor soils that delay early plant development, lengthening the vulnerable stage."
+      ],
+      "field_conditions": [
+        "Fields surrounded by wild grass weeds (e.g., Digitaria, Eleusine) that act as alternative hosts for the virus and leafhoppers."
+      ],
+      "irrigation_conditions": [
+        "Late dry-season irrigated crops are highly vulnerable due to heavy vector pressure from surrounding dried vegetation."
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Leafhoppers of the genus Cicadulina (mainly Cicadulina mbila)"
+      ],
+      "source_of_infection": [
+        "Infected wild grasses",
+        "Older, infected maize crops nearby"
+      ],
+      "survival_method": "Survives inside leafhopper vectors and alternative perennial grass hosts during off-seasons; it is NOT seed-borne or soil-borne.",
+      "spread_speed": "Extremely fast when wind carries leafhopper vectors across fields.",
+      "nearby_crop_risk": "Very High for young maize crops planted adjacent to or downwind of older, infected fields."
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint white spots or short streaks on <5% of plants; infection occurred late.",
+        "field_indicator": "Isolated plants with mild streaks on upper leaves; normal plant height.",
+        "recommended_action": "No immediate spray; rogue out early-infected plants on small plots."
+      },
+      {
+        "level": "Medium",
+        "description": "5%-20% of plants are stunted with clear yellow-white streaks.",
+        "field_indicator": "Distinct zebra-striped leaves and shortened plants in patches.",
+        "recommended_action": "Apply systemic insecticides to control leafhoppers; remove weed hosts on borders."
+      },
+      {
+        "level": "Severe",
+        "description": ">20% of plants are severely dwarfed, pale, and failing to tassel.",
+        "field_indicator": "Widespread stunting and empty cobs across the field.",
+        "recommended_action": "Eradicate heavily infected plots; use systemic insecticide-treated seed and resistant hybrids next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant certified Maize Streak Virus (MSV) resistant hybrids (the most effective prevention).",
+        "Use seed pre-treated with systemic insecticides like Imidacloprid or Thiamethoxam."
+      ],
+      "field_management": [
+        "Avoid planting young maize directly downwind or adjacent to older infected maize fields.",
+        "Synchronize planting dates within the community to avoid late crops acting as vector magnets."
+      ],
+      "irrigation_management": [
+        "Ensure good soil moisture to encourage rapid early growth."
+      ],
+      "soil_management": [
+        "Apply recommended basal fertilizers to promote rapid canopy closure."
+      ],
+      "crop_rotation": [
+        "Rotate maize with non-grass crops like legumes, sweet potatoes, or cassava."
+      ],
+      "sanitation": [
+        "Eradicate wild grasses and weeds inside the field and along borders to eliminate vector reservoirs."
+      ],
+      "monitoring": [
+        "Scout seedlings weekly starting at emergence for early leafhopper presence and base-leaf flecks."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue out and destroy infected stunted plants found during early weeding.",
+        "Apply insecticide sprays to control leafhopper vectors."
+      ],
+      "cultural_control": [
+        "Plant barrier crops (broadleaf crops) around the maize field to disrupt leafhopper migration."
+      ],
+      "organic_control": [
+        "Spray neem extracts or insecticidal soaps to deter leafhoppers on small-scale plots."
+      ],
+      "biological_control": [
+        "Protect natural enemies of leafhoppers, such as spiders, damsel bugs, and predatory beetles."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Thiamethoxam",
+          "product_type": "Systemic Seed Dressing",
+          "dose": "As per local seed dressing guidelines",
+          "application_method": "Pre-planting seed treatment",
+          "spray_interval": "Single treatment at planting",
+          "pre_harvest_interval": "N/A",
+          "safety_note": "Highly effective at protecting seedlings for the first 3-4 weeks."
+        },
+        {
+          "active_ingredient": "Dimethoate",
+          "product_type": "Systemic Foliar Insecticide",
+          "dose": "As recommended on product label",
+          "application_method": "Foliar spray",
+          "spray_interval": "10-14 days if vectors are highly active",
+          "pre_harvest_interval": "28 days",
+          "safety_note": "Highly toxic; wear protective gear and avoid spraying during flowering."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Maize Streak Virus is a disease spread by tiny leafhopper insects. It creates yellow-white streaks on the leaves and severely stunts the plants, preventing cobs from forming.",
+      "what_to_do_now": [
+        "Uproot and burn any young stunted plants showing white stripes.",
+        "Keep the field and borders completely free of wild grasses and weeds.",
+        "Plant only MSV-resistant maize varieties."
+      ],
+      "what_not_to_do": [
+        "Do not plant young maize next to older, diseased maize fields.",
+        "Do not save seeds from infected plants, although the virus is not seed-borne, the plants are weak."
+      ],
+      "when_to_call_expert": [
+        "When white stripes and severe stunting are seen on more than 5% of young plants in the field."
+      ],
+      "risk_warning": "Early infection can lead to 100% loss on susceptible varieties. Always prioritize planting resistant hybrids."
+    },
+    "model_support": {
+      "classification_labels": [
+        "maize_streak_virus",
+        "healthy_maize"
+      ],
+      "segmentation_labels": [
+        "broken_streak",
+        "chlorotic_stripe"
+      ],
+      "confidence_threshold": {
+        "low": "0.58",
+        "medium": "0.78",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "Streaks are broad, continuous, and do not show the broken, dotted appearance typical of MSV."
+      ],
+      "image_quality_requirements": [
+        "Clear close-up showing the broken, dotted white lines along the veins.",
+        "Full-view photo comparing a stunted striped plant with a normal healthy green neighbor."
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "msv_001",
+        "chunk_type": "text",
+        "title": "Maize Streak Virus Transmission",
+        "content": "Maize Streak Virus (MSV) is a geminivirus transmitted efficiently by the leafhopper Cicadulina mbila. Symptoms include narrow, broken, yellow-to-white streaks parallel to the veins. Early infections cause severe stunting and barrenness.",
+        "keywords": [
+          "Mastrevirus",
+          "Cicadulina mbila",
+          "leafhopper",
+          "streaks"
+        ],
+        "language": "en",
+        "target_user": "Extension Workers, Researchers"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District/County",
+      "risk_radius": "10 km",
+      "report_count_threshold": "4 cases",
+      "outbreak_alert_message": "Maize Streak Virus vectors have been found active in the area. Ensure early weed control.",
+      "nearby_farm_advice": [
+        "Spray borders and manage grass weeds around young maize crops."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "IITA: Maize Streak Virus Disease Control Guide",
+      "source_url": "https://www.iita.org",
+      "source_type": "Research Bulletin",
+      "author_or_organization": "IITA (International Institute of Tropical Agriculture)",
+      "published_year": "2019",
+      "region": "Sub-Saharan Africa",
+      "language": "en",
+      "last_verified": "2023-11-02",
+      "trust_level": "High",
+      "notes": "Primary reference for MSV epidemiology and resistance management in Africa."
+    },
+    "versioning": {
+      "created_at": "2023-11-20T12:00:00Z",
+      "updated_at": "2023-11-20T12:00:00Z",
+      "reviewed_by": "Virology Expert Team",
+      "status": "Approved"
+    }
+  }
+]

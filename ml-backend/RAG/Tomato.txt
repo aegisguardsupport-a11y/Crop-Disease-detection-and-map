@@ -1,0 +1,2757 @@
+[
+  {
+    "id": "TOMATO-BS-001",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Bacterial Spot",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Xanthomonas perforans",
+        "Xanthomonas vesicatoria",
+        "Xanthomonas euvesicatoria",
+        "Xanthomonas gardneri"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Flowers",
+        "Fruit"
+      ],
+      "disease_stage": "All growth stages; highly aggressive during warm, wet monsoon phases"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, circular, water-soaked spots (under 3 mm) appear on young leaves",
+        "Spots look dark green and greasy initially, moving quickly to a dark brown state"
+      ],
+      "middle_stage": [
+        "Spots become angular and are ringed by a narrow yellow halo",
+        "The center of leaf spots can dry out and turn papery",
+        "Small, raised, dark lesions appear on immature green fruit, wrapped in a translucent water-soaked border"
+      ],
+      "severe_stage": [
+        "Multiple lesions coalesce, causing full leaves to turn yellow, scorch, and drop off early",
+        "Extensive defoliation exposes fruit directly to sunscald",
+        "Fruit spots expand into large, dark, rough, scabby or corky lesions that ruin commercial value"
+      ],
+      "visible_signs": [
+        "Angular, greasy dark brown leaf spots with thin yellow rims; rough, scabby volcanic craters on the fruit surface"
+      ],
+      "farmer_reported_signs": [
+        "My tomato leaves have greasy dark freckles with yellow edges, and the fruit is breaking out in rough, dark, corky scabs"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Greasy dark green turning to chocolate brown or charcoal black; narrow yellow outer borders; fruit scabs are dark gray to brown"
+      ],
+      "spot_or_patch_shape": "Small, angular or irregular leaf lesions bounded by minor veins; circular, raised, scabby craters on fruit skins",
+      "pattern": "Spots are scattered uniformly across leaflets, clustering near leaf tips or edges where water droplets linger",
+      "location_on_plant": "Can hit leaves of any age, but spreads rapidly from lower to upper canopy rows after rain storms",
+      "starts_from": "Leaf edges or faces where storm winds push bacteria through open stomata water pores",
+      "progression": "Moves from foliar spotting into blossom clusters, forcing blossom drop, and ends as rough scabs on developing fruit",
+      "image_clues": [
+        "Angular dark brown greasy leaf spots with a pale yellow halo",
+        "Tomato fruit skin covered in rough, corky, dark scabby blisters"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Early Blight (Alternaria solani)",
+        "difference": "Early blight forms much larger, circular spots that show a distinct 'target-board' pattern of concentric rings and strikes older lower leaves first, whereas Bacterial Spot creates tiny, angular, greasy spots without target rings.",
+        "confusion_risk": "High during early leaf spot development phases."
+      },
+      {
+        "name": "Bacterial Speck (Pseudomonas syringae pv. tomato)",
+        "difference": "Bacterial speck produces tiny, flat, black pinpoint dots that are smaller than spot lesions and fruit lesions remain smooth and superficial rather than rough, corky, or scabby.",
+        "confusion_risk": "Extreme, as both form small dark spots with yellow halos."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet, rainy weather mixed with heavy winds or driving monsoonal storms"
+      ],
+      "temperature_range": "24°C - 30°C (75°F - 86°F) optimal for Xanthomonas multi-generation spreads",
+      "humidity_level": "Extended leaf wetness durations or continuous high relative humidity over 85%",
+      "season": "Main rainy Kharif cycles or hot humid summer cropping windows",
+      "soil_conditions": [
+        "Fields retaining high crop residue loads from previous infected solanaceous cycles"
+      ],
+      "field_conditions": [
+        "Working in or harvesting rows while the canopy is damp with morning dew",
+        "Dense row configurations"
+      ],
+      "irrigation_conditions": [
+        "Frequent overhead sprinkler irrigation cycles that prolong late-evening leaf wetness"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-driven rain splash transporting bacterial cells across rows",
+        "Field equipment, tools, or workers brushing wet canopy layers",
+        "Infested or contaminated seed lots"
+      ],
+      "source_of_infection": [
+        "Infected seed lines",
+        "Volunteer tomato plants",
+        "Un-plowed crop residue leftovers left on the soil surface"
+      ],
+      "survival_method": "Overwinters on old plant debris, on volunteers, or attached to the seed coat until moisture and warmth activate cells",
+      "spread_speed": "Explosive; can sweep across full acreage blocks within a few warm rainy days following windy storms",
+      "nearby_crop_risk": "High for adjacent pepper or tomato plots downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Small dark spots on less than 5% of foliage; zero fruit spots or blossom drop noticed.",
+        "field_indicator": "Isolated angular greasy dots on a few lower leaves; fruit looks clean green.",
+        "recommended_action": "Avoid entering fields while leaves are wet. Monitor rows weekly. Suspend overhead watering if used."
+      },
+      {
+        "level": "Medium",
+        "description": "Lesions are clear across 5% to 20% of the leaf canopy; early spot markings appearing on green fruit skins.",
+        "field_indicator": "Foliar yellowing and minor lower leaf dropping; scabby spots visible on a few fruits.",
+        "recommended_action": "Apply a recommended copper-bactericide mixture immediately. Tighten application intervals if warm rains continue."
+      },
+      {
+        "level": "High",
+        "description": "More than 20% of the canopy is scorched or dropped; fruits are heavily covered in rough scabs, ruining market use.",
+        "field_indicator": "Severe defoliation with fruit sunscald; extensive scabby craters field-wide; blossoms dropping heavily.",
+        "recommended_action": "Apply systemic copper-bactericide blocks instantly to protect remaining fruit load. Tag field to prevent seed saving."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant exclusively certified, disease-free seeds or hot-water treated seed lots",
+        "Select resistant or tolerant hybrids if available for local strains"
+      ],
+      "field_management": [
+        "Maintain adequate wide row spaces to encourage quick air circulation and rapid leaf drying after rain"
+      ],
+      "irrigation_management": [
+        "Utilize drip irrigation tape networks exclusively; avoid overhead sprinkler systems"
+      ],
+      "soil_management": [
+        "Apply balanced primary inputs; avoid heavy nitrogen overdosages that create soft, vulnerable leaf tissue"
+      ],
+      "crop_rotation": [
+        "Rotate out of solanaceous crops (tomatoes, peppers, eggplants, potatoes) for at least 2 to 3 years"
+      ],
+      "sanitation": [
+        "Plow field residues deeply under immediately post-harvest to accelerate bacterial cell death",
+        "Eradicate volunteers"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly from transplanting onward, looking closely for tiny water-soaked angular dots on leaves after rainy spans"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify spots are angular and greasy without target rings to confirm Bacterial Spot",
+        "Halt all field movement until midday sun dries leaves completely"
+      ],
+      "cultural_control": [
+        "Never handle, prune, or harvest tomato staking lines when plants are wet with dew or rain splash"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays (copper hydroxide or copper oxychloride) at early disease onset",
+        "Use OMRI-approved bio-bactericides"
+      ],
+      "biological_control": [
+        "Apply formulations of Bacillus subtilis or bacteriophages targeted against Xanthomonas strains early in the cycle"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide + Mancozeb",
+          "product_type": "Protectant Fungicide/Bactericide Tank-mix",
+          "dose": "2.0 g/Liter (Copper) + 2.0 g/Liter (Mancozeb) mixture",
+          "application_method": "Foliar broadcast spray using fine misting nozzles for complete canopy coverage",
+          "spray_interval": "7 - 10 days apart during high-risk rainy parameters",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Mancozeb must be mixed with copper to release more soluble copper ions, making the treatment highly effective against copper-tolerant strains."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial spot is a serious bacterial disease that spreads quickly during warm, rainy weather. It creates tiny, greasy, dark spots with yellow edges on tomato leaves, causing them to drop off early. It also attacks green tomato fruits, turning their skin into rough, dark, scabby craters that make them impossible to sell.",
+      "what_to_do_now": [
+        "**Never prune or walk through your tomato rows when the leaves are wet**, as your clothes and tools will smear the bacteria down the line.",
+        "Water your plants only at the soil line using drip lines; keep water drops off the leaves.",
+        "Spray a recommended copper-mancozeb mix immediately if you see greasy black freckling after warm monsoon rains."
+      ],
+      "what_not_to_do": [
+        "Never save seeds from a tomato crop that showed rough scabby lesions on the fruit skins.",
+        "Do not use regular single-site fungicides; they have zero effect on a bacterial infection.",
+        "Do not leave old crop waste rotting on the field surface after harvest."
+      ],
+      "when_to_call_expert": [
+        "If your tomato blossoms are dropping off heavily and fruits are breaking out in dark scabby blisters despite copper sprays."
+      ],
+      "risk_warning": "This disease spreads like wildfire via rain splash. If left unmanaged during a wet monsoon, it can strip your plants of their leaves, expose fruits to sun burning, and ruin your full harvest value."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_bacterial_spot",
+        "tomato_healthy",
+        "tomato_early_blight"
+      ],
+      "segmentation_labels": [
+        "greasy_angular_lesion",
+        "corky_fruit_scab",
+        "healthy_leaflet"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Fruit lesions remain perfectly smooth, tiny, and sunken rather than rough and scabby, pointing to bacterial speck instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro shots focused sharply on individual leaf spots or fruit scabs to resolve texture parameters accurately"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-BS-CH-01",
+        "chunk_type": "Pathology / Management",
+        "title": "Xanthomonas Bacterial Spot Complex and Copper Synergy",
+        "content": "Bacterial spot of tomato is induced by a complex of Xanthomonas species. Pathogenesis involves entry through stomata or mechanical wind micro-wounds, driving angular tissue necrosis. Fruit lesions display characteristic raised, corky, scabby periderms. To circumvent widespread copper resistance in Xanthomonas perforans strains, tank-mixing fixed coppers with EBDCs like Mancozeb is mandatory, as ethylenebisdithiocarbamate complexes increase free copper ion availability on the phylloplane.",
+        "keywords": [
+          "Xanthomonas perforans",
+          "corky periderm",
+          "copper resistance",
+          "Mancozeb synergy",
+          "free copper ions",
+          "phylloplane"
+        ],
+        "language": "English",
+        "target_user": "Extension Pathologist / Vegetable Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 cases logged after continuous monsoonal storm loops",
+      "outbreak_alert_message": "Bacterial Spot Alert: High warmth and rain splash are accelerating Xanthomonas spread. Maintain copper shields and avoid pruning damp crops.",
+      "nearby_farm_advice": [
+        "Isolate row cultivation loops.",
+        "Incorporate multi-site protectant tank-mixes before incoming rain blocks arrive."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Tomato Diseases and Management Guides",
+      "source_url": "https://edis.ifas.ufl.edu/publication/PP135",
+      "source_type": "University Extension Publication",
+      "author_or_organization": "University of Florida IFAS Extension",
+      "published_year": "2023",
+      "region": "Global / Humid Subtropics",
+      "language": "English",
+      "last_verified": "2026-05-15",
+      "trust_level": "High",
+      "notes": "Premium standard reference for resolving copper tolerance mechanisms in solanaceous fields."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T12:00:00Z",
+      "updated_at": "2026-06-01T15:30:00Z",
+      "reviewed_by": "IFAS Plant Pathology Editorial Committee",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-EB-002",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Early Blight",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Alternaria solani"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit"
+      ],
+      "disease_stage": "Mid to Late Season; heavily targets plants during heavy fruiting loads"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, circular brown to black spots (3-6 mm) emerge on mature, physiologically older lower leaves",
+        "Spots expand into larger circles bounded weakly by large veins"
+      ],
+      "middle_stage": [
+        "Classic concentric target-board or bullseye rings appear inside the brown spots",
+        "Surrounding leaf tissue turns distinct pale yellow (chlorotic halo)",
+        "Dark, elongated, sunken lesions with target patterns appear on stems near the soil line"
+      ],
+      "severe_stage": [
+        "Multiple lesions run together, causing full leaflets to turn crisp brown, dry up papery, and drop off",
+        "Complete lower canopy stripping exposes developing fruits to intense sunscald burns",
+        "Dark, leathery, sunken target spots form on the fruit stem-end node"
+      ],
+      "visible_signs": [
+        "Concentric rings inside large dark brown leaf lesions; yellow halos around dry leaf craters; leathery black craters on fruit shoulders"
+      ],
+      "farmer_reported_signs": [
+        "The oldest bottom leaves of my tomatoes are turning yellow, showing large brown spots with rings like a bullseye, and falling off early"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown to black necrotic spots; broad bright yellow chlorotic haloes over surrounding tissue"
+      ],
+      "spot_or_patch_shape": "Large circular spots displaying concentric ridged rings (target pattern) inside the dead core",
+      "pattern": "Strictly vertical ladder-like progression climbing from oldest bottom leaves toward top shoots as fruit sets",
+      "location_on_plant": "Starts on lower, older canopy leaves and climbs progressively upward; targets fruit shoulders near stem links",
+      "starts_from": "Older leaf blades exposed to heavy morning dew pooling or low soil splash",
+      "progression": "Forces progressive defoliation, stripping branches from the ground up, reducing canopy fill indexes",
+      "image_clues": [
+        "Concentric target rings inside a dark tomato leaf lesion wrapping a yellow outer ring",
+        "Leathery black crater on tomato fruit shoulder"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Target Spot (Corynespora cassiicola)",
+        "difference": "Target spot forms smaller, more numerous lesions with fine concentric rings that can look similar, but its spots are lighter brown, have sharp yellow rings, and form lesions across all canopy layers simultaneously rather than moving strictly bottom-up.",
+        "confusion_risk": "Extreme, as both display concentric target ring characteristics."
+      },
+      {
+        "name": "Late Blight (Phytophthora infestans)",
+        "difference": "Late blight forms large, expansive, greasy water-soaked pale green-to-black patches that cross leaf veins rapidly and produce white fluffy mold growth on leaf undersides, completely lacking target-board rings.",
+        "confusion_risk": "Medium during rapid canopy burnout stages."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Alternating periods of rain or heavy dews followed immediately by dry, warm sunny spells and wind gusts"
+      ],
+      "temperature_range": "24°C - 29°C (75°F - 85°F)",
+      "humidity_level": "High relative humidity alternating with dry cycles that promote fungal spore release into air paths",
+      "season": "Mid-to-late summer, coinciding with peak fruit bulking and plant canopy maturity",
+      "soil_conditions": [
+        "Nutrient-deficient soils, particularly fields low in Nitrogen or Potassium which induces early leaf aging"
+      ],
+      "field_conditions": [
+        "Heavy fruit loads stressing plant vigor",
+        "Weedy rows blocking low-level air movement"
+      ],
+      "irrigation_conditions": [
+        "Frequent, brief overhead sprinkler irrigation cycles that prolong morning leaf wetness parameters"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind lines carrying conidia spores over long distances across rows",
+        "Rain water splash running up lower branches",
+        "Flea beetles and mechanical cultivation tools"
+      ],
+      "source_of_infection": [
+        "Infected crop residue leftovers left on the soil line",
+        "Volunteer tomato plants",
+        "Alternative solanaceous weeds (e.g., nightshades)"
+      ],
+      "survival_method": "Overwinters as active mycelium or spores inside contaminated plant residues or unburied solanaceous stubbles for over a year",
+      "spread_speed": "Moderate; accelerates dramatically if the plant canopy undergoes heavy nutritional or fruit stress loads",
+      "nearby_crop_risk": "High for downstream adjacent potato and tomato blocks downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated target spots present on less than 10% of lower older leaves; zero defoliation noticed.",
+        "field_indicator": "Fewer than 3 lesions per lower leaf blade; middle and top canopy perfectly green.",
+        "recommended_action": "Maintain optimal nitrogen levels. Monitor field weekly. Ensure irrigation happens early in mornings."
+      },
+      {
+        "level": "Medium",
+        "description": "Target spots are common on lower leaves, with early spots showing on middle canopy layers; lower leaves turning yellow.",
+        "field_indicator": "Foliar yellowing clear; concentric rings easy to resolve across mid-tier leaflets; minor dropping.",
+        "recommended_action": "Initiate a protective fungicide spray program. Maintain regular 7-to-10-day application loops if wet weather holds."
+      },
+      {
+        "level": "High",
+        "description": "Severe lower leaf drop climbing into upper canopy layers; lower half of staking lines completely bare.",
+        "field_indicator": "Widespread canopy browning; flag lines heavily spotted; dark leathery craters visible on fruit shoulders.",
+        "recommended_action": "Apply systemic curative fungicides instantly to protect remaining foliage and preserve fruit sizes. Plan for deep residue plowing."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant clean certified seed lots free of external pod stain marks",
+        "Select early-maturing field-tolerant hybrids with documented field score history"
+      ],
+      "field_management": [
+        "Maintain recommended row spaces to maximize sunlight penetration and speed leaf drying after rain"
+      ],
+      "irrigation_management": [
+        "Switch to furrow or drip irrigation networks; avoid evening overhead sprinkling lines"
+      ],
+      "soil_management": [
+        "Apply balanced primary inputs based on petiole or soil analysis to prevent premature leaf stress and aging"
+      ],
+      "crop_rotation": [
+        "Rotate out of solanaceous crop lines (potatoes, tomatoes, peppers, eggplants) for at least 3 years"
+      ],
+      "sanitation": [
+        "Plow field residues deeply immediately post-harvest to accelerate fungal cell breakdown",
+        "Eradicate solanaceous weed hosts"
+      ],
+      "monitoring": [
+        "Scout lower canopy leaf layers bi-weekly from early vegetative stage, looking closely for chocolate-brown circles with target rings"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Confirm the presence of distinct concentric target rings to rule out bacterial spots",
+        "Prune off heavily spotted lower leaves during dry sunny afternoons to lower spore reservoirs"
+      ],
+      "cultural_control": [
+        "Stake and prune tomato lines to elevate the canopy off the ground soil splash line and drive airflow"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays or sulfur formulations at early vegetative stages before canopy closure",
+        "Use bio-fungicides"
+      ],
+      "biological_control": [
+        "Apply commercial formulations of Bacillus amyloliquefaciens or Trichoderma viride to suppress early spore setup on leaves"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil",
+          "product_type": "Protectant Fungicide (Multi-site)",
+          "dose": "1.5 - 2.0 pt/Acre (Product dependent)",
+          "application_method": "Foliar spray applied with appropriate pressures for uniform deep canopy penetration",
+          "spray_interval": "7 - 10 days apart under standard weather blocks",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "A pure multi-site protectant; must be on the leaf face *before* spores land. Wear appropriate PPE; hazardous to aquatic life."
+        },
+        {
+          "active_ingredient": "Difenoconazole + Azoxystrobin",
+          "product_type": "Combination Systemic / Translaminar Fungicide",
+          "dose": "8.0 - 14.0 fl oz/Acre",
+          "application_method": "Foliar spray integrated into a resistance-management rotation matrix",
+          "spray_interval": "10 - 14 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Provides premium systemic curative and preventive action. Always alternate with multi-site protectants to prevent resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Early blight is a common fungal disease that starts on the oldest bottom leaves of tomato plants. It creates large brown spots with circles inside that look exactly like a bullseye or target-board. It makes leaves turn yellow and drop off early, stripping the bottom branches bare and moving up to rot the fruit shoulders with leathery black spots.",
+      "what_to_do_now": [
+        "Check your bottom tomato leaves weekly for brown circles with target-board rings inside them.",
+        "Prune off the lowest sick leaves during warm, sunny afternoons to keep the disease from climbing.",
+        "Water early in the morning so the leaves dry quickly under the sun; keep water drops off the leaves."
+      ],
+      "what_not_to_do": [
+        "Do not leave old pruned tomato leaves rotting on the soil surface—remove and bury them.",
+        "Do not over-irrigate with overhead sprinklers late in the afternoon or evening hours.",
+        "Do not grow tomatoes in the exact same spot year after year without a break, as the fungus lives in the dirt."
+      ],
+      "when_to_call_expert": [
+        "If lower leaves are turning yellow and dropping off so fast that your plants are left half-bare while leathery black patches destroy fruit shoulders."
+      ],
+      "risk_warning": "Early blight moves step-by-step up the plant. If left unmanaged during a fruiting wave, it will strip the leaves, burn your fruits under the open sun, and shrink your total harvest weight."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_early_blight",
+        "tomato_healthy",
+        "tomato_target_spot"
+      ],
+      "segmentation_labels": [
+        "concentric_target_spot",
+        "chlorotic_halo_leaf",
+        "fruit_shoulder_crater"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots develop extremely fine rings and cover all leaf layers simultaneously, indicating a potential switch to Target Spot disease"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused closely on leaf spots to clearly resolve the concentric ridged rings inside the dead zone"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-EB-CH-02",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Alternaria solani Conidial Release and Vertical Canopy Progression",
+        "content": "Early Blight of tomato is caused by Alternaria solani. Fungal conidia overwinter on crop residue and germinate under alternating wet/dry patterns. Spore release peaks as relative humidity drops on windy mornings. Pathogenesis tracks systemically upward from older lower leaves due to progressive nutrient reallocation toward developing fruit sinks. Lesions display diagnostic concentric ridged rings resulting from diurnal mycelial growth expansions.",
+        "keywords": [
+          "Alternaria solani",
+          "diurnal growth",
+          "concentric rings",
+          "bullseye lesion",
+          "nutrient sinks",
+          "defoliation"
+        ],
+        "language": "English",
+        "target_user": "Agronomist / Plant Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "6 confirmed cases logged during peak canopy closure and fruit loading",
+      "outbreak_alert_message": "Early Blight Warning: Wet-dry weather switches are driving Alternaria conidial drops. Implement canopy protective shields and manage lower canopy pruning.",
+      "nearby_farm_advice": [
+        "Inspect lower leaf layers immediately.",
+        "Ensure spray equipment hits both leaf faces using deep canopy penetration nozzles."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Tomato Foliar Diseases Manual",
+      "source_url": "https://extension.psu.edu/tomato-early-blight",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "Penn State Extension",
+      "published_year": "2022",
+      "region": "Global / Northeast US",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Standard field scouting diagnostic protocols manual detailing vertical spore trapping indexes."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T12:15:00Z",
+      "updated_at": "2026-06-01T15:45:00Z",
+      "reviewed_by": "Extension Plant Pathology Advisory Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-LB-003",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Late Blight",
+      "category": "Oomycete (Water Mold)",
+      "pathogen_or_cause": [
+        "Phytophthora infestans"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit",
+        "Petioles"
+      ],
+      "disease_stage": "Any stage of growth when weather patterns turn cool, cloudy, and persistently wet"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, irregular, pale green to dark green, water-soaked spots appear on leaves",
+        "Lesions quickly enlarge into large, purple-black or brown-black necrotic blighted patches"
+      ],
+      "middle_stage": [
+        "A delicate, white, downy fungal-like growth blankets the undersides of leaves along the active borders of the lesions during damp mornings",
+        "Stems develop dark brown, leathery lesions that girdle branches"
+      ],
+      "severe_stage": [
+        "Entire fields turn black, rot, and collapse within 5 to 7 days, emitting a foul, decaying plant odor",
+        "Infected fruits develop large, firm, wrinkled, dark chocolate-brown marbled blotches that extend deep into the meat"
+      ],
+      "visible_signs": [
+        "White, fluffy sporangial fuzz on the borders of leaf lesions under high morning humidity; firm, marbled chocolate-brown rot on green or ripe fruits"
+      ],
+      "farmer_reported_signs": [
+        "My tomato field looks like it was scorched by wildfire or hit by a severe frost overnight, and the fruits are turning into large hard brown rotten balls"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Water-soaked green changing to purplish-black; white downy fringe underneath leaf lesions; marbled chocolate-brown fruit rings"
+      ],
+      "spot_or_patch_shape": "Large, expansive, irregular dead patches that move across leaflets indiscriminately without crossing vein restrictions",
+      "pattern": "Rapid, explosive canopy meltdown moving across fields in circular patch waves following foggy weather cycles",
+      "location_on_plant": "Can look systemic, appearing anywhere on leaves, stems, or fruit shoulders, starting frequently in dense shaded field pockets",
+      "starts_from": "Leaf edges or stem joints where condensation water lingers through the night hours",
+      "progression": "Extremely fast; completely destroys healthy leaves, stems, and fruits within days under ideal conditions",
+      "image_clues": [
+        "White fluffy borders on the underside of a dark leaf blighted patch",
+        "Tomato fruit showing firm, wrinkled chocolate-brown marbled rot patches"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Early Blight (Alternaria solani)",
+        "difference": "Early blight forms distinct concentric target-board rings inside dry brown spots and lacks the white downy morning mold or the large, firm marbled chocolate-brown fruit rot typical of Late Blight.",
+        "confusion_risk": "Medium during the initial stages of spot development."
+      },
+      {
+        "name": "Buckeye Rot (Phytophthora nicotianae)",
+        "difference": "Buckeye rot attacks fruit surfaces exclusively near the ground soil contact, forming smooth, elastic concentric brown bands, but completely lacks any foliar leaf blighting or white leaf undersurface mold growth.",
+        "confusion_risk": "High, when evaluating fruit symptoms only."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, cloudy, persistently wet weather paired with continuous rain, morning fogs, or heavy dews"
+      ],
+      "temperature_range": "10°C - 21°C (50°F - 70°F) optimal for water mold sporulation and cycling; stalls above 26°C",
+      "humidity_level": "Extremely high relative humidity (>90% to 100%) with continuous moisture layers on foliage",
+      "season": "Winter cropping cycles in southern regions, or wet spring/autumn cycles in northern zones",
+      "soil_conditions": [
+        "Waterlogged soils with poor root zone drainage networks"
+      ],
+      "field_conditions": [
+        "Dense, unpruned crop canopies blocking internal air currents",
+        "Fields shaded heavily by valley walls or tree borders"
+      ],
+      "irrigation_conditions": [
+        "Frequent or late-evening overhead sprinkler irrigation that prevents leaves from drying before dusk"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne sporangia carried miles on frontal wind currents across agricultural counties",
+        "Splashing rain and wind-driven water droplets",
+        "Contaminated transplant sets"
+      ],
+      "source_of_infection": [
+        "Infected cull piles left exposed near field edges",
+        "Infected volunteer potato or tomato plants overwintering",
+        "Infected transplant materials"
+      ],
+      "survival_method": "Must survive within living host tissues (such as unharvested potato tubers or greenhouse volunteer hosts) in the absence of sexual oospores",
+      "spread_speed": "Explosive; can destroy an entire unprotected tomato block within 5 days under optimal parameters",
+      "nearby_crop_risk": "Extreme risk; represents a community-level threat to all neighboring solanaceous farms"
+    },
+    "severity_levels": [
+      {
+        "level": "Low (Trace Status)",
+        "description": "A few isolated plants in low-lying, damp areas show water-soaked lesions with faint white sporulation.",
+        "field_indicator": "Single hotspot or rare isolated lesions found on less than 1% of plants scanned.",
+        "recommended_action": "Rogue out and destroy infected plants immediately on a hot sunny afternoon. Alert neighbors and apply full preventative protectant fungicides field-wide."
+      },
+      {
+        "level": "Medium",
+        "description": "Late blight lesions are easily detected throughout the field, affecting multiple plants across rows; early fruit rot lines.",
+        "field_indicator": "Between 1% and 10% of foliage displays active expanding dark patches with visible morning downy growth.",
+        "recommended_action": "Switch to curative translaminar systemic fungicides immediately. Tighten application intervals to 5 days. Eliminate overhead watering."
+      },
+      {
+        "level": "High / Critical",
+        "description": "Widespread collapse of foliage across large portions of the field; stems are girdled; fruits are rotting heavily.",
+        "field_indicator": "Greater than 10% of total field foliage is severely blighted, turning black or melting down.",
+        "recommended_action": "Apply strong systemic block treatments to protect uncollapsed plants and limit final fruit rot losses. Prepare for rapid harvest of unaffected lines."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant certified disease-free transplant sets sourced from reputable nurseries",
+        "Select resistant cultivars carrying Ph-2 and Ph-3 resistance genes if available"
+      ],
+      "field_management": [
+        "Prune lower leaves and maintain wide spacing to maximize air penetration through rows",
+        "Eliminate field shade obstacles"
+      ],
+      "irrigation_management": [
+        "Utilize drip irrigation lines exclusively to keep leaves dry",
+        "Avoid late afternoon watering cycles"
+      ],
+      "soil_management": [
+        "Select well-drained fields with high elevation layouts to prevent standing water zones"
+      ],
+      "crop_rotation": [
+        "Enforce strict crop rotation intervals away from tomatoes and potatoes across seasons"
+      ],
+      "sanitation": [
+        "Completely destroy all volunteer solanaceous hosts and clean out cull dumps near field borders early",
+        "Bury infected residues deeply"
+      ],
+      "monitoring": [
+        "Sign up for local forecasting alerts (e.g., USAblight.org)",
+        "Inspect low spots and shaded field borders daily during cool, damp weather phases"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue out infected localized hotspots on dry, sunny afternoons safely into plastic bags",
+        "Initiate a regional alert and adjust protective programs"
+      ],
+      "cultural_control": [
+        "Keep fields perfectly weed-free to maximize wind drying across row paths"
+      ],
+      "organic_control": [
+        "Apply fixed copper compounds preventatively at regular 5-to-7-day intervals during high-risk cool wet periods",
+        "Incorporate bio-fungicides"
+      ],
+      "biological_control": [
+        "Limited field efficacy during active epidemics; certain biological antagonists may help suppress low levels of spore germination"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Protectant Fungicide (Multi-site)",
+          "dose": "2.0 - 2.5 g/Liter of water (or 500g/Acre)",
+          "application_method": "Broadcast foliar spray with total canopy coverage using fine misting nozzles",
+          "spray_interval": "5 - 7 days during high-risk weather blocks",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "A pure protectant; must be on the leaf surface *before* spores land. Toxic to aquatic life."
+        },
+        {
+          "active_ingredient": "Cyazofamid or Mandipropamid",
+          "product_type": "Systemic / Oomycete Targeted Fungicide",
+          "dose": "2.1 - 2.75 fl oz/Acre (Cyazofamid dependent)",
+          "application_method": "Foliar spray integrated into a resistance-management rotation matrix",
+          "spray_interval": "7 daysapart under heavy pressure loops",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Highly effective against water molds. Do not make sequential applications; rotate FRAC codes to protect efficacy."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Late blight is an extremely aggressive water mold disease that acts like a wildfire in your field. It thrives during cool, foggy, rainy weather, melting healthy green tomato leaves, stems, and branches into rotten black mush within a few days. It also attacks green and ripe fruits, covering them in large, hard, marbled chocolate-brown rot patches that completely ruin them.",
+      "what_to_do_now": [
+        "Inspect your fields daily if the weather turns cool, cloudy, and rainy.",
+        "Look on the undersides of dark leaf spots for a delicate white, fuzzy growth in the morning fog.",
+        "Bury or destroy any piles of waste tomatoes sitting near your fields immediately."
+      ],
+      "what_not_to_do": [
+        "Never ignore a single spot of late blight; it can destroy your entire crop in less than a week if left unmanaged.",
+        "Do not harvest fruits while the vines are actively wet with rain or dew.",
+        "Do not throw diseased tomatoes into open waste piles—they will produce millions of airborne spores that infect your whole region."
+      ],
+      "when_to_call_expert": [
+        "Call an extension expert or professional agronomist immediately upon noticing any suspected late blight symptoms in your field or district."
+      ],
+      "risk_warning": "Late blight is a catastrophic disease. If you do not spray preventative barriers or manage an outbreak instantly, you can lose 100% of your crop yield within a single wet week."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_late_blight",
+        "tomato_healthy",
+        "tomato_early_blight"
+      ],
+      "segmentation_labels": [
+        "late_blight_necrotic_patch",
+        "white_sporangial_fringe",
+        "marbled_brown_fruit_rot"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "Any positive or borderline classification occurs, due to high epidemic risk",
+        "The white fuzzy growth pattern is observed on any leaf face"
+      ],
+      "image_quality_requirements": [
+        "Requires high-resolution macros showing the underside of the infected leaf tissue to resolve sporangial fringes clearly"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-LB-CH-03",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Phytophthora infestans Oomycete Nature and Clonal Lineages",
+        "content": "Late blight is caused by the obligate oomycete Phytophthora infestans (water mold). It spreads rapidly via windborne sporangia under cool (10-21°C) and highly humid (>90% RH) conditions. Pathogenesis involves swift intercellular hyphal colonization, leading to large water-soaked blighted zones and a characteristic white sporangial fringe on abaxial leaf faces. Fruit damage appears as a firm, wrinkled, marbled chocolate-brown dry rot that extends internally into the pericarp wall.",
+        "keywords": [
+          "Phytophthora infestans",
+          "oomycete",
+          "sporangia",
+          "abaxial fringe",
+          "pericarp rot",
+          "marbled rot"
+        ],
+        "language": "English",
+        "target_user": "Research Scientist / Farm Manager"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional / County wide",
+      "risk_radius": "50 km",
+      "report_count_threshold": "1 single confirmed case triggers a level-5 regional alert",
+      "outbreak_alert_message": "CRITICAL ALERT: Late Blight confirmed in your immediate area. Switch to high-frequency protective or curative spray programs immediately.",
+      "nearby_farm_advice": [
+        "Inspect all fields within 24 hours.",
+        "Eliminate overhead watering protocols entirely.",
+        "Ensure full contact-fungicide coverage before incoming rain fronts arrive."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Late Blight of Potatoes and Tomatoes Fact Sheet",
+      "source_url": "https://ag.umass.edu/vegetable/fact-sheets/tomato-late-blight",
+      "source_type": "University Extension Monograph",
+      "author_or_organization": "University of Massachusetts Amherst Extension",
+      "published_year": "2021",
+      "region": "Global / North America",
+      "language": "English",
+      "last_verified": "2026-05-20",
+      "trust_level": "High",
+      "notes": "Premium authoritative source outlining management, forecasting indices, and sanitation mandates."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T12:30:00Z",
+      "updated_at": "2026-06-01T15:45:00Z",
+      "reviewed_by": "Plant Pathology Extension Network Review Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-LM-004",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Leaf Mold",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Passalora fulva",
+        "Fulvia fulva",
+        "Cladosporium fulvum"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Flowers rarely",
+        "Fruit rarely"
+      ],
+      "disease_stage": "Mid to Late Season; highly critical inside greenhouse or high-tunnel structures"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Pale green to light yellow, diffuse patches with indefinite borders appear on the upper surfaces of older lower leaves"
+      ],
+      "middle_stage": [
+        "A dense, velvety, olive-green to gray-purple mold mat grows over the corresponding leaf undersides directly beneath the yellow patches",
+        "The upper leaf yellowing deepens into bright chlorotic squares"
+      ],
+      "severe_stage": [
+        "The velvety fungal mat turns dark brown and powdery as millions of spores release",
+        "Full leaves shrivel, roll up inward, turn dry brown, and drop off early, moving vertically upward and defoliating staking lines"
+      ],
+      "visible_signs": [
+        "Velvety olive-green to purple-brown spore carpet coating leaf undersides underneath light yellow upper leaf patches"
+      ],
+      "farmer_reported_signs": [
+        "The undersides of my tomato leaves are covered in a thick velvet olive-green or grayish fur, and the tops are turning yellow and curling up"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Upper leaf faces show diffuse yellow patches; under leaf surfaces develop olive-green changing to dark purple-brown velvet blankets"
+      ],
+      "spot_or_patch_shape": "Diffuse, un-bounded, rounded or irregular structural patches matching the grid lines of leaf segments",
+      "pattern": "Climbs progressively up from older bottom leaves into the middle row tiers inside crowded, high-moisture tunnels",
+      "location_on_plant": "Restricted heavily to the foliar leaf blades; starts on older shaded interior layers first",
+      "starts_from": "Leaf undersides facing the lowest air circulation layers near damp soil lines",
+      "progression": "Forces extensive foliar drying and rolling without creating independent dry target spots or watery stem cankers",
+      "image_clues": [
+        "Olive-green velvety fuzzy blanket on the back of a tomato leaf",
+        "Bright yellow diffuse blotches on upper leaflet faces"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Powdery Mildew (Leveillula taurica)",
+        "difference": "Powdery mildew creates bright yellow spots on upper leaf faces, but produces a dry, white, powdery dust layer on leaf surfaces rather than a thick olive-green or purple velvety carpet on leaf undersides.",
+        "confusion_risk": "High, when looking only at upper yellow spots."
+      },
+      {
+        "name": "Late Blight (Phytophthora infestans)",
+        "difference": "Late blight forms large, greasy water-soaked purplish-black dead patches that quickly cross the entire leaf width and displays a fine white downy growth fringe underneath, rather than a dense olive velvet blanket.",
+        "confusion_risk": "Medium during early damp stages."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid weather with stagnant air layers, especially common inside polyhouses, plastic tunnels, or glasshouses"
+      ],
+      "temperature_range": "21°C - 24°C (70°F - 75°F) optimal for Passalora mycelial extensions; active up to 28°C",
+      "humidity_level": "Extremely high relative humidity inside the canopy, exceeding 85% continuously",
+      "season": "Spring or autumn protected cultivation windows, or humid wet monsoon cycles in field blocks",
+      "soil_conditions": [
+        "Not directly dependent on soil types, but highly damp ground mulch layers trap moisture buffers"
+      ],
+      "field_conditions": [
+        "Over-crowded greenhouse layouts with low fans or ventilation gaps",
+        "Unpruned tomato bushes trapping damp air pocket zones"
+      ],
+      "irrigation_conditions": [
+        "High-frequency overhead sprinkler watering lines inside enclosed tunnels"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia spores drifting easily via internal air currents, fans, or ventilation lines",
+        "Spore transfer via clothing, pruning shears, or hands"
+      ],
+      "source_of_infection": [
+        "Infected crop residue leftovers left standing inside greenhouse structures",
+        "Spores resting on structural greenhouse frames and wires"
+      ],
+      "survival_method": "Survives as a resistant saprophyte or dormant spores attached to greenhouse stakes, wall plastics, or inside dry topsoil debris for over a year",
+      "spread_speed": "Highly fast inside closed, humid greenhouse arches once early colonies sporulate",
+      "nearby_crop_risk": "High for adjacent protected tomato structures downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint yellow patches and minor gray velvet fuzz on less than 5% of the oldest lower leaves only.",
+        "field_indicator": "A few isolated interior leaves show backing fur; middle canopy is clean green and open.",
+        "recommended_action": "Increase greenhouse ventilation immediately. Open wall curtains and turn on circulation fans. Prune off lowest back-furred leaves during dry middays."
+      },
+      {
+        "level": "Medium",
+        "description": "Olive velvet carpets cover 5% to 20% of leaf layers; upper yellowing spots are striking across rows.",
+        "field_indicator": "Velvety gray-brown patches visible on mid-tier leaf layers; a few leaflets are rolling and drying up.",
+        "recommended_action": "Apply targeted protective or systemic fungicides immediately. Enforce strict lower leaf pruning to drop boundary layer moisture."
+      },
+      {
+        "level": "High",
+        "description": "More than 20% of the entire foliar canopy is shriveled, brown, or dropping early; severe lower stem bareness.",
+        "field_indicator": "Massive foliar burnout; inside rows look bare of leaves up to the fruit clusters, reducing fruit sugars and yields.",
+        "recommended_action": "Apply systemic curative fungicides instantly to preserve top flag lines. Thoroughly sanitize greenhouse frameworks post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant clean certified seeds; choose resistant cultivars rated for specific Passalora fulva races (Cf-genes) if growing indoors"
+      ],
+      "field_management": [
+        "**Maintain aggressive greenhouse ventilation protocols; space out rows and prune suckers to drive airflow**"
+      ],
+      "irrigation_management": [
+        "Use drip lines exclusively; manage irrigation timing for early morning hours so rows dry fast under the sun"
+      ],
+      "soil_management": [
+        "Keep ground mulch lines dry; manage internal humidity levels below 80% using venting heaters if practical"
+      ],
+      "crop_rotation": [
+        "Rotate greenhouse crops or solarize tunnel soils between cropping loops"
+      ],
+      "sanitation": [
+        "**Thoroughly wash and disinfect greenhouse walls, stakes, wires, and tools with specialized sanitisers post-harvest**",
+        "Remove residues"
+      ],
+      "monitoring": [
+        "Scout interior shaded leaves twice a week, flipping leaflets over to look for early pale olive-green morning velvet layers"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Flip yellowing leaflets over to verify olive-green velvet fur and confirm Leaf Mold",
+        "Turn up internal air movement loops and open vent arches immediately"
+      ],
+      "cultural_control": [
+        "Prune out and remove suckers and lowest leaves up to the first active fruit cluster during dry afternoon hours"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays or sulfur formulations frequently during high-humidity cycles",
+        "Use bio-fungicides"
+      ],
+      "biological_control": [
+        "Apply formulations of Bacillus subtilis preventatively to help block fungal spore attachments on leaf undersides"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Difenoconazole",
+          "product_type": "Systemic Fungicide (Triazole)",
+          "dose": "0.5 - 0.8 mL/Liter of water (or local product dependent)",
+          "application_method": "Foliar mist spray directed thoroughly at both leaf faces, ensuring full contact with leaf undersides",
+          "spray_interval": "7 - 10 days apart if greenhouse relative humidity remains high",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Provides excellent systemic protective and curative controls. Rotate chemical classes to prevent resistance loops."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Tomato leaf mold is a common fungal disease that attacks tomato crops grown inside plastic tunnels or greenhouses where air stays still and damp. It creates light yellow patches on the tops of leaves and coats the bottom side in a thick, velvety, olive-green or grayish fur, causing the leaves to shrivel, roll up, and drop off early.",
+      "what_to_do_now": [
+        "Open all your greenhouse curtains and turn on fans immediately to dry out the air and drop humidity.",
+        "Prune off the lowest tomato leaves up to the first fruit cluster during dry, sunny afternoons to let wind blow through the rows.",
+        "Check leaf backs weekly for olive velvet fur underneath yellow patches."
+      ],
+      "what_not_to_do": [
+        "Never water your greenhouse tomatoes using overhead sprinklers—always use drip tape lines straight on the dirt.",
+        "Do not leave old pruned leaves lying inside the greenhouse lanes—carry them outside and bury them deep.",
+        "Do not crowd your tomato plants too close together when planting indoors."
+      ],
+      "when_to_call_expert": [
+        "If the olive velvet mold is spreading rapidly up into your top leaves and causing heavy foliar shedding inside your tunnels despite running fans."
+      ],
+      "risk_warning": "Leaf mold acts fast in stagnant, humid air. If ignored inside a greenhouse, it will strip your leaves early, starve your tomatoes of sugars, and reduce your market yield weights significantly."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_leaf_mold_underside",
+        "tomato_healthy",
+        "tomato_powdery_mildew"
+      ],
+      "segmentation_labels": [
+        "olive_velvet_mycelium",
+        "chlorotic_upper_blotches",
+        "shriveled_rolled_leaf"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "The mold layer looks bright white and dusty on the upper leaf surfaces rather than olive velvet underneath, signaling powdery mildew instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused sharply on the leaf underside to resolve the true olive-green to purple-brown velvet hair matrix"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-LM-CH-04",
+        "chunk_type": "Pathology / Microclimate",
+        "title": "Passalora fulva Conidial Sporulation and Protected Culture Dynamics",
+        "content": "Leaf mold of tomato is induced by the biotrophic fungus Passalora fulva (Fulvia fulva). The pathogen targets the abaxial leaf epidermis under elevated greenhouse relative humidity parameters (>85%). Pathogenesis creates indistinct adaxial yellow chlorosis backed by dense abaxial velvety mats of branched conidiophores holding olive-green conidia. Complete sanitation of greenhouse structural assemblies (stakes, plastics, framing) is critical, as conidia display high desiccation resistance over fallow windows.",
+        "keywords": [
+          "Passalora fulva",
+          "biotroph",
+          "abaxial epidermis",
+          "conidiophores",
+          "greenhouse chlorosis",
+          "structural sanitation"
+        ],
+        "language": "English",
+        "target_user": "Greenhouse Manager / Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Cane Factory command area / Protected Cultivation Block",
+      "risk_radius": "10 km",
+      "report_count_threshold": "4 confirmed indoor alerts logged during misty weather loops",
+      "outbreak_alert_message": "Leaf Mold Alert: High internal humidity inside plastic tunnels is driving Passalora sporulation. Increase ventilation loops and prune lower canopies immediately.",
+      "nearby_farm_advice": [
+        "Maintain strict humidity thresholds below 80%.",
+        "Apply protective systemic triazole shields before canopy rows close tight."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Greenhouse Tomato Disease Management Guidelines",
+      "source_url": "https://ipm.ucanr.edu/agriculture/tomato/leaf-mold/",
+      "source_type": "University IPM Portal",
+      "author_or_organization": "University of California Agriculture and Natural Resources (UC IPM)",
+      "published_year": "2023",
+      "region": "Global / Controlled Environments",
+      "language": "English",
+      "last_verified": "2026-03-24",
+      "trust_level": "High",
+      "notes": "Excellent standard guide for managing resistant gene deployments inside commercial polyhouse rows."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:00:00Z",
+      "updated_at": "2026-06-01T16:00:00Z",
+      "reviewed_by": "UC IPM Controlled Environments Review Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-SLS-005",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Septoria Leaf Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Septoria lycopersici"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Calyx rarely"
+      ],
+      "disease_stage": "Early vegetative to fruiting stage; highly active during extended warm rainy spells"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Numerous tiny, circular spots (1-3 mm) break out on the oldest lower leaves nearest the ground line",
+        "Spots look dark brown initially before changing centers quickly"
+      ],
+      "middle_stage": [
+        "Spots develop distinct gray-to-white centers wrapped in a sharp, dark brown or black border ring",
+        "Using a magnifying lens reveals tiny, black, pimple-like fruiting dots (pycnidia) embedded inside the gray center",
+        "Surrounding leaf tissue turns brilliant yellow"
+      ],
+      "severe_stage": [
+        "Thousands of small spots coalesce, forcing full leaves to turn dry yellow, shrivel into papery crisp bundles, and drop off early",
+        "The lower third of tomato stakes becomes completely defoliated, moving rapidly up to upper branch tiers, exposing fruits to severe sunscald injuries"
+      ],
+      "visible_signs": [
+        "Tiny, dense circular spots with light gray centers and dark brown border rings holding microscopic black pimple dots; progressive bottom-up defoliation"
+      ],
+      "farmer_reported_signs": [
+        "My bottom tomato leaves are covered in thousands of tiny gray freckles with dark rims and small black sand-like dots inside, and leaves are falling off fast"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Spots change to light gray or off-white centers with dark charcoal borders; surrounding tissue turns bright yellow before dropping"
+      ],
+      "spot_or_patch_shape": "Small, neat, separate circular pin-spots running across leaf blades without being restricted by vein paths",
+      "pattern": "Strictly bottom-up vertical progression, stripping branches from the ground line upward as rain events splash spores",
+      "location_on_plant": "Concentrated heavily on foliar leaf blades and leaf stems (petioles) starting on the oldest lower leaves; rarely touches fruit directly",
+      "starts_from": "Older lower leaf layers exposed to heavy rain droplet splashes from contaminated topsoils",
+      "progression": "Forces fast lower canopy leaf drop, moving steadily to upper foliage lines during wet weeks",
+      "image_clues": [
+        "Tomato leaflet covered in tiny grey spots with dark rims holding black pinpoint dots",
+        "Bare lower tomato stems on staked lines"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Spot (Xanthomonas perforans)",
+        "difference": "Bacterial spot forms angular, dark greasy lesions that lack grey-white centers and never develop tiny black embedded pimple dots (pycnidia) inside the dead zone.",
+        "confusion_risk": "High, due to identical tiny spot sizes on leaves."
+      },
+      {
+        "name": "Early Blight (Alternaria solani)",
+        "difference": "Early blight forms much larger spots (6-12 mm) displaying broad concentric target-board rings, whereas Septoria spots are tiny, circular, and packed with black pinpoint pycnidia pimples.",
+        "confusion_risk": "Medium, as both start on lower leaves and move bottom-up."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet weather with frequent, short rainy downpours or extended morning fogs"
+      ],
+      "temperature_range": "20°C - 25°C (68°F - 77°F) optimal for Septoria spore germination and cycling; active up to 28°C",
+      "humidity_level": "Extended relative humidity above 85% with continuous wet leaf faces for 8 to 10 hours",
+      "season": "Mid-monsoon Kharif lines when row canopies close tight, trapping ground moisture",
+      "soil_conditions": [
+        "Fields where infected solanaceous crop residues are left on the topsoil surface without burial plowing"
+      ],
+      "field_conditions": [
+        "Dense planting layouts blocking wind movement near the soil line",
+        "Continuous tomato farming blocks"
+      ],
+      "irrigation_conditions": [
+        "Frequent afternoon overhead sprinkler watering that keeps leaves wet through the night hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Rain droplets splashing fungal spores upward from old soil debris onto lower leaves",
+        "Field workers or tools brushing wet row lines",
+        "Flea beetles carrying spores locally"
+      ],
+      "source_of_infection": [
+        "Infected tomato crop residues left standing or on the topsoil surface",
+        "Volunteer tomato plants",
+        "Solanaceous weed hosts (e.g., horsenettle)"
+      ],
+      "survival_method": "Overwinters as dormant pycnidia fruiting structures inside infected plant debris left resting on the field surface layer for over a year",
+      "spread_speed": "Highly fast across field rows during extended warm rainy spells with frequent rain splash events",
+      "nearby_crop_risk": "Moderate to high for downstream younger tomato fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Tiny gray spots with dark borders restricted entirely to the lowest 10% of older leaves; zero defoliation noticed.",
+        "field_indicator": "Fewer than 10 spots per lower leaf blade; middle and top canopy perfectly clean green.",
+        "recommended_action": "No chemical action needed for grain blocks. Prune lowest leaves during dry warm afternoons. Improve row weeding."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots are numerous on lower and middle leaf layers, causing leaf yellowing; lower leaves starting to drop off.",
+        "field_indicator": "Gray-centered spots easy to resolve across mid-tier leaflets; embedded black pimples visible under hand lens.",
+        "recommended_action": "Apply recommended protective or systemic fungicides immediately. Suspend overhead sprinkler lines."
+      },
+      {
+        "level": "High",
+        "description": "Severe lower leaf drop climbing into upper canopy layers; lower half of staking lines completely bare of foliage.",
+        "field_indicator": "Widespread leaf yellowing and dropping across rows; green leaf area heavily reduced, exposing fruits to sunscald.",
+        "recommended_action": "Apply systemic fungicides instantly to protect upper flag leaves and preserve fruit sizes. Plan for deep residue plowing post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant certified seed lots sourced from documented clean field networks",
+        "Select cultivars showing high field tolerance scores if available"
+      ],
+      "field_management": [
+        "Maintain wide row spacing and stake tomato lines to keep leaves elevated off ground soil splash lines",
+        "Weed regularly"
+      ],
+      "irrigation_management": [
+        "Use drip irrigation tape networks exclusively; avoid running late afternoon overhead sprinkling loops"
+      ],
+      "soil_management": [
+        "Apply organic mulches (e.g., straw or plastic mulch) over rows to create a physical barrier blocking soil spore splash onto leaves"
+      ],
+      "crop_rotation": [
+        "**Rotate out of solanaceous crops (potatoes, tomatoes, peppers, eggplants) for at least 3 years** using non-hosts"
+      ],
+      "sanitation": [
+        "Plow fields deeply immediately post-harvest to bury old leaf debris under soil layers where they rot quickly",
+        "Destroy volunteer hosts"
+      ],
+      "monitoring": [
+        "Inspect lowest canopy leaf layers bi-weekly from early vegetative stage, looking closely for tiny circular spots with gray centers"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Verify spots have light gray centers with dark brown rim rings and black pimple dots to confirm Septoria",
+        "Prune off heavily spotted lower leaves during dry sunny afternoons"
+      ],
+      "cultural_control": [
+        "Incorporate high organic mulch barriers over field soil lines to block rain-spore vertical splash paths"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays or sulfur dust formulations at early vegetative stages before row canopy closure"
+      ],
+      "biological_control": [
+        "Foliar application of commercial formulations based on Bacillus subtilis can help outcompete early spore landing pads on leaf faces"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil",
+          "product_type": "Protectant Fungicide (Multi-site)",
+          "dose": "1.5 - 2.0 pt/Acre (Product dependent)",
+          "application_method": "Foliar spray applied with appropriate pressures for uniform deep canopy penetration",
+          "spray_interval": "7 - 10 days apart under wet monsoon pressure lines",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Forms a multi-site protective shield. Wear full PPE; dangerous for aquatic ecosystems. Do not apply near open field channels."
+        },
+        {
+          "active_ingredient": "Pyraclostrobin or Difenoconazole",
+          "product_type": "Systemic / Translaminar Fungicide",
+          "dose": "6.0 - 9.0 fl oz/Acre (Pyraclostrobin dependent)",
+          "application_method": "Foliar spray directed uniformly over leaf layers at first sign of spot movement onto middle canopy layers",
+          "spray_interval": "10 - 14 days apart",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Provides premium systemic curative action to halt fungal reproduction. Rotate FRAC codes to prevent resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Septoria Leaf Spot is a common fungal disease that starts as thousands of tiny circular gray freckles with dark rims on the oldest bottom tomato leaves. It thrives during warm, wet weather when rain drops splash fungal spores up from the dirt onto the leaves, causing them to turn yellow and drop off fast. It strips the bottom branches completely bare, moving steadily upward and leaving fruits exposed to sunburn.",
+      "what_to_do_now": [
+        "Check your lowest bottom tomato leaves weekly for tiny gray pin-spots with dark brown borders.",
+        "Prune off the lowest sick leaves during warm, sunny afternoons and throw them away outside your field lanes.",
+        "Spread a thick layer of clean straw or plastic mulch over the dirt rows to stop rain from splashing dirt spores onto leaves."
+      ],
+      "what_not_to_do": [
+        "Never water your tomato plants using overhead sprinklers in the evening—keep leaves completely dry using drip lines.",
+        "Do not grow tomatoes or potatoes in the exact same field year after year, as the fungus lives inside old crop waste.",
+        "Do not prune or walk through rows while the leaves are wet with rain or heavy dew drops."
+      ],
+      "when_to_call_expert": [
+        "If your lower tomato leaves are turning yellow and dropping off so fast that the bottom half of your staking lines are left bare during fruit setting."
+      ],
+      "risk_warning": "While this disease rarely rot tomato fruits directly, stripping the leaf canopy early starves the plant of energy, leading to small, flavorless fruits and heavy yield reductions from sunburn."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_septoria_leaf_spot",
+        "tomato_healthy",
+        "tomato_bacterial_spot"
+      ],
+      "segmentation_labels": [
+        "gray_center_pinspot",
+        "pycnidia_black_dots",
+        "chlorotic_leaflet_tissue"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots grow very large and develop concentric ridged rings like a bullseye, indicating a shift to Early Blight instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused sharply on leaf spot centers to resolve the tiny embedded black pimple dots (pycnidia) clearly"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-SLS-CH-05",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Septoria lycopersici Pycnidial Splash and Defoliation Kinetics",
+        "content": "Septoria Leaf Spot of tomato is caused by Septoria lycopersici. Fungal pycnidia overwinter on surface crop residues. Early season rain events cause conidial extrusion in gelatinous matrices, spread via vertical rain droplet splash upward onto lower leaves. Pathogenesis creates circular lesions with ash-grey centers packed with black embedded pycnidia. The pathogen induces fast ethylene-driven chlorosis and defoliation under warm wet regimes (20-25°C), tracking vertically up the canopy layer, lowering leaf area index components.",
+        "keywords": [
+          "Septoria lycopersici",
+          "pycnidia",
+          "conidial splash",
+          "vertical tracking",
+          "defoliation",
+          "leaf area index"
+        ],
+        "language": "English",
+        "target_user": "Extension Pathologist / Vegetable Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "6 confirmed cases logged during mid-monsoon canopy closure",
+      "outbreak_alert_message": "Septoria Leaf Spot Warning: Warm humid rows are driving vertical spore splashes. Implement ground mulching and canopy protective shields near bloom.",
+      "nearby_farm_advice": [
+        "Inspect lower leaf layers immediately.",
+        "Ensure spray equipment uses deep canopy penetration nozzle adjustments to hit lower leaves."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Tomato Disease Scouting Guide",
+      "source_url": "https://extension.missouri.edu/publications/g4442",
+      "source_type": "University Extension Publication",
+      "author_or_organization": "University of Missouri Extension",
+      "published_year": "2021",
+      "region": "Global / Midwest US",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Standard reference matrix mapping foliar fungal lesions across commercial solanaceous varieties."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:30:00Z",
+      "updated_at": "2026-06-01T16:30:00Z",
+      "reviewed_by": "University Plant Pathology Advisory Board Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-SM-006",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Two-Spotted Spider Mites Infestation",
+      "category": "Insect Pest / Acarina",
+      "pathogen_or_cause": [
+        "Tetranychus urticae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Fruit skins rarely"
+      ],
+      "disease_stage": "All growth stages; explodes dramatically during hot, dry, dusty summer months"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Thousands of tiny, white-to-pale-yellow pinpoint flecks or stippling spots appear on upper surfaces of green leaves",
+        "Looks like the leaf was lightly dusted with fine white sand grains"
+      ],
+      "middle_stage": [
+        "Leaves lose their rich green color, turning dull bronze, gray, or yellow-brown",
+        "A very fine, delicate silken web layer lines leaf undersides and spreads across stem nodes",
+        "Microscopic yellow-green or orange-red mites with two dark body spots can be seen crawling inside the webs"
+      ],
+      "severe_stage": [
+        "Fine silken webs tightly envelope entire terminal shoots, flower clusters, and leaf bundles",
+        "Leaves shrivel completely, dry up crisp brown, and drop off early, causing severe plant defoliation and stunting",
+        "Fruits stay small, un-ripened, or suffer from severe sunscald burns"
+      ],
+      "visible_signs": [
+        "Fine silken spider-like webs wrapping terminal leaf clusters; bronze or bleached yellow leaves covered in thousands of tiny white stippling dots; active crawling microscopic mites"
+      ],
+      "farmer_reported_signs": [
+        "My tomato leaves are covered in thousands of tiny white sand marks, turning bronze-brown, and are wrapped in very tight spider-like webs at branch tips"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Leaves shift from deep green to speckled white stippling, turning dull bronze or dusty yellow-brown before shriveling"
+      ],
+      "spot_or_patch_shape": "Thousands of tiny, separate pinpoint fleck dots distributed evenly across the leaf blade face",
+      "pattern": "Webbing and stippling cluster heavily around terminal growing buds and branch tips during dry spells",
+      "location_on_plant": "Concentrated heavily on leaf undersides and moving rapidly up to young terminal shoots and flower bud nodes",
+      "starts_from": "Lower leaf undersides or shaded interior lines where initial colonies breed undisturbed",
+      "progression": "Mites pierce and suck out individual leaf cells, forcing complete foliar shriveling, canopy burnout, and webbing encapsulation",
+      "image_clues": [
+        "Tomato branch tip tightly wrapped inside a fine silken web blanket holding crawling tiny dots",
+        "Speckled bronze tomato leaf"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Thrips Feeding Damage (Thysanoptera Injury)",
+        "difference": "Thrips feeding creates large, silvery-white metallic patches on leaves dotted with distinct black, shiny tar-like insect droppings and lacks any fine silken spider webbing networks.",
+        "confusion_risk": "High, as both cause fine pale leaf speckling and silvering patterns."
+      },
+      {
+        "name": "Nutritional Magnesium Deficiency",
+        "difference": "Magnesium deficiency causes broad yellow blocks between green leaf veins on old lower leaves but completely lacks fine pinpoint stippling dots or silken web lines at branch tips.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry, sunny weather tracks with low relative humidity and minimal or zero rain spells"
+      ],
+      "temperature_range": "27°C - 35°C (80°F - 95°F) optimal for rapid mite lifecycle cell-doubling; eggs hatch in 3 days",
+      "humidity_level": "Low relative humidity environments (under 60%) inside rows",
+      "season": "Peak summer months or dry winter-spring blocks, heavily accelerated along dusty field margins",
+      "soil_conditions": [
+        "Dry, drought-stressed soil lines that lower plant cell turgidity pressures"
+      ],
+      "field_conditions": [
+        "High amounts of wind-blown dust coatings along field borders (dust triggers fast mite breeding lines)",
+        "Over-use of broad-spectrum insecticides"
+      ],
+      "irrigation_conditions": [
+        "Under-watering or allowing field soils to suffer long moisture stress breaks"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Mites spinning long silken threads to ride wind currents across fields (ballooning)",
+        "Caterpillars or workers moving through rows",
+        "Crawling locally between overlapping branches"
+      ],
+      "source_of_infection": [
+        "Alternative weed hosts (e.g., wild legumes, nightshades, pigweed) along bund borders",
+        "Infested nursery stock"
+      ],
+      "survival_method": "Overwinters as active orange-red adult females inside soil cracks, under old crop stubbles, or on perennial weed roots until warm dry spells arrive",
+      "spread_speed": "Highly explosive; populations can increase ten-fold within a single hot week if left unmanaged",
+      "nearby_crop_risk": "Extreme risk for adjacent eggplant, cucumber, or bean blocks downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint white pinpoint stippling flecks visible on less than 5% of lower leaves; zero silken webs noticed yet.",
+        "field_indicator": "Rare white sand marks on leaf backs; scratching leaflets reveals a few hidden crawling dots; no canopy yellowing.",
+        "recommended_action": "Hose field borders with water to lay down dust. Conserve predatory insects. Avoid broad-spectrum chemical sprays."
+      },
+      {
+        "level": "Medium",
+        "description": "Distinct bronzing or yellowing clear across 5% to 20% of leaf layers; fine silken webs visible under leaves and at nodes.",
+        "field_indicator": "Speckled foliage easy to spot; fine web threads glistening under sunlight; mite clusters active at terminal branch junctions.",
+        "recommended_action": "Apply a recommended targeted acaricide or miticide immediately. Ensure deep spray wetting of leaf undersides."
+      },
+      {
+        "level": "High / Critical",
+        "description": "More than 20% of leaf layers are shriveled, brown, or dropping; branch tips are tightly bound in dense silken nests.",
+        "field_indicator": "Terminal buds wrapped fully in webs; extensive lower leaf drop; fruits are stunted or suffering from sunscald burns.",
+        "recommended_action": "Apply strong systemic miticidal blocks instantly to preserve remaining fruit sizing. Ensure high-pressure application volumes."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Inspect nursery transplant sets thoroughly using hand lenses before carrying into production plots",
+        "Reject webbed stock"
+      ],
+      "field_management": [
+        "Maintain adequate wide row spaces to encourage plant vigor; water farm dirt tracks to suppress wind-blown dust layers"
+      ],
+      "irrigation_management": [
+        "Provide regular, uniform irrigation to avoid moisture stress cycles that favor mite population booms"
+      ],
+      "soil_management": [
+        "Apply balanced inputs; avoid heavy nitrogen overdosages that create lush, nitrogen-rich sap highly favored by mites"
+      ],
+      "crop_rotation": [
+        "Rotate field blocks out of solanaceous lines with dense cover crops between seasons"
+      ],
+      "sanitation": [
+        "Meticulously eradicate alternative broadleaf weeds (like pigweed or nightshades) from all bund lines and irrigation canal banks"
+      ],
+      "monitoring": [
+        "Scout fields twice a week during hot dry stretches, using a hand lens to scan leaf undersides or shaking leaflets over white paper to count dropping mites"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Shake leaf layers over white paper to count dropping mites and verify silken webs to confirm Spider Mites",
+        "Hose dusty border lines down immediately"
+      ],
+      "cultural_control": [
+        "Utilize overhead sprinkler washing blocks on hot dry mornings to physically wash mites and webs off leaf zones if practical"
+      ],
+      "organic_control": [
+        "Foliar spray with neem oil formulations (3000 ppm) at 3-5 mL/Liter or apply commercial insecticidal soaps, ensuring full leaf wetting"
+      ],
+      "biological_control": [
+        "Release predatory mites (e.g., Phytoseiulus persimilis or Neoseiulus californicus) into rows early before mite counts explode"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Abamectin",
+          "product_type": "Targeted Acaricide / Translaminar Miticide",
+          "dose": "0.4 - 0.5 mL/Liter of water (or local product dependent)",
+          "application_method": "Foliar broadcast spray using high pressures and fine misting nozzles to coat leaf undersides and terminal buds completely",
+          "spray_interval": "7 days apart for 2 applications to catch newly hatched eggs (miticides rarely kill unhatched eggs in one loop)",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Highly effective targeted miticide. Do not use broad-spectrum pyrethroids (like cypermethrin), as they kill friendly predatory bugs and trigger explosive mite flare-ups."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Two-spotted spider mites are microscopic, sap-sucking pests that look like tiny crawling dots. They explode in massive numbers during hot, dry, dusty summer weeks. They suck the juice out of tomato leaves, covering them in thousands of tiny white sand marks, turning the branches dull bronze-brown, and wrapping the tips in very tight silken webs that strangle growing buds and ruin fruits.",
+      "what_to_do_now": [
+        "Check leaf undersides using a magnifying lens for tiny yellow crawling bugs and fine silken spider-like threads.",
+        "Spray a targeted miticide or neem oil immediately, making sure to soak the bottom sides of leaves where mites hide.",
+        "Water your field edges and pathways to stop dry wind-blown dust from settling on your crop rows."
+      ],
+      "what_not_to_do": [
+        "**Never spray broad-spectrum insect chemicals (like pyrethroids)**—they kill friendly ladybugs and predatory mites, making the spider mite problem ten times worse.",
+        "Do not let your tomato fields suffer from long dry spells—keep the soil moist to help plants resist sap-sucking.",
+        "Do not leave wild weeds standing along field bund lines."
+      ],
+      "when_to_call_expert": [
+        "If your tomato branch tips are turning completely brown and getting tightly wrapped in dense silken web nests that destroy blossom lines."
+      ],
+      "risk_warning": "Spider mites breed incredibly fast in hot weather. If left unmanaged, they will dry out your leaves, strangle your flowering tips, and leave your tomatoes to rot and burn under the hot sun."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_two_spotted_spider_mite",
+        "tomato_healthy",
+        "tomato_thrips_injury"
+      ],
+      "segmentation_labels": [
+        "silken_terminal_webbing",
+        "pinpoint_white_stippling",
+        "bronzed_leaflet_tissue"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Leaves display broad metallic silver patches dotted with large black tar specks, pointing to thrips bugs needing distinct chemical modes"
+      ],
+      "image_quality_requirements": [
+        "Requires macro close-ups using digital enhancement to clearly resolve the tiny web strands and two-spotted mite bodies crawling on leaf faces"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-SM-CH-06",
+        "chunk_type": "Entomology / Acarology",
+        "title": "Tetranychus urticae Population Dynamics and Chemical Flaring",
+        "content": "The two-spotted spider mite, Tetranychus urticae, is a highly destructive polyphagous acari pest. Under hot dry profiles (27-35°C), its lifecycle condenses dramatically, driving geometric population explosions. Mites feed by puncturing leaf parenchymal cells, producing thousands of distinct chlorotic stippling marks. High infestations prompt the production of dense micro-silken webs that shelter colonies. Applying broad-spectrum synthetic pyrethroids must be avoided, as it decimates phytoseiid predators and causes acute reproductive flaring in female mites.",
+        "keywords": [
+          "Tetranychus urticae",
+          "acari pest",
+          "stippling marks",
+          "silken webs",
+          "phytoseiid predators",
+          "chemical flaring",
+          "pyrethroid disruption"
+        ],
+        "language": "English",
+        "target_user": "Entomologist / Crop Protection Advisor"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "12 km",
+      "report_count_threshold": "5 active mite surge alerts logged during extended drought spells",
+      "outbreak_alert_message": "Spider Mite Warning: Hot dry weather and dusty field winds are triggering rapid Tetranychus breeding cycles. Switch to specific acaricides and manage border dust.",
+      "nearby_farm_advice": [
+        "Inspect leaf backs daily for fine webbing lines.",
+        "Avoid non-selective insecticide applications to safeguard biological predators."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Mite Pests of Solanaceous Crops Guidelines",
+      "source_url": "https://ipm.ucanr.edu/agriculture/tomato/twospotted-spider-mite/",
+      "source_type": "University IPM Database Factsheet",
+      "author_or_organization": "University of California IPM Program",
+      "published_year": "2023",
+      "region": "Global / Semi-Arid Irrigation Tracks",
+      "language": "English",
+      "last_verified": "2026-03-20",
+      "trust_level": "High",
+      "notes": "Premium operative directive detailing specific selective acaricide rotation tables and biological predator release rates."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:15:00Z",
+      "updated_at": "2026-06-01T16:15:00Z",
+      "reviewed_by": "UC IPM Entomology Review Directorate Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-TS-007",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Target Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Corynespora cassiicola"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Fruit"
+      ],
+      "disease_stage": "Mid to Late Season; highly aggressive during prolonged warm humid rainy phases"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, pinpoint, dark brown spots break out scattered across leaf blades across all canopy layers",
+        "Spots look flat and dry initially"
+      ],
+      "middle_stage": [
+        "Spots expand into circular lesions (3-10 mm) showing fine, tightly packed concentric rings inside the brown core",
+        "A sharp, striking yellow chlorotic ring wraps around each spot margin",
+        "Small, dark brown elongated streaks appear on petioles and staking stems"
+      ],
+      "severe_stage": [
+        "Multiple target spots run together, causing full leaflets to collapse, turn dark brown, and drop off prematurely",
+        "Fruit skins develop small, sunken, circular lesions that crack open deeply over the center, exposing meat to secondary fruit rots"
+      ],
+      "visible_signs": [
+        "Fine, numerous circular brown leaf spots with tight concentric target lines and sharp yellow outer ring halos; deeply cracked circular craters on fruit faces"
+      ],
+      "farmer_reported_signs": [
+        "My tomato leaves have lots of round brown spots with fine target circles inside and bright yellow rims, and the ripening tomatoes are cracking open in deep round holes"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light brown to deep chocolate centers ringed with bright yellow zones; fruit craters are dark brown with open skin fissures"
+      ],
+      "spot_or_patch_shape": "Neat, separate circular spots containing highly fine concentric target lines; star-like or vertical cracks in fruit lesions",
+      "pattern": "Distributed evenly across lower, middle, and upper leaf canopies simultaneously following heavy warm rains",
+      "location_on_plant": "Hits leaf blades, leaf sheaths, stems, and fruits alike; forms distinct cracked craters on fruit flanks",
+      "starts_from": "Leaf surfaces exposed to long periods of warm condensation water or continuous fog tracks",
+      "progression": "Forces rapid foliar spotting waves followed by direct fruit skin splitting, ruining market grading values",
+      "image_clues": [
+        "Circular light brown leaf spot with fine tight concentric rings and a bright yellow rim",
+        "Tomato fruit showing sunken round craters with cracked open center splits"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Early Blight (Alternaria solani)",
+        "difference": "Early blight forms much larger spots that start strictly on the oldest bottom leaves and move bottom-up vertically over weeks, displaying broad, coarse concentric rings, whereas Target Spot forms smaller spots with highly fine, tight rings that pop up across all canopy layers simultaneously.",
+        "confusion_risk": "Extreme, as both display concentric target ring characteristics."
+      },
+      {
+        "name": "Septoria Leaf Spot (Septoria lycopersici)",
+        "difference": "Septoria spots are smaller, circular, and develop clear ash-gray or white centers packed with tiny embedded black pimple dots (pycnidia), completely lacking fine target ring structures or fruit cracking.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Prolonged warm, humid, overcast weather paired with frequent drizzling rains or heavy morning fogs"
+      ],
+      "temperature_range": "25°C - 32°C (77°F - 90°F) optimal for Corynespora spore germination and cycling",
+      "humidity_level": "Extremely high relative humidity (>85% to 95%) with leaf wetness periods exceeding 12 to 14 hours",
+      "season": "Mid-to-late Kharif monsoon weeks or wet autumn cropping runs",
+      "soil_conditions": [
+        "Fields where weed hosts or unburied infested residues are left on topsoil layers"
+      ],
+      "field_conditions": [
+        "Dense, unpruned crop rows trapping humid microclimates inside the middle canopy tier",
+        "Low air movement valleys"
+      ],
+      "irrigation_conditions": [
+        "Frequent afternoon or late-evening overhead sprinkler irrigation cycles"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Airborne conidia spores drifting easily via wind currents across fields",
+        "Splashing rain runoff and wind-driven water droplets",
+        "Pruning tools carrying spore dust"
+      ],
+      "source_of_infection": [
+        "Infected crop residue leftovers left on the soil surface",
+        "Alternative broadleaf weed hosts (e.g., wild legumes, dayflower)"
+      ],
+      "survival_method": "Overwinters easily as resilient mycelium or dormant spores inside old crop debris or inside field topsoils for over 2 years, activating whenever wet warmth peaks",
+      "spread_speed": "Highly rapid across full field sections during extended warm wet weeks with continuous night dews",
+      "nearby_crop_risk": "High for adjacent cucumber, soybean, or papaya blocks downwind (Corynespora has a very broad host range)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Small brown spots with thin yellow rims are rare and cover less than 5% of leaf tissues; zero fruit lesions or leaf drop.",
+        "field_indicator": "Isolated pin-spots scattered over leaves; top flag lines green; fruit looks smooth.",
+        "recommended_action": "Improve row weeding along lines. Monitor field bi-weekly. Avoid working in rows when leaves are wet."
+      },
+      {
+        "level": "Medium",
+        "description": "Target spots are easy to find across 5% to 20% of lower and middle leaf layers; early round spots on fruit skins.",
+        "field_indicator": "Fine concentric rings clear across leaflets; minor foliar yellowing; a few fruits showing sunken spots.",
+        "recommended_action": "Apply targeted systemic fungicides immediately. Ensure high-pressure applications to penetrate middle canopy layers."
+      },
+      {
+        "level": "High",
+        "description": "More than 20% of leaf tissue is blighted or dropping; fruits are cracking open deeply in circular holes across rows.",
+        "field_indicator": "Widespread canopy breakdown; high numbers of split, cracked tomatoes on staking lines; severe yield loss.",
+        "recommended_action": "Apply strong systemic block treatments immediately to save remaining unblemished fruits. Plan for deep inversion plowing post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Plant clean certified seeds; avoid transplant sets showing early leaf flecks or spots"
+      ],
+      "field_management": [
+        "Prune lower leaves and maintain wide row spacing to maximize air flow and accelerate canopy drying after rain storms"
+      ],
+      "irrigation_management": [
+        "Use drip irrigation networks exclusively; manage field layouts to avoid water logging depressions"
+      ],
+      "soil_management": [
+        "Apply balanced inputs; avoid excessive nitrogen that creates thick, soft, moist canopy environments favored by fungi"
+      ],
+      "crop_rotation": [
+        "**Rotate out of solanaceous and cucurbit crops (cucumbers, squashes) for at least 3 years** using non-hosts like corn or small grains"
+      ],
+      "sanitation": [
+        "Plow fields deeply immediately post-harvest to completely bury old leaf residues",
+        "Eradicate alternative broadleaf weeds"
+      ],
+      "monitoring": [
+        "Scout fields bi-weekly from mid-summer onward, checking middle and lower leaves closely for fine ring spots after heavy rain events"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Look closely for fine tight rings and fruit skin cracking to confirm Target Spot over early blight",
+        "Halt overhead watering loops instantly"
+      ],
+      "cultural_control": [
+        "Prune out and remove suckers and lowest leaves during dry sunny middays to optimize wind movement through staking lines"
+      ],
+      "organic_control": [
+        "Apply preventative fixed copper sprays or sulfur formulations frequently during warm wet monsoon periods",
+        "Use bio-fungicides"
+      ],
+      "biological_control": [
+        "Apply formulations of Bacillus subtilis preventatively to help suppress early fungal spore attachments on leaf faces"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Fluxapyroxad + Pyraclostrobin",
+          "product_type": "Combination Systemic / SDHI / Strobilurin Fungicide",
+          "dose": "4.0 - 8.0 fl oz/Acre (Product dependent)",
+          "application_method": "Foliar broadcast spray using fine misting nozzles for deep canopy penetration",
+          "spray_interval": "10 - 14 days apart if warm humid misty conditions hold up",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Provides exceptional preventative and curative systemic controls. Always alternate with multi-site protectants to block resistance development."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Target spot is a serious fungal disease that pops up across all leaf layers of tomato plants during warm, damp, foggy weeks. It creates circular brown spots with highly fine, tight concentric rings inside and sharp yellow rims. Unlike other spot diseases, it directly attacks tomato fruits, covering them in round sunken craters that crack open deeply in the center, causing fruits to rot and split.",
+      "what_to_do_now": [
+        "Check your tomato leaves for small brown circles with highly fine, tight target rings and sharp yellow rims.",
+        "Prune off low interior leaves and thin out thick rows during dry sunny middays to let wind dry out the canopy air layers.",
+        "Spray a recommended systemic fungicide immediately if you see round spots and skin cracking starting on your fruits after warm rains."
+      ],
+      "what_not_to_do": [
+        "Never run overhead sprinklers late in the afternoon or evening—keep leaves completely dry using drip lines.",
+        "Do not leave old pruned leaves rotting inside the field lanes—carry them outside and bury them deep.",
+        "Do not grow tomatoes in the exact same field or next to cucumber rows year after year, as this fungus loves both crops."
+      ],
+      "when_to_call_expert": [
+        "If warm misty weather holds and your tomatoes are splitting open in deep round holes across rows despite your protective chemical sprays."
+      ],
+      "risk_warning": "Target spot damages fruits directly and aggressively. If left unmanaged during a warm rainy month, it will split your developing tomatoes open on the vines, making your entire harvest worthless for market sale."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_target_spot",
+        "tomato_healthy",
+        "tomato_early_blight"
+      ],
+      "segmentation_labels": [
+        "fine_concentric_lesion",
+        "cracked_fruit_crater",
+        "yellow_halo_blade"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": [
+        "Spots are extremely large and restricted strictly to the bottom-most leaves moving upwards slow, pointing to early blight instead"
+      ],
+      "image_quality_requirements": [
+        "Requires macro photos focused sharply on leaf spots or fruit cracks to differentiate tight ring lines from broad bullseye patterns"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-TS-CH-07",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Corynespora cassiicola Conidial Germination and Fruit Fissuring Pathology",
+        "content": "Target spot of tomato is caused by Corynespora cassiicola. It displays a vast host range (including cucurbits and legumes). Pathogenesis involves spore germination under warm wet profiles (25-32°C) with long leaf wetness windows (>12 hours). Foliar lesions exhibit very fine, tight concentric rings surrounded by distinct chlorotic rims. Fruit invasion targets cuticular layers, inducing sunken circular lesions that expand and prompt deep radial or concentric epidermal fissuring (cracking), predisposing fruit to saprophytic rot entry.",
+        "keywords": [
+          "Corynespora cassiicola",
+          "multivorous host range",
+          "tight concentric rings",
+          "cuticular invasion",
+          "epidermal fissuring",
+          "fruit cracking"
+        ],
+        "language": "English",
+        "target_user": "Crop Pathology Consultant / Extension Officer"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 cases logged during warm humid harvest cycles",
+      "outbreak_alert_message": "Target Spot Alert: Extended fogs and ambient warmth are driving Corynespora fruit cracking. Switch to combination systemic block programs.",
+      "nearby_farm_advice": [
+        "Isolate field drainage connections.",
+        "Ensure pruning tools are sanitized regularly between rows to block spore tracking."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Tomato Fruit and Leaf Diseases Index",
+      "source_url": "https://edis.ifas.ufl.edu/publication/PP311",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "University of Florida IFAS Extension",
+      "published_year": "2022",
+      "region": "Global / Humid Subtropics",
+      "language": "English",
+      "last_verified": "2026-03-20",
+      "trust_level": "High",
+      "notes": "Premium operative manual detailing specific multi-site protectant and systemic group-7 fungicide rotation guidelines."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:30:00Z",
+      "updated_at": "2026-06-01T16:30:00Z",
+      "reviewed_by": "IFAS Plant Protection Directorate Editorial Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-YLCV-008",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Tomato Yellow Leaf Curl Virus",
+      "category": "Viral (Vector-borne)",
+      "pathogen_or_cause": [
+        "Tomato yellow leaf curl virus (TYLCV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Top shoots",
+        "Whole plant frame"
+      ],
+      "disease_stage": "Early vegetative to flowering stage; highly active during hot dry summer intervals"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Young emerging leaflets on top shoots look pale light green with minor yellowing along edges",
+        "Slight upward curling or cupping of leaflet margins"
+      ],
+      "middle_stage": [
+        "Leaves turn distinctly yellow-green or lime-yellow across edges",
+        "Leaflets cup upward aggressively, looking like tiny deep bowls or spoons (cupping symptom)",
+        "Stem internodes shorten dramatically, giving top shoots a clustered appearance"
+      ],
+      "severe_stage": [
+        "Complete plant stunting where the tomato bush turns into a compact, dwarf, yellowed bunch (reset habits)",
+        "Blossoms drop off completely (100% abortion if infected early); plants fail to form new fruits, resulting in severe yield failure for infected lines"
+      ],
+      "visible_signs": [
+        "Aggressive upward leaf cupping into spoon shapes; bright yellow curled leaf edges; severe dwarf stunting of top growing points; zero flower line production"
+      ],
+      "farmer_reported_signs": [
+        "The top leaves of my tomato plants are curling upward into tight little bowls or spoons with yellow rims, and the whole plant has stopped growing and is bunching up like a dwarf bush"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Leaf margins and vein borders fade into bright lemon-yellow or lime tones, while interior islands can stay pale green"
+      ],
+      "spot_or_patch_shape": "No localized dead spots; structural upward margin rolling and deep cupping into chalice or spoon shapes",
+      "pattern": "Systemic and heavy stunting locked across newly emerging top terminal bud nodes and flower tiers",
+      "location_on_plant": "Manifests clearly on the youngest top growing shoots first, eventually curling the full upper canopy matrix",
+      "starts_from": "Terminal buds where virus-carrying whitefly insects feed heavily on phloem sap pathways",
+      "progression": "Early infected lines turn completely sterile; late-season infections show curled top yellow heads while lower early fruits mature small",
+      "image_clues": [
+        "Tomato leaf edges curling tightly upward into a distinct spoon shape with bright yellow borders",
+        "Severely stunted yellowed tomato bush standing short"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Tomato Mosaic Virus (ToMV)",
+        "difference": "Tomato Mosaic Virus causes a flat, green-and-yellow blistered mosaic paint look with thin, twisted leaf string lines, completely lacking the aggressive, uniform upward leaf cupping into spoon shapes or the bright yellow edge borders typical of TYLCV.",
+        "confusion_risk": "High, due to shared viral classifications on the same host."
+      },
+      {
+        "name": "Physiological Leaf Roll (Environmental Stress)",
+        "difference": "Physiological leaf roll causes old lower leaves to roll upward and feel thick and leathery during dry soil spells, but leaf color stays dark green without turning bright yellow along borders, and plants flower and fruit normally.",
+        "confusion_risk": "Extreme, as both curl leaves upward."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry, sunny weather phases with low rainfall that accelerate whitefly vector breeding and migration across field blocks"
+      ],
+      "temperature_range": "28°C - 38°C (82°F - 100°F) optimal for whitefly vector multi-generation multiplication",
+      "humidity_level": "Low to moderate humidity profiles inside row zones",
+      "season": "Peak summer crops or dry pre-monsoon windows where surrounding wild fields dry up",
+      "soil_conditions": [
+        "Not directly dependent on soil indices, but weedy borders provide continuous vector reservoirs"
+      ],
+      "field_conditions": [
+        "High populations of whitefly insects swarming underneath foliage layers",
+        "Planting near infected multi-season old solanaceous or tobacco lines"
+      ],
+      "irrigation_conditions": [
+        "Fields left dry or under moisture stress, which hardens tissues and alters insect attraction matrices"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Whiteflies (Bemisia tabaci) acting as the obligate insect vector, carrying virus particles in a persistent circulative style between crops",
+        "Mechanical friction, pruning knives, or seeds do NOT transmit this virus"
+      ],
+      "source_of_infection": [
+        "Infected alternative hosts (e.g., peppers, eggplants, tobacco, wild nightshades)",
+        "Old tomato ratoon stumps left standing nearby"
+      ],
+      "survival_method": "Survives continuously inside living phloem cells of alternative wild weed hosts, perennial weeds, or greenhouse volunteer lines over winter/summer holiday breaks",
+      "spread_speed": "Extremely high; wind-blown whitefly swarms can spread the virus across full sub-districts within a few warm dry weeks",
+      "nearby_crop_risk": "Extreme risk for downstream younger tomato fields downwind of infected old blocks"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Bright yellow leaf margins and minor upward cupping visible on less than 3% of young top shoots across rows.",
+        "field_indicator": "A few random yellow-headed cupped plants across rows; top shoots starting to bunch.",
+        "recommended_action": "Rogue out and bury infected yellow cupped plants immediately if within 30 days of transplanting to stop whiteflies from sucking the virus. Clean bund weeds."
+      },
+      {
+        "level": "Medium",
+        "description": "Spoon leaf cupping and stunting cover 3% to 15% of the canopy; rows look highly uneven and yellow-topped.",
+        "field_indicator": "Distinct clumps of dwarf bunched yellow foliage visible; whitefly flies easily disturbed from leaf undersides.",
+        "recommended_action": "Apply targeted systemic insecticides immediately to manage whitefly populations across the whole field block. Hang yellow sticky traps."
+      },
+      {
+        "level": "High / Critical",
+        "description": "More than 15% of plants are severely dwarf, yellowed bundles showing zero flowers and heavy blossom drop.",
+        "field_indicator": "Massive direct yield loss; large rows look like yellow dwarf bushes; zero fruit setting on affected lines.",
+        "recommended_action": "Control whitefly vectors immediately to safeguard nearby clean fields. Plan for complete seed selection adjustment, prioritizing fully resistant hybrids next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "**Sow exclusively certified seeds of tomato hybrids carrying high resistance to Tomato Yellow Leaf Curl Virus (e.g., varieties holding Ty-genes like Ty-1, Ty-3, or Ty-6)**"
+      ],
+      "field_management": [
+        "Grow 3-4 rows of tall barrier crops like Maize, Sorghum, or Pearl Millet around tomato perimeters to trap and block incoming whitefly swarms"
+      ],
+      "irrigation_management": [
+        "Provide regular irrigation during dry spells to maintain plant turgidity and lower whitefly attraction profiles"
+      ],
+      "soil_management": [
+        "Apply silver or reflective plastic mulches over rows; the high light reflection disorients flying whiteflies and prevents them from landing on seedlings"
+      ],
+      "crop_rotation": [
+        "Avoid growing sequential or overlapping solanaceous crops in adjacent fields across seasons"
+      ],
+      "sanitation": [
+        "Uproot infected yellow cupped clumps during the first 30 days of growth",
+        "Keep fields thoroughly free of alternative weed hosts like nightshades"
+      ],
+      "monitoring": [
+        "Monitor leaf undersides twice a week from transplanting onward, looking closely for microscopic whitefly insects or early upward spoon cupping"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Shake plants to check for whitefly clouds and verify upward spoon cupping to confirm TYLCV",
+        "Install yellow sticky traps immediately"
+      ],
+      "cultural_control": [
+        "Install yellow sticky plastic cards across rows at 15-20 cards per acre to trap flying whiteflies naturally and lower vector loads"
+      ],
+      "organic_control": [
+        "Spray neem oil formulations (3000 ppm) at 3-5 mL/Liter or apply fresh 5% neem seed kernel extract (NSKE) preventatively to act as a feeding deterrent"
+      ],
+      "biological_control": [
+        "Conserve whitefly natural predators like lacewings, ladybird beetles, and mirid bugs in chemical-free field boundary buffer zones"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid or Thiamethoxam",
+          "product_type": "Systemic Insecticide (Neonicotinoid)",
+          "dose": "0.4 - 0.5 mL/Id of water (or local product dependent)",
+          "application_method": "Foliar spray directed thoroughly at leaf undersides where whiteflies sit, feed, and lay eggs",
+          "spray_interval": "10 - 12 days apart if whitefly vector swarms remain high during summer dry spells",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Highly effective systemic insect control to block viral transfer lanes. Toxic to bees; spray only during late afternoons when pollinators leave rows."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Tomato Yellow Leaf Curl Virus (Tomato ka Matha Bandha Rog or Pila Murjhan) is a highly destructive viral disease carried from plant to plant by tiny, white flying insects called whiteflies. It thrives during hot, dry summer months, turning new tomato leaf edges bright yellow and curling them tightly upward into little spoon or bowl shapes. It stops the tomato plant from growing tall, bunching it up into a useless yellow dwarf bush that drops all its flowers and produces zero tomatoes.",
+      "what_to_do_now": [
+        "Pull out and bury any young tomato plants that show bright yellow edges and upward spoon cupping early in the season.",
+        "Hang bright yellow sticky plastic cards across your rows to catch and glue flying whiteflies naturally.",
+        "Spray a targeted whitefly-killing systemic insecticide or neem oil immediately to stop insects from spreading the virus further."
+      ],
+      "what_not_to_do": [
+        "Never ignore yellow upward cupped leaf tips; this is a highly contagious virus that will spread across your full field fast.",
+        "Do not spray fungicides; this is a viral disease spread by insects, so only insect sprays work.",
+        "Do not leave wild weeds or old tomato stumps standing along your irrigation channels or field lines."
+      ],
+      "when_to_call_expert": [
+        "If whitefly insects are swarming like tiny white dust clouds when you shake your tomato lines and your top shoots are turning yellow, cupping, and bunching up field-wide."
+      ],
+      "risk_warning": "This is a viral infection; chemicals cannot cure it once inside the tomato plant. If infected early in the vegetative stage, the plant will become 100% sterile and produce zero yield, causing total crop failure on those lines."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_yellow_leaf_curl_virus",
+        "tomato_healthy",
+        "tomato_mosaic_virus"
+      ],
+      "segmentation_labels": [
+        "spoon_shaped_leaflet",
+        "yellow_marginal_curling",
+        "stunted_bushy_apex"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "Leaves look thick and roll upward but stay deep green without any yellow borders or plant stunting, pointing to physiological leaf roll from dry soils instead"
+      ],
+      "image_quality_requirements": [
+        "Requires clear images under natural diffuse daylight to accurately resolve the upward spoon-like cupping shape of the leaf margins"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-YLCV-CH-08",
+        "chunk_type": "Virology / Epidemiology",
+        "title": "Tomato Yellow Leaf Curl Virus and Begomovirus Whitefly Phloem Mechanics",
+        "content": "Tomato Yellow Leaf Curl Virus (TYLCV) is a single-stranded DNA Begomovirus (Geminiviridae). It is transmitted explicitly by the whitefly cryptic species complex Bemisia tabaci in a persistent, circulative, non-propagative style. The virus localizes within phloem sieve elements, altering plant growth hormone balances. This drives classical phenotypic expressions: severe margin chlorosis, upward longitudinal leaflet curling into spoon configurations, shortened stem internodes, and absolute suppression of floral anthesis, resulting in 100% crop sterility if infection occurs pre-bloom.",
+        "keywords": [
+          "Begomovirus",
+          "Geminiviridae",
+          "Bemisia tabaci",
+          "circulative vector",
+          "phloem sieve elements",
+          "spoon configuration",
+          "floral anthesis suppression"
+        ],
+        "language": "English",
+        "target_user": "Extension Virologist / Research Scientist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "15 km",
+      "report_count_threshold": "5 active whitefly migration alerts logged within 7 days",
+      "outbreak_alert_message": "Yellow Leaf Curl Alert: High temperatures and dry summer weeks are accelerating whitefly vector tracks. Implement immediate perimeter barrier crop traps and systemics.",
+      "nearby_farm_advice": [
+        "Set up yellow sticky traps across rows immediately.",
+        "Monitor upper growing tips daily for early upward spoon cupping markers."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Guidelines for Managing Whitefly-transmitted Viruses in Vegetables",
+      "source_url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl-virus/",
+      "source_type": "University IPM Database Factsheet",
+      "author_or_organization": "University of California IPM Program",
+      "published_year": "2023",
+      "region": "Global / Semi-Arid Irrigation Belts",
+      "language": "English",
+      "last_verified": "2026-03-24",
+      "trust_level": "High",
+      "notes": "Premium operative directive detailing specific neonicotinoid resistance management loops and Ty-gene breeding cross charts."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:00:00Z",
+      "updated_at": "2026-06-01T16:00:00Z",
+      "reviewed_by": "UC IPM Virology Expert Review Panel Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "TOMATO-MV-009",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar",
+        "Tomate",
+        "Goti"
+      ],
+      "crop_category": "Vegetable / Solanaceous"
+    },
+    "disease": {
+      "name": "Tomato Mosaic Virus",
+      "category": "Viral (Highly Contagious / Seed-borne)",
+      "pathogen_or_cause": [
+        "Tomato mosaic virus (ToMV)",
+        "Tobacco mosaic virus (TMV)"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit"
+      ],
+      "disease_stage": "All growth stages; highly aggressive during intensive pruning, staking, or manual handling operations"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Young leaflets show a faint alternating light-and-dark green mottled design",
+        "Slight leaf wrinkling or blistering on emerging top foliage layers"
+      ],
+      "middle_stage": [
+        "Leaves develop an intense yellow-green checkered or mosaic mottle pattern",
+        "Leaf blades turn bumpy and blistered, raising dark green island bubbles over pale tissue backgrounds",
+        "Leaflets curl down slightly and can narrow into irregular shapes"
+      ],
+      "severe_stage": [
+        "Leaves undergo severe deformation, narrowing into thin, strap-like strings or thread shapes (shoestring symptom)",
+        "Plants look stunted and pale; fruits display internal brown vascular wood rings (bronzing) and ripen unevenly, making them low value"
+      ],
+      "visible_signs": [
+        "Alternating dark green and pale yellow-green mosaic blister patches on leaves; thin shoestring or fern-like leaf strips; internal brown wood paths inside sliced fruits"
+      ],
+      "farmer_reported_signs": [
+        "My tomato leaves look like they are splattered with yellow and green paint patches, they are growing bumpy or blistered, and some leaves are narrowing down into thin green strings"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Alternating dark green and cream-yellow mosaic checkered frames; internal fruit meat displays brown necrotic lines"
+      ],
+      "spot_or_patch_shape": "No localized dead circles; diffuse checkered paint-like patches with raised blister bubbles on leaf faces",
+      "pattern": "Systemic and heavy leaflet distortion moving across all newly forming shoots on staking lines",
+      "location_on_plant": "Most eye-catching and visible across young emerging top leaves, side branch flushes, and ripening fruits",
+      "starts_from": "Terminal buds and young leaves following physical touch rubbing or pruning shear contact",
+      "progression": "Spreads internally from mechanical sap transfer down into fruit layers, causing internal fruit bronzing and shell splitting",
+      "image_clues": [
+        "Tomato leaflet showing a green-and-yellow blistered mosaic paint design",
+        "Leaflet narrowed completely into a thin green shoestring thread"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+        "difference": "Tomato Yellow Leaf Curl Virus causes leaves to cup upward into clean spoon or bowl shapes with bright yellow margins and completely lacks the flat green blistered mosaic design or thin shoestring leaf strips typical of Tomato Mosaic Virus.",
+        "confusion_risk": "High, due to shared viral classifications on the same host."
+      },
+      {
+        "name": "Hormonal Herbicide Drift (e.g., 2,4-D Injury)",
+        "difference": "Herbicide drift causes leaves to twist into tight fan shapes with thick parallel veins ('feathering') across broad field rows simultaneously, but lacks the green-and-yellow blistered paint layout or fruit interior bronzing.",
+        "confusion_risk": "Extreme, as both twist and narrow leaves into thin string strips."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm ambient temperatures paired with bright sunny days favor fast virus replication inside host cells"
+      ],
+      "temperature_range": "24°C - 30°C (75°F - 86°F) optimal for mosaic symptom expressions",
+      "humidity_level": "Standard profiles; not dependent on humidity lines for spread",
+      "season": "Main crop seasons, highly enhanced during intensive labor cycles (pruning, tying, staking)",
+      "soil_conditions": [
+        "Not directly dependent on soil indices, but virus can survive inside old dry un-rotted root debris for months"
+      ],
+      "field_conditions": [
+        "Frequent manual pruning or handling staking lines without sanitizing hands or shears",
+        "Using non-certified seed lots"
+      ],
+      "irrigation_conditions": [
+        "Standard water inputs"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "**Mechanical sap transfer through hands, clothing, or pruning shears during field work (the primary spread mechanism)**",
+        "Planting internally contaminated seed lots",
+        "Smoking tobacco or handling cigarettes near rows (can transfer TMV strains via fingers)"
+      ],
+      "source_of_infection": [
+        "Infected saved seeds",
+        "Contaminated pruning tools and staking structures",
+        "Alternative solanaceous weeds or old root leftovers in soil beds"
+      ],
+      "survival_method": "Extremely stable; can live for years in dry state attached to seed coats, inside old dried crop waste, or on greenhouse strings and stakes, easily resisting heat and dry spans",
+      "spread_speed": "Highly rapid along row lines following sequential pruning of branches using a shared un-sanitized blade or dirty hands",
+      "nearby_crop_risk": "High for adjacent pepper, tobacco, or eggplant fields sharing cultivation labor crews"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint yellow-green mosaic lines or minor leaf wrinkling present on less than 5% of plants across staking rows.",
+        "field_indicator": "A few isolated mottled leaves on top branches; fruit looks smooth and clean.",
+        "recommended_action": "Do not prune or touch healthy lines after touching sick ones. Rogue out and bury infected mottled plants immediately. Wash hands in milk."
+      },
+      {
+        "level": "Medium",
+        "description": "Severe leaf blistering and mosaic checking visible across 5% to 15% of the crop canopy; plants look slightly pale.",
+        "field_indicator": "Bumpy blistered leaves easy to spot; a few top leaves starting to narrow into irregular fern shapes.",
+        "recommended_action": "Flag infected rows and handle them **strictly last** during pruning loops. Dip all pruning shears in trisodium phosphate (TSP) or milk between every single plant."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of plants are severely deformed, showing thin green shoestring leaves; fruits show brown interior lines.",
+        "field_indicator": "Massive foliar stringing; plants look stunted and bushy; harvested tomatoes show brown necrotic rings inside meat.",
+        "recommended_action": "Harvest remaining clean fruits separate from sick lines. **Never save seeds from any part of this harvest.** Thoroughly disinfect or replace stakes and greenhouse wires post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Sow exclusively certified virus-free seed stocks sourced from reputable producers",
+        "Select resistant tomato cultivars rated for ToMV (e.g., varieties holding Tm-2 or Tm-2^2 resistance genes)"
+      ],
+      "field_management": [
+        "Configure crop tracking lines to minimize unnecessary physical leaf brushing or rough mechanical friction between rows"
+      ],
+      "irrigation_management": [
+        "Maintain standard moisture parameters; avoid plant stress links"
+      ],
+      "soil_management": [
+        "Apply balanced inputs; ensure proper organic soil breakdown to clear out old root residues"
+      ],
+      "crop_rotation": [
+        "Rotate with non-solanaceous crops (like corn or legumes) for at least 1-2 years if soil residue contamination is high"
+      ],
+      "sanitation": [
+        "**Dip hands and tools regularly in fresh skim milk or a 10% Trisodium Phosphate (TSP) solution between handling tomato plants**",
+        "Ban tobacco smoking near fields"
+      ],
+      "monitoring": [
+        "Scout top shoots bi-weekly from early vegetative stage onward, looking closely for faint parallel green mottling or raised leaf blisters"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Check for leaf blistering and shoestring strips to confirm Mosaic Virus over herbicide injury",
+        "Isolate infected rows from pruning crews"
+      ],
+      "cultural_control": [
+        "**Train workers to always prune and tie flagged virus-infected lines last during the day to prevent carrying sap to clean plants**"
+      ],
+      "organic_control": [
+        "Soak seeds in a 10% Trisodium Phosphate solution before sowing to completely deactivate surface virus particles on seed coats"
+      ],
+      "biological_control": [
+        "Limited field data; cross-protection using mild engineered virus strains has been used historically in specialized greenhouse tracks"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Trisodium Phosphate (TSP) or Skim Milk (Disinfectant Tool)",
+          "product_type": "Virucidal Tool / Equipment Sanitizer",
+          "dose": "10% TSP solution in water dip tank, or full-strength skim milk bucket",
+          "application_method": "Used strictly as a continuous tool dip and hand wash station between stakes; **not for spraying over foliage directly**",
+          "spray_interval": "Dip blades and wash gloved hands between handling every single plant during pruning and staking cycles",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "This is a mechanical disinfectant protocol. Chemical pesticide sprays have **zero curative power** against a virus once inside the plant cells."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Tomato Mosaic Virus is an extremely contagious disease that spreads like a cold. It does not fly on the wind; instead, it catches onto your hands, clothes, or pruning knives and smears from plant to plant when you trim or tie the vines. It turns leaves into a yellow-and-green blistered paint design, twists them into thin green shoestrings, and rots the inside of tomato fruits with brown woody rings, making them impossible to sell.",
+      "what_to_do_now": [
+        "Pull out and bury any young tomato plants that show bumpy green-and-yellow blistered leaves early in the season.",
+        "**Dip your pruning shears and wash your hands in a bucket of fresh skim milk or 10% TSP powder solution between trimming each tomato plant.**",
+        "Always handle or prune sick tomato rows strictly *last* during the day so you do not carry the virus sap onto healthy rows."
+      ],
+      "what_not_to_do": [
+        "**Never let workers smoke or chew tobacco near your tomato rows**, as tobacco carry-over viruses can jump from dirty fingers straight into leaf scratches.",
+        "Never save seeds from a tomato field that showed blistered leaves or brown rings inside the fruit meat.",
+        "Do not waste money on fungicide sprays; they cannot cure a viral infection locked inside the plant cells."
+      ],
+      "when_to_call_expert": [
+        "If your tomato leaves are narrowing down into thin green threads or strings across full rows after a heavy pruning or staking labor cycle."
+      ],
+      "risk_warning": "This virus is incredibly tough and survives on dry tools, old stakes, and greenhouse strings for years. If ignored during pruning, you will personally carry the virus down your rows, blistering your leaves and turning your valuable tomatoes into brown woody waste."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_mosaic_virus",
+        "tomato_healthy",
+        "tomato_herbicide_injury"
+      ],
+      "segmentation_labels": [
+        "mosaic_blistered_leaflet",
+        "shoestring_leaf_distortion",
+        "internal_fruit_bronzing"
+      ],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": [
+        "Leaf distortion shows a broad fan shape with thick white parallel lines and zero yellow-green mosaic color, pointing to severe chemical weed-killer drift"
+      ],
+      "image_quality_requirements": [
+        "Requires clear images showing both the leaf blistering patterns and a sliced fruit cross-section to confirm accurate viral diagnosis"
+      ]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "TOM-MV-CH-09",
+        "chunk_type": "Virology / Sanitation Pathology",
+        "title": "Tomato Mosaic Tobamovirus Stability and Mechanical Sap Transfer",
+        "content": "Tomato Mosaic Virus (ToMV) is a highly stable, rod-shaped Tobamovirus. It is transmitted vertically via seed coats (frequently contaminating commercial lines) and horizontally via mechanical sap inoculation through field hands, tools, or stakes. Pathogenesis induces systemic mosaic chlorosis, rugose epidermal blistering, and a structural 'shoestring' narrowing of leaflets. In fruit layers, it drives vascular browning (internal bronzing). Because Tobamoviruses lack envelopes and resist thermal degradation, strict tool dipping in 10% Trisodium Phosphate (TSP) or skim milk proteins (which bind and precipitate virus particles) is mandatory during pruning blocks.",
+        "keywords": [
+          "Tobamovirus",
+          "mechanical sap inoculation",
+          "shoestring symptom",
+          "internal bronzing",
+          "Trisodium Phosphate",
+          "milk protein precipitation",
+          "seed coat contamination"
+        ],
+        "language": "English",
+        "target_user": "Greenhouse Specialist / Seed Quality Analyst"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide / Greenhouse Sector",
+      "risk_radius": "10 km",
+      "report_count_threshold": "4 confirmed cases logged during intensive labor pruning windows",
+      "outbreak_alert_message": "Tomato Mosaic Warning: Mechanical sap tracking is spreading Tobamovirus lines across staking rows. Mandate shear disinfection protocols and handle sick lines last.",
+      "nearby_farm_advice": [
+        "Establish tool dip blocks using 10% TSP.",
+        "Avoid saving or sharing seed stocks from un-certified local fruit lines."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Tobamoviruses of Solanaceous Crops Management Manual",
+      "source_url": "https://agops.ndsu.edu/tomato-mosaic-virus-control",
+      "source_type": "University Extension Circular",
+      "author_or_organization": "North Dakota State University Extension",
+      "published_year": "2022",
+      "region": "Global / Commercial Vegetable Tracks",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Premium standard reference mapping molecular cross-protection markers and Tm-2^2 gene breaking profiles."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T13:30:00Z",
+      "updated_at": "2026-06-01T16:30:00Z",
+      "reviewed_by": "NDSU Vegetable Virology advisory review group",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "tomato_two-spotted_spider_mite",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar"
+      ],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Two-Spotted Spider Mite",
+      "category": "Pest",
+      "pathogen_or_cause": [
+        "Tetranychus urticae"
+      ],
+      "affected_parts": [
+        "Leaves"
+      ],
+      "disease_stage": "Any stage"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Mottled, speckled, or 'stippled' appearance on upper leaf surfaces (tiny white/yellow dots)."
+      ],
+      "middle_stage": [
+        "Leaves turn yellow and develop a crusty tan/yellow texture underneath."
+      ],
+      "severe_stage": [
+        "Fine, silk-like webbing covers leaves. Leaves dry up and drop. Plant may die."
+      ],
+      "visible_signs": [
+        "Stippling on leaves, fine webbing, tiny moving specks."
+      ],
+      "farmer_reported_signs": [
+        "Leaves look dusty and yellow",
+        "Webs on the plant like a spider web"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Yellowing",
+        "Tan"
+      ],
+      "spot_or_patch_shape": "Tiny pinprick stippling",
+      "pattern": "Speckled all over leaf",
+      "location_on_plant": "Underside of leaves primarily",
+      "starts_from": "Lower or edge leaves",
+      "progression": "Stippling -> Webbing -> Yellowing -> Drying",
+      "image_clues": [
+        "Look for fine webbing and yellow stippling on leaves."
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Nutrient deficiency",
+        "difference": "Deficiencies cause solid yellowing, while spider mites cause distinctly speckled yellowing (stippling).",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Hot, dry"
+      ],
+      "temperature_range": "25-35C",
+      "humidity_level": "<50%",
+      "season": "Summer",
+      "soil_conditions": [
+        "Dry"
+      ],
+      "field_conditions": [
+        "Dusty roadsides"
+      ],
+      "irrigation_conditions": [
+        "Drought stress"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind",
+        "Workers' clothing"
+      ],
+      "source_of_infection": [
+        "Weeds",
+        "Nearby infested crops"
+      ],
+      "survival_method": "Overwinter in soil/weeds",
+      "spread_speed": "Very Fast in hot weather",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "High",
+        "description": "Webbing present.",
+        "field_indicator": "Leaves drying.",
+        "recommended_action": "Apply miticide immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "N/A"
+      ],
+      "field_management": [
+        "Control weeds near field."
+      ],
+      "irrigation_management": [
+        "Keep plants well-watered to reduce stress."
+      ],
+      "soil_management": [
+        "N/A"
+      ],
+      "crop_rotation": [
+        "N/A"
+      ],
+      "sanitation": [
+        "Remove heavily infested plants."
+      ],
+      "monitoring": [
+        "Shake leaves over white paper to see mites."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Spray horticultural oil or miticide."
+      ],
+      "cultural_control": [
+        "Reduce dust (spray water on dirt roads)."
+      ],
+      "organic_control": [
+        "Neem oil or insecticidal soap (ensure underside coverage)."
+      ],
+      "biological_control": [
+        "Release predatory mites (Phytoseiulus persimilis)."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Abamectin",
+          "product_type": "Miticide",
+          "dose": "1mL/L",
+          "application_method": "Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Ensure thorough coverage of leaf undersides."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Tiny sap-sucking pests that thrive in hot, dry weather, causing leaves to turn yellow and webbed.",
+      "what_to_do_now": [
+        "Spray an approved miticide or neem oil, targeting the UNDERSIDE of the leaves."
+      ],
+      "what_not_to_do": [
+        "Don't let the plants suffer from drought."
+      ],
+      "when_to_call_expert": [
+        "If miticide doesn't work (they develop resistance fast)."
+      ],
+      "risk_warning": "Can kill the plant if webs cover it completely."
+    },
+    "model_support": {
+      "classification_labels": [
+        "tomato_two-spotted_spider_mite"
+      ],
+      "segmentation_labels": [
+        "stippling",
+        "spider_mite_webbing"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "None"
+      ],
+      "image_quality_requirements": [
+        "Close-up of the stippling or webbing."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Spider mites active in hot weather.",
+      "nearby_farm_advice": [
+        "Monitor undersides of leaves."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    }
+  },
+  {
+    "id": "TOMATO-PM-EXT-01",
+    "crop": {
+      "common_name": "Tomato",
+      "english_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "local_names": [
+        "Tamatar"
+      ],
+      "crop_category": "Vegetable / Solanaceae"
+    },
+    "disease": {
+      "name": "Powdery Mildew",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Leveillula taurica (also Oidium neolycopersici / Erysiphe spp.)"
+      ],
+      "affected_parts": [
+        "Leaves (upper and lower surface)",
+        "Occasionally stems/petioles"
+      ],
+      "disease_stage": "Any growth stage; common in warm, dry/semi-arid conditions"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Bright yellow blotches/spots (up to ~1.3 cm) appear on the UPPER leaf surface"
+      ],
+      "middle_stage": [
+        "White, powdery fungal growth appears on the LOWER leaf surface (Leveillula emerges through the stomata); upper side blotches turn yellow then brown"
+      ],
+      "severe_stage": [
+        "Leaves brown, dry up, and drop; heavy defoliation exposes fruit to sunscald and reduces yield"
+      ],
+      "visible_signs": [
+        "White powdery patches on the underside of leaves with yellow blotches on top",
+        "A dusty white coating that can be rubbed off"
+      ],
+      "farmer_reported_signs": [
+        "Yellow patches on top of the leaves with a white powder underneath",
+        "Leaves drying and falling off"
+      ]
+    },
+    "favorable_conditions": {
+      "notes": [
+        "Warm, arid to semi-arid conditions",
+        "Moderate humidity (about 75-85%) with mild temperatures (~10-25 C)",
+        "Dense canopy and poor airflow"
+      ]
+    },
+    "prevention": {
+      "seed_or_planting_material": [
+        "Grow resistant varieties where available (e.g., types bred for powdery-mildew resistance)"
+      ],
+      "field_management": [
+        "Space, prune and stake plants to improve air circulation",
+        "Avoid excessive nitrogen and overly dense canopies"
+      ],
+      "sanitation": [
+        "Destroy infected crop debris after harvest"
+      ],
+      "monitoring": [
+        "Scout leaf undersides regularly in warm dry spells; treat early (these fungicides are protectant)"
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Begin protectant sprays at first symptoms and improve airflow by pruning"
+      ],
+      "cultural_control": [
+        "Resistant varieties",
+        "Plant spacing, pruning and staking for airflow",
+        "Remove the worst-affected leaves"
+      ],
+      "organic_control": [
+        "Wettable sulphur (do not apply in very hot >32 C weather or near oil sprays)",
+        "Potassium bicarbonate sprays",
+        "Horticultural / neem oil"
+      ],
+      "biological_control": [
+        "Bacillus subtilis-based biofungicides as preventive sprays"
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Azoxystrobin",
+          "product_type": "Strobilurin fungicide",
+          "dose": "as per label",
+          "notes": "Rotate with other groups to avoid resistance"
+        },
+        {
+          "active_ingredient": "Myclobutanil",
+          "product_type": "Triazole (DMI) fungicide",
+          "dose": "as per label"
+        },
+        {
+          "active_ingredient": "Wettable sulphur",
+          "product_type": "Protectant",
+          "dose": "as per label",
+          "notes": "Apply before disease appears; preventive"
+        }
+      ],
+      "expert_recommendation_required": "No for early cases; yes if it persists despite rotation"
+    },
+    "farmer_advice": {
+      "simple_explanation": "Tomato powdery mildew is a fungus that shows yellow patches on top of the leaf and a white powder underneath. In warm, dry weather it can dry up and drop many leaves. Sprays work best as a preventive, before it spreads.",
+      "what_to_do_now": [
+        "Remove the worst-affected leaves and improve airflow by pruning/spacing",
+        "Spray a protectant such as wettable sulphur or potassium bicarbonate early",
+        "Rotate between different fungicide groups if you use chemicals"
+      ],
+      "what_not_to_do": [
+        "Do not apply sulphur in very hot weather or close to an oil spray (can burn leaves)",
+        "Do not wait for heavy powder before acting"
+      ],
+      "when_to_call_expert": "If the disease keeps spreading after sprays, ask about resistant varieties and a fungicide rotation plan.",
+      "risk_warning": "Heavy leaf loss exposes fruit to sunscald. Treat early and preventively rather than after defoliation."
+    },
+    "source_metadata": {
+      "compiled_from": [
+        "University of Missouri IPM",
+        "PNW Pest Management Handbook",
+        "Lucid/PaDIL fact sheet 314"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "SORGHUM-ANT-001",
+    "crop": {
+      "common_name": "Sorghum",
+      "english_name": "Sorghum / Great Millet",
+      "scientific_name": "Sorghum bicolor",
+      "local_names": ["Jowar", "Juar", "Cholam", "Sorgo"],
+      "crop_category": "Cereal / Grain / Forage"
+    },
+    "disease": {
+      "name": "Anthracnose and Red Rot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Colletotrichum sublineola", "Colletotrichum graminicola"],
+      "affected_parts": ["Leaves", "Stems (Red Rot phase)", "Midribs", "Panicles / Grains"],
+      "disease_stage": "All growth stages; peaks from mid-vegetative to grain maturity"
+    },
+    "symptoms": {
+      "early_stage": ["Small, circular to elliptical spots (1-5 mm) with defined red, purple, or brown borders on leaves", "Small elongated red spots break out along the leaf midrib"],
+      "middle_stage": ["Spots expand and centers fade to a straw-tan color", "Tiny black pimple-like structures (acervuli) appear in the tan center", "Splitting the stem reveals a dry, red-and-white marbled discoloration of the inner juice pith (Red Rot phase)"],
+      "severe_stage": ["Lesions coalesce, causing full leaf blades to dry and wither prematurely", "Stems become hollow and structurally brittle, leading to severe field lodging (snapping over)", "Panicles dry up early, resulting in small, shriveled, or chaffy grains"],
+      "visible_signs": ["Concentric black pinhead-sized acervuli inside leaf spot centers, showing tiny dark bristles (setae) under a lens", "Alternating red and white patterned core inside broken stalks"],
+      "farmer_reported_signs": ["My jowar leaves are covered in red-ringed spots with tan centers, especially along the central leaf bone", "Plants are snapping over in the wind, and inside the stalks, the juice meat is stained blood-red with white spots"]
+    },
+    "visual_identification": {
+      "color_changes": ["Red, purple, or dark brown outer borders wrapping straw-colored centers; blood-red internal stem mottling"],
+      "spot_or_patch_shape": "Small circular dots expanding into elongated, diamond, or oval patches running parallel to veins",
+      "pattern": "Evenly scattered spots over leaves, or intense linear red striping explicitly tracking the midrib",
+      "location_on_plant": "Foliar spots start on lower leaves and climb up; red rot affects the lower stem base and peduncle",
+      "starts_from": "Lower leaf tissue or early mechanical stalk wounds where moisture collects",
+      "progression": "Moves from outer leaf blades into the leaf sheath, tunnels into the stem core, and eventually chokes the grain head stalk",
+      "image_clues": ["Elongated leaf midrib spots colored deep red with black center dots", "Split stalk showing a checkered red-and-white pith matrix"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Sorghum Zonate Leaf Spot (Gloeocercospora sorghi)",
+        "difference": "Zonate leaf spot creates very large, broad, concentric target patches that span the full width of the leaf blade, completely lacking the small, red-rimmed distinct spots and the red midrib striping typical of Anthracnose.",
+        "confusion_risk": "Medium during late-stage leaf browning."
+      },
+      {
+        "name": "Bacterial Leaf Stripe (Pseudomonas andropogonis)",
+        "difference": "Bacterial stripe forms long, uniform, straight red lines between leaf veins that never develop straw-colored centers or black pimple structures.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, overcast, persistently rainy weather punctuated by heavy wind-driven storms"],
+      "temperature_range": "22°C - 30°C (71°F - 86°F)",
+      "humidity_level": "Extended relative humidity above 85% with continuous liquid wetness layers on leaves",
+      "season": "Mid-to-late Kharif (rainy season) or hot humid summer crop cycles",
+      "soil_conditions": ["Poorly drained fields prone to prolonged surface puddling", "Low organic matter fields"],
+      "field_conditions": ["High plant density causing dense internal crop shading", "Fields cluttered with unplowed sorghum stubble"],
+      "irrigation_conditions": ["Frequent overhead sprinkler irrigation applied late in the evening"]
+    },
+    "spread": {
+      "spread_by": ["Windborne or rain-splashed conidia", "Contaminated harvesting tools and livestock traffic through rows"],
+      "source_of_infection": ["Infected sorghum crop residues left on the soil surface", "Contaminated seed lots", "Alternative wild grassy weeds like Johnson grass (Sorghum halepense)"],
+      "survival_method": "Overwinters as active mycelium or sclerotia inside infested plant stubbles, wild perennial grasses, or attached to the seed coat matrix",
+      "spread_speed": "Highly rapid during continuous warm rain spells following canopy closure",
+      "nearby_crop_risk": "High for downwind sorghum, sudangrass, or broomcorn acreage"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Small red-rimmed spots are rare and restricted entirely to the lowest 10% of the plant canopy; midribs are clean.",
+        "field_indicator": "Fewer than 5 spots per leaf on lowest leaves only.",
+        "recommended_action": "Improve weeding to optimize airflow. Avoid entering the field while leaves are damp. Monitor weekly."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots are common across leaves; distinct red elongated lesions are visible along multiple leaf midribs; minor red rot signs at lower nodes.",
+        "field_indicator": "Spots visible on 10% to 30% of foliage; black pinheads appearing in tan spot centers.",
+        "recommended_action": "Apply recommended protective or systemic fungicides immediately. Avoid over-watering lines."
+      },
+      {
+        "level": "High / Critical",
+        "description": "Widespread leaf drying and death; stems look weak, brown, or are already snapping over; grain heads are drying early.",
+        "field_indicator": "More than 30% of leaf canopy destroyed; extensive red rot inside stems; heavy grain shriveling.",
+        "recommended_action": "Apply systemic triazole fungicides to salvage remaining grain development. Separate severely lodged blocks during harvest. Plow stubbles deeply post-harvest."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Sow clean, certified seed lines produced in disease-free zones", "Select locally adapted resistant hybrids (e.g., those evaluated by ICAR/ICRISAT programs)"],
+      "field_management": ["Adopt optimal row spacing to maximize sunlight and wind entry into the lower canopy layers", "Eradicate alternative hosts like Johnson grass from borders"],
+      "irrigation_management": ["Provide proper field drainage outlets to stop rain water from pooling around stalk bases"],
+      "soil_management": ["Apply balanced primary nutrients; ensure adequate Potassium fertilization to build strong stalk cell walls"],
+      "crop_rotation": ["Rotate with non-cereal crops like cotton, groundnut, soybean, or pigeonpea for a minimum of 2 years"],
+      "sanitation": ["Plow fields deeply post-harvest to completely bury infected crop stubbles", "Burn heavily infested stalk debris piles away from fields"],
+      "monitoring": ["Scout fields bi-weekly starting from late vegetative stage, paying close attention to leaf midribs in the lower canopy rows"]
+    },
+    "management": {
+      "immediate_action": ["Check leaf midribs for red spots and look for black pinheads to confirm Anthracnose", "Ensure all nitrogen top-dressing loops are completed responsibly to prevent weak stalk growth"],
+      "cultural_control": ["Avoid inter-row cultivation or entering the fields when the crop canopy is wet with morning dew or rain splash"],
+      "organic_control": ["Treat seeds with Trichoderma viride formulations (4g/kg seed)", "Apply preventive foliar sprays of copper hydroxide or neem formulations at early disease onset"],
+      "biological_control": ["Incorporate beneficial soil microbes into the organic manure mix to help break down soilborne pathogen stubble loads"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Tebuconazole",
+          "product_type": "Systemic Fungicide (Triazole)",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar spray directed uniformly over the canopy using high-volume water for deep penetration",
+          "spray_interval": "10 - 14 days if wet weather persists",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Highly effective systemic control. Wear full PPE; do not let spray drift enter local livestock water bodies."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Protectant Fungicide",
+          "dose": "2.5 g/Liter of water (or 500g/Acre)",
+          "application_method": "Foliar spray applied preventatively at early vegetative stages before canopy closure",
+          "spray_interval": "7 - 10 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Broad-spectrum contact barrier. Must be applied *before* fungal spores penetrate leaf tissues."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Anthracnose (Red Rot) is a destructive fungal disease that creates purple- or red-bordered spots on sorghum leaves and lines the leaf center bones with red patches. The fungus also crawls inside the stem, rotting the internal stalk into a marbled red-and-white mush, which makes the plant break and fall over easily in the wind.",
+      "what_to_do_now": [
+        "Check your plants' leaf center bones (midribs) for red spots with tiny black dots inside them.",
+        "Clear out wild grasses like Johnson grass from your field boundaries.",
+        "Apply an effective protective or systemic fungicide spray if spots are spreading onto your upper leaves."
+      ],
+      "what_not_to_do": [
+        "Never walk through or work inside your fields early in the morning when the leaves are still wet with dew.",
+        "Do not leave old sorghum stalks and roots rotting on the soil surface after harvest.",
+        "Do not over-use nitrogen fertilizers without enough potassium, as it makes stalks soft and weak."
+      ],
+      "when_to_call_expert": [
+        "If your sorghum stalks are turning brown and snapping over easily across rows, or if the internal core is stained blood-red when split open."
+      ],
+      "risk_warning": "Anthracnose is highly aggressive in warm, wet weather. If left unmanaged, it can wipe out your leaves, collapse your stalks, and turn your grain heads into empty, lightweight chaff."
+    },
+    "model_support": {
+      "classification_labels": ["sorghum_anthracnose_leaf", "sorghum_red_rot_stalk", "sorghum_healthy"],
+      "segmentation_labels": ["midrib_red_lesion", "acervuli_black_dots", "marbled_red_pith"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Stalks collapse with a soft, foul-smelling black mush, which points to a severe bacterial stalk rot rather than fungal red rot"],
+      "image_quality_requirements": ["Requires macro photos focused sharply on leaf spots to resolve black pinheads, or close-ups of a split stem showing internal pith coloration"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SORGHUM-ANT-CH-01",
+        "chunk_type": "Pathology / Epidemiology",
+        "title": "Colletotrichum sublineola Infection Mechanics and Red Rot Phase",
+        "content": "Anthracnose in sorghum is caused by Colletotrichum sublineola. foliarly, it produces necrotic lesions with distinct acervuli displaying darkly pigmented setae. Systemic tracking leads to vascular penetration within the stalk pith, inducing the 'Red Rot' phase characterized by discontinuous red-and-white marbled patterns, structural lignification failure, and lodging.",
+        "keywords": ["Colletotrichum sublineola", "acervuli", "setae", "Red Rot", "marbled pith", "lodging"],
+        "language": "English",
+        "target_user": "Millet Breeder / Plant Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block level",
+      "risk_radius": "20 km",
+      "report_count_threshold": "5 active cases logged after consistent monsoon rain loops",
+      "outbreak_alert_message": "Anthracnose Notice: High rainfall and ambient warmth are accelerating Colletotrichum spread. Inspect midribs and secure fungicidal shields.",
+      "nearby_farm_advice": ["Isolate field drainage networks.", "Maintain systemic triazole applications in fields showing early midrib lesions."]
+    },
+    "source_metadata": {
+      "source_title": "Compendium of Sorghum Diseases",
+      "source_url": "https://www.icrisat.org/sorghum-anthracnose-guide",
+      "source_type": "International Research Bulletin",
+      "author_or_organization": "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)",
+      "published_year": "2019",
+      "region": "Global Drylands",
+      "language": "English",
+      "last_verified": "2026-04-12",
+      "trust_level": "High",
+      "notes": "Primary reference standard for evaluating anthracnose resistant traits in dryland millets."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:00:00Z",
+      "updated_at": "2026-06-01T19:00:00Z",
+      "reviewed_by": "ICRISAT Millet Improvement Directorate",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SORGHUM-GMD-002",
+    "crop": {
+      "common_name": "Sorghum",
+      "english_name": "Sorghum / Great Millet",
+      "scientific_name": "Sorghum bicolor",
+      "local_names": ["Jowar", "Juar", "Cholam", "Sorgo"],
+      "crop_category": "Cereal / Grain / Forage"
+    },
+    "disease": {
+      "name": "Cereal Grain Molds (White and Pink Fungi)",
+      "category": "Fungal Complex",
+      "pathogen_or_cause": ["Fusarium thapsinum", "Curvularia lunata", "Alternaria alternata"],
+      "affected_parts": ["Grains", "Glumes", "Panicle branches"],
+      "disease_stage": "Flowering to Grain Maturity stage"
+    },
+    "symptoms": {
+      "early_stage": ["Individual milk-stage grain surfaces develop a fine, faint white, pink, or gray fuzzy discoloration", "Glumes wrapping the grain turn pinkish-red or dark brown early"],
+      "middle_stage": ["A dense cottony or velvety white fungal mat wraps around expanding grains", "Grains fail to harden properly and remain soft or easily chalky when squeezed"],
+      "severe_stage": ["The entire sorghum ear head looks bleached, black, or powdery pink-white", "Harvested grains are structural failures—highly brittle, breaking into fine dust during threshing, and contaminated with dangerous mycotoxins"],
+      "visible_signs": ["Thick white, pink, or charcoal-gray fuzzy fungal overgrowths covering individual or clustered grains on the panicle"],
+      "farmer_reported_signs": ["My jowar seed heads are covered in a dirty white or pink fuzzy mold after the late rains", "The seeds are soft, chalky, and smash into a white powder when pressed between fingers"]
+    },
+    "visual_identification": {
+      "color_changes": ["Grains lose their clean white/cream color, changing into chalky-white, pinkish-red, or deep soot-gray velvet states"],
+      "spot_or_patch_shape": "Superficial fuzzy overgrowths expanding to mask the entire rounded grain body",
+      "pattern": "Spreads across the seed cluster, frequently starting on the lower panicle branches where dew drainage slows down",
+      "location_on_plant": "Restricted strictly to the grain panicle head and surrounding glume hulls",
+      "starts_from": "Open flower florets during peak milk-and-dough seed development cycles",
+      "progression": "Fungus digests internal starch bodies, completely preventing normal seed hardening and grain weight accumulation",
+      "image_clues": ["Sorghum head with grains wrapped in a thick white or pink cotton-like mold coating", "Chalky, cracked, discolored seeds on the ear stalk"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Sorghum Ergot / Sugary Disease (Claviceps sorghi)",
+        "difference": "Ergot causes sticky, shining, syrupy sweet liquid drops to ooze out from open flowers, which later hardens into a long structural dark grey curved horn (sclerotium), entirely different from a dry white fuzzy mold layer covering the grain surface.",
+        "confusion_risk": "Medium during early damp flowering phases."
+      },
+      {
+        "name": "Sorghum Head Smut (Sphaerotheca reiliana)",
+        "difference": "Head smut completely replaces the *entire* ear head with a giant, swollen black spore pouch wrapped inside a thick white skin sheet from day one, rather than molding individual separate grains.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Persistent drizzling rains, high fog profiles, or heavy overcast days during flowering and grain ripening weeks"],
+      "temperature_range": "25°C - 32°C (77°F - 90°F)",
+      "humidity_level": "Relative humidity above 90% for consecutive daily cycles",
+      "season": "Late Kharif harvests when monsoon exit rains overlap with the grain drying cycle",
+      "soil_conditions": ["Not directly dependent on soil types, but poorly aerated soils slow down grain maturity rates"],
+      "field_conditions": ["Densely crowded crop lines that trap damp wind pockets around ear heads", "Cultivating ultra-short duration hybrids that mature during peak rain weeks"],
+      "irrigation_conditions": ["Running overhead sprinklers while the grain heads are actively in the milk-and-dough phase"]
+    },
+    "spread": {
+      "spread_by": ["Airborne fungal conidia distributed via wind currents", "Rainwater splashing spores across panicle strings"],
+      "source_of_infection": ["Infected seeds from prior harvests", "Sorghum crop residue and old stalks left un-plowed", "Alternative wild grass weeds in adjacent plots"],
+      "survival_method": "Survives as a saprophyte on crop stubbles or as dormant structures inside saved seed lines, expanding quickly when humidity spikes",
+      "spread_speed": "Highly explosive across emerging ear heads if drizzling rains persist for 48 hours",
+      "nearby_crop_risk": "High for adjacent lines maturing at the same time"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint white or pink mold fuzz visible on less than 5% of individual grains on sporadic panicles.",
+        "field_indicator": "Rare discolored seeds; grain heads look mostly healthy and clean white.",
+        "recommended_action": "Ensure fields are harvested timely as soon as psychological maturity black-layer forms. Dry harvested heads rapidly."
+      },
+      {
+        "level": "Medium",
+        "description": "White or pink cottony mold coatings visible across 5% to 20% of grain heads; grains look chalky and dull.",
+        "field_indicator": "Distinct mold patches visible on multiple seed heads; seeds are soft when squeezed.",
+        "recommended_action": "Apply recommended foliar fungicides if the crop is in early milk stage and rain forecasts are extended. Harvest mature sections immediately."
+      },
+      {
+        "level": "High / Critical",
+        "description": "More than 20% of seed heads are heavily enveloped in thick white, pink, or gray mold masses; seeds break into dust.",
+        "field_indicator": "Heavily blackened or pinkish-bleached ear heads; severe grain shattering; high risk of dangerous mycotoxin contamination.",
+        "recommended_action": "Harvest the field immediately to stop total grain rot. Segregate molded grain lots completely; **do not use for food, animal feed, or seed saving** due to toxic mold poisons."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Select resistant or mold-tolerant sorghum hybrids with open, loose panicle architectures rather than tight, compact seed heads", "Adjust sowing dates so flowering and grain maturity fall after the monsoon rains exit"],
+      "field_management": ["Maintain adequate crop line spaces to allow warm air currents to dry the panicles quickly"],
+      "irrigation_management": ["Avoid running overhead sprinkler lines during or after the head emergence phase"],
+      "soil_management": ["Ensure balanced soil fertilization to encourage uniform crop maturity timelines across the block"],
+      "crop_rotation": ["Practice rotation with broadleaf crops like pulses or oilseeds to clear out soil surface fungal loads"],
+      "sanitation": ["Plow fields deeply after harvest to bury old moldy panicle residues", "Clean threshing yard platforms thoroughly"],
+      "monitoring": ["Carefully inspect emerging panicle flowers from milk stage onward, tracking weather reports for late rain forecasts"]
+    },
+    "management": {
+      "immediate_action": ["Inspect the fuzzy layer color and test grain softness to confirm grain mold complex", "Plan for immediate mechanical or solar drying setups post-harvest"],
+      "cultural_control": ["Harvest the crop promptly at physiological maturity (when a black layer forms at the grain base) rather than leaving heads to dry on standing stalks during rains"],
+      "organic_control": ["Spray fresh neem seed kernel extract (NSKE 5%) or apply bio-control agents early at panicle emergence"],
+      "biological_control": ["Foliar application of Pseudomonas fluorescens or Bacillus subtilis formulations at 50% flowering helps shield florets from mold spores"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole + Difenoconazole",
+          "product_type": "Combination Systemic Fungicide",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar spray directed explicitly over the emerging ear heads at 50% flowering stage",
+          "spray_interval": "Single spray at flowering is standard; repeat after 10 days only if rains are continuous",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "A purely preventative shield for developing seeds. Spraying *after* grains are already rotten and powdery provides zero benefit."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Grain mold is a complex disease caused by multiple fungi that attack sorghum seed heads during wet, rainy harvest weeks. It wraps the growing seeds in a white, pink, or gray fuzzy mold layer, making them soft, chalky, and highly brittle, while creating dangerous mold poisons (mycotoxins) that render the crop unsafe to eat.",
+      "what_to_do_now": [
+        "Adjust your next planting dates so your jowar finishes its seeds *after* the heavy monsoon rains have stopped.",
+        "Harvest your crop immediately as soon as seeds develop a tiny black spot at their base (maturity mark), rather than letting them sit in the rain.",
+        "Dry your harvested grain heads quickly on plastic sheets under the hot sun to stop mold growth."
+      ],
+      "what_not_to_do": [
+        "**Never eat, sell, or feed to livestock grains that are heavily covered in pink or dark mold powder**, as they contain dangerous poisons.",
+        "Do not save seeds for next year's crop from a field that suffered from severe grain mold.",
+        "Do not plant tight, compact-headed sorghum hybrids in regions that get late rains—choose open, loose-headed varieties instead."
+      ],
+      "when_to_call_expert": [
+        "If late rains hit your flowering field and seed heads are quickly changing color into fuzzy pink or white mats across rows."
+      ],
+      "risk_warning": "Grain mold directly destroys the quality, weight, and safety of your food. Moldy grains break into useless dust during milling and can make humans and animals severely sick due to hidden mold poisons."
+    },
+    "model_support": {
+      "classification_labels": ["sorghum_grain_mold_white", "sorghum_grain_mold_pink", "sorghum_healthy_head"],
+      "segmentation_labels": ["fuzzy_white_mycelium", "pink_fungal_crust", "chalky_cracked_seed"],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": ["Molded heads leak thick, sticky black syrup drops, which signals a dangerous outbreak of ergot disease instead"],
+      "image_quality_requirements": ["Requires macro shots focused directly on individual panicle seeds to clearly distinguish superficial white mold dust from structural smut gall layers"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SORGHUM-GMD-CH-02",
+        "chunk_type": "Pathology / Food Safety",
+        "title": "Sorghum Grain Mold Complex and Mycotoxin Risks",
+        "content": "Sorghum grain mold is a pre-harvest disease complex primarily involving Fusarium thapsinum and Curvularia lunata. Pathogens colonize floret structures during anthesis under high humidity (>90% RH). It causes enzymatic degradation of the endosperm, making grains chalky and brittle, and generates harmful mycotoxins (e.g., fumonisins) that present acute toxicity risks.",
+        "keywords": ["Fusarium thapsinum", "Curvularia lunata", "anthesis", "endosperm degradation", "mycotoxins", "fumonisins"],
+        "language": "English",
+        "target_user": "Extension Agronomist / Food Safety Inspector"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional / Block wide",
+      "risk_radius": "30 km",
+      "report_count_threshold": "6 confirmed grain quality downgrades due to late monsoons",
+      "outbreak_alert_message": "Grain Mold Warning: Wet harvest weather is promoting Fusarium and Curvularia seed rot. Harvest at physiological maturity and solar-dry immediately.",
+      "nearby_farm_advice": ["Segregate molded grain lots from clean food stores.", "Utilize loose-panicle seed lines for subsequent cropping choices."]
+    },
+    "source_metadata": {
+      "source_title": "Sorghum Grain Mold Management Strategies",
+      "source_url": "https://www.icar-iimr.res.in/grain-mold-bulletin",
+      "source_type": "National Institute Manual",
+      "author_or_organization": "ICAR - Indian Institute of Millets Research (IIMR)",
+      "published_year": "2021",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-04-20",
+      "trust_level": "High",
+      "notes": "Excellent clinical review detailing the chemical control thresholds and associated mycotoxin screening protocols."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:15:00Z",
+      "updated_at": "2026-06-01T19:15:00Z",
+      "reviewed_by": "ICAR-IIMR Crop Protection Directorate",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SORGHUM-CSM-003",
+    "crop": {
+      "common_name": "Sorghum",
+      "english_name": "Sorghum / Great Millet",
+      "scientific_name": "Sorghum bicolor",
+      "local_names": ["Jowar", "Juar", "Cholam", "Sorgo"],
+      "crop_category": "Cereal / Grain / Forage"
+    },
+    "disease": {
+      "name": "Covered Kernel Smut (Sori Creamy / Grain Smut)",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Sporisorium sorghi", "Sphacelotheca sorghi"],
+      "affected_parts": ["Grains in the panicle"],
+      "disease_stage": "Grain Formation / Emergence stage; systemic infection occurs at seedling stage"
+    },
+    "symptoms": {
+      "early_stage": ["Infected plants look completely normal during vegetative growth, as the fungus grows hidden inside the stem channels", "Upon head emergence, individual grain ovaries are replaced by elongated, pale green cylindrical tubes"],
+      "middle_stage": ["The tubes swell into prominent oval galls (sori) wrapped inside a tough, smooth, creamy-white or light gray skin membrane", "Galls look noticeably larger than normal healthy round grains"],
+      "severe_stage": ["The creamy-white membrane breaks open during field drying or harvest handling, exposing a dense, compressed mass of dark brown to charcoal-black powdery spores", "A hard central woody column (columella) remains exposed inside the broken gall structure"],
+      "visible_signs": ["Creamy-white or gray elongated horn-like galls cleanly replacing normal seeds on a standing jowar head, bursting with black dust"],
+      "farmer_reported_signs": ["Individual grains on my jowar heads are turning into long gray-white creamy tubes", "When these white tubes break, they are packed with a thick black soot-like charcoal powder"]
+    },
+    "visual_identification": {
+      "color_changes": ["Grains change from green/brown into creamy-white or dull silver-gray capsules, then rupture into black spore soot"],
+      "spot_or_patch_shape": "Elongated, cylindrical, or pear-shaped smooth galls (3-12 mm long) replacing grain boundaries",
+      "pattern": "Varies by severity; can affect a few random grains on a head, or replace almost every single grain on the panicle while leaves stay green",
+      "location_on_plant": "Fungal symptoms show up strictly inside the grain boxes on the emerged panicle head",
+      "starts_from": "The seed embryo at germination, traveling systemically upward through the growing stem tip hidden",
+      "progression": "Replaces the grain starch core entirely with spore powder during the flowering bloom phase",
+      "image_clues": ["Sorghum panicle containing long, smooth, creamy-gray horn galls standing alongside healthy seeds", "Rupturing white capsule leaking dark black soot"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Loose Smut of Sorghum (Sporisorium cruentum)",
+        "difference": "Loose smut galls are much longer, thinner, and wrapped in a very thin, fragile membrane that bursts open *before* the head even exits the leaf sheath, releasing loose black powder early, and stunts the entire plant frame.",
+        "confusion_risk": "High, as both replace grains with black spore soot."
+      },
+      {
+        "name": "Sorghum Head Smut (Sphaerotheca reiliana)",
+        "difference": "Head smut destroys the *entire* head completely, turning the full panicle into a single massive, messy black soot bag from day one, rather than creating distinct, individual creamy grain capsules.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool, dry soil weather during sowing weeks that delays seedling emergence, giving the fungus more time to infect young sprouts"],
+      "temperature_range": "18°C - 24°C (64°F - 75°F) optimal for soil seedling infection; manifestation requires standard warm maturation",
+      "humidity_level": "Moderate soil moisture levels",
+      "season": "Early Kharif or winter Rabi sowings where soil temperatures track on the cooler side",
+      "soil_conditions": ["Dry, firm, non-solarized soils with low initial temperature profiles during sprouting"],
+      "field_conditions": ["Sowing untreated seeds saved from previous smut-contaminated harvests", "Continuous mono-cropping of susceptible varieties"],
+      "irrigation_conditions": ["Low early soil moisture that slows down rapid seed sprouting speeds"]
+    },
+    "spread": {
+      "spread_by": ["Smut spores sticking to the outside skin of healthy seeds during harvest threshing", "Contaminated mechanical seed drill equipment"],
+      "source_of_infection": ["Spores contaminating the seed coat surface used for sowing", "Spore reserves landing on the topsoil layer from previous harvests"],
+      "survival_method": "Spores (teliospores) survive easily for years attached as a dry powder on the seed coat or resting inside dry topsoil layers",
+      "spread_speed": "Slow across the field during the current season, but expands heavily into the next generation if seeds are saved",
+      "nearby_crop_risk": "Low for current neighboring fields, as infection *only* happens at the tiny seedling stage"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 2% of plants in the field show individual creamy smut galls on their grain heads.",
+        "field_indicator": "Isolated gray-white capsules noticed while scanning rows; majority of heads are clean.",
+        "recommended_action": "Manually cut off infected heads into bags before they rupture and burn them. Do not use this plot for saving seed."
+      },
+      {
+        "level": "Medium",
+        "description": "2% to 10% of sorghum heads display prominent clusters of creamy gray smut tubes replacing seeds.",
+        "field_indicator": "Smut galls are easy to see across multiple lines; black powder is spilling during handling.",
+        "recommended_action": "Harvest the field separate from seed seedplots. Enforce a strict chemical seed-dressing protocol for the next sowing cycle."
+      },
+      {
+        "level": "High",
+        "description": "More than 10% of the entire field population has grain heads destroyed by creamy smut capsules; heavy direct food grain loss.",
+        "field_indicator": "Massive black soot powder clouds during threshing; significant percentage of food grain replaced by smut balls.",
+        "recommended_action": "Process and thresh the crop using safety masks. Safely discard heavily contaminated grain lots; **never use this grain for seed sowing next season.** Switch to fully resistant seed hybrids."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["**Treat seeds with systematic fungicides like Carboxin, Thiram, or Carbendazim before sowing (the most effective control)**", "Never save or reuse seeds from fields that showed visible creamy smut galls"],
+      "field_management": ["Sow seeds when soil conditions are warm and moist to encourage rapid, immediate seedling emergence, outrunning the fungus"],
+      "irrigation_management": ["Provide a light early watering to accelerate seedling sprouting speeds if soils are dry"],
+      "soil_management": ["Practice deep summer soil inversion to bury surface spores away from young seedling root zones"],
+      "crop_rotation": ["Rotate field lines with broadleaf pulse crops like pigeonpea or chickpea for 1 to 2 seasons"],
+      "sanitation": ["Carefully cut and remove infected creamy seed heads *before* their skin membranes break open", "Thoroughly clean threshing floors"],
+      "monitoring": ["Inspect fields closely during early head emergence, looking out for gray-white smooth tube shapes replacing normal round seeds"]
+    },
+    "management": {
+      "immediate_action": ["Verify the presence of a tough creamy skin membrane and hard central column to confirm Covered Smut", "Isolate heavily infected heads using bags before cutting"],
+      "cultural_control": ["Thoroughly wash and clean all seed drills and mechanical threshers between farm plots to prevent spore transfer"],
+      "organic_control": ["Treat seeds with Trichoderma viride powder (4-6g/kg seed) or dust with fine sulfur powder before sowing sets"],
+      "biological_control": ["Limited field efficacy after crop grows; seed-level biological coatings help minimize initial spore germination rates on the coat"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim or Thiram",
+          "product_type": "Fungicide Seed Treatment",
+          "dose": "2.0 - 3.0 g/kg of seed",
+          "application_method": "Dry or slurry seed treatment to coat the seed surface thoroughly *prior to sowing*",
+          "spray_interval": "Single seed-level application before planting; foliar canopy sprays provide **zero curative value** because infection happens underground",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Highly economical and completely prevents seedling infection. Wear rubber gloves and face masks during seed mixing."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Covered kernel smut (Grain Smut or Jowar Dana Kani Rog) is a seed-borne disease that enters the plant hidden underground when it is a tiny sprout. When the plant grows up and makes seeds, the fungus takes over, replacing individual sorghum grains with smooth, elongated creamy-white or gray capsules packed with a dirty charcoal-black soot powder.",
+      "what_to_do_now": [
+        "**Always buy certified seeds or treat your saved seeds with recommended chemical powders before sowing (this stops the disease completely).**",
+        "If you see a few white tubes on standing heads, cover them with a plastic bag, cut them off, and burn them before they burst open.",
+        "Thoroughly clean your tools and threshing yard so black spores do not stick to clean grain bags."
+      ],
+      "what_not_to_do": [
+        "Never save or plant seeds collected from a sorghum field that had white creamy smut galls.",
+        "Do not apply foliar sprays on the leaves when you see the black heads—it is too late to cure, as the infection happened months ago underground.",
+        "Do not plant seeds in cold, bone-dry soil, which slows down sprouting and helps the fungus enter the plant."
+      ],
+      "when_to_call_expert": [
+        "If you notice a large number of your sorghum heads coming out with gray-white creamy capsules instead of normal round grains across your village block."
+      ],
+      "risk_warning": "Because this disease hides systemically inside the plant, skipping seed treatment can cause high yield losses, turning your food seeds into useless black soot powder during harvest threshing."
+    },
+    "model_support": {
+      "classification_labels": ["sorghum_covered_smut_galls", "sorghum_healthy_head", "sorghum_loose_smut"],
+      "segmentation_labels": ["creamy_smut_sori", "ruptured_spore_membrane", "central_columella_column"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["The membrane breaks open early inside the leaf sheath and plants are severely stunted, which points to loose smut instead"],
+      "image_quality_requirements": ["Requires macro photos focused on the distinct individual smooth gray-white capsule bodies to rule out broad field grain mold complexes"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SORGHUM-CSM-CH-03",
+        "chunk_type": "Pathology / Management",
+        "title": "Sporisorium sorghi Seedling Infection and Sori Anatomy",
+        "content": "Covered kernel smut of sorghum, induced by Sporisorium sorghi, is a seedling-infection, systemic disease. Seedborne teliospores germinate alongside the seed, penetrating the seedling hypocotyl. The mycelium tracks systemically within the apex, partitioning exclusively into grain ovaries during anthesis to form elongated sori bounded by a persistent peridium, containing a central woody columella.",
+        "keywords": ["Sporisorium sorghi", "seedling-infection", "hypocotyl penetration", "peridium", "columella", "teliospores"],
+        "language": "English",
+        "target_user": "Seed Certification Officer / Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Village / Sub-District wide",
+      "risk_radius": "10 km",
+      "report_count_threshold": "5 high-soot complaints reported during field threshing cycles",
+      "outbreak_alert_message": "Covered Smut Notification: Untreated seed blocks showing significant Sporisorium galling. Enforce compulsory chemical seed-dressing for subsequent sowing loops.",
+      "nearby_farm_advice": ["Do not save seed from affected grain blocks.", "Clean threshing machinery thoroughly before moving locations."]
+    },
+    "source_metadata": {
+      "source_title": "Millet Seed Health and Smut Control Manual",
+      "source_url": "https://www.icar-iimr.res.in/smut-control-guide",
+      "source_type": "National Institute Extension Circular",
+      "author_or_organization": "ICAR - Indian Institute of Millets Research",
+      "published_year": "2020",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-03-18",
+      "trust_level": "High",
+      "notes": "Premium operative directive detailing chemical seed dressing protocols which completely eliminate covered kernel smut pathways."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:30:00Z",
+      "updated_at": "2026-06-01T19:30:00Z",
+      "reviewed_by": "IIMR Seed Pathology Expert Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SORGHUM-HSM-004",
+    "crop": {
+      "common_name": "Sorghum",
+      "english_name": "Sorghum / Great Millet",
+      "scientific_name": "Sorghum bicolor",
+      "local_names": ["Jowar", "Juar", "Cholam", "Sorgo"],
+      "crop_category": "Cereal / Grain / Forage"
+    },
+    "disease": {
+      "name": "Head Smut (White Spreaded / Panicle Destruction)",
+      "category": "Fungal (Soilborne)",
+      "pathogen_or_cause": ["Sporisorium reilianum", "Sphacelotheca reiliana"],
+      "affected_parts": ["Entire Panicle head", "Upper leaves rarely"],
+      "disease_stage": "Head Emergence stage; systemic infection happens underground at early seedling phase"
+    },
+    "symptoms": {
+      "early_stage": ["Plants look normal or slightly stunted during vegetative growth, completely hiding the internal fungus", "Upon heading, the entire expected grain panicle fails to form normally"],
+      "middle_stage": ["The *entire* seed head is replaced by a single massive, swollen, egg-shaped white bag structure", "This massive gall is tightly wrapped inside a thick, silvery-white skin membrane (peridium)"],
+      "severe_stage": ["The thick white membrane flakes away and tears apart completely during emergence, exposing a giant, messy, black powdery mass of loose spores", "Long, dark, thread-like fibers (shredded vascular bundles) are left spreaded out like a small broom where the grain head should be"],
+      "visible_signs": ["A massive ruptured black soot structure replacing the full sorghum head, filled with long, dark, wire-like thread fibers and white skin flakes"],
+      "farmer_reported_signs": ["My jowar plant has produced zero seeds; instead, the whole head came out as a massive white bag that burst into a large cloud of black charcoal dust", "The broken seed head looks like a bunch of coarse, dry black threads"]
+    },
+    "visual_identification": {
+      "color_changes": ["The complete head turns into a silvery-white skin bag that tears open into a messy, dull charcoal-black spore cloud"],
+      "spot_or_patch_shape": "A single giant, continuous, irregular swollen mass (gall) replacing the entire panicle branch structure",
+      "pattern": "Systemic and absolute destruction; every single branch and seed position on the affected plant head is completely wiped out, though neighboring heads can look clean",
+      "location_on_plant": "Manifests dramatically on the main terminal ear head; can occasionally form tiny long black leaf smuts on flag leaves",
+      "starts_from": "Soil-dwelling spores entering the tiny seedling root tissue, tracking systemically up the growth tip",
+      "progression": "Completely consumes and transforms the floral bud tissues before head emergence occurs",
+      "image_clues": ["Sorghum head totally destroyed, looking like a messy bundle of black wires leaking soot powder", "Un-ruptured large silver-white egg gall on a standing stalk tip"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Covered Kernel Smut (Sporisorium sorghi)",
+        "difference": "Covered kernel smut replaces individual grains one by one with separate, neat, small creamy capsules, leaving the main panicle branches and head structure perfectly intact, and lacks the long, coarse wire fibers seen in Head Smut.",
+        "confusion_risk": "High for beginners due to shared 'black soot' powder.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Loose Smut of Sorghum (Sporisorium cruentum)",
+        "difference": "Loose smut affects individual grains making tiny separate long galls that rupture early, and stunts the entire plant canopy dramatically, but does not merge the full panicle into a single giant fibrous wire mass.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, dry soil profiles during the early planting weeks that stress young sprouts and slow down rapid emergence"],
+      "temperature_range": "21°C - 28°C (70°F - 82°F) optimal for soil spore germination and seedling root invasion",
+      "humidity_level": "Low soil moisture levels early in the season",
+      "season": "Main Kharif or hot summer crops sowed in non-irrigated, dry field blocks",
+      "soil_conditions": ["**Infested soils where head smut has occurred historically (soil-borne pathogen)**", "Low fertility or non-solarized soil lines"],
+      "field_conditions": ["Continuous mono-cropping of highly susceptible jowar hybrids", "Allowing ruptured black wire heads to stand and blow in the wind"],
+      "irrigation_conditions": ["Dry-land farming setups without early water provisions to flush rapid sprout growth"]
+    },
+    "spread": {
+      "spread_by": ["Wind lines carrying loose spores from ruptured galls across full field sectors", "Spores falling straight down off broken wire bundles into the topsoil layer", "Tractor blades distributing infested dirt lines"],
+      "source_of_infection": ["**Infested field soils (the primary source of infection)**", "Spores sticking onto the outside of seed coats"],
+      "survival_method": "Spores (teliospores) are highly resilient, living independently inside the field soil layer for over 3 to 5 years, waiting for new sorghum roots to grow nearby",
+      "spread_speed": "Slow across seasons as a soil resident, but highly destructive to individual plants once roots are invaded underground",
+      "nearby_crop_risk": "Low for current season neighboring rows, as infection *only* happens underground during the first 2 weeks of seedling life"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 1% of sorghum heads in the plot are transformed into giant black wire masses.",
+        "field_indicator": "Rare, isolated black fibrous heads noticed; rest of the field looks healthy and full of grain.",
+        "recommended_action": "Carefully slip a large cloth bag over the entire infected head *before* it flakes completely, cut the stalk, and bury or burn it 2 feet deep. Do not leave it to blow spores."
+      },
+      {
+        "level": "Medium",
+        "description": "1% to 5% of entire head counts across the rows are completely destroyed into soot masses with exposed thread fibers.",
+        "field_indicator": "Black messy broom heads are visible across multiple lines; soil surface underneath shows dark dust stains.",
+        "recommended_action": "Eradicate active smutted heads manually with caution. Map out a strict 3-year crop rotation break for this field block. Enforce systemic seed treatments."
+      },
+      {
+        "level": "High",
+        "description": "More than 5% of the crop panicles are completely destroyed by head smut; field soil is heavily contaminated with spores.",
+        "field_indicator": "Widespread presence of black wire clumps instead of grain heads; severe direct financial crop failure.",
+        "recommended_action": "Harvest the remaining clean sections carefully. Do not save seed from any part of this plot. Implement long-term non-cereal crop rotation and switch to fully certified immune/resistant hybrids."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Sow certified, disease-resistant sorghum hybrids explicitly rated for head smut resistance", "Always use a systemic fungicide seed dressing to create a protective chemical shield around the young root line"],
+      "field_management": ["Practice strict multi-year crop rotation loops to allow soilborne spore populations to naturally die down", "Sow in warm, well-moistened soils"],
+      "irrigation_management": ["Provide adequate early irrigation to maintain uniform soil moisture, encouraging seedlings to grow rapidly past the vulnerable sprout stage"],
+      "soil_management": ["Apply balanced organic composts; practice summer soil solarization using plastic sheets if working compact nursery lines"],
+      "crop_rotation": ["**Enforce a strict 3-to-4-year rotation out of all millets, corn, and sudangrass** using non-host crops like cowpea, soybean, cotton, or sunflower"],
+      "sanitation": ["Uproot and destroy infected plants entirely including root masses before the white silvery peridium flakes open completely", "Never feed black wire heads to cattle, as spores pass alive through dung back into the soil"],
+      "monitoring": ["Carefully monitor rows at early head emergence, looking out for swollen, skin-wrapped egg galls before they rupture into black dust clouds"]
+    },
+    "management": {
+      "immediate_action": ["Verify the presence of dark wire-like fibers (shredded vascular lines) to confirm Head Smut", "Isolate and cut affected heads using thick bags to trap spores"],
+      "cultural_control": ["Clean, wash, and blow down all field tractors, plows, and harvesting machinery before moving away from an infested field to avoid carrying infested soil to clean plots"],
+      "organic_control": ["Incorporate high amounts of neem cake or mustard cake into sowed soil lines to reduce soil fungal activity", "Coat seeds with Trichoderma bio-agents"],
+      "biological_control": ["Mass soil application of beneficial fungal antagonists can help speed up the degradation of soilborne teliospores over fallow break years"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Flutriafol or Triadimenol",
+          "product_type": "Systemic Triazole Seed / Soil Treatment",
+          "dose": "1.5 - 2.0 g/kg of seed",
+          "application_method": "Systemic seed treatment applied directly to seeds prior to sowing",
+          "spray_interval": "Single seed coating before planting; foliar canopy sprays on leaves are **completely useless** because the fungus is soil-borne and systemic",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Provides vital systemic protection inside the seedling roots during early underground growth. Follow strict container disposal safety rules."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Head smut (White Spreaded or Jowar Tulat Rog) is a highly damaging soil-borne disease. The fungal spores live in the dirt for years and crawl inside the sorghum root hidden underground when the plant is a tiny sprout. When the plant tries to make a seed head, the fungus takes over completely, turning the *entire head* into a single giant white bag that bursts open into a messy mass of black soot and coarse, wire-like dry threads.",
+      "what_to_do_now": [
+        "If you spot a giant white smut bag on a stalk tip, immediately cover it with a cloth bag, cut it down, and burn it before it breaks and spills black dust into your soil.",
+        "**Never save or reuse seeds from this field, and do not grow sorghum in this exact field next year—the soil is now contaminated with spores.**",
+        "Always purchase certified, head-smut-resistant seed hybrids and dress them with systemic chemical powders before planting."
+      ],
+      "what_not_to_do": [
+        "**Never feed black, smutted wire heads to your cattle**, because the spores will live through their stomach and spread all over your farm inside the manure.",
+        "Do not run your tractor or plow straight from a smut-infested field into a clean field without washing the tires and blades free of dirty soil.",
+        "Do not spend money on leaf sprays once the black wire heads show up; sprays cannot cure a plant infected systemically from the roots."
+      ],
+      "when_to_call_expert": [
+        "Call an agricultural officer or extension expert immediately if you see entire sections of your field producing messy black wire bundles instead of normal grain panicles."
+      ],
+      "risk_warning": "Head smut is an absolute ear-head killer. Unlike grain smut which targets a few seeds, head smut completely destroys 100% of the seeds on an infected plant, and because its spores permanently infect your soil, ignoring it can ruin your land's health for sorghum farming for years."
+    },
+    "model_support": {
+      "classification_labels": ["sorghum_head_smut_wires", "sorghum_healthy_head", "sorghum_covered_smut"],
+      "segmentation_labels": ["silvery_white_peridium", "shredded_vascular_fibers", "loose_black_teliospores"],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": ["The black fibrous growth is accompanied by long leaf distortions across all tillers during early vegetative stages"],
+      "image_quality_requirements": ["Requires clear close-up images resolving the long, wire-like dark structural threads to confirm head smut over individual kernel capsules"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SORGHUM-HSM-CH-04",
+        "chunk_type": "Pathology / Soil Epidemiology",
+        "title": "Sporisorium reilianum Soilborne Life Cycle and Floral Shredding",
+        "content": "Head smut of sorghum is caused by the soilborne basidiomycete Sporisorium reilianum. Teliospores overwintering in the soil matrix germinate to infect seedling root tissue line systemically. The mycelium invades the undifferentiated floral primordia, completely replacing panicle structures with a mega-gall bounded by a temporary peridium. Upon rupture, it leaves exposed, shredded longitudinal vascular fibers and dumps teliospores back into the soil reservoir.",
+        "keywords": ["Sporisorium reilianum", "soilborne basidiomycete", "root invasion", "floral primordia", "peridium rupture", "vascular fibers"],
+        "language": "English",
+        "target_user": "Plant Pathology Researcher / Soil Health Specialist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block level",
+      "risk_radius": "15 km",
+      "report_count_threshold": "3 severe soil contamination alerts in a local agricultural circle",
+      "outbreak_alert_message": "CRITICAL ALERT: Head Smut soil reservoirs expanding. Avoid continuous sorghum/maize configurations and mandate targeted triadimenol seed protection.",
+      "nearby_farm_advice": ["Wash soil cultivation tools thoroughly.", "Uproot and deeply bury intact silver peridium galls before spore release cycles fill local wind lanes."]
+    },
+    "source_metadata": {
+      "source_title": "Soilborne Smuts of Dryland Cereals: Diagnosis and Controls",
+      "source_url": "https://www.icrisat.org/head-smut-technical-bulletin",
+      "source_type": "International Technical Monograph",
+      "author_or_organization": "ICRISAT / ICAR Cooperative Research Network",
+      "published_year": "2022",
+      "region": "Global Semi-Arid Tropics",
+      "language": "English",
+      "last_verified": "2026-05-10",
+      "trust_level": "High",
+      "notes": "Premium reference authority highlighting long-term crop rotation matrices and genetic resistance grouping indices for head smut remediation."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T14:45:00Z",
+      "updated_at": "2026-06-01T19:45:00Z",
+      "reviewed_by": "Joint ICAR-ICRISAT Millet Pathology Directorate",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SORGHUM-RUS-005",
+    "crop": {
+      "common_name": "Sorghum",
+      "english_name": "Sorghum / Great Millet",
+      "scientific_name": "Sorghum bicolor",
+      "local_names": ["Jowar", "Juar", "Cholam", "Sorgo"],
+      "crop_category": "Cereal / Grain / Forage"
+    },
+    "disease": {
+      "name": "Rust",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Puccinia purpurea"],
+      "affected_parts": ["Leaves", "Leaf sheaths", "Peduncle rarely"],
+      "disease_stage": "Mid vegetative to late Grain maturity stage; commonly peaks post-flowering"
+    },
+    "symptoms": {
+      "early_stage": ["Small, slightly raised, blister-like dots appear on both upper and lower leaf surfaces", "Blisters are initially reddish-purple or dark brown"],
+      "middle_stage": ["The blisters rupture, forming small, elongated, powdery reddish-brown or rust-colored pits (uredinia)", "A prominent purple or deep red necrotic ring forms around each active rust pit"],
+      "severe_stage": ["Thousands of rust pits cover the entire leaf blade, causing leaves to turn purple-brown, dry up early, and die back completely", "Premature defoliation reduces grain filling weight, causing light, loose heads"],
+      "visible_signs": ["A rusty, brick-red or brown powder leaking out from raised leaf blisters, leaving dark stains when wiped with a white cloth"],
+      "farmer_reported_signs": ["My jowar leaves look like they are covered in rusty brown sand dust", "The leaves are turning deep purple and drying up early, and when I walk through rows, a red-brick powder rubs onto my clothes"]
+    },
+    "visual_identification": {
+      "color_changes": ["Raised pits produce brick-red to chestnut-brown powder wrapped inside dark purple or deep red leaf rings"],
+      "spot_or_patch_shape": "Small, elongated, raised blister-like lines running parallel with the leaf vein structure",
+      "pattern": "Densely packed and scattered uniformly across the leaf blades; leaves feel rough and sand-paper-like",
+      "location_on_plant": "Starts on lower, older leaves and climbs steadily up onto the top flag leaves near maturity",
+      "starts_from": "Leaf surfaces exposed to direct wind currents carrying airborne spores",
+      "progression": "Pits expand continuously, breaking open the leaf skin to dump powdery rust spores into air currents",
+      "image_clues": ["Sorghum leaf face covered in hundreds of tiny, raised, erupting brick-red powder lines", "Purple leaf tissue surrounding dry brown rust craters"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Sorghum Anthracnose (Colletotrichum sublineola)",
+        "difference": "Anthracnose leaf spots are large, flat, hollow oval circles with clear straw-tan centers holding black pinheads, completely lacking the raised, erupting blister pins that leak brick-red or rusty-brown loose powder.",
+        "confusion_risk": "High due to the intense purple/red leaf discoloration around both diseases.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Sorghum Leaf Blight (Exserohilum turcicum)",
+        "difference": "Leaf blight forms very long, wide, flat straw-colored boat-shaped dead patches (up to 10-20 cm long) rather than tiny raised powdery blisters.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool, highly humid weather with long night dews alternating with warm, windy days that release spores"],
+      "temperature_range": "16°C - 24°C (61°F - 75°F) optimal for rust spore germination and cycling",
+      "humidity_level": "High relative humidity (>85%) with leaf wetness lasting 6 to 8 hours overnight",
+      "season": "Late Kharif or rabi crop cycles when night temperatures drop and morning fogs take over",
+      "soil_conditions": ["Not directly dependent on soil chemistry, though high nitrogen can prolong green leaf availability for rust growth"],
+      "field_conditions": ["Cultivating highly susceptible forage or grain varieties continuously", "Low air circulation due to tree windbreaks"],
+      "irrigation_conditions": ["Frequent evening overhead sprinkling that keeps leaves wet through the cold night hours"]
+    },
+    "spread": {
+      "spread_by": ["Airborne rust spores (urediniospores) blowing long distances on wind currents across agricultural counties", "Workers moving through dense lines"],
+      "source_of_infection": ["Active rust spores blowing in from neighboring multi-year forage sorghum blocks", "Alternative weed hosts like wild Sorghum species (e.g., Johnson grass)"],
+      "survival_method": "Survives as active repeating spore lines on perennial wild grasses or ratoon forage sorghum blocks kept alive through summer dry spells",
+      "spread_speed": "Highly rapid; wind lines can contaminate entire regional valleys within a week if cool, humid days persist",
+      "nearby_crop_risk": "Extreme risk for adjacent downstream sweet sorghum or grain jowar fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Tiny red blisters are rare and restricted entirely to the lowest 10% of older leaves; no loose powder leaking yet.",
+        "field_indicator": "Fewer than 10 blisters per lower leaf blade; top leaves are perfectly clean green.",
+        "recommended_action": "No chemical spray required for standard grain crops. Monitor fields weekly. Clear out host weeds from bund lines."
+      },
+      {
+        "level": "Medium",
+        "description": "Elongated brick-red powdery pits are active across 10% to 30% of the middle leaf canopy; leaves look rough and purple-ringed.",
+        "field_indicator": "Rusty brown dust rubs off onto fingers easily; leaf margins beginning to show minor drying.",
+        "recommended_action": "Apply recommended protective or systemic triazole fungicides immediately to save top flag leaves if grain filling has just started."
+      },
+      {
+        "level": "High",
+        "description": "More than 30% of the entire foliar canopy is covered in erupting rust blisters; leaves are turning purple-brown and drying early.",
+        "field_indicator": "Widespread premature leaf death; flag leaves heavily rusted; direct reduction in final grain weight and forage value.",
+        "recommended_action": "Apply systemic curative fungicides instantly to halt spore production. Plan for timely harvest of forage blocks to save biomass value. Select resistant lines next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Sow certified seeds of locally evaluated rust-resistant sorghum hybrids or forage cultivars", "Avoid saving seed lines from highly rusted plots"],
+      "field_management": ["Eradicate wild Johnson grass and alternative Oxalis weed species from all field boundaries and irrigation canals", "Maintain appropriate plant spacing"],
+      "irrigation_management": ["Schedule field watering for early mornings so wind and sun dry leaf faces within hours"],
+      "soil_management": ["Apply balanced organic matter and nutrients; avoid overdosages of Nitrogen which create ultra-dense, soft, rust-vulnerable leaves"],
+      "crop_rotation": ["Rotate with non-cereal crops like green gram, cluster bean, or groundnut for 1 to 2 seasons"],
+      "sanitation": ["Plow under crop leftovers deeply after harvest to speed up leaf decomposition", "Destroy ratoon lines during summer holiday windows"],
+      "monitoring": ["Scout fields bi-weekly from mid-vegetative phase onward, checking leaf undersides closely for raised purple-red pinhead blisters after cool fog nights"]
+    },
+    "management": {
+      "immediate_action": ["Wipe a white cloth over the blisters to check for brick-red staining and confirm Rust", "Halt any late-evening overhead sprinkling loops immediately"],
+      "cultural_control": ["Harvest forage sorghum blocks early if a heavy rust sweep strikes near maturity to preserve nutritional leaf biomass before defoliation occurs"],
+      "organic_control": ["Apply preventive foliar sprays of sulfur dust or copper formulations at early spot appearance", "Spray fresh neem leaf extracts"],
+      "biological_control": ["Limited field data; certain hyperparasitic fungi (e.g., Eudarluca caricis) naturally colonize old rust pits in balanced eco-systems"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole",
+          "product_type": "Systemic Triazole Fungicide",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar spray hitting both leaf faces uniformly with fine mist nozzles for total canopy wetting",
+          "spray_interval": "10 - 14 days apart if cool, foggy weather holds up",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Excellent systemic and curative control against rust fungi. Wear eye protection; do not apply within 14 days of grazing forage."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Protectant Fungicide",
+          "dose": "2.5 g/Liter of water (or 500g/Acre)",
+          "application_method": "Foliar broadcast spray applied preventatively before rust blisters break open",
+          "spray_interval": "7 - 10 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Forms a protective external copper/manganese film that blocks spore tubes from drilling into the leaf skin."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Sorghum rust is a highly contagious wind-borne fungal disease that creates thousands of tiny raised blisters on leaves. These blisters rupture open, leaking a fine, brick-red or rusty brown powder that rubs off onto hands and clothes, while turning the surrounding leaf tissue deep purple and causing leaves to dry up and die prematurely.",
+      "what_to_do_now": [
+        "Check leaf undersides for raised purple dots that leak a red-brick powder when wiped.",
+        "Water your fields early in the morning so the sun can dry the leaves quickly before evening.",
+        "Apply a recommended systemic fungicide spray immediately if you see rust dust moving onto your middle leaves."
+      ],
+      "what_not_to_do": [
+        "Never water your crop with overhead sprinklers late in the afternoon or evening during cool autumn cycles.",
+        "Do not allow wild grassy weeds like Johnson grass to stand tall along your field water canals.",
+        "Do not leave heavily rusted forage crops to dry out completely in the field—harvest them early to save feed value."
+      ],
+      "when_to_call_expert": [
+        "If a rusty red powder is spreading like wildfire across your flag leaves while night fogs are heavy, threatening to shrink your grain filling sizes."
+      ],
+      "risk_warning": "Sorghum rust spores travel for miles on wind currents. If left unmanaged during cool, damp cycles, it will strip the leaves off your plants early, stunting grain growth and destroying the quality of cattle feed forage."
+    },
+    "model_support": {
+      "classification_labels": ["sorghum_rust_blisters", "sorghum_healthy_leaf", "sorghum_anthracnose_leaf"],
+      "segmentation_labels": ["uredinia_brick_red_pustules", "purple_necrotic_halo", "dried_leaf_blade"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Blisters turn dark black and stay hard without producing any loose brick-red powder, pointing to late-stage winter spore phases (telia) requiring rotation tracking"],
+      "image_quality_requirements": ["Requires sharp macro shots focused closely on leaf blisters to differentiate raised erupting rust pin pits from flat circular bacterial stripe zones"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SORGHUM-RUS-CH-05",
+        "chunk_type": "Pathology / Aerobiology",
+        "title": "Puccinia purpurea Urediniospore Cycles and Foliar Necrosis",
+        "content": "Sorghum rust is caused by the macrocyclic heteroecious fungus Puccinia purpurea. Airborne urediniospores germinate in free leaf water films, penetrating via stomatal apertures. Subepidermal mycelial accumulation builds raised uredinia which rupture the epidermis, releasing billions of brick-red urediniospores. Host reaction triggers intense accumulation of anthocyanin pigments, creating typical deep purple-red halos around lesional zones, culminating in premature foliar desiccation.",
+        "keywords": ["Puccinia purpurea", "urediniospores", "stomatal penetration", "subepidermal uredinia", "anthocyanin pigments", "foliar desiccation"],
+        "language": "English",
+        "target_user": "Millet Pathologist / Extension Agronomist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "25 km",
+      "report_count_threshold": "5 active regional alerts logged during cool, foggy crop cycles",
+      "outbreak_alert_message": "Rust Alert: Wind lines are carrying high Puccinia spore counts across block sectors. Cool nights and long dews favor fast spread. Apply systemic triazole protectants.",
+      "nearby_farm_advice": ["Clear boundary perennial forage bridges.", "Monitor leaf undersides daily for active brick-red powdery pustules."]
+    },
+    "source_metadata": {
+      "source_title": "Foliar Pathogens of Dryland Millets and Forages",
+      "source_url": "https://www.icar-iimr.res.in/foliar-rust-guide",
+      "source_type": "National Institute Bulletin",
+      "author_or_organization": "ICAR - Indian Institute of Millets Research",
+      "published_year": "2021",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-03-24",
+      "trust_level": "High",
+      "notes": "Authoritative diagnostic and epidemiological manual managing rust rust-index profiles across multi-cut forage cropping lines."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:00:00Z",
+      "updated_at": "2026-06-01T20:00:00Z",
+      "reviewed_by": "ICAR-IIMR Plant Pathology Review Committee",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "SORGHUM-LSM-006",
+    "crop": {
+      "common_name": "Sorghum",
+      "english_name": "Sorghum / Great Millet",
+      "scientific_name": "Sorghum bicolor",
+      "local_names": ["Jowar", "Juar", "Cholam", "Sorgo"],
+      "crop_category": "Cereal / Grain / Forage"
+    },
+    "disease": {
+      "name": "Loose Smut (Black / Spontaneous Rupture)",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Sporisorium cruentum", "Sphacelotheca cruenta"],
+      "affected_parts": ["Grains, Glumes, Full panicle branches, Stem height"],
+      "disease_stage": "Head Emergence stage; systemic infection occurs at seedling phase underground"
+    },
+    "symptoms": {
+      "early_stage": ["Infected plants look normal early but show noticeable stunting and thinner stems before heading", "Affected tillers flower early, producing a narrow, premature panicle head"],
+      "middle_stage": ["Individual grain ovaries turn into long, narrow, dark gray pointed galls", "Galls are wrapped inside a very thin, delicate white skin membrane that is highly fragile"],
+      "severe_stage": ["The thin white membrane ruptures spontaneously *before or during* head emergence from the leaf sheath, releasing a loose cloud of charcoal-black powdery spores", "A long, curved black woody spine (columella) is left exposed at each empty grain site, and glumes turn into leafy green structures"],
+      "visible_signs": ["Loose charcoal-black powder completely dusting the emerged sorghum head early, leaving bare, curved dark woody pins exposed as spores blow away"],
+      "farmer_reported_signs": ["My jowar plants are short, and their heads are coming out already covered in a loose black soot that blows away in the wind", "The empty black seed heads look like a bunch of tiny curved dark thorns"]
+    },
+    "visual_identification": {
+      "color_changes": ["The emerging head structure is covered in an early-rupturing silver-gray membrane that changes instantly into loose, dusty charcoal-black spore powder"],
+      "spot_or_patch_shape": "Long, thin, pointed cylindrical galls replacing grain boxes, bursting early to leave sharp black woody spikes",
+      "pattern": "Systemic and extensive; replaces almost all grains on an infected plant tiller head, while glumes display green leafy growth expansion (hypertrophy)",
+      "location_on_plant": "Manifests on the emerged grain head panicle; causes clear height stunting across the full plant skeleton",
+      "starts_from": "Spore entry through the seedling sprout skin underground, climbing hidden inside the growth tip core",
+      "progression": "Ruptures its skin capsules very early while still tucked inside the flag leaf sleeve, releasing loose soot into the wind line",
+      "image_clues": ["Sorghum head covered in loose, dusty black charcoal powder before fully exiting the flag leaf", "Thin, curved black thorny stems left on an empty seed head"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Covered Kernel Smut (Sporisorium sorghi)",
+        "difference": "Covered kernel smut galls are tough, thick-skinned, smooth, and creamy-white, remaining completely intact and unbroken until harvest threshing occurs, and plants show zero height stunting or early flowering.",
+        "confusion_risk": "High, as both turn sorghum seeds into charcoal black soot powder.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Sorghum Head Smut (Sphaerotheca reiliana)",
+        "difference": "Head smut turns the *entire panicle* into one single massive egg-shaped black bag holding coarse wire-like structures, rather than creating separate, individual thin pointed grain spikes.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool, dry soil weather patterns during planting weeks that delay seedling emergence pipelines"],
+      "temperature_range": "18°C - 25°C (64°F - 77°F) optimal for subterranean seedling sprout invasion; emergence peaks in dry warmth",
+      "humidity_level": "Low soil moisture lines during seed germination phases",
+      "season": "Early Kharif blocks sowed in dry soil zones or late winter Rabi tracks",
+      "soil_conditions": ["Untreated soils or continuous mono-cropped plots holding smut history"],
+      "field_conditions": ["Sowing cheap, untreated seeds saved from old soot-contaminated threshed fields", "High weed competition"],
+      "irrigation_conditions": ["Delayed early watering cycles that let sowed seeds linger slowly in cool soil"]
+    },
+    "spread": {
+      "spread_by": ["Wind lines carrying loose, dusty spores from early-ruptured galls straight onto healthy open flowers in adjacent rows", "Threshing drums spreading spore dust onto healthy seed jackets"],
+      "source_of_infection": ["Spores contaminating the seed coat skin used for planting", "Loose airborne spores landing inside open flowers during the current season"],
+      "survival_method": "Spores (teliospores) survive as a dry dust stuck to saved seed coats or resting in the topsoil, germinating right alongside the new seed sprout",
+      "spread_speed": "Fast across the field canopy during flowering, as loose powder bursts open early in open wind lines",
+      "nearby_crop_risk": "High for current-season neighboring fields during flowering (causes flower infection that shows up next generation)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 2% of plants show early loose black soot heads; infected lines look slightly short.",
+        "field_indicator": "Isolated black dusty heads emerging early from flag leaves; majority of rows look healthy.",
+        "recommended_action": "Carefully pull an entire plastic bag over the stunted black head, cut the stem, and burn it to stop wind-blown spore line transfer. Do not save seed."
+      },
+      {
+        "level": "Medium",
+        "description": "2% to 10% of sorghum heads are completely black, dusty, and shedding loose charcoal powder across lines.",
+        "field_indicator": "Short, thin plants with dark soot-covered heads are common across rows; curved black spines are clearly visible.",
+        "recommended_action": "Harvest contaminated blocks separate from clean seed seedplots. Enforce a mandatory systemic chemical seed-dressing rule for the next crop season."
+      },
+      {
+        "level": "High",
+        "description": "More than 10% of the entire field head count is destroyed by loose smut soot; clouds of black dust rise during handling.",
+        "field_indicator": "Massive direct yield loss; heavy soot coating over healthy neighboring leaves; high grain rejection at market.",
+        "recommended_action": "Harvest using safety goggles and dust masks. Discard contaminated crop sections safely; **never use seed lines from this harvest for next season's sowing.** Switch to fully immune certified seed hybrids."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["**Treat seeds with systematic fungicides like Carboxin, Carbendazim, or Thiram before sowing (eliminates the disease completely)**", "Always purchase certified, disease-free seed stocks from reputable sources"],
+      "field_management": ["Sow seeds into warm, well-aerated, moist soil beds to drive fast seedling emergence, outrunning fungal growth lines"],
+      "irrigation_management": ["Maintain adequate early soil hydration to support quick, vigorous sprout breakthroughs"],
+      "soil_management": ["Deep summer soil inversion plowing to bury surface spore drops deep away from new root horizons"],
+      "crop_rotation": ["Rotate the plot out of all millets and small grains with deep-rooted legume lines for 1 to 2 seasons"],
+      "sanitation": ["Carefully remove intact loose smut heads using bags before the thin silver membrane splits open entirely", "Wash farm tools"],
+      "monitoring": ["Scout fields closely just *before* full heading, tracking short, thin tillers that are flowering earlier than normal rows"]
+    },
+    "management": {
+      "immediate_action": ["Check if black soot is loose and reveals individual curved thorns (columella) to confirm Loose Smut", "Isolate active smut heads using bags immediately"],
+      "cultural_control": ["Thoroughly wash and hose down all mechanical threshers and seed drills with water between field blocks to eliminate spore transfer pathways"],
+      "organic_control": ["Coat seeds with organic sulfur powder or treat with Trichoderma viride formulations (4-6g/kg seed) before planting"],
+      "biological_control": ["Limited field efficacy on standing crops; seed-level biological inoculants help suppress initial spore tube germination underground"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim or Carboxin",
+          "product_type": "Systemic Fungicide Seed Dressing",
+          "dose": "2.0 - 3.0 g/kg of seed",
+          "application_method": "Thorough dry seed coating or slurry mixing *prior to sowing*",
+          "spray_interval": "Single seed treatment before planting; foliar canopy sprays provide **zero medical cure** once the black heads break out",
+          "pre_harvest_interval": "Not applicable",
+          "safety_note": "Highly effective, low-cost preventative barrier that kills the fungus before it enters the young sprout. Wear face shields and protective gloves during chemical mixing operations."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Loose smut (Black Smut or Jowar Khuli Kani Rog) is a highly contagious seed-borne disease. The fungus enters the plant hidden underground when it is a tiny sprout, stunting its height. When the plant tries to head out, the fungus breaks out early, replacing individual grains with thin gray capsules that burst open *spontaneously inside the leaf sleeve*, releasing a loose cloud of charcoal-black soot powder into the wind and leaving behind empty, curved dark thorny spikes.",
+      "what_to_do_now": [
+        "**Always buy certified seeds or dress your saved seeds with recommended systemic chemical powders before sowing (this completely stops the underground infection).**",
+        "If you see a short plant producing a loose black soot head early, cover it with a plastic bag immediately, cut it off, and burn it to stop the wind from carrying spores to healthy flowers.",
+        "Wash your tools and cleaning equipment thoroughly so black spores do not contaminate clean crop fields next season."
+      ],
+      "what_not_to_do": [
+        "Never save seeds for next year from a sorghum block that produced loose black dusty heads.",
+        "Do not waste money on spraying leaf chemicals once the black soot heads appear—sprays are useless because the infection happened months ago inside the roots.",
+        "Do not plant seeds in cold, bone-dry, hard soils which slows down sprouting and helps the fungus enter the plant skin."
+      ],
+      "when_to_call_expert": [
+        "If you notice large patches of short, thin jowar tillers flowering early and coming out covered in loose charcoal powder across your agricultural block."
+      ],
+      "risk_warning": "Because loose smut spores burst open early and infect neighboring open flowers directly during the standing season, ignoring this disease will rapidly spread the contamination across your entire village seed lines, causing severe grain losses next harvest."
+    },
+    "model_support": {
+      "classification_labels": ["sorghum_loose_smut_soot", "sorghum_healthy_head", "sorghum_covered_smut"],
+      "segmentation_labels": ["early_ruptured_peridium", "thin_curved_columella", "loose_charcoal_teliospores"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["The black powder covers a giant unified egg-shaped sack containing long thick wires, pointing to head smut instead"],
+      "image_quality_requirements": ["Requires macro close-up focus on the early emerging panicle sleeve to resolve the delicate breaking skin and exposed thin central thorn spikes"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "SORGHUM-LSM-CH-06",
+        "chunk_type": "Pathology / Disease Management",
+        "title": "Sporisorium cruentum Epicuticular Rupture and Floral Hypertrophy",
+        "content": "Loose smut of sorghum, caused by Sporisorium cruentum, is a systemic seedling-infection disease that induces distinct phenotypic stunting and premature anthesis. Teliospores invade the hypocotyl tissue line. During panicle development, the fungus creates thin sori bounded by an ephemeral peridium that ruptures spontaneously *intra-sheath*, discharging loose teliospores. The empty nodes display curved black columellae, and glumes often undergo distinct leafy expansion (hypertrophy) due to fungal growth hormones.",
+        "keywords": ["Sporisorium cruentum", "systemic seedling-infection", "stunting", "ephemeral peridium", "intra-sheath rupture", "columellae", "leafy hypertrophy"],
+        "language": "English",
+        "target_user": "Millet Breeder / Seed Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block wide",
+      "risk_radius": "12 km",
+      "report_count_threshold": "4 active field alerts logged during early head emergence phases",
+      "outbreak_alert_message": "Loose Smut Alert: Stunted early-emerging tillers shedding loose Sporisorium powder into wind lines. Eradicate infected heads preventatively and mandate clean seed dressing.",
+      "nearby_farm_advice": ["Do not save seed from affected lines.", "Implement localized bag-and-cut rogueing to protect neighboring flowering lines."]
+    },
+    "source_metadata": {
+      "source_title": "Field Manual for Identification of Millet Smuts",
+      "source_url": "https://www.icar-iimr.res.in/loose-smut-manual",
+      "source_type": "National Institute Manual",
+      "author_or_organization": "ICAR - Indian Institute of Millets Research",
+      "published_year": "2020",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2026-03-20",
+      "trust_level": "High",
+      "notes": "Authoritative comparative index sorting morphological divergence vectors between soilborne and seedborne Sporisorium strains."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T15:15:00Z",
+      "updated_at": "2026-06-01T20:15:00Z",
+      "reviewed_by": "IIMR Millet Pathology Panel",
+      "status": "Verified"
+    }
+  }
+]

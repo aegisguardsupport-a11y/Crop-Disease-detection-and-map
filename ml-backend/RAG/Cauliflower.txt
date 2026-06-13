@@ -1,0 +1,2079 @@
+[
+  {
+    "id": "cauliflower_alternaria_brassicae",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Alternaria Brassicae",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Alternaria brassicae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Curd"
+      ],
+      "disease_stage": "Vegetative to Heading"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, dark brown to black circular spots on older leaves.",
+        "The spots are usually surrounded by a faint yellow halo."
+      ],
+      "middle_stage": [
+        "Spots enlarge into circular lesions with distinct concentric 'target-like' rings.",
+        "Lesions may dry up and become brittle."
+      ],
+      "severe_stage": [
+        "Multiple leaf spots coalesce to form large necrotic patches.",
+        "The center of the spots crack and fall out, creating a 'shot-hole' or ragged appearance.",
+        "Leaves turn yellow and drop off prematurely.",
+        "Brown-to-black velvety spots develop on the cauliflower curd, ruining its market value."
+      ],
+      "visible_signs": [
+        "Dark concentric rings (target pattern) on leaves.",
+        "Velvety black/grey fungal growth on the curd or spot centers under high humidity.",
+        "Shot-holes on leaf blades."
+      ],
+      "farmer_reported_signs": [
+        "Black circular targets on older leaves",
+        "Black dry spots on the cauliflower flower head (curd)",
+        "Leaves turning yellow and falling off with dry holes"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown to black",
+        "Faint yellow chlorotic halo",
+        "Grey-to-black velvety mold"
+      ],
+      "spot_or_patch_shape": "Concentric rings / Target-board shape",
+      "pattern": "Circular concentric spots expanding and coalescing",
+      "location_on_plant": "Starts on older lower leaves and progresses upward to outer wrapper leaves and the curd",
+      "starts_from": "Older lower leaves near the soil line",
+      "progression": "Lower leaves -> Wrapper leaves -> Cauliflower curd (head rot)",
+      "image_clues": [
+        "Look for concentric dark rings (bullseye pattern) on leaf surface",
+        "Look for black velvety mold-like spots on the white cauliflower curd"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black Spot (Alternaria brassicicola)",
+        "difference": "Alternaria brassicicola causes darker, sootier-black, smaller spots on the leaves and curd, and is more common in warmer weather than Alternaria brassicae.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Downy Mildew",
+        "difference": "Downy mildew causes angular yellow spots on upper surfaces with a fluffy grayish-white mold underneath, instead of dry dark concentric spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet, and highly humid weather",
+        "Frequent rain showers or heavy morning dews"
+      ],
+      "temperature_range": "15\u00b0C - 24\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Winter / Late Autumn",
+      "soil_conditions": [
+        "Poorly drained, wet soils"
+      ],
+      "field_conditions": [
+        "Crowded plant spacing restricting airflow",
+        "Presence of cruciferous weeds"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation leaving leaves wet for hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Overwintering fungal structures in crop residues",
+        "Alternative cruciferous weeds"
+      ],
+      "survival_method": "The fungus survives as dormant mycelium or spores on infected seed coats and inside diseased crop debris in the soil.",
+      "spread_speed": "Fast under cool, wet conditions",
+      "nearby_crop_risk": "High for other brassicas (cabbage, broccoli, radish)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated dark spots on the bottom-most leaves; no curd lesions.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic copper sprays or biological agents."
+      },
+      {
+        "level": "Medium",
+        "description": "Concentric circles spreading to wrapper leaves; initial leaf drying.",
+        "field_indicator": "10% to 25% wrapper leaves showing spots; no spots on curd.",
+        "recommended_action": "Spray contact protective fungicides like Chlorothalonil or Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Black lesions on the white cauliflower curd; heavy leaf drop and rotting.",
+        "field_indicator": ">25% of leaves affected; dark spots visible on cauliflower heads.",
+        "recommended_action": "Immediately spray highly effective systemic mixtures like Azoxystrobin + Difenoconazole or Tebuconazole."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use certified disease-free seeds.",
+        "Treat seeds in hot water at 50\u00b0C (122\u00b0F) for 25 minutes before sowing to kill internal spores."
+      ],
+      "field_management": [
+        "Observe proper spacing (45 x 45 cm or 60 x 45 cm) to allow ventilation.",
+        "Keep fields completely free of cruciferous weeds."
+      ],
+      "irrigation_management": [
+        "Avoid overhead sprinkler irrigation.",
+        "Use drip or furrow irrigation; water early in the morning."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Use balanced NPK; avoid excessive nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate cauliflower with non-cruciferous crops (such as corn, beans, or wheat) for at least 3 years."
+      ],
+      "sanitation": [
+        "Regularly remove and destroy infected lower leaves.",
+        "Bury or burn cauliflower residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Monitor weekly, checking lower leaves for dark spots starting from 20 days after transplanting."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue and destroy infected lower leaves.",
+        "Improve drainage and avoid overhead watering.",
+        "Apply a protective fungicide spray immediately."
+      ],
+      "cultural_control": [
+        "Mow or deeply disk cauliflower residues after harvest.",
+        "Eradicate wild mustard and other weed hosts."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+        "Apply copper-based organic formulations."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Trichoderma harzianum @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply preventatively before canopy closure."
+        },
+        {
+          "active_ingredient": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "1 day",
+          "safety_note": "Provides excellent curative and systemic protection. Rotate with other chemical groups to avoid resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Alternaria Brassicae is a fungal disease that makes dark brown or black target-like spots on cauliflower leaves. These spots can dry out and leave holes. If left untreated, the spots will spread to the white cauliflower curd, causing black rotting patches that ruin your harvest.",
+      "what_to_do_now": [
+        "Pick off and burn the spotted bottom leaves.",
+        "Stop using overhead sprinkler watering.",
+        "Spray Chlorothalonil (2g/L) or Azoxystrobin + Difenoconazole (1mL/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave cauliflower waste on the ground after harvesting.",
+        "Do not plant cauliflower in the same soil where broccoli, cabbage, or mustard grew last season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if black rot-like lesions are spreading to cauliflower curds within 2 weeks of expected harvest."
+      ],
+      "risk_warning": "Severe Alternaria leaf spot ruins the cauliflower curd quality, causing it to rot in storage and reducing its market value to zero."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_alternaria_brassicae"
+      ],
+      "segmentation_labels": [
+        "concentric_target_spot",
+        "sunken_curd_rot"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The spots are confused with chemical spray burns or physical leaf tears."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the leaf blade showing the concentric dark rings or sunken spots on the cauliflower head in natural daylight."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Alternaria Brassicae alert! Cool, wet weather is triggering cauliflower leaf spot. Apply preventive fungicides and avoid sprinkler watering.",
+      "nearby_farm_advice": [
+        "Apply preventive Chlorothalonil spray",
+        "Avoid overhead irrigation",
+        "Remove yellowing lower leaves"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Disease Management of Cole Crops",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Guide",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers hot water seed treatment parameters and chemical controls."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:00:00Z",
+      "updated_at": "2024-10-27T17:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_alternaria_leaf_spot",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Alternaria Leaf Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Alternaria brassicicola",
+        "Alternaria brassicae"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems",
+        "Curd"
+      ],
+      "disease_stage": "Vegetative to Heading"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, dark brown to black circular spots on older leaves.",
+        "The spots are usually surrounded by a faint yellow halo."
+      ],
+      "middle_stage": [
+        "Spots enlarge into circular lesions with distinct concentric 'target-like' rings.",
+        "Lesions may dry up and become brittle."
+      ],
+      "severe_stage": [
+        "Multiple leaf spots coalesce to form large necrotic patches.",
+        "The center of the spots crack and fall out, creating a 'shot-hole' or ragged appearance.",
+        "Leaves turn yellow and drop off prematurely.",
+        "Brown-to-black velvety spots develop on the cauliflower curd, ruining its market value."
+      ],
+      "visible_signs": [
+        "Dark concentric rings (target pattern) on leaves.",
+        "Velvety black/grey fungal growth on the curd or spot centers under high humidity.",
+        "Shot-holes on leaf blades."
+      ],
+      "farmer_reported_signs": [
+        "Black circular targets on older leaves",
+        "Black dry spots on the cauliflower flower head (curd)",
+        "Leaves turning yellow and falling off with dry holes"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown to black",
+        "Faint yellow chlorotic halo",
+        "Grey-to-black velvety mold"
+      ],
+      "spot_or_patch_shape": "Concentric rings / Target-board shape",
+      "pattern": "Circular concentric spots expanding and coalescing",
+      "location_on_plant": "Starts on older lower leaves and progresses upward to outer wrapper leaves and the curd",
+      "starts_from": "Older lower leaves near the soil line",
+      "progression": "Lower leaves -> Wrapper leaves -> Cauliflower curd (head rot)",
+      "image_clues": [
+        "Look for concentric dark rings (bullseye pattern) on leaf surface",
+        "Look for black velvety mold-like spots on the white cauliflower curd"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black Spot (Alternaria brassicicola)",
+        "difference": "Alternaria brassicicola causes darker, sootier-black, smaller spots on the leaves and curd, and is more common in warmer weather than Alternaria brassicae.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Downy Mildew",
+        "difference": "Downy mildew causes angular yellow spots on upper surfaces with a fluffy grayish-white mold underneath, instead of dry dark concentric spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet, and highly humid weather",
+        "Frequent rain showers or heavy morning dews"
+      ],
+      "temperature_range": "15\u00b0C - 24\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Winter / Late Autumn",
+      "soil_conditions": [
+        "Poorly drained, wet soils"
+      ],
+      "field_conditions": [
+        "Crowded plant spacing restricting airflow",
+        "Presence of cruciferous weeds"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation leaving leaves wet for hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne spores (conidia)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Overwintering fungal structures in crop residues",
+        "Alternative cruciferous weeds"
+      ],
+      "survival_method": "The fungus survives as dormant mycelium or spores on infected seed coats and inside diseased crop debris in the soil.",
+      "spread_speed": "Fast under cool, wet conditions",
+      "nearby_crop_risk": "High for other brassicas (cabbage, broccoli, radish)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated dark spots on the bottom-most leaves; no curd lesions.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out affected lower leaves. Apply organic copper sprays or biological agents."
+      },
+      {
+        "level": "Medium",
+        "description": "Concentric circles spreading to wrapper leaves; initial leaf drying.",
+        "field_indicator": "10% to 25% wrapper leaves showing spots; no spots on curd.",
+        "recommended_action": "Spray contact protective fungicides like Chlorothalonil or Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Black lesions on the white cauliflower curd; heavy leaf drop and rotting.",
+        "field_indicator": ">25% of leaves affected; dark spots visible on cauliflower heads.",
+        "recommended_action": "Immediately spray highly effective systemic mixtures like Azoxystrobin + Difenoconazole or Tebuconazole."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use certified disease-free seeds.",
+        "Treat seeds in hot water at 50\u00b0C (122\u00b0F) for 25 minutes before sowing to kill internal spores."
+      ],
+      "field_management": [
+        "Observe proper spacing (45 x 45 cm or 60 x 45 cm) to allow ventilation.",
+        "Keep fields completely free of cruciferous weeds."
+      ],
+      "irrigation_management": [
+        "Avoid overhead sprinkler irrigation.",
+        "Use drip or furrow irrigation; water early in the morning."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Use balanced NPK; avoid excessive nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate cauliflower with non-cruciferous crops (such as corn, beans, or wheat) for at least 3 years."
+      ],
+      "sanitation": [
+        "Regularly remove and destroy infected lower leaves.",
+        "Bury or burn cauliflower residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Monitor weekly, checking lower leaves for dark spots starting from 20 days after transplanting."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Rogue and destroy infected lower leaves.",
+        "Improve drainage and avoid overhead watering.",
+        "Apply a protective fungicide spray immediately."
+      ],
+      "cultural_control": [
+        "Mow or deeply disk cauliflower residues after harvest.",
+        "Eradicate wild mustard and other weed hosts."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+        "Apply copper-based organic formulations."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Trichoderma harzianum @ 10 g/L of water."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply preventatively before canopy closure."
+        },
+        {
+          "active_ingredient": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "1 day",
+          "safety_note": "Provides excellent curative and systemic protection. Rotate with other chemical groups to avoid resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Alternaria leaf spot is a fungal disease that makes dark brown or black target-like spots on cauliflower leaves. These spots can dry out and leave holes. If left untreated, the spots will spread to the white cauliflower curd, causing black rotting patches that ruin your harvest.",
+      "what_to_do_now": [
+        "Pick off and burn the spotted bottom leaves.",
+        "Stop using overhead sprinkler watering.",
+        "Spray Chlorothalonil (2g/L) or Azoxystrobin + Difenoconazole (1mL/L) immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave cauliflower waste on the ground after harvesting.",
+        "Do not plant cauliflower in the same soil where broccoli, cabbage, or mustard grew last season."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if black rot-like lesions are spreading to cauliflower curds within 2 weeks of expected harvest."
+      ],
+      "risk_warning": "Severe Alternaria leaf spot ruins the cauliflower curd quality, causing it to rot in storage and reducing its market value to zero."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_alternaria_leaf_spot"
+      ],
+      "segmentation_labels": [
+        "concentric_target_spot",
+        "sunken_curd_rot"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The spots are confused with chemical spray burns or physical leaf tears."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the leaf blade showing the concentric dark rings or sunken spots on the cauliflower head in natural daylight."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Alternaria Leaf Spot alert! Cool, wet weather is triggering cauliflower leaf spot. Apply preventive fungicides and avoid sprinkler watering.",
+      "nearby_farm_advice": [
+        "Apply preventive Chlorothalonil spray",
+        "Avoid overhead irrigation",
+        "Remove yellowing lower leaves"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Disease Management of Cole Crops",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Guide",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers hot water seed treatment parameters and chemical controls."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:00:00Z",
+      "updated_at": "2024-10-27T17:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_bacterial_soft_rot",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Bacterial Soft Rot",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Pectobacterium carotovorum subsp. carotovorum",
+        "Erwinia carotovora subsp. carotovora"
+      ],
+      "affected_parts": [
+        "Curd",
+        "Stems",
+        "Leaves"
+      ],
+      "disease_stage": "Heading to Harvesting / Post-harvest"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, water-soaked, greasy, or translucent spots on leaves or localized areas of the cauliflower head (curd)."
+      ],
+      "middle_stage": [
+        "Spots expand rapidly; the white cauliflower curd develops sunken, dark-brown to black wet, necrotic patches."
+      ],
+      "severe_stage": [
+        "The entire curd and stem tissue degrades, collapses, and liquefies into a soft, mushy, rotten mass.",
+        "Flesh oozes a slimy liquid and releases a highly offensive, foul, rotten odor caused by secondary invading bacteria."
+      ],
+      "visible_signs": [
+        "Mushy, slimy, brown-black decaying spots on cauliflower head.",
+        "Offensive foul odor.",
+        "Slimy bacterial exudate flowing from cracked rotten tissues."
+      ],
+      "farmer_reported_signs": [
+        "Foul-smelling mushy cauliflower head",
+        "Black wet rotting patches on curd",
+        "White curd melting into smelly slime"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Water-soaked dark-green",
+        "Greasy brown",
+        "Black slimy decay"
+      ],
+      "spot_or_patch_shape": "Sunken, irregular, water-soaked necrotic patches",
+      "pattern": "Rapidly spreading soft wet rot melting the plant structure",
+      "location_on_plant": "Mainly on cauliflower head (curd) and main stem",
+      "starts_from": "Wounds, insect feeding injuries, or area of water accumulation on curd",
+      "progression": "Local wound spot -> Water-soaked expansion -> Tissue liquefaction -> Complete mushy head rot -> Foul odor release",
+      "image_clues": [
+        "Look for a wet, mushy, brown-black spot on the white cauliflower curd",
+        "Look for slimy liquid dripping from the rotten parts of the head"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black Spot (Alternaria)",
+        "difference": "Black spot causes dry, dark velvety spots on the curd without tissue liquefaction or foul rotten smells.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Spot (Pseudomonas)",
+        "difference": "Bacterial spot produces small, dry, pinpoint peppery spots (up to 3mm) rather than a large, wet, mushy, melting soft rot.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, humid, and extremely wet weather",
+        "Persistent rainfall or heavy overhead water during head formation"
+      ],
+      "temperature_range": "25\u00b0C - 30\u00b0C",
+      "humidity_level": ">90% RH",
+      "season": "Rainy season / Wet Autumn",
+      "soil_conditions": [
+        "Waterlogged, poorly drained soils",
+        "High soil nitrogen levels promoting soft cells"
+      ],
+      "field_conditions": [
+        "Presence of chewing insects (loopers, maggots) causing wounds",
+        "Mechanical damage from weeding or harvesting tools"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation leaving standing water droplets on the curd"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Splashing water",
+        "Chewing insect pests",
+        "Contaminated harvesting knives, tools, or hands"
+      ],
+      "source_of_infection": [
+        "Soil-borne bacteria",
+        "Infected crop residues",
+        "Contaminated irrigation water"
+      ],
+      "survival_method": "The bacteria survive in soil, crop residues, and the gut of certain insects for long periods.",
+      "spread_speed": "Extremely Fast under warm, wet conditions (can rot a head in 2-3 days)",
+      "nearby_crop_risk": "High for all brassicas and other fleshy vegetables (carrots, potatoes, onions)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very small water-soaked greasy dots on leaves or a tiny portion of the curd (<5% curd area affected).",
+        "field_indicator": "Isolated tiny wet spots on curds.",
+        "recommended_action": "Avoid overhead watering. Control chewing insect pests. Rogue out infected heads carefully."
+      },
+      {
+        "level": "Medium",
+        "description": "Sunken brown necrotic spots on curds covering 5% to 20% of the head.",
+        "field_indicator": "Plants with noticeable wet rotting spots on cauliflower heads.",
+        "recommended_action": "Uproot infected plants carefully. Disinfect harvesting tools. Spray Copper Hydroxide to protect healthy neighbors."
+      },
+      {
+        "level": "High",
+        "description": "Over 20% of curd area melted into smelly slime; complete crop collapse in infected spots.",
+        "field_indicator": "Widespread foul-smelling mushy curds; high insect borer activity.",
+        "recommended_action": "Harvest healthy curds immediately using clean, sanitized knives. Destroy and bury rotten heads far from fields."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always use clean certified seeds.",
+        "Perform seed treatment with Streptocycline dip (100 ppm) for 30 minutes before planting."
+      ],
+      "field_management": [
+        "Plant in raised beds to ensure drainage.",
+        "Control chewing insect pests (loopers, maggots) to prevent wounds.",
+        "Ensure wide spacing."
+      ],
+      "irrigation_management": [
+        "Never use overhead sprinklers during head development.",
+        "Use drip or furrow irrigation."
+      ],
+      "soil_management": [
+        "Apply adequate calcium fertilizers (gypsum/calcium nitrate) to strengthen cell walls.",
+        "Avoid excess nitrogen."
+      ],
+      "crop_rotation": [
+        "Rotate with non-susceptible crops like grain cereals, maize, or grass for at least 3 years."
+      ],
+      "sanitation": [
+        "Sanitize harvesting tools with 10% bleach or 70% alcohol frequently.",
+        "Remove and deeply bury infected heads. Do not compost."
+      ],
+      "monitoring": [
+        "Inspect curds daily during warm, wet heading periods for early water-soaked spots."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead irrigation immediately.",
+        "Rogue out and bury infected smelly heads.",
+        "Apply a preventive copper drench/spray to healthy plants."
+      ],
+      "cultural_control": [
+        "Avoid physical damage to curds during weeding.",
+        "Harvest only when plants are dry."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Octanoate (Copper soap) @ 2 mL/L.",
+        "Ensure high calcium levels in soil."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Pseudomonas fluorescens as soil drench and foliar spray to suppress bacteria."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide 50% WP",
+          "product_type": "Contact Protective Bactericide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Helps protect healthy tissue from bacterial colonization. Do not mix with adjuvants to avoid leaf burning."
+        },
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Antibiotic Bactericide",
+          "dose": "0.1 g to 0.15 g/L of water",
+          "application_method": "Foliar Spray / Seedling Dip",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Used for bacterial suppression. Highly effective early on. Check local regulations on agricultural antibiotic use."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial Soft Rot is a highly destructive disease that melts cauliflower heads into a brown-black smelly mush. It enters through wounds caused by insects or tools, and spreads rapidly in warm, wet weather. It cannot be cured once the head is rotten.",
+      "what_to_do_now": [
+        "Pull out the rotten, smelly cauliflower heads carefully and bury them deep in the ground far away.",
+        "Sanitize your harvesting knives with bleach or hand sanitizer after every cut.",
+        "Spray Copper Hydroxide (2g/L) on nearby healthy plants to protect them."
+      ],
+      "what_not_to_do": [
+        "Do not harvest or enter the field when the plants are wet with rain or dew.",
+        "Do not throw rotten heads into the compost pile, as the bacteria will survive and spread.",
+        "Do not use overhead sprinkler watering."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if soft rot is spreading rapidly and rotting a large portion of your curds right before harvest season."
+      ],
+      "risk_warning": "Bacterial soft rot spreads incredibly fast. In warm, wet weather, it can turn a healthy field of cauliflower heads into a rotten, smelly mass within 3 days."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_bacterial_soft_rot"
+      ],
+      "segmentation_labels": [
+        "mushy_curd_decay",
+        "slimy_bacterial_ooze"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "The soft rot is confused with physiological breakdown (such as hollow stem or brown heart due to boron deficiency)."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the wet, mushy, brown-black decayed curd showing liquefied slimy textures in natural light."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Soft Rot Alert! High humidity and rainfall are causing cauliflower head decay. Control caterpillars and sanitize tools.",
+      "nearby_farm_advice": [
+        "Sanitize harvesting knives",
+        "Avoid sprinkler irrigation",
+        "Rogue out slimy heads immediately"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Bacterial Soft Rot of Vegetables",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers Pectobacterium carotovorum dynamics and copper-octanoate applications."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:15:00Z",
+      "updated_at": "2024-10-27T17:15:00Z",
+      "reviewed_by": "Senior Bacteriologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_bacterial_spot",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Bacterial Spot",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Pseudomonas syringae pv. maculicola"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Curd",
+        "Stems",
+        "Petioles"
+      ],
+      "disease_stage": "Vegetative to Heading"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Tiny, water-soaked, pinpoint lesions on both the upper and lower surfaces of leaves.",
+        "Spots are initially light-green or grey."
+      ],
+      "middle_stage": [
+        "Spots age into dark brown, purple, or black dots (typically up to 3 mm in diameter) surrounded by clear yellow/chlorotic halos.",
+        "Leaf veins remain unaffected."
+      ],
+      "severe_stage": [
+        "Multiple peppery spots merge (coalesce) to form irregular, angular, sunken lesions.",
+        "Leaves turn yellow, puckered, or ragged, and drop prematurely.",
+        "Small, dry, grey-to-brown spots develop on the cauliflower curd, penetrating both the surface and underlying tissues, destroying curd value."
+      ],
+      "visible_signs": [
+        "Peppery tiny dark spots on leaves with yellow halos.",
+        "Sunken angular brown patches on leaves.",
+        "Unsightly dry grey-brown spots on the cauliflower curd."
+      ],
+      "farmer_reported_signs": [
+        "Pinhead-sized black dots on cauliflower leaves",
+        "Small yellow rings around black spots",
+        "Grey-brown dry spots on the cauliflower flower head"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light green",
+        "Dark brown to black",
+        "Translucent yellow halo",
+        "Grey-brown curd spots"
+      ],
+      "spot_or_patch_shape": "Pinpoint, circular to angular spots (1-3 mm)",
+      "pattern": "Peppery scattered pinpoint dots coalescing into larger ragged areas",
+      "location_on_plant": "Mainly on leaves; also appears on curd, stems, and petioles",
+      "starts_from": "Leaf stomata or hydathodes under cool wet conditions",
+      "progression": "Pinpoint water-soaked spots -> Dark peppery spots with yellow halos -> Coalesced ragged leaves -> Curd grey-brown spots",
+      "image_clues": [
+        "Look for tiny, black, pepper-like dots (size of a pinhead) on a green leaf blade",
+        "Look for a yellow ring surrounding each tiny black dot"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black rot (Xanthomonas)",
+        "difference": "Black rot produces large V-shaped yellow lesions starting from leaf edges with blackened veins, whereas Bacterial Spot causes tiny, scattered, pinpoint circular peppery dots.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Alternaria Leaf Spot",
+        "difference": "Alternaria spots are much larger, circular, and show concentric bullseye rings rather than tiny, uniform, peppery pinpoint spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet, and highly humid weather",
+        "Persistent rainfall, fog, or heavy morning dews"
+      ],
+      "temperature_range": "15\u00b0C - 22\u00b0C",
+      "humidity_level": ">85% RH",
+      "season": "Winter / Late Autumn",
+      "soil_conditions": [
+        "Wet, poorly drained soils"
+      ],
+      "field_conditions": [
+        "Crowded plant spacing restricting airflow",
+        "Presence of cruciferous weeds"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation spreading bacteria via water droplets"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Splashing rain or irrigation water",
+        "Wind-driven rain",
+        "Contaminated farming tools, machinery, and hands"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Cruciferous weeds",
+        "Infected cauliflower crop debris in the soil"
+      ],
+      "survival_method": "The bacteria survive in infected seeds, inside crop residue for up to 2 years, or on wild brassica weeds.",
+      "spread_speed": "Fast under cool, wet, windy conditions",
+      "nearby_crop_risk": "High for all brassicas (broccoli, cabbage, mustard)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few scattered pinpoint dark spots on the bottom leaves of <5% of plants; no curd spots.",
+        "field_indicator": "Isolated plants with tiny peppery spots on leaves.",
+        "recommended_action": "Avoid overhead watering. Rogue out affected lower leaves. Spray Copper Hydroxide."
+      },
+      {
+        "level": "Medium",
+        "description": "Peppery spots and yellow halos spreading to wrapper leaves; leaf yellowing starting.",
+        "field_indicator": "5% to 15% of plants showing peppery spots and ragged leaves.",
+        "recommended_action": "Spray Copper Oxychloride + Streptocycline. Eliminate weed hosts. Clean tools."
+      },
+      {
+        "level": "High",
+        "description": "Grey-brown spots appearing on the white cauliflower curd; heavy leaf drop and stunting.",
+        "field_indicator": "Spots visible on cauliflower curds; widespread yellowing and leaf loss.",
+        "recommended_action": "Apply Copper Hydroxide or plant activators like Actigard. Harvest healthy curds immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always sow certified pathogen-free seeds.",
+        "Treat seeds in hot water at 50\u00b0C (122\u00b0F) for 25 minutes before sowing."
+      ],
+      "field_management": [
+        "Keep plants spaced adequately to prevent canopy humidity.",
+        "Control wild brassica weeds."
+      ],
+      "irrigation_management": [
+        "Never use overhead sprinklers; use drip irrigation."
+      ],
+      "soil_management": [
+        "Ensure proper drainage; use raised beds in heavy clay soils."
+      ],
+      "crop_rotation": [
+        "Rotate cauliflower with non-brassica crops (corn, wheat, beans) for at least 3 years."
+      ],
+      "sanitation": [
+        "Never work in fields when leaves are wet.",
+        "Clean and sanitize tools (with 10% bleach) after working in infected plots.",
+        "Remove and burn crop residues after harvest."
+      ],
+      "monitoring": [
+        "Monitor closely twice a week, checking lower leaf surfaces, starting 15 days after transplanting."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead watering.",
+        "Rogue and destroy infected plants immediately.",
+        "Apply copper bactericides to protect healthy plants."
+      ],
+      "cultural_control": [
+        "Destroy weeds.",
+        "Incorporate cauliflower residues deep into soil to rot.",
+        "Sanitize tools."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L.",
+        "Apply copper-based organic formulations."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L as soil drench and foliar spray."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide 50% WP",
+          "product_type": "Contact Protective Bactericide / Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Helps suppress bacterial spread. Avoid mixing with adjuvants as it can scorch leaves."
+        },
+        {
+          "active_ingredient": "Streptomycin sulphate + Tetracycline hydrochloride (Streptocycline)",
+          "product_type": "Antibiotic Bactericide",
+          "dose": "0.1 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "15 days",
+          "safety_note": "Highly effective early on. Check local regulations on agricultural antibiotic use."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Bacterial Spot (Peppery Leaf Spot) is a disease that makes tiny, black, pinhead-sized spots on cauliflower leaves. Each black spot is usually surrounded by a small yellow ring. It spreads in cool, wet weather and can cause dry, ugly grey-brown spots on your white cauliflower curd, ruining its look and value.",
+      "what_to_do_now": [
+        "Pull out any heavily spotted plants and burn or bury them.",
+        "Stop watering from above (sprinklers).",
+        "Spray Copper Hydroxide (2g/L) + Streptocycline (0.1g/L) to protect the healthy plants."
+      ],
+      "what_not_to_do": [
+        "Never work in your cauliflower field when the leaves are wet from dew or rain, as you will carry the bacteria to healthy plants on your clothes and tools.",
+        "Do not plant cauliflower or cabbage in this soil next season if you have bacterial spot."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if peppery spots are spreading rapidly to the cauliflower curds within 2 weeks of expected harvest."
+      ],
+      "risk_warning": "While mostly a leaf disease, if Bacterial Spot reaches the white curd, it creates ugly dry spots that make the cauliflower unmarketable."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_bacterial_spot"
+      ],
+      "segmentation_labels": [
+        "peppery_pinpoint_spot",
+        "yellow_halo_ring"
+      ],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": [
+        "The model confuses peppery spots with physical insect stings or flea beetle damage."
+      ],
+      "image_quality_requirements": [
+        "High-resolution photos focusing on the tiny, pinhead-sized black dots on the leaf blade, or a close-up of the grey-brown spots on the curd."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Spot Alert! Cool, wet weather is triggering peppery leaf spot in cauliflower. Apply preventive copper bactericides.",
+      "nearby_farm_advice": [
+        "Do not work in wet fields",
+        "Disinfect farming tools with bleach",
+        "Apply preventive copper spray"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Bacterial Spot of Crucifers - Pseudomonas",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers seed sanitation and copper-streptocycline guidelines."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:15:00Z",
+      "updated_at": "2024-10-27T17:15:00Z",
+      "reviewed_by": "Senior Plant Bacteriologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_black_spot",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Black Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": [
+        "Alternaria brassicicola",
+        "Alternaria brassicae"
+      ],
+      "affected_parts": [
+        "Curd",
+        "Leaves",
+        "Petioles"
+      ],
+      "disease_stage": "Heading to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, dark brown to black circular spots on older leaves.",
+        "Faint yellow chlorotic halo around leaf spots."
+      ],
+      "middle_stage": [
+        "Concentric circular ring patterns develop on leaf spots.",
+        "Tiny, dry, brown-black pinpoint spots appear on the white cauliflower curd."
+      ],
+      "severe_stage": [
+        "Sunken, dark brown-to-soot-black circular patches cover large portions of the cauliflower curd (head blight).",
+        "Spores form a dark velvety mold layer over the curd spots under high humidity, making the head rot and completely unmarketable."
+      ],
+      "visible_signs": [
+        "Dry soot-black circular spots on white curd.",
+        "Concentric circular rings on leaves.",
+        "Black velvety mold on curd spots."
+      ],
+      "farmer_reported_signs": [
+        "Soot-black dry circles on white cauliflower curd",
+        "Concentric dark spots on leaves",
+        "Black mold on the cauliflower head"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Dark brown",
+        "Sooty-black",
+        "Faint yellow halo"
+      ],
+      "spot_or_patch_shape": "Sunken circular spots on curd; concentric rings on leaves",
+      "pattern": "Sooty-black circular patches expanding on the curd surface",
+      "location_on_plant": "Foliage during vegetative phase; directly on cauliflower head (curd) during heading phase",
+      "starts_from": "Older leaves moving to wrapper leaves, then directly inoculating the curd",
+      "progression": "Leaf spots -> Spores blown to curd -> Curd dark brown spots -> Sunken sooty-black curd patches -> Rotting head",
+      "image_clues": [
+        "Look for soot-black, dry, sunken circles on the white cauliflower head",
+        "Velvety black layer of mold on the curd florets"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Soft Rot",
+        "difference": "Bacterial soft rot melts the curd into a wet, slimy, liquefied mass with a very bad smell, while Black Spot is a dry, sunken, soot-black fungal spot without a foul smell.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Bacterial Spot (Pseudomonas)",
+        "difference": "Bacterial spot produces small, dry, grey-brown pinpoint spots rather than large, sunken, soot-black velvety fungal patches.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet, and highly humid weather",
+        "Frequent rain or heavy morning dews"
+      ],
+      "temperature_range": "20\u00b0C - 30\u00b0C",
+      "humidity_level": ">80% RH",
+      "season": "Late Autumn / Kharif-Rabi transition",
+      "soil_conditions": [
+        "Poor drainage"
+      ],
+      "field_conditions": [
+        "Dense planting trapping moisture",
+        "Cruciferous weeds harboring spores"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation leaving water droplets on the curd"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne conidia (spores)",
+        "Rain splashes or overhead irrigation water"
+      ],
+      "source_of_infection": [
+        "Infected seeds (seed-borne)",
+        "Cruciferous weeds",
+        "Infected cabbage/cauliflower residues in the soil"
+      ],
+      "survival_method": "The fungus survives as dormant mycelium or spores on infected seed coats and inside diseased crop debris in the soil.",
+      "spread_speed": "Fast under warm, wet conditions during heading",
+      "nearby_crop_risk": "High for all brassicas (broccoli, cabbage)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Scattered small dark spots on lower leaves only; white curd is completely clean.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Rogue out infected lower leaves. Spray Neem Oil @ 3% or Bacillus subtilis."
+      },
+      {
+        "level": "Medium",
+        "description": "Concentric spots on leaves; very few tiny dark spots starting on the outer curd florets.",
+        "field_indicator": "<5% curd area showing dark spots; leaf spots frequent.",
+        "recommended_action": "Spray contact protective fungicides like Chlorothalonil or Mancozeb immediately to protect the curd."
+      },
+      {
+        "level": "High",
+        "description": "Large, sunken, soot-black Velvet-like patches covering the cauliflower curd; head rotting.",
+        "field_indicator": ">5% curd area black and unmarketable; heavy leaf spotting.",
+        "recommended_action": "Apply curative systemic mixtures like Azoxystrobin + Difenoconazole immediately. Harvest clean curds early."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Always sow certified disease-free seeds.",
+        "Treat seeds in hot water at 50\u00b0C (122\u00b0F) for 25 minutes before sowing."
+      ],
+      "field_management": [
+        "Observe proper spacing to allow sunlight and wind to dry the curds.",
+        "Keep fields completely free of weeds."
+      ],
+      "irrigation_management": [
+        "Never use overhead sprinklers during head development.",
+        "Use drip or furrow irrigation; water in the morning."
+      ],
+      "soil_management": [
+        "Ensure proper drainage.",
+        "Avoid excessive nitrogen which promotes soft, vulnerable curd tissue."
+      ],
+      "crop_rotation": [
+        "Rotate cauliflower with non-cruciferous crops for at least 3 years."
+      ],
+      "sanitation": [
+        "Regularly remove infected lower leaves.",
+        "Bury or burn cauliflower residues immediately after harvest."
+      ],
+      "monitoring": [
+        "Inspect curds daily during heading stage, checking the top and sides of the head for tiny dark spots."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead watering immediately.",
+        "Harvest and sell early curds that are mostly clean.",
+        "Spray a systemic fungicide to protect developing heads."
+      ],
+      "cultural_control": [
+        "Eradicate weed hosts.",
+        "Ensure curds are shielded from water accumulation."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L (avoid mixing with adjuvants)."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Trichoderma harzianum @ 10 g/L of water on foliage and curd."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Chlorothalonil 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply protectively on leaves and developing heads."
+        },
+        {
+          "active_ingredient": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "1 day",
+          "safety_note": "Excellent curative control. Thoroughly cover the foliage and curd."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Black Spot is a fungal disease that makes soot-black, dry, sunken spots on your white cauliflower curd. It spreads in warm, wet weather. Spores travel from spots on the leaves to the head, making the white curd look dirty and black, which makes it impossible to sell.",
+      "what_to_do_now": [
+        "Stop watering from above (avoid sprinklers).",
+        "Spray Azoxystrobin + Difenoconazole (1mL/L of water) immediately to stop the black spots from spreading on the curds.",
+        "Harvest curds that are still mostly white and clean before the fungus ruins them."
+      ],
+      "what_not_to_do": [
+        "Do not leave cabbage or cauliflower waste on the ground after harvest.",
+        "Do not harvest curds when they are wet with rain or morning dew."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if black spot is ruining more than 10% of your curds right before harvest despite chemical sprays."
+      ],
+      "risk_warning": "Because black spots ruin the appearance of cauliflower, even small black spots on the curd will lower its price in the market to almost zero."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_black_spot"
+      ],
+      "segmentation_labels": [
+        "sunken_curd_black_patch",
+        "concentric_leaf_spot"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": [
+        "The model confuses bird peck marks or physical curd bruising with fungal black spots."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the soot-black sunken patches on the white curd, or concentric spots on the leaf blade."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Cauliflower Black Spot alert! Warm, wet weather is triggering black spots on curds. Spray preventive fungicides and avoid sprinkler irrigation.",
+      "nearby_farm_advice": [
+        "Avoid overhead irrigation during heading",
+        "Apply preventive Chlorothalonil",
+        "Rogue out early spotted curds"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Curd Diseases of Cauliflower",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers Alternaria brassicicola curd infection and chemical rates."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:15:00Z",
+      "updated_at": "2024-10-27T17:15:00Z",
+      "reviewed_by": "Senior Fungal Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_downy_mildew",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Downy Mildew",
+      "category": "Oomycete (Fungal-like)",
+      "pathogen_or_cause": [
+        "Hyaloperonospora brassicae",
+        "Peronospora parasitica"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Wrapper leaves",
+        "Cotyledons",
+        "Curd"
+      ],
+      "disease_stage": "All growth stages (Seedling to Mature Head)"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small, light-green to pale-yellow angular spots on the upper leaf surface.",
+        "Young cotyledons turn yellow and drop off."
+      ],
+      "middle_stage": [
+        "Angular spots enlarge, turn yellow-brown, and can become papery or dry.",
+        "Under cool, humid conditions, a characteristic fluffy, grayish-white downy growth develops directly beneath the spots on the lower leaf surface."
+      ],
+      "severe_stage": [
+        "Infected leaves wither, turn completely brown, and dry up, leading to defoliation.",
+        "On mature heads, the disease causes dark, purplish, or black sunken spots on wrapper leaves and outer curd areas, reducing marketability and shelf life."
+      ],
+      "visible_signs": [
+        "Fluffy, grayish-white downy mold on the lower leaf surface.",
+        "Angular, vein-bounded yellow-brown spots on the upper leaf surface.",
+        "Dark purplish sunken spots on wrapper leaves or curd stalk."
+      ],
+      "farmer_reported_signs": [
+        "Yellow angular patches on top of cauliflower leaves",
+        "Grey-white moldy fuzz under the leaf spots",
+        "Black sunken spots on wrapper leaves",
+        "Seedlings dying in the nursery"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Light green",
+        "Pale yellow",
+        "Yellow-brown",
+        "Fluffy grayish-white growth",
+        "Dark purplish/black spots"
+      ],
+      "spot_or_patch_shape": "Angular or blocky spots limited by leaf veins",
+      "pattern": "Vein-limited blocky spots on upper leaf with matching fuzzy mold underneath",
+      "location_on_plant": "Starts on lower leaves or cotyledons and spreads upward to outer wrapper leaves and curd",
+      "starts_from": "Older leaves or nursery seedlings",
+      "progression": "Seedling/Lower leaf angular spots -> Fuzzy under-leaf mold -> Leaf drying -> Outer wrapper leaf lesions -> Head damage",
+      "image_clues": [
+        "Look for yellow, blocky, angular patterns on the upper side of cauliflower leaves",
+        "Look for grayish-white fuzzy mold directly underneath those yellow patterns on the bottom side of the leaf"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Powdery Mildew",
+        "difference": "Powdery mildew produces a dry, white powdery dust mostly on the upper leaf surface and does not form vein-bounded angular patches or grey fuzzy growth underneath.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Alternaria Leaf Spot",
+        "difference": "Alternaria spots are circular with concentric target rings and lack the vein-limited boundaries or under-leaf fuzzy downy mold.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Cool, wet, and highly humid weather",
+        "Frequent rain, heavy fog, or prolonged morning dews"
+      ],
+      "temperature_range": "10\u00b0C - 20\u00b0C",
+      "humidity_level": ">90% RH",
+      "season": "Winter / Rabi season",
+      "soil_conditions": [
+        "Wet, poorly drained soils",
+        "High soil moisture"
+      ],
+      "field_conditions": [
+        "Dense planting blocking ventilation",
+        "Weeds (like wild mustard) harboring spores"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler irrigation",
+        "Excessive watering leaving leaves wet for hours"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Wind-borne sporangia (spores)",
+        "Water splashes (rain or irrigation)"
+      ],
+      "source_of_infection": [
+        "Oospores surviving in the soil",
+        "Infected crop debris",
+        "Alternative brassica weeds",
+        "Volunteer crucifer plants"
+      ],
+      "survival_method": "The pathogen survives as resting spores (oospores) in the soil and diseased crop residue, or as active mycelium in wild brassicas.",
+      "spread_speed": "Very Fast under cool, wet winter conditions",
+      "nearby_crop_risk": "High for all brassicas (cabbage, broccoli, mustard, radish)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few angular yellow spots on bottom leaves; minor grey fuzz underneath.",
+        "field_indicator": "<10% plants showing early angular leaf yellowing.",
+        "recommended_action": "Avoid overhead watering. Space plants properly. Apply preventive contact fungicides like Mancozeb."
+      },
+      {
+        "level": "Medium",
+        "description": "Angular yellow patches and grey fuzz spreading to wrapper leaves; outer leaves drying.",
+        "field_indicator": "10% to 25% of plants showing visible leaf drying and under-leaf mold.",
+        "recommended_action": "Apply systemic anti-oomycete fungicides like Metalaxyl + Mancozeb or Mandipropamid."
+      },
+      {
+        "level": "High",
+        "description": "Cauliflower wrapper leaves showing purplish sunken spots; outer curd layers damaged; severe defoliation.",
+        "field_indicator": ">25% of leaves dried and curd outer layers damaged.",
+        "recommended_action": "Apply curative systemic mixtures like Ametoctradin + Dimethomorph or Cyazofamid immediately to prevent head loss."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Grow resistant varieties if available.",
+        "Ensure nursery seedlings are grown in well-ventilated, dry areas."
+      ],
+      "field_management": [
+        "Observe proper spacing (45 x 45 cm or 60 x 45 cm) to allow foliage to dry fast.",
+        "Keep fields free of wild brassica weeds."
+      ],
+      "irrigation_management": [
+        "Avoid overhead irrigation; use drip or furrow.",
+        "Water in the morning so canopy dries during the day."
+      ],
+      "soil_management": [
+        "Provide proper field drainage to avoid waterlogging."
+      ],
+      "crop_rotation": [
+        "Rotate cauliflower with non-cruciferous crops for at least 2-3 years."
+      ],
+      "sanitation": [
+        "Remove and burn or deep bury cauliflower residue after harvest.",
+        "Rogue out early diseased nursery seedlings."
+      ],
+      "monitoring": [
+        "Inspect nursery seedlings daily and field crops twice a week, checking lower leaf undersides for grey fuzz in cool wet seasons."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Stop overhead watering immediately.",
+        "Thin out plants to improve airflow.",
+        "Spray a systemic anti-oomycete fungicide."
+      ],
+      "cultural_control": [
+        "Destroy wild brassica weeds.",
+        "Water only in the morning."
+      ],
+      "organic_control": [
+        "Foliar spray of Copper Hydroxide @ 1.5 g/L (avoid mixing with adjuvants).",
+        "Apply sulfur or copper protective sprays."
+      ],
+      "biological_control": [
+        "Apply Bacillus subtilis or Pseudomonas fluorescens @ 10 g/L to foliage and nursery beds."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Ametoctradin 27% + Dimethomorph 20.3% SC",
+          "product_type": "Systemic + Contact Anti-oomycete Fungicide",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Highly effective at controlling downy mildew. Ensure thorough leaf coverage."
+        },
+        {
+          "active_ingredient": "Mandipropamid 23.3% SC",
+          "product_type": "Translaminar Fungicide",
+          "dose": "0.6 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "1 day",
+          "safety_note": "Always add a spreading/penetrating adjuvant as per label to improve crop coverage."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Downy mildew is a fungus-like disease that attacks cauliflower in cool, foggy, or wet winter weather. It causes blocky, angular yellow patches on top of the leaves and a grey, fuzzy mold directly underneath them. It can kill young nursery seedlings and create dark sunken spots on mature curds.",
+      "what_to_do_now": [
+        "Stop watering from above (sprinklers); water only the roots.",
+        "Foliar spray Zampro (Ametoctradin + Dimethomorph @ 1mL/L) or Revus (Mandipropamid @ 0.6mL/L).",
+        "Spray early in the morning so the crop dries during the day."
+      ],
+      "what_not_to_do": [
+        "Do not leave cauliflower seedlings crowded or in waterlogged nursery beds.",
+        "Do not plant cauliflower in the winter near wild mustard weeds."
+      ],
+      "when_to_call_expert": [
+        "Contact an expert if downy mildew is spreading fast in your nursery, killing young seedlings before transplanting."
+      ],
+      "risk_warning": "In cool wet weather, downy mildew spreads incredibly fast. It can wipe out your nursery seedlings or rot mature wrapper leaves within days."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_downy_mildew"
+      ],
+      "segmentation_labels": [
+        "angular_yellow_spot",
+        "grey_downy_fuzz",
+        "sunken_wrapper_spot"
+      ],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": [
+        "The symptoms are confused with nutrient chlorosis (which lacks fuzzy growth underneath) or powdery mildew."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the angular, vein-limited yellow spots on the upper side, and/or the grayish fuzzy growth on the leaf underside."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Downy Mildew Alert! Cool, wet, foggy conditions are ideal for downy mildew in cauliflower. Apply preventative sprays immediately.",
+      "nearby_farm_advice": [
+        "Avoid overhead irrigation",
+        "Check nursery beds for grey fuzzy mold",
+        "Foliar spray Mandipropamid"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Cole Crop Diseases and Their Control",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers Peronospora parasitica taxonomy and modern oomycete chemical controls."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:30:00Z",
+      "updated_at": "2024-10-27T17:30:00Z",
+      "reviewed_by": "Senior Oomycete Specialist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_purple_tinges",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi",
+        "Puvvu Gobi",
+        "Kallu Kos",
+        "Cauliflower"
+      ],
+      "crop_category": "Cole Crop / Vegetable"
+    },
+    "disease": {
+      "name": "Purple Tinges",
+      "category": "Physiological Disorder",
+      "pathogen_or_cause": [
+        "Anthocyanin accumulation due to abiotic stress (Sunlight, cold snaps, nutrient deficiency, pH)"
+      ],
+      "affected_parts": [
+        "Curd"
+      ],
+      "disease_stage": "Heading to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Light pink or reddish-purple tinges appearing on the outer edges of the cauliflower curd florets where direct sunlight hits first."
+      ],
+      "middle_stage": [
+        "Tinges darken and expand into distinct pinkish-purple patches across the white curd florets."
+      ],
+      "severe_stage": [
+        "Large areas or the entire white curd turns deep purple.",
+        "Sometimes accompanied by 'ricing' (velvety, loose, or bumpy texture) if triggered by heat stress."
+      ],
+      "visible_signs": [
+        "Pink, reddish, or deep purple tinges on white curd florets.",
+        "No mushy rot or foul odor.",
+        "Leaf structure remains healthy and green."
+      ],
+      "farmer_reported_signs": [
+        "White cauliflower head turning purple",
+        "Pinkish spots on the cauliflower flower",
+        "Purpling on curd with bumpy texture"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "White curd turning pink, reddish, or deep purple"
+      ],
+      "spot_or_patch_shape": "Irregular colored patches or full color conversion",
+      "pattern": "Purpling concentrated on exposed floret surfaces facing the sun",
+      "location_on_plant": "Directly on the developing cauliflower head (curd)",
+      "starts_from": "Outer edges of florets exposed to direct sunlight or cold air",
+      "progression": "Sunlight/stress exposure -> Anthocyanin pigment accumulation -> Pink spots on curd -> Deep purple patches -> Head remains purple but is 100% edible",
+      "image_clues": [
+        "Look for a white cauliflower curd with bright pink or purple areas on top florets",
+        "Foliage and leaves look perfectly healthy and green"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Bacterial Soft Rot",
+        "difference": "Bacterial soft rot causes mushy, wet, black rotting spots that smell extremely bad, whereas Purple Tinges is a dry, clean, healthy purple coloration with zero rot or odor.",
+        "confusion_risk": "Low"
+      },
+      {
+        "name": "Black Spot (Alternaria)",
+        "difference": "Black spot causes dry, soot-black, sunken circular spots on the curd, while Purple Tinges causes vibrant pink or purple pigment on the surface of normal florets.",
+        "confusion_risk": "Low"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Direct, hot summer sun exposure",
+        "Sudden cold snaps (especially nighttime temperatures below 13\u00b0C / 55\u00b0F) during head formation",
+        "Drought stress"
+      ],
+      "temperature_range": "Below 13\u00b0C or above 28\u00b0C",
+      "humidity_level": "Varies (not related to humidity)",
+      "season": "Summer or Late Winter",
+      "soil_conditions": [
+        "Nutrient-deficient soils (especially low nitrogen or potassium)",
+        "Highly alkaline soils (pH > 7.2) stabilizing purple pigments"
+      ],
+      "field_conditions": [
+        "Lack of leaf tying (blanching) during curd growth",
+        "Planting varieties prone to anthocyanin accumulation"
+      ],
+      "irrigation_conditions": [
+        "Water stress (drought) during heading"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Non-transmissible (abiotic physiological disorder)"
+      ],
+      "source_of_infection": [
+        "None"
+      ],
+      "survival_method": "Non-applicable",
+      "spread_speed": "Slow (gradual color change as head grows under stress)",
+      "nearby_crop_risk": "None"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Faint pinkish tinges restricted to the outer tips of a few florets.",
+        "field_indicator": "<10% curd area showing light color change.",
+        "recommended_action": "Perform immediate blanching (tie leaves loosely over the curd) to block further sun exposure."
+      },
+      {
+        "level": "Medium",
+        "description": "Clear pink-purple patches covering 10% to 30% of the white curd.",
+        "field_indicator": "Frequent curds with visible pinkish-purple surfaces.",
+        "recommended_action": "Tie leaves over heads. Ensure adequate watering. Curds are fully edible."
+      },
+      {
+        "level": "High",
+        "description": "Curd is completely purple or reddish-purple; head may look slightly loose or bumpy (ricing).",
+        "field_indicator": ">30% curd area fully colored purple.",
+        "recommended_action": "Harvest the heads immediately; they are 100% safe to eat. Plan for blanching and better planting dates next season."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Choose 'self-blanching' cauliflower varieties whose inner leaves naturally curl over the curd.",
+        "Avoid sensitive varieties in stress-prone seasons."
+      ],
+      "field_management": [
+        "Blanching: When the curd is about the size of an egg (5 cm / 2 in), pull outer leaves over the head and tie loosely with twine or a rubber band.",
+        "Plant on time to avoid hot summer heading."
+      ],
+      "irrigation_management": [
+        "Keep soil moisture consistent to avoid stress during head development."
+      ],
+      "soil_management": [
+        "Apply balanced fertilizers; prevent nitrogen/potassium deficiencies.",
+        "Maintain soil pH between 6.0 and 6.8."
+      ],
+      "crop_rotation": [
+        "Non-applicable for abiotic disorders."
+      ],
+      "sanitation": [
+        "Non-applicable."
+      ],
+      "monitoring": [
+        "Check curd size weekly starting 40 days after transplanting to identify when to begin blanching."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Gently pull outer leaves over the developing curd and tie them loose to shade the head.",
+        "Irrigate if the soil is dry.",
+        "Harvest curds early if they turn deep purple."
+      ],
+      "cultural_control": [
+        "Perform manual leaf tying (blanching).",
+        "Provide shade cloth or row covers during sudden weather swings."
+      ],
+      "organic_control": [
+        "Ensure balanced organic compost is incorporated to avoid nutrient stress."
+      ],
+      "biological_control": [
+        "Non-applicable."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "None (physiological disorder)",
+          "product_type": "Not applicable",
+          "dose": "Do not apply chemical pesticides",
+          "application_method": "Non-applicable",
+          "spray_interval": "Non-applicable",
+          "pre_harvest_interval": "Non-applicable",
+          "safety_note": "Do not apply fungicides or bactericides; they will not change the purple color and are unnecessary."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Purple Tinges is not a disease, but a natural reaction when white cauliflower gets stressed by too much direct sun, sudden cold nights, or lack of water. The plant produces a purple pigment (the same healthy antioxidant found in blueberries) to protect itself. It is 100% safe to eat, but looks less attractive in the market.",
+      "what_to_do_now": [
+        "Tie the large green outer leaves loosely over the white cauliflower heads using a string or rubber band as soon as they reach the size of an egg. This blocks the sun and keeps them white.",
+        "Keep the soil moist by watering regularly.",
+        "Harvest the purple heads anyway; they taste normal and are healthy."
+      ],
+      "what_not_to_do": [
+        "Do not spray any chemical fungicides or insect sprays to fix the purple color; it will not work.",
+        "Do not worry about eating the purple parts\u2014they are actually rich in healthy antioxidants."
+      ],
+      "when_to_call_expert": [
+        "No need to call an expert unless you see rotting, wet spots, or bad odors along with the purple color."
+      ],
+      "risk_warning": "While perfectly edible, purple-tinged cauliflowers will look bad to buyers, and you may lose up to 50% of your market value because buyers prefer pure white heads."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cauliflower_purple_tinges"
+      ],
+      "segmentation_labels": [
+        "pink_purple_floret_surface"
+      ],
+      "confidence_threshold": {
+        "low": "0.60",
+        "medium": "0.85",
+        "high": "0.95"
+      },
+      "send_to_expert_if": [
+        "The purple color is accompanied by watery rot or soot-like black mold."
+      ],
+      "image_quality_requirements": [
+        "Clear focus showing the pink-purple coloration on the white florets of the cauliflower curd under natural daylight."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "None (physiological)",
+      "risk_radius": "None",
+      "report_count_threshold": "None",
+      "outbreak_alert_message": "Purple Curd physiological alert! Extreme sun exposure or cold nights can turn curds purple. Tie leaves loosely over developing heads to keep them white.",
+      "nearby_farm_advice": [
+        "Tie leaves over curds (blanching)",
+        "Keep soil moisture consistent"
+      ]
+    },
+    "source_metadata": {
+      "source_title": "Physiological Disorders of Cole Crops",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Manual",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Covers anthocyanin accumulation dynamics on brassica curds."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T17:30:00Z",
+      "updated_at": "2024-10-27T17:30:00Z",
+      "reviewed_by": "Senior Horticultural Specialist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "cauliflower_bacterial_spot_rot",
+    "crop": {
+      "common_name": "Cauliflower",
+      "english_name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "local_names": [
+        "Phool Gobhi"
+      ],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Bacterial Spot Rot",
+      "category": "Bacterial",
+      "pathogen_or_cause": [
+        "Pectobacterium carotovorum"
+      ],
+      "affected_parts": [
+        "Leaves",
+        "Heads",
+        "Stems"
+      ],
+      "disease_stage": "Vegetative to Mature"
+    },
+    "symptoms": {
+      "early_stage": [
+        "Small water-soaked spots on leaves."
+      ],
+      "middle_stage": [
+        "Spots enlarge, become sunken, soft and mushy."
+      ],
+      "severe_stage": [
+        "Head turns into a foul-smelling mushy rot. Plant collapses."
+      ],
+      "visible_signs": [
+        "Foul smell, soft decaying tissue, watery spots."
+      ],
+      "farmer_reported_signs": [
+        "Cabbage head rotting and smelling bad",
+        "Mushy spots on leaves"
+      ]
+    },
+    "visual_identification": {
+      "color_changes": [
+        "Translucent",
+        "Brown to black mush"
+      ],
+      "spot_or_patch_shape": "Irregular expanding soft spots",
+      "pattern": "Wet decay",
+      "location_on_plant": "Anywhere, primarily head and stem",
+      "starts_from": "Wounds or insect damage",
+      "progression": "Small spots -> Soft rot -> Complete collapse",
+      "image_clues": [
+        "Look for wet, mushy decay on cabbage head"
+      ]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Black Rot",
+        "difference": "Black rot has V-shaped yellow margins and black veins without initial mushy decay.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": [
+        "Warm, wet",
+        "High rainfall"
+      ],
+      "temperature_range": "25-30C",
+      "humidity_level": ">90%",
+      "season": "Monsoon",
+      "soil_conditions": [
+        "Waterlogged"
+      ],
+      "field_conditions": [
+        "Poor drainage"
+      ],
+      "irrigation_conditions": [
+        "Overhead sprinkler"
+      ]
+    },
+    "spread": {
+      "spread_by": [
+        "Splashing water",
+        "Insects",
+        "Contaminated tools"
+      ],
+      "source_of_infection": [
+        "Soil",
+        "Crop debris"
+      ],
+      "survival_method": "In soil or plant residue",
+      "spread_speed": "Fast",
+      "nearby_crop_risk": "High"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Minor water-soaked spots.",
+        "field_indicator": "<5% infected.",
+        "recommended_action": "Improve drainage, remove affected leaves."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": [
+        "Use certified disease-free seeds."
+      ],
+      "field_management": [
+        "Avoid wounding plants."
+      ],
+      "irrigation_management": [
+        "Avoid overhead irrigation."
+      ],
+      "soil_management": [
+        "Improve drainage."
+      ],
+      "crop_rotation": [
+        "Rotate with cereals."
+      ],
+      "sanitation": [
+        "Destroy infected debris."
+      ],
+      "monitoring": [
+        "Check for rot after heavy rains."
+      ]
+    },
+    "management": {
+      "immediate_action": [
+        "Remove and destroy infected plants."
+      ],
+      "cultural_control": [
+        "Sanitize tools."
+      ],
+      "organic_control": [
+        "Copper-based sprays."
+      ],
+      "biological_control": [
+        "Bacillus species."
+      ],
+      "chemical_control": [
+        {
+          "active_ingredient": "Copper Hydroxide",
+          "product_type": "Bactericide",
+          "dose": "2g/L",
+          "application_method": "Spray",
+          "spray_interval": "7 days",
+          "pre_harvest_interval": "0 days",
+          "safety_note": "Apply carefully."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "A bacterial disease causing mushy, smelly rot.",
+      "what_to_do_now": [
+        "Remove rotting plants immediately."
+      ],
+      "what_not_to_do": [
+        "Don't leave rotting cabbage in the field.",
+        "Don't water from above."
+      ],
+      "when_to_call_expert": [
+        "If rot spreads rapidly."
+      ],
+      "risk_warning": "Can destroy entire heads quickly."
+    },
+    "model_support": {
+      "classification_labels": [
+        "cabbage_bacterial_spot_rot"
+      ],
+      "segmentation_labels": [
+        "soft_rot_patch"
+      ],
+      "confidence_threshold": {
+        "low": "0.5",
+        "medium": "0.7",
+        "high": "0.9"
+      },
+      "send_to_expert_if": [
+        "Symptoms resemble chemical burn."
+      ],
+      "image_quality_requirements": [
+        "Clear focus on the rot."
+      ]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Bacterial Soft Rot alert.",
+      "nearby_farm_advice": [
+        "Improve drainage."
+      ]
+    },
+    "source_metadata": {
+      "source_title": "AgriTech",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Guide",
+      "author_or_organization": "TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024",
+      "trust_level": "High",
+      "notes": ""
+    },
+    "versioning": {
+      "created_at": "2024-10-27T00:00:00Z",
+      "updated_at": "2024-10-27T00:00:00Z",
+      "reviewed_by": "System",
+      "status": "Approved"
+    }
+  }
+]

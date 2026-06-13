@@ -1,0 +1,550 @@
+```json
+[
+  {
+    "id": "PIGEONPEA-CLS-001",
+    "crop": {
+      "common_name": "Pigeonpea",
+      "english_name": "Pigeonpea / Red Gram",
+      "scientific_name": "Cajanus cajan",
+      "local_names": ["Arhar", "Tur", "Gandul", "Toor Dal"],
+      "crop_category": "Legume / Pulse"
+    },
+    "disease": {
+      "name": "Cercospora Leaf Spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Cercospora indica", "Mycovellosiella cajani"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods"],
+      "disease_stage": "Vegetative to Podding stage"
+    },
+    "symptoms": {
+      "early_stage": ["Small, circular to irregular light brown spots on lower leaf surfaces", "Lesions initially measure 1-3 mm and appear slightly water-soaked"],
+      "middle_stage": ["Spots expand up to 8 mm, developing dark brown centers with distinct purplish-brown borders", "A faint yellow chlorotic halo appears around the leaf spots"],
+      "severe_stage": ["Lesions coalesce over broad leaf surface areas", "Extensive browning, drying, and premature defoliation of the lower and middle canopy leaves", "Small necrotic streaks form on petioles and stems"],
+      "visible_signs": ["Faint, dark grayish-black powdery fungal growth centered inside the leaf spots during periods of extended high humidity"],
+      "farmer_reported_signs": ["Bottom leaves are getting heavily spotted, turning yellow, and dropping to the ground early", "Pods look small because the lower canopy is stripping off leaves"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light brown spots transitioning to dark brown centers with purplish margins", "Surrounding leaf tissue turns yellow"],
+      "spot_or_patch_shape": "Circular to sub-circular spots on leaves, becoming highly irregular when merged",
+      "pattern": "Scattered, discrete necrotic points that expand into larger dead patches between leaf veins",
+      "location_on_plant": "Starts explicitly on mature lower canopy leaves and spreads upwards to younger leaves",
+      "starts_from": "Older leaf blades exposed to humid ground microclimates",
+      "progression": "Spreads vertically up the canopy; under wet conditions, it covers stems and young pods",
+      "image_clues": ["Round brown spots with dark purple borders on lower pigeonpea leaves", "Yellowing leaves with multiple brown necrotic craters"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Phytophthora Blight (Phytophthora cajani)",
+        "difference": "Phytophthora blight produces large, dark brown to black water-soaked lesions that cause rapid wilting of entire stems and branch roll-back, creating clear 'purple-black stem cankers' rather than isolated small circular spots.",
+        "confusion_risk": "Medium during early wet periods."
+      },
+      {
+        "name": "Alternaria Leaf Spot (Alternaria alternata)",
+        "difference": "Alternaria leaf spots are typically larger, darker brown, and display prominent concentric ring configurations inside the spots.",
+        "confusion_risk": "High, as both occur concurrently during the post-rainy season."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Intermittent rain showers followed by bright sunshine", "Warm, highly humid periods with dense morning mists"],
+      "temperature_range": "25°C - 30°C (77°F - 86°F)",
+      "humidity_level": "Relative humidity exceeding 80% for prolonged periods",
+      "season": "Mid-to-late rainy season (Kharif) and early post-rainy season",
+      "soil_conditions": ["Low-lying soils prone to temporary waterlogging", "High weed densities trapping ground layer moisture"],
+      "field_conditions": ["Very high plant density layouts that restrict wind drying", "Crops under severe nutritional stress"],
+      "irrigation_conditions": ["Excessive overhead sprinkler irrigation during late evenings"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne conidia (fungal spores)", "Splashing raindrops", "Inter-row mechanical cultivation or workers brushing wet plants"],
+      "source_of_infection": ["Infected crop residues left standing or on the soil surface", "Volunteer pigeonpea plants", "Perennial wild legume hosts"],
+      "survival_method": "Overwinters as dormant mycelium or stroma inside infected stubble and crop residues left in the field",
+      "spread_speed": "Moderate to fast during warm, wet, and windy weeks",
+      "nearby_crop_risk": "Moderate to high for downstream pulse fields downwind"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated leaf spots present on less than 5% of lower leaves; no defoliation noticed.",
+        "field_indicator": "Fewer than 3 small lesions per plant on the bottom-most leaves only.",
+        "recommended_action": "Improve weeding to increase airflow. Monitor the field weekly. Avoid excess moisture accumulation."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots are widespread on lower leaves, with early lesions showing on the middle canopy; minor leaf dropping.",
+        "field_indicator": "Spots visible across 5% to 20% of the canopy; yellowing leaves present in the mid-tier.",
+        "recommended_action": "Initiate a protective fungicide spray program. Maintain proper soil aeration."
+      },
+      {
+        "level": "High",
+        "description": "Severe defoliation of lower leaves; spots have moved extensively into the upper canopy and onto young pods.",
+        "field_indicator": "More than 20% of the leaf tissue is blighted or dropped; stems display necrotic lesions.",
+        "recommended_action": "Apply systemic or curative fungicides instantly to stop total canopy collapse and preserve pod fill."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Use clean, certified seed sourced from disease-free fields", "Treat seeds with protectant fungicides before sowing"],
+      "field_management": ["Adopt optimal plant spacing (e.g., 60x10 cm or 90x20 cm) based on variety to enhance ventilation", "Intercrop with non-host cereals like sorghum or pearl millet"],
+      "irrigation_management": ["Provide proper field drainage systems to avoid waterlogging zones", "Irrigate in the morning if overhead setups are used"],
+      "soil_management": ["Incorporate balanced primary and secondary nutrients based on soil analysis to avoid crop stress"],
+      "crop_rotation": ["Enforce a 2-to-3-year crop rotation out of legumes using crops like Maize, Sorghum, or Cotton"],
+      "sanitation": ["Collect and burn or deeply bury all infected plant debris post-harvest", "Keep fields thoroughly free of weeds"],
+      "monitoring": ["Begin routine field scouting during the vegetative stage, looking closely at lower leaf layers after heavy rain spells"]
+    },
+    "management": {
+      "immediate_action": ["Verify leaf spots have distinctive dark brown rings to confirm Cercospora", "Improve field drainage and clear any heavy weed build-ups"],
+      "cultural_control": ["Avoid entering or cultivating fields when the pigeonpea canopy is wet with dew or rain"],
+      "organic_control": ["Spray fresh neem seed kernel extract (NSKE 5%) or neem oil preventatively", "Apply copper hydroxide or copper oxychloride formulations at early disease onset"],
+      "biological_control": ["Seed treatment or foliar sprays with Trichoderma viride or Pseudomonas fluorescens formulations to suppress pathogen colonization"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 g/Liter of water (or 200g/Acre)",
+          "application_method": "Foliar spray using a knapsack sprayer for thorough canopy wetting",
+          "spray_interval": "10 - 14 days",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Wear basic PPE; do not apply close to open water sources. Rotate with protectants to avoid resistance."
+        },
+        {
+          "active_ingredient": "Mancozeb",
+          "product_type": "Protectant Fungicide",
+          "dose": "2.5 g/Liter of water (or 500g/Acre)",
+          "application_method": "Foliar spray applied at the first sign of spot emergence",
+          "spray_interval": "7 - 10 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Broad spectrum contact fungicide. Mix thoroughly and ensure coverage of lower leaf surfaces."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Cercospora leaf spot is a fungal disease that creates small brown spots with purple edges on your pigeonpea leaves. It starts on the oldest bottom leaves when they stay wet for too long, causing them to turn yellow and drop off early.",
+      "what_to_do_now": [
+        "Check the bottom leaves of your plants for dark brown spots.",
+        "Remove thick weeds from rows so the wind can dry the leaves after rains.",
+        "Apply a recommended chemical spray if the spots begin spreading up towards the middle leaves."
+      ],
+      "what_not_to_do": [
+        "Do not work in the fields or spray when the leaves are wet with rain or heavy morning dew.",
+        "Do not throw diseased plant waste near your cultivation fields after harvest.",
+        "Do not plant pigeonpea too close together, as this traps wet air inside the crop canopy."
+      ],
+      "when_to_call_expert": [
+        "If leaves are dropping rapidly across the field despite your current fungicide sprays.",
+        "If spots start showing up heavily on the green pods and flower stalks."
+      ],
+      "risk_warning": "If left unchecked during warm, wet weather, this disease can strip the leaves off your plants early, reducing your pulse yields significantly."
+    },
+    "model_support": {
+      "classification_labels": ["pigeonpea_cercospora_leaf_spot", "pigeonpea_healthy", "pigeonpea_phytophthora_blight"],
+      "segmentation_labels": ["cercospora_lesion", "chlorotic_halo_leaf", "healthy_foliage"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Spots turn completely black quickly without purple borders, or if entire branches start dying back down to the main stem"],
+      "image_quality_requirements": ["Clear focus on individual lower leaf lesions", "Capture images in diffuse daylight to minimize glare and accurately resolve the colored spot margins"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "PP-CLS-CH-01",
+        "chunk_type": "Pathology",
+        "title": "Cercospora indica Sporulation Dynamics",
+        "content": "Cercospora leaf spot in pigeonpea is primarily caused by Cercospora indica. It overwinters as stroma in unburied host tissues. Conidia require relative humidity levels above 80% and ambient warmth of 25-30°C to germinate and penetrate via stomatal openings on the abaxial leaf surface.",
+        "keywords": ["Cercospora indica", "stroma", "abaxial surface", "stomatal penetration"],
+        "language": "English",
+        "target_user": "Agronomist / Plant Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "District / Block",
+      "risk_radius": "15 km",
+      "report_count_threshold": "6 confirmed records within 7 wet days",
+      "outbreak_alert_message": "Leaf Spot Alert: Warm, wet conditions are accelerating Cercospora spread in pigeonpea blocks. Maintain canopy protection.",
+      "nearby_farm_advice": ["Inspect lower leaf layers immediately.", "Shorten protective spray intervals if fields are high-density or low-lying."]
+    },
+    "source_metadata": {
+      "source_title": "Compendium of Pigeonpea Diseases and Pests",
+      "source_url": "https://www.icrisat.org/diseases-of-pigeonpea/",
+      "source_type": "International Research Center Manual",
+      "author_or_organization": "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)",
+      "published_year": "2018",
+      "region": "Semi-Arid Tropics / Global",
+      "language": "English",
+      "last_verified": "2026-04-10",
+      "trust_level": "High",
+      "notes": "Premium authoritative source for pulse crop disease diagnosis and integrated management frameworks."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T16:00:00Z",
+      "updated_at": "2026-06-01T19:30:00Z",
+      "reviewed_by": "ICRISAT Plant Pathology Review Board",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "PIGEONPEA-LW-002",
+    "crop": {
+      "common_name": "Pigeonpea",
+      "english_name": "Pigeonpea / Red Gram",
+      "scientific_name": "Cajanus cajan",
+      "local_names": ["Arhar", "Tur", "Gandul", "Toor Dal"],
+      "crop_category": "Legume / Pulse"
+    },
+    "disease": {
+      "name": "Leaf Webber / Pod Borer Complex",
+      "category": "Insect Pest",
+      "pathogen_or_cause": ["Grapholita critica", "Maruca vitrata"],
+      "affected_parts": ["Leaves", "Top shoots", "Flowers", "Pods"],
+      "disease_stage": "Vegetative to Reproductive (Flowering/Podding) stage"
+    },
+    "symptoms": {
+      "early_stage": ["Young caterpillars web together top 2-3 leaves using fine silk threads", "Insects feed secretly inside the webbed leaves, scraping chlorophyll and leaving fine white papery scratches"],
+      "middle_stage": ["Webbing expands to involve multiple terminal leaflets, flower clusters, and young pods", "Webbed clusters become tightly bound, packed with dark green to brown insect excrement (frass)"],
+      "severe_stage": ["Terminal shoots dry out, turning dark brown and stunted", "Caterpillars bore straight into developing pods within the web, eating growing seeds and causing heavy pod drop"],
+      "visible_signs": ["Tightly webbed masses of leaves and flowers at branch tips", "Small, active yellowish-green or cream-colored caterpillars with a dark brown head hiding inside the webs"],
+      "farmer_reported_signs": ["The top leaves of my arhar plants are glued together with spider-like webs", "Black dirt or sand-like particles are stuck inside webbed leaf clusters", "Flowers are dropping off because they are webbed up"]
+    },
+    "visual_identification": {
+      "color_changes": ["Webbed leaf tips turn yellow, dry out, and turn brown or gray-black", "Feces appear as small dark brown grains inside webs"],
+      "spot_or_patch_shape": "Irregular papery white feeding windows on leaves contained within silk nests",
+      "pattern": "Clusters of terminal shoots, leaves, and flowers clumped together into tight, structural nests",
+      "location_on_plant": "Concentrated primarily on terminal shoots, top growing tips, axillary buds, and flower buds",
+      "starts_from": "The topmost, tender young leaves of growing branches",
+      "progression": "Moves from vegetative leaf tips directly into flower buds and pods as the plant enters its reproductive stage",
+      "image_clues": ["Onion-skin like silken webs binding pigeonpea leaves together", "Small green-yellow caterpillars feeding inside webbed shoot tips"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Spotted Pod Borer (Maruca vitrata Damage)",
+        "difference": "Maruca vitrata specializes more in webbing flower clusters and pods tightly together rather than just vegetative leaf tips, and the caterpillar has distinctive dark rows of spots across its body.",
+        "confusion_risk": "High, as both web components can merge on the same plant during flowering.",
+        "confusion_risk_level": "High"
+      },
+      {
+        "name": "Bud Necrosis Virus",
+        "difference": "Bud necrosis causes systemic death and drying of the terminal buds without any silken webbing, frass accumulation, or caterpillar presence.",
+        "confusion_risk": "Medium during late shriveled stages."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry periods punctuated by brief high-humidity intervals", "Warm, overcast days during the early vegetative and pre-flowering stage"],
+      "temperature_range": "20°C - 32°C (68°F - 90°F)",
+      "humidity_level": "Moderate to high humidity (60% - 85%) inside dense crop canopies",
+      "season": "Late vegetative to peak flowering phases of long-duration and short-duration cultivars",
+      "soil_conditions": ["Not directly dependent on soil types, though highly fertile soils produce lush canopy structures favored by egg-laying moths"],
+      "field_conditions": ["Densely planted fields with heavy vegetative canopy cover", "Absence of natural predatory birds or parasitoids"],
+      "irrigation_conditions": ["Lush growth driven by excessive nitrogen or high-frequency watering regimes"]
+    },
+    "spread": {
+      "spread_by": ["Adult moths flying through the field to lay eggs on tender shoots", "Active caterpillars crawling locally between overlapping plant branches"],
+      "source_of_infection": ["Alternative weed hosts (e.g., wild legumes, Vigna species)", "Continuous cropping of susceptible pigeonpea varieties nearby"],
+      "survival_method": "Pupates inside the webbed leaves or drops to the soil/stubble layers to pupate and emerge as moths in the next crop cycle",
+      "spread_speed": "High; egg laying can quickly cause field-wide infestation during vegetative surges",
+      "nearby_crop_risk": "High for neighboring cowpea, mungbean, and urdbean blocks"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Fewer than 5% of terminal shoots show minor silken webs; feeding damage is restricted to leaf surfaces.",
+        "field_indicator": "Less than 1 active web bundle per meter of row length.",
+        "recommended_action": "Manually pluck and destroy webbed leaf bundles. Install bird perches across the field."
+      },
+      {
+        "level": "Medium",
+        "description": "5% to 15% of shoots webbed; webs contain larvae and visible frass grains; flower clusters beginning to be targeted.",
+        "field_indicator": "2 to 4 active webbed structures found per meter of row.",
+        "recommended_action": "Apply targeted eco-friendly or biological sprays like Neem formulations or Bacillus thuringiensis."
+      },
+      {
+        "level": "High",
+        "description": "More than 15% of terminal shoots, flower webs, and pods are aggressively damaged; high caterpillar population.",
+        "field_indicator": "Massive visible webbing across terminal canopies; high level of frass and dried shoots field-wide.",
+        "recommended_action": "Apply contact and systemic insecticide tank-mixes immediately to save flower clusters and pod sets."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Select tolerant varieties characterized by open, erect growth habits rather than dense, bushy architectures"],
+      "field_management": ["Adopt wider inter-row spacing to minimize canopy overlapping between lines", "Intercrop pigeonpea with non-host tall crops like Maize, Sorghum, or Pearl Millet"],
+      "irrigation_management": ["Manage water inputs to prevent excessive, ultra-lush vegetative growth extensions"],
+      "soil_management": ["Avoid applying excessive nitrogenous fertilizers; use balanced NPK ratios with sulfur"],
+      "crop_rotation": ["Avoid growing sequential leguminous hosts in adjacent fields across seasons"],
+      "sanitation": ["Remove alternative leguminous weed hosts along field bunds", "Deep summer plowing to expose pupae to solar heat and predatory birds"],
+      "monitoring": ["Monitor terminal buds twice a week starting from 30 days after sowing, looking for early silk threads binding top leaf pairs"]
+    },
+    "management": {
+      "immediate_action": ["Manually collect and crush webbed leaf clusters if the infestation is localized", "Set up bird perches (T-shaped wood stakes) at 20-25 per acre to invite insect-eating birds"],
+      "cultural_control": ["Shake the plants vigorously during early flowering to dislodge caterpillars, letting them drop onto sheets for collection and removal"],
+      "organic_control": ["Spray Neem Seed Kernel Extract (NSKE 5%) or Azadirachtin 1500 ppm preventatively at early vegetative stages"],
+      "biological_control": ["Spray Bacillus thuringiensis var. kurstaki (Bt) at 1-2 g/Liter or apply NPV (Nuclear Polyhedrosis Virus) formulations during evening hours"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Indoxacarb",
+          "product_type": "Insecticide (Oxadiazine)",
+          "dose": "0.5 mL/Liter of water (or 100 mL/Acre)",
+          "application_method": "Foliar spray directed precisely at terminal canopies and flower zones using high volume water",
+          "spray_interval": "10 - 14 days if pest pressure persists",
+          "pre_harvest_interval": "14 days",
+          "safety_note": "Highly effective against lepidopteran larvae. Spray during late afternoons to save foraging honeybees."
+        },
+        {
+          "active_ingredient": "Chlorantraniliprole",
+          "product_type": "Systemic Insecticide (Diamide)",
+          "dose": "0.3 mL/Liter of water (or 60 mL/Acre)",
+          "application_method": "Foliar broadcast spray using fine misting nozzles for deep web penetration",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "21 days",
+          "safety_note": "Provides excellent residual protection. Do not exceed recommended dosage parameters."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "The leaf webber is a small moth caterpillar that glues your pigeonpea leaves, flowers, and buds together into tight silken webs. It hides safely inside these webs, eating the leaves and boring directly into pods to devour the seeds.",
+      "what_to_do_now": [
+        "Walk your field and use your hands to pluck off and destroy webbed leaf tips.",
+        "Fix T-shaped wooden sticks (bird perches) across your field so birds can sit and eat the caterpillars.",
+        "Spray neem or targeted insect chemicals if you see more than one web per meter of plant row."
+      ],
+      "what_not_to_do": [
+        "Do not over-use nitrogen fertilizers, which cause the plant to grow too many soft leaves that moths love for egg-laying.",
+        "Do not spray chemicals in the hot morning; wait until late afternoon to protect friendly honeybees.",
+        "Do not leave old crop stubble untouched after harvest—plow your field deeply in summer to kill hidden insect pupae."
+      ],
+      "when_to_call_expert": [
+        "If the webs are spreading so fast that your flowering clusters are being completely wrapped up and destroyed despite your chemical sprays."
+      ],
+      "risk_warning": "If you don't control the leaf webber during flowering, it will trap the blossoms in silk, chew through the pods, and destroy your final grain yields."
+    },
+    "model_support": {
+      "classification_labels": ["pigeonpea_leaf_webber_damage", "pigeonpea_healthy", "pigeonpea_pod_borer"],
+      "segmentation_labels": ["silken_webbing", "larval_frass_mass", "scraped_papery_leaf"],
+      "confidence_threshold": {
+        "low": "< 0.70",
+        "medium": "0.70 - 0.85",
+        "high": "> 0.85"
+      },
+      "send_to_expert_if": ["Webbing damage is extensive but no lepidopteran larvae are found, suggesting a potential secondary pest or new spider mite complex"],
+      "image_quality_requirements": ["Clear close-up images resolving the webbed leaf structure and the caterpillar inside for accurate genus identification"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "PP-LW-CH-02",
+        "chunk_type": "Entomology",
+        "title": "Grapholita critica Larval Behavior",
+        "content": "The pigeonpea leaf webber, Grapholita critica (Lepidoptera: Tortricidae), lays small eggs on terminal buds. Larvae web leaves parallel to the midrib and feed endophytically. Economic damage peaks when infestations move from vegetative shoots to floral racemes.",
+        "keywords": ["Grapholita critica", "Tortricidae", "endophytic feeding", "floral racemes"],
+        "language": "English",
+        "target_user": "Entomologist / Extension Agent"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Sub-District / Block",
+      "risk_radius": "12 km",
+      "report_count_threshold": "5 active field alerts in a block within 10 days",
+      "outbreak_alert_message": "Pest Alert: Leaf Webber counts are rising rapidly in late Kharif pigeonpea crops. Initiate monitoring and early control steps.",
+      "nearby_farm_advice": ["Check terminal buds immediately.", "Ensure spray coverage reaches deep into the crop canopy where webs are woven."]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Pest Management for Pigeonpea",
+      "source_url": "https://www.ncipm.res.in/pigeonpea-ipm",
+      "source_type": "Government Research Portal",
+      "author_or_organization": "ICAR-National Research Centre for Integrated Pest Management",
+      "published_year": "2020",
+      "region": "South Asia / India",
+      "language": "English",
+      "last_verified": "2026-03-15",
+      "trust_level": "High",
+      "notes": "Excellent manual details biological and chemical control threshold indexes used by extension officers."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T16:15:00Z",
+      "updated_at": "2026-06-01T19:45:00Z",
+      "reviewed_by": "ICAR Insect Specialist Review Panel",
+      "status": "Verified"
+    }
+  },
+  {
+    "id": "PIGEONPEA-SMD-003",
+    "crop": {
+      "common_name": "Pigeonpea",
+      "english_name": "Pigeonpea / Red Gram",
+      "scientific_name": "Cajanus cajan",
+      "local_names": ["Arhar", "Tur", "Gandul", "Toor Dal"],
+      "crop_category": "Legume / Pulse"
+    },
+    "disease": {
+      "name": "Sterility Mosaic Disease",
+      "category": "Viral (Vector-borne)",
+      "pathogen_or_cause": ["Pigeonpea sterility mosaic virus (PPSMV)"],
+      "affected_parts": ["Leaves", "Flowers", "Whole Plant Canopy"],
+      "disease_stage": "Early Vegetative to Reproductive stage"
+    },
+    "symptoms": {
+      "early_stage": ["Faint yellow mosaic patterns or light green chlorotic rings on young leaflets", "Reduction in leaflet size with minor upward curling of margins"],
+      "middle_stage": ["Severe mosaic mottling where leaves are cross-patterned with bright yellow and dark green spots", "Leaves become highly stunted, narrow, and clustered into 'witches' broom' brush-like groupings"],
+      "severe_stage": ["Complete suppression of flower production (total sterility)", "Infected plants remain completely green, bushy, and stunted, producing zero pods while healthy neighbors dry down", "Severe reduction in root system growth"],
+      "visible_signs": ["Bright yellow-green mosaic crinkling on leaves accompanied by a total absence of flowers or pods at maturity"],
+      "farmer_reported_signs": ["My arhar plants are staying bright green and bushy but they are not producing a single flower or pod", "Leaves look small, crinkled, and mottled with yellow paint-like patches"]
+    },
+    "visual_identification": {
+      "color_changes": ["Leaves show mottled bright yellow, pale green, and dark green mosaic patterns"],
+      "spot_or_patch_shape": "Diffuse, irregular mosaic patches and chlorotic ring spots covering the full blade tissue",
+      "pattern": "Systemic leaf crowding and crinkling accompanied by extreme reduction in leaflet dimensions",
+      "location_on_plant": "Symptoms manifest clearly on the youngest top leaves first, eventually engulfing the entire plant frame",
+      "starts_from": "Terminal shoots where virus-carrying mites feed extensively",
+      "progression": "Early infected plants become completely sterile; late infections may show partial sterility on isolated branches",
+      "image_clues": ["Mottled yellow-green pigeonpea leaves that are narrow and bunched up", "A field patch of dense green flowering-less bushes among mature drying plants"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Phyllody (Mycoplasma-like Organism Infection)",
+        "difference": "Phyllody causes floral parts to transform into green leafy structural fragments. Sterility Mosaic leads to a complete suppression of flower buds altogether, leaving the stems empty of floral organs.",
+        "confusion_risk": "Medium, as both cause sterility issues."
+      },
+      {
+        "name": "Mungo Bean Yellow Mosaic Virus (MYMV)",
+        "difference": "MYMV forms stark, solid yellow patches on leaves without causing severe leaf narrowing, crinkling, or complete suppression of flowering characteristics.",
+        "confusion_risk": "Medium during early vegetative observation."
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry, warm weather alternating with high humidity, which favors rapid multi-generation multiplication of the vector mites", "Shady field locations protected from high prevailing winds"],
+      "temperature_range": "22°C - 30°C (71°F - 86°F) optimal for vector mite movement and breeding",
+      "humidity_level": "High relative humidity within dense, enclosed plant canopies",
+      "season": "Early Kharif (summer-sown crop cycles) where hot, dry spells favor vector spread",
+      "soil_conditions": ["Not directly dependent on soils, but dense perennial cropping patterns provide continuous virus reservoirs"],
+      "field_conditions": ["Presence of ratoon crops, perennial pigeonpea varieties, or volunteers serving as year-round bridges", "Close plant spacing"],
+      "irrigation_conditions": ["Crops that remain highly vegetative due to early water provision, shielding mites inside the lower shade layers"]
+    },
+    "spread": {
+      "spread_by": ["Eriophyid mites (Aceria cajani) acting as the obligate vector, carried passively over short distances by wind currents", "Mechanical transmission through seed or sap does NOT occur"],
+      "source_of_infection": ["Perennial pigeonpea plants left standing", "Ratoon crops from the previous season", "Volunteer pigeonpea plants growing along irrigation channels"],
+      "survival_method": "The virus survives strictly within living pigeonpea tissues, while the vector mite overwinters on ratoon or wild perennial Allium/legume bridge hosts",
+      "spread_speed": "High; localized wind currents can fan mites across adjacent field plots within a week",
+      "nearby_crop_risk": "Extreme for younger pigeonpea crops situated downwind of infected perennial blocks"
+    },
+    "severity_levels": [
+      {
+        "level": "Low (Early/Partial)",
+        "description": "Faint mosaic patterns visible on a few isolated plants or single branches; flowering is normal on other sections.",
+        "field_indicator": "Less than 2% of plants exhibit early pale green mosaic ring markings.",
+        "recommended_action": "Rogue out infected plants immediately and bury them. Spray a targeted acaricide to kill vector mites."
+      },
+      {
+        "level": "Medium",
+        "description": "Mosaic patches, leaflet crowding, and stunting are clear on 2% to 10% of plants; affected zones show zero flowers.",
+        "field_indicator": "Clusters of bushy, yellow-green plants visible in field spots; no pod formation on those lines.",
+        "recommended_action": "Apply systemic acaricides immediately across the whole field to halt vector mite movement. Rogue out severely stunted plants."
+      },
+      {
+        "level": "High / Critical",
+        "description": "More than 10% of the entire field population is severely stunted, bushy, crinkled, and completely sterile.",
+        "field_indicator": "Massive structural patches of flowerless green bushes across rows; total yield loss on infected lines.",
+        "recommended_action": "Control vector populations to limit spread to neighboring fields. Prioritize planting fully resistant varieties in the next sowing cycle."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Sow exclusively certified, disease-resistant cultivars (e.g., Asha / ICPL 87119, BSMR 736, Maruti, or ICP 8863)"],
+      "field_management": ["Avoid matching young crop plantings downwind of multi-year perennial or ratooned pigeonpea fields", "Maintain wide row spacings to alter mite microclimate parameters"],
+      "irrigation_management": ["Keep water logs under control; practice standard deep drainage irrigation channels"],
+      "soil_management": ["Perform standard balanced basal fertilization to build cell-wall resilience against vector piercing behavior"],
+      "crop_rotation": ["Enforce regular fallow breaks or rotate field blocks completely out of leguminous species for a season"],
+      "sanitation": ["Practice clean cultivation by removing all volunteer pigeonpeas and old ratoon stumps well before sittings", "Uproot infected hosts early"],
+      "monitoring": ["Scout vegetative growing tips starting from 20 days after emergence, using a hand lens to scan for microscopic eriophyid mites"]
+    },
+    "management": {
+      "immediate_action": ["Rogue out and destroy infected mosaic plants found during early vegetative phases (before 45 days)", "Apply an efficient acaricide spray immediately across the entire field block to suppress Aceria cajani mites"],
+      "cultural_control": ["Enforce a strict crop holiday; ensure no ratooned or multi-year perennial pigeonpea crops are kept alive within the farm boundaries"],
+      "organic_control": ["Foliar applications of 5% Neem Seed Kernel Extract (NSKE) can act as an effective deterrent against early mite stabilization"],
+      "biological_control": ["Natural predatory phytoseiid mites present in healthy, chemical-free ecosystems can help suppress vector populations naturally"],
+      "chemical_control": [
+        {
+          "active_ingredient": "Fenazaquin",
+          "product_type": "Acaricide / Miticide",
+          "dose": "1.0 mL/Liter of water (or 200 mL/Acre)",
+          "application_method": "Foliar spray hitting leaf undersides thoroughly using clean high pressure mist systems",
+          "spray_interval": "10 days apart if high mite counts persist",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Targeted explicitly at vector mites; does not treat the virus directly but stops transmission dead. Wear protective face shields."
+        },
+        {
+          "active_ingredient": "Propargite",
+          "product_type": "Acaricide",
+          "dose": "2.0 mL/Liter of water (or 400 mL/Acre)",
+          "application_method": "Foliar spray at the first visual sign of mosaic hotspot grouping",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "30 days",
+          "safety_note": "Toxic to fish; ensure no spray drift touches local farm drainage ponds or water tables."
+        }
+      ],
+      "expert_recommendation_required": true
+    },
+    "farmer_advice": {
+      "simple_explanation": "Sterility Mosaic Disease (known as 'Green Plague' or Arhar Banjha Rog) is a viral disease carried from plant to plant by microscopic, wind-blown mites. It makes leaves tiny, bunched up, and yellow-mottled, and completely stops the plant from producing any flowers or pods.",
+      "what_to_do_now": [
+        "Uproot and bury any young plants showing yellow mosaic spots or bunched up leaves early.",
+        "Spray a targeted mite-killing chemical (acaricide) immediately to stop the tiny insects from carrying the virus to healthy rows.",
+        "Always choose certified, disease-resistant seed varieties like Asha or BSMR for your next crop."
+      ],
+      "what_not_to_do": [
+        "Never leave a ratooned or old cut pigeonpea crop standing in the field through the summer, as it acts as a permanent home for virus mites.",
+        "Do not spray standard fungicides; this is a viral disease spread by insects, so only miticides or resistant seeds work.",
+        "Do not collect seeds from infected, partially sterile plants."
+      ],
+      "when_to_call_expert": [
+        "Call an expert or village extension officer immediately if you notice patches of plants remaining leafy green and bunched up while the rest of the field is flowering normally."
+      ],
+      "risk_warning": "Sterility Mosaic is highly destructive. If infected early in the vegetative stage, the plant will become 100% sterile and produce zero yield."
+    },
+    "model_support": {
+      "classification_labels": ["pigeonpea_sterility_mosaic", "pigeonpea_healthy", "pigeonpea_mosaic_mottle"],
+      "segmentation_labels": ["mosaic_mottling_leaf", "narrowed_leaf_cluster", "sterile_stem_nodes"],
+      "confidence_threshold": {
+        "low": "< 0.75",
+        "medium": "0.75 - 0.90",
+        "high": "> 0.90"
+      },
+      "send_to_expert_if": ["Mottling occurs on pods or if plants show leafy floral distortions (phyllody) rather than total bud suppression"],
+      "image_quality_requirements": ["High resolution macros targeting the youngest terminal leaf clusters to clearly resolve mosaic patterns and narrow leaf shapes"]
+    },
+    "rag_chunks": [
+      {
+        "chunk_id": "PP-SMD-CH-03",
+        "chunk_type": "Pathology / Virology",
+        "title": "Pigeonpea Sterility Mosaic Virus and Aceria cajani Vector Relationship",
+        "content": "Sterility Mosaic Disease (SMD) is caused by the Pigeonpea sterility mosaic virus (PPSMV), an RNA virus transmitted exclusively by the eriophyid mite Aceria cajani. The virus causes complete or partial sterility, systemic mosaic chlorosis, and severe leaflet proliferation, creating an economic crop catastrophe across South Asia.",
+        "keywords": ["PPSMV", "Aceria cajani", "eriophyid mite", "systemic chlorosis", "sterility"],
+        "language": "English",
+        "target_user": "Research Scientist / Crop Pathologist"
+      }
+    ],
+    "geo_outbreak_data": {
+      "location_level": "Regional / District-wide",
+      "risk_radius": "30 km",
+      "report_count_threshold": "3 confirmed site locations in a sub-district within 14 days",
+      "outbreak_alert_message": "CRITICAL ALERT: Sterility Mosaic Disease (SMD) vector counts are peaking. Take instant mite suppression actions and monitor local ratoon zones.",
+      "nearby_farm_advice": ["Inspect crops for yellow mosaic clusters.", "Apply a preventative miticide if fields are within downwind pathways of older pulse plantations."]
+    },
+    "source_metadata": {
+      "source_title": "Identification and Management of Sterility Mosaic Disease in Pigeonpea",
+      "source_url": "https://www.icrisat.org/smd-pigeonpea-guide",
+      "source_type": "International Bulletin",
+      "author_or_organization": "ICRISAT / Indian Council of Agricultural Research (ICAR)",
+      "published_year": "2019",
+      "region": "Global / India",
+      "language": "English",
+      "last_verified": "2026-04-22",
+      "trust_level": "High",
+      "notes": "The primary clinical diagnostic and management benchmark document for SMD epidemiology control programs."
+    },
+    "versioning": {
+      "created_at": "2026-06-01T16:30:00Z",
+      "updated_at": "2026-06-01T20:00:00Z",
+      "reviewed_by": "Joint ICAR-ICRISAT Pulse Pathology Directorate",
+      "status": "Verified"
+    }
+  }
+]
+
+```

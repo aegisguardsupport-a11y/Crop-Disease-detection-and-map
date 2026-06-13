@@ -1,0 +1,863 @@
+[
+  {
+    "id": "okra_alternaria_leaf_spot",
+    "crop": {
+      "common_name": "Bhindi",
+      "english_name": "Okra / Ladies' finger",
+      "scientific_name": "Abelmoschus esculentus",
+      "local_names": ["Bhindi", "Dharosh", "Vendaikkai", "Bendakaya", "Bhendi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Alternaria leaf spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Alternaria alternata", "Alternaria chlamydospora"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods"],
+      "disease_stage": "Vegetative to Fruiting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, light brown to yellowish-brown circular dots on older lower leaves."],
+      "middle_stage": ["Enlarged dark brown necrotic spots showing characteristic concentric rings (target board pattern) with narrow chlorotic yellow halos."],
+      "severe_stage": ["Spots coalesce into large irregular dead patches; leaves dry up, turn brown, and drop prematurely, causing severe defoliation."],
+      "visible_signs": ["Dark, velvety layer of fungal spores in the center of dead spots during highly humid conditions.", "Target-like rings on leaves."],
+      "farmer_reported_signs": ["Brown circular rings like a target on lower leaves", "Dry brown leaves falling off early"]
+    },
+    "visual_identification": {
+      "color_changes": ["Yellowish-brown", "Dark brown", "Chlorotic yellow halo"],
+      "spot_or_patch_shape": "Concentric rings / Target-board shape",
+      "pattern": "Circular spots progressing to coalescing irregular patches",
+      "location_on_plant": "Starts on older lower leaves and moves upward",
+      "starts_from": "Leaf surface margins and blades of lower canopy",
+      "progression": "Lower leaves -> Upper leaves -> Petioles and stems -> Pods",
+      "image_clues": ["Look for concentric rings within a dark brown spot", "Yellow ring surrounding the brown target-like spot", "Velvety dark growth inside the spot center"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cercospora leaf spot",
+        "difference": "Cercospora spots have an ashy-grey center and a reddish/pinkish border, or sooty black mold underneath without distinct target-board concentric rings.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Phyllosticta leaf spot",
+        "difference": "Phyllosticta spots have grey to light-brown centers with darker margins and create prominent shot-holes with tiny black dots (pycnidia) instead of concentric target rings.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, humid weather", "Frequent rainfall or heavy dews"],
+      "temperature_range": "25°C - 30°C",
+      "humidity_level": ">80% RH",
+      "season": "Kharif / Monsoon season",
+      "soil_conditions": ["Poorly drained soils with standing water", "High soil nitrogen levels promoting dense succulent foliage"],
+      "field_conditions": ["Crowded planting", "Weed infestation in field borders"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation", "Excessive evening watering"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne spores (conidia)", "Splashing rain or irrigation water"],
+      "source_of_infection": ["Infected crop debris", "Alternative host weeds", "Volunteer okra plants"],
+      "survival_method": "Mycelium and conidia survive on diseased crop residue in the soil or on weed hosts.",
+      "spread_speed": "Moderate to Fast in warm, humid weather",
+      "nearby_crop_risk": "Moderate (affects other Malvaceous crops and weeds)"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few isolated brown spots restricted to the bottom leaves.",
+        "field_indicator": "<10% leaf area affected on lower canopy.",
+        "recommended_action": "Remove affected lower leaves, improve air circulation, and spray Neem Oil @ 0.2% or Trichoderma viride."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots with concentric rings spreading to middle leaves.",
+        "field_indicator": "10% to 30% foliage affected; visible yellowing of some leaves.",
+        "recommended_action": "Apply a preventive or systemic chemical spray like Carbendazim + Mancozeb or Chlorothalonil."
+      },
+      {
+        "level": "High",
+        "description": "Severe defoliation and spots appearing on pods and stems.",
+        "field_indicator": ">30% foliage affected, heavy leaf drop, stunted fruit development.",
+        "recommended_action": "Spray curative systemic mixtures like Tebuconazole + Trifloxystrobin or Azoxystrobin + Difenoconazole immediately."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Use certified disease-free seeds.", "Treat seeds with Carbendazim @ 2g/kg seed or Trichoderma viride @ 4g/kg seed."],
+      "field_management": ["Maintain recommended row-to-row and plant-to-plant spacing to allow air circulation.", "Keep the field weed-free."],
+      "irrigation_management": ["Avoid overhead irrigation.", "Use drip or furrow irrigation to keep foliage dry."],
+      "soil_management": ["Apply balanced NPK fertilizers; avoid excess nitrogen.", "Ensure proper field drainage."],
+      "crop_rotation": ["Rotate okra with non-host crops like cereals or legumes for 2-3 years."],
+      "sanitation": ["Collect and burn or bury infected crop debris after harvest."],
+      "monitoring": ["Regularly scout the field, focusing on lower leaves, starting 30 days after sowing."]
+    },
+    "management": {
+      "immediate_action": ["Rogue highly infected lower leaves.", "Reduce irrigation frequency.", "Apply a protective fungicide spray."],
+      "cultural_control": ["Manually strip off heavily spotted lower leaves to improve canopy ventilation.", "Clean field borders of weed hosts."],
+      "organic_control": ["Foliar spray of Neem Seed Kernel Extract (NSKE) 5% or Neem Oil @ 2-3 mL/L."],
+      "biological_control": ["Foliar spray of Trichoderma viride or Bacillus subtilis @ 5-10 g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Carbendazim 12% + Mancozeb 63% WP",
+          "product_type": "Systemic + Contact Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Wear protective clothing and mask during application."
+        },
+        {
+          "active_ingredient": "Tebuconazole 50% + Trifloxystrobin 25% WG",
+          "product_type": "Systemic Fungicide Mixture",
+          "dose": "0.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-15 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Ensure thorough coverage of both leaf surfaces; alternate with contact fungicides to prevent resistance."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Alternaria leaf spot is a fungal disease that creates brown 'bullseye' target spots on your okra leaves. It starts at the bottom of the plant and moves up, eventually drying up the leaves and reducing fruit yield.",
+      "what_to_do_now": [
+        "Remove and burn highly spotted bottom leaves.",
+        "Stop watering from above (avoid sprinklers).",
+        "Spray Carbendazim + Mancozeb (2g/L) or Neem Oil immediately."
+      ],
+      "what_not_to_do": [
+        "Do not leave infected crop waste on the soil surface.",
+        "Do not apply excessive urea or nitrogen fertilizers.",
+        "Do not plant okra seeds too close to each other."
+      ],
+      "when_to_call_expert": ["Call an expert if spots are spreading rapidly to the pods and top leaves despite chemical spraying."],
+      "risk_warning": "If left untreated under rainy/humid weather, this disease can cause early leaf drop and reduce your pod yield by up to 50%."
+    },
+    "model_support": {
+      "classification_labels": ["okra_alternaria_leaf_spot"],
+      "segmentation_labels": ["alternaria_necrotic_spot", "yellow_chlorotic_halo"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": ["The model confuses target spots with regular mechanical damage or chemical burn."],
+      "image_quality_requirements": ["Clear close-up images of individual leaves showing the target-board pattern in focus.", "Proper lighting showing the chlorotic yellow halo clearly."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "5 km",
+      "report_count_threshold": "5",
+      "outbreak_alert_message": "Alternaria Leaf Spot alert: Warm and humid conditions in your region are highly favorable for Alternaria spread. Monitor your okra crops daily.",
+      "nearby_farm_advice": ["Maintain field sanitation", "Avoid sprinkler irrigation", "Perform preventive neem oil sprays"]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Pest Management for Okra - Disease Section",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension Portal",
+      "author_or_organization": "Tamil Nadu Agricultural University (TNAU)",
+      "published_year": "2023",
+      "region": "South Asia",
+      "language": "English",
+      "last_verified": "2024-10",
+      "trust_level": "High",
+      "notes": "Verified against standard Indian agricultural pest and disease database."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T12:00:00Z",
+      "updated_at": "2024-10-27T12:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "okra_cercospora_leaf_spot",
+    "crop": {
+      "common_name": "Bhindi",
+      "english_name": "Okra / Ladies' finger",
+      "scientific_name": "Abelmoschus esculentus",
+      "local_names": ["Bhindi", "Dharosh", "Vendaikkai", "Bendakaya", "Bhendi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Cercospora leaf spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Cercospora malayensis", "Pseudocercospora abelmoschi", "Cercospora abelmoschi"],
+      "affected_parts": ["Leaves", "Stems", "Pods"],
+      "disease_stage": "Vegetative to Harvesting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, indistinct, brown, irregular spots on the lower leaf surface."],
+      "middle_stage": ["Spots expand into circular spots with an ashy-grey center and a reddish or pinkish border (C. malayensis), or dark sooty-black angular spots on the underside (C. abelmoschi)."],
+      "severe_stage": ["Centers of the spots become dry, thin, and brittle, cracking or falling out to create 'shot-holes'. Leaves roll, wilt, dry up, and fall off prematurely."],
+      "visible_signs": ["Grey-to-black moldy/sooty fungal growth of spores covering the entire lower leaf surface under high humidity.", "Shot-holes in leaves."],
+      "farmer_reported_signs": ["Greyish spots with dark borders", "Black soot-like dust under the leaves", "Leaves full of holes falling off"]
+    },
+    "visual_identification": {
+      "color_changes": ["Ashy-grey center", "Reddish-pink border", "Sooty-black color"],
+      "spot_or_patch_shape": "Circular with distinct borders or angular sooty patches",
+      "pattern": "Irregularly distributed spots or complete velvety coverage on the lower leaf side",
+      "location_on_plant": "Starts on lower, older leaves and spreads upward to the canopy",
+      "starts_from": "Underside of leaves",
+      "progression": "Lower leaf underside -> Upper leaf surface -> Stems -> Heavy defoliation",
+      "image_clues": ["Look for ash-colored centers with a thin reddish ring on the upper leaf surface", "Velvety black/grey mold on the bottom side of the leaves"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Alternaria leaf spot",
+        "difference": "Alternaria has clear concentric rings (target boards) and lacks the characteristic ashy-grey center or sooty-black underside mold.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Phyllosticta leaf spot",
+        "difference": "Phyllosticta has distinct black pinhead-like dots (pycnidia) embedded in the grayish spots and rarely shows sooty-black velvet on the underside.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, highly humid conditions", "Frequent rain showers coupled with warm days"],
+      "temperature_range": "25°C - 35°C",
+      "humidity_level": ">85% RH",
+      "season": "Monsoon / Kharif season",
+      "soil_conditions": ["Poor drainage", "High plant density blocking wind flow"],
+      "field_conditions": ["Crowded spacing", "Unchecked weed growth keeping humidity high"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation", "Late evening watering leaving leaves wet overnight"]
+    },
+    "spread": {
+      "spread_by": ["Wind currents", "Rain splashes"],
+      "source_of_infection": ["Infected plant debris left in soil", "Wild host plants in the Malvaceae family"],
+      "survival_method": "Spore structures (conidia/mycelium) survive on fallen leaves and alternative host plants.",
+      "spread_speed": "Rapid in humid, closely spaced crops",
+      "nearby_crop_risk": "High for other okra fields or Malvaceous crops nearby"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Scattered brown spots on the bottom-most leaves with very minor sooty patches below.",
+        "field_indicator": "<15% leaf area affected on lower canopy.",
+        "recommended_action": "Remove infected lower leaves. Spray protective contact fungicides like Mancozeb."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots showing clear ashy-grey centers and shot-holes; soot visible on mid-canopy leaves.",
+        "field_indicator": "15% to 35% foliage showing symptoms; minor leaf drop.",
+        "recommended_action": "Spray systemic fungicides like Propiconazole or Carbendazim + Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Massive leaf yellowing, drying, and defoliation; spots visible on pods and stems.",
+        "field_indicator": ">35% leaf area affected; heavy defoliation; crop bare at the bottom.",
+        "recommended_action": "Immediate spray of highly effective systemic mixtures like Tebuconazole + Trifloxystrobin."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Clean seed certified free of fungal spores.", "Seed treatment with Carbendazim 50% WP @ 2g/kg of seed."],
+      "field_management": ["Proper crop spacing (at least 60x30 cm or 45x30 cm) to allow light and wind.", "Keep field borders clean of weeds."],
+      "irrigation_management": ["Use drip or furrow irrigation.", "Irrigate early in the morning so leaves dry quickly."],
+      "soil_management": ["Apply balanced nutrients.", "Avoid nitrogen over-fertilization."],
+      "crop_rotation": ["Rotate with non-susceptible crops like maize, sorghum, or pulses for 2 seasons."],
+      "sanitation": ["Clean the field of previous crop residues.", "Periodically pluck and destroy heavily spotted leaves."],
+      "monitoring": ["Scout weekly, especially checking the underside of lower leaves during humid/wet seasons."]
+    },
+    "management": {
+      "immediate_action": ["Pluck and destroy severely infected lower leaves.", "Ensure proper canopy ventilation.", "Spray broad-spectrum protective fungicides."],
+      "cultural_control": ["Destroy and burn crop residues after harvest.", "Manually prune old leaves to improve air flow."],
+      "organic_control": ["Foliar spray of Neem Seed Kernel Extract (NSKE) 5%.", "Foliar spray of garlic-chili extract."],
+      "biological_control": ["Spray Trichoderma viride or Pseudomonas fluorescens @ 10g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Propiconazole 25% EC",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-12 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply during afternoon when leaves are completely dry; do not spray under strong direct sunlight."
+        },
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Fungicide",
+          "dose": "2.0 g to 2.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "7-10 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Spray thoroughly on the undersides of the leaves where the fungal growth resides."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Cercospora leaf spot is a fungal disease that causes ash-grey spots with reddish rings, or sooty-black patches under the leaves of your okra plants. The infected parts dry up, make holes in the leaves, and cause them to fall off, leaving the plant bare and weak.",
+      "what_to_do_now": [
+        "Pick off the heavily spotted bottom leaves and burn them.",
+        "Spray Carbendazim + Mancozeb (2g/L) or Propiconazole (1mL/L).",
+        "Spray early in the morning or afternoon on the undersides of the leaves."
+      ],
+      "what_not_to_do": [
+        "Do not irrigate your field in the late evening.",
+        "Do not leave dry, fallen leaves on the field floor.",
+        "Do not plant okra too densely."
+      ],
+      "when_to_call_expert": ["Contact an expert if leaves are falling rapidly and the disease is not controlled after two sprays of systemic fungicides."],
+      "risk_warning": "Heavy defoliation from Cercospora leaf spot reduces the crop's ability to produce food, resulting in small, thin, and hard pods."
+    },
+    "model_support": {
+      "classification_labels": ["okra_cercospora_leaf_spot"],
+      "segmentation_labels": ["ash_grey_spot", "sooty_black_underside", "leaf_shot_hole"],
+      "confidence_threshold": {
+        "low": "0.45",
+        "medium": "0.70",
+        "high": "0.85"
+      },
+      "send_to_expert_if": ["The symptoms closely resemble insect-caused shot-holes without clear fungal borders or mold."],
+      "image_quality_requirements": ["High-resolution images of both the upper leaf (showing ash-grey spot with pinkish ring) and the lower leaf (showing black soot) in clear focus."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "Sub-district",
+      "risk_radius": "3 km",
+      "report_count_threshold": "4",
+      "outbreak_alert_message": "Cercospora Leaf Spot reported in nearby farms. Spray preventive Mancozeb (2.5g/L) if your crops are in the vegetative stage.",
+      "nearby_farm_advice": ["Increase plant spacing", "Monitor leaf undersides daily", "Avoid overhead irrigation"]
+    },
+    "source_metadata": {
+      "source_title": "Fungal Diseases of Okra (Abelmoschus esculentus L.)",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Extension",
+      "author_or_organization": "Department of Plant Pathology, TNAU",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Excellent detail on C. malayensis vs C. abelmoschi differentiation."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T12:15:00Z",
+      "updated_at": "2024-10-27T12:15:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "okra_downy_mildew",
+    "crop": {
+      "common_name": "Bhindi",
+      "english_name": "Okra / Ladies' finger",
+      "scientific_name": "Abelmoschus esculentus",
+      "local_names": ["Bhindi", "Dharosh", "Vendaikkai", "Bendakaya", "Bhendi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Downy Mildew",
+      "category": "Oomycete (Fungal-like)",
+      "pathogen_or_cause": ["Pseudoperonospora cubensis"],
+      "affected_parts": ["Leaves"],
+      "disease_stage": "Vegetative to Early Fruiting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, irregular, or angular yellow (chlorotic) spots on the upper leaf surface, bounded by leaf veins."],
+      "middle_stage": ["Yellow spots turn brown and necrotic. On the lower surface, directly under the spots, a delicate, whitish-to-purplish-grey fuzzy downy growth appears during humid mornings."],
+      "severe_stage": ["Lesions merge, causing the entire leaf to wither, dry, and die. Rapid defoliation occurs, exposing okra pods to sunscald and stunting plant growth."],
+      "visible_signs": ["Whitish-to-purplish-grey downy/fuzzy growth of spores on the leaf undersides.", "Angular, blocky yellow patches on the upper leaf surface."],
+      "farmer_reported_signs": ["Blocky yellow spots on top of leaves", "White or grey mold under the leaves", "Leaves drying up and falling off very quickly"]
+    },
+    "visual_identification": {
+      "color_changes": ["Chlorotic yellow", "Brown", "Whitish-to-purplish-grey downy coating"],
+      "spot_or_patch_shape": "Angular or blocky patches bounded by veins",
+      "pattern": "Vein-limited blocky yellow patches",
+      "location_on_plant": "Spreads from lower leaves upward",
+      "starts_from": "Upper leaf surface as chlorosis, fuzzy growth simultaneously develops on the corresponding lower surface",
+      "progression": "Lower leaves -> Mid canopy -> Severe leaf drop -> Bare stems with sunscalded pods",
+      "image_clues": ["Look for angular yellow patterns on the top of the leaf", "Fuzzy white/grey downy coating directly underneath the yellow patterns on the bottom side of the leaf"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Powdery Mildew",
+        "difference": "Powdery mildew produces powdery white spots mostly on the upper leaf surface and does not form vein-bounded angular patches or grey fuzzy growth underneath.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Cercospora leaf spot",
+        "difference": "Cercospora spots are circular with ashy centers or dark sooty-black patches rather than vein-limited angular yellow spots.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Cool to warm temperatures", "Very high humidity or heavy morning dews", "Prolonged leaf wetness"],
+      "temperature_range": "15°C - 25°C",
+      "humidity_level": ">85% RH",
+      "season": "Late Kharif / Winter / Rainy season",
+      "soil_conditions": ["Waterlogged soils", "Poor aeration in field"],
+      "field_conditions": ["Dense planting blocking sunlight and air flow", "Weed-infested fields"],
+      "irrigation_conditions": ["Overhead sprinkler irrigation", "Excessive furrow irrigation creating high humidity in canopy"]
+    },
+    "spread": {
+      "spread_by": ["Wind-borne sporangia", "Water splash"],
+      "source_of_infection": ["Infected volunteer plants", "Oospores surviving in soil or crop residue", "Nearby host plants (cucurbits)"],
+      "survival_method": "Survives as resting spores (oospores) in soil/crop debris or via active mycelium on alternative hosts.",
+      "spread_speed": "Very Fast under wet, humid conditions",
+      "nearby_crop_risk": "High for nearby cucurbits or okra fields"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few angular yellow spots on bottom leaves; minor fuzz on the underside.",
+        "field_indicator": "<5% of plants showing early angular yellowing.",
+        "recommended_action": "Improve aeration by thinning. Apply preventive contact fungicides like Mancozeb."
+      },
+      {
+        "level": "Medium",
+        "description": "Angular yellow patches spreading to middle canopy; clear grey fuzz visible underneath.",
+        "field_indicator": "5% to 20% foliage affected; leaves starting to curl and dry.",
+        "recommended_action": "Spray systemic oomycete-targeted fungicides like Metalaxyl + Mancozeb."
+      },
+      {
+        "level": "High",
+        "description": "Massive defoliation; remaining leaves withered and brown; pods exposed and stunted.",
+        "field_indicator": ">20% leaves dried and fallen; crop growth stunted.",
+        "recommended_action": "Apply immediate curative sprays of Cymoxanil + Mancozeb or Fenamidone + Mancozeb."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Ensure seed is sourced from healthy crops."],
+      "field_management": ["Use proper spacing to facilitate air circulation.", "Keep fields completely weed-free."],
+      "irrigation_management": ["Avoid sprinkler/overhead irrigation.", "Apply drip irrigation to minimize leaf wetness."],
+      "soil_management": ["Ensure good field drainage to avoid standing water."],
+      "crop_rotation": ["Do not rotate okra with cucurbit crops, which share the pathogen."],
+      "sanitation": ["Remove and burn infected crop residue immediately after harvest."],
+      "monitoring": ["Check daily for angular yellow spots, especially during high-humidity periods in winter or rainy seasons."]
+    },
+    "management": {
+      "immediate_action": ["Stop overhead watering.", "Rogue severely affected leaves.", "Spray systemic anti-oomycete chemicals."],
+      "cultural_control": ["Thin out crowded crops to increase sunlight penetration.", "Water only in the morning."],
+      "organic_control": ["Spray copper-based organic formulations.", "Apply baking soda-soap mixture or neem-based formulations early on."],
+      "biological_control": ["Foliar spray of Bacillus subtilis or Pseudomonas fluorescens @ 10g/L of water."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Metalaxyl 4% + Mancozeb 64% WP",
+          "product_type": "Systemic + Contact Fungicide (Anti-oomycete)",
+          "dose": "1.5 g to 2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Do not apply more than twice consecutively to avoid pathogen resistance."
+        },
+        {
+          "active_ingredient": "Cymoxanil 8% + Mancozeb 64% WP",
+          "product_type": "Curative and Contact Fungicide",
+          "dose": "2.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Thoroughly spray the underside of leaves where the downy spores reside."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Downy mildew is a fungus-like disease that causes blocky, angular yellow patches on top of the okra leaves and a grey, fuzzy mold directly underneath them. It spreads rapidly in cool, wet weather, causing the leaves to dry up and fall off quickly.",
+      "what_to_do_now": [
+        "Avoid watering your plants from above; water only the roots.",
+        "Remove and destroy infected leaves.",
+        "Spray Metalaxyl + Mancozeb (Ridomil Gold) at 2g per liter of water."
+      ],
+      "what_not_to_do": [
+        "Do not irrigate in the evening.",
+        "Do not plant okra close to pumpkins, cucumbers, or melons as they carry the same disease."
+      ],
+      "when_to_call_expert": ["Contact an expert if the disease continues to spread rapidly during continuous rainy weather despite chemical spraying."],
+      "risk_warning": "Downy mildew spreads extremely fast. In cool, wet weather, it can destroy the entire leaf canopy within a few days, leading to sunburnt, useless pods."
+    },
+    "model_support": {
+      "classification_labels": ["okra_downy_mildew"],
+      "segmentation_labels": ["angular_chlorotic_spot", "grey_downy_mold"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.90"
+      },
+      "send_to_expert_if": ["The symptoms are confused with nutrient deficiencies (such as nitrogen or magnesium deficiency) which also cause yellowing but do not form fuzzy mold underneath."],
+      "image_quality_requirements": ["High-resolution photos focusing on the angular, vein-bound yellow spots on the top, and/or the grey-white fuzzy downy growth on the underside."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "10 km",
+      "report_count_threshold": "3",
+      "outbreak_alert_message": "Downy Mildew alert! Cool nights, warm days, and heavy dew in your area are ideal for downy mildew. Take preventive actions now.",
+      "nearby_farm_advice": ["Monitor for angular leaf yellowing", "Stop overhead irrigation", "Apply preventive Mancozeb spray"]
+    },
+    "source_metadata": {
+      "source_title": "Integrated Disease Management of Vegetable Crops",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "University Portal",
+      "author_or_organization": "TNAU Agritech Portal",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Specifically addresses Downy Mildew caused by Pseudoperonospora."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T12:30:00Z",
+      "updated_at": "2024-10-27T12:30:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "okra_leaf_curl_virus",
+    "crop": {
+      "common_name": "Bhindi",
+      "english_name": "Okra / Ladies' finger",
+      "scientific_name": "Abelmoschus esculentus",
+      "local_names": ["Bhindi", "Dharosh", "Vendaikkai", "Bendakaya", "Bhendi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Leaf curly virus",
+      "category": "Viral",
+      "pathogen_or_cause": ["Okra Leaf Curl Begomovirus (OLCV)", "Okra Enation Leaf Curl Virus (OELCV)"],
+      "affected_parts": ["Leaves", "Petioles", "Stems", "Pods"],
+      "disease_stage": "All growth stages (Seedling to Harvesting)"
+    },
+    "symptoms": {
+      "early_stage": ["Mild vein clearing and upward curling of the margins of young leaves."],
+      "middle_stage": ["Pronounced upward curling of leaves into cup-like shapes; thickening of veins and veinlets on the lower leaf surface; formation of small warty or needle-like outgrowths (enations) under the leaves."],
+      "severe_stage": ["Severe stunting of plants with highly reduced leaf sizes. Leaves become thick and leathery; flowers do not open or set fruit; pods produced are small, distorted, fibrous, and pale yellow."],
+      "visible_signs": ["Warty needle-like growths (enations) on the leaf undersides.", "Prominent whiteflies (tiny, white-winged insects) flying off when foliage is shaken.", "Upward-cupped, leathery leaves."],
+      "farmer_reported_signs": ["Okra leaves curling upwards like small cups", "Stunted bushy plants", "Warty texture under leaves", "Small white flies under the leaves"]
+    },
+    "visual_identification": {
+      "color_changes": ["Light green to yellow vein clearing", "Pale yellow pods"],
+      "spot_or_patch_shape": "None (leaf deformation, curling, and thickening)",
+      "pattern": "Upward curling and cupping of the leaves",
+      "location_on_plant": "Affects young leaves first, then the entire plant canopy",
+      "starts_from": "Terminal buds and young emerging leaves",
+      "progression": "Young leaves curl -> Veins thicken -> Enations appear -> Plant growth halts, severe stunting",
+      "image_clues": ["Look for upward-cupped leaves with prominent veins", "Look for tiny white flies clustered on the undersides of leaves", "Look for small warty growths (enations) under the leaf vein junctions"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Okra Yellow Vein Mosaic Virus (YVMV)",
+        "difference": "YVMV causes bright yellow network pattern of veins on leaves without severe upward curling, leaf thickening, or warty enation outgrowths.",
+        "confusion_risk": "High"
+      },
+      {
+        "name": "Mite or Thrip Damage",
+        "difference": "Mites cause leaves to curl downwards with dusty webs underneath. Thrips cause silvery leaf scars. Neither causes vein thickening or warty enations.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Dry and warm weather", "Lack of rain which favors whitefly multiplication"],
+      "temperature_range": "28°C - 38°C",
+      "humidity_level": "<65% RH",
+      "season": "Summer / Late Spring / Rabi-Kharif transition",
+      "soil_conditions": ["Dry soil stressing the plant", "Poor organic matter"],
+      "field_conditions": ["Abundant weeds (e.g. Malvastrum, Croton) acting as alternative hosts", "Okra planted next to cotton or tomato fields"],
+      "irrigation_conditions": ["Under-irrigation causing plant stress and dry field microclimate attractive to whiteflies"]
+    },
+    "spread": {
+      "spread_by": ["Whitefly (Bemisia tabaci) vector"],
+      "source_of_infection": ["Infected weed hosts", "Nearby infected tomato, cotton, or tobacco crops"],
+      "survival_method": "Virus survives in weed hosts or alternative crops and is transmitted by whiteflies throughout the year.",
+      "spread_speed": "Very Fast (rapidly transmitted as whitefly populations explode)",
+      "nearby_crop_risk": "High for other Malvaceae, Solanaceae (tomato, chili, tobacco), and cotton crops"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "Very few plants (less than 5%) showing mild upward curling of young leaves; few whiteflies seen.",
+        "field_indicator": "Isolated plants with slightly curled leaves.",
+        "recommended_action": "Rogue and destroy infected plants immediately. Set up yellow sticky traps. Spray Neem Oil."
+      },
+      {
+        "level": "Medium",
+        "description": "Up to 20% of plants showing clear upward cupping, vein thickening, and stunting; whiteflies active.",
+        "field_indicator": "Patchy distribution of curled, stunted plants.",
+        "recommended_action": "Rogue infected plants immediately. Spray systemic insecticides like Imidacloprid or Acetamiprid to control whiteflies."
+      },
+      {
+        "level": "High",
+        "description": "Over 20% of plants severely stunted, leathery, and producing tiny, deformed, pale pods; heavy whitefly infestation.",
+        "field_indicator": "Field looks uneven, bushy, and pale, with severely reduced yield.",
+        "recommended_action": "Spray Spiromesifen or Thiamethoxam. Strongly consider plucking heavily infected plants and rotating the crop."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Grow OLCV/OELCV resistant varieties (e.g., Arka Anamika, Najuka, Saloni F1).", "Perform seed treatment with Imidacloprid @ 4mL/kg seed."],
+      "field_management": ["Install yellow sticky traps @ 10-15 per acre at canopy level to monitor and trap whiteflies.", "Maintain proper plant spacing."],
+      "irrigation_management": ["Keep soil moisture optimum to avoid stressing plants, which makes them susceptible."],
+      "soil_management": ["Apply balanced fertilizers to promote vigorous plant growth."],
+      "crop_rotation": ["Do not plant okra near cotton, tobacco, chili, or tomatoes.", "Rotate with non-host crops like maize or pearl millet."],
+      "sanitation": ["Regularly rogue out infected plants in the early stages, bag them, and burn them outside the field.", "Eradicate weed hosts in and around the field."],
+      "monitoring": ["Scout the field 2-3 times a week, gently tapping the plants to check for flying whiteflies under the leaves."]
+    },
+    "management": {
+      "immediate_action": ["Rogue and destroy infected plants immediately.", "Deploy yellow sticky traps.", "Apply an effective systemic insecticide for whitefly control."],
+      "cultural_control": ["Destroy weeds and alternative hosts in field boundaries.", "Grow barrier crops like maize or sorghum (3-4 rows) around the okra field to block incoming whiteflies."],
+      "organic_control": ["Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or Neem Oil @ 3 mL/L.", "Apply soap spray (diluted mild liquid soap) to suffocate whitefly nymphs."],
+      "biological_control": ["Conserve natural predators like ladybird beetles, lacewings, and predatory mites that feed on whiteflies."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "product_type": "Systemic Insecticide (Neonicotinoid)",
+          "dose": "0.5 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Do not spray during peak bee activity as it is toxic to pollinators. Spray in late afternoon."
+        },
+        {
+          "active_ingredient": "Thiamethoxam 25% WG",
+          "product_type": "Systemic Insecticide",
+          "dose": "0.3 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Alternate with other chemical groups like Pyrethroids or Spiromesifen to prevent whitefly resistance."
+        },
+        {
+          "active_ingredient": "Spiromesifen 22.9% SC",
+          "product_type": "Insect Growth Regulator / Miticide",
+          "dose": "1.0 mL/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "15 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Highly effective against whitefly nymphs and eggs; provides long-lasting control."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Okra leaf curl is a virus disease carried and spread by tiny white insects called whiteflies. Once infected, the plants cannot be cured. The leaves curl up like cups, grow thick and hard, and the plant stops growing. Control the whitefly insect to save your crop.",
+      "what_to_do_now": [
+        "Pull out any yellow, curly plants, put them in a plastic bag, and bury or burn them away from the field.",
+        "Hang yellow sticky traps in the field to catch whiteflies.",
+        "Spray Imidacloprid (0.5mL/L) or Neem Oil to kill whiteflies under the leaves."
+      ],
+      "what_not_to_do": [
+        "Do not leave infected curly plants in the field, as whiteflies will carry the virus from them to healthy plants.",
+        "Do not spray chemicals during midday when honeybees are visiting flowers.",
+        "Do not plant okra next to cotton or tomato fields."
+      ],
+      "when_to_call_expert": ["Contact an expert if whitefly populations are uncontrollable even after chemical spraying or if the entire field shows severe stunting."],
+      "risk_warning": "Early infection (within 30 days of sowing) can lead to 100% loss of marketable pods, as the plants remain stunted and produce useless woody fruit."
+    },
+    "model_support": {
+      "classification_labels": ["okra_leaf_curl_virus"],
+      "segmentation_labels": ["leaf_upward_curling", "vein_thickening", "leaf_enation"],
+      "confidence_threshold": {
+        "low": "0.55",
+        "medium": "0.80",
+        "high": "0.92"
+      },
+      "send_to_expert_if": ["The model confuses curling caused by severe drought stress or herbicide drift with viral leaf curl."],
+      "image_quality_requirements": ["Clear focus on the top growing shoot showing curled leaves", "Under-leaf shots displaying thickened veins or warty enation textures."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "District",
+      "risk_radius": "8 km",
+      "report_count_threshold": "6",
+      "outbreak_alert_message": "Okra Leaf Curl Virus warning! Whitefly vector populations are rising rapidly in your area due to dry weather. Monitor and spray whiteflies immediately.",
+      "nearby_farm_advice": ["Deploy yellow sticky traps immediately", "Control whiteflies with Imidacloprid", "Rogue out early symptomatic plants"]
+    },
+    "source_metadata": {
+      "source_title": "Management of Okra Enation Leaf Curl Virus",
+      "source_url": "https://www.icar.org.in",
+      "source_type": "Research Advisory",
+      "author_or_organization": "Indian Council of Agricultural Research (ICAR)",
+      "published_year": "2022",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-08",
+      "trust_level": "High",
+      "notes": "Covers both OLCV and OELCV vectors and chemical thresholds."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T12:45:00Z",
+      "updated_at": "2024-10-27T12:45:00Z",
+      "reviewed_by": "Senior Virologist / Entomologist",
+      "status": "Approved"
+    }
+  },
+  {
+    "id": "okra_phyllosticta_leaf_spot",
+    "crop": {
+      "common_name": "Bhindi",
+      "english_name": "Okra / Ladies' finger",
+      "scientific_name": "Abelmoschus esculentus",
+      "local_names": ["Bhindi", "Dharosh", "Vendaikkai", "Bendakaya", "Bhendi"],
+      "crop_category": "Vegetable"
+    },
+    "disease": {
+      "name": "Phyllosticta leaf spot",
+      "category": "Fungal",
+      "pathogen_or_cause": ["Phyllosticta hibiscina"],
+      "affected_parts": ["Leaves", "Petioles"],
+      "disease_stage": "Vegetative to Mid-Fruiting"
+    },
+    "symptoms": {
+      "early_stage": ["Small, distinct circular spots on the leaves, usually starting on the lower canopy."],
+      "middle_stage": ["Spots enlarge into conspicuous circular or irregular lesions with grayish to light-brown centers and dark or purplish-brown margins."],
+      "severe_stage": ["The dead tissue in the center of the spots becomes very dry and thin, falling out to create prominent 'shot holes'. Multiple spots merge, causing partial yellowing and drop of leaves."],
+      "visible_signs": ["Minute, black, pinprick-like specks called pycnidia (fruiting structures) scattered across the center of the spots on both leaf surfaces.", "Perfect circular shot-holes on leaf blades."],
+      "farmer_reported_signs": ["Grey leaf spots with dark borders", "Tiny black dots like pepper inside the leaf spots", "Holes in the leaves where the spots dried out"]
+    },
+    "visual_identification": {
+      "color_changes": ["Grayish to light-brown center", "Purplish-brown margin", "Yellowing of surrounding leaf tissue"],
+      "spot_or_patch_shape": "Conspicuous circular or irregular lesions",
+      "pattern": "Scattered spots that dry up and fall out",
+      "location_on_plant": "Mainly on lower, older leaves",
+      "starts_from": "Leaf blade surface",
+      "progression": "Lower leaves -> Mid canopy -> Dry shot holes -> Leaf fall under high disease pressure",
+      "image_clues": ["Look for grayish-brown spots with thin purplish-brown margins", "Look for tiny black pinhead dots (pycnidia) in the center of the spot", "Look for circular holes where the spot center has fallen out"]
+    },
+    "similar_diseases_or_issues": [
+      {
+        "name": "Cercospora leaf spot",
+        "difference": "Cercospora spots have ashy-grey centers and can produce velvety dark mold underneath, whereas Phyllosticta spots have distinct black pycnidia specks and create cleaner shot-holes.",
+        "confusion_risk": "Medium"
+      },
+      {
+        "name": "Insect feeding holes",
+        "difference": "Insect holes (e.g. from flea beetles) are typically smaller and lack the surrounding gray-brown necrotic tissue and purplish margins.",
+        "confusion_risk": "Medium"
+      }
+    ],
+    "favorable_conditions": {
+      "weather": ["Warm, humid conditions", "Frequent rainfall or heavy overhead dew"],
+      "temperature_range": "24°C - 30°C",
+      "humidity_level": ">80% RH",
+      "season": "Rainy season / Kharif",
+      "soil_conditions": ["High moisture", "Inadequately drained soils"],
+      "field_conditions": ["Poor weed control", "High plant density that traps moisture within the canopy"],
+      "irrigation_conditions": ["Overhead sprinkler watering", "Watering late in the evening"]
+    },
+    "spread": {
+      "spread_by": ["Splashing rain or irrigation water", "Wind-borne spores (conidia) released from pycnidia"],
+      "source_of_infection": ["Infected plant debris", "Alternative host plants of the Malvaceae family"],
+      "survival_method": "The fungus survives as pycnidia in diseased crop residue on or in the soil.",
+      "spread_speed": "Moderate during rainy or highly humid periods",
+      "nearby_crop_risk": "Low to Moderate"
+    },
+    "severity_levels": [
+      {
+        "level": "Low",
+        "description": "A few scattered grayish spots on the oldest lower leaves.",
+        "field_indicator": "<10% leaf area affected on lower foliage.",
+        "recommended_action": "Manually pluck off infected leaves and destroy them. Maintain proper weeding."
+      },
+      {
+        "level": "Medium",
+        "description": "Spots showing black dots (pycnidia) and beginning to form shot-holes on lower and mid-canopy leaves.",
+        "field_indicator": "10% to 25% foliage affected with visible shot-holes.",
+        "recommended_action": "Spray contact protective fungicides like Mancozeb or Copper Oxychloride."
+      },
+      {
+        "level": "High",
+        "description": "Numerous shot-holes across leaf canopy; leaves turning yellow and dropping.",
+        "field_indicator": ">25% foliage affected, with noticeable defoliation.",
+        "recommended_action": "Spray systemic fungicides like Carbendazim or Tebuconazole + Trifloxystrobin."
+      }
+    ],
+    "prevention": {
+      "seed_or_planting_material": ["Use healthy, certified seed.", "Seed treatment with Carbendazim @ 2g/kg seed."],
+      "field_management": ["Observe recommended crop spacing (60 x 30 cm) to allow sunlight and airflow.", "Keep the field completely free of weeds."],
+      "irrigation_management": ["Avoid overhead sprinkler irrigation.", "Irrigate early in the morning so leaf surfaces dry quickly during the day."],
+      "soil_management": ["Ensure excellent soil drainage.", "Use balanced fertilizers; do not over-apply nitrogen."],
+      "crop_rotation": ["Rotate with non-susceptible crops like maize, wheat, or beans for at least one year."],
+      "sanitation": ["Collect and burn all crop debris after harvest.", "Clean tools used in the field."],
+      "monitoring": ["Check crops weekly during the rainy season, looking for grayish leaf spots on lower leaves."]
+    },
+    "management": {
+      "immediate_action": ["Pluck and destroy spotted lower leaves.", "Improve drainage and reduce water frequency.", "Apply a protective spray of Copper Oxychloride or Mancozeb."],
+      "cultural_control": ["Prune out old, non-productive lower leaves.", "Keep weed populations low, especially wild mallows."],
+      "organic_control": ["Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or Copper Hydroxide."],
+      "biological_control": ["Spray Trichoderma viride @ 5-10 g/L of water on foliage."],
+      "chemical_control": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "2.5 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "10-14 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Apply at the first sign of symptoms; ensure thorough coverage."
+        },
+        {
+          "active_ingredient": "Copper Oxychloride 50% WP",
+          "product_type": "Contact Protective Fungicide",
+          "dose": "3.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "12-14 days",
+          "pre_harvest_interval": "5 days",
+          "safety_note": "Do not spray during very hot midday temperatures to avoid leaf scorch."
+        },
+        {
+          "active_ingredient": "Carbendazim 50% WP",
+          "product_type": "Systemic Fungicide",
+          "dose": "1.0 g/L of water",
+          "application_method": "Foliar Spray",
+          "spray_interval": "14 days",
+          "pre_harvest_interval": "7 days",
+          "safety_note": "Apply if the disease spreads rapidly despite contact fungicide applications."
+        }
+      ],
+      "expert_recommendation_required": false
+    },
+    "farmer_advice": {
+      "simple_explanation": "Phyllosticta leaf spot is a minor fungal disease that causes grey spots with dark borders on okra leaves. As the spots dry out, they fall through and leave round holes (shot-holes) in the leaves. It usually has tiny black dots like black pepper in the center of the spots.",
+      "what_to_do_now": [
+        "Pick off the spotted leaves at the bottom of the plant and burn them.",
+        "Ensure your field has no standing water.",
+        "Spray Mancozeb (2.5g/L) or Copper Oxychloride (3g/L) if spots are increasing."
+      ],
+      "what_not_to_do": [
+        "Do not irrigate using overhead sprinklers.",
+        "Do not leave old crop stalks and leaves in the field after harvesting."
+      ],
+      "when_to_call_expert": ["This disease is rarely severe. Only call an expert if extensive leaf dropping occurs during heavy rains and chemical sprays are not helping."],
+      "risk_warning": "While mostly a minor disease, in extremely wet seasons it can cause leaf yellowing and defoliation, which slightly lowers fruit size and yields."
+    },
+    "model_support": {
+      "classification_labels": ["okra_phyllosticta_leaf_spot"],
+      "segmentation_labels": ["grey_spot_dark_margin", "pycnidia_speck", "shot_hole"],
+      "confidence_threshold": {
+        "low": "0.50",
+        "medium": "0.75",
+        "high": "0.88"
+      },
+      "send_to_expert_if": ["The model fails to distinguish between Phyllosticta shot-holes and holes caused by insect pests like beetles or caterpillars."],
+      "image_quality_requirements": ["High-contrast, well-lit photos showing individual leaf spots with visible black pycnidia specks and/or clean circular holes."]
+    },
+    "rag_chunks": [],
+    "geo_outbreak_data": {
+      "location_level": "Sub-district",
+      "risk_radius": "5 km",
+      "report_count_threshold": "10",
+      "outbreak_alert_message": "Phyllosticta Leaf Spot reported in the region. Usually minor, but maintain sanitation and clean weeding to avoid spread.",
+      "nearby_farm_advice": ["Maintain clean weeding", "Ensure good field drainage"]
+    },
+    "source_metadata": {
+      "source_title": "Diseases of Horticultural Crops and Their Management",
+      "source_url": "https://agritech.tnau.ac.in",
+      "source_type": "Academic Extension Portal",
+      "author_or_organization": "TNAU, Coimbatore",
+      "published_year": "2023",
+      "region": "India",
+      "language": "English",
+      "last_verified": "2024-09",
+      "trust_level": "High",
+      "notes": "Covers Phyllosticta hibiscina morphology and chemical thresholds."
+    },
+    "versioning": {
+      "created_at": "2024-10-27T13:00:00Z",
+      "updated_at": "2024-10-27T13:00:00Z",
+      "reviewed_by": "Senior Plant Pathologist",
+      "status": "Approved"
+    }
+  }
+]
