@@ -1,0 +1,13 @@
+{
+  "id": "prateekpatel712/cpl-00-env-probe",
+  "title": "CPL 00 Env Probe",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

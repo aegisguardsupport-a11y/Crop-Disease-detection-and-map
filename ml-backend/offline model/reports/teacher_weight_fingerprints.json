@@ -1,0 +1,17 @@
+{
+  "cpl_best_efficientnetb2.weights.h5": {
+    "size_bytes": 32272216,
+    "sha256": "8d80d398305238f09876ce5d8530ad75ce28a5e170852fdd1f4874d3f426ce1e",
+    "mtime_iso": "2026-05-27T14:08:04"
+  },
+  "cpl_best_efficientnetb2_finetuned.weights.h5": {
+    "size_bytes": 32262936,
+    "sha256": "634173a83698d8f31ed09332b608cbdb94991f73fc2e9bb4514f691eaa810aaa",
+    "mtime_iso": "2026-05-27T20:20:41"
+  },
+  "cpl_architecture_metadata.json": {
+    "size_bytes": 190,
+    "sha256": "994a9d2a1bdf65fa6c1cd1cf4b685e312188926b1c3d7546c6f57766c5b85bf1",
+    "mtime_iso": "2026-05-28T02:43:12"
+  }
+}

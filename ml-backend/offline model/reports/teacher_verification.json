@@ -1,0 +1,27 @@
+[
+  {
+    "image_path": "/home/jupyter/combined_plant_dataset_normalized/images/bhindi/healthy/Healthy/H_305__dup1__dup1.JPG",
+    "true_label": "bhindi::Healthy",
+    "predicted_label": "bhindi::Healthy"
+  },
+  {
+    "image_path": "/home/jupyter/combined_plant_dataset_normalized/images/maize/diseased/Maize streak virus/25maize_train_streak virus__dup1.JPG",
+    "true_label": "maize::Maize streak virus",
+    "predicted_label": "maize::Maize leaf blight"
+  },
+  {
+    "image_path": "/home/jupyter/combined_plant_dataset_normalized/images/pigeonpea/diseased/Leaf_Spot/652bdec17f__dup1.jpg",
+    "true_label": "pigeonpea::Leaf_Spot",
+    "predicted_label": "pigeonpea::Leaf_Spot"
+  },
+  {
+    "image_path": "/home/jupyter/combined_plant_dataset_normalized/images/maize/diseased/Maize leaf beetle/2303maize_train_leaf beetle__dup1.JPG",
+    "true_label": "maize::Maize leaf beetle",
+    "predicted_label": "maize::Maize leaf beetle"
+  },
+  {
+    "image_path": "/home/jupyter/combined_plant_dataset_normalized/images/brinjal/healthy/Healthy Leaf/healthyleaf_aug0261__dup1__dup1.jpg",
+    "true_label": "brinjal::Healthy Leaf",
+    "predicted_label": "brinjal::Healthy Leaf"
+  }
+]

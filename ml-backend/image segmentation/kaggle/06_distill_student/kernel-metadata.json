@@ -1,0 +1,16 @@
+{
+  "id": "prateekpatel712/cpl-06-distill-student",
+  "title": "CPL 06 Distill Student",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "prateekpatel712/cpl-04-segment-preprocess",
+    "prateekpatel712/cpl-05-train-classifier"
+  ]
+}

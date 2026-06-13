@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tool outputs
+outputs/
+runs/
+wandb/
+
+# Generated from notebook.py — kept locally for Kaggle push, not source-controlled
+kaggle/**/notebook.ipynb
+
+# Trained weights — track via Kaggle Dataset / model registry, not git
+*.pt
+*.onnx
+*.tflite
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Belt-and-suspenders: never commit Kaggle credentials by accident
+kaggle.json
+*.kaggle.json
+.kaggle/

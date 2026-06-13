@@ -1,0 +1,18 @@
+{
+  "id": "prateekpatel712/cpl-04-segment-preprocess",
+  "title": "CPL 04 Segment Preprocess",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "prateekpatel712/cpl-disease-organized-v2",
+    "faisalkhaan/soil-image-classification"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "prateekpatel712/cpl-03-train-yolo"
+  ]
+}

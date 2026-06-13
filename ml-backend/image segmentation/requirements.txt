@@ -1,0 +1,5 @@
+# Local-side dependencies for driving Kaggle from kiro-cli.
+# All heavy ML deps (tensorflow, ultralytics, segment-anything, etc.) live
+# inside the Kaggle notebooks and are installed there at runtime.
+
+kaggle>=1.6,<2.0

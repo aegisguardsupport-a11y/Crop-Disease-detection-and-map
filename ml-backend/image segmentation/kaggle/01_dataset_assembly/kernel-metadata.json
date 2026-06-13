@@ -1,0 +1,17 @@
+{
+  "id": "prateekpatel712/cpl-01-dataset-assembly",
+  "title": "CPL 01 Dataset Assembly",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "abdallahalidev/plantvillage-dataset",
+    "vipoooool/new-plant-diseases-dataset",
+    "nirmalsankalana/plantdoc-dataset"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}
