@@ -1,0 +1,31 @@
+{
+  "total_labels": 139,
+  "counts_by_match_type": {
+    "fuzzy": 45,
+    "healthy_synthetic": 20,
+    "manual": 55,
+    "unmatched": 19
+  },
+  "unmatched_labels": [
+    "chilli::Curl Virus",
+    "onion::Bulb_blight-D",
+    "onion::Caterpillar-P",
+    "onion::Fusarium-D",
+    "onion::Rust",
+    "onion::Virosis-D",
+    "onion::Xanthomonas Leaf Blight",
+    "onion::onion1",
+    "onion::stemphylium Leaf Blight",
+    "soyabean::ferrugen",
+    "soyabean::powdery_mildew",
+    "sugarcane::Banded Chlorosis",
+    "sugarcane::Brown Spot",
+    "sugarcane::BrownRust",
+    "sugarcane::Dried Leaves",
+    "sugarcane::Sett Rot",
+    "sugarcane::Viral Disease",
+    "sugarcane::Yellow Leaf",
+    "sunflower::Leaf scars"
+  ],
+  "unmatched_count": 19
+}
