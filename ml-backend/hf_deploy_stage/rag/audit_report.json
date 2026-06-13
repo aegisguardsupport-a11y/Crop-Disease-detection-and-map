@@ -1,0 +1,10 @@
+{
+  "total_labels": 72,
+  "counts_by_match_type": {
+    "fuzzy": 58,
+    "healthy_synthetic": 12,
+    "manual": 2
+  },
+  "unmatched_labels": [],
+  "unmatched_count": 0
+}

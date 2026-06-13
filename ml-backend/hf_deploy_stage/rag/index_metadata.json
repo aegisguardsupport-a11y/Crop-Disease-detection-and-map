@@ -1,0 +1,37 @@
+{
+  "collection": "crop_disease_advisory",
+  "chunk_count": 714,
+  "label_count": 72,
+  "embedding_model": "chroma-default",
+  "audit": {
+    "total_labels": 72,
+    "counts_by_match_type": {
+      "fuzzy": 39,
+      "healthy_synthetic": 12,
+      "unmatched": 19,
+      "manual": 2
+    },
+    "unmatched_labels": [
+      "cabbage::bacterial_spot_rot",
+      "cabbage::cabbage_aphid_colony",
+      "cabbage::club_root",
+      "cabbage::ring_spot",
+      "cotton::fussarium_wilt",
+      "groundnut::dead_leaf",
+      "groundnut::diseased_leaf",
+      "rice::blast",
+      "rice::tungro",
+      "soyabean::ferrugen",
+      "soyabean::powdery_mildew",
+      "sugarcane::mosaic",
+      "sugarcane::redrot",
+      "sugarcane::rust",
+      "sugarcane::yellow",
+      "sunflower::leaf_scars",
+      "tomato::powdery_mildew",
+      "wheat::septoria",
+      "wheat::stripe_rust"
+    ],
+    "unmatched_count": 19
+  }
+}
